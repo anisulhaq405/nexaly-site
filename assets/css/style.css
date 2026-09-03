@@ -369,3 +369,16 @@
     .cta{padding:44px 24px;}
     .strip-in{gap:22px;font-size:14px;}
   }
+
+/* ===== Products dropdown (added) ===== */
+.nav-dd{position:relative;display:inline-flex;align-items:center}
+.nav-dd>a::after{content:"\25BE";font-size:.7em;margin-left:5px;opacity:.65}
+.nav-dd .dd{position:absolute;top:100%;left:0;min-width:250px;background:#fff;border:1px solid #e6ddc9;border-radius:12px;box-shadow:0 18px 44px -18px rgba(44,33,23,.4);padding:8px;display:none;z-index:200}
+.nav-dd:hover .dd,.nav-dd:focus-within .dd{display:block}
+.nav-dd .dd a{display:block;padding:9px 12px;border-radius:8px;white-space:nowrap;color:#2c2117;font-weight:600}
+.nav-dd .dd a:hover{background:#f4ece0;color:#123047}
+@media(max-width:760px){
+  .nav-dd{display:block;width:100%}
+  .nav-dd>a::after{display:none}
+  .nav-dd .dd{position:static;display:block;box-shadow:none;border:0;padding:2px 0 6px 14px;min-width:0}
+}

@@ -8,16 +8,16 @@ var $ = function(id){return document.getElementById(id);};
      url:    dedicated product page, e.g. "/planners/offline-ai-business-copilot/" (card links there instead of the quick modal)
    Leave img/video/buyUrl as "" and a styled placeholder is shown until you add them. */
 var products = [
-  {title:"RentFlow OS — Offline Equipment Rental Manager", cat:"Rental Software", desc:"A private, offline manager for equipment and party rental businesses — bookings, availability, deposits, returns, maintenance and asset profitability in one browser app. No account, no subscription, works fully offline.", price:19.99, img:"/images/products/rentflow-os.jpg", video:"", buyUrl:"", url:"/planners/rentflow-os/", m1:"#DCE7E5", m2:"#CFE0DA"},
-  {title:"Offline AI Business Copilot", cat:"Business App", desc:"A private, offline business dashboard for cash flow, invoices, marketing ROAS and goals — with a built-in offline AI agent. No account, no subscription, works fully offline.", price:19.99, img:"/images/products/offline-ai-business-copilot.jpg", video:"", buyUrl:"", url:"/planners/offline-ai-business-copilot/", m1:"#EDE6D4", m2:"#DCE5D5"},
-  {title:"Daily Ritual Planner", cat:"Planner", desc:"A calm daily spread for priorities, rituals, and reflection.", price:12, img:"", video:"", buyUrl:"", m1:"#EDE6D4", m2:"#DCE5D5"},
-  {title:"Focus & Flow Planner", cat:"Planner", desc:"One page, one day. Top three priorities and a simple time block.", price:14, was:18, img:"", video:"", buyUrl:"", m1:"#F3E3CC", m2:"#EDE6D4"},
-  {title:"Wellness Planner", cat:"Planner", desc:"Track habits, mood, movement, and meals in one gentle place.", price:10, img:"", video:"", buyUrl:"", m1:"#DCE5D5", m2:"#EFE3CE"},
-  {title:"Seasonal Planner", cat:"Planner", desc:"Plan by season — goals, intentions, and a quarterly rhythm.", price:12, img:"", video:"", buyUrl:"", m1:"#EFE0D2", m2:"#E6D9BF"},
-  {title:"Weekly Reset Planner", cat:"Planner", desc:"A Monday-to-Sunday reset for a tidy, intentional week.", price:10, img:"", video:"", buyUrl:"", m1:"#E4D9C0", m2:"#DCE5D5"},
-  {title:"Goals & Milestones Planner", cat:"Planner", desc:"Break big goals into quarters, months, and simple weekly moves.", price:13, img:"", video:"", buyUrl:"", m1:"#DCE5D5", m2:"#EFE0D2"},
-  {title:"Meal Plan & Grocery Planner", cat:"Planner", desc:"Plan a week of meals and build your grocery list in minutes.", price:9, img:"", video:"", buyUrl:"", m1:"#EFE3CE", m2:"#E4D9C0"},
-  {title:"Gratitude Journal Planner", cat:"Planner", desc:"A gentle daily journal for gratitude, reflection, and calm.", price:8, img:"", video:"", buyUrl:"", m1:"#F3E3CC", m2:"#DCE5D5"}
+  {title:"RentFlow OS — Offline Equipment Rental Manager", cat:"Business Operating Systems", desc:"A private, offline manager for equipment and party rental businesses — bookings, availability, deposits, returns, maintenance and asset profitability in one browser app. No account, no subscription, works fully offline.", price:19.99, img:"/images/products/rentflow-os.jpg?v=2", video:"", buyUrl:"", url:"/planners/rentflow-os/", m1:"#DCE7E5", m2:"#CFE0DA"},
+  {title:"Offline AI Business Copilot", cat:"Business Operating Systems", desc:"A private, offline business dashboard for cash flow, invoices, marketing ROAS and goals — with a built-in offline AI agent. No account, no subscription, works fully offline.", price:19.99, img:"/images/products/offline-ai-business-copilot.jpg?v=2", video:"", buyUrl:"", url:"/planners/offline-ai-business-copilot/", m1:"#EDE6D4", m2:"#DCE5D5"},
+  {title:"Daily Ritual Planner", cat:"Digital Planners", desc:"A calm daily spread for priorities, rituals, and reflection.", price:12, img:"", video:"", buyUrl:"", m1:"#EDE6D4", m2:"#DCE5D5"},
+  {title:"Focus & Flow Planner", cat:"Digital Planners", desc:"One page, one day. Top three priorities and a simple time block.", price:14, was:18, img:"", video:"", buyUrl:"", m1:"#F3E3CC", m2:"#EDE6D4"},
+  {title:"Wellness Planner", cat:"Digital Planners", desc:"Track habits, mood, movement, and meals in one gentle place.", price:10, img:"", video:"", buyUrl:"", m1:"#DCE5D5", m2:"#EFE3CE"},
+  {title:"Seasonal Planner", cat:"Digital Planners", desc:"Plan by season — goals, intentions, and a quarterly rhythm.", price:12, img:"", video:"", buyUrl:"", m1:"#EFE0D2", m2:"#E6D9BF"},
+  {title:"Weekly Reset Planner", cat:"Digital Planners", desc:"A Monday-to-Sunday reset for a tidy, intentional week.", price:10, img:"", video:"", buyUrl:"", m1:"#E4D9C0", m2:"#DCE5D5"},
+  {title:"Goals & Milestones Planner", cat:"Digital Planners", desc:"Break big goals into quarters, months, and simple weekly moves.", price:13, img:"", video:"", buyUrl:"", m1:"#DCE5D5", m2:"#EFE0D2"},
+  {title:"Meal Plan & Grocery Planner", cat:"Digital Planners", desc:"Plan a week of meals and build your grocery list in minutes.", price:9, img:"", video:"", buyUrl:"", m1:"#EFE3CE", m2:"#E4D9C0"},
+  {title:"Gratitude Journal Planner", cat:"Digital Planners", desc:"A gentle daily journal for gratitude, reflection, and calm.", price:8, img:"", video:"", buyUrl:"", m1:"#F3E3CC", m2:"#DCE5D5"}
 ];
 var posts = [
   {tag:"Mindset", title:"5 morning rituals that set a positive tone", date:"Aug 2026 · 6 min", p1:"#EDE6D4", p2:"#DCE5D5"},
@@ -42,7 +42,7 @@ function postHTML(p){
 }
 function fill(id,h){var e=$(id);if(e)e.innerHTML=h;}
 fill('featTrack', products.slice(0,6).map(cardHTML).join(''));
-fill('allCards', products.map(cardHTML).join(''));
+(function(){var ac=$('allCards');if(ac){var fc=ac.getAttribute('data-cat');var L=fc?products.filter(function(p){return p.cat===fc;}):products;ac.innerHTML=L.map(cardHTML).join('');}})();
 fill('homePosts', posts.map(postHTML).join(''));
 fill('blogPosts', posts.concat(posts).slice(0,6).map(postHTML).join(''));
 function scrollTrack(id,dir){var e=$(id);if(e)e.scrollBy({left:dir*294,behavior:'smooth'});}
