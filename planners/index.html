@@ -4,11 +4,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Digital Planners — Nexaly Planner</title>
-<meta name="description" content="Browse Nexaly's collection of beautifully simple digital planners. Preview any planner free in your browser, then download.">
+<meta name="description" content="Browse Nexaly Planner's digital planners and apps — daily, weekly, wellness, goals and the Offline AI Business Copilot. One-time purchase, instant download.">
+<link rel="canonical" href="https://nexalyplanner.com/planners/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#2c2117">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/style.css">
+<style>
+.pl-head{max-width:1120px;margin:0 auto;padding:44px 24px 6px}
+.pl-head .eyebrow{font-family:"Inter",sans-serif;font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:.78rem;color:#c06a3f;margin-bottom:12px}
+.pl-head h1{font-family:"Fraunces",serif;font-weight:600;font-size:clamp(2rem,5vw,3rem);color:#2c2117;margin:0}
+.pl-head p{color:#5b4a34;margin-top:10px;max-width:60ch}
+.pl-wrap{max-width:1120px;margin:0 auto;padding:24px 24px 64px}
+</style>
 </head>
 <body>
 <header class="nav">
@@ -43,15 +53,17 @@
     </div>
   </div>
 </header>
-<main>
-  <div class="section">
-    <div class="wrap">
-      <div class="sec-head"><span class="eyebrow">The collection</span><h2>Digital Planners</h2><p>Preview any planner live in your browser. Buy the ones you love — pay once, download instantly, keep forever.</p></div>
-      <div class="grid" id="allCards"></div>
-    </div>
-  </div>
-</main>
 
+<main>
+  <section class="pl-head">
+    <p class="eyebrow">Shop</p>
+    <h1>Digital Planners</h1>
+    <p>Every planner is a one-time purchase and an instant download. New planners are added here as they launch.</p>
+  </section>
+  <section class="pl-wrap">
+    <div class="grid" id="allCards"></div>
+  </section>
+</main>
 
 <!-- ============ AUTH MODAL ============ -->
 <div class="modal" id="authModal" hidden>
@@ -89,7 +101,6 @@
 <div class="toast" id="toast"></div>
 
 <!-- ============ FOOTER ============ -->
-
 <footer class="site">
   <div class="wrap">
     <div class="foot-news">
@@ -119,6 +130,6 @@
     <div class="foot-bottom"><span>© 2026 Nexaly Planner. All rights reserved.</span><span>Made for people who like their days organized.</span></div>
   </div>
 </footer>
-<script src="/assets/js/main.js"></script>
+<script src="/assets/js/main.js?v=6"></script>
 </body>
 </html>

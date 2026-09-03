@@ -5,8 +5,10 @@ var $ = function(id){return document.getElementById(id);};
      img:    cover image path, e.g. "/images/products/daily-ritual.jpg"
      video:  YouTube EMBED url, e.g. "https://www.youtube.com/embed/VIDEOID"  (leave "" for none)
      buyUrl: Lemon Squeezy checkout link, e.g. "https://nexaly.lemonsqueezy.com/buy/xxxx"
+     url:    dedicated product page, e.g. "/planners/offline-ai-business-copilot/" (card links there instead of the quick modal)
    Leave img/video/buyUrl as "" and a styled placeholder is shown until you add them. */
 var products = [
+  {title:"Offline AI Business Copilot", cat:"Business App", desc:"A private, offline business dashboard for cash flow, invoices, marketing ROAS and goals — with a built-in offline AI agent. No account, no subscription, works fully offline.", price:19.99, img:"/images/products/offline-ai-business-copilot.jpg", video:"", buyUrl:"", url:"/planners/offline-ai-business-copilot/", m1:"#EDE6D4", m2:"#DCE5D5"},
   {title:"Daily Ritual Planner", cat:"Planner", desc:"A calm daily spread for priorities, rituals, and reflection.", price:12, img:"", video:"", buyUrl:"", m1:"#EDE6D4", m2:"#DCE5D5"},
   {title:"Focus & Flow Planner", cat:"Planner", desc:"One page, one day. Top three priorities and a simple time block.", price:14, was:18, img:"", video:"", buyUrl:"", m1:"#F3E3CC", m2:"#EDE6D4"},
   {title:"Wellness Planner", cat:"Planner", desc:"Track habits, mood, movement, and meals in one gentle place.", price:10, img:"", video:"", buyUrl:"", m1:"#DCE5D5", m2:"#EFE3CE"},
@@ -30,7 +32,9 @@ function coverHTML(p){
 }
 function cardHTML(p,i){
   var price=(p.was?'<s>$'+p.was+'</s>':'')+'$'+p.price;
-  return '<article class="pcard" data-cat="'+p.cat+'" data-idx="'+i+'" role="button" tabindex="0" aria-label="'+p.title+'"><div class="pcover"><span class="heart">'+heartSvg+'</span>'+coverHTML(p)+'</div><div class="pcard-body"><h3>'+p.title+'</h3><div class="pr">'+price+'</div></div></article>';
+  var inner='<div class="pcover"><span class="heart">'+heartSvg+'</span>'+coverHTML(p)+'</div><div class="pcard-body"><h3>'+p.title+'</h3><div class="pr">'+price+'</div></div>';
+  if(p.url) return '<a class="pcard" href="'+p.url+'" aria-label="'+p.title+'">'+inner+'</a>';
+  return '<article class="pcard" data-cat="'+p.cat+'" data-idx="'+i+'" role="button" tabindex="0" aria-label="'+p.title+'">'+inner+'</article>';
 }
 function postHTML(p){
   return '<article class="post"><div class="post-media" style="background:linear-gradient(135deg,'+p.p1+','+p.p2+')"><div class="pd"></div><span class="ptag">'+p.tag+'</span></div><div class="post-body"><span class="date">'+p.date+'</span><h3>'+p.title+'</h3><a class="readmore" href="/journal/">Read article</a></div></article>';
