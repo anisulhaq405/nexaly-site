@@ -382,3 +382,13 @@
   .nav-dd>a::after{display:none}
   .nav-dd .dd{position:static;display:block;box-shadow:none;border:0;padding:2px 0 6px 14px;min-width:0}
 }
+
+
+/* ===== Products dropdown — robust override ===== */
+.nav .nav-dd{position:relative;display:inline-flex;align-items:center}
+.nav .nav-dd .dd{display:none !important}
+.nav .nav-dd:hover .dd,.nav .nav-dd:focus-within .dd{display:block !important}
+@media(max-width:760px){
+  .nav .nav-dd{display:block;width:100%}
+  .nav .nav-dd .dd{display:block !important;position:static;box-shadow:none;border:0;padding:2px 0 6px 14px}
+}
