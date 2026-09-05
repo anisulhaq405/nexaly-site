@@ -3,12 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Journal — Planning, Productivity & Small Business Tips | Nexaly Planner</title>
-<meta name="description" content="Practical guides on planning, productivity and running a small business — from the Nexaly Planner team.">
+<title>Digital Planners for Business & Life — Daily, Weekly & Goal Planners | Nexaly Planner</title>
+<meta name="description" content="Beautiful digital planners for daily, weekly, wellness and goal planning. One-time purchase, instant download, works on all your devices — for a calmer, more organized life and business.">
+<link rel="canonical" href="https://nexalyplanner.com/planners/digital-planners/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#2c2117">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/style.css?v=2">
+<style>
+.pl-head{max-width:1120px;margin:0 auto;padding:44px 24px 6px}
+.pl-head .eyebrow{font-family:"Inter",sans-serif;font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:.78rem;color:#c06a3f;margin-bottom:12px}
+.pl-head h1{font-family:"Fraunces",serif;font-weight:600;font-size:clamp(2rem,5vw,3rem);color:#2c2117;margin:0}
+.pl-head p{color:#5b4a34;margin-top:10px;max-width:60ch}
+.pl-wrap{max-width:1120px;margin:0 auto;padding:24px 24px 64px}
+</style>
 </head>
 <body>
 <header class="nav">
@@ -43,15 +53,17 @@
     </div>
   </div>
 </header>
-<main>
-  <div class="section">
-    <div class="wrap">
-      <div class="sec-head"><span class="eyebrow">The journal</span><h2>Notes on planning well</h2><p>Short, practical reads on habits, focus, and keeping your week (and your business) organized.</p></div>
-      <div class="posts" id="blogPosts"></div>
-    </div>
-  </div>
-</main>
 
+<main>
+  <section class="pl-head">
+    <p class="eyebrow">Products</p>
+    <h1>Digital Planners</h1>
+    <p>Daily, weekly, wellness and goal planners — one-time purchase, instant download, yours to keep.</p>
+  </section>
+  <section class="pl-wrap">
+    <div class="grid" id="allCards" data-cat="Digital Planners"></div>
+  </section>
+</main>
 
 <!-- ============ AUTH MODAL ============ -->
 <div class="modal" id="authModal" hidden>
@@ -89,7 +101,6 @@
 <div class="toast" id="toast"></div>
 
 <!-- ============ FOOTER ============ -->
-
 <footer class="site">
   <div class="wrap">
     <div class="foot-news">
