@@ -22,20 +22,12 @@ var products = [
   {title:"VendorPulse OS — Offline Supplier Management, Purchase Orders & Landed Cost", cat:"Business Operating Systems", desc:"A private supplier and purchasing OS for quotes, true landed cost, purchase orders, deliveries, quality, payables and supplier scorecards — with an evidence-based Insider Expert. 162 currencies, 7 languages, no subscription.", price:19.99, img:"/images/products/vendorpulse-os.png", video:"", buyUrl:"", url:"/planners/vendorpulse-os/", m1:"#DFF3E9", m2:"#CBE9DA"},
   {title:"Sales Management System — Offline Inventory, Orders & Profit Dashboard", cat:"Business Operating Systems", desc:"An all-in-one offline business system for sales, FIFO inventory, orders, profit and loss, expenses, invoices, ads ROAS, customers, suppliers, CRM and team management. 20+ connected modules, 7 languages, no subscription.", price:39.99, img:"/images/products/sales-management-system.png", fit:"contain", video:"", buyUrl:"", url:"/planners/sales-management-system/", m1:"#111827", m2:"#171D32"},
   {title:"RentFlow OS — Offline Equipment Rental Manager", cat:"Business Operating Systems", desc:"A private, offline manager for equipment and party rental businesses — bookings, availability, deposits, returns, maintenance and asset profitability in one browser app. No account, no subscription, works fully offline.", price:19.99, img:"/images/products/rentflow-os.jpg?v=2", video:"", buyUrl:"", url:"/planners/rentflow-os/", m1:"#DCE7E5", m2:"#CFE0DA"},
-  {title:"Offline AI Business Copilot", cat:"Business Operating Systems", desc:"A private, offline business dashboard for cash flow, invoices, marketing ROAS and goals — with a built-in offline AI agent. No account, no subscription, works fully offline.", price:19.99, img:"/images/products/offline-ai-business-copilot.jpg?v=2", video:"", buyUrl:"", url:"/planners/offline-ai-business-copilot/", m1:"#EDE6D4", m2:"#DCE5D5"},
-  {title:"Daily Ritual Planner", cat:"Digital Planners", desc:"A calm daily spread for priorities, rituals, and reflection.", price:12, img:"", video:"", buyUrl:"", m1:"#EDE6D4", m2:"#DCE5D5"},
-  {title:"Focus & Flow Planner", cat:"Digital Planners", desc:"One page, one day. Top three priorities and a simple time block.", price:14, was:18, img:"", video:"", buyUrl:"", m1:"#F3E3CC", m2:"#EDE6D4"},
-  {title:"Wellness Planner", cat:"Digital Planners", desc:"Track habits, mood, movement, and meals in one gentle place.", price:10, img:"", video:"", buyUrl:"", m1:"#DCE5D5", m2:"#EFE3CE"},
-  {title:"Seasonal Planner", cat:"Digital Planners", desc:"Plan by season — goals, intentions, and a quarterly rhythm.", price:12, img:"", video:"", buyUrl:"", m1:"#EFE0D2", m2:"#E6D9BF"},
-  {title:"Weekly Reset Planner", cat:"Digital Planners", desc:"A Monday-to-Sunday reset for a tidy, intentional week.", price:10, img:"", video:"", buyUrl:"", m1:"#E4D9C0", m2:"#DCE5D5"},
-  {title:"Goals & Milestones Planner", cat:"Digital Planners", desc:"Break big goals into quarters, months, and simple weekly moves.", price:13, img:"", video:"", buyUrl:"", m1:"#DCE5D5", m2:"#EFE0D2"},
-  {title:"Meal Plan & Grocery Planner", cat:"Digital Planners", desc:"Plan a week of meals and build your grocery list in minutes.", price:9, img:"", video:"", buyUrl:"", m1:"#EFE3CE", m2:"#E4D9C0"},
-  {title:"Gratitude Journal Planner", cat:"Digital Planners", desc:"A gentle daily journal for gratitude, reflection, and calm.", price:8, img:"", video:"", buyUrl:"", m1:"#F3E3CC", m2:"#DCE5D5"}
+  {title:"Offline AI Business Copilot", cat:"Business Operating Systems", desc:"A private, offline business dashboard for cash flow, invoices, marketing ROAS and goals — with a built-in offline AI agent. No account, no subscription, works fully offline.", price:19.99, img:"/images/products/offline-ai-business-copilot.jpg?v=2", video:"", buyUrl:"", url:"/planners/offline-ai-business-copilot/", m1:"#EDE6D4", m2:"#DCE5D5"}
 ];
 var posts = [
-  {tag:"Mindset", title:"5 morning rituals that set a positive tone", date:"Aug 2026 · 6 min", p1:"#EDE6D4", p2:"#DCE5D5"},
-  {tag:"Planning", title:"How to choose the right digital planner for you", date:"Aug 2026 · 5 min", p1:"#F3E3CC", p2:"#EFE0D2"},
-  {tag:"Lifestyle", title:"Building a week you don't need a break from", date:"Jul 2026 · 7 min", p1:"#DCE5D5", p2:"#E4D9C0"}
+  {demo:1,tag:"Mindset", title:"5 morning rituals that set a positive tone", date:"Aug 2026 · 6 min", p1:"#EDE6D4", p2:"#DCE5D5"},
+  {demo:1,tag:"Planning", title:"How to choose the right digital planner for you", date:"Aug 2026 · 5 min", p1:"#F3E3CC", p2:"#EFE0D2"},
+  {demo:1,tag:"Lifestyle", title:"Building a week you don't need a break from", date:"Jul 2026 · 7 min", p1:"#DCE5D5", p2:"#E4D9C0"}
 ];
 var heartSvg = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.6-9.3-8.4C1 9.5 2.4 6 5.6 6c1.9 0 3.2 1.1 4.4 2.6C11.2 7.1 12.5 6 14.4 6c3.2 0 4.6 3.5 2.9 6.6C19 16.4 12 21 12 21z"/></svg>';
 var sprigSvg = '<svg width="58" height="20" viewBox="0 0 58 20" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M2 18C16 18 24 10 32 2M32 2c-5 0-8 2-10 5M32 2c0 4-2 7-5 9"/></svg>';
@@ -56,7 +48,8 @@ function postHTML(p){
 function fill(id,h){var e=$(id);if(e)e.innerHTML=h;}
 fill('featTrack', products.slice(0,15).map(cardHTML).join(''));
 (function(){var ac=$('allCards');if(ac){var fc=ac.getAttribute('data-cat');var L=fc?products.filter(function(p){return p.cat===fc;}):products;ac.innerHTML=L.map(cardHTML).join('');}})();
-fill('homePosts', posts.map(postHTML).join(''));
+function renderPosts(id,minFill,cap){var el=$(id);if(!el)return;var real=posts.filter(function(p){return !p.demo;});var dem=posts.filter(function(p){return p.demo;});var list=real.slice();for(var i=0;i<dem.length&&list.length<minFill;i++)list.push(dem[i]);if(cap)list=list.slice(0,cap);el.innerHTML=list.map(postHTML).join('');}
+renderPosts('homePosts',3,3);renderPosts('blogPosts',3,0);
 fill('blogPosts', posts.concat(posts).slice(0,6).map(postHTML).join(''));
 function scrollTrack(id,dir){var e=$(id);if(e)e.scrollBy({left:dir*294,behavior:'smooth'});}
 
