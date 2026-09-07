@@ -162,7 +162,7 @@ function cardHTML(p,i){
 function postHTML(p){
   var alt = p.alt || p.title;
   var media = p.img ? '<img src="'+p.img+'" alt="'+alt+'" loading="lazy" decoding="async">' : '<div class="cover-mock" style="background:linear-gradient(155deg,'+p.m1+','+p.m2+')"><div class="md"></div><span class="mc">'+p.tag+'</span><span class="msprig">'+sprigSvg+'</span><div class="mt">'+p.title+'</div></div>';
-  var inner='<div class="pcover"><span class="heart">'+heartSvg+'</span>'+media+'</div><div class="pcard-body"><h3>'+p.title+'</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">'+p.tag+'</div><div style="font-size:12px;color:var(--faint);margin-top:5px">'+p.date+'</div></div>';
+  var inner='<div class="pcover">'+media+'</div><div class="pcard-body"><h3>'+p.title+'</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">'+p.tag+'</div><div style="font-size:12px;color:var(--faint);margin-top:5px">'+p.date+'</div></div>';
   return '<a class="pcard" href="'+p.url+'" aria-label="'+p.title+'">'+inner+'</a>';
 }
 function fill(id,h){var e=$(id);if(e)e.innerHTML=h;}
