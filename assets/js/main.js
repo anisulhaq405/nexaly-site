@@ -30,7 +30,7 @@ var posts = [
     title: "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
     date: "Sep 2026 · 5 min",
     url: "/journal/boutique-inventory-spreadsheet/",
-    img: "/assets/journal/boutique-inventory-spreadsheet.svg?v=5", imgAlt: "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock feature image for NexalyPlanner SEO journal guide", badge: "Inventory Guide",
+    img: "/images/products/boutique-business-planner/02_whats-inside-10-sections.png?v=journal6", imgAlt: "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock visual guide for NexalyPlanner digital planning system", badge: "Inventory Guide",
     alt: "Boutique inventory spreadsheet feature image showing size, color and SKU stock tracking for a small clothing shop",
     m1: "#F8E6EE",
     m2: "#E6F1EC"
@@ -40,7 +40,7 @@ var posts = [
     title: "How to Keep Track of Small Business Orders in One Place",
     date: "Sep 2026 · 5 min",
     url: "/journal/track-small-business-orders/",
-    img: "/assets/journal/track-small-business-orders.svg?v=5", imgAlt: "How to Keep Track of Small Business Orders in One Place feature image for NexalyPlanner SEO journal guide", badge: "Order Guide",
+    img: "/images/products/sales-management-system/9-inventory-orders.png?v=journal6", imgAlt: "How to Keep Track of Small Business Orders in One Place visual guide for NexalyPlanner digital planning system", badge: "Order Guide",
     alt: "Small business order tracker feature image with customer orders, payment status and shipping workflow",
     m1: "#E5EDF2",
     m2: "#D8E5E8"
@@ -50,7 +50,7 @@ var posts = [
     title: "Inventory Software Without a Subscription: What to Check Before Buying",
     date: "Sep 2026 · 5 min",
     url: "/journal/inventory-software-without-subscription/",
-    img: "/assets/journal/inventory-software-without-subscription.svg?v=5", imgAlt: "Inventory Software Without a Subscription: What to Check Before Buying feature image for NexalyPlanner SEO journal guide", badge: "Software Guide",
+    img: "/images/products/inventory-procurement-planner/01_dashboard.jpg?v=journal6", imgAlt: "Inventory Software Without a Subscription: What to Check Before Buying visual guide for NexalyPlanner digital planning system", badge: "Software Guide",
     alt: "Inventory software without subscription feature image showing offline stock control and one time purchase checklist",
     m1: "#F1E7D9",
     m2: "#E9DCCB"
@@ -60,7 +60,7 @@ var posts = [
     title: "How to Connect Sales and Inventory Tracking for a Small Shop",
     date: "Sep 2026 · 5 min",
     url: "/journal/sales-inventory-tracking-small-business/",
-    img: "/assets/journal/sales-inventory-tracking-small-business.svg?v=5", imgAlt: "How to Connect Sales and Inventory Tracking for a Small Shop feature image for NexalyPlanner SEO journal guide", badge: "Sales Guide",
+    img: "/images/products/sales-management-system/8-dashboard-closeup.png?v=journal6", imgAlt: "How to Connect Sales and Inventory Tracking for a Small Shop visual guide for NexalyPlanner digital planning system", badge: "Sales Guide",
     alt: "Sales and inventory tracking feature image showing small shop sales connected to stock and profit dashboard",
     m1: "#E6F1EE",
     m2: "#E9E5F5"
@@ -70,7 +70,7 @@ var posts = [
     title: "A 30-Day Content Calendar for a Clothing Brand",
     date: "Sep 2026 · 5 min",
     url: "/journal/content-calendar-clothing-brand/",
-    img: "/assets/journal/content-calendar-clothing-brand.svg?v=5", imgAlt: "A 30-Day Content Calendar for a Clothing Brand feature image for NexalyPlanner SEO journal guide", badge: "Content Guide",
+    img: "/images/products/content-marketing-planner/content-marketing-planner-visual-content-calendar.jpg?v=journal6", imgAlt: "A 30-Day Content Calendar for a Clothing Brand visual guide for NexalyPlanner digital planning system", badge: "Content Guide",
     alt: "30 day content calendar feature image for a clothing brand with weekly social media planning cards",
     m1: "#F7E4EF",
     m2: "#F3D9E5"
@@ -80,7 +80,7 @@ var posts = [
     title: "30 Boutique Social Media Post Ideas With Clear Sales CTAs",
     date: "Sep 2026 · 6 min",
     url: "/journal/boutique-social-media-post-ideas/",
-    img: "/assets/journal/boutique-social-media-post-ideas.svg?v=5", imgAlt: "30 Boutique Social Media Post Ideas With Clear Sales CTAs feature image for NexalyPlanner SEO journal guide", badge: "Social Guide",
+    img: "/images/products/content-marketing-planner/content-marketing-planner-ai-prompts.jpg?v=journal6", imgAlt: "30 Boutique Social Media Post Ideas With Clear Sales CTAs visual guide for NexalyPlanner digital planning system", badge: "Social Guide",
     alt: "Boutique social media post ideas feature image with product posts, styling ideas and sales CTA prompts",
     m1: "#F3E3CC",
     m2: "#EFE0D2"
@@ -90,7 +90,7 @@ var posts = [
     title: "Black Friday Marketing Plan for a Small Clothing Business",
     date: "Sep 2026 · 5 min",
     url: "/journal/black-friday-marketing-plan-small-business/",
-    img: "/assets/journal/black-friday-marketing-plan-small-business.svg?v=5", imgAlt: "Black Friday Marketing Plan for a Small Clothing Business feature image for NexalyPlanner SEO journal guide", badge: "Promo Guide",
+    img: "/images/products/content-marketing-planner/content-marketing-planner-analytics-what-sells.jpg?v=journal6", imgAlt: "Black Friday Marketing Plan for a Small Clothing Business visual guide for NexalyPlanner digital planning system", badge: "Promo Guide",
     alt: "Black Friday marketing plan feature image for a small clothing business with offer planning and launch checklist",
     m1: "#2C2117",
     m2: "#163044"
@@ -100,7 +100,7 @@ var posts = [
     title: "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
     date: "Sep 2026 · 5 min",
     url: "/journal/homeschool-schedule-multiple-ages/",
-    img: "/assets/journal/homeschool-schedule-multiple-ages.svg?v=5", imgAlt: "Homeschool Schedule for Multiple Ages: Three Flexible Examples feature image for NexalyPlanner SEO journal guide", badge: "Schedule Guide",
+    img: "/images/products/digital-homeschool-planner/digital-homeschool-planner-lesson-planner-calendar.jpg?v=journal6", imgAlt: "Homeschool Schedule for Multiple Ages: Three Flexible Examples visual guide for NexalyPlanner digital planning system", badge: "Schedule Guide",
     alt: "Homeschool schedule for multiple ages feature image with shared lessons and individual study blocks",
     m1: "#DDE8F5",
     m2: "#D5E5F0"
@@ -110,7 +110,7 @@ var posts = [
     title: "Homeschool Attendance Tracker: A Simple Daily Record",
     date: "Sep 2026 · 5 min",
     url: "/journal/homeschool-attendance-tracker/",
-    img: "/assets/journal/homeschool-attendance-tracker.svg?v=5", imgAlt: "Homeschool Attendance Tracker: A Simple Daily Record feature image for NexalyPlanner SEO journal guide", badge: "Record Guide",
+    img: "/images/products/digital-homeschool-planner/digital-homeschool-planner-reports-transcript.jpg?v=journal6", imgAlt: "Homeschool Attendance Tracker: A Simple Daily Record visual guide for NexalyPlanner digital planning system", badge: "Record Guide",
     alt: "Homeschool attendance tracker feature image showing daily records for multiple children and attendance totals",
     m1: "#E6F2EE",
     m2: "#DDE8F5"
@@ -120,7 +120,7 @@ var posts = [
     title: "Choosing a Homeschool Planner for Multiple Children",
     date: "Sep 2026 · 5 min",
     url: "/journal/homeschool-planner-multiple-children/",
-    img: "/assets/journal/homeschool-planner-multiple-children.svg?v=5", imgAlt: "Choosing a Homeschool Planner for Multiple Children feature image for NexalyPlanner SEO journal guide", badge: "Family Guide",
+    img: "/images/products/digital-homeschool-planner/digital-homeschool-planner-multiple-child-profiles.jpg?v=journal6", imgAlt: "Choosing a Homeschool Planner for Multiple Children visual guide for NexalyPlanner digital planning system", badge: "Family Guide",
     alt: "Homeschool planner for multiple children feature image with separate child records and shared family planning dashboard",
     m1: "#E9E5F5",
     m2: "#DDE8F5"
@@ -130,7 +130,7 @@ var posts = [
     title: "Assignment Tracker for College Students: Set Up Your Semester",
     date: "Sep 2026 · 5 min",
     url: "/journal/college-assignment-tracker/",
-    img: "/assets/journal/college-assignment-tracker.svg?v=5", imgAlt: "Assignment Tracker for College Students: Set Up Your Semester feature image for NexalyPlanner SEO journal guide", badge: "College Guide",
+    img: "/images/products/ai-student-planner/ai-student-planner-plan-track-stay-ahead.jpg?v=journal6", imgAlt: "Assignment Tracker for College Students: Set Up Your Semester visual guide for NexalyPlanner digital planning system", badge: "College Guide",
     alt: "College assignment tracker feature image showing due dates, semester tasks and student deadline planning",
     m1: "#E6E6FB",
     m2: "#DCE4F7"
@@ -140,7 +140,7 @@ var posts = [
     title: "Exam Study Schedule Template: Plan the Weeks Before Finals",
     date: "Sep 2026 · 5 min",
     url: "/journal/exam-study-schedule-template/",
-    img: "/assets/journal/exam-study-schedule-template.svg?v=5", imgAlt: "Exam Study Schedule Template: Plan the Weeks Before Finals feature image for NexalyPlanner SEO journal guide", badge: "Exam Guide",
+    img: "/images/products/ai-student-planner/ai-student-planner-learning-os-dashboard.jpg?v=journal6", imgAlt: "Exam Study Schedule Template: Plan the Weeks Before Finals visual guide for NexalyPlanner digital planning system", badge: "Exam Guide",
     alt: "Exam study schedule template feature image with finals revision blocks, practice sessions and study timeline",
     m1: "#F5F0E4",
     m2: "#DCE4F7"
@@ -162,7 +162,7 @@ function cardHTML(p,i){
 function postHTML(p){
   var alt = p.alt || p.title;
   var media = p.img ? '<img src="'+p.img+'" alt="'+alt+'" loading="lazy" decoding="async">' : '<div class="cover-mock" style="background:linear-gradient(155deg,'+p.m1+','+p.m2+')"><div class="md"></div><span class="mc">'+p.tag+'</span><span class="msprig">'+sprigSvg+'</span><div class="mt">'+p.title+'</div></div>';
-  var inner='<div class="pcover" data-label="'+(p.badge || 'Guide')+'">'+media+'</div><div class="pcard-body"><h3>'+p.title+'</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">'+p.tag+'</div><div style="font-size:12px;color:var(--faint);margin-top:5px">'+p.date+'</div></div>';
+  var inner='<div class="pcover">'+media+'</div><div class="pcard-body"><h3>'+p.title+'</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">'+p.tag+'</div><div style="font-size:12px;color:var(--faint);margin-top:5px">'+p.date+'</div></div>';
   return '<a class="pcard journal-card" href="'+p.url+'" aria-label="'+p.title+'">'+inner+'</a>';
 }
 function fill(id,h){var e=$(id);if(e)e.innerHTML=h;}
