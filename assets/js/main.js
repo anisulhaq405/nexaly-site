@@ -30,7 +30,7 @@ var posts = [
     title: "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
     date: "Sep 2026 · 5 min",
     url: "/journal/boutique-inventory-spreadsheet/",
-    img: "/images/journal/boutique-inventory-spreadsheet.svg",
+    img: "/images/journal/boutique-inventory-spreadsheet.svg?v=2",
     alt: "Boutique inventory spreadsheet feature image showing size, color and SKU stock tracking for a small clothing shop",
     m1: "#F8E6EE",
     m2: "#E6F1EC"
@@ -40,7 +40,7 @@ var posts = [
     title: "How to Keep Track of Small Business Orders in One Place",
     date: "Sep 2026 · 5 min",
     url: "/journal/track-small-business-orders/",
-    img: "/images/journal/track-small-business-orders.svg",
+    img: "/images/journal/track-small-business-orders.svg?v=2",
     alt: "Small business order tracker feature image with customer orders, payment status and shipping workflow",
     m1: "#E5EDF2",
     m2: "#D8E5E8"
@@ -50,7 +50,7 @@ var posts = [
     title: "Inventory Software Without a Subscription: What to Check Before Buying",
     date: "Sep 2026 · 5 min",
     url: "/journal/inventory-software-without-subscription/",
-    img: "/images/journal/inventory-software-without-subscription.svg",
+    img: "/images/journal/inventory-software-without-subscription.svg?v=2",
     alt: "Inventory software without subscription feature image showing offline stock control and one time purchase checklist",
     m1: "#F1E7D9",
     m2: "#E9DCCB"
@@ -60,7 +60,7 @@ var posts = [
     title: "How to Connect Sales and Inventory Tracking for a Small Shop",
     date: "Sep 2026 · 5 min",
     url: "/journal/sales-inventory-tracking-small-business/",
-    img: "/images/journal/sales-inventory-tracking-small-business.svg",
+    img: "/images/journal/sales-inventory-tracking-small-business.svg?v=2",
     alt: "Sales and inventory tracking feature image showing small shop sales connected to stock and profit dashboard",
     m1: "#E6F1EE",
     m2: "#E9E5F5"
@@ -70,7 +70,7 @@ var posts = [
     title: "A 30-Day Content Calendar for a Clothing Brand",
     date: "Sep 2026 · 5 min",
     url: "/journal/content-calendar-clothing-brand/",
-    img: "/images/journal/content-calendar-clothing-brand.svg",
+    img: "/images/journal/content-calendar-clothing-brand.svg?v=2",
     alt: "30 day content calendar feature image for a clothing brand with weekly social media planning cards",
     m1: "#F7E4EF",
     m2: "#F3D9E5"
@@ -80,7 +80,7 @@ var posts = [
     title: "30 Boutique Social Media Post Ideas With Clear Sales CTAs",
     date: "Sep 2026 · 6 min",
     url: "/journal/boutique-social-media-post-ideas/",
-    img: "/images/journal/boutique-social-media-post-ideas.svg",
+    img: "/images/journal/boutique-social-media-post-ideas.svg?v=2",
     alt: "Boutique social media post ideas feature image with product posts, styling ideas and sales CTA prompts",
     m1: "#F3E3CC",
     m2: "#EFE0D2"
@@ -90,7 +90,7 @@ var posts = [
     title: "Black Friday Marketing Plan for a Small Clothing Business",
     date: "Sep 2026 · 5 min",
     url: "/journal/black-friday-marketing-plan-small-business/",
-    img: "/images/journal/black-friday-marketing-plan-small-business.svg",
+    img: "/images/journal/black-friday-marketing-plan-small-business.svg?v=2",
     alt: "Black Friday marketing plan feature image for a small clothing business with offer planning and launch checklist",
     m1: "#2C2117",
     m2: "#163044"
@@ -100,7 +100,7 @@ var posts = [
     title: "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
     date: "Sep 2026 · 5 min",
     url: "/journal/homeschool-schedule-multiple-ages/",
-    img: "/images/journal/homeschool-schedule-multiple-ages.svg",
+    img: "/images/journal/homeschool-schedule-multiple-ages.svg?v=2",
     alt: "Homeschool schedule for multiple ages feature image with shared lessons and individual study blocks",
     m1: "#DDE8F5",
     m2: "#D5E5F0"
@@ -110,7 +110,7 @@ var posts = [
     title: "Homeschool Attendance Tracker: A Simple Daily Record",
     date: "Sep 2026 · 5 min",
     url: "/journal/homeschool-attendance-tracker/",
-    img: "/images/journal/homeschool-attendance-tracker.svg",
+    img: "/images/journal/homeschool-attendance-tracker.svg?v=2",
     alt: "Homeschool attendance tracker feature image showing daily records for multiple children and attendance totals",
     m1: "#E6F2EE",
     m2: "#DDE8F5"
@@ -120,7 +120,7 @@ var posts = [
     title: "Choosing a Homeschool Planner for Multiple Children",
     date: "Sep 2026 · 5 min",
     url: "/journal/homeschool-planner-multiple-children/",
-    img: "/images/journal/homeschool-planner-multiple-children.svg",
+    img: "/images/journal/homeschool-planner-multiple-children.svg?v=2",
     alt: "Homeschool planner for multiple children feature image with separate child records and shared family planning dashboard",
     m1: "#E9E5F5",
     m2: "#DDE8F5"
@@ -130,7 +130,7 @@ var posts = [
     title: "Assignment Tracker for College Students: Set Up Your Semester",
     date: "Sep 2026 · 5 min",
     url: "/journal/college-assignment-tracker/",
-    img: "/images/journal/college-assignment-tracker.svg",
+    img: "/images/journal/college-assignment-tracker.svg?v=2",
     alt: "College assignment tracker feature image showing due dates, semester tasks and student deadline planning",
     m1: "#E6E6FB",
     m2: "#DCE4F7"
@@ -140,7 +140,7 @@ var posts = [
     title: "Exam Study Schedule Template: Plan the Weeks Before Finals",
     date: "Sep 2026 · 5 min",
     url: "/journal/exam-study-schedule-template/",
-    img: "/images/journal/exam-study-schedule-template.svg",
+    img: "/images/journal/exam-study-schedule-template.svg?v=2",
     alt: "Exam study schedule template feature image with finals revision blocks, practice sessions and study timeline",
     m1: "#F5F0E4",
     m2: "#DCE4F7"
