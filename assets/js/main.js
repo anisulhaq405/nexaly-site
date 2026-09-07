@@ -25,9 +25,118 @@ var products = [
   {title:"Offline AI Business Copilot", cat:"Business Operating Systems", desc:"A private, offline business dashboard for cash flow, invoices, marketing ROAS and goals — with a built-in offline AI agent. No account, no subscription, works fully offline.", price:19.99, img:"/images/products/offline-ai-business-copilot.jpg?v=2", video:"", buyUrl:"", url:"/planners/offline-ai-business-copilot/", m1:"#EDE6D4", m2:"#DCE5D5"}
 ];
 var posts = [
-  {demo:1,tag:"Mindset", title:"5 morning rituals that set a positive tone", date:"Aug 2026 · 6 min", p1:"#EDE6D4", p2:"#DCE5D5"},
-  {demo:1,tag:"Planning", title:"How to choose the right digital planner for you", date:"Aug 2026 · 5 min", p1:"#F3E3CC", p2:"#EFE0D2"},
-  {demo:1,tag:"Lifestyle", title:"Building a week you don't need a break from", date:"Jul 2026 · 7 min", p1:"#DCE5D5", p2:"#E4D9C0"}
+  {
+    tag: "Small Business",
+    title: "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
+    date: "Sep 2026 · 5 min",
+    url: "/journal/boutique-inventory-spreadsheet/",
+    img: "/images/products/sales-management-system.png",
+    fit: "contain",
+    m1: "#E6F1EC",
+    m2: "#F8E6EE"
+  },
+  {
+    tag: "Small Business",
+    title: "How to Keep Track of Small Business Orders in One Place",
+    date: "Sep 2026 · 5 min",
+    url: "/journal/track-small-business-orders/",
+    img: "/images/products/sales-management-system.png",
+    fit: "contain",
+    m1: "#E5EDF2",
+    m2: "#D8E5E8"
+  },
+  {
+    tag: "Small Business",
+    title: "Inventory Software Without a Subscription: What to Check Before Buying",
+    date: "Sep 2026 · 5 min",
+    url: "/journal/inventory-software-without-subscription/",
+    img: "/images/products/inventory-procurement-planner.jpg",
+    fit: "contain",
+    m1: "#E5EDF2",
+    m2: "#D8E5E8"
+  },
+  {
+    tag: "Small Business",
+    title: "How to Connect Sales and Inventory Tracking for a Small Shop",
+    date: "Sep 2026 · 5 min",
+    url: "/journal/sales-inventory-tracking-small-business/",
+    img: "/images/products/sales-management-system.png",
+    fit: "contain",
+    m1: "#111827",
+    m2: "#171D32"
+  },
+  {
+    tag: "Content Planning",
+    title: "A 30-Day Content Calendar for a Clothing Brand",
+    date: "Sep 2026 · 5 min",
+    url: "/journal/content-calendar-clothing-brand/",
+    img: "/images/products/content-marketing-planner.jpg",
+    m1: "#F7E4EF",
+    m2: "#F3D9E5"
+  },
+  {
+    tag: "Content Planning",
+    title: "30 Boutique Social Media Post Ideas With Clear Sales CTAs",
+    date: "Sep 2026 · 6 min",
+    url: "/journal/boutique-social-media-post-ideas/",
+    img: "/images/products/content-marketing-planner.jpg",
+    m1: "#F7E4EF",
+    m2: "#F3D9E5"
+  },
+  {
+    tag: "Content Planning",
+    title: "Black Friday Marketing Plan for a Small Clothing Business",
+    date: "Sep 2026 · 5 min",
+    url: "/journal/black-friday-marketing-plan-small-business/",
+    img: "/images/products/content-marketing-planner.jpg",
+    m1: "#F7E4EF",
+    m2: "#F3D9E5"
+  },
+  {
+    tag: "Homeschool",
+    title: "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
+    date: "Sep 2026 · 5 min",
+    url: "/journal/homeschool-schedule-multiple-ages/",
+    img: "/images/products/digital-homeschool-planner.jpg",
+    m1: "#DDE8F5",
+    m2: "#D5E5F0"
+  },
+  {
+    tag: "Homeschool",
+    title: "Homeschool Attendance Tracker: A Simple Daily Record",
+    date: "Sep 2026 · 5 min",
+    url: "/journal/homeschool-attendance-tracker/",
+    img: "/images/products/digital-homeschool-planner.jpg",
+    m1: "#DDE8F5",
+    m2: "#D5E5F0"
+  },
+  {
+    tag: "Homeschool",
+    title: "Choosing a Homeschool Planner for Multiple Children",
+    date: "Sep 2026 · 5 min",
+    url: "/journal/homeschool-planner-multiple-children/",
+    img: "/images/products/digital-homeschool-planner.jpg",
+    m1: "#DDE8F5",
+    m2: "#D5E5F0"
+  },
+  {
+    tag: "Student Planning",
+    title: "Assignment Tracker for College Students: Set Up Your Semester",
+    date: "Sep 2026 · 5 min",
+    url: "/journal/college-assignment-tracker/",
+    img: "/images/products/ai-student-planner.jpg",
+    m1: "#E6E6FB",
+    m2: "#DCE4F7"
+  },
+  {
+    tag: "Student Planning",
+    title: "Exam Study Schedule Template: Plan the Weeks Before Finals",
+    date: "Sep 2026 · 5 min",
+    url: "/journal/exam-study-schedule-template/",
+    img: "/images/products/ai-student-planner.jpg",
+    m1: "#E6E6FB",
+    m2: "#DCE4F7"
+  }
 ];
 var heartSvg = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.6-9.3-8.4C1 9.5 2.4 6 5.6 6c1.9 0 3.2 1.1 4.4 2.6C11.2 7.1 12.5 6 14.4 6c3.2 0 4.6 3.5 2.9 6.6C19 16.4 12 21 12 21z"/></svg>';
 var sprigSvg = '<svg width="58" height="20" viewBox="0 0 58 20" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M2 18C16 18 24 10 32 2M32 2c-5 0-8 2-10 5M32 2c0 4-2 7-5 9"/></svg>';
@@ -43,14 +152,15 @@ function cardHTML(p,i){
   return '<article class="pcard" data-cat="'+p.cat+'" data-idx="'+i+'" role="button" tabindex="0" aria-label="'+p.title+'">'+inner+'</article>';
 }
 function postHTML(p){
-  return '<article class="post"><div class="post-media" style="background:linear-gradient(135deg,'+p.p1+','+p.p2+')"><div class="pd"></div><span class="ptag">'+p.tag+'</span></div><div class="post-body"><span class="date">'+p.date+'</span><h3>'+p.title+'</h3><a class="readmore" href="/journal/">Read article</a></div></article>';
+  var media = p.img ? '<img src="'+p.img+'" alt="'+p.title+'"'+(p.fit==='contain'?' style="object-fit:contain;object-position:center;background:#0f1726"':'')+'>' : '<div class="cover-mock" style="background:linear-gradient(155deg,'+p.m1+','+p.m2+')"><div class="md"></div><span class="mc">'+p.tag+'</span><span class="msprig">'+sprigSvg+'</span><div class="mt">'+p.title+'</div></div>';
+  var inner='<div class="pcover"><span class="heart">'+heartSvg+'</span>'+media+'</div><div class="pcard-body"><h3>'+p.title+'</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">'+p.tag+'</div><div style="font-size:12px;color:var(--faint);margin-top:5px">'+p.date+'</div></div>';
+  return '<a class="pcard" href="'+p.url+'" aria-label="'+p.title+'">'+inner+'</a>';
 }
 function fill(id,h){var e=$(id);if(e)e.innerHTML=h;}
 fill('featTrack', products.slice(0,15).map(cardHTML).join(''));
 (function(){var ac=$('allCards');if(ac){var fc=ac.getAttribute('data-cat');var L=fc?products.filter(function(p){return p.cat===fc;}):products;ac.innerHTML=L.map(cardHTML).join('');}})();
 function renderPosts(id,minFill,cap){var el=$(id);if(!el)return;var real=posts.filter(function(p){return !p.demo;});var dem=posts.filter(function(p){return p.demo;});var list=real.slice();for(var i=0;i<dem.length&&list.length<minFill;i++)list.push(dem[i]);if(cap)list=list.slice(0,cap);el.innerHTML=list.map(postHTML).join('');}
 renderPosts('homePosts',3,3);renderPosts('blogPosts',3,0);
-fill('blogPosts', posts.concat(posts).slice(0,6).map(postHTML).join(''));
 function scrollTrack(id,dir){var e=$(id);if(e)e.scrollBy({left:dir*294,behavior:'smooth'});}
 
 /* active nav by path */
