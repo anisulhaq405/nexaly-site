@@ -33,9 +33,114 @@ var products = [
   {title:"Gratitude Journal Planner", cat:"Digital Planners", desc:"A gentle daily journal for gratitude, reflection, and calm.", price:8, img:"", video:"", buyUrl:"", m1:"#F3E3CC", m2:"#DCE5D5"}
 ];
 var posts = [
-  {tag:"Mindset", title:"5 morning rituals that set a positive tone", date:"Aug 2026 · 6 min", p1:"#EDE6D4", p2:"#DCE5D5"},
-  {tag:"Planning", title:"How to choose the right digital planner for you", date:"Aug 2026 · 5 min", p1:"#F3E3CC", p2:"#EFE0D2"},
-  {tag:"Lifestyle", title:"Building a week you don't need a break from", date:"Jul 2026 · 7 min", p1:"#DCE5D5", p2:"#E4D9C0"}
+  {
+    "tag": "Inventory",
+    "title": "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
+    "date": "Sep 2026 · 5 min",
+    "url": "/journal/boutique-inventory-spreadsheet/",
+    "img": "/images/products/boutique-business-planner/03_fillable-type-anywhere.png?v=journal8",
+    "alt": "boutique inventory spreadsheet template for tracking sizes colors SKUs stock levels and product variants",
+    "excerpt": "Build a cleaner boutique inventory spreadsheet with separate rows for sizes, colors, SKUs, available stock and reserved units."
+  },
+  {
+    "tag": "Order Tracking",
+    "title": "How to Keep Track of Small Business Orders in One Place",
+    "date": "Sep 2026 · 5 min",
+    "url": "/journal/track-small-business-orders/",
+    "img": "/images/products/sales-management-system/9-inventory-orders.png?v=journal8",
+    "alt": "small business order tracker dashboard for payments fulfillment customer orders and delivery status",
+    "excerpt": "Organize order numbers, customer details, payment status, fulfillment progress and next actions in one reliable order log."
+  },
+  {
+    "tag": "Inventory Software",
+    "title": "Inventory Software Without a Subscription: What to Check Before Buying",
+    "date": "Sep 2026 · 5 min",
+    "url": "/journal/inventory-software-without-subscription/",
+    "img": "/images/products/inventory-procurement-planner/01_dashboard.jpg?v=journal8",
+    "alt": "inventory software without subscription dashboard for local stock control purchase orders and reorder planning",
+    "excerpt": "Compare offline inventory tools, spreadsheets and paid systems before choosing subscription-free software for your shop."
+  },
+  {
+    "tag": "Sales Tracking",
+    "title": "How to Connect Sales and Inventory Tracking for a Small Shop",
+    "date": "Sep 2026 · 5 min",
+    "url": "/journal/sales-inventory-tracking-small-business/",
+    "img": "/images/products/sales-management-system/8-dashboard-closeup.png?v=journal8",
+    "alt": "sales and inventory tracking for small business dashboard showing orders stock profit and customer records",
+    "excerpt": "Connect sales, stock movements, returns, payments and customer records so every fulfilled order updates the right business data."
+  },
+  {
+    "tag": "Content Calendar",
+    "title": "A 30-Day Content Calendar for a Clothing Brand",
+    "date": "Sep 2026 · 5 min",
+    "url": "/journal/content-calendar-clothing-brand/",
+    "img": "/images/products/content-marketing-planner/content-marketing-planner-visual-content-calendar.jpg?v=journal8",
+    "alt": "30 day content calendar for clothing brand with weekly product posts reels campaigns and sales content plan",
+    "excerpt": "Plan a month of product posts, reels, customer questions, selling angles and campaign content for a clothing brand."
+  },
+  {
+    "tag": "Social Content",
+    "title": "30 Boutique Social Media Post Ideas With Clear Sales CTAs",
+    "date": "Sep 2026 · 6 min",
+    "url": "/journal/boutique-social-media-post-ideas/",
+    "img": "/images/products/content-marketing-planner/content-marketing-planner-content-hub.jpg?v=journal8",
+    "alt": "boutique social media post ideas content hub for product posts styling posts trust posts and sales CTAs",
+    "excerpt": "Use practical boutique post ideas that answer buyer questions, show product details and guide shoppers toward the next step."
+  },
+  {
+    "tag": "Marketing Plan",
+    "title": "Black Friday Marketing Plan for a Small Clothing Business",
+    "date": "Sep 2026 · 5 min",
+    "url": "/journal/black-friday-marketing-plan-small-business/",
+    "img": "/images/products/content-marketing-planner/content-marketing-planner-analytics-what-sells.jpg?v=journal8",
+    "alt": "Black Friday marketing plan for small clothing business with campaign calendar content analytics and sales tracking",
+    "excerpt": "Prepare offer rules, stock checks, content phases, checkout tests and fulfillment routines before Black Friday traffic arrives."
+  },
+  {
+    "tag": "Homeschool Schedule",
+    "title": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
+    "date": "Sep 2026 · 5 min",
+    "url": "/journal/homeschool-schedule-multiple-ages/",
+    "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-lesson-planner-calendar.jpg?v=journal8",
+    "alt": "homeschool schedule for multiple ages with lesson calendar shared family blocks and individual child planning",
+    "excerpt": "Create shared learning blocks, individual lesson rotations and flexible family schedules for multiple ages at home."
+  },
+  {
+    "tag": "Attendance Tracker",
+    "title": "Homeschool Attendance Tracker: A Simple Daily Record",
+    "date": "Sep 2026 · 5 min",
+    "url": "/journal/homeschool-attendance-tracker/",
+    "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-reports-transcript.jpg?v=journal8",
+    "alt": "homeschool attendance tracker for daily records child attendance reports and printable homeschool documentation",
+    "excerpt": "Keep clear daily attendance records for each child, review duplicate entries and understand what your totals actually show."
+  },
+  {
+    "tag": "Homeschool Planner",
+    "title": "Choosing a Homeschool Planner for Multiple Children",
+    "date": "Sep 2026 · 5 min",
+    "url": "/journal/homeschool-planner-multiple-children/",
+    "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-multiple-child-profiles.jpg?v=journal8",
+    "alt": "homeschool planner for multiple children with separate child profiles lessons gradebook attendance and family schedule",
+    "excerpt": "Choose a planner that shows the family day while keeping each child’s lessons, progress and records separate."
+  },
+  {
+    "tag": "Student Planner",
+    "title": "Assignment Tracker for College Students: Set Up Your Semester",
+    "date": "Sep 2026 · 5 min",
+    "url": "/journal/college-assignment-tracker/",
+    "img": "/images/products/ai-student-planner/ai-student-planner-plan-track-stay-ahead.jpg?v=journal8",
+    "alt": "college assignment tracker for semester deadlines coursework priorities study tasks and student planning dashboard",
+    "excerpt": "Turn assignment deadlines into start dates, weekly priorities, status updates and next actions for a clearer semester plan."
+  },
+  {
+    "tag": "Study Schedule",
+    "title": "Exam Study Schedule Template: Plan the Weeks Before Finals",
+    "date": "Sep 2026 · 5 min",
+    "url": "/journal/exam-study-schedule-template/",
+    "img": "/images/products/ai-student-planner/ai-student-planner-learning-os-dashboard.jpg?v=journal8",
+    "alt": "exam study schedule template for finals revision practice sessions study blocks and student planner dashboard",
+    "excerpt": "Plan study sessions, practice checks, revision blocks and recovery days before finals without filling a calendar with vague study time."
+  }
 ];
 var heartSvg = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.6-9.3-8.4C1 9.5 2.4 6 5.6 6c1.9 0 3.2 1.1 4.4 2.6C11.2 7.1 12.5 6 14.4 6c3.2 0 4.6 3.5 2.9 6.6C19 16.4 12 21 12 21z"/></svg>';
 var sprigSvg = '<svg width="58" height="20" viewBox="0 0 58 20" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M2 18C16 18 24 10 32 2M32 2c-5 0-8 2-10 5M32 2c0 4-2 7-5 9"/></svg>';
@@ -51,13 +156,15 @@ function cardHTML(p,i){
   return '<article class="pcard" data-cat="'+p.cat+'" data-idx="'+i+'" role="button" tabindex="0" aria-label="'+p.title+'">'+inner+'</article>';
 }
 function postHTML(p){
-  return '<article class="post"><div class="post-media" style="background:linear-gradient(135deg,'+p.p1+','+p.p2+')"><div class="pd"></div><span class="ptag">'+p.tag+'</span></div><div class="post-body"><span class="date">'+p.date+'</span><h3>'+p.title+'</h3><a class="readmore" href="/journal/">Read article</a></div></article>';
+  var media = p.img ? '<img src="'+p.img+'" alt="'+(p.alt||p.title)+'" loading="lazy" decoding="async">' : '<div class="pd"></div><span class="ptag">'+p.tag+'</span>';
+  var href = p.url || '/journal/';
+  return '<a class="pcard journal-card" href="'+href+'" aria-label="'+p.title+'"><div class="pcover">'+media+'</div><div class="pcard-body"><h3>'+p.title+'</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">'+p.tag+'</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">'+(p.excerpt||'')+'</p><div style="font-size:12px;color:var(--faint);margin-top:9px">'+p.date+'</div></div></a>';
 }
 function fill(id,h){var e=$(id);if(e)e.innerHTML=h;}
 fill('featTrack', products.slice(0,15).map(cardHTML).join(''));
 (function(){var ac=$('allCards');if(ac){var fc=ac.getAttribute('data-cat');var L=fc?products.filter(function(p){return p.cat===fc;}):products;ac.innerHTML=L.map(cardHTML).join('');}})();
-fill('homePosts', posts.map(postHTML).join(''));
-fill('blogPosts', posts.concat(posts).slice(0,6).map(postHTML).join(''));
+fill('homePosts', posts.slice(0,3).map(postHTML).join(''));
+fill('blogPosts', posts.map(postHTML).join(''));
 function scrollTrack(id,dir){var e=$(id);if(e)e.scrollBy({left:dir*294,behavior:'smooth'});}
 
 /* active nav by path */
