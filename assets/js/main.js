@@ -8,21 +8,21 @@ var $ = function(id){return document.getElementById(id);};
      url:    dedicated product page, e.g. "/planners/offline-ai-business-copilot/" (card links there instead of the quick modal)
    Leave img/video/buyUrl as "" and a styled placeholder is shown until you add them. */
 var products = [
-  {title:"RepairBench OS — Small Engine Repair Shop Manager", cat:"Business Operating Systems", desc:"An offline small engine repair shop manager in one file — work orders and repair jobs, customers and machines, parts inventory and reorder, invoices, payments and profit, plus branded reports. No account, no subscription.", price:11.99, img:"/images/products/repairbench-os.jpg", video:"", buyUrl:"", url:"/planners/repairbench-os/", m1:"#D7E8E0", m2:"#CFE3DA"},
-  {title:"AI Student Planner — Offline Study Planner, Assignment Tracker & Exam Planner", cat:"Digital Planners", desc:"An offline, all-in-one AI study OS for students — timetable, study planner, assignments, exams, focus timer, revision, grades, analytics and a built-in AI assistant in 16 modules. 7 languages, no subscription.", price:11.99, img:"/images/products/ai-student-planner.jpg", video:"", buyUrl:"", url:"/planners/ai-student-planner/", m1:"#E6E6FB", m2:"#DCE4F7"},
-  {title:"Digital Homeschool Planner — Offline Multi-Kid Dashboard, Gradebook & Transcript", cat:"Digital Planners", desc:"A private, offline homeschool planner for multiple kids — command center, curriculum, lessons, calendar, assignments, gradebook, attendance, analytics and transcript, with a built-in AI assistant. 7 languages, no subscription.", price:11.99, img:"/images/products/digital-homeschool-planner.jpg", video:"", buyUrl:"", url:"/planners/digital-homeschool-planner/", m1:"#DDE8F5", m2:"#D5E5F0"},
-  {title:"ADHD Digital Planner — Focus, Tasks, Routines & Goals", cat:"Digital Planners", desc:"A calm, interactive ADHD-friendly planner for adults with a daily focus dashboard, brain dump, tasks, routines, goals, habit and mood trackers, Pomodoro timer, analytics and an emergency reset. Works offline in your browser, 7 languages, no subscription.", price:11.99, img:"/images/products/adhd-digital-planner.png", fit:"contain", video:"", buyUrl:"", url:"/planners/adhd-digital-planner/", m1:"#EEEAFB", m2:"#DCE8F8"},
-  {title:"Boutique Business Planner — Orders, Inventory, Pricing & Profit Dashboard", cat:"Digital Planners", desc:"An interactive boutique and small-business planner with a live dashboard, product pricing calculator, inventory, order and sales tracking, clients, income, expenses, automatic profit, marketing and goals. Works in any browser, saves locally and requires no subscription.", price:11.99, img:"/images/products/boutique-business-planner.png", fit:"contain", video:"", buyUrl:"", url:"/planners/boutique-business-planner/", m1:"#F8E6EE", m2:"#E6F1EC"},
-  {title:"2026–2028 Small Business Planner — Goals, Tasks, Habits & Finance Tracker", cat:"Digital Planners", desc:"An all-in-one offline small business planner and live dashboard with a 2026–2028 calendar, goals, tasks, Kanban projects, habits, finance, P&L, orders, inventory, suppliers, ad ROAS, returns and analytics. Seven languages, private local data and no subscription.", price:11.99, img:"/images/products/small-business-planner-2026-2028.png", fit:"contain", video:"", buyUrl:"", url:"/planners/small-business-planner-2026-2028/", m1:"#EDE8F8", m2:"#E2ECF8"},
-  {title:"Caregiver Planner for Aging Parents — Family Care, Medications & Appointments", cat:"Digital Planners", desc:"An offline family caregiver organizer for aging-parent care, medications, appointments, care plans, tasks, daily logs, expenses, emergency information, handoffs and printable reports — with local planning insights and a built-in care assistant. Seven languages, no subscription.", price:11.99, img:"/images/products/caregiver-planner-aging-parents.png", fit:"contain", video:"", buyUrl:"", url:"/planners/caregiver-planner-aging-parents/", m1:"#E6F1EE", m2:"#E9E5F5"},
-  {title:"Offline Inventory & Procurement Planner — Standalone HTML Business System", cat:"Business Operating Systems", desc:"A standalone offline inventory and procurement system for products and SKUs, stock movements, adjustments, purchase requests, purchase orders, partial receiving and GRNs, suppliers, warehouses, low-stock review, reorder planning, invoices and reports. Seven languages, multi-currency and no subscription.", price:11.99, img:"/images/products/inventory-procurement-planner.jpg", fit:"contain", video:"", buyUrl:"", url:"/planners/inventory-procurement-planner/", m1:"#E5EDF2", m2:"#D8E5E8"},
-  {title:"OwnerOS Core: Ultimate Offline Inventory & E-Commerce Manager", cat:"Business Operating Systems", desc:"A private offline command center for ecommerce operations, products, inventory, orders, profit, campaigns, customers, suppliers, purchasing, goals, tasks, reports and owner approvals. Seven languages, local backup and no subscription.", price:11.99, img:"/images/products/owneros-core.jpg", fit:"contain", video:"", buyUrl:"", url:"/planners/owneros-core/", m1:"#F1E7D9", m2:"#E9DCCB"},
-  {title:"Batch & Lot Traceability Software for Small Makers | Offline Inventory, Production and Recall Manager", cat:"Business Operating Systems", desc:"A private offline traceability system for supplier lots, recipes and BOMs, production batches, quality checks, finished inventory, customer destinations, forward and backward tracing, mock recalls, costs and reports. Seven languages, 48 currencies and no subscription.", price:11.99, img:"/images/products/batchtrace-os.png", fit:"contain", video:"", buyUrl:"", url:"/planners/batchtrace-os/", m1:"#E8F0F4", m2:"#DDE8EC"},
-  {title:"Content Marketing Planner — for Fashion & E-Commerce Brands", cat:"Digital Planners", desc:"An all-in-one, offline content planner for fashion and e-commerce brands — visual calendar, sales analytics and 20 connected tools. Light & dark, 7 languages, no subscription.", price:11.99, img:"/images/products/content-marketing-planner.jpg", video:"", buyUrl:"", url:"/planners/content-marketing-planner/", m1:"#F7E4EF", m2:"#F3D9E5"},
-  {title:"VendorPulse OS — Offline Supplier Management, Purchase Orders & Landed Cost", cat:"Business Operating Systems", desc:"A private supplier and purchasing OS for quotes, true landed cost, purchase orders, deliveries, quality, payables and supplier scorecards — with an evidence-based Insider Expert. 162 currencies, 7 languages, no subscription.", price:11.99, img:"/images/products/vendorpulse-os.png", video:"", buyUrl:"", url:"/planners/vendorpulse-os/", m1:"#DFF3E9", m2:"#CBE9DA"},
-  {title:"Sales Management System — Offline Inventory, Orders & Profit Dashboard", cat:"Business Operating Systems", desc:"An all-in-one offline business system for sales, FIFO inventory, orders, profit and loss, expenses, invoices, ads ROAS, customers, suppliers, CRM and team management. 20+ connected modules, 7 languages, no subscription.", price:11.99, img:"/images/products/sales-management-system.png", fit:"contain", video:"", buyUrl:"", url:"/planners/sales-management-system/", m1:"#111827", m2:"#171D32"},
-  {title:"RentFlow OS — Offline Equipment Rental Manager", cat:"Business Operating Systems", desc:"A private, offline manager for equipment and party rental businesses — bookings, availability, deposits, returns, maintenance and asset profitability in one browser app. No account, no subscription, works fully offline.", price:11.99, img:"/images/products/rentflow-os.jpg?v=2", video:"", buyUrl:"", url:"/planners/rentflow-os/", m1:"#DCE7E5", m2:"#CFE0DA"},
-  {title:"Offline AI Business Copilot", cat:"Business Operating Systems", desc:"A private, offline business dashboard for cash flow, invoices, marketing ROAS and goals — with a built-in offline AI agent. No account, no subscription, works fully offline.", price:11.99, img:"/images/products/offline-ai-business-copilot.jpg?v=2", video:"", buyUrl:"", url:"/planners/offline-ai-business-copilot/", m1:"#EDE6D4", m2:"#DCE5D5"},
+  {title:"RepairBench OS — Small Engine Repair Shop Manager", cat:"Business Operating Systems", desc:"Run a small engine repair shop from one private offline system. Manage work orders, repair jobs, customers, machines, parts inventory, reorder needs, invoices, payments, profit and branded business reports with no account or subscription.", price:11.99, img:"/images/products/repairbench-os.jpg", video:"", buyUrl:"", url:"/planners/repairbench-os/", m1:"#D7E8E0", m2:"#CFE3DA"},
+  {title:"AI Student Planner — Offline Study Planner, Assignment Tracker & Exam Planner", cat:"Digital Planners", desc:"Plan school or college in one private offline study system with 16 connected modules for timetables, subjects, assignments, exams, revision, goals, habits, focus sessions, notes, grades, analytics and a built-in AI assistant.", price:11.99, img:"/images/products/ai-student-planner.jpg", video:"", buyUrl:"", url:"/planners/ai-student-planner/", m1:"#E6E6FB", m2:"#DCE4F7"},
+  {title:"Digital Homeschool Planner — Offline Multi-Kid Dashboard, Gradebook & Transcript", cat:"Digital Planners", desc:"Organize homeschooling for multiple children with a private offline parent dashboard, curriculum and lesson planning, calendar, assignments, gradebook, attendance and learning hours, analytics, reports, transcripts and a built-in AI assistant.", price:11.99, img:"/images/products/digital-homeschool-planner.jpg", video:"", buyUrl:"", url:"/planners/digital-homeschool-planner/", m1:"#DDE8F5", m2:"#D5E5F0"},
+  {title:"ADHD Digital Planner — Focus, Tasks, Routines & Goals", cat:"Digital Planners", desc:"A calm, interactive ADHD-friendly planner for adults with 15 connected tools for daily focus, brain dumps, tasks, routines, goals, time blocks, Pomodoro sessions, habits, mood, achievements and practical analytics. Private, offline and subscription-free.", price:11.99, img:"/images/products/adhd-digital-planner.png", fit:"contain", video:"", buyUrl:"", url:"/planners/adhd-digital-planner/", m1:"#EEEAFB", m2:"#DCE8F8"},
+  {title:"Boutique Business Planner — Orders, Inventory, Pricing & Profit Dashboard", cat:"Digital Planners", desc:"Manage a boutique or small product business with connected tools for products, pricing, inventory, orders, sales, customers, income, expenses, profit, marketing, goals, notes and key dates in one private browser-based planner.", price:11.99, img:"/images/products/boutique-business-planner.png", fit:"contain", video:"", buyUrl:"", url:"/planners/boutique-business-planner/", m1:"#F8E6EE", m2:"#E6F1EC"},
+  {title:"2026–2028 Small Business Planner — Goals, Tasks, Habits & Finance Tracker", cat:"Digital Planners", desc:"Plan and manage a small business across 2026, 2027 and 2028 with calendars, goals, tasks, Kanban projects, habits, bills, finance, orders, inventory, suppliers, advertising ROAS, returns, profit and loss, reports and live analytics.", price:11.99, img:"/images/products/small-business-planner-2026-2028.png", fit:"contain", video:"", buyUrl:"", url:"/planners/small-business-planner-2026-2028/", m1:"#EDE8F8", m2:"#E2ECF8"},
+  {title:"Caregiver Planner for Aging Parents — Family Care, Medications & Appointments", cat:"Digital Planners", desc:"Coordinate family care for aging parents with 24 connected modules for care plans, routines, medications, appointments, care teams, tasks, calendars, daily logs, expenses, transportation, emergency information, family handoffs, documents and printable reports.", price:11.99, img:"/images/products/caregiver-planner-aging-parents.png", fit:"contain", video:"", buyUrl:"", url:"/planners/caregiver-planner-aging-parents/", m1:"#E6F1EE", m2:"#E9E5F5"},
+  {title:"Offline Inventory & Procurement Planner — Standalone HTML Business System", cat:"Business Operating Systems", desc:"Control inventory and procurement offline with products and SKUs, suppliers, warehouses, stock movements, adjustments, transfers, purchase requests, approvals, purchase orders, partial receiving, GRNs, low-stock alerts, reorder planning, invoices and reports.", price:11.99, img:"/images/products/inventory-procurement-planner.jpg", fit:"contain", video:"", buyUrl:"", url:"/planners/inventory-procurement-planner/", m1:"#E5EDF2", m2:"#D8E5E8"},
+  {title:"OwnerOS Core: Ultimate Offline Inventory & E-Commerce Manager", cat:"Business Operating Systems", desc:"Run e-commerce operations from one private offline command center for products, inventory, orders, sales, contribution profit, marketing campaigns, ROAS, customers, suppliers, purchasing, goals, projects, tasks, decisions, SOPs and reports.", price:11.99, img:"/images/products/owneros-core.jpg", fit:"contain", video:"", buyUrl:"", url:"/planners/owneros-core/", m1:"#F1E7D9", m2:"#E9DCCB"},
+  {title:"Batch & Lot Traceability Software for Small Makers | Offline Inventory, Production and Recall Manager", cat:"Business Operating Systems", desc:"Trace supplier lots through recipes, production batches, quality checks, finished inventory, customer orders and destinations. Run forward and backward traces, mock recalls, cost and yield analysis, and branded reports in a private offline system for small makers.", price:11.99, img:"/images/products/batchtrace-os.png", fit:"contain", video:"", buyUrl:"", url:"/planners/batchtrace-os/", m1:"#E8F0F4", m2:"#DDE8EC"},
+  {title:"Content Marketing Planner — for Fashion & E-Commerce Brands", cat:"Digital Planners", desc:"Plan and measure content for fashion and e-commerce brands with 20 connected offline tools, including a visual calendar, Content Hub, Idea Bank, drops and campaigns, sales tracking, AI prompt library, link-in-bio planning and analytics.", price:11.99, img:"/images/products/content-marketing-planner.jpg", video:"", buyUrl:"", url:"/planners/content-marketing-planner/", m1:"#F7E4EF", m2:"#F3D9E5"},
+  {title:"VendorPulse OS — Offline Supplier Management, Purchase Orders & Landed Cost", cat:"Business Operating Systems", desc:"Manage suppliers, materials, quote comparisons, true landed cost, purchase orders, deposits, partial deliveries, backorders, rejects, quality, supplier invoices, payments and scorecards in a private offline purchasing system.", price:11.99, img:"/images/products/vendorpulse-os.png", video:"", buyUrl:"", url:"/planners/vendorpulse-os/", m1:"#DFF3E9", m2:"#CBE9DA"},
+  {title:"Sales Management System — Offline Inventory, Orders & Profit Dashboard", cat:"Business Operating Systems", desc:"Manage sales, FIFO inventory, orders, purchases, suppliers, returns, expenses, cash, customer balances, invoices, profit and loss, advertising ROAS, CRM, employees, payroll, commissions and tasks in one private offline business system.", price:11.99, img:"/images/products/sales-management-system.png", fit:"contain", video:"", buyUrl:"", url:"/planners/sales-management-system/", m1:"#111827", m2:"#171D32"},
+  {title:"RentFlow OS — Offline Equipment Rental Manager", cat:"Business Operating Systems", desc:"Run an equipment, party or event rental business offline with booking and availability tracking, deposits, returns, maintenance schedules, double-booking risk checks, quote-to-profit workflows and asset profitability insights.", price:11.99, img:"/images/products/rentflow-os.jpg?v=2", video:"", buyUrl:"", url:"/planners/rentflow-os/", m1:"#DCE7E5", m2:"#CFE0DA"},
+  {title:"Offline AI Business Copilot", cat:"Business Operating Systems", desc:"Use a private offline business dashboard to monitor sales, cash, net position, overdue invoices, marketing ROAS and CAC, a 13-week cash outlook and business goals, then create structured decision briefs with the built-in offline AI copilot.", price:11.99, img:"/images/products/offline-ai-business-copilot.jpg?v=2", video:"", buyUrl:"", url:"/planners/offline-ai-business-copilot/", m1:"#EDE6D4", m2:"#DCE5D5"},
   {title:"Daily Ritual Planner", cat:"Digital Planners", desc:"A calm daily spread for priorities, rituals, and reflection.", price:12, img:"", video:"", buyUrl:"", m1:"#EDE6D4", m2:"#DCE5D5"},
   {title:"Focus & Flow Planner", cat:"Digital Planners", desc:"One page, one day. Top three priorities and a simple time block.", price:14, was:18, img:"", video:"", buyUrl:"", m1:"#F3E3CC", m2:"#EDE6D4"},
   {title:"Wellness Planner", cat:"Digital Planners", desc:"Track habits, mood, movement, and meals in one gentle place.", price:10, img:"", video:"", buyUrl:"", m1:"#DCE5D5", m2:"#EFE3CE"},
@@ -33,114 +33,9 @@ var products = [
   {title:"Gratitude Journal Planner", cat:"Digital Planners", desc:"A gentle daily journal for gratitude, reflection, and calm.", price:8, img:"", video:"", buyUrl:"", m1:"#F3E3CC", m2:"#DCE5D5"}
 ];
 var posts = [
-  {
-    "tag": "Inventory",
-    "title": "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
-    "date": "Sep 2026 · 5 min",
-    "url": "/journal/boutique-inventory-spreadsheet/",
-    "img": "/images/products/boutique-business-planner/03_fillable-type-anywhere.png?v=journal8",
-    "alt": "boutique inventory spreadsheet template for tracking sizes colors SKUs stock levels and product variants",
-    "excerpt": "Build a cleaner boutique inventory spreadsheet with separate rows for sizes, colors, SKUs, available stock and reserved units."
-  },
-  {
-    "tag": "Order Tracking",
-    "title": "How to Keep Track of Small Business Orders in One Place",
-    "date": "Sep 2026 · 5 min",
-    "url": "/journal/track-small-business-orders/",
-    "img": "/images/products/sales-management-system/9-inventory-orders.png?v=journal8",
-    "alt": "small business order tracker dashboard for payments fulfillment customer orders and delivery status",
-    "excerpt": "Organize order numbers, customer details, payment status, fulfillment progress and next actions in one reliable order log."
-  },
-  {
-    "tag": "Inventory Software",
-    "title": "Inventory Software Without a Subscription: What to Check Before Buying",
-    "date": "Sep 2026 · 5 min",
-    "url": "/journal/inventory-software-without-subscription/",
-    "img": "/images/products/inventory-procurement-planner/01_dashboard.jpg?v=journal8",
-    "alt": "inventory software without subscription dashboard for local stock control purchase orders and reorder planning",
-    "excerpt": "Compare offline inventory tools, spreadsheets and paid systems before choosing subscription-free software for your shop."
-  },
-  {
-    "tag": "Sales Tracking",
-    "title": "How to Connect Sales and Inventory Tracking for a Small Shop",
-    "date": "Sep 2026 · 5 min",
-    "url": "/journal/sales-inventory-tracking-small-business/",
-    "img": "/images/products/sales-management-system/8-dashboard-closeup.png?v=journal8",
-    "alt": "sales and inventory tracking for small business dashboard showing orders stock profit and customer records",
-    "excerpt": "Connect sales, stock movements, returns, payments and customer records so every fulfilled order updates the right business data."
-  },
-  {
-    "tag": "Content Calendar",
-    "title": "A 30-Day Content Calendar for a Clothing Brand",
-    "date": "Sep 2026 · 5 min",
-    "url": "/journal/content-calendar-clothing-brand/",
-    "img": "/images/products/content-marketing-planner/content-marketing-planner-visual-content-calendar.jpg?v=journal8",
-    "alt": "30 day content calendar for clothing brand with weekly product posts reels campaigns and sales content plan",
-    "excerpt": "Plan a month of product posts, reels, customer questions, selling angles and campaign content for a clothing brand."
-  },
-  {
-    "tag": "Social Content",
-    "title": "30 Boutique Social Media Post Ideas With Clear Sales CTAs",
-    "date": "Sep 2026 · 6 min",
-    "url": "/journal/boutique-social-media-post-ideas/",
-    "img": "/images/products/content-marketing-planner/content-marketing-planner-content-hub.jpg?v=journal8",
-    "alt": "boutique social media post ideas content hub for product posts styling posts trust posts and sales CTAs",
-    "excerpt": "Use practical boutique post ideas that answer buyer questions, show product details and guide shoppers toward the next step."
-  },
-  {
-    "tag": "Marketing Plan",
-    "title": "Black Friday Marketing Plan for a Small Clothing Business",
-    "date": "Sep 2026 · 5 min",
-    "url": "/journal/black-friday-marketing-plan-small-business/",
-    "img": "/images/products/content-marketing-planner/content-marketing-planner-analytics-what-sells.jpg?v=journal8",
-    "alt": "Black Friday marketing plan for small clothing business with campaign calendar content analytics and sales tracking",
-    "excerpt": "Prepare offer rules, stock checks, content phases, checkout tests and fulfillment routines before Black Friday traffic arrives."
-  },
-  {
-    "tag": "Homeschool Schedule",
-    "title": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
-    "date": "Sep 2026 · 5 min",
-    "url": "/journal/homeschool-schedule-multiple-ages/",
-    "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-lesson-planner-calendar.jpg?v=journal8",
-    "alt": "homeschool schedule for multiple ages with lesson calendar shared family blocks and individual child planning",
-    "excerpt": "Create shared learning blocks, individual lesson rotations and flexible family schedules for multiple ages at home."
-  },
-  {
-    "tag": "Attendance Tracker",
-    "title": "Homeschool Attendance Tracker: A Simple Daily Record",
-    "date": "Sep 2026 · 5 min",
-    "url": "/journal/homeschool-attendance-tracker/",
-    "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-reports-transcript.jpg?v=journal8",
-    "alt": "homeschool attendance tracker for daily records child attendance reports and printable homeschool documentation",
-    "excerpt": "Keep clear daily attendance records for each child, review duplicate entries and understand what your totals actually show."
-  },
-  {
-    "tag": "Homeschool Planner",
-    "title": "Choosing a Homeschool Planner for Multiple Children",
-    "date": "Sep 2026 · 5 min",
-    "url": "/journal/homeschool-planner-multiple-children/",
-    "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-multiple-child-profiles.jpg?v=journal8",
-    "alt": "homeschool planner for multiple children with separate child profiles lessons gradebook attendance and family schedule",
-    "excerpt": "Choose a planner that shows the family day while keeping each child’s lessons, progress and records separate."
-  },
-  {
-    "tag": "Student Planner",
-    "title": "Assignment Tracker for College Students: Set Up Your Semester",
-    "date": "Sep 2026 · 5 min",
-    "url": "/journal/college-assignment-tracker/",
-    "img": "/images/products/ai-student-planner/ai-student-planner-plan-track-stay-ahead.jpg?v=journal8",
-    "alt": "college assignment tracker for semester deadlines coursework priorities study tasks and student planning dashboard",
-    "excerpt": "Turn assignment deadlines into start dates, weekly priorities, status updates and next actions for a clearer semester plan."
-  },
-  {
-    "tag": "Study Schedule",
-    "title": "Exam Study Schedule Template: Plan the Weeks Before Finals",
-    "date": "Sep 2026 · 5 min",
-    "url": "/journal/exam-study-schedule-template/",
-    "img": "/images/products/ai-student-planner/ai-student-planner-learning-os-dashboard.jpg?v=journal8",
-    "alt": "exam study schedule template for finals revision practice sessions study blocks and student planner dashboard",
-    "excerpt": "Plan study sessions, practice checks, revision blocks and recovery days before finals without filling a calendar with vague study time."
-  }
+  {tag:"Mindset", title:"5 morning rituals that set a positive tone", date:"Aug 2026 · 6 min", p1:"#EDE6D4", p2:"#DCE5D5"},
+  {tag:"Planning", title:"How to choose the right digital planner for you", date:"Aug 2026 · 5 min", p1:"#F3E3CC", p2:"#EFE0D2"},
+  {tag:"Lifestyle", title:"Building a week you don't need a break from", date:"Jul 2026 · 7 min", p1:"#DCE5D5", p2:"#E4D9C0"}
 ];
 var heartSvg = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.6-9.3-8.4C1 9.5 2.4 6 5.6 6c1.9 0 3.2 1.1 4.4 2.6C11.2 7.1 12.5 6 14.4 6c3.2 0 4.6 3.5 2.9 6.6C19 16.4 12 21 12 21z"/></svg>';
 var sprigSvg = '<svg width="58" height="20" viewBox="0 0 58 20" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M2 18C16 18 24 10 32 2M32 2c-5 0-8 2-10 5M32 2c0 4-2 7-5 9"/></svg>';
@@ -156,15 +51,13 @@ function cardHTML(p,i){
   return '<article class="pcard" data-cat="'+p.cat+'" data-idx="'+i+'" role="button" tabindex="0" aria-label="'+p.title+'">'+inner+'</article>';
 }
 function postHTML(p){
-  var media = p.img ? '<img src="'+p.img+'" alt="'+(p.alt||p.title)+'" loading="lazy" decoding="async">' : '<div class="pd"></div><span class="ptag">'+p.tag+'</span>';
-  var href = p.url || '/journal/';
-  return '<a class="pcard journal-card" href="'+href+'" aria-label="'+p.title+'"><div class="pcover">'+media+'</div><div class="pcard-body"><h3>'+p.title+'</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">'+p.tag+'</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">'+(p.excerpt||'')+'</p><div style="font-size:12px;color:var(--faint);margin-top:9px">'+p.date+'</div></div></a>';
+  return '<article class="post"><div class="post-media" style="background:linear-gradient(135deg,'+p.p1+','+p.p2+')"><div class="pd"></div><span class="ptag">'+p.tag+'</span></div><div class="post-body"><span class="date">'+p.date+'</span><h3>'+p.title+'</h3><a class="readmore" href="/journal/">Read article</a></div></article>';
 }
 function fill(id,h){var e=$(id);if(e)e.innerHTML=h;}
 fill('featTrack', products.slice(0,15).map(cardHTML).join(''));
 (function(){var ac=$('allCards');if(ac){var fc=ac.getAttribute('data-cat');var L=fc?products.filter(function(p){return p.cat===fc;}):products;ac.innerHTML=L.map(cardHTML).join('');}})();
-fill('homePosts', posts.slice(0,3).map(postHTML).join(''));
-fill('blogPosts', posts.map(postHTML).join(''));
+fill('homePosts', posts.map(postHTML).join(''));
+fill('blogPosts', posts.concat(posts).slice(0,6).map(postHTML).join(''));
 function scrollTrack(id,dir){var e=$(id);if(e)e.scrollBy({left:dir*294,behavior:'smooth'});}
 
 /* active nav by path */
