@@ -86,9 +86,10 @@ const products=[
 {id:"rentflow",title:"RentFlow OS",type:"Rental management"},
 {id:"copilot",title:"Offline AI Business Copilot",type:"Business intelligence"}
 ];
-let limit=3;
+let limit=[3,5,10].includes(Number(new URLSearchParams(location.search).get("size")))?Number(new URLSearchParams(location.search).get("size")):3;
 const selected=new Set();
 const grid=document.getElementById("productGrid");
+document.querySelectorAll(".bundle-tab").forEach(t=>t.classList.toggle("active",Number(t.dataset.limit)===limit));
 products.forEach((p,i)=>{
  const button=document.createElement("button");
  button.type="button";button.className="planner-choice";button.dataset.id=p.id;
