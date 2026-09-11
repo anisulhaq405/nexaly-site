@@ -202,3 +202,159 @@ if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es
 window.addEventListener('scroll',runReveal,{passive:true});
 window.addEventListener('load',runReveal);
 runReveal();
+
+/* ===== NexalyPlanner AI Assistant (auto-injected, appears on every page) ===== */
+/* ============================================================
+   NexalyPlanner AI Assistant  (auto · multilingual · human)
+   - Appears on every page (loaded via main.js)
+   - Reads the LIVE products[] and posts[] arrays, so it always
+     knows new products/blogs with zero manual feeding.
+   - Talks to a free Cloudflare Worker (set WORKER_URL below).
+   - If the Worker isn't set yet, it still helps in "local" mode.
+   ============================================================ */
+(function () {
+  if (window.__nexlyAI) return; window.__nexlyAI = 1;
+
+  /* ---------- 1) CONFIG — paste your Worker URL after setup ---------- */
+  var WORKER_URL = "PASTE-YOUR-CLOUDFLARE-WORKER-URL-HERE"; // e.g. https://nexaly-ai.yourname.workers.dev
+  var CFG = {
+    title: "Nexaly Assistant",
+    subtitle: "Here to help — ask me anything",
+    accent: "#c06a3f",
+    dark: "#2c2117",
+    greeting: "Hi! 👋 I'm the Nexaly assistant. I can help you find the right planner or business app, explain how they work, or answer any question. What are you looking for today?"
+  };
+
+  /* ---------- 2) Static company knowledge (rarely changes) ---------- */
+  var KNOWLEDGE =
+    "About NexalyPlanner (nexalyplanner.com): an online store selling two kinds of digital products — (1) Digital Planners and (2) Business Operating Systems. " +
+    "Every product is an interactive HTML app you open in your web browser. Key facts true for all products: works fully OFFLINE; ONE-TIME purchase (no monthly subscription); your data stays PRIVATE on your own device (no account/login needed); INSTANT digital download (a ZIP with the app + a quick-start guide + license); many support 7 languages including Arabic and light & dark mode; you can print or export reports (PDF/CSV, some to Word/Excel) and save your own backups. " +
+    "To buy: open a product's page and click the Buy button. Nothing is shipped (digital only). " +
+    "Helpful pages: all products /planners/, Digital Planners /planners/digital-planners/, Business Operating Systems /planners/business-operating-systems/, FAQ /faq/, Refund policy /refund/, Contact /contact/, Journal (guides) /journal/.";
+
+  /* ---------- 3) Live catalogue from the site's own data ---------- */
+  function catalogue() {
+    var out = "CURRENT PRODUCTS (auto-updated from the live site):\n";
+    try {
+      (window.products || (typeof products !== "undefined" ? products : [])).forEach(function (p) {
+        if (p && p.url) out += "• " + p.title + " — category: " + (p.cat || "") + " — $" + p.price +
+          " — " + (p.desc || "") + " — https://nexalyplanner.com" + p.url + "\n";
+      });
+    } catch (e) {}
+    out += "\nGUIDES / BLOG:\n";
+    try {
+      (window.posts || (typeof posts !== "undefined" ? posts : [])).forEach(function (p) {
+        var t = p.title || ""; var u = p.url || "";
+        if (t) out += "• " + t + " — https://nexalyplanner.com" + u + "\n";
+      });
+    } catch (e) {}
+    return out;
+  }
+
+  /* ---------- 4) Local fallback (works with no Worker) ---------- */
+  function prods() { try { return (window.products || (typeof products !== "undefined" ? products : [])).filter(function (p) { return p && p.url; }); } catch (e) { return []; } }
+  function localAnswer(q) {
+    q = (q || "").toLowerCase();
+    if (/^(hi|hello|hey|salam|assalam|hola|bonjour)\b/.test(q)) return CFG.greeting;
+    var faq = [
+      [/subscri|monthly|recurring/, "Great news — there are no subscriptions. Every product is a one-time purchase you keep forever. 🙂"],
+      [/offline|internet|wifi/, "Yes! All our products work fully offline in your browser. Once downloaded, you don't need the internet, and your data stays on your device."],
+      [/refund|return|money back/, "You can read our refund policy here: https://nexalyplanner.com/refund/ . Since everything is an instant digital download, please check it before buying."],
+      [/download|install|how do i get|after (i )?(buy|pay)/, "After you buy, you get an instant download — a ZIP file with the app plus a quick-start guide. Just unzip and open the HTML file in your browser. No installation needed."],
+      [/language|arabic|spanish|french/, "Many of our products support 7 languages (including Arabic, with right-to-left support) and light & dark mode."],
+      [/price|cost|how much/, "Prices vary by product (a one-time payment). Tell me what you need and I'll share the exact price and a link."],
+      [/private|data|secure|safe/, "Your data stays private on your own device — there's no account and nothing is uploaded to a cloud."],
+      [/contact|support|email|help/, "You can reach the team here: https://nexalyplanner.com/contact/ . I'm happy to help right now too!"]
+    ];
+    for (var i = 0; i < faq.length; i++) if (faq[i][0].test(q)) return faq[i][1];
+    // product search
+    var words = q.split(/[^a-z0-9]+/).filter(function (w) { return w.length > 2; });
+    var hits = prods().map(function (p) {
+      var hay = (p.title + " " + p.cat + " " + (p.desc || "")).toLowerCase(); var s = 0;
+      words.forEach(function (w) { if (hay.indexOf(w) > -1) s++; });
+      return { p: p, s: s };
+    }).filter(function (x) { return x.s > 0; }).sort(function (a, b) { return b.s - a.s; }).slice(0, 3);
+    if (hits.length) {
+      var r = "Here are a few that might fit:\n";
+      hits.forEach(function (h) { r += "\n• **" + h.p.title + "** — $" + h.p.price + "\n  https://nexalyplanner.com" + h.p.url; });
+      r += "\n\nWant more detail on any of these?";
+      return r;
+    }
+    return "I can help you find the right digital planner or business app. You can browse everything here: https://nexalyplanner.com/planners/ — or tell me what you're trying to do (e.g. \"homeschool\", \"repair shop\", \"student\", \"inventory\") and I'll point you to the best one.";
+  }
+
+  /* ---------- 5) Ask the AI (Worker) with local fallback ---------- */
+  var history = []; // {role, content}
+  function ask(userText, cb) {
+    history.push({ role: "user", content: userText });
+    var configured = WORKER_URL && WORKER_URL.indexOf("PASTE-") === -1;
+    if (!configured) { var a = localAnswer(userText); history.push({ role: "assistant", content: a }); cb(a); return; }
+    fetch(WORKER_URL, {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ messages: history.slice(-12), catalogue: KNOWLEDGE + "\n\n" + catalogue() })
+    }).then(function (r) { return r.json(); }).then(function (d) {
+      var a = (d && d.reply) ? d.reply : localAnswer(userText);
+      history.push({ role: "assistant", content: a }); cb(a);
+    }).catch(function () { var a = localAnswer(userText); history.push({ role: "assistant", content: a }); cb(a); });
+  }
+
+  /* ---------- 6) UI ---------- */
+  var css = "" +
+    ".nx-btn{position:fixed;right:20px;bottom:20px;width:60px;height:60px;border-radius:50%;background:" + CFG.accent + ";color:#fff;border:0;cursor:pointer;box-shadow:0 10px 30px -8px rgba(44,33,23,.5);z-index:99998;display:flex;align-items:center;justify-content:center}" +
+    ".nx-btn svg{width:28px;height:28px}" +
+    ".nx-panel{position:fixed;right:20px;bottom:92px;width:370px;max-width:calc(100vw - 32px);height:560px;max-height:calc(100vh - 120px);background:#fff;border:1px solid #e6ddc9;border-radius:18px;box-shadow:0 24px 60px -18px rgba(44,33,23,.45);z-index:99999;display:none;flex-direction:column;overflow:hidden;font-family:'Inter',system-ui,sans-serif}" +
+    ".nx-panel.on{display:flex}" +
+    ".nx-head{background:" + CFG.dark + ";color:#fff;padding:14px 16px}" +
+    ".nx-head b{font-family:'Fraunces',serif;font-size:1.05rem;display:block}" +
+    ".nx-head small{opacity:.8;font-size:.8rem}" +
+    ".nx-head .nx-x{position:absolute;top:12px;right:14px;background:none;border:0;color:#fff;font-size:1.3rem;cursor:pointer;opacity:.85}" +
+    ".nx-msgs{flex:1;overflow-y:auto;padding:16px;background:#fbf6ec;display:flex;flex-direction:column;gap:10px}" +
+    ".nx-m{max-width:85%;padding:10px 13px;border-radius:14px;font-size:.92rem;line-height:1.5;white-space:pre-wrap;word-wrap:break-word}" +
+    ".nx-m a{color:" + CFG.accent + ";font-weight:600}" +
+    ".nx-bot{background:#fff;border:1px solid #ece3d0;color:#2c2117;align-self:flex-start;border-bottom-left-radius:4px}" +
+    ".nx-user{background:" + CFG.accent + ";color:#fff;align-self:flex-end;border-bottom-right-radius:4px}" +
+    ".nx-typing{align-self:flex-start;color:#8a7a5f;font-size:.85rem;padding:4px 6px}" +
+    ".nx-in{display:flex;gap:8px;padding:12px;border-top:1px solid #eee;background:#fff}" +
+    ".nx-in input{flex:1;border:1px solid #e0d6c0;border-radius:10px;padding:11px 12px;font-size:.92rem;outline:none;font-family:inherit}" +
+    ".nx-in button{background:" + CFG.accent + ";color:#fff;border:0;border-radius:10px;padding:0 15px;cursor:pointer;font-weight:600}" +
+    ".nx-foot{font-size:.68rem;color:#b3a versa;text-align:center;color:#a99;padding:0 0 8px;background:#fff}";
+  var st = document.createElement("style"); st.textContent = css.replace('#b3a versa','#a99'); document.head.appendChild(st);
+
+  function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
+  function esc(s) { return (s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+  function fmt(s) {
+    s = esc(s);
+    s = s.replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
+    s = s.replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+    return s;
+  }
+
+  var btn = el("button", "nx-btn");
+  btn.setAttribute("aria-label", "Chat with Nexaly Assistant");
+  btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-8.5 8.5 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7A8.38 8.38 0 0 1 4 11.5 8.5 8.5 0 0 1 12.5 3 8.5 8.5 0 0 1 21 11.5z"/></svg>';
+  var panel = el("div", "nx-panel");
+  panel.innerHTML =
+    '<div class="nx-head" style="position:relative"><b>' + CFG.title + '</b><small>' + CFG.subtitle + '</small><button class="nx-x" aria-label="Close">&times;</button></div>' +
+    '<div class="nx-msgs" id="nxMsgs"></div>' +
+    '<div class="nx-foot">Nexaly Assistant · answers may occasionally be imperfect</div>' +
+    '<div class="nx-in"><input id="nxIn" type="text" placeholder="Type your message…" autocomplete="off"><button id="nxSend">Send</button></div>';
+  document.body.appendChild(btn); document.body.appendChild(panel);
+
+  var msgs = panel.querySelector("#nxMsgs");
+  function add(text, who) { var m = el("div", "nx-m " + (who === "user" ? "nx-user" : "nx-bot"), fmt(text)); msgs.appendChild(m); msgs.scrollTop = msgs.scrollHeight; return m; }
+  var greeted = false;
+  function openP() { panel.classList.add("on"); if (!greeted) { greeted = true; add(CFG.greeting, "bot"); } panel.querySelector("#nxIn").focus(); }
+  function closeP() { panel.classList.remove("on"); }
+  btn.addEventListener("click", function () { panel.classList.contains("on") ? closeP() : openP(); });
+  panel.querySelector(".nx-x").addEventListener("click", closeP);
+
+  function send() {
+    var inp = panel.querySelector("#nxIn"); var t = inp.value.trim(); if (!t) return;
+    inp.value = ""; add(t, "user");
+    var typing = el("div", "nx-typing", "typing…"); msgs.appendChild(typing); msgs.scrollTop = msgs.scrollHeight;
+    ask(t, function (reply) { typing.remove(); add(reply, "bot"); });
+  }
+  panel.querySelector("#nxSend").addEventListener("click", send);
+  panel.querySelector("#nxIn").addEventListener("keydown", function (e) { if (e.key === "Enter") send(); });
+})();
+

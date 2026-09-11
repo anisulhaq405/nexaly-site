@@ -1,0 +1,102 @@
+# NexalyPlanner AI Assistant — Setup Guide (one-time, ~10 minutes, FREE)
+
+You now have a real AI chat assistant for your store. It:
+- Appears as a chat bubble on EVERY page (bottom-right), including all future pages automatically.
+- Reads your LIVE products + blog posts straight from `main.js` — when you add a new product or
+  article, the assistant already knows about it. You never have to "feed" it anything again.
+- Replies in whatever language the customer types in (English, Arabic, Spanish, French, etc.).
+- Sounds like a warm, human support person — not a robot.
+- Is powered by Cloudflare's FREE AI (Workers AI) — no monthly cost, no API key to manage, no
+  OpenAI account needed.
+
+It already works right now in a basic "local" mode (it can answer FAQs and recommend products by
+keyword matching) even before you finish this setup. Finishing the setup below turns on the full,
+natural-conversation AI brain.
+
+---
+
+## Part 1 — Create the free Cloudflare Worker (the AI "brain")
+
+1. Go to **https://dash.cloudflare.com** and sign up (free) or sign in.
+2. In the left sidebar, click **Workers & Pages** → **Create** → **Create Worker**.
+3. Give it a name, e.g. `nexaly-ai`. Click **Deploy** (it deploys a placeholder — that's fine).
+4. Click **Edit code** (opens the online code editor).
+5. Delete everything in the editor, and paste in the contents of the file
+   **`cloudflare-worker/worker.js`** (included in this bundle).
+6. Click **Save and Deploy**.
+7. Go to the Worker's **Settings → Bindings** (or "Variables and Bindings") tab.
+   Click **Add binding → Workers AI**. Name the binding exactly **`AI`** (capital letters).
+   Save.
+8. Back on the Worker's main page, copy its URL — it looks like:
+   `https://nexaly-ai.<your-subdomain>.workers.dev`
+
+That's it — your free AI backend is live. (Cloudflare's free plan includes a generous daily
+allowance of AI requests — more than enough for a store getting started.)
+
+---
+
+## Part 2 — Connect the website to your Worker
+
+1. Open **`assets/js/main.js`** from this bundle in a text editor.
+2. Find this line near the bottom (inside the "NexalyPlanner AI Assistant" section):
+   ```
+   var WORKER_URL = "PASTE-YOUR-CLOUDFLARE-WORKER-URL-HERE";
+   ```
+3. Replace the placeholder with the URL you copied in Part 1, for example:
+   ```
+   var WORKER_URL = "https://nexaly-ai.yourname.workers.dev";
+   ```
+4. Save the file.
+
+---
+
+## Part 3 — Upload to GitHub (same as always)
+
+This bundle already contains **every page on your site**, each pointing to
+`assets/js/main.js?v=34` so the new assistant appears immediately everywhere — no cache issues.
+
+1. Extract the zip.
+2. In your GitHub repo root, **Add file → Upload files**.
+3. Select **everything extracted** (all folders + files) and drag them in together
+   (don't open the folders — drag the folders themselves).
+4. Commit: `add AI assistant (all pages)`.
+5. Wait 1–3 minutes for auto-deploy, then open the site in an incognito window.
+
+You should see a round chat button in the bottom-right corner of every page. Click it, say hello,
+and try asking it about a product in English, then try another language.
+
+---
+
+## How it stays "hands-free" going forward
+
+Every time you add a new product or blog post the way you already do (I hand you a bundle that
+updates `main.js`), the assistant's knowledge updates automatically — it reads the same
+`products` and `posts` lists that power your homepage and category pages. You do not need to
+tell the assistant anything separately.
+
+If you ever want to change its personality, name, or greeting, those are the top few lines of the
+widget code (`CFG` object) — just ask me and I'll adjust and re-bundle it for you.
+
+---
+
+## Cost
+
+- Cloudflare Workers: free tier is enough for this use case.
+- Cloudflare Workers AI: free tier includes a daily allowance of neurons (AI compute) — plenty for
+  a growing store; if you ever exceed it, Cloudflare simply asks you to add a low-cost pay-as-you-go
+  budget (fractions of a cent per conversation) — there is no forced subscription.
+- No other service, API key, or monthly bill is required.
+
+---
+
+## If something doesn't work
+
+- **Chat bubble doesn't appear:** make sure the page loaded `assets/js/main.js?v=34` — hard refresh
+  or open in incognito.
+- **Assistant replies but stays generic / doesn't use the real AI:** double-check `WORKER_URL` in
+  `main.js` is your real Worker URL (not the placeholder), and that the `AI` binding was added in
+  Cloudflare (Part 1, step 7).
+- **CORS or network error in the browser console:** confirm the Worker deployed successfully and
+  the URL is copied exactly (https, no trailing typo).
+
+Send me a screenshot of any error and I'll fix it right away.
