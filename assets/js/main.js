@@ -33,6 +33,10 @@ var products = [
   {title:"Gratitude Journal Planner", cat:"Digital Planners", desc:"A gentle daily journal for gratitude, reflection, and calm.", price:8, img:"", video:"", buyUrl:"", m1:"#F3E3CC", m2:"#DCE5D5"}
 ];
 var posts = [
+  {"tag":"Small Business Software","title":"The Best Offline Small Business Software in 2026 (No Subscription)","date":"Sep 2026 · 7 min","url":"/journal/best-offline-small-business-software/","img":"/images/products/repairbench-os/repairbench-os-owner-dashboard.jpg","alt":"offline small business software dashboard showing revenue, gross profit and a job pipeline"},
+  {"tag":"Digital Planners","title":"Digital Planners That Work Offline: A 2026 Buyer's Guide","date":"Sep 2026 · 6 min","url":"/journal/offline-digital-planners-guide/","img":"/images/products/ai-student-planner/ai-student-planner-dashboard-analytics.jpg","alt":"offline digital planner dashboard with study time, tasks, streaks and analytics"},
+  {"tag":"No Subscription","title":"Subscription Fatigue Is Real: Why One-Time-Purchase, Offline Apps Win","date":"Sep 2026 · 6 min","url":"/journal/why-one-time-purchase-offline-apps/","img":"/images/products/digital-homeschool-planner/digital-homeschool-planner-parent-command-center.jpg","alt":"offline app dashboard that works without a monthly subscription, data stored on device"},
+
   {
     "tag": "Inventory",
     "title": "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
