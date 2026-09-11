@@ -22,25 +22,16 @@ var products = [
   {title:"VendorPulse OS — Offline Supplier Management, Purchase Orders & Landed Cost", cat:"Business Operating Systems", desc:"Manage suppliers, materials, quote comparisons, true landed cost, purchase orders, deposits, partial deliveries, backorders, rejects, quality, supplier invoices, payments and scorecards in a private offline purchasing system.", price:11.99, img:"/images/products/vendorpulse-os.png", video:"", buyUrl:"", url:"/planners/vendorpulse-os/", m1:"#DFF3E9", m2:"#CBE9DA"},
   {title:"Sales Management System — Offline Inventory, Orders & Profit Dashboard", cat:"Business Operating Systems", desc:"Manage sales, FIFO inventory, orders, purchases, suppliers, returns, expenses, cash, customer balances, invoices, profit and loss, advertising ROAS, CRM, employees, payroll, commissions and tasks in one private offline business system.", price:11.99, img:"/images/products/sales-management-system.png", fit:"contain", video:"", buyUrl:"", url:"/planners/sales-management-system/", m1:"#111827", m2:"#171D32"},
   {title:"RentFlow OS — Offline Equipment Rental Manager", cat:"Business Operating Systems", desc:"Run an equipment, party or event rental business offline with booking and availability tracking, deposits, returns, maintenance schedules, double-booking risk checks, quote-to-profit workflows and asset profitability insights.", price:11.99, img:"/images/products/rentflow-os.jpg?v=2", video:"", buyUrl:"", url:"/planners/rentflow-os/", m1:"#DCE7E5", m2:"#CFE0DA"},
-  {title:"Offline AI Business Copilot", cat:"Business Operating Systems", desc:"Use a private offline business dashboard to monitor sales, cash, net position, overdue invoices, marketing ROAS and CAC, a 13-week cash outlook and business goals, then create structured decision briefs with the built-in offline AI copilot.", price:11.99, img:"/images/products/offline-ai-business-copilot.jpg?v=2", video:"", buyUrl:"", url:"/planners/offline-ai-business-copilot/", m1:"#EDE6D4", m2:"#DCE5D5"},
-  {title:"Daily Ritual Planner", cat:"Digital Planners", desc:"A calm daily spread for priorities, rituals, and reflection.", price:12, img:"", video:"", buyUrl:"", m1:"#EDE6D4", m2:"#DCE5D5"},
-  {title:"Focus & Flow Planner", cat:"Digital Planners", desc:"One page, one day. Top three priorities and a simple time block.", price:14, was:18, img:"", video:"", buyUrl:"", m1:"#F3E3CC", m2:"#EDE6D4"},
-  {title:"Wellness Planner", cat:"Digital Planners", desc:"Track habits, mood, movement, and meals in one gentle place.", price:10, img:"", video:"", buyUrl:"", m1:"#DCE5D5", m2:"#EFE3CE"},
-  {title:"Seasonal Planner", cat:"Digital Planners", desc:"Plan by season — goals, intentions, and a quarterly rhythm.", price:12, img:"", video:"", buyUrl:"", m1:"#EFE0D2", m2:"#E6D9BF"},
-  {title:"Weekly Reset Planner", cat:"Digital Planners", desc:"A Monday-to-Sunday reset for a tidy, intentional week.", price:10, img:"", video:"", buyUrl:"", m1:"#E4D9C0", m2:"#DCE5D5"},
-  {title:"Goals & Milestones Planner", cat:"Digital Planners", desc:"Break big goals into quarters, months, and simple weekly moves.", price:13, img:"", video:"", buyUrl:"", m1:"#DCE5D5", m2:"#EFE0D2"},
-  {title:"Meal Plan & Grocery Planner", cat:"Digital Planners", desc:"Plan a week of meals and build your grocery list in minutes.", price:9, img:"", video:"", buyUrl:"", m1:"#EFE3CE", m2:"#E4D9C0"},
-  {title:"Gratitude Journal Planner", cat:"Digital Planners", desc:"A gentle daily journal for gratitude, reflection, and calm.", price:8, img:"", video:"", buyUrl:"", m1:"#F3E3CC", m2:"#DCE5D5"}
+  {title:"Offline AI Business Copilot", cat:"Business Operating Systems", desc:"Use a private offline business dashboard to monitor sales, cash, net position, overdue invoices, marketing ROAS and CAC, a 13-week cash outlook and business goals, then create structured decision briefs with the built-in offline AI copilot.", price:11.99, img:"/images/products/offline-ai-business-copilot.jpg?v=2", video:"", buyUrl:"", url:"/planners/offline-ai-business-copilot/", m1:"#EDE6D4", m2:"#DCE5D5"}
 ];
 var posts = [
-  {"tag":"Small Business Software","title":"The Best Offline Small Business Software in 2026 (No Subscription)","date":"Sep 2026 · 7 min","url":"/journal/best-offline-small-business-software/","img":"/images/products/repairbench-os/repairbench-os-owner-dashboard.jpg","alt":"offline small business software dashboard showing revenue, gross profit and a job pipeline"},
-  {"tag":"Digital Planners","title":"Digital Planners That Work Offline: A 2026 Buyer's Guide","date":"Sep 2026 · 6 min","url":"/journal/offline-digital-planners-guide/","img":"/images/products/ai-student-planner/ai-student-planner-dashboard-analytics.jpg","alt":"offline digital planner dashboard with study time, tasks, streaks and analytics"},
-  {"tag":"No Subscription","title":"Subscription Fatigue Is Real: Why One-Time-Purchase, Offline Apps Win","date":"Sep 2026 · 6 min","url":"/journal/why-one-time-purchase-offline-apps/","img":"/images/products/digital-homeschool-planner/digital-homeschool-planner-parent-command-center.jpg","alt":"offline app dashboard that works without a monthly subscription, data stored on device"},
-
+  {"tag":"Small Business Software","title":"The Best Offline Small Business Software in 2026 (No Subscription)","date":"Sep 10, 2026 · 7 min","url":"/journal/best-offline-small-business-software/","img":"/images/products/repairbench-os/repairbench-os-owner-dashboard.jpg","alt":"offline small business software dashboard showing revenue, gross profit and a job pipeline"},
+  {"tag":"Digital Planners","title":"Digital Planners That Work Offline: A 2026 Buyer's Guide","date":"Sep 9, 2026 · 6 min","url":"/journal/offline-digital-planners-guide/","img":"/images/products/ai-student-planner/ai-student-planner-dashboard-analytics.jpg","alt":"offline digital planner dashboard with study time, tasks, streaks and analytics"},
+  {"tag":"No Subscription","title":"Subscription Fatigue Is Real: Why One-Time-Purchase, Offline Apps Win","date":"Sep 8, 2026 · 6 min","url":"/journal/why-one-time-purchase-offline-apps/","img":"/images/products/digital-homeschool-planner/digital-homeschool-planner-parent-command-center.jpg","alt":"offline app dashboard that works without a monthly subscription, data stored on device"},
   {
     "tag": "Inventory",
     "title": "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
-    "date": "Sep 2026 · 5 min",
+    "date": "Sep 7, 2026 · 5 min",
     "url": "/journal/boutique-inventory-spreadsheet/",
     "img": "/images/products/boutique-business-planner/03_fillable-type-anywhere.png?v=journal8",
     "alt": "boutique inventory spreadsheet template for tracking sizes colors SKUs stock levels and product variants",
@@ -49,7 +40,7 @@ var posts = [
   {
     "tag": "Order Tracking",
     "title": "How to Keep Track of Small Business Orders in One Place",
-    "date": "Sep 2026 · 5 min",
+    "date": "Sep 6, 2026 · 5 min",
     "url": "/journal/track-small-business-orders/",
     "img": "/images/products/sales-management-system/9-inventory-orders.png?v=journal8",
     "alt": "small business order tracker dashboard for payments fulfillment customer orders and delivery status",
@@ -58,7 +49,7 @@ var posts = [
   {
     "tag": "Inventory Software",
     "title": "Inventory Software Without a Subscription: What to Check Before Buying",
-    "date": "Sep 2026 · 5 min",
+    "date": "Sep 5, 2026 · 5 min",
     "url": "/journal/inventory-software-without-subscription/",
     "img": "/images/products/inventory-procurement-planner/01_dashboard.jpg?v=journal8",
     "alt": "inventory software without subscription dashboard for local stock control purchase orders and reorder planning",
@@ -67,7 +58,7 @@ var posts = [
   {
     "tag": "Sales Tracking",
     "title": "How to Connect Sales and Inventory Tracking for a Small Shop",
-    "date": "Sep 2026 · 5 min",
+    "date": "Sep 4, 2026 · 5 min",
     "url": "/journal/sales-inventory-tracking-small-business/",
     "img": "/images/products/sales-management-system/8-dashboard-closeup.png?v=journal8",
     "alt": "sales and inventory tracking for small business dashboard showing orders stock profit and customer records",
@@ -76,7 +67,7 @@ var posts = [
   {
     "tag": "Content Calendar",
     "title": "A 30-Day Content Calendar for a Clothing Brand",
-    "date": "Sep 2026 · 5 min",
+    "date": "Sep 3, 2026 · 5 min",
     "url": "/journal/content-calendar-clothing-brand/",
     "img": "/images/products/content-marketing-planner/content-marketing-planner-visual-content-calendar.jpg?v=journal8",
     "alt": "30 day content calendar for clothing brand with weekly product posts reels campaigns and sales content plan",
@@ -85,7 +76,7 @@ var posts = [
   {
     "tag": "Social Content",
     "title": "30 Boutique Social Media Post Ideas With Clear Sales CTAs",
-    "date": "Sep 2026 · 6 min",
+    "date": "Sep 2, 2026 · 6 min",
     "url": "/journal/boutique-social-media-post-ideas/",
     "img": "/images/products/content-marketing-planner/content-marketing-planner-content-hub.jpg?v=journal8",
     "alt": "boutique social media post ideas content hub for product posts styling posts trust posts and sales CTAs",
@@ -94,7 +85,7 @@ var posts = [
   {
     "tag": "Marketing Plan",
     "title": "Black Friday Marketing Plan for a Small Clothing Business",
-    "date": "Sep 2026 · 5 min",
+    "date": "Sep 1, 2026 · 5 min",
     "url": "/journal/black-friday-marketing-plan-small-business/",
     "img": "/images/products/content-marketing-planner/content-marketing-planner-analytics-what-sells.jpg?v=journal8",
     "alt": "Black Friday marketing plan for small clothing business with campaign calendar content analytics and sales tracking",
@@ -103,7 +94,7 @@ var posts = [
   {
     "tag": "Homeschool Schedule",
     "title": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
-    "date": "Sep 2026 · 5 min",
+    "date": "Aug 31, 2026 · 5 min",
     "url": "/journal/homeschool-schedule-multiple-ages/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-lesson-planner-calendar.jpg?v=journal8",
     "alt": "homeschool schedule for multiple ages with lesson calendar shared family blocks and individual child planning",
@@ -112,7 +103,7 @@ var posts = [
   {
     "tag": "Attendance Tracker",
     "title": "Homeschool Attendance Tracker: A Simple Daily Record",
-    "date": "Sep 2026 · 5 min",
+    "date": "Aug 30, 2026 · 5 min",
     "url": "/journal/homeschool-attendance-tracker/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-reports-transcript.jpg?v=journal8",
     "alt": "homeschool attendance tracker for daily records child attendance reports and printable homeschool documentation",
@@ -121,7 +112,7 @@ var posts = [
   {
     "tag": "Homeschool Planner",
     "title": "Choosing a Homeschool Planner for Multiple Children",
-    "date": "Sep 2026 · 5 min",
+    "date": "Aug 29, 2026 · 5 min",
     "url": "/journal/homeschool-planner-multiple-children/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-multiple-child-profiles.jpg?v=journal8",
     "alt": "homeschool planner for multiple children with separate child profiles lessons gradebook attendance and family schedule",
@@ -130,7 +121,7 @@ var posts = [
   {
     "tag": "Student Planner",
     "title": "Assignment Tracker for College Students: Set Up Your Semester",
-    "date": "Sep 2026 · 5 min",
+    "date": "Aug 28, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
     "img": "/images/products/ai-student-planner/ai-student-planner-plan-track-stay-ahead.jpg?v=journal8",
     "alt": "college assignment tracker for semester deadlines coursework priorities study tasks and student planning dashboard",
@@ -139,7 +130,7 @@ var posts = [
   {
     "tag": "Study Schedule",
     "title": "Exam Study Schedule Template: Plan the Weeks Before Finals",
-    "date": "Sep 2026 · 5 min",
+    "date": "Aug 27, 2026 · 5 min",
     "url": "/journal/exam-study-schedule-template/",
     "img": "/images/products/ai-student-planner/ai-student-planner-learning-os-dashboard.jpg?v=journal8",
     "alt": "exam study schedule template for finals revision practice sessions study blocks and student planner dashboard",
