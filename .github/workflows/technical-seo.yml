@@ -6,7 +6,7 @@ on:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 concurrency:
   group: technical-seo-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: false
@@ -17,22 +17,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.sha || github.sha }}
           fetch-depth: 1
-      - name: Rebuild and validate SEO
-        run: |
-          python3 scripts/test-seo.py
-          python3 scripts/seo-build.py
-          python3 scripts/seo-build.py --check
-      - name: Commit generated metadata and listings
-        if: github.event_name != 'pull_request'
-        run: |
-          git add -- '*.html' assets/js/main.js assets/seo-pages.json sitemap.xml robots.txt
-          if git diff --cached --quiet; then
-            echo 'SEO is already up to date.'
-            exit 0
-          fi
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'Automatically refresh technical SEO and crawlable listings'
-          git push origin HEAD:main
+          persist-credentials: false
+      - name: Verify committed SEO output
+        run: python3 scripts/seo-build.py --check
+      - name: Test publishing and protected storefront
+        run: python3 scripts/test-seo.py

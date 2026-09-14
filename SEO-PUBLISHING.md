@@ -1,47 +1,30 @@
-# Automatic technical SEO
+# Validated technical SEO publishing
 
-Publish complete product pages at `planners/<slug>/index.html` and complete articles at
-`journal/<slug>/index.html` in this repository. GitHub Actions runs after pushes to
-main, updates generated files, and commits the output. Hostinger remains the existing
-deployment provider. This is post-push maintenance, not a pre-deployment gate.
+Main is the existing Hostinger deployment branch. Publish every content batch through a feature branch and pull request.
 
-The pipeline discovers published pages, maintains unique self-canonicals and social
-metadata, generates sitemap.xml, and synchronizes static and JavaScript catalogues.
-New articles appear first after initial migration. Existing catalogue titles, prices,
-categories, imagery, checkout logic, header, footer and CSS are preserved.
+1. Add or update complete pages under journal/<slug>/index.html or planners/<slug>/index.html.
+2. Run python3 scripts/seo-build.py to generate canonical/social metadata, sitemap and static/JavaScript listings.
+3. Run python3 scripts/test-seo.py, then python3 scripts/seo-build.py --check.
+4. Commit all source and generated changes together.
+5. Open a PR to main. Wait for the rebuild status check on the current revision; merge only when successful.
+6. Verify the live deployment, article/listing content and sitemap.
 
-Existing metadata is retained where appropriate. A missing title is derived from the
-H1; a missing description comes from the first substantive paragraph. These are fallback
-values, not a replacement for writing accurate product information.
+The workflow is read-only. It checks committed generated output BEFORE running isolated regression tests. It no longer commits directly to main after deployment, so it is compatible with mandatory PR protection. Stale generated output fails CI instead of reaching main through the approved flow.
 
-New product pages need a real price in Product JSON-LD offers or a
-`product:price:amount` meta tag. Provide `nexaly:category` as `Digital Planners` or
-`Business Operating Systems` for automatic category placement; otherwise the product
-appears in All Products. Supply a real `og:image` and the actual checkout link in the
-page. Never fabricate a price, review, stock claim, AI capability or checkout URL.
+## Validation and protected scope
 
-Use `noindex` in robots metadata for drafts/private pages. They are excluded from
-the sitemap and generated catalogues. Changing an established URL requires a hosting
-redirect; this tool does not guess deleted-page destinations.
+Validation rejects missing internal targets (including header/footer links), duplicate document titles/descriptions, invalid JSON-LD, missing images and invalid/mismatched product price or checkout data. The legacy-link exceptions have been removed after the owner's authorized navigation repair.
 
-Run `python3 scripts/seo-build.py` before committing for a single-step publish, or let
-the automatic workflow maintain output after a push. Run `--check` to verify generated
-output is current. Python 3 and Node.js are required, with no package installation.
+Checkout validation checks HTTPS Polar URL structure and consistency, not payment-provider availability; no payment is made. Existing product detail files, product catalogue, prices, bundles, CSS, worker and checkout JS are preserved by tests. Journal cards refresh title, description, image and alt text from page metadata. Publication dates and editorial order are retained.
 
-A workflow failure is visible in GitHub Actions. Existing Hostinger auto-deployment
-does not wait for this job, so invalid source changes can still reach the host.
-GitHub Actions must remain enabled with permission to commit generated files.
-Hosting availability, Google indexing, rankings, factual copy, image quality and
-payment-provider setup remain outside this generator's guarantees.
+New products need their real price, an existing image, actual HTTPS Polar checkout link, and the appropriate nexaly:category (Digital Planners or Business Operating Systems). Noindex drafts stay out of sitemap/listings. A custom draft status also needs robots noindex. URL changes need genuine hosting redirects; never redirect an unavailable calculator to an unrelated product.
 
-## Strong publishing checks
+## One-time GitHub enforcement activation
 
-Use a feature branch and pull request for every content batch. Run `python3 scripts/test-seo.py`, then `python3 scripts/seo-build.py`, then `python3 scripts/seo-build.py --check` before committing. The PR workflow validates the proposed revision before merge. Merge only after its rebuild check succeeds. Main remains the existing Hostinger publishing branch.
+The prepared ruleset is docs/nexaly-main-protection.json. It requires a PR, an up-to-date successful rebuild check, blocks force pushes/deletion, and has no bypass actors. It allows the solo repository owner to merge their own passing PR (zero mandatory reviewers).
 
-Validation rejects duplicate document titles/descriptions, malformed JSON-LD, missing local link/image/script targets, incomplete product images, missing or inconsistent prices, and missing HTTPS Polar checkout URLs. Checkout validation checks the configured URL format and catalogue consistency; it does not charge a card or verify provider-side availability. Existing product detail files remain unchanged during journal catalogue refreshes. Existing journal cards now refresh title, description, image and alt text from their page. Dates and editorial ordering are retained.
+Repository administrators must import this JSON under Settings > Rules > Rulesets > New ruleset > Import a ruleset, review Active enforcement and main targeting, then Create. Saving the JSON in git does not activate protection. The connected GitHub tools do not expose administration writes.
 
-Repository branch protection and Hostinger settings cannot be enforced by these files. Configure main to require a pull request and the rebuild status check to block direct unvalidated publication. Until configured, users with push access can bypass the PR workflow. Direct Hostinger uploads also bypass GitHub checks. External redirects, TLS, live uptime, performance and Google indexing require live verification.
+After activation, verify the ruleset is Active and main is protected through GitHub's rules/branch endpoints. Do not claim enforcement until verified. Direct Hostinger uploads remain outside GitHub's rules. Hosting/TLS, performance and Google indexing require separate live verification.
 
-## Known protected navigation issue
-
-The older `journal/how-to-run-a-one-person-business-with-ai/` header/footer contains four legacy destinations without repository pages: `/products/business-operating-system/`, `/products/digital-planners/`, `/products/cash-flow-tracker/`, and `/business-runway-breakeven-calculator/`. The owner explicitly requires header/footer preservation. These exact destinations in those protected regions are reported as warnings; new missing destinations and article-body links fail validation. This is a known unresolved issue, not a clean all-links pass. Fix requires an approved navigation correction or genuine equivalent hosting redirects. Never redirect an unavailable calculator to an unrelated product just to hide a 404.
+The four broken legacy navigation destinations in the old AI-business journal have been replaced with existing category, Journal and Business Copilot pages. Design and unrelated links remain unchanged.
