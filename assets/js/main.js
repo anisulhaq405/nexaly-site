@@ -203,7 +203,7 @@ var posts = [
     "title": "Reorder Point Calculation for Small Business: Worked Examples",
     "excerpt": "Calculate reorder points with daily demand, lead time and safety stock. Worked SKU examples explain open orders, case packs and weekly inventory reviews.",
     "img": "/images/journal/reorder-point-small-business.png",
-    "alt": "Reorder Point Calculation for Small Business: Worked Examples",
+    "alt": "Reorder point example: four units per day times seven lead-time days plus twelve safety-stock units equals forty units",
     "tag": "Planning Guides",
     "date": ""
   },
@@ -239,18 +239,18 @@ var posts = [
     "title": "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/boutique-inventory-spreadsheet/",
-    "img": "/images/products/boutique-business-planner/03_fillable-type-anywhere.png?v=journal8",
-    "alt": "boutique inventory spreadsheet template for tracking sizes colors SKUs stock levels and product variants",
-    "excerpt": "Build a cleaner boutique inventory spreadsheet with separate rows for sizes, colors, SKUs, available stock and reserved units."
+    "img": "/images/products/boutique-business-planner/03_fillable-type-anywhere.png",
+    "alt": "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
+    "excerpt": "Track boutique stock by size, color and SKU. Download a free inventory spreadsheet and learn how to handle receipts, reservations, returns and stock checks."
   },
   {
     "tag": "Order Tracking",
     "title": "How to Keep Track of Small Business Orders in One Place",
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/track-small-business-orders/",
-    "img": "/images/products/sales-management-system/9-inventory-orders.png?v=journal8",
-    "alt": "small business order tracker dashboard for payments fulfillment customer orders and delivery status",
-    "excerpt": "Organize order numbers, customer details, payment status, fulfillment progress and next actions in one reliable order log."
+    "img": "/images/products/sales-management-system/9-inventory-orders.png",
+    "alt": "How to Keep Track of Small Business Orders in One Place",
+    "excerpt": "Organize small-business orders with a free tracker. Separate payments, partial shipments and next actions so every confirmed order has a clear record."
   },
   {
     "tag": "Inventory Software",
@@ -258,96 +258,96 @@ var posts = [
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/inventory-software-without-subscription/",
     "img": "/images/journal/inventory-software-buying-checklist.png",
-    "alt": "Inventory software buying checklist for workflow, backup and license tests",
-    "excerpt": "Compare offline inventory tools, spreadsheets and paid systems before choosing subscription-free software for your shop."
+    "alt": "Inventory software buying checklist covering sale and return tests, backup recovery and license costs",
+    "excerpt": "Considering inventory software without a subscription? Use this buying checklist to compare licenses, offline workflows, backups, returns and data exports."
   },
   {
     "tag": "Sales Tracking",
     "title": "How to Connect Sales and Inventory Tracking for a Small Shop",
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/sales-inventory-tracking-small-business/",
-    "img": "/images/products/sales-management-system/8-dashboard-closeup.png?v=journal8",
-    "alt": "sales and inventory tracking for small business dashboard showing orders stock profit and customer records",
-    "excerpt": "Connect sales, stock movements, returns, payments and customer records so every fulfilled order updates the right business data."
+    "img": "/images/products/sales-management-system/8-dashboard-closeup.png",
+    "alt": "How to Connect Sales and Inventory Tracking for a Small Shop",
+    "excerpt": "See how one small-shop sale connects order amounts, payments and stock. Download a worked example with formulas for fulfilled units and merchandise costs."
   },
   {
     "tag": "Content Calendar",
     "title": "A 30-Day Content Calendar for a Clothing Brand",
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/content-calendar-clothing-brand/",
-    "img": "/images/products/content-marketing-planner/content-marketing-planner-visual-content-calendar.jpg?v=journal8",
-    "alt": "30 day content calendar for clothing brand with weekly product posts reels campaigns and sales content plan",
-    "excerpt": "Plan a month of product posts, reels, customer questions, selling angles and campaign content for a clothing brand."
+    "img": "/images/products/content-marketing-planner/content-marketing-planner-visual-content-calendar.jpg",
+    "alt": "A 30-Day Content Calendar for a Clothing Brand",
+    "excerpt": "Plan clothing-brand content with a free 30-day calendar. Get product-detail ideas, formats, clear CTAs and a practical routine for reviewing results."
   },
   {
     "tag": "Social Content",
     "title": "30 Boutique Social Media Post Ideas With Clear Sales CTAs",
     "date": "Sep 8, 2026 · 6 min",
     "url": "/journal/boutique-social-media-post-ideas/",
-    "img": "/images/products/content-marketing-planner/content-marketing-planner-content-hub.jpg?v=journal8",
-    "alt": "boutique social media post ideas content hub for product posts styling posts trust posts and sales CTAs",
-    "excerpt": "Use practical boutique post ideas that answer buyer questions, show product details and guide shoppers toward the next step."
+    "img": "/images/products/content-marketing-planner/content-marketing-planner-content-hub.jpg",
+    "alt": "30 Boutique Social Media Post Ideas With Clear Sales CTAs",
+    "excerpt": "Explore 30 boutique social media post ideas with hooks, visuals and CTAs. Download an editable idea bank for product details, styling, offers and questions."
   },
   {
     "tag": "Marketing Plan",
     "title": "Black Friday Marketing Plan for a Small Clothing Business",
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/black-friday-marketing-plan-small-business/",
-    "img": "/images/products/content-marketing-planner/content-marketing-planner-analytics-what-sells.jpg?v=journal8",
-    "alt": "Black Friday marketing plan for small clothing business with campaign calendar content analytics and sales tracking",
-    "excerpt": "Prepare offer rules, stock checks, content phases, checkout tests and fulfillment routines before Black Friday traffic arrives."
+    "img": "/images/products/content-marketing-planner/content-marketing-planner-analytics-what-sells.jpg",
+    "alt": "Black Friday Marketing Plan for a Small Clothing Business",
+    "excerpt": "Build a 2026 Black Friday marketing plan for your small clothing business. Use a free workback checklist for content, stock, offer terms and checkout tests."
   },
   {
     "tag": "Homeschool Schedule",
     "title": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/homeschool-schedule-multiple-ages/",
-    "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-lesson-planner-calendar.jpg?v=journal8",
-    "alt": "homeschool schedule for multiple ages with lesson calendar shared family blocks and individual child planning",
-    "excerpt": "Create shared learning blocks, individual lesson rotations and flexible family schedules for multiple ages at home."
+    "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-lesson-planner-calendar.jpg",
+    "alt": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
+    "excerpt": "Plan a homeschool day for multiple ages with three flexible examples. Download schedules for shared activities, individual lessons and split-day routines."
   },
   {
     "tag": "Attendance Tracker",
     "title": "Homeschool Attendance Tracker: A Simple Daily Record",
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/homeschool-attendance-tracker/",
-    "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-reports-transcript.jpg?v=journal8",
-    "alt": "homeschool attendance tracker for daily records child attendance reports and printable homeschool documentation",
-    "excerpt": "Keep clear daily attendance records for each child, review duplicate entries and understand what your totals actually show."
+    "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-reports-transcript.jpg",
+    "alt": "Homeschool Attendance Tracker: A Simple Daily Record",
+    "excerpt": "Download a free homeschool attendance tracker. Keep separate daily records for each child, review duplicate entries and understand what the totals mean."
   },
   {
     "tag": "Homeschool Planner",
     "title": "Choosing a Homeschool Planner for Multiple Children",
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/homeschool-planner-multiple-children/",
-    "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-multiple-child-profiles.jpg?v=journal8",
-    "alt": "homeschool planner for multiple children with separate child profiles lessons gradebook attendance and family schedule",
-    "excerpt": "Choose a planner that shows the family day while keeping each child’s lessons, progress and records separate."
+    "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-multiple-child-profiles.jpg",
+    "alt": "Choosing a Homeschool Planner for Multiple Children",
+    "excerpt": "Choose a homeschool planner for multiple children with a practical checklist. Compare shared schedules, separate records, rescheduling, exports and backups."
   },
   {
     "tag": "Student Planner",
     "title": "Assignment Tracker for College Students: Set Up Your Semester",
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
-    "img": "/images/products/ai-student-planner/ai-student-planner-plan-track-stay-ahead.jpg?v=journal8",
-    "alt": "college assignment tracker for semester deadlines coursework priorities study tasks and student planning dashboard",
-    "excerpt": "Turn assignment deadlines into start dates, weekly priorities, status updates and next actions for a clearer semester plan."
+    "img": "/images/products/ai-student-planner/ai-student-planner-plan-track-stay-ahead.jpg",
+    "alt": "Assignment Tracker for College Students: Set Up Your Semester",
+    "excerpt": "Organize college assignments with a free tracker. Record due dates, next actions and planned work, then use editable flags to review approaching deadlines."
   },
   {
     "tag": "Study Schedule",
     "title": "Exam Study Schedule Template: Plan the Weeks Before Finals",
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/exam-study-schedule-template/",
-    "img": "/images/products/ai-student-planner/ai-student-planner-learning-os-dashboard.jpg?v=journal8",
-    "alt": "exam study schedule template for finals revision practice sessions study blocks and student planner dashboard",
-    "excerpt": "Plan study sessions, practice checks, revision blocks and recovery days before finals without filling a calendar with vague study time."
+    "img": "/assets/journal/exam-study-schedule-template.svg",
+    "alt": "Exam Study Schedule Template: Plan the Weeks Before Finals",
+    "excerpt": "Download an exam study schedule template with an editable ten-day plan. Organize practice, review, flexible time and exam logistics before finals."
   },
   {
     "url": "/journal/how-to-run-a-one-person-business-with-ai/",
     "title": "How to run a one-person business with AI",
     "excerpt": "A practical guide to running a one-person business with AI: which work to hand off, which to keep, the tools that replace early hires, and the operations gap most solo founders miss.",
-    "img": "",
-    "alt": "How to run a one-person business with AI",
+    "img": "/assets/journal/one-person-business-ai-org-chart.svg",
+    "alt": "A solo business owner coordinates AI support for research, content, support and bookkeeping",
     "tag": "Planning Guides",
     "date": ""
   }
