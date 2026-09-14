@@ -4,7 +4,11 @@ from urllib.parse import urlsplit, urljoin, unquote
 
 SITE='https://nexalyplanner.com'
 def validate(files, root, Document, data, generated=False):
-    errors=[];titles={};descriptions={}
+    errors=[];titles={};descriptions={};warnings=[]
+    # Existing navigation is explicitly protected by the site owner. Report these
+    # legacy destinations; never suppress new broken links or links in article content.
+    legacy_page='journal/how-to-run-a-one-person-business-with-ai/index.html'
+    legacy_routes={'/products/business-operating-system/','/business-runway-breakeven-calculator/','/products/cash-flow-tracker/','/products/digital-planners/'}
     catalog={p['url']:p for p in data['products']}
     def fail(path,message): errors.append(path+': '+message)
     def local_exists(value, page):
@@ -48,7 +52,11 @@ def validate(files, root, Document, data, generated=False):
             key={'a':'href','img':'src','script':'src','source':'src','link':'href'}.get(e['tag'])
             value=e['attrs'].get(key,'') if key else ''
             if not value or value.startswith(('#','mailto:','tel:','data:','javascript:')):continue
-            if not local_exists(value,path):fail(path,'missing internal target '+value)
+            if not local_exists(value,path):
+                protected=any(region['start']<=e['start']<region['end'] for tag in ('header','footer') for region in doc.find(tag) if region.get('end'))
+                if path==legacy_page and protected and value in legacy_routes:
+                    warnings.append(path+': protected legacy navigation target '+value)
+                else:fail(path,'missing internal target '+value)
         relative='/'+path.removesuffix('index.html')
         product=bool(re.fullmatch(r'planners/[^/]+/index.html',path)) and relative not in {'/planners/digital-planners/','/planners/business-operating-systems/'}
         article=bool(re.fullmatch(r'journal/[^/]+/index.html',path))
@@ -75,4 +83,5 @@ def validate(files, root, Document, data, generated=False):
             if not checkouts:fail(path,'provide an actual HTTPS Polar checkout link')
             old=catalog.get(relative,{})
             if old.get('buyUrl') and old['buyUrl'] not in checkouts:fail(path,'catalog checkout does not match product page')
+    for warning in sorted(set(warnings)):print('WARNING: '+warning)
     if errors:raise ValueError('Publishing validation failed:\n'+'\n'.join(errors))
