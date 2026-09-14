@@ -37,7 +37,8 @@ with tempfile.TemporaryDirectory(prefix='nexaly-seo-test-') as directory:
         good.replace('<a href="https://buy.polar.sh/test-fixture-only">Buy</a>',''),
         good.replace('/images/og-default.jpg','/images/missing-fixture.png'),
         good.replace('content="12.50"','content="NaN"'),
-        good.replace('</body>','<a href="/missing-fixture/">Broken</a></body>')]:
+        good.replace('</body>','<a href="/missing-fixture/">Broken</a></body>'),
+        good.replace('</body>','<header><a href="/products/business-operating-system/">Legacy broken link</a></header></body>')]:
         product.write_text(bad)
         before=(target/'assets/js/main.js').read_text()
         run(False)
