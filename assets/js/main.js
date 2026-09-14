@@ -199,6 +199,15 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/reorder-point-small-business/",
+    "title": "Reorder Point Calculation for Small Business: Worked Examples",
+    "excerpt": "Calculate reorder points with daily demand, lead time and safety stock. Worked SKU examples explain open orders, case packs and weekly inventory reviews.",
+    "img": "/images/journal/reorder-point-small-business.png",
+    "alt": "Reorder Point Calculation for Small Business: Worked Examples",
+    "tag": "Planning Guides",
+    "date": ""
+  },
+  {
     "tag": "Small Business Software",
     "title": "The Best Offline Small Business Software in 2026 (No Subscription)",
     "date": "Sep 11, 2026 · 7 min",
@@ -248,8 +257,8 @@ var posts = [
     "title": "Inventory Software Without a Subscription: What to Check Before Buying",
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/inventory-software-without-subscription/",
-    "img": "/images/products/inventory-procurement-planner/01_dashboard.jpg?v=journal8",
-    "alt": "inventory software without subscription dashboard for local stock control purchase orders and reorder planning",
+    "img": "/images/journal/inventory-software-buying-checklist.png",
+    "alt": "Inventory software buying checklist for workflow, backup and license tests",
     "excerpt": "Compare offline inventory tools, spreadsheets and paid systems before choosing subscription-free software for your shop."
   },
   {
