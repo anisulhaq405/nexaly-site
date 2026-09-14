@@ -1,0 +1,53 @@
+<svg viewBox="0 0 800 430" role="img" aria-label="Diagram of a solo founder at the centre making decisions, connected to six AI-handled functions: writing, design, research, customer support, bookkeeping, and operations." xmlns="http://www.w3.org/2000/svg">
+      <title>The solo operator's AI org chart</title>
+      <desc>A central node labelled You, decisions, taste, relationships, connected by lines to six outer nodes representing functions handled by AI tools.</desc>
+      <rect width="800" height="430" fill="#FFFFFF"/>
+      <!-- connecting lines -->
+      <g stroke="#C9D6DF" stroke-width="1.6">
+        <line x1="400" y1="215" x2="170" y2="95"/>
+        <line x1="400" y1="215" x2="630" y2="95"/>
+        <line x1="400" y1="215" x2="120" y2="215"/>
+        <line x1="400" y1="215" x2="680" y2="215"/>
+        <line x1="400" y1="215" x2="170" y2="335"/>
+        <line x1="400" y1="215" x2="630" y2="335"/>
+      </g>
+      <!-- outer nodes -->
+      <g font-family="IBM Plex Sans, sans-serif">
+        <g>
+          <rect x="88" y="66" width="164" height="58" rx="10" fill="#E6F2EE" stroke="#0B6E55" stroke-width="1.3"/>
+          <text x="170" y="90" text-anchor="middle" font-size="15" font-weight="600" fill="#07513F">Writing</text>
+          <text x="170" y="109" text-anchor="middle" font-size="11.5" fill="#647688">drafts, emails, copy</text>
+        </g>
+        <g>
+          <rect x="548" y="66" width="164" height="58" rx="10" fill="#E6F2EE" stroke="#0B6E55" stroke-width="1.3"/>
+          <text x="630" y="90" text-anchor="middle" font-size="15" font-weight="600" fill="#07513F">Design</text>
+          <text x="630" y="109" text-anchor="middle" font-size="11.5" fill="#647688">graphics, mockups</text>
+        </g>
+        <g>
+          <rect x="38" y="186" width="164" height="58" rx="10" fill="#E6F2EE" stroke="#0B6E55" stroke-width="1.3"/>
+          <text x="120" y="210" text-anchor="middle" font-size="15" font-weight="600" fill="#07513F">Research</text>
+          <text x="120" y="229" text-anchor="middle" font-size="11.5" fill="#647688">market, competitors</text>
+        </g>
+        <g>
+          <rect x="598" y="186" width="164" height="58" rx="10" fill="#E6F2EE" stroke="#0B6E55" stroke-width="1.3"/>
+          <text x="680" y="210" text-anchor="middle" font-size="15" font-weight="600" fill="#07513F">Support</text>
+          <text x="680" y="229" text-anchor="middle" font-size="11.5" fill="#647688">first-pass replies</text>
+        </g>
+        <g>
+          <rect x="88" y="306" width="164" height="58" rx="10" fill="#E6F2EE" stroke="#0B6E55" stroke-width="1.3"/>
+          <text x="170" y="330" text-anchor="middle" font-size="15" font-weight="600" fill="#07513F">Bookkeeping</text>
+          <text x="170" y="349" text-anchor="middle" font-size="11.5" fill="#647688">categorise, audit</text>
+        </g>
+        <g>
+          <rect x="548" y="306" width="164" height="58" rx="10" fill="#E6F2EE" stroke="#0B6E55" stroke-width="1.3"/>
+          <text x="630" y="330" text-anchor="middle" font-size="15" font-weight="600" fill="#07513F">Operations</text>
+          <text x="630" y="349" text-anchor="middle" font-size="11.5" fill="#647688">tracking, reminders</text>
+        </g>
+      </g>
+      <!-- center node -->
+      <circle cx="400" cy="215" r="82" fill="#0B6E55"/>
+      <circle cx="400" cy="215" r="82" fill="none" stroke="#07513F" stroke-width="2"/>
+      <text x="400" y="203" text-anchor="middle" font-family="Newsreader, serif" font-size="26" font-weight="560" fill="#FFFFFF">You</text>
+      <text x="400" y="228" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="#BFE6D8">decisions · taste</text>
+      <text x="400" y="245" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="#BFE6D8">relationships</text>
+    </svg>

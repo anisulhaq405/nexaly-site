@@ -2,11 +2,13 @@ name: Maintain technical SEO
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: write
 concurrency:
-  group: technical-seo-main
+  group: technical-seo-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: false
 jobs:
   rebuild:
@@ -15,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
           fetch-depth: 1
       - name: Rebuild and validate SEO
         run: |
@@ -23,6 +25,7 @@ jobs:
           python3 scripts/seo-build.py
           python3 scripts/seo-build.py --check
       - name: Commit generated metadata and listings
+        if: github.event_name != 'pull_request'
         run: |
           git add -- '*.html' assets/js/main.js assets/seo-pages.json sitemap.xml robots.txt
           if git diff --cached --quiet; then
