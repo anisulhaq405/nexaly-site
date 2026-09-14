@@ -33,3 +33,11 @@ does not wait for this job, so invalid source changes can still reach the host.
 GitHub Actions must remain enabled with permission to commit generated files.
 Hosting availability, Google indexing, rankings, factual copy, image quality and
 payment-provider setup remain outside this generator's guarantees.
+
+## Strong publishing checks
+
+Use a feature branch and pull request for every content batch. Run `python3 scripts/test-seo.py`, then `python3 scripts/seo-build.py`, then `python3 scripts/seo-build.py --check` before committing. The PR workflow validates the proposed revision before merge. Merge only after its rebuild check succeeds. Main remains the existing Hostinger publishing branch.
+
+Validation rejects duplicate document titles/descriptions, malformed JSON-LD, missing local link/image/script targets, incomplete product images, missing or inconsistent prices, and missing HTTPS Polar checkout URLs. Checkout validation checks the configured URL format and catalogue consistency; it does not charge a card or verify provider-side availability. Existing product detail files remain unchanged during journal catalogue refreshes. Existing journal cards now refresh title, description, image and alt text from their page. Dates and editorial ordering are retained.
+
+Repository branch protection and Hostinger settings cannot be enforced by these files. Configure main to require a pull request and the rebuild status check to block direct unvalidated publication. Until configured, users with push access can bypass the PR workflow. Direct Hostinger uploads also bypass GitHub checks. External redirects, TLS, live uptime, performance and Google indexing require live verification.

@@ -4,6 +4,7 @@ import argparse, hashlib, html, json, re, subprocess
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
+from seo_validate import validate
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -50,7 +51,7 @@ def replace_inner(source, ident, contents):
     e=entries[0];return source[:e['open_end']]+'\n'+contents+'\n'+source[e['close_start']:]
 def metadata(source,url):
     doc=Document(source)
-    heads=doc.find('head');titles=doc.find('title');h1=doc.find('h1')
+    heads=doc.find('head');titles=[e for e in doc.find('title') if heads and e['start'] < heads[0]['end']];h1=doc.find('h1')
     if len(heads)!=1 or len(h1)!=1:raise ValueError(f'{url}: expected one head and one H1')
     title=plain(doc.inner(titles[0])) if titles else plain(doc.inner(h1[0]))+' | Nexaly Planner'
     if not title: raise ValueError(f'{url}: empty title')
@@ -87,6 +88,7 @@ def metadata(source,url):
 def build(check=False):
     files={p.relative_to(ROOT).as_posix():p.read_text() for p in ROOT.rglob('index.html') if not any(x.startswith('.') or x in {'node_modules','scripts','tests'} for x in p.relative_to(ROOT).parts)}
     js=(ROOT/'assets/js/main.js').read_text();data=jsdata(js)
+    validate(files, ROOT, Document, data)
     old_products={p['url']:p for p in data['products']};old_posts={p['url']:p for p in data['posts']}
     products=[];posts=[];public=[];warnings=[]
     known_path=ROOT/'assets/seo-pages.json'
@@ -107,11 +109,14 @@ def build(check=False):
                         if s.get('@type')=='Product' and isinstance(s.get('offers'),dict):price=price or s['offers'].get('price')
                     except (ValueError,AttributeError):pass
                 if price is None or price=='':raise ValueError(f'{path}: product needs its real price in Product offers or product:price:amount')
-                p={'title':title,'desc':desc,'price':float(price),'img':image,'url':relative,'cat':doc.meta('nexaly:category') or 'Products','video':'','buyUrl':'','m1':'#E5EDF2','m2':'#D8E5E8'}
+                checkout=next(e['attrs']['href'] for e in doc.find('a') if urlsplit(e['attrs'].get('href','')).hostname=='buy.polar.sh')
+                p={'title':title,'desc':desc,'price':float(price),'img':image,'url':relative,'cat':doc.meta('nexaly:category') or 'Products','video':'','buyUrl':checkout,'m1':'#E5EDF2','m2':'#D8E5E8'}
             products.append(p)
         elif re.fullmatch(r'journal/[^/]+/index.html',path):
             p=dict(old_posts.get(relative,{}));p.update(url=relative)
-            for key,value in {'title':title,'excerpt':desc,'img':image,'alt':title,'tag':'Planning Guides','date':''}.items():p.setdefault(key,value)
+            p.update(title=title, excerpt=desc, img=image)
+            p['alt']=doc.meta('og:image:alt') or next((e['attrs'].get('alt') for e in doc.find('img') if e['attrs'].get('src','').removeprefix(SITE)==image and e['attrs'].get('alt')), title)
+            p.setdefault('tag','Planning Guides');p.setdefault('date','')
             p['_order']=doc.meta('article:published_time') or doc.meta('date') or ''
             posts.append(p)
         for e in doc.find('script',type='application/ld+json'):
@@ -133,6 +138,8 @@ def build(check=False):
     # Keep browser rendering in sync with static catalogues; do not edit checkout logic.
     version=hashlib.sha256(js.encode()).hexdigest()[:12]
     for path in files:
+        # Product detail files are protected: catalogue refreshes must not rewrite them.
+        if re.fullmatch(r'planners/[^/]+/index.html',path) and path not in {'planners/digital-planners/index.html','planners/business-operating-systems/index.html'}:continue
         files[path]=re.sub(r'(/assets/js/main\.js)(?:\?[^"\s>]*)?',lambda m:m[1]+'?v='+version,files[path])
     files['assets/js/main.js']=js
     # No made-up lastmod dates: omit when the content modification date is unknown.
@@ -143,6 +150,7 @@ def build(check=False):
     files['robots.txt']=robots
     files['assets/seo-pages.json']=json.dumps(sorted(public),indent=2)+'\n'
     ET.fromstring(files['sitemap.xml'])
+    validate({p:s for p,s in files.items() if p.endswith('index.html')}, ROOT, Document, {'products':products,'posts':posts}, generated=True)
     changes=[p for p,s in files.items() if not (ROOT/p).exists() or (ROOT/p).read_text()!=s]
     if check and changes:raise ValueError('SEO output is stale: '+', '.join(changes))
     if not check:
