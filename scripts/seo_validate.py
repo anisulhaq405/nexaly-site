@@ -49,6 +49,8 @@ def validate(files, root, Document, data, generated=False):
                 if not isinstance(value,(dict,list)):raise ValueError()
             except ValueError:fail(path,'invalid JSON-LD object')
         for e in doc.elements:
+            # Stale generated listings are rebuilt before final validation.
+            if not generated and any(region['start']<=e['start']<region['end'] for region in doc.elements if region['attrs'].get('id') in {'featTrack','allCards','homePosts','blogPosts'} and region.get('end')):continue
             key={'a':'href','img':'src','script':'src','source':'src','link':'href'}.get(e['tag'])
             value=e['attrs'].get(key,'') if key else ''
             if not value or value.startswith(('#','mailto:','tel:','data:','javascript:')):continue
@@ -85,3 +87,5 @@ def validate(files, root, Document, data, generated=False):
             if old.get('buyUrl') and old['buyUrl'] not in checkouts:fail(path,'catalog checkout does not match product page')
     for warning in sorted(set(warnings)):print('WARNING: '+warning)
     if errors:raise ValueError('Publishing validation failed:\n'+'\n'.join(errors))
+
+    return sorted(set(warnings))

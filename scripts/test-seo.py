@@ -10,6 +10,7 @@ with tempfile.TemporaryDirectory(prefix='nexaly-seo-test-') as directory:
         assert (result.returncode==0)==ok,result.stdout+result.stderr
         return result
     protected={p.relative_to(target):p.read_bytes() for p in target.glob('planners/*/index.html') if p.parent.name not in {'digital-planners','business-operating-systems'}}
+    protected.update({Path(p):(target/p).read_bytes() for p in ['pricing/index.html','bundles/index.html','cloudflare-worker/worker.js','assets/css/style.css']})
     def regions(source):
         return re.findall(r'<(?:header|footer)\b[\s\S]*?</(?:header|footer)>',source)
     regions_before={p.relative_to(target):regions(p.read_text()) for p in target.rglob('index.html')}

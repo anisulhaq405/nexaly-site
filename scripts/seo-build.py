@@ -139,7 +139,7 @@ def build(check=False):
     version=hashlib.sha256(js.encode()).hexdigest()[:12]
     for path in files:
         # Product detail files are protected: catalogue refreshes must not rewrite them.
-        if re.fullmatch(r'planners/[^/]+/index.html',path) and path not in {'planners/digital-planners/index.html','planners/business-operating-systems/index.html'}:continue
+        if path not in {'index.html','journal/index.html','planners/index.html','planners/digital-planners/index.html','planners/business-operating-systems/index.html'}:continue
         files[path]=re.sub(r'(/assets/js/main\.js)(?:\?[^"\s>]*)?',lambda m:m[1]+'?v='+version,files[path])
     files['assets/js/main.js']=js
     # No made-up lastmod dates: omit when the content modification date is unknown.
@@ -150,7 +150,7 @@ def build(check=False):
     files['robots.txt']=robots
     files['assets/seo-pages.json']=json.dumps(sorted(public),indent=2)+'\n'
     ET.fromstring(files['sitemap.xml'])
-    validate({p:s for p,s in files.items() if p.endswith('index.html')}, ROOT, Document, {'products':products,'posts':posts}, generated=True)
+    warnings=validate({p:s for p,s in files.items() if p.endswith('index.html')}, ROOT, Document, {'products':products,'posts':posts}, generated=True)
     changes=[p for p,s in files.items() if not (ROOT/p).exists() or (ROOT/p).read_text()!=s]
     if check and changes:raise ValueError('SEO output is stale: '+', '.join(changes))
     if not check:
