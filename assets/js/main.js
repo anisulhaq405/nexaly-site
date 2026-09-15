@@ -199,11 +199,20 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/supplier-quote-comparison/",
+    "title": "Supplier Quote Comparison Template: Compare Total Costs",
+    "excerpt": "Compare supplier quotes using a practical table, landed-cost example, accepted-unit costs, delivery dates and payment terms before you place an order.",
+    "img": "/images/journal/supplier-quote-comparison-20260915.jpg",
+    "alt": "Three supplier quote folders beside a parcel and calculator, with the heading Compare Supplier Quotes",
+    "tag": "Planning Guides",
+    "date": ""
+  },
+  {
     "url": "/journal/reorder-point-small-business/",
     "title": "Reorder Point Calculation for Small Business: Worked Examples",
     "excerpt": "Calculate reorder points with daily demand, lead time and safety stock. Worked SKU examples explain open orders, case packs and weekly inventory reviews.",
-    "img": "/images/journal/reorder-point-small-business.png",
-    "alt": "Reorder point example: four units per day times seven lead-time days plus twelve safety-stock units equals forty units",
+    "img": "/images/journal/reorder-point-20260915.jpg",
+    "alt": "Organized stockroom with parcels, a low-stock shelf marker and the heading When to Reorder",
     "tag": "Planning Guides",
     "date": ""
   },
@@ -239,9 +248,9 @@ var posts = [
     "title": "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/boutique-inventory-spreadsheet/",
-    "img": "/images/products/boutique-business-planner/03_fillable-type-anywhere.png",
-    "alt": "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
-    "excerpt": "Track boutique stock by size, color and SKU. Download a free inventory spreadsheet and learn how to handle receipts, reservations, returns and stock checks."
+    "img": "/images/journal/boutique-stock-20260915.jpg",
+    "alt": "Tagged boutique clothing and folded knitwear with the heading Know Your Stock: Every Size, Every Color",
+    "excerpt": "Build a boutique inventory spreadsheet with variant SKUs, stock formulas, reservations, returns and a worked clothing-store example."
   },
   {
     "tag": "Order Tracking",
