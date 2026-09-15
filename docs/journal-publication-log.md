@@ -39,3 +39,9 @@ Local SEO build/check and publishing regression suite pass; standard header/foot
 Added the missing top-level Back to the NexalyPlanner Journal link to the AI article with article-scoped spacing. Audited all 18 journal pages for an in-content return link and a single H1. Updated the SEO builder to derive card dates from recorded publication/modification metadata, including BlogPosting/Article JSON-LD. A newer or modification-only date is explicitly labeled Updated; dates are never fabricated from the build time. Existing undated-source records and reading-time suffixes are preserved. All 18 current journal cards now display dates in both static and JavaScript-rendered lists.
 
 Regression coverage includes new publication dates, later updates, schema-only update dates and repeated-build stability. Existing protected storefront tests remain required. Shared header/footer markup, product details, prices, checkout logic and shared CSS unchanged.
+
+## 15 September 2026 — exact return-link format and exam cover
+
+Matched the AI journal return-link wording to the existing standard: “Back to the Nexaly Planner Journal”, without an arrow. Moved it below the article introduction and above the feature image, with the plain small-text styling used by the reference journal. Shared header/footer untouched.
+
+Replaced the exam guide's mismatched product screenshot feature and SVG social/card source with one original 1200×800 JPEG: /images/journal/exam-prep-20260915.jpg. Built-in generated prompt: premium indigo/lavender study-desk editorial, notebook, books and clock, headline “PLAN YOUR EXAM PREP”, NexalyPlanner branding, no app screenshot or outcome claims. Removed an unrelated inline product screenshot incorrectly captioned as a ten-day study plan; the actual worked ten-day HTML table remains. No publication dates, product files or checkout logic changed.
