@@ -31,6 +31,16 @@ with tempfile.TemporaryDirectory(prefix='nexaly-seo-test-') as directory:
     run();run(True,'--check')
     catalog=(target/'assets/js/main.js').read_text()
     assert '"title": "Updated article"' in catalog and '"alt": "Accurate new image description"' in catalog
+    # New and refreshed journal cards must derive dates without inventing them.
+    article.write_text(page('Dated article','<meta property="article:published_time" content="2026-09-14">'))
+    run()
+    assert 'Sep 14, 2026' in (target/'index.html').read_text()
+    article.write_text(page('Dated article','<meta property="article:published_time" content="2026-09-14"><meta property="article:modified_time" content="2026-09-15">'))
+    run();run(True,'--check')
+    assert 'Updated Sep 15, 2026' in (target/'index.html').read_text()
+    article.write_text(page('Dated article','<script type="application/ld+json">{"@type":"BlogPosting","dateModified":"2026-09-16"}</script>'))
+    run()
+    assert 'Updated Sep 16, 2026' in (target/'index.html').read_text()
     product=target/'planners/seo-test-product/index.html';product.parent.mkdir()
     good=page('Test product','<meta property="product:price:amount" content="12.50"><meta name="nexaly:category" content="Business Operating Systems">','<a href="https://buy.polar.sh/test-fixture-only">Buy</a>')
     for bad in [

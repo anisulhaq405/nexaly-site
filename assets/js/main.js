@@ -205,7 +205,7 @@ var posts = [
     "img": "/images/journal/supplier-quote-comparison-20260915.jpg",
     "alt": "Three supplier quote folders beside a parcel and calculator, with the heading Compare Supplier Quotes",
     "tag": "Planning Guides",
-    "date": ""
+    "date": "Sep 15, 2026"
   },
   {
     "url": "/journal/reorder-point-small-business/",
@@ -214,7 +214,7 @@ var posts = [
     "img": "/images/journal/reorder-point-20260915.jpg",
     "alt": "Organized stockroom with parcels, a low-stock shelf marker and the heading When to Reorder",
     "tag": "Planning Guides",
-    "date": ""
+    "date": "Sep 14, 2026"
   },
   {
     "tag": "Small Business Software",
@@ -246,7 +246,7 @@ var posts = [
   {
     "tag": "Inventory",
     "title": "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
-    "date": "Sep 8, 2026 · 5 min",
+    "date": "Updated Sep 15, 2026 · 5 min",
     "url": "/journal/boutique-inventory-spreadsheet/",
     "img": "/images/journal/boutique-stock-20260915.jpg",
     "alt": "Tagged boutique clothing and folded knitwear with the heading Know Your Stock: Every Size, Every Color",
@@ -264,7 +264,7 @@ var posts = [
   {
     "tag": "Inventory Software",
     "title": "Inventory Software Without a Subscription: What to Check Before Buying",
-    "date": "Sep 8, 2026 · 5 min",
+    "date": "Updated Sep 14, 2026 · 5 min",
     "url": "/journal/inventory-software-without-subscription/",
     "img": "/images/journal/inventory-software-buying-checklist.png",
     "alt": "Inventory software buying checklist covering sale and return tests, backup recovery and license costs",
@@ -358,7 +358,7 @@ var posts = [
     "img": "/images/journal/one-person-business-ai-concept.jpg",
     "alt": "A solo business owner at a laptop with conceptual AI panels for research, writing, support and business records",
     "tag": "Planning Guides",
-    "date": ""
+    "date": "Updated Sep 15, 2026"
   }
 ];
 var heartSvg = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.6-9.3-8.4C1 9.5 2.4 6 5.6 6c1.9 0 3.2 1.1 4.4 2.6C11.2 7.1 12.5 6 14.4 6c3.2 0 4.6 3.5 2.9 6.6C19 16.4 12 21 12 21z"/></svg>';
