@@ -355,7 +355,7 @@ var posts = [
     "url": "/journal/how-to-run-a-one-person-business-with-ai/",
     "title": "How to run a one-person business with AI",
     "excerpt": "A practical guide to running a one-person business with AI: which work to hand off, which to keep, the tools that replace early hires, and the operations gap most solo founders miss.",
-    "img": "/assets/journal/one-person-business-ai-org-chart.svg",
+    "img": "/images/journal/one-person-business-ai-concept.jpg",
     "alt": "A solo business owner coordinates AI support for research, content, support and bookkeeping",
     "tag": "Planning Guides",
     "date": ""
