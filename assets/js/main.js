@@ -199,6 +199,33 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/adhd-planner-for-adults/",
+    "title": "ADHD Planner for Adults: Build a System You Can Reuse",
+    "excerpt": "Choose an ADHD planner for adults and set up a reusable daily system for task capture, time blocks, focus sessions, resets and weekly reviews.",
+    "img": "/images/journal/adhd-planner-for-adults-20260915.jpg",
+    "alt": "Adult using a short visual daily plan, capture inbox and focus timer under the heading ADHD Planner That Sticks",
+    "tag": "Planning Guides",
+    "date": "Sep 15, 2026"
+  },
+  {
+    "url": "/journal/business-planner-weekly-review/",
+    "title": "Business Planner for Small Business: What to Track Each Week",
+    "excerpt": "Use a business planner to review sales, cash, orders, marketing and next actions each week, with a practical dashboard and worked small-business example.",
+    "img": "/images/journal/business-planner-weekly-review-20260915.jpg",
+    "alt": "Small-business owner reviewing goals, orders, weekly sales, cash and next actions under the heading Plan the Business Week",
+    "tag": "Planning Guides",
+    "date": "Sep 15, 2026"
+  },
+  {
+    "url": "/journal/student-planner-guide/",
+    "title": "Student Planner Guide: Organize Classes, Assignments and Exams",
+    "excerpt": "Build a student planner that connects classes, assignments, exams and study sessions. Includes a semester setup, weekly routine and worked example.",
+    "img": "/images/journal/student-planner-guide-20260915.jpg",
+    "alt": "College student organizing classes, assignments, exams and focus sessions under the heading Build a Student Planner",
+    "tag": "Planning Guides",
+    "date": "Sep 15, 2026"
+  },
+  {
     "url": "/journal/supplier-quote-comparison/",
     "title": "Supplier Quote Comparison Template: Compare Total Costs",
     "excerpt": "Compare supplier quotes using a practical table, landed-cost example, accepted-unit costs, delivery dates and payment terms before you place an order.",

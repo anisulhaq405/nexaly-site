@@ -1,5 +1,16 @@
 # Journal publication log
 
+## 15 September 2026 — supplied-keyword batch
+
+- New: `/journal/adhd-planner-for-adults/` — selection checklist, 20-minute setup, worked daily plan, reset routine and accurate non-medical positioning.
+- New: `/journal/student-planner-guide/` — connected timetable, assignment, exam and study-session system with semester setup and worked exam plan.
+- New: `/journal/business-planner-weekly-review/` — sales, cash, orders, capacity, marketing and next-action review with a fictional shop example.
+- Keyword selection comes from the owner's supplied research. Private keyword metrics and source files are intentionally excluded from the public repository.
+- Three unique 1200×800 JPEG editorial covers. Each page has a distinct intent, descriptive metadata and alt text, truthful BlogPosting markup, visible publication date and paid-product anchors.
+- The user explicitly requested three journals for this batch, overriding the ordinary one-new/one-refresh preference. No existing journal or product body, checkout link, price or shared layout was manually changed.
+
+Publication must use a feature PR and the required rebuild check. Live deployment and indexing are separate verification steps.
+
 ## 14 September 2026 batch
 
 Batch contents:
