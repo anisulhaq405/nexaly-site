@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Rebuild crawlable catalogues and metadata from published HTML; stdlib only."""
 import argparse, hashlib, html, json, re, subprocess
+from datetime import date
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
@@ -37,6 +38,32 @@ class Document(HTMLParser):
         for e in self.find('meta'):
             if e['attrs'].get('name')==key or e['attrs'].get('property')==key:return e['attrs'].get('content','')
         return ''
+
+def card_date(doc, existing=''):
+    """Use recorded dates, never the build date; keep existing reading-time labels."""
+    published=doc.meta('article:published_time') or doc.meta('date')
+    modified=doc.meta('article:modified_time')
+    for element in doc.find('script',type='application/ld+json'):
+        try: data=json.loads(doc.inner(element))
+        except ValueError: continue
+        nodes=data if isinstance(data,list) else [data]
+        for node in nodes:
+            if not isinstance(node,dict): continue
+            candidates=[node]+node.get('@graph',[])
+            for item in candidates:
+                if isinstance(item,dict) and item.get('@type') in ('BlogPosting','Article'):
+                    published=published or item.get('datePublished')
+                    modified=modified or item.get('dateModified')
+    def parsed(value):
+        try: return date.fromisoformat(str(value)[:10]) if value else None
+        except ValueError: return None
+    pub,mod=parsed(published),parsed(modified)
+    chosen=mod if mod and (not pub or mod>pub) else pub
+    if not chosen:return existing
+    label=('Updated ' if chosen==mod and (not pub or mod>pub) else '')
+    label+=chosen.strftime('%b')+' '+str(chosen.day)+', '+str(chosen.year)
+    reading=re.search(r'\s*·\s*\d+\s*min\b',existing)
+    return label+(reading[0] if reading else '')
 
 def plain(s): return html.unescape(re.sub('<[^>]+>',' ',s)).strip()
 def esc(s): return html.escape(str(s),quote=True)
@@ -116,7 +143,7 @@ def build(check=False):
             p=dict(old_posts.get(relative,{}));p.update(url=relative)
             p.update(title=title, excerpt=desc, img=image)
             p['alt']=doc.meta('og:image:alt') or next((e['attrs'].get('alt') for e in doc.find('img') if e['attrs'].get('src','').removeprefix(SITE)==image and e['attrs'].get('alt')), title)
-            p.setdefault('tag','Planning Guides');p.setdefault('date','')
+            p.setdefault('tag','Planning Guides');p['date']=card_date(doc,p.get('date',''))
             p['_order']=doc.meta('article:published_time') or doc.meta('date') or ''
             posts.append(p)
         for e in doc.find('script',type='application/ld+json'):

@@ -33,3 +33,9 @@ Restored the standard site header, footer, auth markup and shared stylesheet on 
 Created a new original AI-generated editorial cover at /images/journal/one-person-business-ai-concept.jpg (1200×800 optimized JPEG). The initial built-in generation hit the account limit; after the advertised reset time passed, one retry succeeded. Final prompt brief: one human business owner at a laptop, restrained research/writing/support/records panels, emerald/navy and brass palette, exact headline “ONE PERSON. AI ASSISTED.” and NexalyPlanner branding; conceptual editorial scene, not an actual product screenshot. Replaced the interim diagram cover before merging; no pending cover work remains.
 
 Local SEO build/check and publishing regression suite pass; standard header/footer exact-match and article-body preservation verified. Publish through required PR checks; live result reported in session.
+
+## 15 September 2026 — journal navigation and date polish
+
+Added the missing top-level Back to the NexalyPlanner Journal link to the AI article with article-scoped spacing. Audited all 18 journal pages for an in-content return link and a single H1. Updated the SEO builder to derive card dates from recorded publication/modification metadata, including BlogPosting/Article JSON-LD. A newer or modification-only date is explicitly labeled Updated; dates are never fabricated from the build time. Existing undated-source records and reading-time suffixes are preserved. All 18 current journal cards now display dates in both static and JavaScript-rendered lists.
+
+Regression coverage includes new publication dates, later updates, schema-only update dates and repeated-build stability. Existing protected storefront tests remain required. Shared header/footer markup, product details, prices, checkout logic and shared CSS unchanged.
