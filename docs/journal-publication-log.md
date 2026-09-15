@@ -25,3 +25,11 @@ Technical checks and live publication outcome are reported in the publishing ses
 - Publication uses a feature PR and required rebuild check. Live verification outcome is reported in the publishing session; do not infer Google indexing from successful deployment.
 
 Next candidates: batch/lot tracking guide and a substantive sales-inventory tracking refresh. Check the current catalog and intent overlap before creating another URL. Continue one new guide plus one useful refresh when quality allows.
+
+## 15 September 2026 — AI journal layout repair
+
+Restored the standard site header, footer, auth markup and shared stylesheet on /journal/how-to-run-a-one-person-business-with-ai/. Scoped legacy article styles under .ai-journal to prevent shared navigation, wrap, button and footer collisions. Preserved article body content and all product/checkout files. Added visible Updated September 15, 2026 and matching dateModified; original publication date remains unknown.
+
+Created a new original AI-generated editorial cover at /images/journal/one-person-business-ai-concept.jpg (1200×800 optimized JPEG). The initial built-in generation hit the account limit; after the advertised reset time passed, one retry succeeded. Final prompt brief: one human business owner at a laptop, restrained research/writing/support/records panels, emerald/navy and brass palette, exact headline “ONE PERSON. AI ASSISTED.” and NexalyPlanner branding; conceptual editorial scene, not an actual product screenshot. Replaced the interim diagram cover before merging; no pending cover work remains.
+
+Local SEO build/check and publishing regression suite pass; standard header/footer exact-match and article-body preservation verified. Publish through required PR checks; live result reported in session.
