@@ -347,8 +347,8 @@ var posts = [
     "title": "Exam Study Schedule Template: Plan the Weeks Before Finals",
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/exam-study-schedule-template/",
-    "img": "/assets/journal/exam-study-schedule-template.svg",
-    "alt": "Exam Study Schedule Template: Plan the Weeks Before Finals",
+    "img": "/images/journal/exam-prep-20260915.jpg",
+    "alt": "Study desk with a planning notebook, textbooks and a clock under the heading Plan Your Exam Prep",
     "excerpt": "Download an exam study schedule template with an editable ten-day plan. Organize practice, review, flexible time and exam logistics before finals."
   },
   {
