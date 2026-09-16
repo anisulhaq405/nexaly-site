@@ -104,7 +104,9 @@ def metadata(source,url):
     crumbs=[{'@type':'ListItem','position':1,'name':'Home','item':SITE+'/'}]
     parts=url[len(SITE):].strip('/').split('/')
     if parts[0]:
-        if len(parts)>1:crumbs.append({'@type':'ListItem','position':2,'name':'Journal' if parts[0]=='journal' else 'Products','item':SITE+'/'+parts[0]+'/'})
+        if len(parts)>1:
+            section_names={'journal':'Journal','planners':'Products','guides':'Product Guides'}
+            crumbs.append({'@type':'ListItem','position':2,'name':section_names.get(parts[0],parts[0].replace('-',' ').title()),'item':SITE+'/'+parts[0]+'/'})
         crumbs.append({'@type':'ListItem','position':len(crumbs)+1,'name':plain(doc.inner(h1[0])),'item':url})
     graph=[{'@type':'WebPage','@id':url+'#webpage','url':url,'name':title,'description':desc,'isPartOf':{'@id':SITE+'/#website'}}, {'@type':'BreadcrumbList','itemListElement':crumbs}]
     if url==SITE+'/':graph.append({'@type':'WebSite','@id':SITE+'/#website','url':SITE+'/','name':'Nexaly Planner'})
