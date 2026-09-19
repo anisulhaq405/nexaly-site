@@ -1,0 +1,7 @@
+# Canonical host: preserve the requested path and query string.
+# Applies only when Apache serves this file from the website document root.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.nexalyplanner\.com$ [NC]
+RewriteRule ^ https://nexalyplanner.com%{REQUEST_URI} [R=301,L,NE]
+</IfModule>
