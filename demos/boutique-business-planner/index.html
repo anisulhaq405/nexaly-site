@@ -22,6 +22,7 @@ body[data-theme="charcoal"]{--primary:#2B2E33;--primary2:#565C66;--wash:#ECEDEF;
 html,body{margin:0;padding:0;}
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);font-size:15px;line-height:1.5;}
 .demo-ribbon{position:fixed;z-index:9999;right:14px;bottom:14px;display:flex;align-items:center;gap:10px;background:#241b14;color:#fff;border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:8px 9px 8px 14px;box-shadow:0 10px 28px rgba(0,0,0,.24);font-size:12px;font-weight:700}.demo-ribbon a{background:#c06a3f;color:#fff;text-decoration:none;border-radius:999px;padding:7px 12px}.demo-disabled{opacity:.52;cursor:not-allowed!important}.demo-mark{position:fixed;z-index:9998;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-24deg);font-family:Georgia,serif;font-size:clamp(40px,8vw,92px);font-weight:700;color:rgba(60,90,120,.055);pointer-events:none;white-space:nowrap;user-select:none}
+.quick-entry{border:1px solid #d9c8aa;background:linear-gradient(135deg,#fff,#fbf5e9)}.quick-entry h3{display:flex;align-items:center;justify-content:space-between;gap:12px}.quick-badge{border-radius:999px;background:var(--primary);color:#fff;padding:5px 9px;font:700 10px/1 Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase}.quick-actions{display:flex;align-items:center;gap:12px;margin-top:14px}.quick-status{font-size:12px;color:var(--primary);font-weight:700}.quick-entry .field label{color:#574b3f}.quick-note{margin:8px 0 0;color:#716455;font-size:11px}
 h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:600;margin:0;}
 a{color:inherit;}
 
@@ -211,6 +212,21 @@ td .chkcell{display:flex;justify-content:center;}
         <h1 class="ptitle" id="dashTitle">Your Boutique Dashboard</h1>
         <div class="psub">Everything about your shop, in one place — it saves automatically as you type.</div>
         <div class="stats" id="dashStats"></div>
+        <div class="card quick-entry"><h3>Try data entry now <span class="quick-badge">Connected test</span></h3>
+          <div class="grid g3">
+            <div class="field"><label>Product name</label><input id="qProduct" placeholder="e.g. Everyday Tote"/></div>
+            <div class="field"><label>SKU</label><input id="qSku" placeholder="e.g. TOTE-101"/></div>
+            <div class="field"><label>Units in stock</label><input id="qStock" type="number" min="0" placeholder="12"/></div>
+            <div class="field"><label>Cost per unit ($)</label><input id="qCost" type="number" min="0" step="0.01" placeholder="18.00"/></div>
+            <div class="field"><label>Retail price ($)</label><input id="qPrice" type="number" min="0" step="0.01" placeholder="45.00"/></div>
+            <div class="field"><label>Customer first name</label><input id="qCustomer" placeholder="e.g. Olivia"/></div>
+            <div class="field"><label>Order number</label><input id="qOrder" placeholder="e.g. 1050"/></div>
+            <div class="field"><label>Sale amount ($)</label><input id="qSale" type="number" min="0" step="0.01" placeholder="45.00"/></div>
+            <div class="field"><label>Business expense ($)</label><input id="qExpense" type="number" min="0" step="0.01" placeholder="8.00"/></div>
+          </div>
+          <div class="quick-actions"><button class="btn primary" type="button" onclick="quickAddDemo()">Add to my demo</button><span class="quick-status" id="quickStatus" role="status"></span></div>
+          <p class="quick-note">This test entry connects Products, Inventory, Orders and Money. Sample data only—everything clears when this tab closes.</p>
+        </div>
         <div class="grid g2">
           <div class="card"><h3>Top 3 focus this week</h3>
             <div class="field" style="margin-bottom:10px"><input data-field="focus1" placeholder="1 —"/></div>
@@ -522,6 +538,20 @@ function recalcDash(){
     d.innerHTML='<div class="lbl">'+c[0]+'</div><div class="val">'+c[1]+'</div>';s.appendChild(d);});
 }
 function renderTables(){buildTables();recalcMoney();recalcDash();}
+function quickAddDemo(){
+  var val=function(id){return document.getElementById(id).value.trim();};
+  var product=val('qProduct'),sku=val('qSku'),stock=val('qStock'),cost=val('qCost'),price=val('qPrice'),customer=val('qCustomer'),order=val('qOrder'),sale=val('qSale'),expense=val('qExpense');
+  var status=document.getElementById('quickStatus');
+  if(!product&&!customer&&!sale){status.textContent='Enter at least a product, customer or sale amount.';return;}
+  var today=new Date().toLocaleDateString('en-US',{month:'2-digit',day:'2-digit',year:'numeric'});
+  if(product){DB.tables.products.unshift({name:product,sku:sku,sizes:'',cost:cost,price:price,status:'Active'});DB.tables.inventory.unshift({item:sku||product,variant:'',stock:stock,restock:5,cost:cost,price:price});}
+  if(customer||sale||order){DB.tables.orders.unshift({date:today,no:order,cust:customer,items:product,total:sale,paid:true,ship:false});DB.tables.income.unshift({date:today,source:'Demo sale',orders:1,amount:sale});}
+  if(expense){DB.tables.expense.unshift({date:today,item:'Demo business expense',cat:'Operations',amount:expense});}
+  Object.keys(DB.tables).forEach(function(k){if(DB.tables[k].length>6)DB.tables[k]=DB.tables[k].slice(0,6);});
+  save();renderTables();
+  ['qProduct','qSku','qStock','qCost','qPrice','qCustomer','qOrder','qSale','qExpense'].forEach(function(id){document.getElementById(id).value='';});
+  status.textContent='Added — dashboard and profit totals updated.';setTimeout(function(){status.textContent='';},4500);
+}
 
 /* ---------- nav ---------- */
 function toggleNav(on){document.body.classList.toggle('navopen',on);}
