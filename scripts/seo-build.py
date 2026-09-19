@@ -76,6 +76,16 @@ def replace_inner(source, ident, contents):
     doc=Document(source); entries=[e for e in doc.elements if e['attrs'].get('id')==ident]
     if len(entries)!=1 or 'close_start' not in entries[0]: raise ValueError(f'Missing/duplicate listing container: {ident}')
     e=entries[0];return source[:e['open_end']]+'\n'+contents+'\n'+source[e['close_start']:]
+
+def ensure_global_navigation(source):
+    """Keep the Product Guides hub discoverable in every desktop/mobile menu."""
+    if '<a href="/guides/">Product Guides</a>' in source:
+        return source
+    old='<a href="/journal/">Journal</a>'
+    new=old+'\n      <a href="/guides/">Product Guides</a>'
+    if old not in source:
+        return source
+    return source.replace(old,new,1)
 def metadata(source,url):
     doc=Document(source)
     heads=doc.find('head');titles=[e for e in doc.find('title') if heads and e['start'] < heads[0]['end']];h1=doc.find('h1')
@@ -151,6 +161,7 @@ def build(check=False):
         for e in doc.find('script',type='application/ld+json'):
             try:json.loads(doc.inner(e))
             except ValueError:raise ValueError(f'{path}: invalid JSON-LD')
+    files={path:ensure_global_navigation(source) for path,source in files.items()}
     # Preserve merchandising order; new entries appear first.
     products.sort(key=lambda p:(p['url'] in old_products,list(old_products).index(p['url']) if p['url'] in old_products else p['url']))
     posts.sort(key=lambda p:(0 if known is not None and SITE+p['url'] not in known else 1, list(old_posts).index(p['url']) if p['url'] in old_posts else len(old_posts)))
