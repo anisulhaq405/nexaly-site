@@ -14,6 +14,9 @@ const NEXALY_PRODUCTS = [
     'digital-homeschool-planner' => 'Digital Homeschool Planner',
     'inventory-procurement-planner' => 'Inventory & Procurement Planner',
     'rentflow-os' => 'RentFlow OS',
+    'repairbench-os' => 'RepairBench OS',
+    'sales-management-system' => 'Sales Management System',
+    'vendorpulse-os' => 'VendorPulse OS',
 ];
 
 function review_json(array $data, int $status = 200): never {
