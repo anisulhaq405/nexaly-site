@@ -1,7 +1,13 @@
 <?php
 declare(strict_types=1);
 
-const NEXALY_PRODUCTS = ['boutique-business-planner' => 'Boutique Business Planner'];
+const NEXALY_PRODUCTS = [
+    'boutique-business-planner' => 'Boutique Business Planner',
+    'adhd-digital-planner' => 'ADHD Digital Planner',
+    'offline-ai-business-copilot' => 'Offline AI Business Copilot',
+    'ai-student-planner' => 'AI Student Planner',
+    'batchtrace-os' => 'BatchTrace OS',
+];
 
 function review_json(array $data, int $status = 200): never {
     http_response_code($status);

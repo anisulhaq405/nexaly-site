@@ -18,7 +18,10 @@ if ($action === 'login') {
 if ($action === 'logout') { session_destroy(); review_json(['ok' => true]); }
 if (!admin_ok()) review_json(['ok' => false, 'message' => 'Sign in required.'], 401);
 if ($action === 'list') {
-    $product = review_product((string)($_GET['product'] ?? 'boutique-business-planner')); $records = array_reverse(review_records($product));
+    $requested = (string)($_GET['product'] ?? 'all'); $records = [];
+    if ($requested === 'all') { foreach (array_keys(NEXALY_PRODUCTS) as $product) $records = array_merge($records, review_records($product)); }
+    else { $product = review_product($requested); $records = review_records($product); }
+    usort($records, static fn($a, $b) => strcmp((string)($b['created_at'] ?? ''), (string)($a['created_at'] ?? '')));
     foreach ($records as &$row) unset($row['ip_hash']); unset($row);
     review_json(['ok' => true, 'csrf' => $_SESSION['nexaly_review_csrf'], 'records' => $records]);
 }
