@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="robots" content="noindex,nofollow,noarchive"><link rel="canonical" href="https://nexalyplanner.com/planners/content-marketing-planner/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Content & Marketing Planner</title>
+<style>
+:root{
+  /* Notion design language */
+  --canvas:#f6f5f4; --surface:#ffffff; --hairline:#e6e6e6;
+  --ink:#111111; --ink-2:#31302e; --ink-muted:#615d59; --ink-faint:#a39e98;
+  --primary:#0075de; --primary-active:#005bab; --on-primary:#ffffff;
+  --night:#213183;
+  --sticker-sky:#62aef0; --sticker-purple:#d6b6f6; --sticker-pink:#ff64c8;
+  --sticker-orange:#dd5b00; --sticker-teal:#2a9d99; --sticker-green:#1aae39;
+  --r-xs:4px; --r-sm:5px; --r-md:8px; --r-lg:12px; --r-xl:16px; --r-full:9999px;
+  --s-xs:8px; --s-sm:12px; --s-md:16px; --s-lg:24px; --s-xl:32px;
+  --sh-1:0 .175px 1px rgba(0,0,0,.01), 0 .8px 2.9px rgba(0,0,0,.02), 0 2px 7.8px rgba(0,0,0,.027), 0 4px 18px rgba(0,0,0,.04);
+  --sh-2:0 4px 12px rgba(0,0,0,.06), 0 23px 52px rgba(0,0,0,.05);
+  --font:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+[data-theme="dark"]{
+  --canvas:#161619; --surface:#212127; --hairline:#33333c;
+  --ink:#f1f1f4; --ink-2:#cfcfd6; --ink-muted:#9b9ba4; --ink-faint:#6c6c78;
+  --sh-1:0 1px 2px rgba(0,0,0,.32), 0 6px 20px rgba(0,0,0,.42);
+  --sh-2:0 10px 28px rgba(0,0,0,.5), 0 28px 64px rgba(0,0,0,.55);
+}
+.icon-btn{width:38px;height:38px;border-radius:var(--r-md);border:1px solid var(--hairline);background:var(--surface);color:var(--ink-2);display:inline-grid;place-items:center;font-size:16px;flex-shrink:0}
+.icon-btn:hover{background:var(--canvas)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:var(--font);background:var(--canvas);color:var(--ink);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+[dir="rtl"]{direction:rtl}
+h1,h2,h3{font-weight:700;letter-spacing:-.02em}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+input,select,textarea{font-family:inherit;font-size:15px}
+a{color:var(--primary);text-decoration:none}
+.hidden{display:none!important}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:500;border-radius:var(--r-full);padding:9px 18px;transition:transform .08s,background .15s;white-space:nowrap}
+.btn:active{transform:scale(.96)}
+.btn-primary{background:var(--primary);color:var(--on-primary)}
+.btn-primary:hover{background:var(--primary-active)}
+.btn-utility{background:var(--surface);color:var(--ink);border:1px solid var(--hairline);border-radius:var(--r-md);padding:7px 14px}
+.btn-utility:hover{background:var(--canvas)}
+.btn-ghost{color:var(--ink-muted);border-radius:var(--r-md);padding:7px 12px}
+.btn-ghost:hover{background:var(--canvas);color:var(--ink)}
+.btn-danger{color:#c0392b;border-radius:var(--r-md);padding:7px 12px}
+.btn-danger:hover{background:#fdeceb}
+.btn-sm{padding:5px 12px;font-size:14px}
+
+/* Layout */
+.shell{display:flex;min-height:100vh}
+.sidebar{width:248px;flex-shrink:0;background:var(--surface);border-right:1px solid var(--hairline);display:flex;flex-direction:column;position:fixed;top:0;bottom:0;left:0;z-index:40}
+[dir="rtl"] .sidebar{left:auto;right:0;border-right:none;border-left:1px solid var(--hairline)}
+.brand-fixed{display:flex;align-items:center;gap:7px;padding:16px 18px 2px;font-weight:800;font-size:17px;letter-spacing:-.02em;color:var(--ink)}
+.brand-dot{width:7px;height:7px;border-radius:50%;background:var(--primary);display:inline-block}
+.brand{display:flex;align-items:center;gap:10px;padding:8px 18px 14px}
+.brand .logo{width:34px;height:34px;border-radius:var(--r-md);background:var(--canvas);display:grid;place-items:center;font-size:19px;overflow:hidden;flex-shrink:0}
+.brand .logo img{width:100%;height:100%;object-fit:cover}
+.brand .bname{font-weight:700;font-size:16px;letter-spacing:-.01em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.brand .btag{font-size:12px;color:var(--ink-faint)}
+.nav{flex:1;overflow-y:auto;padding:6px 10px}
+.nav-label{font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint);padding:14px 10px 6px}
+.nav-item{display:flex;align-items:center;gap:10px;width:100%;text-align:start;padding:8px 10px;border-radius:var(--r-md);color:var(--ink-2);font-size:15px;font-weight:450}
+.nav-item:hover{background:var(--canvas)}
+.nav-item.active{background:color-mix(in srgb,var(--primary) 12%,var(--surface));color:var(--primary);font-weight:500}
+.nav-item .ic{font-size:16px;width:20px;text-align:center;flex-shrink:0}
+.nav-item .soon{margin-inline-start:auto;font-size:10px;color:var(--ink-faint);background:var(--canvas);padding:1px 6px;border-radius:var(--r-full)}
+.side-foot{border-top:1px solid var(--hairline);padding:8px 10px}
+.main{flex:1;margin-inline-start:248px;min-width:0;display:flex;flex-direction:column}
+.topbar{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--canvas) 82%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--hairline);display:flex;align-items:center;gap:12px;padding:14px 28px;flex-wrap:wrap}
+.topbar h1{font-size:22px}
+.topbar .sub{color:var(--ink-muted);font-size:14px}
+.topbar .spacer{flex:1}
+.menu-btn{display:none}
+.content{padding:24px 28px 64px;max-width:1160px;width:100%}
+
+/* Cards */
+.card{background:var(--surface);border:1px solid var(--hairline);border-radius:var(--r-lg);padding:var(--s-lg)}
+.card.soft{box-shadow:var(--sh-1)}
+.grid{display:grid;gap:16px}
+.kpis{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+.kpi .n{font-size:34px;font-weight:700;letter-spacing:-.03em;line-height:1.1}
+.kpi .l{font-size:13px;color:var(--ink-muted);margin-top:4px}
+.kpi .sub{font-size:12px;color:var(--ink-faint);margin-top:2px}
+.section-title{font-size:14px;font-weight:600;color:var(--ink-2);margin:26px 0 12px;display:flex;align-items:center;gap:8px}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.02em;color:var(--primary);background:var(--surface);border:1px solid var(--hairline);border-radius:var(--r-full);padding:3px 10px;display:inline-block}
+
+/* Table */
+.tbl{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--hairline);border-radius:var(--r-lg);overflow:hidden}
+.tbl th{font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-muted);text-align:start;padding:11px 14px;border-bottom:1px solid var(--hairline);background:var(--canvas)}
+.tbl td{padding:11px 14px;border-bottom:1px solid var(--hairline);font-size:14px;vertical-align:middle}
+.tbl tr:last-child td{border-bottom:none}
+.tbl tr:hover td{background:color-mix(in srgb,var(--canvas) 60%,var(--surface))}
+.tbl .row-click{cursor:pointer}
+
+/* Pills / badges */
+.pill{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:2px 9px;border-radius:var(--r-full);background:var(--canvas);color:var(--ink-2);white-space:nowrap}
+.dot{width:7px;height:7px;border-radius:50%;display:inline-block}
+.pill-list{display:flex;flex-wrap:wrap;gap:5px}
+
+/* Empty */
+.empty{text-align:center;padding:48px 24px;color:var(--ink-muted)}
+.empty .big{font-size:30px;margin-bottom:8px}
+.empty h3{font-weight:600;margin-bottom:6px;color:var(--ink)}
+
+/* Inputs */
+.field{margin-bottom:14px}
+.field label{display:block;font-size:13px;font-weight:500;color:var(--ink-2);margin-bottom:5px}
+.input,select.input,textarea.input{width:100%;background:var(--surface);border:1px solid var(--hairline);border-radius:var(--r-xs);padding:8px 10px;color:var(--ink)}
+.input:focus,textarea.input:focus,select.input:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px color-mix(in srgb,var(--primary) 15%,transparent)}
+textarea.input{resize:vertical;min-height:64px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.chk-wrap{display:flex;flex-wrap:wrap;gap:8px}
+.chk-tag{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--hairline);border-radius:var(--r-full);padding:5px 11px;font-size:13px;cursor:pointer;user-select:none}
+.chk-tag.on{background:color-mix(in srgb,var(--primary) 12%,var(--surface));border-color:var(--primary);color:var(--primary)}
+
+/* Modal */
+.overlay{position:fixed;inset:0;background:rgba(15,15,15,.42);z-index:60;display:flex;align-items:flex-start;justify-content:center;padding:40px 16px;overflow-y:auto}
+.modal{background:var(--surface);border-radius:var(--r-xl);box-shadow:var(--sh-2);width:100%;max-width:560px;margin:auto}
+.modal-head{display:flex;align-items:center;padding:18px 22px;border-bottom:1px solid var(--hairline)}
+.modal-head h2{font-size:18px}
+.modal-head .x{margin-inline-start:auto;font-size:22px;color:var(--ink-faint);line-height:1;padding:2px 6px;border-radius:var(--r-md)}
+.modal-head .x:hover{background:var(--canvas);color:var(--ink)}
+.modal-body{padding:20px 22px}
+.modal-foot{display:flex;gap:10px;justify-content:flex-end;padding:14px 22px;border-top:1px solid var(--hairline)}
+
+/* Feed preview */
+.feed{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:8px}
+.feed .cell{aspect-ratio:4/5;border-radius:var(--r-md);border:1px solid var(--hairline);background:var(--canvas);padding:8px;font-size:11px;color:var(--ink-2);display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;cursor:pointer}
+.feed .cell:hover{box-shadow:var(--sh-1)}
+.feed .cell .hk{font-weight:600;line-height:1.3;overflow:hidden}
+
+/* checklist */
+.chklist{list-style:none}
+.chklist li{display:flex;align-items:flex-start;gap:9px;padding:7px 0;border-bottom:1px dashed var(--hairline);font-size:14px}
+.chklist li:last-child{border-bottom:none}
+.chklist input{margin-top:3px}
+.chk-phase{font-size:12px;font-weight:600;color:var(--ink-muted);text-transform:uppercase;letter-spacing:.03em;margin:14px 0 4px}
+.done-txt{text-decoration:line-through;color:var(--ink-faint)}
+
+/* bars */
+.bars{display:flex;align-items:flex-end;gap:12px;height:180px;padding-top:10px}
+.bar-col{flex:1;display:flex;flex-direction:column;align-items:center;gap:8px;min-width:0}
+.bar{width:100%;max-width:52px;background:var(--primary);border-radius:6px 6px 0 0;min-height:3px;transition:height .4s}
+.bar-lbl{font-size:11px;color:var(--ink-muted);text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
+.bar-val{font-size:12px;font-weight:600}
+
+/* Login */
+.auth{min-height:100vh;display:grid;place-items:center;padding:24px;background:radial-gradient(120% 60% at 50% -12%, color-mix(in srgb,var(--primary) 13%,var(--canvas)), var(--canvas) 62%)}
+.auth .box{background:var(--surface);border:1px solid var(--hairline);border-top:3px solid var(--primary);border-radius:var(--r-xl);box-shadow:var(--sh-2);width:100%;max-width:400px;padding:36px 30px;text-align:center}
+.auth .logo{width:56px;height:56px;border-radius:var(--r-lg);background:var(--canvas);display:grid;place-items:center;font-size:30px;margin:0 auto 16px;overflow:hidden;box-shadow:0 0 0 5px color-mix(in srgb,var(--primary) 10%,transparent)}
+.auth .logo img{width:100%;height:100%;object-fit:cover}
+.auth h1{font-size:26px;margin-bottom:6px;letter-spacing:-.03em}
+.auth p{color:var(--ink-muted);font-size:14px;margin-bottom:20px}
+.auth .btn{width:100%;justify-content:center;margin-top:6px}
+.auth .skip{margin-top:14px;font-size:13px}
+.err{color:#c0392b;font-size:13px;margin-top:8px;min-height:18px}
+
+.swatches{display:flex;gap:8px;flex-wrap:wrap}
+.sw{width:28px;height:28px;border-radius:var(--r-full);border:2px solid transparent;cursor:pointer}
+.sw.on{border-color:var(--ink);box-shadow:0 0 0 2px var(--surface) inset}
+
+.hint{font-size:12px;color:var(--ink-faint);margin-top:4px}
+.callout{background:color-mix(in srgb,var(--primary) 7%,var(--surface));border:1px solid color-mix(in srgb,var(--primary) 20%,var(--surface));border-radius:var(--r-lg);padding:14px 16px;font-size:14px;color:var(--ink-2);display:flex;gap:10px;align-items:flex-start;margin-bottom:18px}
+
+.kpi-ic{width:44px;height:44px;border-radius:12px;background:color-mix(in srgb,var(--primary) 14%,var(--surface));display:grid;place-items:center;font-size:22px;margin-bottom:14px}
+.dash-charts{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:20px}
+.chart-h{font-size:14px;font-weight:600;color:var(--ink-2);margin-bottom:14px}
+.donut-wrap{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.donut-legend{display:flex;flex-direction:column;gap:9px;font-size:13px;color:var(--ink-2);min-width:150px;flex:1}
+.donut-legend .leg{display:flex;align-items:center;gap:8px}
+.donut-legend .leg b{margin-inline-start:auto;color:var(--ink)}
+.pipeline{display:flex;height:16px;border-radius:8px;overflow:hidden;gap:2px}
+.pipe-seg{min-width:6px}
+.pipe-legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:11px;font-size:12px;color:var(--ink-muted)}
+.pipe-legend span{display:flex;align-items:center;gap:6px}
+.bio-prev{display:flex;flex-direction:column;gap:8px}
+.bio-link{background:var(--canvas);border:1px solid var(--hairline);border-radius:var(--r-full);padding:10px 14px;text-align:center;font-size:14px;font-weight:500;color:var(--ink)}
+.prompt-card{display:flex;gap:12px;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--hairline);border-radius:var(--r-lg);padding:14px 16px;margin-bottom:10px}
+.prompt-txt{font-size:14px;color:var(--ink-2);flex:1;line-height:1.5}
+.cal-head{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.cal-dow{margin-bottom:6px}
+.cal-dowc{font-size:12px;font-weight:600;color:var(--ink-muted);text-align:center;padding:4px}
+.cal-cell{background:var(--surface);border:1px solid var(--hairline);border-radius:var(--r-md);min-height:100px;padding:6px;overflow:hidden}
+.cal-cell.empty{background:transparent;border:none}
+.cal-cell.cal-today{border-color:var(--primary);box-shadow:0 0 0 1px var(--primary) inset}
+.cal-d{font-size:12px;font-weight:600;color:var(--ink-2);margin-bottom:4px}
+.cal-ev{font-size:11px;color:#fff;border-radius:4px;padding:2px 6px;margin-bottom:3px;cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cal-more{font-size:11px;color:var(--ink-muted)}
+.topbar h1{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:0 1 auto}
+.lang-mini{height:38px;border:1px solid var(--hairline);background:var(--surface);color:var(--ink-2);border-radius:var(--r-md);padding:0 10px;font-size:13px;font-weight:600;cursor:pointer;margin-inline-end:8px}
+.bcontact{font-size:11px;color:var(--ink-faint);margin-top:3px;line-height:1.35}
+@media(max-width:820px){.cal-cell{min-height:64px;padding:3px}.cal-ev{font-size:9px;padding:1px 3px}.cal-dowc{font-size:10px}}
+
+@media(max-width:820px){.dash-charts{grid-template-columns:1fr}}
+@media(max-width:820px){
+  .sidebar{transform:translateX(-100%);transition:transform .2s;box-shadow:var(--sh-2)}
+  [dir="rtl"] .sidebar{transform:translateX(100%)}
+  .sidebar.open{transform:translateX(0)}
+  .main{margin-inline-start:0}
+  .menu-btn{display:inline-grid;place-items:center;width:36px;height:36px;border-radius:var(--r-md);border:1px solid var(--hairline);background:var(--surface)}
+  .content{padding:18px 16px 64px}
+  .topbar{padding:12px 16px}
+  .row2{grid-template-columns:1fr}
+  .scrim{position:fixed;inset:0;background:rgba(0,0,0,.3);z-index:39}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+#printArea{display:none}
+@media print{
+  #root{display:none!important}
+  #printArea{display:block!important}
+  body{background:#fff}
+  .p-tbl{width:100%;border-collapse:collapse;margin-bottom:14px}
+  .p-tbl th,.p-tbl td{border:1px solid #bbb;padding:5px 8px;font-size:12px;text-align:left}
+  .p-tbl th{background:#f0f0f0}
+  .p-h1{font-size:22px;margin-bottom:2px}
+  .p-sub{color:#555;margin-bottom:14px;font-size:12px}
+  .p-sec{font-size:14px;font-weight:700;margin:16px 0 8px;border-bottom:2px solid #000;padding-bottom:3px}
+  .p-chk{font-size:12px;margin:2px 0}
+}
+</style>
+<style id="nexaly-demo-guard">
+.nxd-mark{position:fixed;z-index:2147483645;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-24deg);font:700 clamp(38px,7vw,88px)/1 Georgia,serif;color:rgba(75,55,35,.055);pointer-events:none;white-space:nowrap;user-select:none}.nxd-ribbon{position:fixed;z-index:2147483646;right:14px;bottom:14px;display:flex;align-items:center;gap:10px;border-radius:999px;padding:8px 9px 8px 14px;background:#241b14;color:#fff;box-shadow:0 12px 30px #0004;font:700 12px/1.3 system-ui,sans-serif}.nxd-ribbon a{border-radius:999px;background:#c06a3f;color:#fff!important;text-decoration:none;padding:8px 12px}.nxd-toast{position:fixed;z-index:2147483647;left:50%;bottom:72px;transform:translateX(-50%);border-radius:10px;background:#241b14;color:#fff;padding:11px 15px;font:600 12px system-ui;opacity:0;pointer-events:none;transition:.2s}.nxd-toast.on{opacity:1}@media(max-width:620px){.nxd-ribbon{left:10px;right:10px;justify-content:space-between}.nxd-ribbon span{font-size:10px}}
+</style></head>
+<body><div class="nxd-mark" aria-hidden="true">NEXALYPLANNER DEMO</div><div class="nxd-ribbon"><span>Live demo · temporary test data</span><a href="https://buy.polar.sh/polar_cl_56lsbzVx9DQaqUBAot4fNVuZRcNsHffSAhN8Y4EEEsg" target="_top">Buy full version — $11.99</a></div><div class="nxd-toast" id="nxdToast">Available in the purchased version</div>
+<script id="nexaly-demo-script">(function(){
+if(window.top===window.self&&!new URLSearchParams(location.search).has('standalone')){location.replace('/planners/content-marketing-planner/#live-demo');return;}
+var blocked=/(export|download|backup|restore|import|print|pdf|word|excel|csv|upload)/i;
+function warn(){var t=document.getElementById('nxdToast');if(!t)return;t.classList.add('on');clearTimeout(warn.t);warn.t=setTimeout(function(){t.classList.remove('on')},2200)}
+document.addEventListener('click',function(e){var n=e.target.closest&&e.target.closest('button,a,label');if(n&&blocked.test((n.textContent||'')+' '+(n.title||''))){e.preventDefault();e.stopImmediatePropagation();warn();}},true);
+document.addEventListener('change',function(e){if(e.target&&e.target.type==='file'){e.preventDefault();e.stopImmediatePropagation();e.target.value='';warn();}},true);
+document.addEventListener('contextmenu',function(e){e.preventDefault()},true);
+document.addEventListener('keydown',function(e){if((e.ctrlKey||e.metaKey)&&/[psu]/i.test(e.key)){e.preventDefault();warn();}},true);
+window.print=function(){warn()};
+})();</script>
+<div id="root"></div>
+<div id="printArea"></div>
+
+<script>
+"use strict";
+/* ---------------- storage (with graceful fallback) ---------------- */
+const KEY="cmp_app_v1";
+let mem=null;
+function load(){try{const r=sessionStorage.getItem(KEY);return r?JSON.parse(r):null}catch(e){return mem}}
+function persist(){try{sessionStorage.setItem(KEY,JSON.stringify(state))}catch(e){mem=JSON.parse(JSON.stringify(state))}}
+function uid(){return Math.random().toString(36).slice(2,9)}
+function cyrb53(str,seed=0){let h1=0xdeadbeef^seed,h2=0x41c6ce57^seed;for(let i=0,ch;i<str.length;i++){ch=str.charCodeAt(i);h1=Math.imul(h1^ch,2654435761);h2=Math.imul(h2^ch,1597334677)}h1=Math.imul(h1^(h1>>>16),2246822507);h1^=Math.imul(h2^(h2>>>13),3266489909);h2=Math.imul(h2^(h2>>>16),2246822507);h2^=Math.imul(h1^(h1>>>13),3266489909);return 4294967296*(2097151&h2)+(h1>>>0)}
+
+/* ---------------- i18n ---------------- */
+const I18N={
+  en:{app:"Content & Marketing Planner",tagline:"For fashion & e-commerce brands",dashboard:"Command Center",content:"Content Hub",ideas:"Idea Bank",products:"Products",drops:"Drops & Campaigns",sales:"Sales from Social",keydates:"Key Dates",more:"More (v2)",outfits:"Outfits",ugc:"UGC & Creators",emails:"Email & Marketing",settings:"Settings",logout:"Lock",addPost:"Add post",addProduct:"Add product",addDrop:"Add drop",thisWeek:"This week",upcoming:"Upcoming drops",postsMonth:"Posts this month",avgEng:"Avg engagement",salesMonth:"Sales from social (month)",save:"Save",cancel:"Cancel",delete:"Delete",edit:"Edit",title:"Title",status:"Status",platform:"Platforms",format:"Format",pillar:"Pillar",date:"Publish date",hook:"Hook (first line)",caption:"Caption",hashtags:"Hashtags / keywords",cta:"Call to action",shoppable:"Shoppable",metrics:"Metrics (after posting)",attributed:"Sales attributed",convert:"Add to calendar",brand:"Brand name",logo:"Logo (emoji or image)",accent:"Accent colour",currency:"Currency",language:"Language",data:"Your data",export:"Export backup",import:"Import backup",reset:"Reset everything",lock:"Password lock",empty_posts:"No posts yet. Plan your first one.",empty_products:"Add the products you'll be posting about.",empty_drops:"Plan a launch with a ready-made timeline.",priority:"Priority",collection:"Collection",category:"Category",price:"Price",type:"Type",goal:"Goal",code:"Discount code",start:"Start",end:"End",angle:"Content angle",moment:"Moment",totalSales:"Total attributed",bySrc:"Sales by drop",addOutfit:"Add outfit",pieces:"Pieces",occasion:"Occasion / season",notes:"Notes",addCreator:"Add creator",handle:"Handle",brief:"Brief / angle",deliverables:"Deliverables",rights:"Usage rights",rightsExp:"Rights expiry",contentLink:"Content link",addEmail:"Add email",subject:"Subject",sendDate:"Send date",segment:"Segment",preview:"Preview text",body:"Body / notes",empty_outfits:"Build outfits from your products, then turn them into shoppable posts.",empty_ugc:"Track creators, gifting, rights and reposts.",empty_emails:"Plan your drop and sale emails alongside social.",shoots:"Shoots",analytics:"Analytics",addShoot:"Add shoot",shotList:"Shot list",location:"Location",model:"Model",empty_shoots:"Plan photo & video shoots with a shot list.",empty_analytics:"Add and measure posts to see analytics.",contentMix:"Content mix by pillar",engByPillar:"Avg engagement by pillar",byPlatform:"Posts by platform",topPosts:"Top posts",print:"Print / Save as PDF",grpCreate:"Create & Reach",grpAudience:"Audience & Research",trendaudio:"Trending Audio",aiprompts:"AI Prompts",live:"Live Shopping",biolink:"Link-in-Bio",sms:"SMS Broadcasts",radar:"Competitor Radar",addAudio:"Add sound",addLive:"Add live event",addBio:"Add link",addSms:"Add SMS",addRadar:"Add entry",addPrompt:"Add prompt",soundName:"Sound name",message:"Message",myPrompts:"My prompts",copy:"Copy",copied:"Copied!",empty_bio:"Add the links you feature in your bio.",empty_audio:"Save trending sounds to use before they fade.",empty_live:"Plan a live shopping event with a run of show.",empty_sms:"Plan SMS blasts for drops and restocks.",empty_radar:"Track competitors, trends, hashtags and sounds.",calendar:"Calendar",addIdea:"Add idea",addKeydate:"Add date",contact:"Contact number",address:"Address"},
+  fr:{app:"Planificateur de Contenu & Marketing",tagline:"Pour les marques de mode et e-commerce",dashboard:"Centre de contrôle",content:"Hub de contenu",ideas:"Banque d'idées",products:"Produits",drops:"Lancements",sales:"Ventes via réseaux",keydates:"Dates clés",more:"Plus",outfits:"Tenues",ugc:"UGC",emails:"Email marketing",settings:"Paramètres",logout:"Verrouiller",addPost:"Ajouter un post",addProduct:"Ajouter un produit",addDrop:"Ajouter un lancement",thisWeek:"Cette semaine",upcoming:"Lancements à venir",postsMonth:"Posts ce mois",avgEng:"Engagement moyen",salesMonth:"Ventes (mois)",save:"Enregistrer",cancel:"Annuler",delete:"Supprimer",edit:"Modifier",title:"Titre",status:"Statut",platform:"Plateformes",format:"Format",pillar:"Pilier",date:"Date de publication",hook:"Accroche",caption:"Légende",hashtags:"Hashtags / mots-clés",cta:"Appel à l'action",shoppable:"Achetable",metrics:"Statistiques",attributed:"Ventes attribuées",convert:"Ajouter au calendrier",brand:"Nom de la marque",logo:"Logo",accent:"Couleur d'accent",currency:"Devise",language:"Langue",data:"Vos données",export:"Sauvegarde",import:"Importer",reset:"Réinitialiser",lock:"Verrouillage",empty_posts:"Aucun post pour l'instant.",empty_products:"Ajoutez vos produits.",empty_drops:"Planifiez un lancement.",priority:"Priorité",collection:"Collection",category:"Catégorie",price:"Prix",type:"Type",goal:"Objectif",code:"Code promo",start:"Début",end:"Fin",angle:"Angle",moment:"Moment",totalSales:"Total attribué",bySrc:"Ventes par lancement",shoots:"Shootings",analytics:"Analytique"},
+  de:{app:"Content- & Marketing-Planer",tagline:"Für Mode- und E-Commerce-Marken",dashboard:"Kommandozentrale",content:"Content-Hub",ideas:"Ideenspeicher",products:"Produkte",drops:"Drops & Kampagnen",sales:"Verkäufe über Social",keydates:"Wichtige Termine",more:"Mehr",outfits:"Outfits",ugc:"UGC",emails:"E-Mail-Marketing",settings:"Einstellungen",logout:"Sperren",addPost:"Beitrag hinzufügen",addProduct:"Produkt hinzufügen",addDrop:"Drop hinzufügen",thisWeek:"Diese Woche",upcoming:"Kommende Drops",postsMonth:"Beiträge diesen Monat",avgEng:"Ø Engagement",salesMonth:"Verkäufe (Monat)",save:"Speichern",cancel:"Abbrechen",delete:"Löschen",edit:"Bearbeiten",title:"Titel",status:"Status",platform:"Plattformen",format:"Format",pillar:"Säule",date:"Veröffentlichungsdatum",hook:"Hook",caption:"Bildtext",hashtags:"Hashtags / Keywords",cta:"Handlungsaufruf",shoppable:"Shoppbar",metrics:"Kennzahlen",attributed:"Zugeordnete Verkäufe",convert:"Zum Kalender hinzufügen",brand:"Markenname",logo:"Logo",accent:"Akzentfarbe",currency:"Währung",language:"Sprache",data:"Deine Daten",export:"Backup",import:"Importieren",reset:"Zurücksetzen",lock:"Sperre",empty_posts:"Noch keine Beiträge.",empty_products:"Füge deine Produkte hinzu.",empty_drops:"Plane einen Drop.",priority:"Priorität",collection:"Kollektion",category:"Kategorie",price:"Preis",type:"Typ",goal:"Ziel",code:"Rabattcode",start:"Start",end:"Ende",angle:"Blickwinkel",moment:"Anlass",totalSales:"Gesamt zugeordnet",bySrc:"Verkäufe nach Drop",shoots:"Shootings",analytics:"Analysen"},
+  es:{app:"Planificador de Contenido y Marketing",tagline:"Para marcas de moda y e-commerce",dashboard:"Centro de mando",content:"Centro de contenido",ideas:"Banco de ideas",products:"Productos",drops:"Lanzamientos",sales:"Ventas desde redes",keydates:"Fechas clave",more:"Más",outfits:"Looks",ugc:"UGC",emails:"Email marketing",settings:"Ajustes",logout:"Bloquear",addPost:"Añadir publicación",addProduct:"Añadir producto",addDrop:"Añadir lanzamiento",thisWeek:"Esta semana",upcoming:"Próximos lanzamientos",postsMonth:"Publicaciones este mes",avgEng:"Interacción media",salesMonth:"Ventas (mes)",save:"Guardar",cancel:"Cancelar",delete:"Eliminar",edit:"Editar",title:"Título",status:"Estado",platform:"Plataformas",format:"Formato",pillar:"Pilar",date:"Fecha",hook:"Gancho",caption:"Texto",hashtags:"Hashtags",cta:"Llamada a la acción",shoppable:"Comprable",metrics:"Métricas",attributed:"Ventas atribuidas",convert:"Añadir al calendario",brand:"Nombre de marca",logo:"Logo",accent:"Color de acento",currency:"Moneda",language:"Idioma",data:"Tus datos",export:"Copia de seguridad",import:"Importar",reset:"Restablecer",lock:"Bloqueo",empty_posts:"Sin publicaciones aún.",empty_products:"Añade tus productos.",empty_drops:"Planifica un lanzamiento.",priority:"Prioridad",collection:"Colección",category:"Categoría",price:"Precio",type:"Tipo",goal:"Objetivo",code:"Código",start:"Inicio",end:"Fin",angle:"Ángulo",moment:"Momento",totalSales:"Total",bySrc:"Ventas por lanzamiento",shoots:"Sesiones",analytics:"Analíticas"},
+  ar:{app:"مخطط المحتوى والتسويق",tagline:"لعلامات الأزياء والتجارة الإلكترونية",dashboard:"مركز القيادة",content:"مركز المحتوى",ideas:"بنك الأفكار",products:"المنتجات",drops:"الإطلاقات والحملات",sales:"مبيعات من التواصل",keydates:"تواريخ مهمة",more:"المزيد",outfits:"الأطقم",ugc:"محتوى المستخدم",emails:"التسويق بالبريد",settings:"الإعدادات",logout:"قفل",addPost:"إضافة منشور",addProduct:"إضافة منتج",addDrop:"إضافة إطلاق",thisWeek:"هذا الأسبوع",upcoming:"الإطلاقات القادمة",postsMonth:"منشورات هذا الشهر",avgEng:"متوسط التفاعل",salesMonth:"المبيعات (الشهر)",save:"حفظ",cancel:"إلغاء",delete:"حذف",edit:"تعديل",title:"العنوان",status:"الحالة",platform:"المنصات",format:"التنسيق",pillar:"المحور",date:"تاريخ النشر",hook:"الجملة الأولى",caption:"التعليق",hashtags:"الوسوم",cta:"دعوة لإجراء",shoppable:"قابل للتسوق",metrics:"المقاييس",attributed:"المبيعات المنسوبة",convert:"أضف إلى التقويم",brand:"اسم العلامة",logo:"الشعار",accent:"لون التمييز",currency:"العملة",language:"اللغة",data:"بياناتك",export:"نسخة احتياطية",import:"استيراد",reset:"إعادة ضبط",lock:"قفل بكلمة مرور",empty_posts:"لا منشورات بعد.",empty_products:"أضف منتجاتك.",empty_drops:"خطط لإطلاق.",priority:"الأولوية",collection:"المجموعة",category:"الفئة",price:"السعر",type:"النوع",goal:"الهدف",code:"رمز الخصم",start:"البداية",end:"النهاية",angle:"زاوية المحتوى",moment:"المناسبة",totalSales:"الإجمالي",bySrc:"المبيعات حسب الإطلاق",shoots:"جلسات التصوير",analytics:"التحليلات"},
+  it:{app:"Pianificatore di Contenuti e Marketing",tagline:"Per brand di moda ed e-commerce",dashboard:"Centro di controllo",content:"Hub contenuti",ideas:"Banca idee",products:"Prodotti",drops:"Lanci e campagne",sales:"Vendite dai social",keydates:"Date chiave",more:"Altro",outfits:"Outfit",ugc:"UGC",emails:"Email marketing",settings:"Impostazioni",logout:"Blocca",addPost:"Aggiungi post",addProduct:"Aggiungi prodotto",addDrop:"Aggiungi lancio",thisWeek:"Questa settimana",upcoming:"Prossimi lanci",postsMonth:"Post questo mese",avgEng:"Coinvolgimento medio",salesMonth:"Vendite (mese)",save:"Salva",cancel:"Annulla",delete:"Elimina",edit:"Modifica",title:"Titolo",status:"Stato",platform:"Piattaforme",format:"Formato",pillar:"Pilastro",date:"Data di pubblicazione",hook:"Aggancio",caption:"Didascalia",hashtags:"Hashtag",cta:"Invito all'azione",shoppable:"Acquistabile",metrics:"Metriche",attributed:"Vendite attribuite",convert:"Aggiungi al calendario",brand:"Nome del brand",logo:"Logo",accent:"Colore accento",currency:"Valuta",language:"Lingua",data:"I tuoi dati",export:"Backup",import:"Importa",reset:"Reimposta",lock:"Blocco",empty_posts:"Ancora nessun post.",empty_products:"Aggiungi i tuoi prodotti.",empty_drops:"Pianifica un lancio.",priority:"Priorità",collection:"Collezione",category:"Categoria",price:"Prezzo",type:"Tipo",goal:"Obiettivo",code:"Codice sconto",start:"Inizio",end:"Fine",angle:"Angolo",moment:"Occasione",totalSales:"Totale",bySrc:"Vendite per lancio",shoots:"Servizi foto",analytics:"Analisi"},
+  pt:{app:"Planejador de Conteúdo e Marketing",tagline:"Para marcas de moda e e-commerce",dashboard:"Central de comando",content:"Central de conteúdo",ideas:"Banco de ideias",products:"Produtos",drops:"Lançamentos",sales:"Vendas das redes",keydates:"Datas importantes",more:"Mais",outfits:"Looks",ugc:"UGC",emails:"Email marketing",settings:"Configurações",logout:"Bloquear",addPost:"Adicionar post",addProduct:"Adicionar produto",addDrop:"Adicionar lançamento",thisWeek:"Esta semana",upcoming:"Próximos lançamentos",postsMonth:"Posts este mês",avgEng:"Engajamento médio",salesMonth:"Vendas (mês)",save:"Salvar",cancel:"Cancelar",delete:"Excluir",edit:"Editar",title:"Título",status:"Status",platform:"Plataformas",format:"Formato",pillar:"Pilar",date:"Data de publicação",hook:"Gancho",caption:"Legenda",hashtags:"Hashtags",cta:"Chamada para ação",shoppable:"Comprável",metrics:"Métricas",attributed:"Vendas atribuídas",convert:"Adicionar ao calendário",brand:"Nome da marca",logo:"Logo",accent:"Cor de destaque",currency:"Moeda",language:"Idioma",data:"Seus dados",export:"Backup",import:"Importar",reset:"Redefinir",lock:"Bloqueio",empty_posts:"Ainda sem posts.",empty_products:"Adicione seus produtos.",empty_drops:"Planeje um lançamento.",priority:"Prioridade",collection:"Coleção",category:"Categoria",price:"Preço",type:"Tipo",goal:"Objetivo",code:"Código de desconto",start:"Início",end:"Fim",angle:"Ângulo",moment:"Ocasião",totalSales:"Total",bySrc:"Vendas por lançamento",shoots:"Ensaios",analytics:"Análises"}
+};
+function t(k){const l=state.settings.lang;return (I18N[l]&&I18N[l][k])||I18N.en[k]||k}
+const RTL=["ar"];
+
+/* ---------------- currency ---------------- */
+/* Currencies limited to Tier 1 + Tier 2 markets */
+const CUR={USD:"$",EUR:"€",GBP:"£",CAD:"C$",AUD:"A$",NZD:"NZ$",CHF:"CHF",JPY:"¥",SGD:"S$",SEK:"kr",NOK:"kr",DKK:"kr",HKD:"HK$",
+  AED:"د.إ",SAR:"SR",QAR:"QR",KWD:"KD",ILS:"₪",INR:"₹",CNY:"CN¥",KRW:"₩",BRL:"R$",MXN:"Mex$",ZAR:"R",PLN:"zł",CZK:"Kč",HUF:"Ft",RON:"lei",TRY:"₺",MYR:"RM",THB:"฿",PHP:"₱",IDR:"Rp"};
+const CUR_TIERS={"Tier 1":["USD","EUR","GBP","CAD","AUD","NZD","CHF","JPY","SGD","SEK","NOK","DKK","HKD"],"Tier 2":["AED","SAR","QAR","KWD","ILS","INR","CNY","KRW","BRL","MXN","ZAR","PLN","CZK","HUF","RON","TRY","MYR","THB","PHP","IDR"]};
+function money(n){const s=CUR[state.settings.currency]||"$";n=Number(n)||0;return s+n.toLocaleString(undefined,{maximumFractionDigits:2})}
+
+/* ---------------- seed data ---------------- */
+const PILLARS=["Product","Styling","BTS","UGC/Proof","Sale","Education"];
+const PILLAR_COLOR={Product:"var(--sticker-sky)",Styling:"var(--sticker-purple)","BTS":"var(--sticker-orange)","UGC/Proof":"var(--sticker-teal)",Sale:"var(--sticker-pink)",Education:"var(--sticker-green)"};
+const PLATFORMS=["Instagram","TikTok","Pinterest","Facebook","YouTube"];
+const FORMATS=["Reel/Short","Carousel","Static","Story","Live","UGC"];
+const CTAS=["Shop now","Link in bio","Save","Comment","DM"];
+const STATUSES=["Idea","Drafting","Ready","Scheduled","Posted"];
+const STATUS_COLOR={Idea:"#a39e98",Drafting:"var(--sticker-orange)",Ready:"var(--sticker-purple)",Scheduled:"var(--sticker-sky)",Posted:"var(--sticker-green)"};
+
+const SEED_IDEAS=[
+["New-arrival close-up with fabric/detail zoom","Product"],["\"3 ways to style this piece\" carousel","Styling"],["Bestseller spotlight + why customers love it","Product"],["Product in motion (walk/twirl reel)","Product"],["Fit & size guide for one item","Education"],["Restock of a sold-out favourite","Product"],["Full-outfit flat-lay with prices tagged","Product"],["\"Which colour?\" poll on a product","Product"],["Fabric/quality + care story","Education"],["New-collection lookbook teaser","Product"],
+["Capsule: 5 pieces → 10 outfits","Styling"],["Day-to-night styling of one item","Styling"],["Season transition outfit","Styling"],["Style one product for 3 occasions","Styling"],["Accessorising tips for a look","Styling"],["\"Get the look\" — recreate a trend","Styling"],["Occasion dressing (wedding guest / brunch)","Styling"],["Colour-pairing guide from your collection","Styling"],["Layering tutorial reel","Styling"],["OOTD featuring a customer favourite","Styling"],
+["Packing an order (satisfying reel)","BTS"],["Behind the shoot / making of a collection","BTS"],["Meet the founder / brand story","BTS"],["Studio / atelier tour","BTS"],["How a piece is designed or sourced","BTS"],["A day in the life running the brand","BTS"],["Blurred sneak peek of the next drop","BTS"],["Fabric-selection process","BTS"],["Milestone celebration","BTS"],["Real moments / bloopers","BTS"],
+["Repost a customer wearing your piece","UGC/Proof"],["Review screenshot as a post/story","UGC/Proof"],["\"Tag us to be featured\" prompt","UGC/Proof"],["Customer styling submission","UGC/Proof"],["Unboxing by a customer/creator","UGC/Proof"],["Testimonial carousel (3–5 reviews)","UGC/Proof"],["Creator collab styling reel","UGC/Proof"],["\"As seen on you\" weekly feature","UGC/Proof"],["Customer fit comparison","UGC/Proof"],["Answer a real DM question as a post","UGC/Proof"],
+["Flash sale + countdown","Sale"],["Discount-code reveal reel","Sale"],["\"Last chance / almost sold out\"","Sale"],["Bundle offer (buy 2 get X)","Sale"],["Seasonal sale (BFCM / holidays)","Sale"],["Early access for VIP subscribers","Sale"],["Free-shipping threshold reminder","Sale"],["Holiday/occasion gift guide","Sale"],["Limited-edition drop urgency","Sale"],["Loyalty / referral reward","Sale"],
+["How to care for [fabric]","Education"],["Style do's & don'ts","Education"],["Trend explainer (what's in this season)","Education"],["Material guide (linen vs cotton)","Education"],["How to measure / find your size","Education"],["Slow-fashion / sustainability tip","Education"],["Capsule-wardrobe building 101","Education"],["5 wardrobe staples every closet needs","Education"],["Colour theory for getting dressed","Education"],["FAQ as content (returns / fit / shipping)","Education"]
+].map(x=>({id:uid(),text:x[0],pillar:x[1],priority:"Medium",status:"Backlog"}));
+
+const SEED_DATES=[
+["New Year / new-season","Jan 1","Awareness","Fresh-start styling, new-year wardrobe"],
+["Valentine's Day","Feb 14","Sale","Date-night looks, gift guide"],
+["Presidents' Day (US)","3rd Mon Feb","Sale","Mid-season promo weekend"],
+["Spring launch","Mar–Apr","Brand","New spring collection lookbook"],
+["Easter","Mar/Apr","Sale","Spring pastels, occasion outfits"],
+["Mother's Day","2nd Sun May","Sale","Gift-for-mum edit, matching looks"],
+["Memorial Day (US)","Last Mon May","Sale","Start-of-summer sale weekend"],
+["Father's Day","3rd Sun Jun","Sale","Menswear / gift edit"],
+["Summer / end-of-season sale","Jun–Jul","Sale","Clearance, summer staples"],
+["Independence Day (US)","Jul 4","Sale","Red-white-blue edit, summer promo"],
+["Back-to-School","Aug–Sep","Sale","Transitional wardrobe, staples"],
+["Labor Day (US)","1st Mon Sep","Sale","End-of-summer sale weekend"],
+["Autumn launch","Sep","Brand","Layering / fall collection"],
+["Halloween","Oct 31","Awareness","Themed styling edit"],
+["Black Friday / Cyber Monday","4th Fri Nov +","Sale","Biggest sale, VIP early access, bundles"],
+["Small Business Saturday (US)","Sat after Thanksgiving","Sale","Support-small-biz push, story-led"],
+["Christmas / holiday","Dec","Sale","Gift guides, party looks, countdown"],
+["Boxing Day / year-end","Dec 26","Sale","Final clearance, New-Year teaser"],
+["Launch-iversary","your date","Brand","Anniversary sale, brand story"],
+["Monthly restock day","recurring","Brand","\"Back in stock\" hype"]
+].map(x=>({id:uid(),moment:x[0],date:x[1],type:x[2],angle:x[3]}));
+
+function dropChecklist(){return [
+ {ph:"Tease (T-2/3 wks)",items:["Teaser reel","BTS shoot post","List-builder email"]},
+ {ph:"Warm-up (T-1 wk)",items:["Sneak peek","Styling preview","Countdown story","Early-access email"]},
+ {ph:"Launch (T-0)",items:["Reveal reel","Shoppable carousel","Live / Stories","Launch email + SMS"]},
+ {ph:"Sustain (T+1–7d)",items:["UGC repost","Styling variations","\"Almost gone\"","Reminder email"]},
+ {ph:"Wind-down (T+1–2 wk)",items:["Restock / last-chance","Best-seller recap","Last-chance + thank-you email"]}
+].map(p=>({ph:p.ph,items:p.items.map(l=>({label:l,done:false}))}))}
+
+/* ---------------- state ---------------- */
+let state=load()||{
+  auth:{hash:null,noLock:false},
+  settings:{brand:"My Brand",logo:"🛍️",logoImg:"",accent:"#0075de",currency:"USD",lang:"en",theme:"light"},
+  posts:[],ideas:SEED_IDEAS,products:[],campaigns:[],outfits:[],ugc:[],emails:[],shoots:[],biolinks:[],audios:[],lives:[],sms:[],radar:[],prompts:[],keydates:SEED_DATES,onboarded:false
+};
+if(!state.keydates||!state.keydates.length)state.keydates=SEED_DATES;
+if(!state.outfits)state.outfits=[];
+if(!state.ugc)state.ugc=[];
+if(!state.emails)state.emails=[];
+if(!state.shoots)state.shoots=[];
+if(!state.biolinks)state.biolinks=[];
+if(!state.audios)state.audios=[];
+if(!state.lives)state.lives=[];
+if(!state.sms)state.sms=[];
+if(!state.radar)state.radar=[];
+if(!state.prompts)state.prompts=[];
+if(!CUR[state.settings.currency])state.settings.currency='USD';
+if(!I18N[state.settings.lang])state.settings.lang='en';
+if(!state.ideas)state.ideas=SEED_IDEAS;
+let unlocked=false;
+let route="dashboard";
+let sidebarOpen=false;
+let calDate=new Date();
+
+/* ---------------- helpers ---------------- */
+function applyTheme(){document.documentElement.style.setProperty('--primary',state.settings.accent);
+  document.documentElement.setAttribute('data-theme',state.settings.theme==='dark'?'dark':'light');
+  const a=state.settings.accent;document.documentElement.style.setProperty('--primary-active',shade(a,-18));
+  document.documentElement.dir=RTL.includes(state.settings.lang)?"rtl":"ltr";
+  document.documentElement.lang=state.settings.lang;}
+function shade(hex,p){const n=parseInt(hex.slice(1),16);let r=(n>>16)+p*2.55,g=((n>>8)&255)+p*2.55,b=(n&255)+p*2.55;r=Math.max(0,Math.min(255,r));g=Math.max(0,Math.min(255,g));b=Math.max(0,Math.min(255,b));return"#"+((1<<24)+(Math.round(r)<<16)+(Math.round(g)<<8)+Math.round(b)).toString(16).slice(1)}
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function todayISO(){return new Date().toISOString().slice(0,10)}
+function inThisMonth(d){if(!d)return false;const n=new Date();const x=new Date(d);return x.getFullYear()===n.getFullYear()&&x.getMonth()===n.getMonth()}
+function inNext7(d){if(!d)return false;const n=new Date();n.setHours(0,0,0,0);const x=new Date(d);const diff=(x-n)/86400000;return diff>=0&&diff<7}
+function eng(p){const r=Number(p.reach)||0;if(!r)return null;return ((Number(p.likes||0)+Number(p.comments||0)+Number(p.saves||0)+Number(p.shares||0))/r*100)}
+function campaignSales(id){const ps=state.posts.filter(p=>p.campaignId===id).reduce((s,p)=>s+(Number(p.sales)||0),0);const es=(state.emails||[]).filter(e=>e.campaignId===id).reduce((s,e)=>s+(Number(e.sales)||0),0);const ms=(state.sms||[]).filter(e=>e.campaignId===id).reduce((s,e)=>s+(Number(e.sales)||0),0);return ps+es+ms}
+function productName(id){const p=state.products.find(x=>x.id===id);return p?p.name:""}
+function campaignName(id){const c=state.campaigns.find(x=>x.id===id);return c?c.name:""}
+
+/* ---------------- render root ---------------- */
+function render(){
+  applyTheme();
+  const root=document.getElementById("root");
+  if(!unlocked && !state.auth.noLock){root.innerHTML=state.auth.hash?authUnlock():authSetup();return}
+  root.innerHTML=`
+   ${sidebarOpen?'<div class="scrim" onclick="toggleSidebar()"></div>':''}
+   <div class="shell">
+     ${sidebar()}
+     <div class="main">
+       ${topbar()}
+       <div class="content">${view()}</div>
+     </div>
+   </div>`;
+}
+function sidebar(){
+  const n=(r,ic,lbl,soon)=>`<button class="nav-item ${route===r?'active':''} ${soon?'':''}" ${soon?'':`onclick="go('${r}')"`}><span class="ic">${ic}</span><span>${lbl}</span>${soon?`<span class="soon">soon</span>`:''}</button>`;
+  const lg=state.settings.logoImg?`<img src="${state.settings.logoImg}" alt="">`:esc(state.settings.logo);
+  return `<aside class="sidebar ${sidebarOpen?'open':''}">
+    <div class="brand-fixed">NexalyPlanner<span class="brand-dot"></span></div>
+    <div class="brand"><div class="logo">${lg}</div><div><div class="bname">${esc(state.settings.brand)}</div><div class="btag">${t('tagline')}</div>${(state.settings.contact||state.settings.address)?`<div class="bcontact">${[state.settings.contact,state.settings.address].filter(Boolean).map(esc).join(' · ')}</div>`:''}</div></div>
+    <nav class="nav">
+      ${n('dashboard','🏠',t('dashboard'))}
+      ${n('content','📅',t('content'))}
+      ${n('calendar','🗓️',t('calendar'))}
+      ${n('ideas','💡',t('ideas'))}
+      <div class="nav-label">${t('products')} · ${t('drops')}</div>
+      ${n('products','🛍️',t('products'))}
+      ${n('drops','🚀',t('drops'))}
+      ${n('sales','💰',t('sales'))}
+      ${n('analytics','📊',t('analytics'))}
+      ${n('keydates','📆',t('keydates'))}
+      <div class="nav-label">${t('grpCreate')}</div>
+      ${n('outfits','👗',t('outfits'))}
+      ${n('shoots','📸',t('shoots'))}
+      ${n('trendaudio','🎵',t('trendaudio'))}
+      ${n('aiprompts','🤖',t('aiprompts'))}
+      ${n('live','🛍️',t('live'))}
+      ${n('biolink','🔗',t('biolink'))}
+      <div class="nav-label">${t('grpAudience')}</div>
+      ${n('ugc','🤝',t('ugc'))}
+      ${n('emails','✉️',t('emails'))}
+      ${n('sms','💬',t('sms'))}
+      ${n('radar','🔍',t('radar'))}
+    </nav>
+    <div class="side-foot">
+      ${n('settings','⚙️',t('settings'))}
+      ${state.auth.hash?`<button class="nav-item" onclick="lockApp()"><span class="ic">🔒</span><span>${t('logout')}</span></button>`:''}
+    </div>
+  </aside>`;
+}
+const TITLES={dashboard:'dashboard',content:'content',ideas:'ideas',products:'products',drops:'drops',sales:'sales',keydates:'keydates',settings:'settings',outfits:'outfits',ugc:'ugc',emails:'emails',analytics:'analytics',shoots:'shoots',trendaudio:'trendaudio',aiprompts:'aiprompts',live:'live',biolink:'biolink',sms:'sms',radar:'radar',calendar:'calendar'};
+const LANGS=[['en','English','EN'],['es','Español','ES'],['fr','Français','FR'],['de','Deutsch','DE'],['it','Italiano','IT'],['pt','Português','PT'],['ar','العربية','AR']];
+function topbar(){
+  const primary={content:`<button class="btn btn-primary" onclick="openPost()">＋ ${t('addPost')}</button>`,
+    ideas:`<button class="btn btn-primary" onclick="openIdea()">＋ ${t('addIdea')}</button>`,
+    products:`<button class="btn btn-primary" onclick="openProduct()">＋ ${t('addProduct')}</button>`,
+    drops:`<button class="btn btn-primary" onclick="openDrop()">＋ ${t('addDrop')}</button>`,
+    keydates:`<button class="btn btn-primary" onclick="openKeydate()">＋ ${t('addKeydate')}</button>`,
+    outfits:`<button class="btn btn-primary" onclick="openOutfit()">＋ ${t('addOutfit')}</button>`,
+    ugc:`<button class="btn btn-primary" onclick="openUgc()">＋ ${t('addCreator')}</button>`,
+    emails:`<button class="btn btn-primary" onclick="openEmail()">＋ ${t('addEmail')}</button>`,
+    shoots:`<button class="btn btn-primary" onclick="openShoot()">＋ ${t('addShoot')}</button>`,
+    biolink:`<button class="btn btn-primary" onclick="openBio()">＋ ${t('addBio')}</button>`,
+    trendaudio:`<button class="btn btn-primary" onclick="openAudio()">＋ ${t('addAudio')}</button>`,
+    live:`<button class="btn btn-primary" onclick="openLive()">＋ ${t('addLive')}</button>`,
+    sms:`<button class="btn btn-primary" onclick="openSms()">＋ ${t('addSms')}</button>`,
+    radar:`<button class="btn btn-primary" onclick="openRadar()">＋ ${t('addRadar')}</button>`,
+    aiprompts:`<button class="btn btn-primary" onclick="openPrompt()">＋ ${t('addPrompt')}</button>`}[route]||'';
+  return `<div class="topbar">
+    <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+    <h1>${t(TITLES[route]||'dashboard')}</h1>
+    <div class="spacer"></div>
+    <select class="lang-mini" onchange="setLang(this.value)" title="Language">${LANGS.map(l=>`<option value="${l[0]}" ${state.settings.lang===l[0]?'selected':''}>${l[2]}</option>`).join('')}</select>
+    <button class="icon-btn" onclick="printPlanner()" title="${t('print')}" style="margin-inline-end:8px">🖨️</button>
+    <button class="icon-btn" onclick="lockApp()" title="Log out" style="margin-inline-end:8px">🚪</button>
+    <button class="icon-btn" onclick="toggleTheme()" title="Theme" style="margin-inline-end:8px">${state.settings.theme==='dark'?'☀️':'🌙'}</button>${primary}</div>`;
+}
+function view(){
+  switch(route){
+    case 'dashboard':return vDashboard();
+    case 'content':return vContent();
+    case 'calendar':return vCalendar();
+    case 'ideas':return vIdeas();
+    case 'products':return vProducts();
+    case 'drops':return vDrops();
+    case 'sales':return vSales();
+    case 'keydates':return vKeydates();
+    case 'outfits':return vOutfits();
+    case 'ugc':return vUgc();
+    case 'emails':return vEmails();
+    case 'shoots':return vShoots();
+    case 'trendaudio':return vAudio();
+    case 'aiprompts':return vPrompts();
+    case 'live':return vLive();
+    case 'biolink':return vBio();
+    case 'sms':return vSms();
+    case 'radar':return vRadar();
+    case 'analytics':return vAnalytics();
+    case 'settings':return vSettings();
+    default:return vDashboard();
+  }
+}
+
+/* ---------------- views ---------------- */
+function vDashboard(){
+  const mPosts=state.posts.filter(p=>inThisMonth(p.date));
+  const engVals=state.posts.map(eng).filter(v=>v!=null);
+  const avgE=engVals.length?(engVals.reduce((a,b)=>a+b,0)/engVals.length):null;
+  const mSales=mPosts.reduce((s,p)=>s+(Number(p.sales)||0),0);
+  const week=state.posts.filter(p=>inNext7(p.date)).sort((a,b)=>(a.date||'').localeCompare(b.date||''));
+  const up=state.campaigns.filter(c=>c.status!=='Wrapped').sort((a,b)=>(a.start||'').localeCompare(b.start||''));
+  let out='';
+  if(state.hasExample){out+=`<div class="callout" style="margin-bottom:18px"><span>👁️</span><div>You're viewing <b>example data</b>. <a href="#" onclick="clearExample();return false">Clear it</a> when you're ready to start your own.</div></div>`}
+  if(!state.onboarded){out+=`<div class="card soft" style="margin-bottom:20px;border-color:color-mix(in srgb,var(--primary) 28%,var(--surface))">
+    <div style="display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap">
+      <div style="font-size:30px;line-height:1">👋</div>
+      <div style="flex:1;min-width:220px">
+        <h2 style="font-size:20px;margin-bottom:6px">Welcome to your Content &amp; Marketing Planner</h2>
+        <p style="color:var(--ink-muted);font-size:14px;margin-bottom:14px">Plan content that sells your products — posts, drops, email and UGC in one place. New here? Load an example to see it in action, or start fresh.</p>
+        <div class="chk-wrap" style="margin-bottom:16px">
+          <button class="btn btn-primary btn-sm" onclick="loadExample()">✨ Load example data</button>
+          <button class="btn btn-utility btn-sm" onclick="dismissOnboard()">Start fresh</button>
+        </div>
+        <div style="font-size:13px;color:var(--ink-2)"><b>5-minute quick start</b>
+          <ol style="margin:8px 0 0;padding-inline-start:20px;line-height:1.9">
+            <li>Set your brand, colour &amp; currency in <a href="#" onclick="go('settings');return false">Settings</a></li>
+            <li>Add a few <a href="#" onclick="go('products');return false">Products</a></li>
+            <li>Grab ideas from the <a href="#" onclick="go('ideas');return false">Idea Bank</a> (60 ready)</li>
+            <li>Schedule posts in <a href="#" onclick="go('content');return false">Content Hub</a></li>
+            <li>Plan a launch in <a href="#" onclick="go('drops');return false">Drops</a> &amp; log the sales</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>`}
+  out+=`<div class="grid kpis">
+    ${kpi(mPosts.length,t('postsMonth'),week.length+' due in 7 days','📝')}
+    ${kpi(avgE==null?'—':avgE.toFixed(1)+'%',t('avgEng'),engVals.length+' posts measured','📈')}
+    ${kpi(money(mSales),t('salesMonth'),'logged via drop codes','💰')}
+  </div>`;
+  if(state.posts.length){
+    const pillarData=PILLARS.map(pl=>({label:pl,val:state.posts.filter(x=>x.pillar===pl).length,color:PILLAR_COLOR[pl]})).filter(d=>d.val>0);
+    const trend=salesTrend();
+    out+=`<div class="dash-charts">
+      <div class="card soft"><div class="chart-h">${t('contentMix')}</div><div class="donut-wrap">${donutSVG(pillarData)}<div class="donut-legend">${pillarData.map(d=>`<div class="leg"><span class="dot" style="background:${d.color}"></span>${esc(d.label)}<b>${d.val}</b></div>`).join('')}</div></div></div>
+      <div class="card soft"><div class="chart-h">Sales trend · last 6 weeks</div>${barsInner(trend,v=>money(v))}</div>
+    </div>`;
+    const statusData=STATUSES.map(st=>({label:st,val:state.posts.filter(pp=>(pp.status||'Idea')===st).length,color:STATUS_COLOR[st]})).filter(d=>d.val>0);
+    if(statusData.length)out+=`<div class="card soft" style="margin-top:16px"><div class="chart-h">Content pipeline</div><div class="pipeline">${statusData.map(d=>`<div class="pipe-seg" style="flex:${d.val};background:${d.color}"></div>`).join('')}</div><div class="pipe-legend">${statusData.map(d=>`<span><span class="dot" style="background:${d.color}"></span>${esc(d.label)} ${d.val}</span>`).join('')}</div></div>`;
+  }
+  out+=`<div class="section-title">🗓 ${t('thisWeek')}</div>`;
+  out+= week.length?tblPosts(week):emptyCard('🗓',t('empty_posts'),`<button class="btn btn-utility btn-sm" onclick="openPost()">＋ ${t('addPost')}</button>`);
+  out+=`<div class="section-title">🚀 ${t('upcoming')}</div>`;
+  if(up.length){out+=`<table class="tbl"><thead><tr><th>${t('title')}</th><th>${t('type')}</th><th>${t('start')}</th><th>${t('attributed')}</th></tr></thead><tbody>`+
+    up.slice(0,6).map(c=>`<tr class="row-click" onclick="openDrop('${c.id}')"><td><b>${esc(c.name)}</b></td><td><span class="pill">${esc(c.type)}</span></td><td>${esc(c.start||'—')}</td><td>${money(campaignSales(c.id))}</td></tr>`).join('')+`</tbody></table>`}
+  else out+=emptyCard('🚀',t('empty_drops'),`<button class="btn btn-utility btn-sm" onclick="openDrop()">＋ ${t('addDrop')}</button>`);
+  return out;
+}
+function kpi(n,l,sub,icon){return `<div class="card soft kpi">${icon?`<div class="kpi-ic">${icon}</div>`:''}<div class="n">${n}</div><div class="l">${l}</div>${sub?`<div class="sub">${sub}</div>`:''}</div>`}
+function emptyCard(icon,txt,action){return `<div class="card"><div class="empty"><div class="big">${icon}</div><p>${txt}</p><div style="margin-top:14px">${action||''}</div></div></div>`}
+
+function tblPosts(list){
+  return `<table class="tbl"><thead><tr><th>${t('title')}</th><th>${t('pillar')}</th><th>${t('platform')}</th><th>${t('status')}</th><th>${t('date')}</th></tr></thead><tbody>`+
+  list.map(p=>`<tr class="row-click" onclick="openPost('${p.id}')">
+    <td><b>${esc(p.title||'Untitled')}</b>${p.shoppable?' 🛒':''}</td>
+    <td>${p.pillar?`<span class="pill"><span class="dot" style="background:${PILLAR_COLOR[p.pillar]}"></span>${esc(p.pillar)}</span>`:'—'}</td>
+    <td class="pill-list">${(p.platform||[]).map(pl=>`<span class="pill">${esc(pl)}</span>`).join('')||'—'}</td>
+    <td><span class="pill"><span class="dot" style="background:${STATUS_COLOR[p.status]||'#ccc'}"></span>${esc(p.status||'Idea')}</span></td>
+    <td>${esc(p.date||'—')}</td></tr>`).join('')+`</tbody></table>`;
+}
+function vContent(){
+  if(!state.posts.length)return emptyCard('📅',t('empty_posts'),`<button class="btn btn-primary" onclick="openPost()">＋ ${t('addPost')}</button>`);
+  const sorted=[...state.posts].sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+  let out=tblPosts(sorted);
+  out+=`<div class="section-title">🖼 Feed preview</div><div class="card"><div class="feed">`+
+    sorted.slice(0,12).map(p=>`<div class="cell" onclick="openPost('${p.id}')" style="border-top:3px solid ${PILLAR_COLOR[p.pillar]||'var(--hairline)'}"><div class="hk">${esc(p.hook||p.title||'—')}</div><div class="pill-list">${(p.platform||[]).slice(0,2).map(x=>`<span class="pill">${esc(x)}</span>`).join('')}</div></div>`).join('')+
+    `</div></div>`;
+  return out;
+}
+function vIdeas(){
+  const byP={};PILLARS.forEach(p=>byP[p]=[]);
+  state.ideas.forEach(i=>{(byP[i.pillar]||(byP[i.pillar]=[])).push(i)});
+  let out=`<div class="callout"><span>💡</span><div>${state.ideas.length} ideas. Tap the text to edit, <b>${t('convert')}</b> to schedule, or add your own.</div></div>`;
+  PILLARS.forEach(pil=>{const arr=byP[pil]||[];if(!arr.length)return;
+    out+=`<div class="section-title"><span class="dot" style="background:${PILLAR_COLOR[pil]}"></span>${esc(pil)} <span style="color:var(--ink-faint);font-weight:400">· ${arr.length}</span></div><div class="card" style="padding:6px 0">`;
+    out+=arr.map(i=>`<div style="display:flex;align-items:center;gap:10px;padding:9px 18px;border-bottom:1px solid var(--hairline)">
+      <span style="flex:1;font-size:14px;cursor:pointer" onclick="openIdea('${i.id}')">${esc(i.text)}</span>
+      <button class="btn btn-utility btn-sm" onclick="ideaToPost('${i.id}')">${t('convert')}</button>
+    </div>`).join('');
+    out+=`</div>`;
+  });
+  return out;
+}
+function vProducts(){
+  if(!state.products.length)return emptyCard('🛍️',t('empty_products'),`<button class="btn btn-primary" onclick="openProduct()">＋ ${t('addProduct')}</button>`);
+  return `<table class="tbl"><thead><tr><th>${t('title')}</th><th>${t('collection')}</th><th>${t('price')}</th><th>${t('status')}</th><th>Posts</th></tr></thead><tbody>`+
+  state.products.map(p=>{const c=state.posts.filter(x=>x.productId===p.id).length;
+   return `<tr class="row-click" onclick="openProduct('${p.id}')"><td><b>${esc(p.name)}</b></td><td>${esc(p.collection||'—')}</td><td>${p.price?money(p.price):'—'}</td><td><span class="pill">${esc(p.status||'Planned')}</span></td><td>${c}</td></tr>`}).join('')+`</tbody></table>`;
+}
+function vDrops(){
+  if(!state.campaigns.length)return emptyCard('🚀',t('empty_drops'),`<button class="btn btn-primary" onclick="openDrop()">＋ ${t('addDrop')}</button>`);
+  return state.campaigns.map(c=>{
+    const items=(c.checklist||[]).flatMap(p=>p.items);const done=items.filter(i=>i.done).length;
+    return `<div class="card soft" style="margin-bottom:14px;cursor:pointer" onclick="openDrop('${c.id}')">
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+        <span class="pill"><span class="dot" style="background:var(--sticker-pink)"></span>${esc(c.type)}</span>
+        <b style="font-size:16px">${esc(c.name)}</b>
+        <span style="margin-inline-start:auto;font-weight:700">${money(campaignSales(c.id))}</span>
+      </div>
+      <div style="color:var(--ink-muted);font-size:13px;margin-top:8px">${esc(c.start||'')}${c.end?' → '+esc(c.end):''} · ${done}/${items.length} tasks done ${c.code?'· code '+esc(c.code):''}</div>
+    </div>`;
+  }).join('');
+}
+function vSales(){
+  const postSales=state.posts.reduce((s,p)=>s+(Number(p.sales)||0),0);
+  const emailSales=(state.emails||[]).reduce((s,e)=>s+(Number(e.sales)||0),0);
+  const smsSales=(state.sms||[]).reduce((s,e)=>s+(Number(e.sales)||0),0);
+  const total=postSales+emailSales+smsSales;
+  if(!total){return emptyCard('💰','Log a sales figure on a post, email or SMS (via its drop code) and it rolls up here.',`<button class="btn btn-utility btn-sm" onclick="go('content')">${t('content')}</button>`)}
+  let out=`<div class="grid kpis">${kpi(money(total),t('totalSales'),null,'💰')}${kpi(money(postSales),'From posts',null,'📱')}${kpi(money(emailSales+smsSales),'From email & SMS',null,'✉️')}</div>`;
+  const chan=[{label:'Social',val:postSales,color:'var(--sticker-sky)'},{label:'Email',val:emailSales,color:'var(--sticker-purple)'},{label:'SMS',val:smsSales,color:'var(--sticker-teal)'}].filter(d=>d.val>0);
+  const byDrop=state.campaigns.map(c=>({label:c.name,val:campaignSales(c.id)})).filter(r=>r.val>0).sort((a,b)=>b.val-a.val).slice(0,7);
+  out+=`<div class="dash-charts">
+    <div class="card soft"><div class="chart-h">By channel</div><div class="donut-wrap">${donutSVG(chan,money(total),'total')}<div class="donut-legend">${chan.map(d=>`<div class="leg"><span class="dot" style="background:${d.color}"></span>${d.label}<b>${money(d.val)}</b></div>`).join('')}</div></div></div>
+    <div class="card soft"><div class="chart-h">${t('bySrc')}</div>${byDrop.length?barsInner(byDrop,v=>money(v)):'<div class="empty" style="padding:20px">Link posts to drops to see this.</div>'}</div>
+  </div>`;
+  out+=`<div class="card soft" style="margin-top:16px"><div class="chart-h">Sales trend · last 6 weeks</div>${barsInner(salesTrend(),v=>money(v))}</div>`;
+  const withSales=state.posts.filter(p=>Number(p.sales)>0).sort((a,b)=>(Number(b.sales)||0)-(Number(a.sales)||0));
+  if(withSales.length)out+=`<div class="section-title">Posts by revenue</div><table class="tbl"><thead><tr><th>${t('title')}</th><th>${t('drops')}</th><th>${t('attributed')}</th></tr></thead><tbody>`+
+    withSales.map(p=>`<tr class="row-click" onclick="openPost('${p.id}')"><td><b>${esc(p.title||'Untitled')}</b></td><td>${esc(campaignName(p.campaignId)||'—')}</td><td><b>${money(p.sales)}</b></td></tr>`).join('')+`</tbody></table>`;
+  return out;
+}
+function vKeydates(){
+  const COL={Sale:"var(--sticker-pink)",Awareness:"var(--sticker-sky)",Brand:"var(--sticker-purple)",Cultural:"var(--sticker-teal)"};
+  return `<div class="callout"><span>📆</span><div>Plan content and drops around these shopping peaks. Tap a row to edit, or add your own dates.</div></div>
+  <table class="tbl"><thead><tr><th>${t('moment')}</th><th>${t('date')}</th><th>${t('type')}</th><th>${t('angle')}</th></tr></thead><tbody>`+
+  state.keydates.map(d=>`<tr class="row-click" onclick="openKeydate('${d.id}')"><td><b>${esc(d.moment)}</b></td><td>${esc(d.date)}</td><td><span class="pill"><span class="dot" style="background:${COL[d.type]||'#ccc'}"></span>${esc(d.type)}</span></td><td style="color:var(--ink-muted)">${esc(d.angle)}</td></tr>`).join('')+`</tbody></table>`;
+}
+function vSettings(){
+  const s=state.settings;
+  const swatch=(c)=>`<div class="sw ${s.accent===c?'on':''}" style="background:${c}" onclick="setAccent('${c}')"></div>`;
+  return `<div style="max-width:620px">
+    <div class="card" style="margin-bottom:16px">
+      <h3 style="margin-bottom:14px">🎨 Brand</h3>
+      <div class="field"><label>${t('brand')}</label><input class="input" id="set-brand" value="${esc(s.brand)}" onchange="saveBrand()"></div>
+      <div class="row2">
+        <div class="field"><label>${t('contact')}</label><input class="input" id="set-contact" value="${esc(s.contact||'')}" onchange="saveBrand()" placeholder="Optional"></div>
+        <div class="field"><label>${t('address')}</label><input class="input" id="set-address" value="${esc(s.address||'')}" onchange="saveBrand()" placeholder="Optional"></div>
+      </div>
+      <div class="row2">
+        <div class="field"><label>${t('logo')} (emoji)</label><input class="input" id="set-logo" value="${esc(s.logo)}" maxlength="4" onchange="saveBrand()"></div>
+        <div class="field"><label>Logo image</label><input class="input" type="file" accept="image/*" onchange="uploadLogo(event)"><div class="hint">${s.logoImg?'Image set ✓':'Optional'}</div></div>
+      </div>
+      <div class="field"><label>${t('accent')}</label><div class="swatches">${['#0075de','#111111','#c0392b','#7c3aed','#0f766e','#db2777','#ea580c'].map(swatch).join('')}<input type="color" value="${s.accent}" onchange="setAccent(this.value)" style="width:36px;height:28px;border:none;background:none;cursor:pointer"></div><div class="hint">Tip: set this to your dailyoutfitter brand colour.</div></div>
+    </div>
+    <div class="card" style="margin-bottom:16px">
+      <h3 style="margin-bottom:14px">🌍 ${t('language')} & ${t('currency')}</h3>
+      <div class="row2">
+        <div class="field"><label>${t('language')}</label><select class="input" onchange="setLang(this.value)">${[['en','English'],['es','Español'],['fr','Français'],['de','Deutsch'],['it','Italiano'],['pt','Português'],['ar','العربية']].map(l=>`<option value="${l[0]}" ${s.lang===l[0]?'selected':''}>${l[1]}</option>`).join('')}</select></div>
+        <div class="field"><label>${t('currency')}</label><select class="input" onchange="setCurrency(this.value)">${Object.entries(CUR_TIERS).map(([tier,codes])=>`<optgroup label="${tier}">`+codes.map(c=>`<option value="${c}" ${s.currency===c?'selected':''}>${c} ${CUR[c]}</option>`).join('')+`</optgroup>`).join('')}</select></div>
+      </div>
+      <button class="btn btn-utility" onclick="saveBrand()">${t('save')}</button>
+    </div>
+    <div class="card" style="margin-bottom:16px">
+      <h3 style="margin-bottom:6px">🔒 ${t('lock')}</h3>
+      <p class="hint" style="margin-bottom:12px">${state.auth.hash?'A password is set. You can change or remove it.':'No password yet — add one to lock the planner.'}</p>
+      <div class="chk-wrap">
+        <button class="btn btn-utility btn-sm" onclick="changePw()">${state.auth.hash?'Change password':'Set password'}</button>
+        ${state.auth.hash?`<button class="btn btn-danger btn-sm" onclick="removePw()">Remove password</button>`:''}
+      </div>
+    </div>
+    <div class="card">
+      <h3 style="margin-bottom:12px">💾 ${t('data')}</h3>
+      <div class="chk-wrap">
+        <button class="btn btn-utility btn-sm" onclick="exportData()">⬇ ${t('export')}</button>
+        <button class="btn btn-utility btn-sm" onclick="document.getElementById('imp').click()">⬆ ${t('import')}</button>
+        <input type="file" id="imp" accept="application/json" class="hidden" onchange="importData(event)">
+        <button class="btn btn-utility btn-sm" onclick="printPlanner()">🖨 ${t('print')}</button>
+        <button class="btn btn-utility btn-sm" onclick="loadExample()">✨ Load example</button>
+        ${state.hasExample?`<button class="btn btn-utility btn-sm" onclick="clearExample()">Clear example</button>`:''}
+        <button class="btn btn-danger btn-sm" onclick="resetAll()">${t('reset')}</button>
+      </div>
+      <p class="hint" style="margin-top:10px">Everything is saved to this browser only. Download a backup regularly.</p>
+    </div>
+  </div>`;
+}
+
+/* ---------------- auth screens ---------------- */
+function authSetup(){
+  return `<div class="auth"><div class="box">
+    <div class="logo">🛍️</div>
+    <h1>${t('app')}</h1>
+    <p>Protect your planner with a password. You can skip and add one later.</p>
+    <div class="field"><input class="input" id="pw1" type="password" placeholder="Choose a password" onkeydown="if(event.key==='Enter')doSetPw()"></div>
+    <div class="err" id="autherr"></div>
+    <button class="btn btn-primary" onclick="doSetPw()">Set password & open</button>
+    <div class="skip"><a href="#" onclick="skipLock();return false">Skip for now</a></div>
+  </div></div>`;
+}
+function authUnlock(){
+  const lg=state.settings.logoImg?`<img src="${state.settings.logoImg}" alt="">`:esc(state.settings.logo);
+  return `<div class="auth"><div class="box">
+    <div class="logo">${lg}</div>
+    <h1>${esc(state.settings.brand)}</h1>
+    <p>${t('app')}</p>
+    <div class="field"><input class="input" id="pwu" type="password" placeholder="Password" onkeydown="if(event.key==='Enter')doUnlock()" autofocus></div>
+    <div class="err" id="autherr"></div>
+    <button class="btn btn-primary" onclick="doUnlock()">Unlock</button>
+  </div></div>`;
+}
+
+/* ---------------- actions ---------------- */
+window.go=function(r){route=r;sidebarOpen=false;render();window.scrollTo(0,0)};
+window.toggleSidebar=function(){sidebarOpen=!sidebarOpen;render()};
+window.dismissOnboard=function(){state.onboarded=true;persist();render()};
+function clearExampleSilent(){['posts','products','campaigns','outfits','ugc','emails','shoots','biolinks','audios','lives','sms','radar','prompts'].forEach(k=>{state[k]=(state[k]||[]).filter(x=>!x.sample)});state.hasExample=false}
+window.clearExample=function(){if(confirm('Remove all example data?')){clearExampleSilent();persist();render();toast('Example data cleared')}};
+window.loadExample=function(){
+  clearExampleSilent();
+  const now=new Date();const D=off=>{const d=new Date(now);d.setDate(d.getDate()+off);return d.toISOString().slice(0,10)};
+  const pid1=uid(),pid2=uid(),pid3=uid(),cid=uid(),oid1=uid(),oid2=uid(),ug1=uid();
+  state.products.unshift(
+    {id:pid1,name:"Linen Wrap Dress",collection:"Spring '25",category:"Dresses",price:68,status:"Live",link:"",sample:true},
+    {id:pid2,name:"Oversized Denim Jacket",collection:"Spring '25",category:"Outerwear",price:89,status:"Live",link:"",sample:true},
+    {id:pid3,name:"Ribbed Knit Tank",collection:"Essentials",category:"Tops",price:32,status:"Live",link:"",sample:true}
+  );
+  const chk=dropChecklist();chk[0].items.forEach(i=>i.done=true);chk[1].items[0].done=true;chk[1].items[1].done=true;
+  state.campaigns.unshift({id:cid,name:"Spring Launch '25",type:"Drop",status:"Live",start:D(-3),end:D(10),goal:"Sell through 80% in 2 weeks",code:"SPRING15",checklist:chk,sample:true});
+  state.outfits.unshift(
+    {id:oid1,name:"Weekend Brunch Look",pieces:[pid1,pid2],occasion:["Everyday","Summer"],notes:"Hero spring look",sample:true},
+    {id:oid2,name:"Layered Casual",pieces:[pid3,pid2],occasion:["Everyday"],notes:"",sample:true}
+  );
+  state.ugc.unshift({id:ug1,name:"Maya",handle:"@stylebymaya",type:"Creator",status:"Briefed",productId:pid1,brief:"Style the linen dress 3 ways for spring",deliverables:"1 reel + 3 stories",code:"MAYA10",rights:"Organic",rightsExp:"",contentLink:"",sample:true});
+  state.emails.unshift(
+    {id:uid(),subject:"Spring is here 🌷 First look inside",type:"Drop",status:"Ready",sendDate:D(1),segment:"All",previewText:"Our new spring collection just dropped",body:"",campaignId:cid,sales:"",sample:true},
+    {id:uid(),subject:"Last chance: Spring Launch ends tonight",type:"Sale",status:"Sent",sendDate:D(-1),segment:"All",previewText:"Final hours to shop the launch",body:"",campaignId:cid,sales:420,sample:true}
+  );
+  const P=o=>Object.assign({id:uid(),status:"Idea",platform:[],format:"Reel/Short",cta:"Shop now",sample:true},o);
+  state.posts.unshift(
+    P({title:"Spring drop teaser 🌷",pillar:"Product",platform:["Instagram","TikTok"],format:"Reel/Short",date:D(3),status:"Scheduled",hook:"It's almost here…",productId:pid1,campaignId:cid,shoppable:true}),
+    P({title:"3 ways to style the linen wrap dress",pillar:"Styling",platform:["Instagram"],format:"Carousel",date:D(-5),status:"Posted",hook:"One dress, three looks",productId:pid1,reach:3200,likes:210,comments:18,saves:140,shares:22,sales:180,shoppable:true}),
+    P({title:"Behind the shoot ✨",pillar:"BTS",platform:["Instagram"],format:"Reel/Short",date:D(-7),status:"Posted",reach:1800,likes:95,comments:6,saves:40,shares:8}),
+    P({title:"Denim jacket restock is live",pillar:"Product",platform:["Instagram"],format:"Static",date:D(-3),status:"Posted",productId:pid2,reach:2100,likes:130,comments:9,saves:60,shares:12,sales:267,shoppable:true}),
+    P({title:"Customer look 💛 @stylebymaya",pillar:"UGC/Proof",platform:["Instagram"],format:"UGC",date:D(-1),status:"Posted",reach:2600,likes:240,comments:20,saves:90,shares:30}),
+    P({title:"Weekend brunch outfit idea",pillar:"Styling",platform:["TikTok"],format:"Reel/Short",date:D(2),status:"Scheduled",productId:pid1}),
+    P({title:"Spring Launch — everything you need to know",pillar:"Sale",platform:["Instagram"],format:"Carousel",date:D(0),status:"Scheduled",campaignId:cid,cta:"Link in bio"}),
+    P({title:"How to care for linen 🌿",pillar:"Education",platform:["Instagram"],format:"Reel/Short",date:D(4),status:"Ready"}),
+    P({title:"Last chance: Spring Launch ends tonight ⏰",pillar:"Sale",platform:["Instagram"],format:"Story",date:D(6),status:"Idea",campaignId:cid}),
+    P({title:"New in: ribbed knit tank",pillar:"Product",platform:["Pinterest"],format:"Static",date:D(-10),status:"Posted",productId:pid3,reach:900,likes:40,comments:3,saves:55,shares:5,sales:96,shoppable:true})
+  );
+  state.shoots.unshift({id:uid(),name:"Spring lookbook shoot",type:"Model",status:"Shot",date:D(-9),model:"Maya",location:"Studio A",products:[pid1,pid2,pid3],shotList:"Full looks, fabric detail close-ups, movement shots",assets:"",sample:true});
+  state.biolinks.unshift({id:uid(),label:"Shop the Spring drop",url:"https://",status:"Active",note:"",sample:true},{id:uid(),label:"Size guide",url:"https://",status:"Active",note:"",sample:true});
+  state.audios.unshift({id:uid(),name:"Golden Hour — trending remix",platform:"TikTok",status:"To try",link:"",note:"For the outfit reel",sample:true});
+  state.lives.unshift({id:uid(),title:"Spring Live Sale",platform:"Instagram",status:"Planned",date:D(5),code:"LIVE15",products:[pid1,pid2],run:"Intro → new arrivals → styling → Q&A → code reveal",sample:true});
+  state.sms.unshift({id:uid(),message:"Spring drop is live 🌷 Shop early access now — code SPRING15",sendDate:D(1),segment:"VIP",status:"Ready",sales:"",campaignId:cid,sample:true});
+  state.radar.unshift({id:uid(),name:"@rivalbrand",type:"Competitor",status:"Watching",link:"",note:"Runs weekly drops",sample:true},{id:uid(),name:"#springstyle",type:"Hashtag",status:"Try this",link:"",note:"",sample:true});
+  state.hasExample=true;state.onboarded=true;persist();route='dashboard';render();toast('Example data loaded');
+};
+window.lockApp=function(){if(!state.auth.hash){state.auth.noLock=false;}unlocked=false;render()};
+window.skipLock=function(){state.auth.noLock=true;unlocked=true;persist();render()};
+window.doSetPw=function(){const v=document.getElementById('pw1').value;if(v.length<3){document.getElementById('autherr').textContent='Use at least 3 characters.';return}state.auth.hash=cyrb53(v);state.auth.noLock=false;unlocked=true;persist();render()};
+window.doUnlock=function(){const v=document.getElementById('pwu').value;if(cyrb53(v)===state.auth.hash){unlocked=true;render()}else{document.getElementById('autherr').textContent='Wrong password.'}};
+
+/* settings actions */
+window.setAccent=function(c){state.settings.accent=c;persist();applyTheme();if(route==='settings')render()};
+window.setLang=function(l){state.settings.lang=l;persist();render()};
+window.toggleTheme=function(){state.settings.theme=state.settings.theme==='dark'?'light':'dark';persist();applyTheme();render()};
+window.setCurrency=function(c){state.settings.currency=c;persist();render()};
+window.saveBrand=function(){const g=x=>{const el=document.getElementById(x);return el?el.value:''};state.settings.brand=g('set-brand')||'My Brand';state.settings.logo=g('set-logo')||'🛍️';state.settings.contact=g('set-contact');state.settings.address=g('set-address');persist();render();toast('Saved')};
+window.uploadLogo=function(e){const f=e.target.files[0];if(!f)return;const rd=new FileReader();rd.onload=()=>{state.settings.logoImg=rd.result;persist();render()};rd.readAsDataURL(f)};
+window.changePw=function(){const v=prompt('New password (min 3 chars):');if(v==null)return;if(v.length<3){alert('Too short');return}state.auth.hash=cyrb53(v);state.auth.noLock=false;persist();render();toast('Password set')};
+window.removePw=function(){if(confirm('Remove the password lock?')){state.auth.hash=null;state.auth.noLock=true;persist();render()}};
+window.exportData=function(){const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='planner-backup.json';a.click()};
+window.importData=function(e){const f=e.target.files[0];if(!f)return;const rd=new FileReader();rd.onload=()=>{try{state=JSON.parse(rd.result);persist();unlocked=true;render();toast('Imported')}catch(err){alert('Invalid file')}};rd.readAsText(f)};
+window.resetAll=function(){if(confirm('Delete all data and start over?')){try{sessionStorage.removeItem(KEY)}catch(e){}location.reload()}};
+
+/* ---------------- post modal ---------------- */
+function multiChk(name,opts,selected){return `<div class="chk-wrap" id="chk-${name}">`+opts.map(o=>`<span class="chk-tag ${selected.includes(o)?'on':''}" data-v="${esc(o)}" onclick="this.classList.toggle('on')">${esc(o)}</span>`).join('')+`</div>`}
+function readMulti(name){return [...document.querySelectorAll('#chk-'+name+' .chk-tag.on')].map(e=>e.dataset.v)}
+function sel(id,opts,val,ph){return `<select class="input" id="${id}">${ph?`<option value="">${ph}</option>`:''}${opts.map(o=>`<option ${o===val?'selected':''}>${esc(o)}</option>`).join('')}</select>`}
+
+window.openPost=function(id){
+  const p=id?state.posts.find(x=>x.id===id):{};
+  const prodOpts=state.products.map(x=>`<option value="${x.id}" ${p.productId===x.id?'selected':''}>${esc(x.name)}</option>`).join('');
+  const campOpts=state.campaigns.map(x=>`<option value="${x.id}" ${p.campaignId===x.id?'selected':''}>${esc(x.name)}</option>`).join('');
+  modal(id?t('edit'):t('addPost'),`
+    <div class="field"><label>${t('title')}</label><input class="input" id="f-title" value="${esc(p.title||'')}"></div>
+    <div class="row2">
+      <div class="field"><label>${t('status')}</label>${sel('f-status',STATUSES,p.status||'Idea')}</div>
+      <div class="field"><label>${t('date')}</label><input class="input" type="date" id="f-date" value="${esc(p.date||'')}"></div>
+    </div>
+    <div class="field"><label>${t('platform')}</label>${multiChk('plat',PLATFORMS,p.platform||[])}</div>
+    <div class="row2">
+      <div class="field"><label>${t('format')}</label>${sel('f-format',FORMATS,p.format||'Reel/Short')}</div>
+      <div class="field"><label>${t('pillar')}</label>${sel('f-pillar',PILLARS,p.pillar||'Product')}</div>
+    </div>
+    <div class="field"><label>${t('hook')}</label><input class="input" id="f-hook" value="${esc(p.hook||'')}"></div>
+    <div class="field"><label>${t('caption')}</label><textarea class="input" id="f-caption">${esc(p.caption||'')}</textarea></div>
+    <div class="field"><label>${t('hashtags')}</label><input class="input" id="f-tags" value="${esc(p.hashtags||'')}"></div>
+    <div class="row2">
+      <div class="field"><label>${t('cta')}</label>${sel('f-cta',CTAS,p.cta||'Shop now')}</div>
+      <div class="field"><label>${t('shoppable')}</label><label style="display:flex;align-items:center;gap:8px;font-weight:400;padding-top:8px"><input type="checkbox" id="f-shop" ${p.shoppable?'checked':''}> ${t('shoppable')}</label></div>
+    </div>
+    ${state.products.length?`<div class="field"><label>Product</label><select class="input" id="f-prod"><option value="">—</option>${prodOpts}</select></div>`:''}
+    ${state.campaigns.length?`<div class="field"><label>${t('drops')}</label><select class="input" id="f-camp"><option value="">—</option>${campOpts}</select></div>`:''}
+    ${state.outfits.length?`<div class="field"><label>${t('outfits')}</label><select class="input" id="f-outfit"><option value="">—</option>${state.outfits.map(o=>`<option value="${o.id}" ${p.outfitId===o.id?'selected':''}>${esc(o.name)}</option>`).join('')}</select></div>`:''}
+    <div class="section-title" style="margin:8px 0 10px">${t('metrics')}</div>
+    <div class="row2"><div class="field"><label>Likes</label><input class="input" type="number" id="f-likes" value="${p.likes||''}"></div><div class="field"><label>Comments</label><input class="input" type="number" id="f-comments" value="${p.comments||''}"></div></div>
+    <div class="row2"><div class="field"><label>Saves</label><input class="input" type="number" id="f-saves" value="${p.saves||''}"></div><div class="field"><label>Shares</label><input class="input" type="number" id="f-shares" value="${p.shares||''}"></div></div>
+    <div class="row2"><div class="field"><label>Reach</label><input class="input" type="number" id="f-reach" value="${p.reach||''}"></div><div class="field"><label>${t('attributed')} (${CUR[state.settings.currency]})</label><input class="input" type="number" id="f-sales" value="${p.sales||''}"></div></div>
+  `,`savePost('${id||''}')`,id?`deletePost('${id}')`:'');
+};
+window.savePost=function(id){
+  const g=x=>document.getElementById(x)?document.getElementById(x).value:'';
+  const obj={id:id||uid(),title:g('f-title'),status:g('f-status'),date:g('f-date'),platform:readMulti('plat'),format:g('f-format'),pillar:g('f-pillar'),hook:g('f-hook'),caption:g('f-caption'),hashtags:g('f-tags'),cta:g('f-cta'),shoppable:document.getElementById('f-shop').checked,productId:g('f-prod'),campaignId:g('f-camp'),outfitId:g('f-outfit'),likes:g('f-likes'),comments:g('f-comments'),saves:g('f-saves'),shares:g('f-shares'),reach:g('f-reach'),sales:g('f-sales')};
+  const i=state.posts.findIndex(x=>x.id===obj.id);if(i>=0)state.posts[i]=obj;else state.posts.unshift(obj);
+  persist();closeModal();render()};
+window.deletePost=function(id){if(confirm('Delete this post?')){state.posts=state.posts.filter(x=>x.id!==id);persist();closeModal();render()}};
+window.ideaToPost=function(id){const idea=state.ideas.find(x=>x.id===id);if(!idea)return;state.posts.unshift({id:uid(),title:idea.text,pillar:idea.pillar,status:'Idea',platform:[],format:'Reel/Short',cta:'Shop now'});persist();route='content';render();toast('Added to Content Hub')};
+
+/* product modal */
+window.openProduct=function(id){
+  const p=id?state.products.find(x=>x.id===id):{};
+  modal(id?t('edit'):t('addProduct'),`
+    <div class="field"><label>${t('title')}</label><input class="input" id="p-name" value="${esc(p.name||'')}"></div>
+    <div class="row2"><div class="field"><label>${t('collection')}</label><input class="input" id="p-col" value="${esc(p.collection||'')}"></div><div class="field"><label>${t('category')}</label><input class="input" id="p-cat" value="${esc(p.category||'')}"></div></div>
+    <div class="row2"><div class="field"><label>${t('price')} (${CUR[state.settings.currency]})</label><input class="input" type="number" id="p-price" value="${p.price||''}"></div><div class="field"><label>${t('status')}</label>${sel('p-status',['Planned','Live','Sold out','Archived'],p.status||'Planned')}</div></div>
+    <div class="field"><label>Shoppable link</label><input class="input" id="p-link" value="${esc(p.link||'')}" placeholder="https://"></div>
+  `,`saveProduct('${id||''}')`,id?`deleteProduct('${id}')`:'');
+};
+window.saveProduct=function(id){const g=x=>document.getElementById(x).value;const obj={id:id||uid(),name:g('p-name'),collection:g('p-col'),category:g('p-cat'),price:g('p-price'),status:g('p-status'),link:g('p-link')};const i=state.products.findIndex(x=>x.id===obj.id);if(i>=0)state.products[i]=obj;else state.products.unshift(obj);persist();closeModal();render()};
+window.deleteProduct=function(id){if(confirm('Delete this product?')){state.products=state.products.filter(x=>x.id!==id);persist();closeModal();render()}};
+
+/* drop modal */
+window.openDrop=function(id){
+  const c=id?state.campaigns.find(x=>x.id===id):{};
+  const chk=(c.checklist&&c.checklist.length)?c.checklist:dropChecklist();
+  const chkHtml=chk.map((ph,pi)=>`<div class="chk-phase">${esc(ph.ph)}</div><ul class="chklist">`+ph.items.map((it,ii)=>`<li><input type="checkbox" ${it.done?'checked':''} onchange="toggleChk('${id||'new'}',${pi},${ii},this.checked)"><span class="${it.done?'done-txt':''}">${esc(it.label)}</span></li>`).join('')+`</ul>`).join('');
+  window._draftChk=JSON.parse(JSON.stringify(chk));
+  modal(id?t('edit'):t('addDrop'),`
+    <div class="field"><label>${t('title')}</label><input class="input" id="d-name" value="${esc(c.name||'')}" placeholder="Spring '27 Drop"></div>
+    <div class="row2"><div class="field"><label>${t('type')}</label>${sel('d-type',['Drop','Sale','Launch','UGC','Live'],c.type||'Drop')}</div><div class="field"><label>${t('status')}</label>${sel('d-status',['Planning','Live','Wrapped'],c.status||'Planning')}</div></div>
+    <div class="row2"><div class="field"><label>${t('start')}</label><input class="input" type="date" id="d-start" value="${esc(c.start||'')}"></div><div class="field"><label>${t('end')}</label><input class="input" type="date" id="d-end" value="${esc(c.end||'')}"></div></div>
+    <div class="row2"><div class="field"><label>${t('goal')}</label><input class="input" id="d-goal" value="${esc(c.goal||'')}"></div><div class="field"><label>${t('code')}</label><input class="input" id="d-code" value="${esc(c.code||'')}" placeholder="SPRING10"></div></div>
+    ${id?`<div class="section-title" style="margin:10px 0">📋 Launch checklist (social + email)</div>${chkHtml}`:'<div class="hint">A ready-made tease → launch → sustain checklist (social + email) is added automatically.</div>'}
+  `,`saveDrop('${id||''}')`,id?`deleteDrop('${id}')`:'');
+};
+window.toggleChk=function(id,pi,ii,val){if(id==='new'){return}const c=state.campaigns.find(x=>x.id===id);if(!c)return;c.checklist[pi].items[ii].done=val;persist()};
+window.saveDrop=function(id){const g=x=>document.getElementById(x).value;const existing=id?state.campaigns.find(x=>x.id===id):null;
+  const obj={id:id||uid(),name:g('d-name')||'Untitled drop',type:g('d-type'),status:g('d-status'),start:g('d-start'),end:g('d-end'),goal:g('d-goal'),code:g('d-code'),checklist:existing?existing.checklist:dropChecklist()};
+  const i=state.campaigns.findIndex(x=>x.id===obj.id);if(i>=0)state.campaigns[i]=obj;else state.campaigns.unshift(obj);persist();closeModal();render()};
+window.deleteDrop=function(id){if(confirm('Delete this drop?')){state.campaigns=state.campaigns.filter(x=>x.id!==id);persist();closeModal();render()}};
+
+/* ---------------- modal + toast ---------------- */
+function modal(title,body,onSave,onDelete){
+  const el=document.createElement('div');el.className='overlay';el.id='overlay';
+  el.onclick=(e)=>{if(e.target===el)closeModal()};
+  el.innerHTML=`<div class="modal"><div class="modal-head"><h2>${esc(title)}</h2><button class="x" onclick="closeModal()">×</button></div>
+    <div class="modal-body">${body}</div>
+    <div class="modal-foot">${onDelete?`<button class="btn btn-danger" style="margin-inline-end:auto" onclick="${onDelete}">${t('delete')}</button>`:''}
+      <button class="btn btn-ghost" onclick="closeModal()">${t('cancel')}</button>
+      <button class="btn btn-primary" onclick="${onSave}">${t('save')}</button></div></div>`;
+  document.body.appendChild(el);
+}
+window.closeModal=function(){const o=document.getElementById('overlay');if(o)o.remove()};
+function toast(msg){const el=document.createElement('div');el.textContent=msg;el.style.cssText='position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#2b2b30;color:#fff;padding:10px 18px;border-radius:var(--r-full);font-size:14px;z-index:80;box-shadow:var(--sh-2)';document.body.appendChild(el);setTimeout(()=>el.remove(),1800)}
+
+/* ---------------- Outfits module ---------------- */
+function vOutfits(){
+  if(!state.products.length)return emptyCard('👗','Add products first — outfits are built from them.',`<button class="btn btn-utility btn-sm" onclick="go('products')">${t('products')}</button>`);
+  if(!state.outfits.length)return emptyCard('👗',t('empty_outfits'),`<button class="btn btn-primary" onclick="openOutfit()">＋ ${t('addOutfit')}</button>`);
+  return `<div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr))">`+state.outfits.map(o=>{
+    const total=(o.pieces||[]).reduce((s,pid)=>{const p=state.products.find(x=>x.id===pid);return s+(p?Number(p.price)||0:0)},0);
+    const names=(o.pieces||[]).map(pid=>esc(productName(pid))).filter(Boolean).join(', ');
+    return `<div class="card soft" style="cursor:pointer" onclick="openOutfit('${o.id}')">
+      <b style="font-size:15px">${esc(o.name)}</b>
+      <div class="pill-list" style="margin:8px 0">${(o.occasion||[]).map(x=>`<span class="pill">${esc(x)}</span>`).join('')}</div>
+      <div style="font-size:13px;color:var(--ink-muted)">${(o.pieces||[]).length} ${t('pieces').toLowerCase()} · <b>${money(total)}</b></div>
+      ${names?`<div style="font-size:13px;margin-top:6px;color:var(--ink-2)">${names}</div>`:''}
+    </div>`;
+  }).join('')+`</div>`;
+}
+window.openOutfit=function(id){
+  const o=id?state.outfits.find(x=>x.id===id):{};const pieces=o.pieces||[];
+  const prodChk=state.products.map(p=>`<span class="chk-tag ${pieces.includes(p.id)?'on':''}" data-v="${p.id}" onclick="this.classList.toggle('on')">${esc(p.name)}</span>`).join('');
+  modal(id?t('edit'):t('addOutfit'),`
+    <div class="field"><label>${t('title')}</label><input class="input" id="o-name" value="${esc(o.name||'')}" placeholder="Weekend Brunch Look"></div>
+    <div class="field"><label>${t('pieces')}</label><div class="chk-wrap" id="chk-pieces">${prodChk}</div></div>
+    <div class="field"><label>${t('occasion')}</label>${multiChk('occ',['Everyday','Work','Evening','Wedding','Vacation','Winter','Summer'],o.occasion||[])}</div>
+    <div class="field"><label>${t('notes')}</label><textarea class="input" id="o-notes">${esc(o.notes||'')}</textarea></div>
+  `,`saveOutfit('${id||''}')`,id?`deleteOutfit('${id}')`:'');
+};
+window.saveOutfit=function(id){const pieces=[...document.querySelectorAll('#chk-pieces .chk-tag.on')].map(e=>e.dataset.v);const obj={id:id||uid(),name:document.getElementById('o-name').value||'Untitled outfit',pieces,occasion:readMulti('occ'),notes:document.getElementById('o-notes').value};const i=state.outfits.findIndex(x=>x.id===obj.id);if(i>=0)state.outfits[i]=obj;else state.outfits.unshift(obj);persist();closeModal();render()};
+window.deleteOutfit=function(id){if(confirm('Delete this outfit?')){state.outfits=state.outfits.filter(x=>x.id!==id);persist();closeModal();render()}};
+
+/* ---------------- UGC & Creators module ---------------- */
+const UGC_TYPES=["Creator","Affiliate","Ambassador","Customer review"];
+const UGC_STATUS=["Outreach","Briefed","Shipped","Content in","Posted"];
+function vUgc(){
+  if(!state.ugc.length)return emptyCard('🤝',t('empty_ugc'),`<button class="btn btn-primary" onclick="openUgc()">＋ ${t('addCreator')}</button>`);
+  return `<table class="tbl"><thead><tr><th>${t('title')}</th><th>${t('type')}</th><th>${t('status')}</th><th>${t('rights')}</th><th>Product</th></tr></thead><tbody>`+
+  state.ugc.map(u=>`<tr class="row-click" onclick="openUgc('${u.id}')"><td><b>${esc(u.name)}</b>${u.handle?` <span style="color:var(--ink-faint)">${esc(u.handle)}</span>`:''}</td><td><span class="pill">${esc(u.type)}</span></td><td><span class="pill">${esc(u.status)}</span></td><td>${esc(u.rights||'—')}</td><td>${esc(productName(u.productId)||'—')}</td></tr>`).join('')+`</tbody></table>`;
+}
+window.openUgc=function(id){
+  const u=id?state.ugc.find(x=>x.id===id):{};
+  const prodOpts=state.products.map(x=>`<option value="${x.id}" ${u.productId===x.id?'selected':''}>${esc(x.name)}</option>`).join('');
+  modal(id?t('edit'):t('addCreator'),`
+    <div class="row2"><div class="field"><label>${t('title')}</label><input class="input" id="u-name" value="${esc(u.name||'')}"></div><div class="field"><label>${t('handle')}</label><input class="input" id="u-handle" value="${esc(u.handle||'')}" placeholder="@"></div></div>
+    <div class="row2"><div class="field"><label>${t('type')}</label>${sel('u-type',UGC_TYPES,u.type||'Creator')}</div><div class="field"><label>${t('status')}</label>${sel('u-status',UGC_STATUS,u.status||'Outreach')}</div></div>
+    ${state.products.length?`<div class="field"><label>Product gifted</label><select class="input" id="u-prod"><option value="">—</option>${prodOpts}</select></div>`:''}
+    <div class="field"><label>${t('brief')}</label><textarea class="input" id="u-brief" placeholder="Angle + the high-intent question to answer">${esc(u.brief||'')}</textarea></div>
+    <div class="row2"><div class="field"><label>${t('deliverables')}</label><input class="input" id="u-deliv" value="${esc(u.deliverables||'')}" placeholder="1 reel + 3 stories"></div><div class="field"><label>${t('code')}</label><input class="input" id="u-code" value="${esc(u.code||'')}"></div></div>
+    <div class="row2"><div class="field"><label>${t('rights')}</label>${sel('u-rights',['None','Organic','Paid ads'],u.rights||'None')}</div><div class="field"><label>${t('rightsExp')}</label><input class="input" type="date" id="u-exp" value="${esc(u.rightsExp||'')}"></div></div>
+    <div class="field"><label>${t('contentLink')}</label><input class="input" id="u-link" value="${esc(u.contentLink||'')}" placeholder="https://"></div>
+  `,`saveUgc('${id||''}')`,id?`deleteUgc('${id}')`:'');
+};
+window.saveUgc=function(id){const g=x=>document.getElementById(x)?document.getElementById(x).value:'';const obj={id:id||uid(),name:g('u-name')||'Unnamed',handle:g('u-handle'),type:g('u-type'),status:g('u-status'),productId:g('u-prod'),brief:g('u-brief'),deliverables:g('u-deliv'),code:g('u-code'),rights:g('u-rights'),rightsExp:g('u-exp'),contentLink:g('u-link')};const i=state.ugc.findIndex(x=>x.id===obj.id);if(i>=0)state.ugc[i]=obj;else state.ugc.unshift(obj);persist();closeModal();render()};
+window.deleteUgc=function(id){if(confirm('Delete this entry?')){state.ugc=state.ugc.filter(x=>x.id!==id);persist();closeModal();render()}};
+
+/* ---------------- Email & Marketing module ---------------- */
+const EMAIL_TYPES=["Newsletter","Drop","Sale","Welcome","Abandoned-cart"];
+const EMAIL_STATUS=["Idea","Drafting","Ready","Sent"];
+function vEmails(){
+  if(!state.emails.length)return emptyCard('✉️',t('empty_emails'),`<button class="btn btn-primary" onclick="openEmail()">＋ ${t('addEmail')}</button>`);
+  const sorted=[...state.emails].sort((a,b)=>(b.sendDate||'').localeCompare(a.sendDate||''));
+  return `<table class="tbl"><thead><tr><th>${t('subject')}</th><th>${t('type')}</th><th>${t('status')}</th><th>${t('sendDate')}</th><th>${t('segment')}</th><th>${t('attributed')}</th></tr></thead><tbody>`+
+  sorted.map(e=>`<tr class="row-click" onclick="openEmail('${e.id}')"><td><b>${esc(e.subject||'Untitled')}</b></td><td><span class="pill">${esc(e.type)}</span></td><td><span class="pill">${esc(e.status)}</span></td><td>${esc(e.sendDate||'—')}</td><td><span class="pill">${esc(e.segment||'All')}</span></td><td>${e.sales?money(e.sales):'—'}</td></tr>`).join('')+`</tbody></table>`;
+}
+window.openEmail=function(id){
+  const e=id?state.emails.find(x=>x.id===id):{};
+  const campOpts=state.campaigns.map(x=>`<option value="${x.id}" ${e.campaignId===x.id?'selected':''}>${esc(x.name)}</option>`).join('');
+  modal(id?t('edit'):t('addEmail'),`
+    <div class="field"><label>${t('subject')}</label><input class="input" id="e-subj" value="${esc(e.subject||'')}"></div>
+    <div class="row2"><div class="field"><label>${t('type')}</label>${sel('e-type',EMAIL_TYPES,e.type||'Newsletter')}</div><div class="field"><label>${t('status')}</label>${sel('e-status',EMAIL_STATUS,e.status||'Idea')}</div></div>
+    <div class="row2"><div class="field"><label>${t('sendDate')}</label><input class="input" type="date" id="e-date" value="${esc(e.sendDate||'')}"></div><div class="field"><label>${t('segment')}</label>${sel('e-seg',['All','VIP','New','Lapsed'],e.segment||'All')}</div></div>
+    <div class="field"><label>${t('preview')}</label><input class="input" id="e-prev" value="${esc(e.previewText||'')}"></div>
+    <div class="field"><label>${t('body')}</label><textarea class="input" id="e-body">${esc(e.body||'')}</textarea></div>
+    ${state.campaigns.length?`<div class="field"><label>${t('drops')}</label><select class="input" id="e-camp"><option value="">—</option>${campOpts}</select></div>`:''}
+    <div class="field"><label>${t('attributed')} (${CUR[state.settings.currency]})</label><input class="input" type="number" id="e-sales" value="${e.sales||''}"></div>
+  `,`saveEmail('${id||''}')`,id?`deleteEmail('${id}')`:'');
+};
+window.saveEmail=function(id){const g=x=>document.getElementById(x)?document.getElementById(x).value:'';const obj={id:id||uid(),subject:g('e-subj'),type:g('e-type'),status:g('e-status'),sendDate:g('e-date'),segment:g('e-seg'),previewText:g('e-prev'),body:g('e-body'),campaignId:g('e-camp'),sales:g('e-sales')};const i=state.emails.findIndex(x=>x.id===obj.id);if(i>=0)state.emails[i]=obj;else state.emails.unshift(obj);persist();closeModal();render()};
+window.deleteEmail=function(id){if(confirm('Delete this email?')){state.emails=state.emails.filter(x=>x.id!==id);persist();closeModal();render()}};
+
+/* ---------------- Shoots module ---------------- */
+const SHOOT_TYPES=["Model","Flat-lay","Lifestyle","Video"];
+const SHOOT_STATUS=["Planned","Shot","Edited","Filed"];
+function vShoots(){
+  if(!state.shoots.length)return emptyCard('📸',t('empty_shoots'),`<button class="btn btn-primary" onclick="openShoot()">＋ ${t('addShoot')}</button>`);
+  return `<table class="tbl"><thead><tr><th>${t('title')}</th><th>${t('type')}</th><th>${t('date')}</th><th>${t('status')}</th><th>Products</th></tr></thead><tbody>`+
+  state.shoots.map(s=>`<tr class="row-click" onclick="openShoot('${s.id}')"><td><b>${esc(s.name)}</b></td><td><span class="pill">${esc(s.type)}</span></td><td>${esc(s.date||'—')}</td><td><span class="pill">${esc(s.status)}</span></td><td>${(s.products||[]).map(pid=>esc(productName(pid))).filter(Boolean).join(', ')||'—'}</td></tr>`).join('')+`</tbody></table>`;
+}
+window.openShoot=function(id){
+  const s=id?state.shoots.find(x=>x.id===id):{};const prods=s.products||[];
+  const prodChk=state.products.map(p=>`<span class="chk-tag ${prods.includes(p.id)?'on':''}" data-v="${p.id}" onclick="this.classList.toggle('on')">${esc(p.name)}</span>`).join('');
+  modal(id?t('edit'):t('addShoot'),`
+    <div class="field"><label>${t('title')}</label><input class="input" id="s-name" value="${esc(s.name||'')}" placeholder="Spring lookbook shoot"></div>
+    <div class="row2"><div class="field"><label>${t('type')}</label>${sel('s-type',SHOOT_TYPES,s.type||'Model')}</div><div class="field"><label>${t('status')}</label>${sel('s-status',SHOOT_STATUS,s.status||'Planned')}</div></div>
+    <div class="row2"><div class="field"><label>${t('date')}</label><input class="input" type="date" id="s-date" value="${esc(s.date||'')}"></div><div class="field"><label>${t('model')}</label><input class="input" id="s-model" value="${esc(s.model||'')}"></div></div>
+    <div class="field"><label>${t('location')}</label><input class="input" id="s-loc" value="${esc(s.location||'')}"></div>
+    ${state.products.length?`<div class="field"><label>Products to shoot</label><div class="chk-wrap" id="chk-sprod">${prodChk}</div></div>`:''}
+    <div class="field"><label>${t('shotList')}</label><textarea class="input" id="s-shots" placeholder="Angles, details, must-gets">${esc(s.shotList||'')}</textarea></div>
+    <div class="field"><label>Assets link</label><input class="input" id="s-assets" value="${esc(s.assets||'')}" placeholder="https://"></div>
+  `,`saveShoot('${id||''}')`,id?`deleteShoot('${id}')`:'');
+};
+window.saveShoot=function(id){const g=x=>document.getElementById(x)?document.getElementById(x).value:'';const prods=[...document.querySelectorAll('#chk-sprod .chk-tag.on')].map(e=>e.dataset.v);const obj={id:id||uid(),name:g('s-name')||'Untitled shoot',type:g('s-type'),status:g('s-status'),date:g('s-date'),model:g('s-model'),location:g('s-loc'),products:prods,shotList:g('s-shots'),assets:g('s-assets')};const i=state.shoots.findIndex(x=>x.id===obj.id);if(i>=0)state.shoots[i]=obj;else state.shoots.unshift(obj);persist();closeModal();render()};
+window.deleteShoot=function(id){if(confirm('Delete this shoot?')){state.shoots=state.shoots.filter(x=>x.id!==id);persist();closeModal();render()}};
+
+/* ---------------- Analytics ---------------- */
+function barsInner(data,fmt){if(!data.length)return `<div class="empty" style="padding:20px">No data yet.</div>`;const max=Math.max(...data.map(d=>d.val),1);return `<div class="bars">`+data.map(d=>`<div class="bar-col"><div class="bar-val">${fmt?fmt(d.val):d.val}</div><div class="bar" style="height:${Math.max(3,d.val/max*140)}px;background:${d.color||'var(--primary)'}"></div><div class="bar-lbl">${esc(d.label)}</div></div>`).join('')+`</div>`}
+function donutSVG(data,big,small){const total=data.reduce((s,d)=>s+d.val,0)||1;let cum=0;const segs=data.map(d=>{const pct=d.val/total*100;const el=`<circle cx="21" cy="21" r="15.915" fill="none" stroke="${d.color}" stroke-width="5.5" stroke-dasharray="${pct.toFixed(2)} ${(100-pct).toFixed(2)}" stroke-dashoffset="${(25-cum).toFixed(2)}"/>`;cum+=pct;return el}).join('');const B=big!=null?big:total;const S=small!=null?small:'posts';const fs=((''+B).length>4?4.6:7);return `<svg viewBox="0 0 42 42" style="width:158px;height:158px;flex-shrink:0"><circle cx="21" cy="21" r="15.915" fill="none" stroke="var(--hairline)" stroke-width="5.5"/>${segs}<text x="21" y="20.5" text-anchor="middle" font-size="${fs}" font-weight="700" fill="var(--ink)">${B}</text><text x="21" y="26" text-anchor="middle" font-size="3.4" fill="var(--ink-muted)">${S}</text></svg>;`.replace(/;$/,'');}
+function salesTrend(){const now=new Date();now.setHours(0,0,0,0);const out=[];for(let i=5;i>=0;i--){const start=new Date(now);start.setDate(start.getDate()-now.getDay()-i*7);const end=new Date(start);end.setDate(end.getDate()+7);const inW=d=>{if(!d)return false;const x=new Date(d);return x>=start&&x<end};let v=state.posts.filter(pp=>inW(pp.date)).reduce((a,pp)=>a+(Number(pp.sales)||0),0);v+=(state.emails||[]).filter(e=>inW(e.sendDate)).reduce((a,e)=>a+(Number(e.sales)||0),0);out.push({label:(start.getMonth()+1)+'/'+start.getDate(),val:v})}return out;}
+function barChart(data,fmt){if(!data.length)return `<div class="card"><div class="empty" style="padding:24px">No data yet.</div></div>`;return `<div class="card soft">`+barsInner(data,fmt)+`</div>`}
+function vAnalytics(){
+  if(!state.posts.length)return emptyCard('📊',t('empty_analytics'),`<button class="btn btn-utility btn-sm" onclick="go('content')">${t('content')}</button>`);
+  const engVals=state.posts.map(eng).filter(v=>v!=null);
+  const avgE=engVals.length?(engVals.reduce((a,b)=>a+b,0)/engVals.length):0;
+  const totalReach=state.posts.reduce((s,p)=>s+(Number(p.reach)||0),0);
+  const byPillar=PILLARS.map(p=>({label:p,val:state.posts.filter(x=>x.pillar===p).length,color:PILLAR_COLOR[p]})).filter(d=>d.val>0);
+  const engBy=PILLARS.map(p=>{const arr=state.posts.filter(x=>x.pillar===p).map(eng).filter(v=>v!=null);const avg=arr.length?arr.reduce((a,b)=>a+b,0)/arr.length:0;return {label:p,val:Math.round(avg*10)/10,color:PILLAR_COLOR[p]}}).filter(d=>d.val>0);
+  const platCount={};state.posts.forEach(p=>(p.platform||[]).forEach(pl=>platCount[pl]=(platCount[pl]||0)+1));
+  const byPlat=Object.keys(platCount).map(k=>({label:k,val:platCount[k]}));
+  const top=state.posts.map(p=>({p,e:eng(p)})).filter(x=>x.e!=null).sort((a,b)=>b.e-a.e).slice(0,8);
+  let out=`<div class="grid kpis">${kpi(state.posts.length,'Total posts',null,'📝')}${kpi(avgE.toFixed(1)+'%','Avg engagement',null,'📈')}${kpi(totalReach.toLocaleString(),'Total reach',null,'👁️')}</div>`;
+  out+=`<div class="dash-charts">
+    <div class="card soft"><div class="chart-h">${t('contentMix')}</div><div class="donut-wrap">${donutSVG(byPillar)}<div class="donut-legend">${byPillar.map(d=>`<div class="leg"><span class="dot" style="background:${d.color}"></span>${esc(d.label)}<b>${d.val}</b></div>`).join('')}</div></div></div>
+    <div class="card soft"><div class="chart-h">${t('engByPillar')} (%)</div>${barsInner(engBy,v=>v+'%')}</div>
+  </div>`;
+  out+=`<div class="card soft" style="margin-top:16px"><div class="chart-h">${t('byPlatform')}</div>${barsInner(byPlat)}</div>`;
+  if(top.length)out+=`<div class="section-title">⭐ ${t('topPosts')}</div><table class="tbl"><thead><tr><th>${t('title')}</th><th>${t('pillar')}</th><th>Reach</th><th>Engagement</th></tr></thead><tbody>`+top.map(x=>`<tr class="row-click" onclick="openPost('${x.p.id}')"><td><b>${esc(x.p.title||'Untitled')}</b></td><td>${esc(x.p.pillar||'—')}</td><td>${x.p.reach||'—'}</td><td><b>${x.e.toFixed(1)}%</b></td></tr>`).join('')+`</tbody></table>`;
+  return out;
+}
+
+/* ---------------- Print / PDF (GoodNotes-ready) ---------------- */
+function ptable(cols,rows){return `<table class="p-tbl"><thead><tr>${cols.map(c=>`<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`}
+window.printPlanner=function(){
+  const week=state.posts.filter(p=>inNext7(p.date)).sort((a,b)=>(a.date||'').localeCompare(b.date||''));
+  const month=state.posts.filter(p=>inThisMonth(p.date)).sort((a,b)=>(a.date||'').localeCompare(b.date||''));
+  const drops=state.campaigns.filter(c=>c.status!=='Wrapped');
+  let h=`<div style="padding:24px;color:#111;font-family:${'-apple-system,Segoe UI,Roboto,Arial,sans-serif'}">`;
+  const _logo=state.settings.logoImg?`<img src="${state.settings.logoImg}" style="height:30px;width:30px;object-fit:cover;border-radius:7px;vertical-align:middle;margin-right:9px">`:`<span style="font-size:26px;vertical-align:middle;margin-right:8px">${state.settings.logo||''}</span>`;
+  h+=`<div style="border-bottom:2px solid #111;padding-bottom:12px;margin-bottom:18px">${_logo}<span style="font-size:23px;font-weight:700;vertical-align:middle">${esc(state.settings.brand)}</span><div style="color:#555;font-size:12px;margin-top:8px">Content &amp; Marketing Plan · Generated ${new Date().toLocaleDateString()} · ${esc(state.settings.currency)}${(state.settings.contact||state.settings.address)?' · '+[state.settings.contact,state.settings.address].filter(Boolean).map(esc).join(' · '):''}</div></div>`;
+  h+=`<div class="p-sec">This week</div>`;
+  h+= week.length?ptable(['Date','Title','Platform','Format','Pillar','CTA'],week.map(p=>[p.date||'',p.title||'',(p.platform||[]).join(', '),p.format||'',p.pillar||'',p.cta||''])):'<div class="p-chk">No posts scheduled this week.</div>';
+  h+=`<div class="p-sec">This month</div>`;
+  h+= month.length?ptable(['Date','Title','Status','Pillar'],month.map(p=>[p.date||'',p.title||'',p.status||'',p.pillar||''])):'<div class="p-chk">No posts this month.</div>';
+  drops.forEach(c=>{h+=`<div class="p-sec">Drop — ${esc(c.name)} ${c.start?'('+esc(c.start)+')':''}</div>`;(c.checklist||[]).forEach(ph=>{h+=`<div style="font-weight:600;font-size:12px;margin-top:6px">${esc(ph.ph)}</div>`;ph.items.forEach(it=>{h+=`<div class="p-chk">${it.done?'☑':'☐'} ${esc(it.label)}</div>`})})});
+  h+=`</div>`;
+  document.getElementById('printArea').innerHTML=h;
+  window.print();
+};
+
+/* ---------------- Batch 3 modules ---------------- */
+window.copyText=function(btn){const card=btn.closest('.prompt-card');if(!card)return;const txt=card.querySelector('.prompt-txt').textContent;try{navigator.clipboard.writeText(txt)}catch(e){}const o=btn.textContent;btn.textContent=t('copied');setTimeout(()=>btn.textContent=o,1200)};
+
+/* Link-in-Bio */
+function vBio(){
+  const active=state.biolinks.filter(b=>(b.status||'Active')!=='Inactive');
+  let out=`<div class="callout"><span>\ud83d\udd17</span><div>Manage the links in your Instagram/TikTok bio \u2014 keep them current during launches.</div></div>`;
+  if(!state.biolinks.length)return out+emptyCard('\ud83d\udd17',t('empty_bio'),`<button class="btn btn-primary" onclick="openBio()">\uff0b ${t('addBio')}</button>`);
+  out+=`<table class="tbl"><thead><tr><th>${t('title')}</th><th>URL</th><th>${t('status')}</th></tr></thead><tbody>`+
+    state.biolinks.map(b=>`<tr class="row-click" onclick="openBio('${b.id}')"><td><b>${esc(b.label)}</b></td><td style="color:var(--ink-muted);max-width:320px;overflow:hidden;text-overflow:ellipsis">${esc(b.url)}</td><td><span class="pill">${esc(b.status||'Active')}</span></td></tr>`).join('')+`</tbody></table>`;
+  out+=`<div class="section-title">\ud83d\udd17 Bio preview</div><div class="card soft" style="max-width:340px"><div class="bio-prev"><div style="text-align:center;font-weight:700;margin-bottom:6px">${esc(state.settings.brand)}</div>${active.map(b=>`<div class="bio-link">${esc(b.label)}</div>`).join('')||'<div style="color:var(--ink-faint);font-size:13px;text-align:center">No active links</div>'}</div></div>`;
+  return out;
+}
+window.openBio=function(id){const b=id?state.biolinks.find(x=>x.id===id):{};modal(id?t('edit'):t('addBio'),`
+  <div class="field"><label>${t('title')} (label)</label><input class="input" id="b-label" value="${esc(b.label||'')}" placeholder="Shop the new drop"></div>
+  <div class="field"><label>URL</label><input class="input" id="b-url" value="${esc(b.url||'')}" placeholder="https://"></div>
+  <div class="field"><label>${t('status')}</label>${sel('b-status',['Active','Inactive'],b.status||'Active')}</div>
+  <div class="field"><label>${t('notes')}</label><input class="input" id="b-note" value="${esc(b.note||'')}"></div>
+`,`saveBio('${id||''}')`,id?`deleteBio('${id}')`:'');};
+window.saveBio=function(id){const g=x=>document.getElementById(x).value;const o={id:id||uid(),label:g('b-label')||'Link',url:g('b-url'),status:g('b-status'),note:g('b-note')};const i=state.biolinks.findIndex(x=>x.id===o.id);if(i>=0)state.biolinks[i]=o;else state.biolinks.unshift(o);persist();closeModal();render()};
+window.deleteBio=function(id){if(confirm('Delete this link?')){state.biolinks=state.biolinks.filter(x=>x.id!==id);persist();closeModal();render()}};
+
+/* Trending Audio */
+const AUDIO_STATUS=["To try","Used","Expired"];
+function vAudio(){
+  if(!state.audios.length)return emptyCard('\ud83c\udfb5',t('empty_audio'),`<button class="btn btn-primary" onclick="openAudio()">\uff0b ${t('addAudio')}</button>`);
+  return `<table class="tbl"><thead><tr><th>${t('soundName')}</th><th>${t('platform')}</th><th>${t('status')}</th><th>Link</th></tr></thead><tbody>`+
+    state.audios.map(a=>`<tr class="row-click" onclick="openAudio('${a.id}')"><td><b>${esc(a.name)}</b>${a.note?`<div style="font-size:12px;color:var(--ink-muted)">${esc(a.note)}</div>`:''}</td><td><span class="pill">${esc(a.platform||'')}</span></td><td><span class="pill">${esc(a.status||'To try')}</span></td><td>${a.link?`<a href="${esc(a.link)}" onclick="event.stopPropagation()" target="_blank">open</a>`:'\u2014'}</td></tr>`).join('')+`</tbody></table>`;
+}
+window.openAudio=function(id){const a=id?state.audios.find(x=>x.id===id):{};modal(id?t('edit'):t('addAudio'),`
+  <div class="field"><label>${t('soundName')}</label><input class="input" id="a-name" value="${esc(a.name||'')}"></div>
+  <div class="row2"><div class="field"><label>${t('platform')}</label>${sel('a-plat',['TikTok','Instagram','Reels','YouTube'],a.platform||'TikTok')}</div><div class="field"><label>${t('status')}</label>${sel('a-status',AUDIO_STATUS,a.status||'To try')}</div></div>
+  <div class="field"><label>Link</label><input class="input" id="a-link" value="${esc(a.link||'')}" placeholder="https://"></div>
+  <div class="field"><label>${t('notes')}</label><input class="input" id="a-note" value="${esc(a.note||'')}" placeholder="Which post / vibe"></div>
+`,`saveAudio('${id||''}')`,id?`deleteAudio('${id}')`:'');};
+window.saveAudio=function(id){const g=x=>document.getElementById(x).value;const o={id:id||uid(),name:g('a-name')||'Sound',platform:g('a-plat'),status:g('a-status'),link:g('a-link'),note:g('a-note')};const i=state.audios.findIndex(x=>x.id===o.id);if(i>=0)state.audios[i]=o;else state.audios.unshift(o);persist();closeModal();render()};
+window.deleteAudio=function(id){if(confirm('Delete this sound?')){state.audios=state.audios.filter(x=>x.id!==id);persist();closeModal();render()}};
+
+/* Live Shopping */
+const LIVE_STATUS=["Planned","Live","Done"];
+function vLive(){
+  if(!state.lives.length)return emptyCard('\ud83d\udecd\ufe0f',t('empty_live'),`<button class="btn btn-primary" onclick="openLive()">\uff0b ${t('addLive')}</button>`);
+  return state.lives.map(l=>`<div class="card soft" style="margin-bottom:14px;cursor:pointer" onclick="openLive('${l.id}')">
+    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap"><span class="pill">${esc(l.platform||'')}</span><b style="font-size:16px">${esc(l.title)}</b><span class="pill" style="margin-inline-start:auto">${esc(l.status||'Planned')}</span></div>
+    <div style="color:var(--ink-muted);font-size:13px;margin-top:8px">${esc(l.date||'')} \u00b7 ${(l.products||[]).length} products ${l.code?'\u00b7 code '+esc(l.code):''}</div></div>`).join('');
+}
+window.openLive=function(id){const l=id?state.lives.find(x=>x.id===id):{};const prods=l.products||[];
+  const prodChk=state.products.map(pp=>`<span class="chk-tag ${prods.includes(pp.id)?'on':''}" data-v="${pp.id}" onclick="this.classList.toggle('on')">${esc(pp.name)}</span>`).join('');
+  modal(id?t('edit'):t('addLive'),`
+  <div class="field"><label>${t('title')}</label><input class="input" id="l-title" value="${esc(l.title||'')}" placeholder="Spring Live Sale"></div>
+  <div class="row2"><div class="field"><label>${t('platform')}</label>${sel('l-plat',['Instagram','TikTok','YouTube','Facebook'],l.platform||'Instagram')}</div><div class="field"><label>${t('status')}</label>${sel('l-status',LIVE_STATUS,l.status||'Planned')}</div></div>
+  <div class="row2"><div class="field"><label>${t('date')}</label><input class="input" type="date" id="l-date" value="${esc(l.date||'')}"></div><div class="field"><label>${t('code')}</label><input class="input" id="l-code" value="${esc(l.code||'')}"></div></div>
+  ${state.products.length?`<div class="field"><label>Featured products</label><div class="chk-wrap" id="chk-lprod">${prodChk}</div></div>`:''}
+  <div class="field"><label>Run of show</label><textarea class="input" id="l-run" placeholder="Intro \u2192 product 1 \u2192 styling \u2192 Q&A \u2192 offer">${esc(l.run||'')}</textarea></div>
+`,`saveLive('${id||''}')`,id?`deleteLive('${id}')`:'');};
+window.saveLive=function(id){const g=x=>document.getElementById(x)?document.getElementById(x).value:'';const prods=[...document.querySelectorAll('#chk-lprod .chk-tag.on')].map(e=>e.dataset.v);const o={id:id||uid(),title:g('l-title')||'Live event',platform:g('l-plat'),status:g('l-status'),date:g('l-date'),code:g('l-code'),products:prods,run:g('l-run')};const i=state.lives.findIndex(x=>x.id===o.id);if(i>=0)state.lives[i]=o;else state.lives.unshift(o);persist();closeModal();render()};
+window.deleteLive=function(id){if(confirm('Delete this live event?')){state.lives=state.lives.filter(x=>x.id!==id);persist();closeModal();render()}};
+
+/* SMS */
+const SMS_STATUS=["Idea","Ready","Sent"];
+function vSms(){
+  if(!state.sms.length)return emptyCard('\ud83d\udcac',t('empty_sms'),`<button class="btn btn-primary" onclick="openSms()">\uff0b ${t('addSms')}</button>`);
+  const sorted=[...state.sms].sort((a,b)=>(b.sendDate||'').localeCompare(a.sendDate||''));
+  return `<table class="tbl"><thead><tr><th>${t('message')}</th><th>${t('sendDate')}</th><th>${t('segment')}</th><th>${t('status')}</th><th>${t('attributed')}</th></tr></thead><tbody>`+
+    sorted.map(m=>`<tr class="row-click" onclick="openSms('${m.id}')"><td style="max-width:340px;overflow:hidden;text-overflow:ellipsis"><b>${esc((m.message||'').slice(0,64))}</b></td><td>${esc(m.sendDate||'\u2014')}</td><td><span class="pill">${esc(m.segment||'All')}</span></td><td><span class="pill">${esc(m.status||'Idea')}</span></td><td>${m.sales?money(m.sales):'\u2014'}</td></tr>`).join('')+`</tbody></table>`;
+}
+window.openSms=function(id){const m=id?state.sms.find(x=>x.id===id):{};const campOpts=state.campaigns.map(x=>`<option value="${x.id}" ${m.campaignId===x.id?'selected':''}>${esc(x.name)}</option>`).join('');
+  modal(id?t('edit'):t('addSms'),`
+  <div class="field"><label>${t('message')} <span class="hint" id="sms-count"></span></label><textarea class="input" id="m-msg" maxlength="320" oninput="var c=document.getElementById('sms-count');if(c)c.textContent=this.value.length+'/320'">${esc(m.message||'')}</textarea></div>
+  <div class="row2"><div class="field"><label>${t('sendDate')}</label><input class="input" type="date" id="m-date" value="${esc(m.sendDate||'')}"></div><div class="field"><label>${t('segment')}</label>${sel('m-seg',['All','VIP','New','Lapsed'],m.segment||'All')}</div></div>
+  <div class="row2"><div class="field"><label>${t('status')}</label>${sel('m-status',SMS_STATUS,m.status||'Idea')}</div><div class="field"><label>${t('attributed')} (${CUR[state.settings.currency]})</label><input class="input" type="number" id="m-sales" value="${m.sales||''}"></div></div>
+  ${state.campaigns.length?`<div class="field"><label>${t('drops')}</label><select class="input" id="m-camp"><option value="">\u2014</option>${campOpts}</select></div>`:''}
+`,`saveSms('${id||''}')`,id?`deleteSms('${id}')`:'');};
+window.saveSms=function(id){const g=x=>document.getElementById(x)?document.getElementById(x).value:'';const o={id:id||uid(),message:g('m-msg'),sendDate:g('m-date'),segment:g('m-seg'),status:g('m-status'),sales:g('m-sales'),campaignId:g('m-camp')};const i=state.sms.findIndex(x=>x.id===o.id);if(i>=0)state.sms[i]=o;else state.sms.unshift(o);persist();closeModal();render()};
+window.deleteSms=function(id){if(confirm('Delete this SMS?')){state.sms=state.sms.filter(x=>x.id!==id);persist();closeModal();render()}};
+
+/* Competitor / Trend Radar */
+const RADAR_TYPES=["Competitor","Trend","Hashtag","Audio","Format"];
+const RADAR_STATUS=["Watching","Try this","Done"];
+function vRadar(){
+  if(!state.radar.length)return emptyCard('\ud83d\udd0d',t('empty_radar'),`<button class="btn btn-primary" onclick="openRadar()">\uff0b ${t('addRadar')}</button>`);
+  return `<table class="tbl"><thead><tr><th>${t('title')}</th><th>${t('type')}</th><th>${t('status')}</th><th>Link</th></tr></thead><tbody>`+
+    state.radar.map(r=>`<tr class="row-click" onclick="openRadar('${r.id}')"><td><b>${esc(r.name)}</b>${r.note?`<div style="font-size:12px;color:var(--ink-muted)">${esc(r.note)}</div>`:''}</td><td><span class="pill">${esc(r.type)}</span></td><td><span class="pill">${esc(r.status||'Watching')}</span></td><td>${r.link?`<a href="${esc(r.link)}" onclick="event.stopPropagation()" target="_blank">open</a>`:'\u2014'}</td></tr>`).join('')+`</tbody></table>`;
+}
+window.openRadar=function(id){const r=id?state.radar.find(x=>x.id===id):{};modal(id?t('edit'):t('addRadar'),`
+  <div class="field"><label>${t('title')} / handle</label><input class="input" id="r-name" value="${esc(r.name||'')}"></div>
+  <div class="row2"><div class="field"><label>${t('type')}</label>${sel('r-type',RADAR_TYPES,r.type||'Competitor')}</div><div class="field"><label>${t('status')}</label>${sel('r-status',RADAR_STATUS,r.status||'Watching')}</div></div>
+  <div class="field"><label>Link</label><input class="input" id="r-link" value="${esc(r.link||'')}" placeholder="https://"></div>
+  <div class="field"><label>${t('notes')} / angle</label><textarea class="input" id="r-note">${esc(r.note||'')}</textarea></div>
+`,`saveRadar('${id||''}')`,id?`deleteRadar('${id}')`:'');};
+window.saveRadar=function(id){const g=x=>document.getElementById(x).value;const o={id:id||uid(),name:g('r-name')||'Entry',type:g('r-type'),status:g('r-status'),link:g('r-link'),note:g('r-note')};const i=state.radar.findIndex(x=>x.id===o.id);if(i>=0)state.radar[i]=o;else state.radar.unshift(o);persist();closeModal();render()};
+window.deleteRadar=function(id){if(confirm('Delete this entry?')){state.radar=state.radar.filter(x=>x.id!==id);persist();closeModal();render()}};
+
+/* AI caption prompts */
+const AI_PROMPTS=[
+ {cat:"Captions",items:["Write 3 Instagram captions for a [product] in a [tone] voice, each with a hook and a clear CTA to shop.","Turn these product features into a benefit-led caption for a fashion brand: [features].","Write a short, punchy caption for a new-arrival [product] that creates urgency."]},
+ {cat:"Hooks",items:["Give me 10 scroll-stopping first lines for a Reel about styling a [product].","Write 5 hooks for a get-ready-with-me video featuring [collection].","Suggest 5 curiosity-gap hooks for a product-drop teaser."]},
+ {cat:"Content ideas",items:["Give me 10 content ideas for a [niche] clothing brand this month, mixing product, styling, BTS and UGC.","Suggest 5 short-video concepts to show 3 ways to style one [product].","Plan a 5-post launch sequence for a new [collection] drop."]},
+ {cat:"Hashtags & SEO",items:["Give me 15 relevant hashtags for a [product] targeting [audience], mixing broad and niche.","Suggest 8 searchable keywords my customers might type on TikTok or Instagram to find [product].","Write an SEO-friendly caption for [product] that answers a high-intent question."]}
+];
+function vPrompts(){
+  let out=`<div class="callout"><span>\ud83e\udd16</span><div>Copy a prompt, replace the [brackets], and paste it into your favourite AI tool. Save your own below.</div></div>`;
+  AI_PROMPTS.forEach(g=>{out+=`<div class="section-title">${esc(g.cat)}</div>`+g.items.map(pr=>`<div class="prompt-card"><div class="prompt-txt">${esc(pr)}</div><button class="btn btn-utility btn-sm" onclick="copyText(this)">${t('copy')}</button></div>`).join('')});
+  out+=`<div class="section-title">${t('myPrompts')}</div>`;
+  if(state.prompts.length)out+=state.prompts.map(pr=>`<div class="prompt-card"><div class="prompt-txt">${esc(pr.text)}</div><div style="display:flex;gap:6px"><button class="btn btn-utility btn-sm" onclick="copyText(this)">${t('copy')}</button><button class="btn btn-danger btn-sm" onclick="delPrompt('${pr.id}')">${t('delete')}</button></div></div>`).join('');
+  out+=`<button class="btn btn-utility btn-sm" style="margin-top:8px" onclick="openPrompt()">\uff0b ${t('addPrompt')}</button>`;
+  return out;
+}
+window.openPrompt=function(){modal(t('addPrompt'),`<div class="field"><label>Prompt</label><textarea class="input" id="pr-txt" placeholder="Write a caption that..."></textarea></div>`,`savePrompt()`);};
+window.savePrompt=function(){const v=document.getElementById('pr-txt').value.trim();if(v){state.prompts.unshift({id:uid(),text:v});persist()}closeModal();render()};
+window.delPrompt=function(id){state.prompts=state.prompts.filter(x=>x.id!==id);persist();render()};
+
+/* ---------------- Calendar + custom Ideas/Key Dates ---------------- */
+function vCalendar(){
+  const y=calDate.getFullYear(),m=calDate.getMonth();
+  const first=new Date(y,m,1),startDay=first.getDay(),days=new Date(y,m+1,0).getDate();
+  const monthName=first.toLocaleString('en-US',{month:'long',year:'numeric'});
+  const dow=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];const todayIso=todayISO();
+  let cells='';for(let i=0;i<startDay;i++)cells+=`<div class="cal-cell empty"></div>`;
+  for(let d=1;d<=days;d++){const iso=`${y}-${String(m+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;const posts=state.posts.filter(p=>p.date===iso);
+    cells+=`<div class="cal-cell${iso===todayIso?' cal-today':''}"><div class="cal-d">${d}</div>${posts.slice(0,3).map(p=>`<div class="cal-ev" style="background:${PILLAR_COLOR[p.pillar]||'var(--primary)'}" onclick="openPost('${p.id}')" title="${esc(p.title||'')}">${esc((p.title||'Post').slice(0,20))}</div>`).join('')}${posts.length>3?`<div class="cal-more">+${posts.length-3} more</div>`:''}</div>`;}
+  return `<div class="cal-head"><button class="icon-btn" onclick="calNav(-1)">‹</button><b style="font-size:18px;min-width:170px;text-align:center">${monthName}</b><button class="icon-btn" onclick="calNav(1)">›</button><button class="btn btn-utility btn-sm" onclick="calToday()">Today</button><button class="btn btn-primary btn-sm" style="margin-inline-start:auto" onclick="openPost()">＋ ${t('addPost')}</button></div>
+  <div class="cal-grid cal-dow">${dow.map(d=>`<div class="cal-dowc">${d}</div>`).join('')}</div>
+  <div class="cal-grid">${cells}</div>`;
+}
+window.calNav=function(d){calDate=new Date(calDate.getFullYear(),calDate.getMonth()+d,1);render()};
+window.calToday=function(){calDate=new Date();render()};
+
+window.openIdea=function(id){const i=id?state.ideas.find(x=>x.id===id):{};modal(id?t('edit'):t('addIdea'),`
+  <div class="field"><label>Idea</label><textarea class="input" id="i-text">${esc(i.text||'')}</textarea></div>
+  <div class="field"><label>${t('pillar')}</label>${sel('i-pillar',PILLARS,i.pillar||'Product')}</div>
+`,`saveIdea('${id||''}')`,id?`deleteIdea('${id}')`:'');};
+window.saveIdea=function(id){const o={id:id||uid(),text:document.getElementById('i-text').value||'Idea',pillar:document.getElementById('i-pillar').value,priority:'Medium',status:'Backlog'};const idx=state.ideas.findIndex(x=>x.id===o.id);if(idx>=0)state.ideas[idx]=o;else state.ideas.unshift(o);persist();closeModal();render()};
+window.deleteIdea=function(id){if(confirm('Delete this idea?')){state.ideas=state.ideas.filter(x=>x.id!==id);persist();closeModal();render()}};
+
+window.openKeydate=function(id){const d=id?state.keydates.find(x=>x.id===id):{};modal(id?t('edit'):t('addKeydate'),`
+  <div class="field"><label>${t('moment')}</label><input class="input" id="k-moment" value="${esc(d.moment||'')}"></div>
+  <div class="row2"><div class="field"><label>${t('date')}</label><input class="input" id="k-date" value="${esc(d.date||'')}" placeholder="e.g. Nov 28 or 2027-03-10"></div><div class="field"><label>${t('type')}</label>${sel('k-type',['Sale','Awareness','Brand','Cultural'],d.type||'Sale')}</div></div>
+  <div class="field"><label>${t('angle')}</label><input class="input" id="k-angle" value="${esc(d.angle||'')}"></div>
+`,`saveKeydate('${id||''}')`,id?`deleteKeydate('${id}')`:'');};
+window.saveKeydate=function(id){const g=x=>document.getElementById(x).value;const o={id:id||uid(),moment:g('k-moment')||'Date',date:g('k-date'),type:g('k-type'),angle:g('k-angle')};const idx=state.keydates.findIndex(x=>x.id===o.id);if(idx>=0)state.keydates[idx]=o;else state.keydates.unshift(o);persist();closeModal();render()};
+window.deleteKeydate=function(id){if(confirm('Delete this date?')){state.keydates=state.keydates.filter(x=>x.id!==id);persist();closeModal();render()}};
+
+/* ---------------- boot ---------------- */
+render();
+</script>
+</body>
+</html>
