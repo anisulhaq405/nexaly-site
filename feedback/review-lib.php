@@ -7,6 +7,9 @@ const NEXALY_PRODUCTS = [
     'offline-ai-business-copilot' => 'Offline AI Business Copilot',
     'ai-student-planner' => 'AI Student Planner',
     'batchtrace-os' => 'BatchTrace OS',
+    'small-business-planner-2026-2028' => 'Small Business Planner 2026–2028',
+    'caregiver-planner-aging-parents' => 'Caregiver Planner for Aging Parents',
+    'content-marketing-planner' => 'Content Marketing Planner',
 ];
 
 function review_json(array $data, int $status = 200): never {
