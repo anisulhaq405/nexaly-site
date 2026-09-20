@@ -10,6 +10,10 @@ const NEXALY_PRODUCTS = [
     'small-business-planner-2026-2028' => 'Small Business Planner 2026–2028',
     'caregiver-planner-aging-parents' => 'Caregiver Planner for Aging Parents',
     'content-marketing-planner' => 'Content Marketing Planner',
+    'owneros-core' => 'OwnerOS Core',
+    'digital-homeschool-planner' => 'Digital Homeschool Planner',
+    'inventory-procurement-planner' => 'Inventory & Procurement Planner',
+    'rentflow-os' => 'RentFlow OS',
 ];
 
 function review_json(array $data, int $status = 200): never {
