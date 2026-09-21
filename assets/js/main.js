@@ -205,7 +205,7 @@ var posts = [
     "img": "/images/journal/a5-planner-sizes-layouts-digital-options-20260918.jpg",
     "alt": "Open A5 planner showing a weekly layout beside a tablet with a digital planner page",
     "tag": "Planning Guides",
-    "date": "Sep 18, 2026"
+    "date": "Updated Sep 21, 2026"
   },
   {
     "url": "/journal/daily-digital-planner/",
@@ -214,7 +214,7 @@ var posts = [
     "img": "/images/journal/daily-digital-planner-20260918.jpg",
     "alt": "Open daily digital planner showing priorities, time blocks, notes, and a completed day",
     "tag": "Planning Guides",
-    "date": "Sep 18, 2026"
+    "date": "Updated Sep 21, 2026"
   },
   {
     "url": "/journal/daily-planner-complete-guide/",
@@ -223,7 +223,7 @@ var posts = [
     "img": "/images/journal/daily-planner-complete-guide-20260918.jpg",
     "alt": "Open daily planner with three priorities, fixed appointments, time blocks, and an end-of-day review",
     "tag": "Planning Guides",
-    "date": "Sep 18, 2026"
+    "date": "Updated Sep 21, 2026"
   },
   {
     "url": "/journal/day-planner-vs-daily-planner/",
@@ -232,25 +232,25 @@ var posts = [
     "img": "/images/journal/day-planner-vs-daily-planner-20260918.jpg",
     "alt": "Open day planner beside a calendar with hourly schedule blocks and a digital tablet planner",
     "tag": "Planning Guides",
-    "date": "Sep 18, 2026"
+    "date": "Updated Sep 21, 2026"
   },
   {
     "url": "/journal/hourly-planner-best-free-digital-layouts/",
-    "title": "Hourly Planner: Best Free and Digital Layouts",
+    "title": "Hourly Planner: Paper, Printable and Digital Layouts",
     "excerpt": "Compare paper, printable PDF, offline HTML, and cloud hourly planners. See a realistic workday example and choose a simple daily layout that fits.",
     "img": "/images/journal/hourly-planner-best-free-digital-layouts-20260918.jpg",
     "alt": "Open hourly planner showing time blocks, priorities, and buffer space on a desk",
     "tag": "Planning Guides",
-    "date": "Sep 18, 2026"
+    "date": "Updated Sep 21, 2026"
   },
   {
     "url": "/journal/monthly-planner-free-templates/",
-    "title": "Monthly Planner: How to Set One Up with Free Templates",
-    "excerpt": "Learn how to set up a monthly planner for commitments, goals, projects, and review, with practical advice on free templates and formats.",
+    "title": "Monthly Planner: How to Set Up a Practical Monthly Layout",
+    "excerpt": "Learn how to set up a practical monthly planner for commitments, goals, projects, dated actions, and an effective end-of-month review.",
     "img": "/images/journal/monthly-planner-free-templates-20260918.jpg",
     "alt": "Open monthly planner with commitments, goals, project milestones, and review notes arranged across one calendar spread.",
     "tag": "Planning Guides",
-    "date": "Sep 18, 2026"
+    "date": "Updated Sep 21, 2026"
   },
   {
     "url": "/journal/minimalist-planner/",
@@ -259,7 +259,7 @@ var posts = [
     "img": "/images/journal/minimalist-planner-20260918.jpg",
     "alt": "Open minimalist planner with three priorities, a short schedule, and a notes area on a clean desk",
     "tag": "Planning Guides",
-    "date": "Sep 18, 2026"
+    "date": "Updated Sep 21, 2026"
   },
   {
     "url": "/journal/adhd-planner-for-adults/",
