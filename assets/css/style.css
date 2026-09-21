@@ -581,3 +581,27 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   .nav .nav-dd{display:block;width:100%}
   .nav .nav-dd .dd{display:block !important;position:static;box-shadow:none;border:0;padding:2px 0 6px 14px}
 }
+
+
+/* Homepage-specific visual rules (override its legacy warm inline palette) */
+body .home-hero{
+  position:relative;
+  padding-top:74px;
+  background:
+    radial-gradient(circle at 50% 0%,rgba(37,99,235,.12),transparent 24rem),
+    linear-gradient(rgba(37,99,235,.045) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(37,99,235,.045) 1px,transparent 1px);
+  background-size:auto,44px 44px,44px 44px;
+}
+body .home-hero .eyebrow{color:var(--terra);font-weight:800;}
+body .home-hero h1,body .home-sec h2{
+  font-family:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--forest);
+  font-weight:800;
+  letter-spacing:-.045em;
+}
+body .home-hero p{color:var(--muted);}
+body .home-sec .sec-h a{color:var(--terra);}
+body .home-trust{background:linear-gradient(90deg,#071426,#0B2E55);}
+body .home-trust .in{color:#DCE8F7;font-weight:600;}
+body .home-trust .in span{display:inline-flex;align-items:center;gap:7px;}
