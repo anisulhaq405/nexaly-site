@@ -101,9 +101,10 @@ def metadata(source,url):
     for e in doc.elements:
         a=e['attrs']
         if e['start']>heads[0]['end']:continue
-        if e['tag']=='title' or (e['tag']=='link' and a.get('rel')=='canonical') or (e['tag']=='meta' and (a.get('name') in {'description','twitter:title','twitter:description'} or a.get('property') in {'og:url','og:title','og:description'})):
+        if e['tag']=='title' or (e['tag']=='link' and a.get('rel')=='canonical') or (e['tag']=='meta' and (a.get('name') in {'description','twitter:title','twitter:description','twitter:card'} or a.get('property') in {'og:url','og:title','og:description'})):
             replacements.append((e['start'],e['end'],''))
-    block=f'<title>{esc(title)}</title>\n<meta name="description" content="{esc(desc)}">\n<link rel="canonical" href="{url}">\n<meta property="og:url" content="{url}">\n<meta property="og:title" content="{esc(title)}">\n<meta property="og:description" content="{esc(desc)}">\n<meta name="twitter:title" content="{esc(title)}">\n<meta name="twitter:description" content="{esc(desc)}">\n'
+    fallback_image='' if doc.meta('og:image') else f'<meta property="og:image" content="{SITE}/images/og-default.jpg">\n<meta name="twitter:image" content="{SITE}/images/og-default.jpg">\n'
+    block=f'<title>{esc(title)}</title>\n<meta name="description" content="{esc(desc)}">\n<link rel="canonical" href="{url}">\n<meta property="og:url" content="{url}">\n<meta property="og:title" content="{esc(title)}">\n<meta property="og:description" content="{esc(desc)}">\n{fallback_image}<meta name="twitter:card" content="summary_large_image">\n<meta name="twitter:title" content="{esc(title)}">\n<meta name="twitter:description" content="{esc(desc)}">\n'
     # Keep the generated block in place on subsequent builds (idempotent).
     first=min(x[0] for x in replacements) if replacements else heads[0]['open_end']
     replacements.append((first,first,block))
@@ -117,9 +118,30 @@ def metadata(source,url):
         if len(parts)>1:
             section_names={'journal':'Journal','planners':'Products','guides':'Product Guides'}
             crumbs.append({'@type':'ListItem','position':2,'name':section_names.get(parts[0],parts[0].replace('-',' ').title()),'item':SITE+'/'+parts[0]+'/'})
-        crumbs.append({'@type':'ListItem','position':len(crumbs)+1,'name':plain(doc.inner(h1[0])),'item':url})
+        page_name='About Nexaly Planner' if url==SITE+'/about/' else plain(doc.inner(h1[0]))
+        crumbs.append({'@type':'ListItem','position':len(crumbs)+1,'name':page_name,'item':url})
+    org_id=SITE+'/#organization'
     graph=[{'@type':'WebPage','@id':url+'#webpage','url':url,'name':title,'description':desc,'isPartOf':{'@id':SITE+'/#website'}}, {'@type':'BreadcrumbList','itemListElement':crumbs}]
-    if url==SITE+'/':graph.append({'@type':'WebSite','@id':SITE+'/#website','url':SITE+'/','name':'Nexaly Planner'})
+    has_article_schema=False
+    for element in doc.find('script',type='application/ld+json'):
+        if element['attrs'].get('id')=='nexaly-seo':continue
+        try:data=json.loads(doc.inner(element))
+        except ValueError:continue
+        nodes=data.get('@graph',[]) if isinstance(data,dict) and '@graph' in data else [data]
+        if any(isinstance(node,dict) and node.get('@type') in ('BlogPosting','Article') for node in nodes):has_article_schema=True
+    if url.startswith(SITE+'/journal/') and url != SITE+'/journal/' and not has_article_schema:
+        published=doc.meta('article:published_time') or doc.meta('date')
+        modified=doc.meta('article:modified_time') or published
+        image=doc.meta('og:image') or SITE+'/images/og-default.jpg'
+        article={'@type':'BlogPosting','@id':url+'#article','headline':plain(doc.inner(h1[0])),'description':desc,'image':image,'mainEntityOfPage':{'@id':url+'#webpage'},'author':{'@id':org_id},'publisher':{'@id':org_id},'inLanguage':'en-US'}
+        if published:article['datePublished']=published[:10]
+        if modified:article['dateModified']=modified[:10]
+        graph.append(article)
+    if url==SITE+'/':
+        graph.extend([
+            {'@type':'WebSite','@id':SITE+'/#website','url':SITE+'/','name':'Nexaly Planner','publisher':{'@id':org_id}},
+            {'@type':'Organization','@id':org_id,'name':'Nexaly Planner','url':SITE+'/','logo':{'@type':'ImageObject','url':SITE+'/assets/img/logo-mark.png'},'sameAs':['https://www.instagram.com/nexalyplanner/','https://www.facebook.com/NexalyPlanner','https://www.tiktok.com/@nexalyplanner1','https://www.pinterest.com/NexalyPlanner/','https://x.com/Nexalyplanner','https://www.youtube.com/@NexalyPlanner']}
+        ])
     schema=json.dumps({'@context':'https://schema.org','@graph':graph},ensure_ascii=False).replace('<','\\u003c')
     source=source.replace('</head>','<script id="nexaly-seo" type="application/ld+json">'+schema+'</script>\n</head>')
     return source
@@ -183,7 +205,12 @@ def build(check=False):
         files[path]=re.sub(r'(/assets/js/main\.js)(?:\?[^"\s>]*)?',lambda m:m[1]+'?v='+version,files[path])
     files['assets/js/main.js']=js
     # No made-up lastmod dates: omit when the content modification date is unknown.
-    files['sitemap.xml']='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join('  <url><loc>'+esc(u)+'</loc></url>\n' for u in sorted(public))+'</urlset>\n'
+    def sitemap_entry(u):
+        path='index.html' if u==SITE+'/' else u[len(SITE):].strip('/')+'/index.html'
+        doc=Document(files[path]);modified=doc.meta('article:modified_time')
+        suffix='<lastmod>'+esc(modified[:10])+'</lastmod>' if modified else ''
+        return '  <url><loc>'+esc(u)+'</loc>'+suffix+'</url>\n'
+    files['sitemap.xml']='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(sitemap_entry(u) for u in sorted(public))+'</urlset>\n'
     robots=(ROOT/'robots.txt').read_text() if (ROOT/'robots.txt').exists() else 'User-agent: *\nAllow: /\n'
     if re.search(r'^Sitemap:',robots,re.M):robots=re.sub(r'^Sitemap:.*$', 'Sitemap: '+SITE+'/sitemap.xml',robots,flags=re.M)
     else:robots+='\nSitemap: '+SITE+'/sitemap.xml\n'
