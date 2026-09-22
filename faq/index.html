@@ -35,23 +35,10 @@
       <a href="/journal/">Journal</a>
       <a href="/guides/">Product Guides</a>
       <a href="/about/">About</a>
-      <a href="#" class="menu-auth menu-signin" id="menuSignin" onclick="openAuth('signin');return false;">Sign in</a>
-      <a href="#" class="menu-auth menu-signout" id="menuSignout" onclick="signOut();return false;" hidden>Sign out</a>
     </nav>
     <div class="nav-ic">
       <button class="icbtn hide-m" aria-label="Search" onclick="toast('Search is coming soon')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg></button>
       <button class="icbtn hide-m" aria-label="Cart" onclick="toast('Cart &amp; checkout are coming with payments')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6h15l-1.5 9h-12z"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M6 6L5 3H2"/></svg><span class="cart-badge">0</span></button>
-      <button class="btn btn-primary btn-sm nav-signin" id="signinBtn" onclick="openAuth('signin')">Sign in</button>
-      <div class="account" id="account" hidden>
-        <button class="account-btn" id="accountBtn" aria-haspopup="true" aria-expanded="false">
-          <span class="avatar" id="avatar">N</span><span id="accountName">Account</span>
-        </button>
-        <div class="account-menu" id="accountMenu" hidden>
-          <a href="#" onclick="return goDownloads()">My downloads</a>
-          <a href="/planners/">Browse planners</a>
-          <button class="signout" onclick="signOut()">Sign out</button>
-        </div>
-      </div>
       <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span></button>
     </div>
   </div>
@@ -61,36 +48,18 @@
     <div class="wrap">
       <div class="sec-head"><span class="eyebrow">Help centre</span><h1>Frequently asked questions</h1><p>Everything you need to know about buying, downloading, and using Nexaly planners.</p></div>
       <div class="faq">
-        <div class="qa"><h4>Do I need an account or a subscription?</h4><p>No subscription — every planner is a one-time purchase. You can preview anything for free without an account; you only sign in to access your downloads after buying.</p></div>
+        <div class="qa"><h4>Do I need an account or a subscription?</h4><p>No. Every planner is a one-time purchase with no NexalyPlanner account and no subscription required. Polar securely handles payment and sends purchase access to the email used at checkout.</p></div>
         <div class="qa"><h4>What exactly do I get?</h4><p>A digital planner (a PDF designed for apps like GoodNotes and Notability, or an interactive planner that opens in your browser). After checkout you get an instant download link — the file is yours to keep.</p></div>
         <div class="qa"><h4>Which devices and apps does it work with?</h4><p>Our PDF planners work with GoodNotes, Notability, and any app that opens PDFs, on iPad, tablet, or desktop. Interactive planners run in any modern browser on phone, tablet, or computer.</p></div>
-        <div class="qa"><h4>How do I download after buying?</h4><p>You'll get a download link on the confirmation page and by email straight after payment. You can also find your files anytime under “My downloads” when signed in.</p></div>
+        <div class="qa"><h4>How do I download after buying?</h4><p>You'll get purchase confirmation and access instructions by email after payment. Keep that email; Polar can also verify the same checkout email with a one-time code when you need to access your purchase benefits again.</p></div>
         <div class="qa"><h4>How do bundles work?</h4><p>Pick a Bundle of 3, 5, or 10 and choose any planners you like at a lower price per planner. The Whole Collection unlocks every planner plus new releases for a year. Prefer just one? Buy any planner individually at its own price.</p></div>
-        <div class="qa"><h4>Do I get free updates?</h4><p>Yes — whenever we improve a planner you own, the updated version is free. Just re-download it from your account.</p></div>
+        <div class="qa"><h4>Do I get free updates?</h4><p>Yes — whenever we improve a planner you own, the updated version is free. Use the purchase access provided through your checkout email to download the latest available file.</p></div>
         <div class="qa"><h4>Can I get a refund?</h4><p>Absolutely. If a planner isn't right for you, email us within 14 days and we'll make it right. See our <a href="/refund/">Refund Policy</a> for details.</p></div>
         <div class="qa"><h4>Still have a question?</h4><p>We're happy to help — head to our <a href="/contact/">Contact page</a> and drop us a message.</p></div>
       </div>
     </div>
   </div>
 </main>
-
-
-<!-- ============ AUTH MODAL ============ -->
-<div class="modal" id="authModal" hidden>
-  <div class="modal-ov" onclick="closeAuth()"></div>
-  <div class="modal-card auth-modal" role="dialog" aria-modal="true" aria-label="Sign in">
-    <button class="modal-x" onclick="closeAuth()" aria-label="Close">&times;</button>
-    <div class="auth-head"><div class="auth-mark"><span>N<b>.</b></span></div><h2 id="authTitle">Welcome back</h2><p id="authSub">Sign in to access your planners and downloads.</p></div>
-    <div class="auth-tabs"><button class="auth-tab on" data-tab="signin" onclick="switchAuthTab('signin')">Sign in</button><button class="auth-tab" data-tab="signup" onclick="switchAuthTab('signup')">Create account</button></div>
-    <label class="fld signup-only" hidden><span>Name</span><input id="authName" type="text" placeholder="Your name" autocomplete="name"></label>
-    <label class="fld"><span>Email</span><input id="authEmail" type="email" placeholder="you@email.com" autocomplete="email"></label>
-    <label class="fld"><span>Password</span><input id="authPass" type="password" placeholder="••••••••" autocomplete="current-password"></label>
-    <button class="btn btn-primary auth-submit" id="authSubmit" onclick="doAuth()">Sign in</button>
-    <div class="auth-or"><span>or</span></div>
-    <button class="btn btn-ghost auth-google" onclick="doAuth()"><span class="g">G</span>&nbsp; Continue with Google</button>
-    <p class="auth-foot" id="authFoot">New here? <a href="#" onclick="switchAuthTab('signup');return false;">Create an account</a></p>
-  </div>
-</div>
 
 <!-- ============ PRODUCT MODAL ============ -->
 <div class="modal" id="productModal" hidden>
@@ -141,6 +110,6 @@
     <div class="foot-bottom"><span>© 2026 Nexaly Planner. All rights reserved.</span><span>Made for people who like their days organized.</span></div>
   </div>
 </footer>
-<script src="/assets/js/main.js?v=236543cf843f"></script>
+<script src="/assets/js/main.js?v=441963ad718c"></script>
 </body>
 </html>

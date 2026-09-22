@@ -40,23 +40,10 @@
       <a href="/journal/">Journal</a>
       <a href="/guides/">Product Guides</a>
       <a href="/about/">About</a>
-      <a href="#" class="menu-auth menu-signin" id="menuSignin" onclick="openAuth('signin');return false;">Sign in</a>
-      <a href="#" class="menu-auth menu-signout" id="menuSignout" onclick="signOut();return false;" hidden>Sign out</a>
     </nav>
     <div class="nav-ic">
       <button class="icbtn hide-m" aria-label="Search" onclick="toast('Search is coming soon')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg></button>
       <button class="icbtn hide-m" aria-label="Cart" onclick="toast('Cart &amp; checkout are coming with payments')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6h15l-1.5 9h-12z"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M6 6L5 3H2"/></svg><span class="cart-badge">0</span></button>
-      <button class="btn btn-primary btn-sm nav-signin" id="signinBtn" onclick="openAuth('signin')">Sign in</button>
-      <div class="account" id="account" hidden>
-        <button class="account-btn" id="accountBtn" aria-haspopup="true" aria-expanded="false">
-          <span class="avatar" id="avatar">N</span><span id="accountName">Account</span>
-        </button>
-        <div class="account-menu" id="accountMenu" hidden>
-          <a href="#" onclick="return goDownloads()">My downloads</a>
-          <a href="/planners/">Browse planners</a>
-          <button class="signout" onclick="signOut()">Sign out</button>
-        </div>
-      </div>
       <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span></button>
     </div>
   </div>
@@ -80,22 +67,7 @@
 <p>Keep backups. Good offline apps let you export a dated backup file; store a copy on an external drive or your own cloud folder so you can restore it any time.</p>
 <h3 id="is-a-one-time-app-really-cheaper-long-term">Is a one-time app really cheaper long term?</h3>
 <p>In most cases, yes. A single price does not renew, while a subscription keeps charging every month. Over two to three years the difference is usually large, as the cost comparison above shows.</p>
-<section class="related-guides" aria-label="Related NexalyPlanner guides"><h2>Related planning guides</h2><ul><li><a href="/planners/">browse all Nexaly Planner products</a></li><li><a href="/planners/business-operating-systems/">offline business operating systems</a></li><li><a href="/journal/inventory-software-without-subscription/">inventory software without a subscription</a></li><li><a href="/journal/best-offline-small-business-software/">best offline small business software</a></li></ul></section></article></main><!-- ============ AUTH MODAL ============ -->
-<div class="modal" id="authModal" hidden>
-  <div class="modal-ov" onclick="closeAuth()"></div>
-  <div class="modal-card auth-modal" role="dialog" aria-modal="true" aria-label="Sign in">
-    <button class="modal-x" onclick="closeAuth()" aria-label="Close">&times;</button>
-    <div class="auth-head"><div class="auth-mark"><span>N<b>.</b></span></div><h2 id="authTitle">Welcome back</h2><p id="authSub">Sign in to access your planners and downloads.</p></div>
-    <div class="auth-tabs"><button class="auth-tab on" data-tab="signin" onclick="switchAuthTab('signin')">Sign in</button><button class="auth-tab" data-tab="signup" onclick="switchAuthTab('signup')">Create account</button></div>
-    <label class="fld signup-only" hidden><span>Name</span><input id="authName" type="text" placeholder="Your name" autocomplete="name"></label>
-    <label class="fld"><span>Email</span><input id="authEmail" type="email" placeholder="you@email.com" autocomplete="email"></label>
-    <label class="fld"><span>Password</span><input id="authPass" type="password" placeholder="••••••••" autocomplete="current-password"></label>
-    <button class="btn btn-primary auth-submit" id="authSubmit" onclick="doAuth()">Sign in</button>
-    <div class="auth-or"><span>or</span></div>
-    <button class="btn btn-ghost auth-google" onclick="doAuth()"><span class="g">G</span>&nbsp; Continue with Google</button>
-    <p class="auth-foot" id="authFoot">New here? <a href="#" onclick="switchAuthTab('signup');return false;">Create an account</a></p>
-  </div>
-</div>
+<section class="related-guides" aria-label="Related NexalyPlanner guides"><h2>Related planning guides</h2><ul><li><a href="/planners/">browse all Nexaly Planner products</a></li><li><a href="/planners/business-operating-systems/">offline business operating systems</a></li><li><a href="/journal/inventory-software-without-subscription/">inventory software without a subscription</a></li><li><a href="/journal/best-offline-small-business-software/">best offline small business software</a></li></ul></section></article></main>
 
 <!-- ============ PRODUCT MODAL ============ -->
 <div class="modal" id="productModal" hidden>
@@ -145,5 +117,5 @@
     <div class="foot-bottom"><span>© 2026 Nexaly Planner. All rights reserved.</span><span>Made for people who like their days organized.</span></div>
   </div>
 </footer>
-<script src="/assets/js/main.js?v=236543cf843f"></script>
+<script src="/assets/js/main.js?v=441963ad718c"></script>
 </body></html>
