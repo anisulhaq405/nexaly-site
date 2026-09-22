@@ -502,6 +502,54 @@ function mediaHTML(p){if(p.video){return '<iframe src="'+p.video+'" title="'+p.t
 function openProduct(i){var p=products[i];if(!p)return;curP=i;$('pmMedia').innerHTML=mediaHTML(p);$('pmCat').textContent=p.cat;$('pmTitle').textContent=p.title;$('pmPrice').innerHTML=(p.was?'<s>$'+p.was+'</s>':'')+'$'+p.price;$('pmDesc').textContent=p.desc;$('productModal').hidden=false;document.body.style.overflow='hidden';}
 function closeProduct(){$('productModal').hidden=true;document.body.style.overflow='';}
 function buyProduct(){var p=products[curP];if(p&&p.buyUrl){window.open(p.buyUrl,'_blank','noopener');}else{toast('Checkout opens as soon as this planner is published');}}
+
+/* Header search + secure checkout launcher */
+(function(){
+  var checkoutByPath={
+    '/planners/adhd-digital-planner/':'https://buy.polar.sh/polar_cl_le5cjYcPCBuMbje2Eol7ZrFw3kMLefDdiUVZF2lTFMS',
+    '/planners/ai-student-planner/':'https://buy.polar.sh/polar_cl_l7wGLhCXODsUhcv88BY7IjI2IMouNPW4BUOdh0tfTRa',
+    '/planners/batchtrace-os/':'https://buy.polar.sh/polar_cl_SplQ4BnMTDwB1YoZE5UNT7qYzQLB3Fkby3mqP3YQEMY',
+    '/planners/boutique-business-planner/':'https://buy.polar.sh/polar_cl_CO8mXt7Ab8aYM2kccXirUTI4a1BWzGcF6TbFx2uw9OB',
+    '/planners/caregiver-planner-aging-parents/':'https://buy.polar.sh/polar_cl_y97hHWsumJWw3ZWyAxJKfJsZtqIbhb3M3mZun3T5foJ',
+    '/planners/content-marketing-planner/':'https://buy.polar.sh/polar_cl_56lsbzVx9DQaqUBAot4fNVuZRcNsHffSAhN8Y4EEEsg',
+    '/planners/digital-homeschool-planner/':'https://buy.polar.sh/polar_cl_LMGTbcHUEl1VcR6tgXW7mr4pTknyjfrwekSXN01sVUV',
+    '/planners/inventory-procurement-planner/':'https://buy.polar.sh/polar_cl_tMPiPWta5R773BRHnqicjiJaUBONiBoKPS7DD1KZ5dX',
+    '/planners/offline-ai-business-copilot/':'https://buy.polar.sh/polar_cl_xqL0Mx8Vxk2IiMH9tENfft5QH6tZ4CQFLEPed24slVT',
+    '/planners/owneros-core/':'https://buy.polar.sh/polar_cl_zNIc2hrZIsCWw83NWUZ7bWqEtlz9FMcsnXNxm1Np7Ub',
+    '/planners/rentflow-os/':'https://buy.polar.sh/polar_cl_dPrYOPFXv04wbfBZDQ1gvEuwKQynkQicGRh091I6m6k',
+    '/planners/repairbench-os/':'https://buy.polar.sh/polar_cl_LDfhqo384rYgSE1QMxqnNVTvf9jqYVQqYfUiL4Yx0Ps',
+    '/planners/sales-management-system/':'https://buy.polar.sh/polar_cl_Mceh5y8KTYDhF2t5A1mLySmps5evEe1BRIecN2aE0dz',
+    '/planners/small-business-planner-2026-2028/':'https://buy.polar.sh/polar_cl_7WUb0TgGBCv1JRqUwYsiuJZfyKS8US7dKJrhW4DXoKF',
+    '/planners/vendorpulse-os/':'https://buy.polar.sh/polar_cl_MBJG9jLafpaZRIxWPco8gJKVNvcAyCwPJOBdI0eIqrG'
+  };
+  var escHtml=function(s){return String(s||'').replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});};
+  var modal=document.createElement('div');
+  modal.className='nx-util';modal.hidden=true;
+  modal.innerHTML='<div class="nx-util-bg"></div><section class="nx-util-card" role="dialog" aria-modal="true" aria-labelledby="nxUtilTitle"><button class="nx-util-x" type="button" aria-label="Close">&times;</button><div id="nxUtilBody"></div></section>';
+  document.body.appendChild(modal);
+  var style=document.createElement('style');
+  style.textContent='.nx-util{position:fixed;inset:0;z-index:220;display:grid;place-items:start center;padding:9vh 20px 28px}.nx-util[hidden]{display:none}.nx-util-bg{position:absolute;inset:0;background:rgba(2,12,27,.7);backdrop-filter:blur(5px)}.nx-util-card{position:relative;width:min(720px,100%);max-height:82vh;overflow:auto;background:#fff;border:1px solid #dce5f0;border-radius:20px;box-shadow:0 36px 90px rgba(2,12,27,.32);padding:30px}.nx-util-x{position:absolute;right:14px;top:12px;width:38px;height:38px;border:1px solid #dce5f0;border-radius:50%;background:#fff;color:#52627a;font-size:25px;cursor:pointer}.nx-util h2{font-family:Inter,system-ui,sans-serif;margin:0 44px 8px;color:#0b1f3a;font-weight:800}.nx-util-lead{margin:0 0 20px;color:#52627a}.nx-search-input{width:100%;padding:14px 16px;border:1.5px solid #c7d4e4;border-radius:11px;font:inherit;outline:none}.nx-search-input:focus{border-color:#60a5fa;box-shadow:0 0 0 4px rgba(37,99,235,.11)}.nx-util-list{display:grid;gap:10px;margin-top:16px}.nx-util-item{display:flex;align-items:center;gap:14px;padding:13px;border:1px solid #dce5f0;border-radius:12px;background:#f8fafc}.nx-util-item img{width:56px;height:56px;border-radius:9px;object-fit:cover;background:#eaf0f7}.nx-util-copy{min-width:0;flex:1}.nx-util-copy b{display:block;color:#10213a;line-height:1.3}.nx-util-copy small{display:block;color:#64748b;margin-top:4px}.nx-util-go{display:inline-flex;align-items:center;justify-content:center;padding:10px 14px;border-radius:9px;background:#2563eb;color:#fff;font-weight:700;font-size:13px;white-space:nowrap}.nx-util-empty{padding:24px;text-align:center;color:#64748b}.nx-util-note{margin-top:18px;padding:12px 14px;border-radius:10px;background:#eff6ff;color:#334155;font-size:13px}@media(max-width:600px){.nx-util{padding:5vh 12px 20px}.nx-util-card{padding:24px 16px}.nx-util-item{align-items:flex-start;flex-wrap:wrap}.nx-util-go{width:100%}}';
+  document.head.appendChild(style);
+  var body=modal.querySelector('#nxUtilBody'),lastFocus=null;
+  function closeUtil(){modal.hidden=true;document.body.style.overflow='';if(lastFocus)lastFocus.focus();}
+  function openUtil(){lastFocus=document.activeElement;modal.hidden=false;document.body.style.overflow='hidden';}
+  modal.querySelector('.nx-util-bg').addEventListener('click',closeUtil);modal.querySelector('.nx-util-x').addEventListener('click',closeUtil);
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!modal.hidden)closeUtil();});
+  function productForPath(path){for(var i=0;i<products.length;i++)if(products[i].url===path)return products[i];return null;}
+  function searchRows(q){
+    q=(q||'').toLowerCase().trim();if(!q)return [];
+    var words=q.split(/\s+/).filter(Boolean),rows=[];
+    products.forEach(function(p){var hay=(p.title+' '+p.cat+' '+(p.desc||'')).toLowerCase(),score=0;words.forEach(function(w){if(hay.indexOf(w)>-1)score++;});if(score)rows.push({title:p.title,meta:p.cat+' · $'+Number(p.price).toFixed(2),url:p.url,img:p.img,score:score+2});});
+    posts.forEach(function(p){var hay=(p.title+' '+(p.excerpt||'')+' '+(p.tag||'')).toLowerCase(),score=0;words.forEach(function(w){if(hay.indexOf(w)>-1)score++;});if(score)rows.push({title:p.title,meta:(p.tag||'Journal')+' · '+(p.date||''),url:p.url,img:p.img,score:score});});
+    return rows.sort(function(a,b){return b.score-a.score;}).slice(0,10);
+  }
+  function renderSearch(q){var rows=searchRows(q),list=body.querySelector('.nx-util-list');if(!list)return;list.innerHTML=rows.length?rows.map(function(r){return '<div class="nx-util-item"><img src="'+escHtml(r.img)+'" alt=""><div class="nx-util-copy"><b>'+escHtml(r.title)+'</b><small>'+escHtml(r.meta)+'</small></div><a class="nx-util-go" href="'+escHtml(r.url)+'">View</a></div>';}).join(''):'<div class="nx-util-empty">'+(q?'No matching products or guides found.':'Start typing to search products and guides.')+'</div>';}
+  function openSearch(){body.innerHTML='<h2 id="nxUtilTitle">Search NexalyPlanner</h2><p class="nx-util-lead">Find products, business systems and practical guides.</p><input class="nx-search-input" type="search" aria-label="Search products and guides" placeholder="Try “inventory”, “student” or “homeschool”"><div class="nx-util-list"><div class="nx-util-empty">Start typing to search products and guides.</div></div>';openUtil();var input=body.querySelector('input');input.addEventListener('input',function(){renderSearch(input.value);});input.focus();}
+  function checkoutRows(){var current=productForPath(location.pathname),list=current?[current]:products.filter(function(p){return checkoutByPath[p.url];});return list.map(function(p){return '<div class="nx-util-item"><img src="'+escHtml(p.img)+'" alt=""><div class="nx-util-copy"><b>'+escHtml(p.title)+'</b><small>One-time purchase · $'+Number(p.price).toFixed(2)+'</small></div><a class="nx-util-go" href="'+checkoutByPath[p.url]+'" target="_blank" rel="noopener">Checkout</a></div>';}).join('');}
+  function openCheckout(){var current=productForPath(location.pathname);body.innerHTML='<h2 id="nxUtilTitle">Secure checkout</h2><p class="nx-util-lead">'+(current?'Continue with this product on Polar secure checkout.':'Choose a product to continue to Polar secure checkout.')+'</p><div class="nx-util-list">'+checkoutRows()+'</div><div class="nx-util-note">Digital download · one-time payment · no subscription</div>';openUtil();}
+  function wire(){document.querySelectorAll('button[aria-label="Search"]').forEach(function(b){b.removeAttribute('onclick');b.addEventListener('click',openSearch);});document.querySelectorAll('button[aria-label="Cart"]').forEach(function(b){b.removeAttribute('onclick');b.setAttribute('aria-label','Cart and checkout');b.addEventListener('click',openCheckout);var badge=b.querySelector('.cart-badge');if(badge)badge.textContent=productForPath(location.pathname)?'1':'0';});}
+  wire();window.openSiteSearch=openSearch;window.openSiteCheckout=openCheckout;
+})();
 document.addEventListener('click',function(e){var c=e.target.closest('.pcard[data-idx]');if(c)openProduct(+c.dataset.idx);});
 document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeAuth();closeProduct();}if(e.key==='Enter'||e.key===' '){var c=e.target.closest('.pcard[data-idx]');if(c){e.preventDefault();openProduct(+c.dataset.idx);}}});
 
@@ -671,5 +719,4 @@ runReveal();
   panel.querySelector("#nxSend").addEventListener("click", send);
   panel.querySelector("#nxIn").addEventListener("keydown", function (e) { if (e.key === "Enter") send(); });
 })();
-
 
