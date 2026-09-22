@@ -484,19 +484,7 @@ var menu=$('menu'),burger=$('burger');
 function closeMenu(){if(menu)menu.classList.remove('open');if(burger)burger.setAttribute('aria-expanded','false');}
 if(burger)burger.addEventListener('click',function(){var o=menu.classList.toggle('open');burger.setAttribute('aria-expanded',o?'true':'false');});
 
-/* auth (front-end UI — connect to your provider later) */
-var currentUser=null;
-function openAuth(t){switchAuthTab(t||'signin');$('authModal').hidden=false;document.body.style.overflow='hidden';setTimeout(function(){$('authEmail').focus();},50);}
-function closeAuth(){$('authModal').hidden=true;document.body.style.overflow='';}
-function switchAuthTab(t){var tabs=document.querySelectorAll('.auth-tab');for(var i=0;i<tabs.length;i++)tabs[i].classList.toggle('on',tabs[i].dataset.tab===t);var s=(t==='signup');var so=document.querySelectorAll('.signup-only');for(var j=0;j<so.length;j++)so[j].hidden=!s;$('authTitle').textContent=s?'Create your account':'Welcome back';$('authSub').textContent=s?'Save your planners and get instant downloads.':'Sign in to access your planners and downloads.';$('authSubmit').textContent=s?'Create account':'Sign in';$('authFoot').innerHTML=s?'Already have an account? <a href="#" onclick="switchAuthTab(\'signin\');return false;">Sign in</a>':'New here? <a href="#" onclick="switchAuthTab(\'signup\');return false;">Create an account</a>';}
-function doAuth(){var e=($('authEmail').value||'').trim();if(!e||e.indexOf('@')<0){$('authEmail').focus();$('authEmail').style.borderColor='#B23B3B';return;}var n=($('authName').value||'').trim();var d=n||e.split('@')[0];setUser(d);closeAuth();toast('Signed in as <b>'+d+'</b>');}
-function setUser(n){currentUser=n;$('signinBtn').hidden=true;$('account').hidden=false;$('avatar').textContent=(n[0]||'N').toUpperCase();$('accountName').textContent=n;$('menuSignin').hidden=true;$('menuSignout').hidden=false;}
-function signOut(){currentUser=null;$('signinBtn').hidden=false;$('account').hidden=true;$('accountMenu').hidden=true;$('menuSignin').hidden=false;$('menuSignout').hidden=true;closeMenu();toast('Signed out');}
-if($('accountBtn'))$('accountBtn').addEventListener('click',function(e){e.stopPropagation();var m=$('accountMenu');m.hidden=!m.hidden;$('accountBtn').setAttribute('aria-expanded',String(!m.hidden));});
-document.addEventListener('click',function(e){if(!e.target.closest('.account')){var m=$('accountMenu');if(m)m.hidden=true;}});
-function goDownloads(){var m=$('accountMenu');if(m)m.hidden=true;toast('Your downloads will show here once you buy a planner');return false;}
-
-/* product modal + Lemon Squeezy checkout */
+/* product modal + secure checkout */
 var curP=null;
 function mediaHTML(p){if(p.video){return '<iframe src="'+p.video+'" title="'+p.title+' preview" allow="fullscreen" style="width:100%;height:100%;border:0;display:block;"></iframe>';}return coverHTML(p);}
 function openProduct(i){var p=products[i];if(!p)return;curP=i;$('pmMedia').innerHTML=mediaHTML(p);$('pmCat').textContent=p.cat;$('pmTitle').textContent=p.title;$('pmPrice').innerHTML=(p.was?'<s>$'+p.was+'</s>':'')+'$'+p.price;$('pmDesc').textContent=p.desc;$('productModal').hidden=false;document.body.style.overflow='hidden';}
@@ -551,7 +539,7 @@ function buyProduct(){var p=products[curP];if(p&&p.buyUrl){window.open(p.buyUrl,
   wire();window.openSiteSearch=openSearch;window.openSiteCheckout=openCheckout;
 })();
 document.addEventListener('click',function(e){var c=e.target.closest('.pcard[data-idx]');if(c)openProduct(+c.dataset.idx);});
-document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeAuth();closeProduct();}if(e.key==='Enter'||e.key===' '){var c=e.target.closest('.pcard[data-idx]');if(c){e.preventDefault();openProduct(+c.dataset.idx);}}});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeProduct();if(e.key==='Enter'||e.key===' '){var c=e.target.closest('.pcard[data-idx]');if(c){e.preventDefault();openProduct(+c.dataset.idx);}}});
 
 /* toast + forms */
 var tt;function toast(m){var t=$('toast');if(!t)return;t.innerHTML=m;t.classList.add('show');clearTimeout(tt);tt=setTimeout(function(){t.classList.remove('show');},3200);}
@@ -719,4 +707,3 @@ runReveal();
   panel.querySelector("#nxSend").addEventListener("click", send);
   panel.querySelector("#nxIn").addEventListener("keydown", function (e) { if (e.key === "Enter") send(); });
 })();
-

@@ -25,23 +25,10 @@
       <a href="/journal/">Journal</a>
       <a href="/guides/">Product Guides</a>
       <a href="/about/">About</a>
-      <a href="#" class="menu-auth menu-signin" id="menuSignin" onclick="openAuth('signin');return false;">Sign in</a>
-      <a href="#" class="menu-auth menu-signout" id="menuSignout" onclick="signOut();return false;" hidden>Sign out</a>
     </nav>
     <div class="nav-ic">
       <button class="icbtn hide-m" aria-label="Search" onclick="toast('Search is coming soon')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg></button>
       <button class="icbtn hide-m" aria-label="Cart" onclick="toast('Cart &amp; checkout are coming with payments')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6h15l-1.5 9h-12z"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M6 6L5 3H2"/></svg><span class="cart-badge">0</span></button>
-      <button class="btn btn-primary btn-sm nav-signin" id="signinBtn" onclick="openAuth('signin')">Sign in</button>
-      <div class="account" id="account" hidden>
-        <button class="account-btn" id="accountBtn" aria-haspopup="true" aria-expanded="false">
-          <span class="avatar" id="avatar">N</span><span id="accountName">Account</span>
-        </button>
-        <div class="account-menu" id="accountMenu" hidden>
-          <a href="#" onclick="return goDownloads()">My downloads</a>
-          <a href="/planners/">Browse planners</a>
-          <button class="signout" onclick="signOut()">Sign out</button>
-        </div>
-      </div>
       <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span></button>
     </div>
   </div>
@@ -269,22 +256,7 @@
 <p>Start with one real customer, one real machine, and one current repair job. Enter the complaint, approval evidence, parts, labor, invoice, and payment only as each fact is confirmed. Then review the Owner Dashboard and save your first Financial Position or Job Profitability snapshot. If the offline model fits your shop, continue with the <a href="/planners/repairbench-os/">RepairBench OS product page</a> and the <a href="/guides/">Nexaly Planner guides hub</a>.</p>
 <p>For adjacent workflows, link readers to the <a href="/guides/inventory-procurement-planner/">offline inventory and procurement workflow</a>, the <a href="/guides/sales-management-system/">small-business sales and profit dashboard</a>, the <a href="/guides/rentflow-os/">equipment rental booking process</a>, and the <a href="/guides/vendorpulse-os/">supplier purchasing and quote comparison workflow</a>. Relevant journal recommendations include a future or existing article on <a href="/journal/">repair-shop job aging and receivables</a>, <a href="/journal/">parts reorder points for small shops</a>, and <a href="/journal/">offline browser data backup for small businesses</a>. These are contextual internal-link recommendations; confirm the final destination slugs in the Nexaly site before publishing.</p>
 <p><strong>CTA:</strong> <a href="/planners/repairbench-os/">Explore RepairBench OS for an offline repair-shop workflow</a> and use this guide as the implementation checklist for your first customer, machine, job, estimate, parts record, payment, and backup.</p>
-<div class="guide-cta"><h2>Explore RepairBench OS</h2><p>Review product screenshots, included features, download details and current purchase terms.</p><a href="/planners/repairbench-os/">View RepairBench OS</a></div></article><aside class="guide-aside"><h2>In this guide</h2><ol><li><a href="#what-repairbench-os-doesand-what-it-does-not-do">What RepairBench OS does—and what it does not do</a></li><li><a href="#quick-start-your-first-shop-session">Quick start: your first shop session</a></li><li><a href="#complete-menu-and-screen-map">Complete menu and screen map</a></li><li><a href="#set-up-the-shop-identity-privacy-and-local-preferences">Set up the shop identity, privacy, and local preferences</a></li><li><a href="#use-each-feature-in-the-actual-repair-workflow">Use each feature in the actual repair workflow</a></li><li><a href="#worked-us-example-mower-repair-from-intake-to-pickup">Worked US example: mower repair from intake to pickup</a></li><li><a href="#daily-and-weekly-shop-routines">Daily and weekly shop routines</a></li><li><a href="#reports-exports-and-printable-documents">Reports, exports, and printable documents</a></li><li><a href="#backup-restore-and-device-change-limitations">Backup, restore, and device-change limitations</a></li><li><a href="#advantages-and-limitations">Advantages and limitations</a></li><li><a href="#troubleshooting-and-common-mistakes">Troubleshooting and common mistakes</a></li><li><a href="#frequently-asked-questions">Frequently asked questions</a></li><li><a href="#next-step-for-a-repair-shop-owner">Next step for a repair shop owner</a></li></ol><hr><p><strong>Updated:</strong><br>September 19, 2026</p><p><a href="/guides/">All product guides</a></p></aside></div></main><!-- ============ AUTH MODAL ============ -->
-<div class="modal" id="authModal" hidden>
-  <div class="modal-ov" onclick="closeAuth()"></div>
-  <div class="modal-card auth-modal" role="dialog" aria-modal="true" aria-label="Sign in">
-    <button class="modal-x" onclick="closeAuth()" aria-label="Close">&times;</button>
-    <div class="auth-head"><div class="auth-mark"><span>N<b>.</b></span></div><h2 id="authTitle">Welcome back</h2><p id="authSub">Sign in to access your planners and downloads.</p></div>
-    <div class="auth-tabs"><button class="auth-tab on" data-tab="signin" onclick="switchAuthTab('signin')">Sign in</button><button class="auth-tab" data-tab="signup" onclick="switchAuthTab('signup')">Create account</button></div>
-    <label class="fld signup-only" hidden><span>Name</span><input id="authName" type="text" placeholder="Your name" autocomplete="name"></label>
-    <label class="fld"><span>Email</span><input id="authEmail" type="email" placeholder="you@email.com" autocomplete="email"></label>
-    <label class="fld"><span>Password</span><input id="authPass" type="password" placeholder="••••••••" autocomplete="current-password"></label>
-    <button class="btn btn-primary auth-submit" id="authSubmit" onclick="doAuth()">Sign in</button>
-    <div class="auth-or"><span>or</span></div>
-    <button class="btn btn-ghost auth-google" onclick="doAuth()"><span class="g">G</span>&nbsp; Continue with Google</button>
-    <p class="auth-foot" id="authFoot">New here? <a href="#" onclick="switchAuthTab('signup');return false;">Create an account</a></p>
-  </div>
-</div>
+<div class="guide-cta"><h2>Explore RepairBench OS</h2><p>Review product screenshots, included features, download details and current purchase terms.</p><a href="/planners/repairbench-os/">View RepairBench OS</a></div></article><aside class="guide-aside"><h2>In this guide</h2><ol><li><a href="#what-repairbench-os-doesand-what-it-does-not-do">What RepairBench OS does—and what it does not do</a></li><li><a href="#quick-start-your-first-shop-session">Quick start: your first shop session</a></li><li><a href="#complete-menu-and-screen-map">Complete menu and screen map</a></li><li><a href="#set-up-the-shop-identity-privacy-and-local-preferences">Set up the shop identity, privacy, and local preferences</a></li><li><a href="#use-each-feature-in-the-actual-repair-workflow">Use each feature in the actual repair workflow</a></li><li><a href="#worked-us-example-mower-repair-from-intake-to-pickup">Worked US example: mower repair from intake to pickup</a></li><li><a href="#daily-and-weekly-shop-routines">Daily and weekly shop routines</a></li><li><a href="#reports-exports-and-printable-documents">Reports, exports, and printable documents</a></li><li><a href="#backup-restore-and-device-change-limitations">Backup, restore, and device-change limitations</a></li><li><a href="#advantages-and-limitations">Advantages and limitations</a></li><li><a href="#troubleshooting-and-common-mistakes">Troubleshooting and common mistakes</a></li><li><a href="#frequently-asked-questions">Frequently asked questions</a></li><li><a href="#next-step-for-a-repair-shop-owner">Next step for a repair shop owner</a></li></ol><hr><p><strong>Updated:</strong><br>September 19, 2026</p><p><a href="/guides/">All product guides</a></p></aside></div></main>
 
 <!-- ============ PRODUCT MODAL ============ -->
 <div class="modal" id="productModal" hidden>
@@ -334,5 +306,5 @@
     <div class="foot-bottom"><span>© 2026 Nexaly Planner. All rights reserved.</span><span>Made for people who like their days organized.</span></div>
   </div>
 </footer>
-<script src="/assets/js/main.js?v=236543cf843f"></script>
+<script src="/assets/js/main.js?v=441963ad718c"></script>
 </body></html>

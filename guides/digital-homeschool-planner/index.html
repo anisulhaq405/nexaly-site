@@ -25,23 +25,10 @@
       <a href="/journal/">Journal</a>
       <a href="/guides/">Product Guides</a>
       <a href="/about/">About</a>
-      <a href="#" class="menu-auth menu-signin" id="menuSignin" onclick="openAuth('signin');return false;">Sign in</a>
-      <a href="#" class="menu-auth menu-signout" id="menuSignout" onclick="signOut();return false;" hidden>Sign out</a>
     </nav>
     <div class="nav-ic">
       <button class="icbtn hide-m" aria-label="Search" onclick="toast('Search is coming soon')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg></button>
       <button class="icbtn hide-m" aria-label="Cart" onclick="toast('Cart &amp; checkout are coming with payments')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6h15l-1.5 9h-12z"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M6 6L5 3H2"/></svg><span class="cart-badge">0</span></button>
-      <button class="btn btn-primary btn-sm nav-signin" id="signinBtn" onclick="openAuth('signin')">Sign in</button>
-      <div class="account" id="account" hidden>
-        <button class="account-btn" id="accountBtn" aria-haspopup="true" aria-expanded="false">
-          <span class="avatar" id="avatar">N</span><span id="accountName">Account</span>
-        </button>
-        <div class="account-menu" id="accountMenu" hidden>
-          <a href="#" onclick="return goDownloads()">My downloads</a>
-          <a href="/planners/">Browse planners</a>
-          <button class="signout" onclick="signOut()">Sign out</button>
-        </div>
-      </div>
       <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span></button>
     </div>
   </div>
@@ -302,22 +289,7 @@
 <h2 id="recommended-next-steps-and-internal-links">Recommended next steps and internal links</h2>
 <p>Start with the [AI Homeschool Learning OS product page], then use this guide as your implementation reference. Families comparing planning models can also review the [Nexaly Planner product index] and the [Nexaly guides hub]. Recommended contextual links for the surrounding site include an <a href="/guides/ai-student-planner/">offline student planning workflow</a>, a <a href="/guides/adhd-digital-planner/">focus and routine planning guide</a>, and a journal article on <a href="/journal/">building a weekly homeschool review routine</a>. These links should be added to the final site navigation and verified against the site’s published canonical URLs before release.</p>
 <p>If you need a private, structured way to move from child profile to curriculum objective, lesson, assessment, and report, <strong>use NexalyPlanner AI Homeschool Learning OS as your local homeschool record center</strong>. Begin with an empty workspace, create one complete child-to-assessment workflow, export a backup, and expand only after the record structure fits your family.</p>
-<div class="guide-cta"><h2>Explore Digital Homeschool Planner</h2><p>Review product screenshots, included features, download details and current purchase terms.</p><a href="/planners/digital-homeschool-planner/">View Digital Homeschool Planner</a></div></article><aside class="guide-aside"><h2>In this guide</h2><ol><li><a href="#what-the-ai-homeschool-learning-os-does">What the AI Homeschool Learning OS does</a></li><li><a href="#quick-start-your-first-2030-minutes">Quick start: your first 20–30 minutes</a></li><li><a href="#complete-menu-and-screen-map">Complete menu and screen map</a></li><li><a href="#set-up-the-local-workspace">Set up the local workspace</a></li><li><a href="#the-core-workflow-child--curriculum--lesson--assessment">The core workflow: child → curriculum → lesson → assessment</a></li><li><a href="#supporting-records-that-make-the-history-useful">Supporting records that make the history useful</a></li><li><a href="#analytics-reports-and-transcript-review">Analytics, reports, and transcript review</a></li><li><a href="#ai-assistant-useful-for-navigation-and-local-review">AI Assistant: useful for navigation and local review</a></li><li><a href="#worked-us-example-a-september-2026-learning-record">Worked US example: a September 2026 learning record</a></li><li><a href="#a-practical-daily-and-weekly-routine">A practical daily and weekly routine</a></li><li><a href="#offline-storage-privacy-backup-and-restore-limitations">Offline storage, privacy, backup, and restore limitations</a></li><li><a href="#advantages-and-disadvantages">Advantages and disadvantages</a></li><li><a href="#troubleshooting-and-common-mistakes">Troubleshooting and common mistakes</a></li><li><a href="#frequently-asked-questions">Frequently asked questions</a></li><li><a href="#recommended-next-steps-and-internal-links">Recommended next steps and internal links</a></li></ol><hr><p><strong>Updated:</strong><br>September 19, 2026</p><p><a href="/guides/">All product guides</a></p></aside></div></main><!-- ============ AUTH MODAL ============ -->
-<div class="modal" id="authModal" hidden>
-  <div class="modal-ov" onclick="closeAuth()"></div>
-  <div class="modal-card auth-modal" role="dialog" aria-modal="true" aria-label="Sign in">
-    <button class="modal-x" onclick="closeAuth()" aria-label="Close">&times;</button>
-    <div class="auth-head"><div class="auth-mark"><span>N<b>.</b></span></div><h2 id="authTitle">Welcome back</h2><p id="authSub">Sign in to access your planners and downloads.</p></div>
-    <div class="auth-tabs"><button class="auth-tab on" data-tab="signin" onclick="switchAuthTab('signin')">Sign in</button><button class="auth-tab" data-tab="signup" onclick="switchAuthTab('signup')">Create account</button></div>
-    <label class="fld signup-only" hidden><span>Name</span><input id="authName" type="text" placeholder="Your name" autocomplete="name"></label>
-    <label class="fld"><span>Email</span><input id="authEmail" type="email" placeholder="you@email.com" autocomplete="email"></label>
-    <label class="fld"><span>Password</span><input id="authPass" type="password" placeholder="••••••••" autocomplete="current-password"></label>
-    <button class="btn btn-primary auth-submit" id="authSubmit" onclick="doAuth()">Sign in</button>
-    <div class="auth-or"><span>or</span></div>
-    <button class="btn btn-ghost auth-google" onclick="doAuth()"><span class="g">G</span>&nbsp; Continue with Google</button>
-    <p class="auth-foot" id="authFoot">New here? <a href="#" onclick="switchAuthTab('signup');return false;">Create an account</a></p>
-  </div>
-</div>
+<div class="guide-cta"><h2>Explore Digital Homeschool Planner</h2><p>Review product screenshots, included features, download details and current purchase terms.</p><a href="/planners/digital-homeschool-planner/">View Digital Homeschool Planner</a></div></article><aside class="guide-aside"><h2>In this guide</h2><ol><li><a href="#what-the-ai-homeschool-learning-os-does">What the AI Homeschool Learning OS does</a></li><li><a href="#quick-start-your-first-2030-minutes">Quick start: your first 20–30 minutes</a></li><li><a href="#complete-menu-and-screen-map">Complete menu and screen map</a></li><li><a href="#set-up-the-local-workspace">Set up the local workspace</a></li><li><a href="#the-core-workflow-child--curriculum--lesson--assessment">The core workflow: child → curriculum → lesson → assessment</a></li><li><a href="#supporting-records-that-make-the-history-useful">Supporting records that make the history useful</a></li><li><a href="#analytics-reports-and-transcript-review">Analytics, reports, and transcript review</a></li><li><a href="#ai-assistant-useful-for-navigation-and-local-review">AI Assistant: useful for navigation and local review</a></li><li><a href="#worked-us-example-a-september-2026-learning-record">Worked US example: a September 2026 learning record</a></li><li><a href="#a-practical-daily-and-weekly-routine">A practical daily and weekly routine</a></li><li><a href="#offline-storage-privacy-backup-and-restore-limitations">Offline storage, privacy, backup, and restore limitations</a></li><li><a href="#advantages-and-disadvantages">Advantages and disadvantages</a></li><li><a href="#troubleshooting-and-common-mistakes">Troubleshooting and common mistakes</a></li><li><a href="#frequently-asked-questions">Frequently asked questions</a></li><li><a href="#recommended-next-steps-and-internal-links">Recommended next steps and internal links</a></li></ol><hr><p><strong>Updated:</strong><br>September 19, 2026</p><p><a href="/guides/">All product guides</a></p></aside></div></main>
 
 <!-- ============ PRODUCT MODAL ============ -->
 <div class="modal" id="productModal" hidden>
@@ -367,5 +339,5 @@
     <div class="foot-bottom"><span>© 2026 Nexaly Planner. All rights reserved.</span><span>Made for people who like their days organized.</span></div>
   </div>
 </footer>
-<script src="/assets/js/main.js?v=236543cf843f"></script>
+<script src="/assets/js/main.js?v=441963ad718c"></script>
 </body></html>
