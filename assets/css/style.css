@@ -605,3 +605,17 @@ body .home-sec .sec-h a{color:var(--terra);}
 body .home-trust{background:linear-gradient(90deg,#071426,#0B2E55);}
 body .home-trust .in{color:#DCE8F7;font-weight:600;}
 body .home-trust .in span{display:inline-flex;align-items:center;gap:7px;}
+
+/* Make editorial links recognisable within journal articles. */
+article.reading a:not(.btn):not(.download),
+.ai-journal article a:not(.btn):not(.download){
+  color:#97412b;
+  text-decoration:underline;
+  text-decoration-thickness:1.5px;
+  text-underline-offset:3px;
+}
+article.reading a:not(.btn):not(.download):hover,
+.ai-journal article a:not(.btn):not(.download):hover{
+  color:#6f2c1a;
+  text-decoration-thickness:2px;
+}
