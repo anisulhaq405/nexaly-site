@@ -101,7 +101,7 @@ var products = [
     "cat": "Business Operating Systems",
     "desc": "Control inventory and procurement offline with products and SKUs, suppliers, warehouses, stock movements, adjustments, transfers, purchase requests, approvals, purchase orders, partial receiving, GRNs, low-stock alerts, reorder planning, invoices and reports.",
     "price": 11.99,
-    "img": "/images/products/inventory-procurement-planner.jpg",
+    "img": "/images/products/inventory-procurement-planner-v2.png",
     "fit": "contain",
     "video": "",
     "buyUrl": "",
