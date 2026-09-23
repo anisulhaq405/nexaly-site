@@ -199,6 +199,69 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/2026-monthly-planner-free-layouts/",
+    "title": "2026 Monthly Planner: Free Layouts and Where to Get One",
+    "excerpt": "Find a 2026 monthly planner layout, compare free and paid formats, and learn how to set up a realistic month with a worked example.",
+    "img": "/images/journal/2026-monthly-planner-free-layouts-20260918.jpg",
+    "alt": "Open 2026 monthly planner showing a dated calendar grid, priorities, deadlines, and notes on a desk",
+    "tag": "Planning Guides",
+    "date": "Sep 22, 2026"
+  },
+  {
+    "url": "/journal/best-2026-planners-digital-printable-options/",
+    "title": "Best 2026 Planners: Digital and Printable Options",
+    "excerpt": "Compare the best 2026 planner formats, including digital, printable, paper, daily, weekly, and monthly options for US readers.",
+    "img": "/images/journal/best-2026-planners-digital-printable-options-20260918.jpg",
+    "alt": "2026 digital and printable planner options arranged on a desk with monthly, weekly, and daily layouts",
+    "tag": "Planning Guides",
+    "date": "Sep 22, 2026"
+  },
+  {
+    "url": "/journal/daily-planner-2026-free-layouts/",
+    "title": "Daily Planner 2026: Free Layouts and Practical Picks",
+    "excerpt": "Compare practical daily planner 2026 layouts, formats, and setup steps with a realistic worked example for US readers.",
+    "img": "/images/journal/daily-planner-2026-free-layouts-20260918.jpg",
+    "alt": "Open 2026 daily planner showing priorities, time blocks, appointments, and notes beside a tablet",
+    "tag": "Planning Guides",
+    "date": "Sep 22, 2026"
+  },
+  {
+    "url": "/journal/monthly-planner-2026-best-layouts/",
+    "title": "Monthly Planner 2026: Best Layouts to Use",
+    "excerpt": "Compare the best monthly planner 2026 layouts, see a worked March example, and choose a calendar, dashboard, or two-page format.",
+    "img": "/images/journal/monthly-planner-2026-best-layouts-20260918.jpg",
+    "alt": "Open monthly planner 2026 showing a calendar grid, priorities, and notes for a realistic March planning example",
+    "tag": "Planning Guides",
+    "date": "Sep 22, 2026"
+  },
+  {
+    "url": "/journal/planner-2026-what-to-look-for/",
+    "title": "Planner 2026: What to Look For Before You Buy",
+    "excerpt": "Choosing a planner 2026? Compare paper, PDF, digital, and app formats, then check layouts, dates, compatibility, and backup before buying.",
+    "img": "/images/journal/planner-2026-what-to-look-for-20260918.jpg",
+    "alt": "Open 2026 planner beside a tablet and handwritten weekly schedule",
+    "tag": "Planning Guides",
+    "date": "Sep 22, 2026"
+  },
+  {
+    "url": "/journal/planners-2026-full-comparison/",
+    "title": "Planners 2026: Full Comparison for Work, Study, and Life",
+    "excerpt": "Compare planners 2026 formats for work, study, and life. Choose daily, weekly, monthly, paper, printable, or digital layouts.",
+    "img": "/images/journal/planners-2026-full-comparison-20260918.jpg",
+    "alt": "Open 2026 planner with monthly, weekly, and daily planning pages for work, study, and home life",
+    "tag": "Planning Guides",
+    "date": "Sep 22, 2026"
+  },
+  {
+    "url": "/journal/weekly-planner-2026-free-templates/",
+    "title": "Weekly Planner 2026: Free Templates That Are Easy to Use",
+    "excerpt": "Build a practical weekly planner for 2026 with simple free layouts, a worked January example, format comparisons, and setup tips.",
+    "img": "/images/journal/weekly-planner-2026-free-templates-20260918.jpg",
+    "alt": "Open 2026 weekly planner showing priorities, appointments, daily tasks, and a short weekly review",
+    "tag": "Planning Guides",
+    "date": "Sep 22, 2026"
+  },
+  {
     "url": "/journal/a5-planner-sizes-layouts-digital-options/",
     "title": "A5 Planner: Sizes, Layouts and Best Digital Options",
     "excerpt": "Compare A5 planner dimensions, paper, printable PDF, offline HTML, GoodNotes, and Notion options to choose a practical layout for daily use.",
