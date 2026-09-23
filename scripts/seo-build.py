@@ -196,7 +196,7 @@ def build(check=False):
         cards=rendered['products'];cards=cards[:15] if path=='index.html' else cards
         files[path]=replace_inner(files[path],ident,'\n'.join(p['html'] for p in cards if not cat or p['cat']==cat))
     files['index.html']=replace_inner(files['index.html'],'homePosts','\n'.join(rendered['posts'][:3]))
-    files['journal/index.html']=replace_inner(files['journal/index.html'],'blogPosts','\n'.join(rendered['posts']))
+    files['journal/index.html']=replace_inner(files['journal/index.html'],'blogPosts','\n'.join(rendered['posts'])).rstrip('\n')+'\n'
     # Keep browser rendering in sync with static catalogues; do not edit checkout logic.
     version=hashlib.sha256(js.encode()).hexdigest()[:12]
     for path in files:
