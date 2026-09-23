@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Small Business Planning Guides | Nexaly Planner</title>
+<title>Small Business Planning Guides | Inventory, Orders &amp; Content | Nexaly Planner</title>
 <meta name="description" content="Read NexalyPlanner guides for small business inventory, order tracking, sales systems, content planning, homeschool organization and student schedules.">
 <link rel="canonical" href="https://nexalyplanner.com/journal/">
 <meta property="og:url" content="https://nexalyplanner.com/journal/">
-<meta property="og:title" content="Small Business Planning Guides | Nexaly Planner">
+<meta property="og:title" content="Small Business Planning Guides | Inventory, Orders &amp; Content | Nexaly Planner">
 <meta property="og:description" content="Read NexalyPlanner guides for small business inventory, order tracking, sales systems, content planning, homeschool organization and student schedules.">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Small Business Planning Guides | Nexaly Planner">
+<meta name="twitter:title" content="Small Business Planning Guides | Inventory, Orders &amp; Content | Nexaly Planner">
 <meta name="twitter:description" content="Read NexalyPlanner guides for small business inventory, order tracking, sales systems, content planning, homeschool organization and student schedules.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#2c2117">
@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/style.css?v=3">
+<link rel="stylesheet" href="/assets/css/style.css?v=2">
 <style>
 .home-hero{max-width:1120px;margin:0 auto;padding:60px 24px 22px;text-align:center}
 .home-hero .eyebrow{font-family:"Inter",sans-serif;font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:.78rem;color:#c06a3f;margin-bottom:14px}
@@ -38,7 +38,7 @@
 .journal-card .pcover img{object-fit:cover;object-position:center top}
 </style>
 <meta name="twitter:image" content="https://nexalyplanner.com/images/og-default.jpg">
-<style id="journal-cover-ratio">.journal-card .pcover{aspect-ratio:3/2}.journal-card .pcover img{object-fit:cover;object-position:center}</style><script id="nexaly-seo" type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://nexalyplanner.com/journal/#webpage", "url": "https://nexalyplanner.com/journal/", "name": "Small Business Planning Guides | Nexaly Planner", "description": "Read NexalyPlanner guides for small business inventory, order tracking, sales systems, content planning, homeschool organization and student schedules.", "isPartOf": {"@id": "https://nexalyplanner.com/#website"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nexalyplanner.com/"}, {"@type": "ListItem", "position": 2, "name": "Small business planning guides for inventory, orders, content and growth", "item": "https://nexalyplanner.com/journal/"}]}]}</script>
+<style id="journal-cover-ratio">.journal-card .pcover{aspect-ratio:3/2}.journal-card .pcover img{object-fit:cover;object-position:center}</style><script id="nexaly-seo" type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://nexalyplanner.com/journal/#webpage", "url": "https://nexalyplanner.com/journal/", "name": "Small Business Planning Guides | Inventory, Orders & Content | Nexaly Planner", "description": "Read NexalyPlanner guides for small business inventory, order tracking, sales systems, content planning, homeschool organization and student schedules.", "isPartOf": {"@id": "https://nexalyplanner.com/#website"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nexalyplanner.com/"}, {"@type": "ListItem", "position": 2, "name": "Small business planning guides for inventory, orders, content and growth", "item": "https://nexalyplanner.com/journal/"}]}]}</script>
 </head>
 <body>
 <header class="nav">
@@ -53,10 +53,23 @@
       <a href="/journal/">Journal</a>
       <a href="/guides/">Product Guides</a>
       <a href="/about/">About</a>
+      <a href="#" class="menu-auth menu-signin" id="menuSignin" onclick="openAuth('signin');return false;">Sign in</a>
+      <a href="#" class="menu-auth menu-signout" id="menuSignout" onclick="signOut();return false;" hidden>Sign out</a>
     </nav>
     <div class="nav-ic">
       <button class="icbtn hide-m" aria-label="Search" onclick="toast('Search is coming soon')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg></button>
       <button class="icbtn hide-m" aria-label="Cart" onclick="toast('Cart &amp; checkout are coming with payments')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6h15l-1.5 9h-12z"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M6 6L5 3H2"/></svg><span class="cart-badge">0</span></button>
+      <button class="btn btn-primary btn-sm nav-signin" id="signinBtn" onclick="openAuth('signin')">Sign in</button>
+      <div class="account" id="account" hidden>
+        <button class="account-btn" id="accountBtn" aria-haspopup="true" aria-expanded="false">
+          <span class="avatar" id="avatar">N</span><span id="accountName">Account</span>
+        </button>
+        <div class="account-menu" id="accountMenu" hidden>
+          <a href="#" onclick="return goDownloads()">My downloads</a>
+          <a href="/planners/">Browse planners</a>
+          <button class="signout" onclick="signOut()">Sign out</button>
+        </div>
+      </div>
       <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span></button>
     </div>
   </div>
@@ -67,6 +80,13 @@
     <div class="wrap">
       <div class="sec-head"><span class="eyebrow">The journal</span><h1>Small business planning guides for inventory, orders, content and growth</h1><p>Practical NexalyPlanner guides for business owners, boutique sellers, homeschool families and students who want cleaner planning systems.</p></div>
       <div class="grid" id="blogPosts">
+<a class="pcard journal-card" href="/journal/best-digital-planner-for-ipad/" aria-label="Best Digital Planner for iPad: Full Breakdown"><div class="pcover"><img src="/images/journal/best-digital-planner-for-ipad-20260919.jpg" alt="iPad beside an Apple Pencil showing a digital planner with monthly, weekly, and daily layouts" loading="lazy" decoding="async"></div><div class="pcard-body"><h3>Best Digital Planner for iPad: Full Breakdown</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">Planning Guides</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">Compare iPad digital planner formats, including Goodnotes PDFs, Notion, offline HTML, and free options, with a practical setup example.</p><div style="font-size:12px;color:var(--faint);margin-top:9px">Sep 23, 2026</div></div></a>
+<a class="pcard journal-card" href="/journal/best-planner-app-for-ipad-2026/" aria-label="Best Planner App for iPad in 2026: Formats Compared"><div class="pcover"><img src="/images/journal/best-planner-app-for-ipad-2026-20260919.jpg" alt="iPad displaying a weekly digital planner beside an Apple Pencil and handwritten planning notes" loading="lazy" decoding="async"></div><div class="pcard-body"><h3>Best Planner App for iPad in 2026: Formats Compared</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">Planning Guides</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">Compare Goodnotes PDF planners, Notion, offline HTML apps, and iPad tools to choose a planner that fits your routine.</p><div style="font-size:12px;color:var(--faint);margin-top:9px">Sep 23, 2026</div></div></a>
+<a class="pcard journal-card" href="/journal/digital-planner-app-how-it-works/" aria-label="Digital Planner App: How It Works and Best Options"><div class="pcover"><img src="/images/journal/digital-planner-app-how-it-works-20260919.jpg" alt="iPad showing a weekly digital planner beside a laptop with a typed planning workspace" loading="lazy" decoding="async"></div><div class="pcard-body"><h3>Digital Planner App: How It Works and Best Options</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">Planning Guides</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">Compare PDF, Goodnotes, Notion, iPad, and offline HTML planner options. Learn how digital planners work and choose a practical setup.</p><div style="font-size:12px;color:var(--faint);margin-top:9px">Sep 23, 2026</div></div></a>
+<a class="pcard journal-card" href="/journal/digital-planner-for-ipad-setup/" aria-label="Digital Planner for iPad: Setup Guide and Free Options"><div class="pcover"><img src="/images/journal/digital-planner-for-ipad-setup-20260919.jpg" alt="iPad showing a linked digital planner weekly layout beside an Apple Pencil and Files app" loading="lazy" decoding="async"></div><div class="pcard-body"><h3>Digital Planner for iPad: Setup Guide and Free Options</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">Planning Guides</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">Set up a digital planner for iPad with PDF, Goodnotes, Notion, or offline HTML options. Compare formats and test a free setup.</p><div style="font-size:12px;color:var(--faint);margin-top:9px">Sep 23, 2026</div></div></a>
+<a class="pcard journal-card" href="/journal/free-digital-planner-for-ipad/" aria-label="Free Digital Planner for iPad: Where to Actually Get One"><div class="pcover"><img src="/images/journal/free-digital-planner-for-ipad-20260919.jpg" alt="iPad showing a handwritten weekly digital planner beside an Apple Pencil" loading="lazy" decoding="async"></div><div class="pcard-body"><h3>Free Digital Planner for iPad: Where to Actually Get One</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">Planning Guides</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">Find a free digital planner for iPad and choose between PDF, Goodnotes, Notion, and offline HTML with practical setup and backup tips.</p><div style="font-size:12px;color:var(--faint);margin-top:9px">Sep 23, 2026</div></div></a>
+<a class="pcard journal-card" href="/journal/ipad-digital-planner-setup-guide/" aria-label="iPad Digital Planner: Complete Setup Guide"><div class="pcover"><img src="/images/journal/ipad-digital-planner-setup-guide-20260919.jpg" alt="iPad with Apple Pencil beside a digital weekly planner, Files folder, and notes for an offline setup" loading="lazy" decoding="async"></div><div class="pcard-body"><h3>iPad Digital Planner: Complete Setup Guide</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">Planning Guides</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">Set up an iPad digital planner with PDF, Goodnotes, Notion, or offline HTML. Learn what you need, how to work offline, and how to back up files.</p><div style="font-size:12px;color:var(--faint);margin-top:9px">Sep 23, 2026</div></div></a>
+<a class="pcard journal-card" href="/journal/ipad-planner-app-buying-guide/" aria-label="iPad Planner App: What to Look For Before You Buy"><div class="pcover"><img src="/images/journal/ipad-planner-app-buying-guide-20260919.jpg" alt="iPad showing a digital planner comparison with Apple Pencil, PDF, Goodnotes, Notion, and offline HTML options" loading="lazy" decoding="async"></div><div class="pcard-body"><h3>iPad Planner App: What to Look For Before You Buy</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">Planning Guides</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">Compare iPad planner apps, PDF planners, Goodnotes, Notion, and offline HTML options before you buy.</p><div style="font-size:12px;color:var(--faint);margin-top:9px">Sep 23, 2026</div></div></a>
 <a class="pcard journal-card" href="/journal/2026-monthly-planner-free-layouts/" aria-label="2026 Monthly Planner: Free Layouts and Where to Get One"><div class="pcover"><img src="/images/journal/2026-monthly-planner-free-layouts-20260918.jpg" alt="Open 2026 monthly planner showing a dated calendar grid, priorities, deadlines, and notes on a desk" loading="lazy" decoding="async"></div><div class="pcard-body"><h3>2026 Monthly Planner: Free Layouts and Where to Get One</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">Planning Guides</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">Find a 2026 monthly planner layout, compare free and paid formats, and learn how to set up a realistic month with a worked example.</p><div style="font-size:12px;color:var(--faint);margin-top:9px">Sep 22, 2026</div></div></a>
 <a class="pcard journal-card" href="/journal/best-2026-planners-digital-printable-options/" aria-label="Best 2026 Planners: Digital and Printable Options"><div class="pcover"><img src="/images/journal/best-2026-planners-digital-printable-options-20260918.jpg" alt="2026 digital and printable planner options arranged on a desk with monthly, weekly, and daily layouts" loading="lazy" decoding="async"></div><div class="pcard-body"><h3>Best 2026 Planners: Digital and Printable Options</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">Planning Guides</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">Compare the best 2026 planner formats, including digital, printable, paper, daily, weekly, and monthly options for US readers.</p><div style="font-size:12px;color:var(--faint);margin-top:9px">Sep 22, 2026</div></div></a>
 <a class="pcard journal-card" href="/journal/daily-planner-2026-free-layouts/" aria-label="Daily Planner 2026: Free Layouts and Practical Picks"><div class="pcover"><img src="/images/journal/daily-planner-2026-free-layouts-20260918.jpg" alt="Open 2026 daily planner showing priorities, time blocks, appointments, and notes beside a tablet" loading="lazy" decoding="async"></div><div class="pcard-body"><h3>Daily Planner 2026: Free Layouts and Practical Picks</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">Planning Guides</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">Compare practical daily planner 2026 layouts, formats, and setup steps with a realistic worked example for US readers.</p><div style="font-size:12px;color:var(--faint);margin-top:9px">Sep 22, 2026</div></div></a>
@@ -106,6 +126,23 @@
     </div>
   </div>
 </main>
+
+<!-- ============ AUTH MODAL ============ -->
+<div class="modal" id="authModal" hidden>
+  <div class="modal-ov" onclick="closeAuth()"></div>
+  <div class="modal-card auth-modal" role="dialog" aria-modal="true" aria-label="Sign in">
+    <button class="modal-x" onclick="closeAuth()" aria-label="Close">&times;</button>
+    <div class="auth-head"><div class="auth-mark"><span>N<b>.</b></span></div><h2 id="authTitle">Welcome back</h2><p id="authSub">Sign in to access your planners and downloads.</p></div>
+    <div class="auth-tabs"><button class="auth-tab on" data-tab="signin" onclick="switchAuthTab('signin')">Sign in</button><button class="auth-tab" data-tab="signup" onclick="switchAuthTab('signup')">Create account</button></div>
+    <label class="fld signup-only" hidden><span>Name</span><input id="authName" type="text" placeholder="Your name" autocomplete="name"></label>
+    <label class="fld"><span>Email</span><input id="authEmail" type="email" placeholder="you@email.com" autocomplete="email"></label>
+    <label class="fld"><span>Password</span><input id="authPass" type="password" placeholder="••••••••" autocomplete="current-password"></label>
+    <button class="btn btn-primary auth-submit" id="authSubmit" onclick="doAuth()">Sign in</button>
+    <div class="auth-or"><span>or</span></div>
+    <button class="btn btn-ghost auth-google" onclick="doAuth()"><span class="g">G</span>&nbsp; Continue with Google</button>
+    <p class="auth-foot" id="authFoot">New here? <a href="#" onclick="switchAuthTab('signup');return false;">Create an account</a></p>
+  </div>
+</div>
 
 <!-- ============ PRODUCT MODAL ============ -->
 <div class="modal" id="productModal" hidden>
@@ -155,6 +192,6 @@
     <div class="foot-bottom"><span>© 2026 Nexaly Planner. All rights reserved.</span><span>Made for people who like their days organized.</span></div>
   </div>
 </footer>
-<script src="/assets/js/main.js?v=73e58fc957e5"></script>
+<script src="/assets/js/main.js?v=3d431c5cebc7"></script>
 </body>
 </html>

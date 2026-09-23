@@ -199,6 +199,69 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/best-digital-planner-for-ipad/",
+    "title": "Best Digital Planner for iPad: Full Breakdown",
+    "excerpt": "Compare iPad digital planner formats, including Goodnotes PDFs, Notion, offline HTML, and free options, with a practical setup example.",
+    "img": "/images/journal/best-digital-planner-for-ipad-20260919.jpg",
+    "alt": "iPad beside an Apple Pencil showing a digital planner with monthly, weekly, and daily layouts",
+    "tag": "Planning Guides",
+    "date": "Sep 23, 2026"
+  },
+  {
+    "url": "/journal/best-planner-app-for-ipad-2026/",
+    "title": "Best Planner App for iPad in 2026: Formats Compared",
+    "excerpt": "Compare Goodnotes PDF planners, Notion, offline HTML apps, and iPad tools to choose a planner that fits your routine.",
+    "img": "/images/journal/best-planner-app-for-ipad-2026-20260919.jpg",
+    "alt": "iPad displaying a weekly digital planner beside an Apple Pencil and handwritten planning notes",
+    "tag": "Planning Guides",
+    "date": "Sep 23, 2026"
+  },
+  {
+    "url": "/journal/digital-planner-app-how-it-works/",
+    "title": "Digital Planner App: How It Works and Best Options",
+    "excerpt": "Compare PDF, Goodnotes, Notion, iPad, and offline HTML planner options. Learn how digital planners work and choose a practical setup.",
+    "img": "/images/journal/digital-planner-app-how-it-works-20260919.jpg",
+    "alt": "iPad showing a weekly digital planner beside a laptop with a typed planning workspace",
+    "tag": "Planning Guides",
+    "date": "Sep 23, 2026"
+  },
+  {
+    "url": "/journal/digital-planner-for-ipad-setup/",
+    "title": "Digital Planner for iPad: Setup Guide and Free Options",
+    "excerpt": "Set up a digital planner for iPad with PDF, Goodnotes, Notion, or offline HTML options. Compare formats and test a free setup.",
+    "img": "/images/journal/digital-planner-for-ipad-setup-20260919.jpg",
+    "alt": "iPad showing a linked digital planner weekly layout beside an Apple Pencil and Files app",
+    "tag": "Planning Guides",
+    "date": "Sep 23, 2026"
+  },
+  {
+    "url": "/journal/free-digital-planner-for-ipad/",
+    "title": "Free Digital Planner for iPad: Where to Actually Get One",
+    "excerpt": "Find a free digital planner for iPad and choose between PDF, Goodnotes, Notion, and offline HTML with practical setup and backup tips.",
+    "img": "/images/journal/free-digital-planner-for-ipad-20260919.jpg",
+    "alt": "iPad showing a handwritten weekly digital planner beside an Apple Pencil",
+    "tag": "Planning Guides",
+    "date": "Sep 23, 2026"
+  },
+  {
+    "url": "/journal/ipad-digital-planner-setup-guide/",
+    "title": "iPad Digital Planner: Complete Setup Guide",
+    "excerpt": "Set up an iPad digital planner with PDF, Goodnotes, Notion, or offline HTML. Learn what you need, how to work offline, and how to back up files.",
+    "img": "/images/journal/ipad-digital-planner-setup-guide-20260919.jpg",
+    "alt": "iPad with Apple Pencil beside a digital weekly planner, Files folder, and notes for an offline setup",
+    "tag": "Planning Guides",
+    "date": "Sep 23, 2026"
+  },
+  {
+    "url": "/journal/ipad-planner-app-buying-guide/",
+    "title": "iPad Planner App: What to Look For Before You Buy",
+    "excerpt": "Compare iPad planner apps, PDF planners, Goodnotes, Notion, and offline HTML options before you buy.",
+    "img": "/images/journal/ipad-planner-app-buying-guide-20260919.jpg",
+    "alt": "iPad showing a digital planner comparison with Apple Pencil, PDF, Goodnotes, Notion, and offline HTML options",
+    "tag": "Planning Guides",
+    "date": "Sep 23, 2026"
+  },
+  {
     "url": "/journal/2026-monthly-planner-free-layouts/",
     "title": "2026 Monthly Planner: Free Layouts and Where to Get One",
     "excerpt": "Find a 2026 monthly planner layout, compare free and paid formats, and learn how to set up a realistic month with a worked example.",
