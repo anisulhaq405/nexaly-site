@@ -14,6 +14,7 @@ var products = [
     "desc": "Run a small engine repair shop from one private offline system. Manage work orders, repair jobs, customers, machines, parts inventory, reorder needs, invoices, payments, profit and branded business reports with no account or subscription.",
     "price": 11.99,
     "img": "/images/products/repairbench-os.jpg",
+    "thumb": "/images/products/thumbs/repairbench-os.webp",
     "video": "",
     "buyUrl": "",
     "url": "/planners/repairbench-os/",
@@ -26,6 +27,7 @@ var products = [
     "desc": "Plan school or college in one private offline study system with 16 connected modules for timetables, subjects, assignments, exams, revision, goals, habits, focus sessions, notes, grades, analytics and a built-in AI assistant.",
     "price": 11.99,
     "img": "/images/products/ai-student-planner.jpg",
+    "thumb": "/images/products/thumbs/ai-student-planner.webp",
     "video": "",
     "buyUrl": "",
     "url": "/planners/ai-student-planner/",
@@ -38,6 +40,7 @@ var products = [
     "desc": "Organize homeschooling for multiple children with a private offline parent dashboard, curriculum and lesson planning, calendar, assignments, gradebook, attendance and learning hours, analytics, reports, transcripts and a built-in AI assistant.",
     "price": 11.99,
     "img": "/images/products/digital-homeschool-planner.jpg",
+    "thumb": "/images/products/thumbs/digital-homeschool-planner.webp",
     "video": "",
     "buyUrl": "",
     "url": "/planners/digital-homeschool-planner/",
@@ -50,6 +53,7 @@ var products = [
     "desc": "A calm, interactive ADHD-friendly planner for adults with 15 connected tools for daily focus, brain dumps, tasks, routines, goals, time blocks, Pomodoro sessions, habits, mood, achievements and practical analytics. Private, offline and subscription-free.",
     "price": 11.99,
     "img": "/images/products/adhd-digital-planner.png",
+    "thumb": "/images/products/thumbs/adhd-digital-planner.webp",
     "fit": "contain",
     "video": "",
     "buyUrl": "",
@@ -63,6 +67,7 @@ var products = [
     "desc": "Manage a boutique or small product business with connected tools for products, pricing, inventory, orders, sales, customers, income, expenses, profit, marketing, goals, notes and key dates in one private browser-based planner.",
     "price": 11.99,
     "img": "/images/products/boutique-business-planner.png",
+    "thumb": "/images/products/thumbs/boutique-business-planner.webp",
     "fit": "contain",
     "video": "",
     "buyUrl": "",
@@ -76,6 +81,7 @@ var products = [
     "desc": "Plan and manage a small business across 2026, 2027 and 2028 with calendars, goals, tasks, Kanban projects, habits, bills, finance, orders, inventory, suppliers, advertising ROAS, returns, profit and loss, reports and live analytics.",
     "price": 11.99,
     "img": "/images/products/small-business-planner-2026-2028.png",
+    "thumb": "/images/products/thumbs/small-business-planner-2026-2028.webp",
     "fit": "contain",
     "video": "",
     "buyUrl": "",
@@ -89,6 +95,7 @@ var products = [
     "desc": "Coordinate family care for aging parents with 24 connected modules for care plans, routines, medications, appointments, care teams, tasks, calendars, daily logs, expenses, transportation, emergency information, family handoffs, documents and printable reports.",
     "price": 11.99,
     "img": "/images/products/caregiver-planner-aging-parents.png",
+    "thumb": "/images/products/thumbs/caregiver-planner-aging-parents.webp",
     "fit": "contain",
     "video": "",
     "buyUrl": "",
@@ -102,6 +109,7 @@ var products = [
     "desc": "Control inventory and procurement offline with products and SKUs, suppliers, warehouses, stock movements, adjustments, transfers, purchase requests, approvals, purchase orders, partial receiving, GRNs, low-stock alerts, reorder planning, invoices and reports.",
     "price": 11.99,
     "img": "/images/products/inventory-procurement-planner-v2.png",
+    "thumb": "/images/products/thumbs/inventory-procurement-planner.webp",
     "fit": "contain",
     "video": "",
     "buyUrl": "",
@@ -115,6 +123,7 @@ var products = [
     "desc": "Run e-commerce operations from one private offline command center for products, inventory, orders, sales, contribution profit, marketing campaigns, ROAS, customers, suppliers, purchasing, goals, projects, tasks, decisions, SOPs and reports.",
     "price": 11.99,
     "img": "/images/products/owneros-core.jpg",
+    "thumb": "/images/products/thumbs/owneros-core.webp",
     "fit": "contain",
     "video": "",
     "buyUrl": "",
@@ -128,6 +137,7 @@ var products = [
     "desc": "Trace supplier lots through recipes, production batches, quality checks, finished inventory, customer orders and destinations. Run forward and backward traces, mock recalls, cost and yield analysis, and branded reports in a private offline system for small makers.",
     "price": 11.99,
     "img": "/images/products/batchtrace-os.png",
+    "thumb": "/images/products/thumbs/batchtrace-os.webp",
     "fit": "contain",
     "video": "",
     "buyUrl": "",
@@ -141,6 +151,7 @@ var products = [
     "desc": "Plan and measure content for fashion and e-commerce brands with 20 connected offline tools, including a visual calendar, Content Hub, Idea Bank, drops and campaigns, sales tracking, AI prompt library, link-in-bio planning and analytics.",
     "price": 11.99,
     "img": "/images/products/content-marketing-planner.jpg",
+    "thumb": "/images/products/thumbs/content-marketing-planner.webp",
     "video": "",
     "buyUrl": "",
     "url": "/planners/content-marketing-planner/",
@@ -153,6 +164,7 @@ var products = [
     "desc": "Manage suppliers, materials, quote comparisons, true landed cost, purchase orders, deposits, partial deliveries, backorders, rejects, quality, supplier invoices, payments and scorecards in a private offline purchasing system.",
     "price": 11.99,
     "img": "/images/products/vendorpulse-os.png",
+    "thumb": "/images/products/thumbs/vendorpulse-os.webp",
     "video": "",
     "buyUrl": "",
     "url": "/planners/vendorpulse-os/",
@@ -165,6 +177,7 @@ var products = [
     "desc": "Manage sales, FIFO inventory, orders, purchases, suppliers, returns, expenses, cash, customer balances, invoices, profit and loss, advertising ROAS, CRM, employees, payroll, commissions and tasks in one private offline business system.",
     "price": 11.99,
     "img": "/images/products/sales-management-system.png",
+    "thumb": "/images/products/thumbs/sales-management-system.webp",
     "fit": "contain",
     "video": "",
     "buyUrl": "",
@@ -178,6 +191,7 @@ var products = [
     "desc": "Run an equipment, party or event rental business offline with booking and availability tracking, deposits, returns, maintenance schedules, double-booking risk checks, quote-to-profit workflows and asset profitability insights.",
     "price": 11.99,
     "img": "/images/products/rentflow-os.jpg?v=2",
+    "thumb": "/images/products/thumbs/rentflow-os.webp",
     "video": "",
     "buyUrl": "",
     "url": "/planners/rentflow-os/",
@@ -190,6 +204,7 @@ var products = [
     "desc": "Use a private offline business dashboard to monitor sales, cash, net position, overdue invoices, marketing ROAS and CAC, a 13-week cash outlook and business goals, then create structured decision briefs with the built-in offline AI copilot.",
     "price": 11.99,
     "img": "/images/products/offline-ai-business-copilot.jpg?v=2",
+    "thumb": "/images/products/thumbs/offline-ai-business-copilot.webp",
     "video": "",
     "buyUrl": "",
     "url": "/planners/offline-ai-business-copilot/",
@@ -581,7 +596,10 @@ var heartSvg = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-
 var sprigSvg = '<svg width="58" height="20" viewBox="0 0 58 20" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M2 18C16 18 24 10 32 2M32 2c-5 0-8 2-10 5M32 2c0 4-2 7-5 9"/></svg>';
 
 function coverHTML(p){
-  if(p.img) return '<img src="'+p.img+'" alt="'+p.title+'"'+(p.fit==='contain'?' style="object-fit:contain;object-position:center;background:#0f1726"':'')+'>';
+  if(p.img){
+    var cover=p.thumb||p.img;
+    return '<img src="'+cover+'" alt="'+p.title+'" loading="lazy" decoding="async"'+(p.fit==='contain'?' style="object-fit:contain;object-position:center;background:#0f1726"':'')+'>';
+  }
   return '<div class="cover-mock" style="background:linear-gradient(155deg,'+p.m1+','+p.m2+')"><div class="md"></div><span class="mc">'+p.cat+'</span><span class="msprig">'+sprigSvg+'</span><div class="mt">'+p.title+'</div></div>';
 }
 function cardHTML(p,i){
