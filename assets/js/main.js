@@ -9,6 +9,19 @@ var $ = function(id){return document.getElementById(id);};
    Leave img/video/buyUrl as "" and a styled placeholder is shown until you add them. */
 var products = [
   {
+    "title": "CalibraTrack OS — Calibration & Instrument Service Manager",
+    "cat": "Business Operating Systems",
+    "desc": "Track calibration due dates, certificate references, out-of-tolerance actions, service work, downtime and vendor performance in a private offline browser app.",
+    "price": 11.99,
+    "img": "/images/products/calibratrack-os.webp",
+    "thumb": "/images/products/thumbs/calibratrack-os.webp",
+    "video": "",
+    "buyUrl": "",
+    "url": "/planners/calibratrack-os/",
+    "m1": "#EFE4D9",
+    "m2": "#E8D1BE"
+  },
+  {
     "title": "RepairBench OS — Small Engine Repair Shop Manager",
     "cat": "Business Operating Systems",
     "desc": "Run a small engine repair shop from one private offline system. Manage work orders, repair jobs, customers, machines, parts inventory, reorder needs, invoices, payments, profit and branded business reports with no account or subscription.",
