@@ -205,7 +205,7 @@ var posts = [
     "img": "/images/journal/best-digital-planner-for-ipad-20260919.jpg",
     "alt": "iPad beside an Apple Pencil showing a digital planner with monthly, weekly, and daily layouts",
     "tag": "Planning Guides",
-    "date": "Sep 23, 2026"
+    "date": "Updated Sep 24, 2026"
   },
   {
     "url": "/journal/best-planner-app-for-ipad-2026/",
@@ -214,7 +214,7 @@ var posts = [
     "img": "/images/journal/best-planner-app-for-ipad-2026-20260919.jpg",
     "alt": "iPad displaying a weekly digital planner beside an Apple Pencil and handwritten planning notes",
     "tag": "Planning Guides",
-    "date": "Sep 23, 2026"
+    "date": "Updated Sep 24, 2026"
   },
   {
     "url": "/journal/digital-planner-app-how-it-works/",
@@ -223,7 +223,7 @@ var posts = [
     "img": "/images/journal/digital-planner-app-how-it-works-20260919.jpg",
     "alt": "iPad showing a weekly digital planner beside a laptop with a typed planning workspace",
     "tag": "Planning Guides",
-    "date": "Sep 23, 2026"
+    "date": "Updated Sep 24, 2026"
   },
   {
     "url": "/journal/digital-planner-for-ipad-setup/",
@@ -232,7 +232,7 @@ var posts = [
     "img": "/images/journal/digital-planner-for-ipad-setup-20260919.jpg",
     "alt": "iPad showing a linked digital planner weekly layout beside an Apple Pencil and Files app",
     "tag": "Planning Guides",
-    "date": "Sep 23, 2026"
+    "date": "Updated Sep 24, 2026"
   },
   {
     "url": "/journal/free-digital-planner-for-ipad/",
@@ -241,7 +241,7 @@ var posts = [
     "img": "/images/journal/free-digital-planner-for-ipad-20260919.jpg",
     "alt": "iPad showing a handwritten weekly digital planner beside an Apple Pencil",
     "tag": "Planning Guides",
-    "date": "Sep 23, 2026"
+    "date": "Updated Sep 24, 2026"
   },
   {
     "url": "/journal/ipad-digital-planner-setup-guide/",
@@ -250,7 +250,7 @@ var posts = [
     "img": "/images/journal/ipad-digital-planner-setup-guide-20260919.jpg",
     "alt": "iPad with Apple Pencil beside a digital weekly planner, Files folder, and notes for an offline setup",
     "tag": "Planning Guides",
-    "date": "Sep 23, 2026"
+    "date": "Updated Sep 24, 2026"
   },
   {
     "url": "/journal/ipad-planner-app-buying-guide/",
@@ -259,7 +259,7 @@ var posts = [
     "img": "/images/journal/ipad-planner-app-buying-guide-20260919.jpg",
     "alt": "iPad showing a digital planner comparison with Apple Pencil, PDF, Goodnotes, Notion, and offline HTML options",
     "tag": "Planning Guides",
-    "date": "Sep 23, 2026"
+    "date": "Updated Sep 24, 2026"
   },
   {
     "url": "/journal/2026-monthly-planner-free-layouts/",
