@@ -15,6 +15,7 @@ const NEXALY_PRODUCTS = [
     'inventory-procurement-planner' => 'Inventory & Procurement Planner',
     'rentflow-os' => 'RentFlow OS',
     'repairbench-os' => 'RepairBench OS',
+    'calibratrack-os' => 'CalibraTrack OS',
     'sales-management-system' => 'Sales Management System',
     'vendorpulse-os' => 'VendorPulse OS',
 ];
