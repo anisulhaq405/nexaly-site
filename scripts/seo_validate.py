@@ -75,7 +75,8 @@ def validate(files, root, Document, data, generated=False):
             except (ValueError,TypeError):fail(path,'missing, invalid or inconsistent actual product price')
             links=[e['attrs'].get('href','') for e in doc.find('a')]
             checkouts=[v for v in links if urlsplit(v).scheme=='https' and urlsplit(v).hostname=='buy.polar.sh' and len(urlsplit(v).path.strip('/'))>5 and not any(w in v.lower() for w in ['placeholder','your-link','example'])]
-            if not checkouts:fail(path,'provide an actual HTTPS Polar checkout link')
+            if not checkouts and doc.meta('nexaly:checkout')!='pending':fail(path,'provide an actual HTTPS Polar checkout link')
+            if checkouts and doc.meta('nexaly:checkout')=='pending':fail(path,'remove pending checkout marker when checkout is live')
             old=catalog.get(relative,{})
             if old.get('buyUrl') and old['buyUrl'] not in checkouts:fail(path,'catalog checkout does not match product page')
     for warning in sorted(set(warnings)):print('WARNING: '+warning)
