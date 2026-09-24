@@ -9,6 +9,19 @@ var $ = function(id){return document.getElementById(id);};
    Leave img/video/buyUrl as "" and a styled placeholder is shown until you add them. */
 var products = [
   {
+    "title": "ConsignClear OS — Consignment Inventory & Payout Manager",
+    "cat": "Business Operating Systems",
+    "desc": "Track consignors, agreements, consigned inventory, fees, commission splits, refund adjustments and payouts in a private offline browser app.",
+    "price": 11.99,
+    "img": "/images/products/consignclear-os.webp",
+    "thumb": "/images/products/thumbs/consignclear-os.webp",
+    "video": "",
+    "buyUrl": "",
+    "url": "/planners/consignclear-os/",
+    "m1": "#E9E8DB",
+    "m2": "#D6E9E4"
+  },
+  {
     "title": "CalibraTrack OS — Calibration & Instrument Service Manager",
     "cat": "Business Operating Systems",
     "desc": "Track calibration due dates, certificate references, out-of-tolerance actions, service work, downtime and vendor performance in a private offline browser app.",
