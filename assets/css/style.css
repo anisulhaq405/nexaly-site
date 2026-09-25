@@ -619,3 +619,7 @@ article.reading a:not(.btn):not(.download):hover,
   color:#6f2c1a;
   text-decoration-thickness:2px;
 }
+
+/* Keep the actual RenewGuard dashboard visible within portrait product cards. */
+a[href="/planners/renewguard-os/"] .pcover{background:linear-gradient(150deg,#102c50,#e7f0ff 48%,#172b49)}
+a[href="/planners/renewguard-os/"] .pcover img{object-fit:contain;padding:12px;box-sizing:border-box}
