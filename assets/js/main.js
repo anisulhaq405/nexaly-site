@@ -9,7 +9,7 @@ var $ = function(id){return document.getElementById(id);};
    Leave img/video/buyUrl as "" and a styled placeholder is shown until you add them. */
 var products = [
   {
-    "title": "RenewGuard OS — Contract Renewal & Notice Deadline Tracker",
+    "title": "RenewGuard OS — Offline Contract Renewal Operating System",
     "cat": "Business Operating Systems",
     "desc": "Track vendor contracts, renewal dates, cancellation notice windows and annualized costs in a private offline app. Review commitments before they roll over.",
     "price": 11.99,
