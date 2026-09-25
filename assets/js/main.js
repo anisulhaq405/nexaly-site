@@ -9,6 +9,19 @@ var $ = function(id){return document.getElementById(id);};
    Leave img/video/buyUrl as "" and a styled placeholder is shown until you add them. */
 var products = [
   {
+    "title": "RenewGuard OS — Contract Renewal & Notice Deadline Tracker",
+    "cat": "Business Operating Systems",
+    "desc": "Track vendor contracts, renewal dates, cancellation notice windows and annualized costs in a private offline app. Review commitments before they roll over.",
+    "price": 11.99,
+    "img": "/images/products/renewguard-os.webp",
+    "thumb": "/images/products/thumbs/renewguard-os.webp",
+    "video": "",
+    "buyUrl": "",
+    "url": "/planners/renewguard-os/",
+    "m1": "#E6EFF2",
+    "m2": "#D7E7EE"
+  },
+  {
     "title": "ConsignClear OS — Consignment Inventory & Payout Manager",
     "cat": "Business Operating Systems",
     "desc": "Track consignors, agreements, consigned inventory, fees, commission splits, refund adjustments and payouts in a private offline browser app.",
