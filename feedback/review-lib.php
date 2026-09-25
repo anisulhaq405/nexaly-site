@@ -17,6 +17,7 @@ const NEXALY_PRODUCTS = [
     'repairbench-os' => 'RepairBench OS',
     'calibratrack-os' => 'CalibraTrack OS',
     'consignclear-os' => 'ConsignClear OS',
+    'renewguard-os' => 'RenewGuard OS',
     'sales-management-system' => 'Sales Management System',
     'vendorpulse-os' => 'VendorPulse OS',
 ];
