@@ -256,8 +256,8 @@ var posts = [
     "url": "/journal/academic-planner-school-year/",
     "title": "Academic Planner: Map Your School Year Into Weekly Work",
     "excerpt": "Plan a school year from official term dates to realistic weekly study blocks. Includes a worked high-school example and a simple review routine.",
-    "img": "/images/journal/academic-planner-school-year-20260926.jpg",
-    "alt": "Open monthly and weekly academic planner pages on a desk with color-coded milestone tabs",
+    "img": "/images/journal/academic-planner-school-year-text-20260926.jpg",
+    "alt": "Academic Planner: Plan Your School Year headline beside monthly and weekly planner pages on a desk",
     "tag": "Planning Guides",
     "date": "Sep 26, 2026"
   },
