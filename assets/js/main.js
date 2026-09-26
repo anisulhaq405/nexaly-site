@@ -253,6 +253,15 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/academic-planner-school-year/",
+    "title": "Academic Planner: Map Your School Year Into Weekly Work",
+    "excerpt": "Plan a school year from official term dates to realistic weekly study blocks. Includes a worked high-school example and a simple review routine.",
+    "img": "/images/journal/academic-planner-school-year-20260926.jpg",
+    "alt": "Open monthly and weekly academic planner pages on a desk with color-coded milestone tabs",
+    "tag": "Planning Guides",
+    "date": "Sep 26, 2026"
+  },
+  {
     "url": "/journal/best-digital-planner-for-ipad/",
     "title": "Best Digital Planner for iPad: Full Breakdown",
     "excerpt": "Compare iPad digital planner formats, including Goodnotes PDFs, Notion, offline HTML, and free options, with a practical setup example.",
