@@ -466,7 +466,7 @@ var posts = [
     "img": "/images/journal/business-planner-weekly-review-20260915.jpg",
     "alt": "Small-business owner reviewing goals, orders, weekly sales, cash and next actions under the heading Plan the Business Week",
     "tag": "Planning Guides",
-    "date": "Sep 15, 2026"
+    "date": "Updated Sep 26, 2026"
   },
   {
     "url": "/journal/student-planner-guide/",
