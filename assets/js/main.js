@@ -9,6 +9,19 @@ var $ = function(id){return document.getElementById(id);};
    Leave img/video/buyUrl as "" and a styled placeholder is shown until you add them. */
 var products = [
   {
+    "title": "Agency Client Profitability & Capacity OS",
+    "cat": "Business Operating Systems",
+    "desc": "Track client margin, loaded delivery costs, team capacity, retainers and project fees in a private offline browser app.",
+    "price": 11.99,
+    "img": "/images/products/agency-client-profitability-capacity-os.jpg",
+    "thumb": "/images/products/thumbs/agency-client-profitability-capacity-os.webp",
+    "video": "",
+    "buyUrl": "",
+    "url": "/planners/agency-client-profitability-capacity-os/",
+    "m1": "#ECE9F8",
+    "m2": "#DCE9DA"
+  },
+  {
     "title": "RenewGuard OS — Offline Contract Renewal Operating System",
     "cat": "Business Operating Systems",
     "desc": "Track vendor contracts, renewal dates, cancellation notice windows and annualized costs in a private offline app. Review commitments before they roll over.",
