@@ -9,6 +9,19 @@ var $ = function(id){return document.getElementById(id);};
    Leave img/video/buyUrl as "" and a styled placeholder is shown until you add them. */
 var products = [
   {
+    "title": "CashFlow 13 OS — Offline 13-Week Cash Flow Planner",
+    "cat": "Business Operating Systems",
+    "desc": "Plan weekly cash balances, receipts and payments with scenarios and cash alerts in a private offline app.",
+    "price": 11.99,
+    "img": "/images/products/cashflow-13-os.jpg?v=real-os-1",
+    "thumb": "/images/products/thumbs/cashflow-13-os.webp?v=real-os-1",
+    "video": "",
+    "buyUrl": "",
+    "url": "/planners/cashflow-13-os/",
+    "m1": "#DCEFEB",
+    "m2": "#CDE8E3"
+  },
+  {
     "title": "Agency Client Profitability & Capacity OS",
     "cat": "Business Operating Systems",
     "desc": "Track client margin, loaded delivery costs, team capacity, retainers and project fees in a private offline browser app.",
