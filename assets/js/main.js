@@ -682,21 +682,21 @@ var posts = [
 var heartSvg = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.6-9.3-8.4C1 9.5 2.4 6 5.6 6c1.9 0 3.2 1.1 4.4 2.6C11.2 7.1 12.5 6 14.4 6c3.2 0 4.6 3.5 2.9 6.6C19 16.4 12 21 12 21z"/></svg>';
 var sprigSvg = '<svg width="58" height="20" viewBox="0 0 58 20" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M2 18C16 18 24 10 32 2M32 2c-5 0-8 2-10 5M32 2c0 4-2 7-5 9"/></svg>';
 
-function coverHTML(p){
+function coverHTML(p,priority){
   if(p.img){
     var cover=p.thumb||p.img;
-    return '<img src="'+cover+'" alt="'+p.title+'" loading="lazy" decoding="async"'+(p.fit==='contain'?' style="object-fit:contain;object-position:center;background:#0f1726"':'')+'>';
+    return '<img src="'+cover+'" alt="'+p.title+'" width="400" height="500" loading="'+(priority?'eager':'lazy')+'"'+(priority?' fetchpriority="high"':'')+' decoding="async"'+(p.fit==='contain'?' style="object-fit:contain;object-position:center;background:#0f1726"':'')+'>';
   }
   return '<div class="cover-mock" style="background:linear-gradient(155deg,'+p.m1+','+p.m2+')"><div class="md"></div><span class="mc">'+p.cat+'</span><span class="msprig">'+sprigSvg+'</span><div class="mt">'+p.title+'</div></div>';
 }
 function cardHTML(p,i){
   var price=(p.was?'<s>$'+p.was+'</s>':'')+'$'+p.price;
-  var inner='<div class="pcover"><span class="heart">'+heartSvg+'</span>'+coverHTML(p)+'</div><div class="pcard-body"><h3>'+p.title+'</h3><div class="pr">'+price+'</div></div>';
+  var inner='<div class="pcover"><span class="heart">'+heartSvg+'</span>'+coverHTML(p,i===0)+'</div><div class="pcard-body"><h3>'+p.title+'</h3><div class="pr">'+price+'</div></div>';
   if(p.url) return '<a class="pcard" href="'+p.url+'" aria-label="'+p.title+'">'+inner+'</a>';
   return '<article class="pcard" data-cat="'+p.cat+'" data-idx="'+i+'" role="button" tabindex="0" aria-label="'+p.title+'">'+inner+'</article>';
 }
-function postHTML(p){
-  var media = p.img ? '<img src="'+p.img+'" alt="'+(p.alt||p.title)+'" loading="lazy" decoding="async">' : '<div class="pd"></div><span class="ptag">'+p.tag+'</span>';
+function postHTML(p,i){
+  var media = p.img ? '<img src="'+p.img+'" alt="'+(p.alt||p.title)+'" width="400" height="500" loading="'+(i===0?'eager':'lazy')+'"'+(i===0?' fetchpriority="high"':'')+' decoding="async">' : '<div class="pd"></div><span class="ptag">'+p.tag+'</span>';
   var href = p.url || '/journal/';
   return '<a class="pcard journal-card" href="'+href+'" aria-label="'+p.title+'"><div class="pcover">'+media+'</div><div class="pcard-body"><h3>'+p.title+'</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">'+p.tag+'</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">'+(p.excerpt||'')+'</p><div style="font-size:12px;color:var(--faint);margin-top:9px">'+p.date+'</div></div></a>';
 }
@@ -764,9 +764,9 @@ function buyProduct(){var p=products[curP];if(p&&p.buyUrl){window.open(p.buyUrl,
   }
   function renderSearch(q){var rows=searchRows(q),list=body.querySelector('.nx-util-list');if(!list)return;list.innerHTML=rows.length?rows.map(function(r){return '<div class="nx-util-item"><img src="'+escHtml(r.img)+'" alt=""><div class="nx-util-copy"><b>'+escHtml(r.title)+'</b><small>'+escHtml(r.meta)+'</small></div><a class="nx-util-go" href="'+escHtml(r.url)+'">View</a></div>';}).join(''):'<div class="nx-util-empty">'+(q?'No matching products or guides found.':'Start typing to search products and guides.')+'</div>';}
   function openSearch(){body.innerHTML='<h2 id="nxUtilTitle">Search NexalyPlanner</h2><p class="nx-util-lead">Find products, business systems and practical guides.</p><input class="nx-search-input" type="search" aria-label="Search products and guides" placeholder="Try “inventory”, “student” or “homeschool”"><div class="nx-util-list"><div class="nx-util-empty">Start typing to search products and guides.</div></div>';openUtil();var input=body.querySelector('input');input.addEventListener('input',function(){renderSearch(input.value);});input.focus();}
-  function checkoutRows(){var current=productForPath(location.pathname),list=current?[current]:products.filter(function(p){return checkoutByPath[p.url];});return list.map(function(p){return '<div class="nx-util-item"><img src="'+escHtml(p.img)+'" alt=""><div class="nx-util-copy"><b>'+escHtml(p.title)+'</b><small>One-time purchase · $'+Number(p.price).toFixed(2)+'</small></div><a class="nx-util-go" href="'+checkoutByPath[p.url]+'" target="_blank" rel="noopener">Checkout</a></div>';}).join('');}
-  function openCheckout(){var current=productForPath(location.pathname);body.innerHTML='<h2 id="nxUtilTitle">Secure checkout</h2><p class="nx-util-lead">'+(current?'Continue with this product on Polar secure checkout.':'Choose a product to continue to Polar secure checkout.')+'</p><div class="nx-util-list">'+checkoutRows()+'</div><div class="nx-util-note">Digital download · one-time payment · no subscription</div>';openUtil();}
-  function wire(){document.querySelectorAll('button[aria-label="Search"]').forEach(function(b){b.removeAttribute('onclick');b.addEventListener('click',openSearch);});document.querySelectorAll('button[aria-label="Cart"]').forEach(function(b){b.removeAttribute('onclick');b.setAttribute('aria-label','Cart and checkout');b.addEventListener('click',openCheckout);var badge=b.querySelector('.cart-badge');if(badge)badge.textContent=productForPath(location.pathname)?'1':'0';});}
+  function checkoutRows(){var current=productForPath(location.pathname),list=current?(checkoutByPath[current.url]?[current]:[]):products.filter(function(p){return checkoutByPath[p.url];});return list.map(function(p){return '<div class="nx-util-item"><img src="'+escHtml(p.img)+'" alt=""><div class="nx-util-copy"><b>'+escHtml(p.title)+'</b><small>One-time purchase · $'+Number(p.price).toFixed(2)+'</small></div><a class="nx-util-go" href="'+checkoutByPath[p.url]+'" target="_blank" rel="noopener">Checkout</a></div>';}).join('');}
+  function openCheckout(){var current=productForPath(location.pathname);body.innerHTML='<h2 id="nxUtilTitle">Secure checkout</h2><p class="nx-util-lead">'+(current?(checkoutByPath[current.url]?'Continue with this product on secure checkout.':'Checkout for this product is coming soon. You can explore the working preview and browse available products.'): 'Choose an available product to continue to secure checkout.')+'</p><div class="nx-util-list">'+checkoutRows()+'</div>'+(current&&!checkoutByPath[current.url]?'<p><a href="/planners/">Browse all products</a></p>':'<div class="nx-util-note">Digital download · one-time payment · no subscription</div>');openUtil();}
+  function wire(){document.querySelectorAll('button[aria-label="Search"]').forEach(function(b){b.removeAttribute('onclick');b.addEventListener('click',openSearch);});document.querySelectorAll('button[aria-label="Cart"]').forEach(function(b){b.removeAttribute('onclick');b.setAttribute('aria-label','Cart and checkout');b.addEventListener('click',openCheckout);var badge=b.querySelector('.cart-badge');if(badge)badge.textContent=(function(p){return p&&checkoutByPath[p.url]?'1':'0'})(productForPath(location.pathname));});}
   wire();window.openSiteSearch=openSearch;window.openSiteCheckout=openCheckout;
 })();
 document.addEventListener('click',function(e){var c=e.target.closest('.pcard[data-idx]');if(c)openProduct(+c.dataset.idx);});
