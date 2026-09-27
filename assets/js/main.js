@@ -9,6 +9,19 @@ var $ = function(id){return document.getElementById(id);};
    Leave img/video/buyUrl as "" and a styled placeholder is shown until you add them. */
 var products = [
   {
+    "title": "Business Runway & Burn Rate OS — Offline Cash Runway Planner",
+    "cat": "Business Operating Systems",
+    "desc": "Forecast business cash runway, analyze burn and compare hiring or funding scenarios in a private offline app.",
+    "price": 11.99,
+    "img": "/images/products/business-runway-burn-rate-os.jpg?v=actual-os-1",
+    "thumb": "/images/products/thumbs/business-runway-burn-rate-os.webp?v=actual-os-1",
+    "video": "",
+    "buyUrl": "",
+    "url": "/planners/business-runway-burn-rate-os/",
+    "m1": "#E9E3F6",
+    "m2": "#D5C8EB"
+  },
+  {
     "title": "CashFlow 13 OS — Offline 13-Week Cash Flow Planner",
     "cat": "Business Operating Systems",
     "desc": "Plan weekly cash balances, receipts and payments with scenarios and cash alerts in a private offline app.",
