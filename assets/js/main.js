@@ -16,7 +16,7 @@ var products = [
     "img": "/images/products/business-runway-burn-rate-os.jpg?v=actual-os-1",
     "thumb": "/images/products/thumbs/business-runway-burn-rate-os.webp?v=actual-os-1",
     "video": "",
-    "buyUrl": "",
+    "buyUrl": "https://buy.polar.sh/polar_cl_WG9ImbQPceF0e6KWEm83HYsNNqPQSVwzRHDsM4PlH0h",
     "url": "/planners/business-runway-burn-rate-os/",
     "m1": "#E9E3F6",
     "m2": "#D5C8EB"
@@ -725,6 +725,7 @@ function buyProduct(){var p=products[curP];if(p&&p.buyUrl){window.open(p.buyUrl,
 /* Header search + secure checkout launcher */
 (function(){
   var checkoutByPath={
+    '/planners/business-runway-burn-rate-os/':'https://buy.polar.sh/polar_cl_WG9ImbQPceF0e6KWEm83HYsNNqPQSVwzRHDsM4PlH0h',
     '/planners/cashflow-13-os/':'https://buy.polar.sh/polar_cl_5vct596bmMLA34N3zbTtCvRcfxeBnZjQuyMtk06IJFN',
     '/planners/agency-client-profitability-capacity-os/':'https://buy.polar.sh/polar_cl_Gx4ApkU4koLJbuvusojMVSmyfOqqEjTGkkRe90TV0KR',
     '/planners/renewguard-os/':'https://buy.polar.sh/polar_cl_qd5d2QXy5emSRzevZRavrLuRUK16vH12H716s19rF6S',
