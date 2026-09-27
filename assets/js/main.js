@@ -42,7 +42,7 @@ var products = [
     "img": "/images/products/agency-client-profitability-capacity-os.jpg?v=real-os-1",
     "thumb": "/images/products/thumbs/agency-client-profitability-capacity-os.webp?v=real-os-1",
     "video": "",
-    "buyUrl": "",
+    "buyUrl": "https://buy.polar.sh/polar_cl_Gx4ApkU4koLJbuvusojMVSmyfOqqEjTGkkRe90TV0KR",
     "url": "/planners/agency-client-profitability-capacity-os/",
     "m1": "#ECE9F8",
     "m2": "#DCE9DA"
@@ -725,6 +725,7 @@ function buyProduct(){var p=products[curP];if(p&&p.buyUrl){window.open(p.buyUrl,
 /* Header search + secure checkout launcher */
 (function(){
   var checkoutByPath={
+    '/planners/agency-client-profitability-capacity-os/':'https://buy.polar.sh/polar_cl_Gx4ApkU4koLJbuvusojMVSmyfOqqEjTGkkRe90TV0KR',
     '/planners/renewguard-os/':'https://buy.polar.sh/polar_cl_qd5d2QXy5emSRzevZRavrLuRUK16vH12H716s19rF6S',
     '/planners/consignclear-os/':'https://buy.polar.sh/polar_cl_D85h1GBWaERI0fcegEhl8vY6snPNJmMpzA5Yp1Nvl1Y',
     '/planners/calibratrack-os/':'https://buy.polar.sh/polar_cl_Mkgrb6HYsSJ7vkQXD6d6kKrhaE4lL235OxATJ0QWGGM',
