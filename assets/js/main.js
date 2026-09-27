@@ -29,7 +29,7 @@ var products = [
     "img": "/images/products/cashflow-13-os.jpg?v=real-os-1",
     "thumb": "/images/products/thumbs/cashflow-13-os.webp?v=real-os-1",
     "video": "",
-    "buyUrl": "",
+    "buyUrl": "https://buy.polar.sh/polar_cl_5vct596bmMLA34N3zbTtCvRcfxeBnZjQuyMtk06IJFN",
     "url": "/planners/cashflow-13-os/",
     "m1": "#DCEFEB",
     "m2": "#CDE8E3"
@@ -725,6 +725,7 @@ function buyProduct(){var p=products[curP];if(p&&p.buyUrl){window.open(p.buyUrl,
 /* Header search + secure checkout launcher */
 (function(){
   var checkoutByPath={
+    '/planners/cashflow-13-os/':'https://buy.polar.sh/polar_cl_5vct596bmMLA34N3zbTtCvRcfxeBnZjQuyMtk06IJFN',
     '/planners/agency-client-profitability-capacity-os/':'https://buy.polar.sh/polar_cl_Gx4ApkU4koLJbuvusojMVSmyfOqqEjTGkkRe90TV0KR',
     '/planners/renewguard-os/':'https://buy.polar.sh/polar_cl_qd5d2QXy5emSRzevZRavrLuRUK16vH12H716s19rF6S',
     '/planners/consignclear-os/':'https://buy.polar.sh/polar_cl_D85h1GBWaERI0fcegEhl8vY6snPNJmMpzA5Yp1Nvl1Y',
