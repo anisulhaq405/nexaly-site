@@ -55,7 +55,7 @@ var products = [
     "img": "/images/products/renewguard-os.jpg",
     "thumb": "/images/products/thumbs/renewguard-os.jpg",
     "video": "",
-    "buyUrl": "",
+    "buyUrl": "https://buy.polar.sh/polar_cl_qd5d2QXy5emSRzevZRavrLuRUK16vH12H716s19rF6S",
     "url": "/planners/renewguard-os/",
     "m1": "#E6EFF2",
     "m2": "#D7E7EE"
@@ -725,6 +725,7 @@ function buyProduct(){var p=products[curP];if(p&&p.buyUrl){window.open(p.buyUrl,
 /* Header search + secure checkout launcher */
 (function(){
   var checkoutByPath={
+    '/planners/renewguard-os/':'https://buy.polar.sh/polar_cl_qd5d2QXy5emSRzevZRavrLuRUK16vH12H716s19rF6S',
     '/planners/consignclear-os/':'https://buy.polar.sh/polar_cl_D85h1GBWaERI0fcegEhl8vY6snPNJmMpzA5Yp1Nvl1Y',
     '/planners/calibratrack-os/':'https://buy.polar.sh/polar_cl_Mkgrb6HYsSJ7vkQXD6d6kKrhaE4lL235OxATJ0QWGGM',
     '/planners/adhd-digital-planner/':'https://buy.polar.sh/polar_cl_le5cjYcPCBuMbje2Eol7ZrFw3kMLefDdiUVZF2lTFMS',
