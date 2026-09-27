@@ -81,7 +81,7 @@ var products = [
     "img": "/images/products/calibratrack-os.webp",
     "thumb": "/images/products/thumbs/calibratrack-os-v3.webp",
     "video": "",
-    "buyUrl": "",
+    "buyUrl": "https://buy.polar.sh/polar_cl_Mkgrb6HYsSJ7vkQXD6d6kKrhaE4lL235OxATJ0QWGGM",
     "url": "/planners/calibratrack-os/",
     "m1": "#EFE4D9",
     "m2": "#E8D1BE"
@@ -725,6 +725,7 @@ function buyProduct(){var p=products[curP];if(p&&p.buyUrl){window.open(p.buyUrl,
 /* Header search + secure checkout launcher */
 (function(){
   var checkoutByPath={
+    '/planners/calibratrack-os/':'https://buy.polar.sh/polar_cl_Mkgrb6HYsSJ7vkQXD6d6kKrhaE4lL235OxATJ0QWGGM',
     '/planners/adhd-digital-planner/':'https://buy.polar.sh/polar_cl_le5cjYcPCBuMbje2Eol7ZrFw3kMLefDdiUVZF2lTFMS',
     '/planners/ai-student-planner/':'https://buy.polar.sh/polar_cl_l7wGLhCXODsUhcv88BY7IjI2IMouNPW4BUOdh0tfTRa',
     '/planners/batchtrace-os/':'https://buy.polar.sh/polar_cl_SplQ4BnMTDwB1YoZE5UNT7qYzQLB3Fkby3mqP3YQEMY',
