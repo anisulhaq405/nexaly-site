@@ -26,6 +26,8 @@ for path in sorted(ROOT.glob('*/index.html')):
     else:
         html = html.replace('</head>', meta+'</head>', 1)
     html = re.sub(r'(<strong>Updated:</strong>\s*<br>)[^<]+', lambda m:m.group(1)+pretty(modified), html, count=1)
+    # Rebuild the date row so repeated runs never append a second visible row.
+    html = re.sub(r'<div class="guide-dates">.*?</div>', '', html, flags=re.S)
     dates = f'<div class="guide-dates"><span>Published <time datetime="{published}">{pretty(published)}</time></span><span>Updated <time datetime="{modified}">{pretty(modified)}</time></span></div>'
     html, count = re.subn(r'(<header class="guide-hero"><div class="kicker">).*?(</div>)', lambda m:m.group(1)+'NEXALY PRODUCT GUIDE'+m.group(2)+dates, html, count=1, flags=re.S)
     assert count == 1, slug
