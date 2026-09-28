@@ -292,6 +292,78 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/cash-flow-forecast-template-example/",
+    "title": "Cash Flow Forecast Template: A 13-Week Worked Example",
+    "excerpt": "Forecast receipts and payments week by week without mixing in profit. Includes a worked numerical example, assumptions and practical decisions.",
+    "img": "/images/journal/cash-flow-forecast-template-example.svg",
+    "alt": "Illustrated planning dashboard for Cash Flow Forecast Template: A 13-Week Worked Example showing $5,000, $1,300, $4,200",
+    "tag": "Planning Guides",
+    "date": "Sep 28, 2026"
+  },
+  {
+    "url": "/journal/equipment-rental-business-plan-example/",
+    "title": "Equipment Rental Business Plan Example: Utilization and Cash",
+    "excerpt": "Price a small event-equipment fleet with utilization and turn costs. Includes a worked numerical example, assumptions and practical decisions.",
+    "img": "/images/journal/equipment-rental-business-plan-example.svg",
+    "alt": "Illustrated planning dashboard for Equipment Rental Business Plan Example: Utilization and Cash showing 20, $90, $720",
+    "tag": "Planning Guides",
+    "date": "Sep 28, 2026"
+  },
+  {
+    "url": "/journal/freelance-business-plan-example/",
+    "title": "Freelance Business Plan: Capacity, Pricing and a 90-Day Example",
+    "excerpt": "Turn available hours into a realistic revenue and delivery plan. Includes a worked numerical example, assumptions and practical decisions.",
+    "img": "/images/journal/freelance-business-plan-example.svg",
+    "alt": "Illustrated planning dashboard for Freelance Business Plan: Capacity, Pricing and a 90-Day Example showing 80 h, $75/h, $3,750",
+    "tag": "Planning Guides",
+    "date": "Sep 28, 2026"
+  },
+  {
+    "url": "/journal/one-page-marketing-plan-example/",
+    "title": "One-Page Marketing Plan Template With a Worked $600 Budget",
+    "excerpt": "An audience, offer, channel and measurement plan on one page. Includes a worked numerical example, assumptions and practical decisions.",
+    "img": "/images/journal/one-page-marketing-plan-example.svg",
+    "alt": "Illustrated planning dashboard for One-Page Marketing Plan Template With a Worked $600 Budget showing $600, 80, 8",
+    "tag": "Planning Guides",
+    "date": "Sep 28, 2026"
+  },
+  {
+    "url": "/journal/retail-store-business-plan-example/",
+    "title": "Retail Store Business Plan Example: A Boutique’s First 90 Days",
+    "excerpt": "A filled-in plan for assortment, cash, sales and a decision date. Includes a worked numerical example, assumptions and practical decisions.",
+    "img": "/images/journal/retail-store-business-plan-example.svg",
+    "alt": "Illustrated planning dashboard for Retail Store Business Plan Example: A Boutique’s First 90 Days showing $4,800, 120 units, $2,160",
+    "tag": "Planning Guides",
+    "date": "Sep 28, 2026"
+  },
+  {
+    "url": "/journal/saas-business-plan-template-example/",
+    "title": "SaaS Business Plan Template: Runway and Subscription Math",
+    "excerpt": "A compact subscription plan with churn, margin and runway assumptions. Includes a worked numerical example, assumptions and practical decisions.",
+    "img": "/images/journal/saas-business-plan-template-example.svg",
+    "alt": "Illustrated planning dashboard for SaaS Business Plan Template: Runway and Subscription Math showing 100, $30, 12 mo",
+    "tag": "Planning Guides",
+    "date": "Sep 28, 2026"
+  },
+  {
+    "url": "/journal/small-business-budget-example/",
+    "title": "Small Business Budget Example: Plan Costs, Then Compare Actuals",
+    "excerpt": "A practical monthly budget with a variance and cash check. Includes a worked numerical example, assumptions and practical decisions.",
+    "img": "/images/journal/small-business-budget-example.svg",
+    "alt": "Illustrated planning dashboard for Small Business Budget Example: Plan Costs, Then Compare Actuals showing $8,000, $5,600, $800",
+    "tag": "Planning Guides",
+    "date": "Sep 28, 2026"
+  },
+  {
+    "url": "/journal/weekly-digital-planner-small-business/",
+    "title": "Weekly Digital Planner for a Small Business: A Filled Example",
+    "excerpt": "Turn a weekly goal into time blocks, handoffs and a Friday review. Includes a worked numerical example, assumptions and practical decisions.",
+    "img": "/images/journal/weekly-digital-planner-small-business.svg",
+    "alt": "Illustrated planning dashboard for Weekly Digital Planner for a Small Business: A Filled Example showing 3, 6 h, Friday",
+    "tag": "Planning Guides",
+    "date": "Sep 28, 2026"
+  },
+  {
     "url": "/journal/academic-planner-school-year/",
     "title": "Academic Planner: Map Your School Year Into Weekly Work",
     "excerpt": "Plan a school year from official term dates to realistic weekly study blocks. Includes a worked high-school example and a simple review routine.",
