@@ -1,6 +1,7 @@
 """One-off editorial source for the 28 September 2026 journal batch."""
 from pathlib import Path
 import html, json, re
+from deep_plans import DEEP_PLANS, IMPLEMENTATION_NOTES
 
 ROOT=Path(__file__).resolve().parents[1]
 DATE='2026-09-28'
@@ -130,19 +131,36 @@ extras={
 }
 
 for item in articles:
-    item['body']+=extras[item['slug']]
+    item['body']+=extras[item['slug']]+DEEP_PLANS[item['slug']]+IMPLEMENTATION_NOTES[item['slug']]
+    steps=re.findall(r'<h3>(Step [1-5] — [^<]+)</h3>',item['body'])
+    assert 4<=len(steps)<=5,(item['slug'],steps)
+    for number,label in enumerate(steps,1):
+        item['body']=item['body'].replace(f'<h3>{label}</h3>',f'<h3 id="step-{number}">{label}</h3>',1)
+    toc='<nav class="toc" aria-label="Complete plan steps"><strong>Jump to the full plan</strong><ol>'+''.join(
+        f'<li><a href="#step-{i}">{html.escape(label)}</a></li>' for i,label in enumerate(steps,1)
+    )+'</ol></nav>'
+    item['body']=item['body'].replace('</div>', '</div>'+toc,1)
+
+image_alts={
+    'retail-store-business-plan-example':'Boutique owner assembling clothing stock, size plan, shipping supplies and a sales forecast under Retail Business Plan',
+    'freelance-business-plan-example':'Freelance designer reviewing client work and a calendar under Freelance Business Plan',
+    'equipment-rental-business-plan-example':'Event lighting rental team inspecting equipment and a booking handoff under Equipment Rental Plan',
+    'saas-business-plan-template-example':'Founder reviewing subscriber growth and cash runway charts under SaaS Business Plan',
+    'one-page-marketing-plan-example':'Boutique marketing plan with audience, offer, channels, budget and calendar under One-Page Marketing Plan',
+    'cash-flow-forecast-template-example':'Shop owner reviewing a 13-week cash flow chart and invoices under 13-Week Cash Flow',
+    'weekly-digital-planner-small-business':'Tablet weekly calendar beside small-business parcels and task notes under Weekly Digital Plan',
+    'small-business-budget-example':'Owner comparing planned and actual costs on two budget sheets under Small Business Budget',
+}
 
 for item in articles:
     slug=item['slug']; title=item['title']; esc=html.escape
-    url=f'{SITE}/journal/{slug}/'; image=f'/images/journal/{slug}.svg'
+    url=f'{SITE}/journal/{slug}/'; image=f'/images/journal/{slug}-v2.jpg'
     desc=item['subtitle']+' Includes a worked numerical example, assumptions and practical decisions.'
-    alt=f"Illustrated planning dashboard for {item['title']} showing "+', '.join(item['metric'])
-    cards=''.join(f'<g transform="translate({84+i*350} 390)"><rect width="315" height="190" rx="20" fill="#fff" opacity=".96"/><text x="26" y="68" font-size="45" font-weight="700" fill="{item["accent"]}">{esc(v)}</text><text x="26" y="120" font-size="21" fill="#314b57">{esc(l)}</text></g>' for i,(v,l) in enumerate(zip(item['metric'],item['labels'])))
-    svg=f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc"><title id="title">{esc(title)}</title><desc id="desc">{esc(alt)}</desc><rect width="1200" height="800" fill="#f5f8f7"/><rect x="28" y="28" width="1144" height="744" rx="36" fill="{item['accent']}"/><circle cx="1090" cy="90" r="145" fill="#fff" opacity=".08"/><path d="M80 325H1120" stroke="#fff" opacity=".42" stroke-width="2"/><text x="82" y="116" fill="#fff" opacity=".9" font-family="Arial,sans-serif" font-size="22" letter-spacing="4">NEXALYPLANNER JOURNAL</text><text x="82" y="202" fill="#fff" font-family="Arial,sans-serif" font-size="42" font-weight="700">{esc(item['title'])}</text><text x="82" y="268" fill="#fff" font-family="Arial,sans-serif" font-size="25">{esc(item['subtitle'])}</text>{cards}<text x="82" y="700" fill="#fff" font-family="Arial,sans-serif" font-size="20">Illustrative planning figures · September 2026</text></svg>'''
-    (ROOT/image.lstrip('/')).write_text(svg)
+    alt=image_alts[slug]
+    assert (ROOT/image.lstrip('/')).is_file(),image
     schema={'@context':'https://schema.org','@type':'BlogPosting','@id':url+'#article','headline':title,'description':desc,'image':SITE+image,'mainEntityOfPage':url,'author':{'@type':'Organization','name':'NexalyPlanner','url':SITE+'/about/'},'publisher':{'@type':'Organization','name':'NexalyPlanner','url':SITE+'/'},'datePublished':DATE,'dateModified':DATE,'inLanguage':'en-US'}
     head=f'''<!doctype html><html lang="en-US"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="index,follow"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="{url}"><meta property="og:image" content="{SITE+image}"><meta name="twitter:image" content="{SITE+image}"><meta property="og:image:alt" content="{esc(alt)}"><meta property="article:published_time" content="{DATE}"><meta property="article:modified_time" content="{DATE}"><meta property="og:type" content="article">{styles}<link rel="stylesheet" href="/assets/css/style.css?v=4"><script type="application/ld+json">{json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')}</script></head><body>'''
     hero=f'''<header class="article-hero"><div class="brand">NEXALYPLANNER JOURNAL</div><h1>{esc(title)}</h1><p class="metadata">NexalyPlanner Journal · {esc(item['tag'])} · Published September 28, 2026</p></header>'''
-    article=f'''<main><p class="toplink"><a href="/journal/">Back to the NexalyPlanner Journal</a></p><article class="reading"><figure class="article-feature"><img src="{image}" width="1200" height="800" alt="{esc(alt)}" fetchpriority="high" decoding="async"><figcaption>Original illustrated planning example. Figures are hypothetical and explained below.</figcaption></figure><p class="article-byline">By NexalyPlanner · Published September 28, 2026</p>{item['body']}<aside class="related-guides"><h2>Continue planning</h2><ul><li><a href="{item['related']}">Explore the relevant Nexaly planner</a></li><li><a href="/journal/">Read more planning guides</a></li></ul></aside></article></main>'''
+    article=f'''<main><p class="toplink"><a href="/journal/">Back to the NexalyPlanner Journal</a></p><article class="reading"><figure class="article-feature"><img src="{image}" width="1200" height="800" alt="{esc(alt)}" fetchpriority="high" decoding="async"><figcaption>Topic-specific editorial illustration; the worked numbers in this plan are hypothetical.</figcaption></figure><p class="article-byline">By NexalyPlanner · Published September 28, 2026 · Expanded September 28, 2026</p>{item['body']}<aside class="related-guides"><h2>Continue planning</h2><ul><li><a href="{item['related']}">Explore the relevant Nexaly planner</a></li><li><a href="/journal/">Read more planning guides</a></li></ul></aside></article></main>'''
     out=ROOT/'journal'/slug/'index.html';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(head+nav+hero+article+footer)
-print(f'Authored {len(articles)} journals and original SVG visuals')
+print(f'Authored {len(articles)} expanded journals with editorial photo covers')
