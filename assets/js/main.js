@@ -575,7 +575,7 @@ var posts = [
     "title": "How to Keep Track of Small Business Orders in One Place",
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/track-small-business-orders/",
-    "img": "/images/products/sales-management-system/9-inventory-orders.png",
+    "img": "/images/products/sales-management-system/9-inventory-orders.webp",
     "alt": "How to Keep Track of Small Business Orders in One Place",
     "excerpt": "Organize small-business orders with a free tracker. Separate payments, partial shipments and next actions so every confirmed order has a clear record."
   },
@@ -593,7 +593,7 @@ var posts = [
     "title": "How to Connect Sales and Inventory Tracking for a Small Shop",
     "date": "Sep 8, 2026 · 5 min",
     "url": "/journal/sales-inventory-tracking-small-business/",
-    "img": "/images/products/sales-management-system/8-dashboard-closeup.png",
+    "img": "/images/products/sales-management-system/8-dashboard-closeup.webp",
     "alt": "How to Connect Sales and Inventory Tracking for a Small Shop",
     "excerpt": "See how one small-shop sale connects order amounts, payments and stock. Download a worked example with formulas for fulfilled units and merchandise costs."
   },
