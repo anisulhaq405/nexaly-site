@@ -95,7 +95,13 @@ const products=[
 {id:"vendorpulse",title:"VendorPulse OS",type:"Vendor management"},
 {id:"sales",title:"Sales Management System",type:"Sales operations"},
 {id:"rentflow",title:"RentFlow OS",type:"Rental management"},
-{id:"copilot",title:"Offline AI Business Copilot",type:"Business intelligence"}
+{id:"copilot",title:"Offline AI Business Copilot",type:"Business intelligence"},
+{id:"runway",title:"Business Runway & Burn Rate OS — Offline Cash Runway Planner",type:"Cash flow & forecasting"},
+{id:"cashflow13",title:"CashFlow 13 OS — Offline 13-Week Cash Flow Planner",type:"Cash flow & forecasting"},
+{id:"agency",title:"Agency Client Profitability & Capacity OS",type:"Agency operations"},
+{id:"renewguard",title:"RenewGuard OS — Offline Contract Renewal Operating System",type:"Contract management"},
+{id:"consignclear",title:"ConsignClear OS — Consignment Inventory & Payout Manager",type:"Consignment operations"},
+{id:"calibratrack",title:"CalibraTrack OS — Calibration & Instrument Service Manager",type:"Calibration management"}
 ];
 let limit=[3,5,10].includes(Number(new URLSearchParams(location.search).get("size")))?Number(new URLSearchParams(location.search).get("size")):3;
 const selected=new Set();
