@@ -296,7 +296,7 @@ var posts = [
     "title": "A caregiver daily log you can copy and adapt",
     "excerpt": "Use a simple dated caregiver log for tasks, observations, appointments and the next handoff. Includes a filled fictional example and blank fields.",
     "img": "/images/journal/caregiver-daily-log-template-20260930.webp",
-    "alt": "Family caregiver writing a daily log while handing over a folder",
+    "alt": "Two family caregivers reviewing a daily care log together",
     "tag": "Planning Guides",
     "date": "Sep 30, 2026"
   },
