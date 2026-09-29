@@ -292,6 +292,33 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/agency-capacity-planning-example/",
+    "title": "Agency capacity planning with a three-person example",
+    "excerpt": "Calculate usable team hours, billable targets and planned client load for an agency. See a three-person monthly example and a weekly allocation routine.",
+    "img": "/images/journal/agency-capacity-planning-example-20260929.webp",
+    "alt": "Agency team planning retainer and project hours against monthly capacity",
+    "tag": "Planning Guides",
+    "date": "Sep 29, 2026"
+  },
+  {
+    "url": "/journal/how-much-inventory-start-boutique/",
+    "title": "How much inventory do you need to start a boutique?",
+    "excerpt": "Plan a boutique's opening stock by category, size and cash limit. See a worked 120-unit example, reorder rules and a purchase checklist.",
+    "img": "/images/journal/how-much-inventory-start-boutique-20260929.webp",
+    "alt": "Boutique owner planning an opening clothing assortment by size and purchase budget",
+    "tag": "Planning Guides",
+    "date": "Sep 29, 2026"
+  },
+  {
+    "url": "/journal/how-to-track-consignment-inventory/",
+    "title": "How to track consignment inventory from intake to payout",
+    "excerpt": "Follow each consigned item from owner agreement and intake through sale, refund, return and payout. Includes a worked $180 sale and copyable register.",
+    "img": "/images/journal/how-to-track-consignment-inventory-20260929.webp",
+    "alt": "Tagged consignment items and owner records prepared for a payout review",
+    "tag": "Planning Guides",
+    "date": "Sep 29, 2026"
+  },
+  {
     "url": "/journal/cash-flow-forecast-template-example/",
     "title": "Cash Flow Forecast Template: A 13-Week Worked Example",
     "excerpt": "Forecast receipts and payments week by week without mixing in profit. Includes a worked numerical example, assumptions and practical decisions.",
@@ -352,7 +379,7 @@ var posts = [
     "img": "/images/journal/small-business-budget-example-v2.jpg",
     "alt": "Owner comparing planned and actual costs on two budget sheets under Small Business Budget",
     "tag": "Planning Guides",
-    "date": "Sep 28, 2026"
+    "date": "Updated Sep 29, 2026"
   },
   {
     "url": "/journal/weekly-digital-planner-small-business/",
@@ -577,7 +604,7 @@ var posts = [
     "img": "/images/journal/business-planner-weekly-review-20260915.jpg",
     "alt": "Small-business owner reviewing goals, orders, weekly sales, cash and next actions under the heading Plan the Business Week",
     "tag": "Planning Guides",
-    "date": "Updated Sep 26, 2026"
+    "date": "Updated Sep 29, 2026"
   },
   {
     "url": "/journal/student-planner-guide/",
@@ -595,7 +622,7 @@ var posts = [
     "img": "/images/journal/supplier-quote-comparison-20260915.jpg",
     "alt": "Three supplier quote folders beside a parcel and calculator, with the heading Compare Supplier Quotes",
     "tag": "Planning Guides",
-    "date": "Sep 15, 2026"
+    "date": "Updated Sep 29, 2026"
   },
   {
     "url": "/journal/reorder-point-small-business/",
@@ -604,7 +631,7 @@ var posts = [
     "img": "/images/journal/reorder-point-20260915.jpg",
     "alt": "Organized stockroom with parcels, a low-stock shelf marker and the heading When to Reorder",
     "tag": "Planning Guides",
-    "date": "Sep 14, 2026"
+    "date": "Updated Sep 29, 2026"
   },
   {
     "tag": "Small Business Software",
@@ -636,7 +663,7 @@ var posts = [
   {
     "tag": "Inventory",
     "title": "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
-    "date": "Updated Sep 15, 2026 · 5 min",
+    "date": "Updated Sep 29, 2026 · 5 min",
     "url": "/journal/boutique-inventory-spreadsheet/",
     "img": "/images/journal/boutique-stock-20260915.jpg",
     "alt": "Tagged boutique clothing and folded knitwear with the heading Know Your Stock: Every Size, Every Color",
