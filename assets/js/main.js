@@ -325,7 +325,7 @@ var posts = [
     "img": "/images/journal/agency-capacity-planning-example-20260929.webp",
     "alt": "Agency team planning retainer and project hours against monthly capacity",
     "tag": "Planning Guides",
-    "date": "Sep 29, 2026"
+    "date": "Updated Sep 30, 2026"
   },
   {
     "url": "/journal/how-much-inventory-start-boutique/",
@@ -352,7 +352,7 @@ var posts = [
     "img": "/images/journal/cash-flow-forecast-template-example-v2.jpg",
     "alt": "Shop owner reviewing a 13-week cash flow chart and invoices under 13-Week Cash Flow",
     "tag": "Planning Guides",
-    "date": "Sep 28, 2026"
+    "date": "Updated Sep 30, 2026"
   },
   {
     "url": "/journal/equipment-rental-business-plan-example/",
