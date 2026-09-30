@@ -292,6 +292,33 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/caregiver-daily-log-template/",
+    "title": "A caregiver daily log you can copy and adapt",
+    "excerpt": "Use a simple dated caregiver log for tasks, observations, appointments and the next handoff. Includes a filled fictional example and blank fields.",
+    "img": "/images/journal/caregiver-daily-log-template-20260930.webp",
+    "alt": "Two family caregivers reviewing a daily care log together",
+    "tag": "Planning Guides",
+    "date": "Sep 30, 2026"
+  },
+  {
+    "url": "/journal/contract-renewal-workflow/",
+    "title": "A contract renewal workflow that gives you time to decide",
+    "excerpt": "Build a renewal register with verified notice dates, owners and decisions. Follow a fictional contract from source clause to completed action.",
+    "img": "/images/journal/contract-renewal-workflow-20260930.webp",
+    "alt": "Business owner checking a contract, calendar and renewal decision checklist",
+    "tag": "Planning Guides",
+    "date": "Sep 30, 2026"
+  },
+  {
+    "url": "/journal/repair-shop-parts-inventory/",
+    "title": "How to track repair-shop parts from shelf to work order",
+    "excerpt": "Track parts on hand, reserved for jobs, issued and returned. Use a worked repair-shop ledger and a simple reorder check.",
+    "img": "/images/journal/repair-shop-parts-inventory-20260930.webp",
+    "alt": "Repair technician comparing a filter and parts bins with a work order",
+    "tag": "Planning Guides",
+    "date": "Sep 30, 2026"
+  },
+  {
     "url": "/journal/agency-capacity-planning-example/",
     "title": "Agency capacity planning with a three-person example",
     "excerpt": "Calculate usable team hours, billable targets and planned client load for an agency. See a three-person monthly example and a weekly allocation routine.",
@@ -595,7 +622,7 @@ var posts = [
     "img": "/images/journal/adhd-planner-for-adults-20260915.jpg",
     "alt": "Adult using a short visual daily plan, capture inbox and focus timer under the heading ADHD Planner That Sticks",
     "tag": "Planning Guides",
-    "date": "Sep 15, 2026"
+    "date": "Updated Sep 30, 2026"
   },
   {
     "url": "/journal/business-planner-weekly-review/",
@@ -636,7 +663,7 @@ var posts = [
   {
     "tag": "Small Business Software",
     "title": "The Best Offline Small Business Software in 2026 (No Subscription)",
-    "date": "Sep 11, 2026 · 7 min",
+    "date": "Updated Sep 30, 2026 · 7 min",
     "url": "/journal/best-offline-small-business-software/",
     "img": "/images/products/repairbench-os/repairbench-os-owner-dashboard.jpg",
     "alt": "offline small business software dashboard showing revenue, gross profit and a job pipeline",
@@ -672,7 +699,7 @@ var posts = [
   {
     "tag": "Order Tracking",
     "title": "How to Keep Track of Small Business Orders in One Place",
-    "date": "Sep 8, 2026 · 5 min",
+    "date": "Updated Sep 30, 2026 · 5 min",
     "url": "/journal/track-small-business-orders/",
     "img": "/images/products/sales-management-system/9-inventory-orders.webp",
     "alt": "How to Keep Track of Small Business Orders in One Place",
@@ -681,7 +708,7 @@ var posts = [
   {
     "tag": "Inventory Software",
     "title": "Inventory Software Without a Subscription: What to Check Before Buying",
-    "date": "Updated Sep 14, 2026 · 5 min",
+    "date": "Updated Sep 30, 2026 · 5 min",
     "url": "/journal/inventory-software-without-subscription/",
     "img": "/images/journal/inventory-software-buying-checklist.png",
     "alt": "Inventory software buying checklist covering sale and return tests, backup recovery and license costs",
@@ -690,7 +717,7 @@ var posts = [
   {
     "tag": "Sales Tracking",
     "title": "How to Connect Sales and Inventory Tracking for a Small Shop",
-    "date": "Sep 8, 2026 · 5 min",
+    "date": "Updated Sep 30, 2026 · 5 min",
     "url": "/journal/sales-inventory-tracking-small-business/",
     "img": "/images/products/sales-management-system/8-dashboard-closeup.webp",
     "alt": "How to Connect Sales and Inventory Tracking for a Small Shop",
