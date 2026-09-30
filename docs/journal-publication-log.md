@@ -70,3 +70,11 @@ Source authoring script: scripts/author-eight-journals.py. Run the SEO build, re
 Owner feedback: the first eight feature graphics were generic and the articles were brief outlines. Replaced all eight covers with distinct 1200×800 editorial JPEGs showing the actual planning context (boutique range/stock, freelance delivery, event-equipment rental, SaaS subscriber/runway, one-page marketing, 13-week cash, a digital week, and budget variance). The generated image originals were produced with the built-in image tool and the final JPEGs were resized/optimized for journal cards. Removed the eight obsolete SVG feature assets. Each page has descriptive image alt text, matching social image metadata, a full worked plan and five jump links to the detailed steps.
 
 Expanded plans now walk from research and validation through offer/operations, assumptions and cash, a dated execution schedule, risk and review. Original figures remain illustrative. The 13-week cash forecast includes all 13 weeks; the SaaS article includes a three-month cash path; retail and rental include purchase/stock or utilization gates; the marketing plan includes a 30-day workback; the budget includes a volume-versus-unit-cost variance; the weekly digital plan includes work estimates and exceptions. Source: scripts/author-eight-journals.py and scripts/deep_plans.py. Product checkout and pricing are untouched. Rebuild/test/check and live verification are required on the resulting feature PR.
+
+## 2026-09-30 — credibility and contextual navigation fixes
+
+- Replaced unverified About year/download/rating stats with verified catalog count and offline workflow facts; explained local storage, backups and lack of automatic device synchronization.
+- Added contextual journal links in cash forecast, agency capacity and repair inventory; preserved publication dates and updated modification dates.
+- SEO build/check, regression suite, JS syntax and diff checks passed. Product details, header/footer, prices and checkout behavior preserved.
+- Public homepage/About GET checks returned 200 with zero redirects. Prior CDN HEAD 307/504 was not sufficient evidence to change redirect rules.
+- No article consolidation, backlink creation or indexing submission. Planner-format overlap needs GSC query evidence; AI visibility remains unmeasured.
