@@ -78,3 +78,7 @@ Expanded plans now walk from research and validation through offer/operations, a
 - SEO build/check, regression suite, JS syntax and diff checks passed. Product details, header/footer, prices and checkout behavior preserved.
 - Public homepage/About GET checks returned 200 with zero redirects. Prior CDN HEAD 307/504 was not sufficient evidence to change redirect rules.
 - No article consolidation, backlink creation or indexing submission. Planner-format overlap needs GSC query evidence; AI visibility remains unmeasured.
+
+
+## 2026-10-01 — three journals and five refreshes
+Supplier scorecard, purchase order tracker and small-engine repair plan added with three distinct 1200×800 WebP covers. Cash forecast, rental plan, freelance plan, student guide and homeschool attendance refreshed; two related owners receive inbound links. Original publication dates preserved, modification dates and sitemap rebuilt. Local regression/SEO/link checks pass (115 public pages, 60 journals, no orphans or broken internal URLs). Competitor review and limitations recorded in docs/oct01-release.md. Publish through checked PR; verify deployment separately.

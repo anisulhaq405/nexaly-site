@@ -292,6 +292,33 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/purchase-order-tracker/",
+    "title": "Purchase Order Tracker: Follow Partial Deliveries Without Losing the Balance",
+    "excerpt": "Set up a purchase order tracker with line-level quantities, accepted receipts, cancellations and next actions. Includes a worked partial-delivery example.",
+    "img": "/images/journal/purchase-order-tracker-20261001.webp",
+    "alt": "Receiving clerk comparing a purchase order with a partial delivery of cartons.",
+    "tag": "Planning Guides",
+    "date": "Oct 1, 2026"
+  },
+  {
+    "url": "/journal/small-engine-repair-business-plan/",
+    "title": "Small Engine Repair Business Plan: A One-Technician Worked Example",
+    "excerpt": "Build a small engine repair business plan around customers, service scope, technician hours, job contribution and cash timing. Includes a fictional 90-day test.",
+    "img": "/images/journal/small-engine-repair-business-plan-20261001.webp",
+    "alt": "Small-engine repair shop owner planning appointments and services at a workshop desk.",
+    "tag": "Planning Guides",
+    "date": "Oct 1, 2026"
+  },
+  {
+    "url": "/journal/supplier-scorecard-template/",
+    "title": "Supplier Scorecard Template: A Small-Business Example",
+    "excerpt": "Build a supplier scorecard with clear delivery and quality measures, a weighted example, sample-size checks and a practical follow-up plan.",
+    "img": "/images/journal/supplier-scorecard-20261001.webp",
+    "alt": "Purchasing colleagues reviewing delivery records and supplier performance at a desk.",
+    "tag": "Planning Guides",
+    "date": "Oct 1, 2026"
+  },
+  {
     "url": "/journal/caregiver-daily-log-template/",
     "title": "A caregiver daily log you can copy and adapt",
     "excerpt": "Use a simple dated caregiver log for tasks, observations, appointments and the next handoff. Includes a filled fictional example and blank fields.",
@@ -316,7 +343,7 @@ var posts = [
     "img": "/images/journal/repair-shop-parts-inventory-20260930.webp",
     "alt": "Repair technician comparing a filter and parts bins with a work order",
     "tag": "Planning Guides",
-    "date": "Sep 30, 2026"
+    "date": "Updated Oct 1, 2026"
   },
   {
     "url": "/journal/agency-capacity-planning-example/",
@@ -352,7 +379,7 @@ var posts = [
     "img": "/images/journal/cash-flow-forecast-template-example-v2.jpg",
     "alt": "Shop owner reviewing a 13-week cash flow chart and invoices under 13-Week Cash Flow",
     "tag": "Planning Guides",
-    "date": "Updated Sep 30, 2026"
+    "date": "Updated Oct 1, 2026"
   },
   {
     "url": "/journal/equipment-rental-business-plan-example/",
@@ -361,7 +388,7 @@ var posts = [
     "img": "/images/journal/equipment-rental-business-plan-example-v2.jpg",
     "alt": "Event lighting rental team inspecting equipment and a booking handoff under Equipment Rental Plan",
     "tag": "Planning Guides",
-    "date": "Sep 28, 2026"
+    "date": "Updated Oct 1, 2026"
   },
   {
     "url": "/journal/freelance-business-plan-example/",
@@ -370,7 +397,7 @@ var posts = [
     "img": "/images/journal/freelance-business-plan-example-v2.jpg",
     "alt": "Freelance designer reviewing client work and a calendar under Freelance Business Plan",
     "tag": "Planning Guides",
-    "date": "Sep 28, 2026"
+    "date": "Updated Oct 1, 2026"
   },
   {
     "url": "/journal/one-page-marketing-plan-example/",
@@ -640,7 +667,7 @@ var posts = [
     "img": "/images/journal/student-planner-guide-20260915.jpg",
     "alt": "College student organizing classes, assignments, exams and focus sessions under the heading Build a Student Planner",
     "tag": "Planning Guides",
-    "date": "Sep 15, 2026"
+    "date": "Updated Oct 1, 2026"
   },
   {
     "url": "/journal/supplier-quote-comparison/",
@@ -649,7 +676,7 @@ var posts = [
     "img": "/images/journal/supplier-quote-comparison-20260915.jpg",
     "alt": "Three supplier quote folders beside a parcel and calculator, with the heading Compare Supplier Quotes",
     "tag": "Planning Guides",
-    "date": "Updated Sep 29, 2026"
+    "date": "Updated Oct 1, 2026"
   },
   {
     "url": "/journal/reorder-point-small-business/",
@@ -762,7 +789,7 @@ var posts = [
   {
     "tag": "Attendance Tracker",
     "title": "Homeschool Attendance Tracker: A Simple Daily Record",
-    "date": "Sep 8, 2026 · 5 min",
+    "date": "Updated Oct 1, 2026 · 5 min",
     "url": "/journal/homeschool-attendance-tracker/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-reports-transcript.jpg",
     "alt": "Homeschool Attendance Tracker: A Simple Daily Record",
