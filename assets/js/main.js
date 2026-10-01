@@ -690,7 +690,7 @@ var posts = [
   {
     "tag": "Small Business Software",
     "title": "The Best Offline Small Business Software in 2026 (No Subscription)",
-    "date": "Updated Sep 30, 2026 · 7 min",
+    "date": "Updated Oct 1, 2026 · 7 min",
     "url": "/journal/best-offline-small-business-software/",
     "img": "/images/products/repairbench-os/repairbench-os-owner-dashboard.jpg",
     "alt": "offline small business software dashboard showing revenue, gross profit and a job pipeline",
@@ -699,7 +699,7 @@ var posts = [
   {
     "tag": "Digital Planners",
     "title": "Digital Planners That Work Offline: A 2026 Buyer's Guide",
-    "date": "Sep 11, 2026 · 6 min",
+    "date": "Updated Oct 1, 2026 · 6 min",
     "url": "/journal/offline-digital-planners-guide/",
     "img": "/images/products/ai-student-planner/ai-student-planner-dashboard-analytics.jpg",
     "alt": "offline digital planner dashboard with study time, tasks, streaks and analytics",
@@ -726,7 +726,7 @@ var posts = [
   {
     "tag": "Order Tracking",
     "title": "How to Keep Track of Small Business Orders in One Place",
-    "date": "Updated Sep 30, 2026 · 5 min",
+    "date": "Updated Oct 1, 2026 · 5 min",
     "url": "/journal/track-small-business-orders/",
     "img": "/images/products/sales-management-system/9-inventory-orders.webp",
     "alt": "How to Keep Track of Small Business Orders in One Place",
