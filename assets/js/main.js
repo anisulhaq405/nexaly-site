@@ -292,6 +292,33 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/cash-runway-template/",
+    "title": "Cash Runway Template: A Monthly Plan With Reserve and Hiring Scenarios",
+    "excerpt": "Build a monthly cash runway template using dated balances, receipts and payments. Compare a minimum reserve, hiring costs and a downside collection scenario.",
+    "img": "/images/journal/cash-runway-template-20261002.webp",
+    "alt": "Small-business owner planning monthly bills and cash dates beside a calendar and bank-record folder.",
+    "tag": "Planning Guides",
+    "date": "Oct 2, 2026"
+  },
+  {
+    "url": "/journal/client-profitability-analysis/",
+    "title": "Client Profitability Analysis: Find the Work Behind Each Fee",
+    "excerpt": "Compare client fees with logged hours, direct costs and shared overhead. Includes a three-client example, scope-change scenarios and a monthly review template.",
+    "img": "/images/journal/client-profitability-analysis-20261002.webp",
+    "alt": "Agency manager comparing three client project folders and time logs at a desk.",
+    "tag": "Planning Guides",
+    "date": "Oct 2, 2026"
+  },
+  {
+    "url": "/journal/marketing-agency-profit-margins/",
+    "title": "Marketing Agency Profit Margins: Calculate Them Before Changing Prices",
+    "excerpt": "Calculate agency delivery, operating and net margins with a worked monthly example. Diagnose scope, staffing and pricing before choosing a practical next step.",
+    "img": "/images/journal/marketing-agency-profit-margins-20261002.webp",
+    "alt": "Agency owner reviewing a monthly income statement and calculator while colleagues work in a studio.",
+    "tag": "Planning Guides",
+    "date": "Oct 2, 2026"
+  },
+  {
     "url": "/journal/purchase-order-tracker/",
     "title": "Purchase Order Tracker: Follow Partial Deliveries Without Losing the Balance",
     "excerpt": "Set up a purchase order tracker with line-level quantities, accepted receipts, cancellations and next actions. Includes a worked partial-delivery example.",
@@ -352,7 +379,7 @@ var posts = [
     "img": "/images/journal/agency-capacity-planning-example-20260929.webp",
     "alt": "Agency team planning retainer and project hours against monthly capacity",
     "tag": "Planning Guides",
-    "date": "Updated Sep 30, 2026"
+    "date": "Updated Oct 2, 2026"
   },
   {
     "url": "/journal/how-much-inventory-start-boutique/",
@@ -424,7 +451,7 @@ var posts = [
     "img": "/images/journal/saas-business-plan-template-example-v2.jpg",
     "alt": "Founder reviewing subscriber growth and cash runway charts under SaaS Business Plan",
     "tag": "Planning Guides",
-    "date": "Sep 28, 2026"
+    "date": "Updated Oct 2, 2026"
   },
   {
     "url": "/journal/small-business-budget-example/",
@@ -451,7 +478,7 @@ var posts = [
     "img": "/images/journal/academic-planner-school-year-text-20260926.jpg",
     "alt": "Academic Planner: Plan Your School Year headline beside monthly and weekly planner pages on a desk",
     "tag": "Planning Guides",
-    "date": "Sep 26, 2026"
+    "date": "Updated Oct 2, 2026"
   },
   {
     "url": "/journal/best-digital-planner-for-ipad/",
@@ -780,7 +807,7 @@ var posts = [
   {
     "tag": "Homeschool Schedule",
     "title": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
-    "date": "Sep 8, 2026 · 5 min",
+    "date": "Updated Oct 2, 2026 · 5 min",
     "url": "/journal/homeschool-schedule-multiple-ages/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-lesson-planner-calendar.jpg",
     "alt": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
@@ -798,7 +825,7 @@ var posts = [
   {
     "tag": "Homeschool Planner",
     "title": "Choosing a Homeschool Planner for Multiple Children",
-    "date": "Sep 8, 2026 · 5 min",
+    "date": "Updated Oct 2, 2026 · 5 min",
     "url": "/journal/homeschool-planner-multiple-children/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-multiple-child-profiles.jpg",
     "alt": "Choosing a Homeschool Planner for Multiple Children",
@@ -807,7 +834,7 @@ var posts = [
   {
     "tag": "Student Planner",
     "title": "Assignment Tracker for College Students: Set Up Your Semester",
-    "date": "Sep 8, 2026 · 5 min",
+    "date": "Updated Oct 2, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
     "img": "/images/products/ai-student-planner/ai-student-planner-plan-track-stay-ahead.jpg",
     "alt": "Assignment Tracker for College Students: Set Up Your Semester",
@@ -816,7 +843,7 @@ var posts = [
   {
     "tag": "Study Schedule",
     "title": "Exam Study Schedule Template: Plan the Weeks Before Finals",
-    "date": "Sep 8, 2026 · 5 min",
+    "date": "Updated Oct 2, 2026 · 5 min",
     "url": "/journal/exam-study-schedule-template/",
     "img": "/images/journal/exam-prep-20260915.jpg",
     "alt": "Study desk with a planning notebook, textbooks and a clock under the heading Plan Your Exam Prep",
