@@ -1,5 +1,6 @@
 <?php
 declare(strict_types=1);
+header('X-Robots-Tag: noindex');
 require_once __DIR__ . '/review-lib.php';
 if ($_SERVER['REQUEST_METHOD'] !== 'GET') review_json(['ok' => false, 'message' => 'Method not allowed.'], 405);
 $product = review_product((string)($_GET['product'] ?? '')); $public = [];
