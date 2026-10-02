@@ -188,7 +188,7 @@
 
   <h2 class="pd-h2">Equipment rental management questions</h2>
   <div class="pd-faq"><details><summary>What rental businesses can use RentFlow OS?</summary><p>It is designed for equipment, tool, event and party rental workflows rather than residential property or tenant management.</p></details><details><summary>What can I manage?</summary><p>Manage rental assets, bookings, availability, customers, deposits, returns, condition checks, maintenance and asset profitability.</p></details><details><summary>Does RentFlow require a subscription?</summary><p>No. It is a one-time download that runs offline in a current browser and stores records locally.</p></details></div>
-  <h2 class="pd-h2">Offline rental software guide</h2><p class="pd-guides"><a href="/guides/rentflow-os/">Read the complete RentFlow OS user guide</a>. <a href="/journal/why-one-time-purchase-offline-apps/">Understand one-time-purchase offline business apps</a>.</p>
+  <h2 class="pd-h2">Offline rental software guide</h2><p class="pd-guides"><a href="/guides/rentflow-os/">Read the complete RentFlow OS user guide</a> · <a href="/journal/equipment-rental-business-plan-example/">Work through an equipment rental business plan</a>. <a href="/journal/why-one-time-purchase-offline-apps/">Understand one-time-purchase offline business apps</a>.</p>
   <div class="pd-cta"><a class="btn btn-terra" href="https://buy.polar.sh/polar_cl_dPrYOPFXv04wbfBZDQ1gvEuwKQynkQicGRh091I6m6k">Get RentFlow OS — $11.99</a></div>
 </div></section>
 
@@ -262,13 +262,13 @@
   function draw(){
     main.innerHTML='';
     var m=MEDIA[cur];
-    if(m.t==='i'){var im=document.createElement('img');im.src=m.s;im.alt=m.a;im.onerror=function(){this.onerror=null;this.style.opacity='.35';};main.appendChild(im);}
-    else{var v=document.createElement('video');v.controls=true;v.playsInline=true;v.poster=m.p;var sc=document.createElement('source');sc.src=m.s;sc.type='video/mp4';v.appendChild(sc);main.appendChild(v);}
+    if(m.t==='i'){var im=document.createElement('img');im.decoding='async';im.fetchPriority='high';im.src=m.s;im.alt=m.a;im.onerror=function(){this.onerror=null;this.style.opacity='.35';};main.appendChild(im);}
+    else{var v=document.createElement('video');v.controls=true;v.playsInline=true;v.preload='none';v.poster=m.p;var sc=document.createElement('source');sc.src=m.s;sc.type='video/mp4';v.appendChild(sc);main.appendChild(v);}
     var kids=thumbs.children;for(var i=0;i<kids.length;i++)kids[i].className='pd-thumb'+(i===cur?' on':'');
   }
   for(var i=0;i<MEDIA.length;i++){(function(i){
     var m=MEDIA[i];var b=document.createElement('button');b.type='button';b.className='pd-thumb';b.setAttribute('aria-label',m.a);
-    var im=document.createElement('img');im.src=(m.t==='v'?m.p:m.s);im.alt='';im.onerror=function(){this.onerror=null;this.style.opacity='.35';};b.appendChild(im);
+    var im=document.createElement('img');im.loading='lazy';im.decoding='async';im.src=(m.t==='v'?m.p:m.s);im.alt='';im.onerror=function(){this.onerror=null;this.style.opacity='.35';};b.appendChild(im);
     if(m.t==='v'){var pl=document.createElement('span');pl.className='pl';pl.textContent='▶';b.appendChild(pl);}
     b.addEventListener('click',function(){cur=i;draw();});
     thumbs.appendChild(b);

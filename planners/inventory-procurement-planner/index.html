@@ -189,7 +189,7 @@
 
   <h2 class="pd-h2">Purchase order and inventory questions</h2>
   <div class="pd-faq"><details><summary>What inventory records can I manage?</summary><p>Manage products, SKUs, warehouses, stock movements, low-stock checks, adjustments and inventory reports.</p></details><details><summary>How does the purchase order workflow work?</summary><p>Create purchase requests and orders, record approvals, receive goods and update stock using the connected procurement workflow.</p></details><details><summary>Does this software require a subscription?</summary><p>No. It is a one-time download that runs offline in a current browser and stores records locally.</p></details></div>
-  <h2 class="pd-h2">Inventory and purchasing guides</h2><ul class="pd-guides"><li><a href="/guides/inventory-procurement-planner/">Read the complete Inventory &amp; Procurement Planner user guide</a></li><li><a href="/journal/reorder-point-small-business/">Calculate reorder points for small business inventory</a></li><li><a href="/journal/supplier-quote-comparison/">Compare supplier quotes before creating a purchase order</a></li></ul>
+  <h2 class="pd-h2">Inventory and purchasing guides</h2><ul class="pd-guides"><li><a href="/guides/inventory-procurement-planner/">Read the complete Inventory &amp; Procurement Planner user guide</a> · <a href="/journal/purchase-order-tracker/">Track purchase orders and partial deliveries</a></li><li><a href="/journal/reorder-point-small-business/">Calculate reorder points for small business inventory</a></li><li><a href="/journal/supplier-quote-comparison/">Compare supplier quotes before creating a purchase order</a></li></ul>
   <div class="pd-cta"><a class="btn btn-terra" href="https://buy.polar.sh/polar_cl_tMPiPWta5R773BRHnqicjiJaUBONiBoKPS7DD1KZ5dX">Get the Inventory &amp; Procurement Planner — $11.99</a></div>
 </div></section>
 
@@ -263,13 +263,13 @@
   function draw(){
     main.innerHTML='';
     var m=MEDIA[cur];
-    if(m.t==='i'){var im=document.createElement('img');im.src=m.s;im.alt=m.a;im.onerror=function(){this.onerror=null;this.style.opacity='.35';};main.appendChild(im);}
-    else{var v=document.createElement('video');v.controls=true;v.playsInline=true;v.poster=m.p;var sc=document.createElement('source');sc.src=m.s;sc.type='video/mp4';v.appendChild(sc);main.appendChild(v);}
+    if(m.t==='i'){var im=document.createElement('img');im.decoding='async';im.fetchPriority='high';im.src=m.s;im.alt=m.a;im.onerror=function(){this.onerror=null;this.style.opacity='.35';};main.appendChild(im);}
+    else{var v=document.createElement('video');v.controls=true;v.playsInline=true;v.preload='none';v.poster=m.p;var sc=document.createElement('source');sc.src=m.s;sc.type='video/mp4';v.appendChild(sc);main.appendChild(v);}
     var kids=thumbs.children;for(var i=0;i<kids.length;i++)kids[i].className='pd-thumb'+(i===cur?' on':'');
   }
   for(var i=0;i<MEDIA.length;i++){(function(i){
     var m=MEDIA[i];var b=document.createElement('button');b.type='button';b.className='pd-thumb';b.setAttribute('aria-label',m.a);
-    var im=document.createElement('img');im.src=(m.t==='v'?m.p:m.s);im.alt='';im.onerror=function(){this.onerror=null;this.style.opacity='.35';};b.appendChild(im);
+    var im=document.createElement('img');im.loading='lazy';im.decoding='async';im.src=(m.t==='v'?m.p:m.s);im.alt='';im.onerror=function(){this.onerror=null;this.style.opacity='.35';};b.appendChild(im);
     if(m.t==='v'){var pl=document.createElement('span');pl.className='pl';pl.textContent='▶';b.appendChild(pl);}
     b.addEventListener('click',function(){cur=i;draw();});
     thumbs.appendChild(b);
