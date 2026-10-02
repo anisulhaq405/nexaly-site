@@ -29,3 +29,7 @@ Preserve header/footer markup, checkout code, prices, product features and unrel
 ## Current backlog
 
 Next new topic: supplier quote comparison template, including a usable original table and a worked total-cost example linked to VendorPulse. Next refresh: boutique inventory spreadsheet or sales-inventory tracking, depending on intent overlap. Continue the saved plan's batch, small-engine and equipment-rental clusters. Product optimization tasks from the prior calendar do not imply permission to change prices, product features or the protected layout.
+
+## October 1 owner instruction
+
+Write complete practical information without filler or word juggling. Include original worked examples, usable ideas and specific suggestions. Verify calculations, assumptions and product fit. Substantive updates add useful information. Prepare tomorrow's full articles, images and exact updates in a checked draft branch. Maximum effort means depth and accuracy, not forced length.

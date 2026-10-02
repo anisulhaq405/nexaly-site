@@ -82,3 +82,8 @@ Expanded plans now walk from research and validation through offer/operations, a
 
 ## 2026-10-01 — three journals and five refreshes
 Supplier scorecard, purchase order tracker and small-engine repair plan added with three distinct 1200×800 WebP covers. Cash forecast, rental plan, freelance plan, student guide and homeschool attendance refreshed; two related owners receive inbound links. Original publication dates preserved, modification dates and sitemap rebuilt. Local regression/SEO/link checks pass (115 public pages, 60 journals, no orphans or broken internal URLs). Competitor review and limitations recorded in docs/oct01-release.md. Publish through checked PR; verify deployment separately.
+
+
+## October 2, 2026 — draft prepared October 1
+
+Three new guides: marketing-agency-profit-margins, client-profitability-analysis, cash-runway-template. Five substantive refreshes: exam-study-schedule-template, academic-planner-school-year, college-assignment-tracker, homeschool-schedule-multiple-ages, homeschool-planner-multiple-children. Contextual inbound edits: agency-capacity-planning-example and saas-business-plan-template-example. Existing publication dates retained; adjust planned October 2 dates if delayed. Original fictional calculations, primary factual sources, three separate feature images. Historical approved September 28 keyword estimates; ten public pages reviewed per topic without claiming localized rank positions or current Authority Scores. Not published today. Release requires green latest-head CI and live verification.
