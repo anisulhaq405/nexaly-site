@@ -1,0 +1,4 @@
+instrument_id,serial,instrument,location,owner,interval_days,interval_basis,accepted_calibration_date,next_due_date,certificate_reference,review_status,next_action
+CAL-014,SAMPLE-SN-014,Digital caliper,Inspection bench,Quality lead,180,Fictional procedure QP-07,2026-04-06,2026-10-03,CERT-014-A,Sample - due today,Verify service evidence and approved status
+CAL-015,SAMPLE-SN-015,Micrometer,Inspection bench,Quality lead,180,Fictional procedure QP-07,2026-04-07,2026-10-04,CERT-015-A,Sample - review required,Confirm due-date rule
+CAL-016,SAMPLE-SN-016,Bench scale,Receiving,Operations,,Needs review,,,,Missing evidence,Locate instrument and source record

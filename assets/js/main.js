@@ -292,6 +292,33 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/batch-lot-traceability-log/",
+    "title": "Batch and Lot Traceability: A Practical Log for Small Makers",
+    "excerpt": "Use linked receipt, consumption and shipment records to trace supplier lots through production. Includes free sample CSV, a candle-batch example and quantity reconciliation.",
+    "img": "/images/journal/batch-lot-traceability-log-20261003.webp",
+    "alt": "Candle-making workbench with raw materials, batch-tagged jars, a production clipboard and shipping carton.",
+    "tag": "Planning Guides",
+    "date": "Oct 3, 2026"
+  },
+  {
+    "url": "/journal/equipment-calibration-log/",
+    "title": "Equipment Calibration Log: Template, Due Dates and Review",
+    "excerpt": "Build an instrument register and calibration event log with a free CSV starter, due-date example, certificate checks and an out-of-tolerance follow-up workflow.",
+    "img": "/images/journal/equipment-calibration-log-20261003.webp",
+    "alt": "Metrology bench with a caliper, micrometer, gauge blocks and calibration record clipboard.",
+    "tag": "Planning Guides",
+    "date": "Oct 3, 2026"
+  },
+  {
+    "url": "/journal/rental-equipment-maintenance-log/",
+    "title": "Rental Equipment Maintenance Log: Inspections, Repairs and Availability",
+    "excerpt": "Keep rental asset service records connected to booking availability. Includes a free CSV starter, return inspection workflow and a worked downtime and repair-cost example.",
+    "img": "/images/journal/rental-equipment-maintenance-log-20261003.webp",
+    "alt": "Rental warehouse workbench with event lighting, equipment cases, inspection tags and a maintenance clipboard.",
+    "tag": "Planning Guides",
+    "date": "Oct 3, 2026"
+  },
+  {
     "url": "/journal/cash-runway-template/",
     "title": "Cash Runway Template: A Monthly Plan With Reserve and Hiring Scenarios",
     "excerpt": "Build a monthly cash runway template using dated balances, receipts and payments. Compare a minimum reserve, hiring costs and a downside collection scenario.",
@@ -361,7 +388,7 @@ var posts = [
     "img": "/images/journal/contract-renewal-workflow-20260930.webp",
     "alt": "Business owner checking a contract, calendar and renewal decision checklist",
     "tag": "Planning Guides",
-    "date": "Sep 30, 2026"
+    "date": "Updated Oct 3, 2026"
   },
   {
     "url": "/journal/repair-shop-parts-inventory/",
@@ -370,7 +397,7 @@ var posts = [
     "img": "/images/journal/repair-shop-parts-inventory-20260930.webp",
     "alt": "Repair technician comparing a filter and parts bins with a work order",
     "tag": "Planning Guides",
-    "date": "Updated Oct 1, 2026"
+    "date": "Updated Oct 3, 2026"
   },
   {
     "url": "/journal/agency-capacity-planning-example/",
@@ -397,7 +424,7 @@ var posts = [
     "img": "/images/journal/how-to-track-consignment-inventory-20260929.webp",
     "alt": "Tagged consignment items and owner records prepared for a payout review",
     "tag": "Planning Guides",
-    "date": "Sep 29, 2026"
+    "date": "Updated Oct 3, 2026"
   },
   {
     "url": "/journal/cash-flow-forecast-template-example/",
@@ -415,7 +442,7 @@ var posts = [
     "img": "/images/journal/equipment-rental-business-plan-example-v2.jpg",
     "alt": "Event lighting rental team inspecting equipment and a booking handoff under Equipment Rental Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 1, 2026"
+    "date": "Updated Oct 3, 2026"
   },
   {
     "url": "/journal/freelance-business-plan-example/",
@@ -762,7 +789,7 @@ var posts = [
   {
     "tag": "Inventory Software",
     "title": "Inventory Software Without a Subscription: What to Check Before Buying",
-    "date": "Updated Sep 30, 2026 · 5 min",
+    "date": "Updated Oct 3, 2026 · 5 min",
     "url": "/journal/inventory-software-without-subscription/",
     "img": "/images/journal/inventory-software-buying-checklist.png",
     "alt": "Inventory software buying checklist covering sale and return tests, backup recovery and license costs",

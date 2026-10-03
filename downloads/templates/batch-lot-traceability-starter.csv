@@ -1,0 +1,10 @@
+event_id,event_type,date,source_lot,batch_id,finished_lot,quantity,unit,destination_or_location,reference,note
+E-01,Receipt,2026-10-01,WX-A,,,20.0,kg,Material store,REC-01,Fictional wax receipt
+E-02,Receipt,2026-10-01,FR-B,,,2.0,kg,Material store,REC-02,Fictional fragrance receipt
+E-03,Consumption,2026-10-03,WX-A,PB-1003,,10.0,kg,Production,USE-01,Not a recommended formulation
+E-04,Consumption,2026-10-03,FR-B,PB-1003,,1.0,kg,Production,USE-02,Not a recommended formulation
+E-05,Output,2026-10-03,,PB-1003,FL-1003,50,units,Inspection,OUT-01,0.20 kg fill per unit in simplified example
+E-06,Rejected,2026-10-03,,PB-1003,FL-1003,2,units,Segregated,Q-1003,Not available for shipment
+E-07,Release,2026-10-03,,PB-1003,FL-1003,48,units,Finished store,REL-01,Authorized release reference required
+E-08,Shipment,2026-10-04,,,FL-1003,18,units,Destination A,SO-201,Fictional destination
+E-09,Shipment,2026-10-04,,,FL-1003,12,units,Destination B,SO-202,18 released units remain
