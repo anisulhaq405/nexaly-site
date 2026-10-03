@@ -69,7 +69,7 @@ Direct open failed for qumely.com/blog/college-assignment-tracker-template; sear
 
 ## Images and layout
 
-This is an existing-page refresh. Existing feature/gallery images remain, with no new image download or placeholder. Additional screenshots were considered but not added: local browser rendering was unavailable because the Chromium download returned invalid archives. No image is labeled newly captured or tested. Existing styles and markup classes are retained; narrow tables use the existing table wrappers. Final mobile/desktop visual verification remains a release gate for the publishing run. Do not claim visual testing already passed.
+This is an existing-page refresh. Existing feature/gallery images remain, with no new image download or placeholder. Both guide images were visually inspected: they are product illustrations, not fresh audit screenshots. Their previously mismatched alt text and figure descriptions are corrected to describe the actual illustrations. Additional screenshots were considered but not added: local browser rendering was unavailable because the Chromium download returned invalid archives. No image is labeled newly captured or tested. Existing styles and markup classes are retained; new guide tables have keyboard-focusable horizontal scroll wrappers to contain their minimum-width tables on narrow screens. Final mobile/desktop visual verification remains a release gate for the publishing run. Do not claim visual testing already passed.
 
 ## Release steps and safeguards
 
