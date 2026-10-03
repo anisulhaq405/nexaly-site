@@ -834,16 +834,16 @@ var posts = [
   {
     "tag": "Homeschool Schedule",
     "title": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
-    "date": "Updated Oct 2, 2026 · 5 min",
+    "date": "Updated Oct 4, 2026 · 5 min",
     "url": "/journal/homeschool-schedule-multiple-ages/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-lesson-planner-calendar.jpg",
     "alt": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
-    "excerpt": "Plan a homeschool day for multiple ages with three flexible examples. Download schedules for shared activities, individual lessons and split-day routines."
+    "excerpt": "Build a homeschool schedule for multiple ages with three worked examples, shared lessons, individual support blocks and accurate child-specific records."
   },
   {
     "tag": "Attendance Tracker",
     "title": "Homeschool Attendance Tracker: A Simple Daily Record",
-    "date": "Updated Oct 1, 2026 · 5 min",
+    "date": "Updated Oct 4, 2026 · 5 min",
     "url": "/journal/homeschool-attendance-tracker/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-reports-transcript.jpg",
     "alt": "Homeschool Attendance Tracker: A Simple Daily Record",
@@ -852,7 +852,7 @@ var posts = [
   {
     "tag": "Homeschool Planner",
     "title": "Choosing a Homeschool Planner for Multiple Children",
-    "date": "Updated Oct 2, 2026 · 5 min",
+    "date": "Updated Oct 4, 2026 · 5 min",
     "url": "/journal/homeschool-planner-multiple-children/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-multiple-child-profiles.jpg",
     "alt": "Choosing a Homeschool Planner for Multiple Children",
@@ -861,7 +861,7 @@ var posts = [
   {
     "tag": "Student Planner",
     "title": "Assignment Tracker for College Students: Set Up Your Semester",
-    "date": "Updated Oct 2, 2026 · 5 min",
+    "date": "Updated Oct 4, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
     "img": "/images/products/ai-student-planner/ai-student-planner-plan-track-stay-ahead.jpg",
     "alt": "Assignment Tracker for College Students: Set Up Your Semester",
