@@ -1,6 +1,6 @@
 # October 5 student planning draft
 
-Prepared October 4, 2026. **Draft only. Do not merge before the October 5 08:00 Asia/Karachi publishing run.** The existing daily schedule should select this draft; do not create another timer.
+Prepared October 4, 2026. **Draft only. Do not merge before the October 5 08:00 Asia/Karachi publishing run.** A one-time release run is scheduled for this draft; the earlier recurring topical task is paused. Do not create a duplicate timer.
 
 ## Scope
 
