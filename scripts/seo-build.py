@@ -111,6 +111,13 @@ def metadata(source,url):
     for start,end,value in sorted(replacements,key=lambda x:(x[0],x[1]),reverse=True):source=source[:start]+value+source[end:]
     # Adjacent removed metadata left whitespace; normalize only the head.
     end=source.index('</head>');source=re.sub(r'\n[ \t]*\n+','\n',source[:end])+source[end:]
+    # Font CSS must not hold up storefront content on slow external connections.
+    # Retain the same families/weights and a stylesheet fallback without JavaScript.
+    if 'id="nexaly-fonts"' not in source:
+        def defer_fonts(match):
+            tag=match.group(0)
+            return tag.replace('rel="stylesheet"', 'rel="stylesheet" id="nexaly-fonts" media="print" onload="this.media=\'all\';this.onload=null"')+'<noscript>'+tag+'</noscript>'
+        source=re.sub(r'<link\b(?=[^>]*https://fonts\.googleapis\.com/css)(?=[^>]*rel="stylesheet")[^>]*>',defer_fonts,source)
     source=re.sub(r'<script id="nexaly-seo" type="application/ld\+json">[\s\S]*?</script>\n?','',source)
     crumbs=[{'@type':'ListItem','position':1,'name':'Home','item':SITE+'/'}]
     parts=url[len(SITE):].strip('/').split('/')
