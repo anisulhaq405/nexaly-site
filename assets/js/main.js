@@ -889,10 +889,89 @@ var posts = [
 var heartSvg = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.6-9.3-8.4C1 9.5 2.4 6 5.6 6c1.9 0 3.2 1.1 4.4 2.6C11.2 7.1 12.5 6 14.4 6c3.2 0 4.6 3.5 2.9 6.6C19 16.4 12 21 12 21z"/></svg>';
 var sprigSvg = '<svg width="58" height="20" viewBox="0 0 58 20" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M2 18C16 18 24 10 32 2M32 2c-5 0-8 2-10 5M32 2c0 4-2 7-5 9"/></svg>';
 
+var cardImages = {
+  "/images/products/thumbs/business-runway-burn-rate-os.webp": {
+    "srcset": "/images/cards/business-runway-burn-rate-os-320.webp 320w, /images/products/thumbs/business-runway-burn-rate-os.webp?v=20260928e 540w"
+  },
+  "/images/products/thumbs/cashflow-13-os.webp": {
+    "srcset": "/images/cards/cashflow-13-os-320.webp 320w, /images/products/thumbs/cashflow-13-os.webp?v=20260928e 540w"
+  },
+  "/images/products/thumbs/agency-client-profitability-capacity-os.webp": {
+    "srcset": "/images/cards/agency-client-profitability-capacity-os-320.webp 320w, /images/products/thumbs/agency-client-profitability-capacity-os.webp?v=20260928e 540w"
+  },
+  "/images/products/thumbs/renewguard-os.jpg": {
+    "srcset": "/images/cards/renewguard-os-320.webp 320w, /images/cards/renewguard-os-640.webp 640w, /images/products/thumbs/renewguard-os.jpg?v=20260928g 1040w"
+  },
+  "/images/products/thumbs/consignclear-os-v3.webp": {
+    "srcset": "/images/cards/consignclear-os-v3-320.webp 320w, /images/products/thumbs/consignclear-os-v3.webp?v=20260928g 720w"
+  },
+  "/images/products/thumbs/calibratrack-os-v3.webp": {
+    "srcset": "/images/cards/calibratrack-os-v3-320.webp 320w, /images/products/thumbs/calibratrack-os-v3.webp?v=20260928g 720w"
+  },
+  "/images/products/thumbs/repairbench-os.webp": {
+    "srcset": "/images/cards/repairbench-os-320.webp 320w, /images/products/thumbs/repairbench-os.webp?v=20260928d 540w"
+  },
+  "/images/products/thumbs/ai-student-planner.webp": {
+    "srcset": "/images/cards/ai-student-planner-320.webp 320w, /images/products/thumbs/ai-student-planner.webp?v=20260928g 540w"
+  },
+  "/images/products/thumbs/digital-homeschool-planner.webp": {
+    "srcset": "/images/cards/digital-homeschool-planner-320.webp 320w, /images/products/thumbs/digital-homeschool-planner.webp?v=20260928g 540w"
+  },
+  "/images/products/thumbs/adhd-digital-planner.webp": {
+    "srcset": "/images/cards/adhd-digital-planner-320.webp 320w, /images/products/thumbs/adhd-digital-planner.webp?v=20260928b 540w"
+  },
+  "/images/products/thumbs/boutique-business-planner.webp": {
+    "srcset": "/images/cards/boutique-business-planner-320.webp 320w, /images/products/thumbs/boutique-business-planner.webp?v=20260928c 540w"
+  },
+  "/images/products/thumbs/small-business-planner-2026-2028.webp": {
+    "srcset": "/images/cards/small-business-planner-2026-2028-320.webp 320w, /images/products/thumbs/small-business-planner-2026-2028.webp?v=20260928b 540w"
+  },
+  "/images/products/thumbs/caregiver-planner-aging-parents.webp": {
+    "srcset": "/images/cards/caregiver-planner-aging-parents-320.webp 320w, /images/products/thumbs/caregiver-planner-aging-parents.webp?v=20260928d 540w"
+  },
+  "/images/products/thumbs/inventory-procurement-planner.webp": {
+    "srcset": "/images/cards/inventory-procurement-planner-320.webp 320w, /images/products/thumbs/inventory-procurement-planner.webp?v=20260928d 540w"
+  },
+  "/images/products/thumbs/owneros-core.webp": {
+    "srcset": "/images/cards/owneros-core-320.webp 320w, /images/products/thumbs/owneros-core.webp?v=20260928c 540w"
+  },
+  "/images/products/thumbs/batchtrace-os.webp": {
+    "srcset": "/images/cards/batchtrace-os-320.webp 320w, /images/products/thumbs/batchtrace-os.webp?v=20260928f 540w"
+  },
+  "/images/products/thumbs/content-marketing-planner.webp": {
+    "srcset": "/images/cards/content-marketing-planner-320.webp 320w, /images/products/thumbs/content-marketing-planner.webp?v=20260928f 540w"
+  },
+  "/images/products/thumbs/vendorpulse-os.webp": {
+    "srcset": "/images/cards/vendorpulse-os-320.webp 320w, /images/products/thumbs/vendorpulse-os.webp?v=20260928f 540w"
+  },
+  "/images/products/thumbs/sales-management-system.webp": {
+    "srcset": "/images/cards/sales-management-system-320.webp 320w, /images/products/thumbs/sales-management-system.webp?v=20260928f 540w"
+  },
+  "/images/products/thumbs/rentflow-os.webp": {
+    "srcset": "/images/cards/rentflow-os-320.webp 320w, /images/products/thumbs/rentflow-os.webp?v=20260928e 540w"
+  },
+  "/images/products/thumbs/offline-ai-business-copilot.webp": {
+    "srcset": "/images/cards/offline-ai-business-copilot-320.webp 320w, /images/products/thumbs/offline-ai-business-copilot.webp?v=20260928e 540w"
+  },
+  "/images/journal/batch-lot-traceability-log-20261003.webp": {
+    "srcset": "/images/cards/batch-lot-traceability-log-20261003-480.webp 480w, /images/cards/batch-lot-traceability-log-20261003-800.webp 800w, /images/journal/batch-lot-traceability-log-20261003.webp 1200w"
+  },
+  "/images/journal/equipment-calibration-log-20261003.webp": {
+    "srcset": "/images/cards/equipment-calibration-log-20261003-480.webp 480w, /images/cards/equipment-calibration-log-20261003-800.webp 800w, /images/journal/equipment-calibration-log-20261003.webp 1200w"
+  },
+  "/images/journal/rental-equipment-maintenance-log-20261003.webp": {
+    "srcset": "/images/cards/rental-equipment-maintenance-log-20261003-480.webp 480w, /images/cards/rental-equipment-maintenance-log-20261003-800.webp 800w, /images/journal/rental-equipment-maintenance-log-20261003.webp 1200w"
+  }
+};
+function cardImageAttrs(source,responsive){
+  var image=responsive===false?null:cardImages[source.split('?')[0]];
+  return 'src="'+source+'"'+(image?' srcset="'+image.srcset+'" sizes="(max-width: 520px) calc(100vw - 48px), (max-width: 780px) 44vw, (max-width: 1100px) 30vw, 270px"':'');
+}
+
 function coverHTML(p,priority){
   if(p.img){
     var cover=p.thumb||p.img;
-    return '<img src="'+cover+'" alt="'+p.title+'" width="400" height="500" loading="'+(priority?'eager':'lazy')+'"'+(priority?' fetchpriority="high"':'')+' decoding="async"'+(p.fit==='contain'?' style="object-fit:contain;object-position:center;background:#0f1726"':'')+'>';
+    return '<img '+cardImageAttrs(cover,priority!==undefined)+' alt="'+p.title+'" width="400" height="500" loading="'+(priority?'eager':'lazy')+'"'+(priority?' fetchpriority="high"':'')+' decoding="async"'+(p.fit==='contain'?' style="object-fit:contain;object-position:center;background:#0f1726"':'')+'>';
   }
   return '<div class="cover-mock" style="background:linear-gradient(155deg,'+p.m1+','+p.m2+')"><div class="md"></div><span class="mc">'+p.cat+'</span><span class="msprig">'+sprigSvg+'</span><div class="mt">'+p.title+'</div></div>';
 }
@@ -903,7 +982,7 @@ function cardHTML(p,i){
   return '<article class="pcard" data-cat="'+p.cat+'" data-idx="'+i+'" role="button" tabindex="0" aria-label="'+p.title+'">'+inner+'</article>';
 }
 function postHTML(p,i){
-  var media = p.img ? '<img src="'+p.img+'" alt="'+(p.alt||p.title)+'" width="400" height="500" loading="'+(i===0?'eager':'lazy')+'"'+(i===0?' fetchpriority="high"':'')+' decoding="async">' : '<div class="pd"></div><span class="ptag">'+p.tag+'</span>';
+  var media = p.img ? '<img '+cardImageAttrs(p.img)+' alt="'+(p.alt||p.title)+'" width="600" height="400" loading="'+(i===0?'eager':'lazy')+'"'+(i===0?' fetchpriority="high"':'')+' decoding="async">' : '<div class="pd"></div><span class="ptag">'+p.tag+'</span>';
   var href = p.url || '/journal/';
   return '<a class="pcard journal-card" href="'+href+'" aria-label="'+p.title+'"><div class="pcover">'+media+'</div><div class="pcard-body"><h3>'+p.title+'</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">'+p.tag+'</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">'+(p.excerpt||'')+'</p><div style="font-size:12px;color:var(--faint);margin-top:9px">'+p.date+'</div></div></a>';
 }
