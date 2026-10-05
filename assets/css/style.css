@@ -623,3 +623,6 @@ article.reading a:not(.btn):not(.download):hover,
 /* Keep the actual RenewGuard dashboard visible within portrait product cards. */
 a[href="/planners/renewguard-os/"] .pcover{background:linear-gradient(150deg,#102c50,#e7f0ff 48%,#172b49)}
 a[href="/planners/renewguard-os/"] .pcover img{object-fit:contain;padding:12px;box-sizing:border-box}
+
+/* Keep newsletter controls within narrow screens. */
+@media(max-width:520px){.news-form{min-width:0;flex-direction:column;align-items:stretch}.news-form input{min-width:0;width:100%}.news-form .btn{width:100%;justify-content:center}}
