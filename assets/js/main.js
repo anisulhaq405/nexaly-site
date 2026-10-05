@@ -505,7 +505,7 @@ var posts = [
     "img": "/images/journal/academic-planner-school-year-text-20260926.jpg",
     "alt": "Academic Planner: Plan Your School Year headline beside monthly and weekly planner pages on a desk",
     "tag": "Planning Guides",
-    "date": "Updated Oct 2, 2026"
+    "date": "Updated Oct 5, 2026"
   },
   {
     "url": "/journal/best-digital-planner-for-ipad/",
@@ -721,7 +721,7 @@ var posts = [
     "img": "/images/journal/student-planner-guide-20260915.jpg",
     "alt": "College student organizing classes, assignments, exams and focus sessions under the heading Build a Student Planner",
     "tag": "Planning Guides",
-    "date": "Updated Oct 1, 2026"
+    "date": "Updated Oct 5, 2026"
   },
   {
     "url": "/journal/supplier-quote-comparison/",
@@ -870,7 +870,7 @@ var posts = [
   {
     "tag": "Study Schedule",
     "title": "Exam Study Schedule Template: Plan the Weeks Before Finals",
-    "date": "Updated Oct 2, 2026 · 5 min",
+    "date": "Updated Oct 5, 2026 · 5 min",
     "url": "/journal/exam-study-schedule-template/",
     "img": "/images/journal/exam-prep-20260915.jpg",
     "alt": "Study desk with a planning notebook, textbooks and a clock under the heading Plan Your Exam Prep",
