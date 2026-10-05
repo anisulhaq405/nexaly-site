@@ -4,7 +4,7 @@ Scope: eight October 4 pages and three October 5 journals. Tested the current ma
 
 ## Confirmed issues and fix
 
-- Newsletter input/button intrinsic width extended the document to about 397px at a 360px viewport. Stack controls below 520px and allow the input/form to shrink. Header/footer markup is unchanged; this scoped footer CSS correction is authorized by the owner’s mobile-fix request.
+- Newsletter input/button intrinsic width extended the document to about 397px at a 360px viewport. Stack controls below 520px and allow the input/form to shrink. Audited pages and the homepage request a new CSS cache version. Header/footer markup is unchanged; this scoped footer CSS correction is authorized by the owner’s mobile-fix request.
 - Both education guides still had one unwrapped menu-reference table with a 620px minimum width. Put each table in a keyboard-focusable horizontal scroll region and use normal table layout within that region. Previously wrapped worked-example tables remain wrapped.
 
 ## After-fix results
