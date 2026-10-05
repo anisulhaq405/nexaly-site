@@ -63,4 +63,13 @@ with tempfile.TemporaryDirectory(prefix='nexaly-seo-test-') as directory:
     product.unlink();article.unlink();run();run(True,'--check')
     assert '/journal/seo-test-article/' not in (target/'sitemap.xml').read_text()
     assert '/journal/seo-test-article/' not in (target/'journal/index.html').read_text()
+    # A later shared CSS edit must invalidate and refresh the homepage snapshot.
+    css=target/'assets/css/style.css'
+    original_css=css.read_text()
+    css.write_text(original_css+'\n/* homepage synchronization regression */\n')
+    run(False,'--check');run();run(True,'--check')
+    home=(target/'index.html').read_text()
+    assert '/* homepage synchronization regression */' in home
+    assert 'href="/assets/css/style.css' not in home
+    css.write_text(original_css);run();run(True,'--check')
 print('PASS: protected products/header/footer/payment logic; idempotence; journal refresh; product checkout/image/price; broken links; draft exclusion; deletion; failed-build isolation')

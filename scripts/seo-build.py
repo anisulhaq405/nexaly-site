@@ -211,6 +211,23 @@ def build(check=False):
         if path not in {'index.html','journal/index.html','planners/index.html','planners/digital-planners/index.html','planners/business-operating-systems/index.html'}:continue
         files[path]=re.sub(r'(/assets/js/main\.js)(?:\?[^"\s>]*)?',lambda m:m[1]+'?v='+version,files[path])
     files['assets/js/main.js']=js
+    # Preserve the full CSS cascade while avoiding a blocking homepage round trip.
+    # Other pages continue to use the shared, cacheable stylesheet.
+    css=(ROOT/'assets/css/style.css').read_text()
+    if re.search(r'url\(|@import|</style',css,re.I):
+        raise ValueError('Homepage inline CSS needs URL/HTML escaping review')
+    logo_rules=[]
+    for name in ('logo-mark.png','logo-light.png'):
+        png=(ROOT/'assets/img'/name).read_bytes()
+        if png[:8]!=b'\x89PNG\r\n\x1a\n':raise ValueError('Logo dimensions need PNG review')
+        width,height=int.from_bytes(png[16:20],'big'),int.from_bytes(png[20:24],'big')
+        logo_rules.append(f'.brand-mark[src="/assets/img/{name}"]{{aspect-ratio:{width}/{height}}}')
+    home_style='<style id="nexaly-home-styles">'+css+'</style><style id="nexaly-home-image-space">'+''.join(logo_rules)+'</style>'
+    if 'id="nexaly-home-styles"' in files['index.html']:
+        files['index.html']=re.sub(r'<style id="nexaly-home-styles">[\s\S]*?</style>(?:<style id="nexaly-home-image-space">[\s\S]*?</style>)?',lambda m:home_style,files['index.html'],count=1)
+    else:
+        files['index.html'],count=re.subn(r'<link rel="stylesheet" href="/assets/css/style\.css(?:\?[^"\s>]*)?">',lambda m:home_style,files['index.html'],count=1)
+        if count!=1:raise ValueError('Homepage shared CSS link missing or duplicated')
     # No made-up lastmod dates: omit when the content modification date is unknown.
     def sitemap_entry(u):
         path='index.html' if u==SITE+'/' else u[len(SITE):].strip('/')+'/index.html'
