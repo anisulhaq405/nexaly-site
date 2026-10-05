@@ -26,3 +26,7 @@ Scope: eight October 4 pages and three October 5 journals. Tested the current ma
 - `/journal/exam-study-schedule-template/`
 
 Screenshot inspection covers headers, representative table views, newsletter/footer and product media; desktop screenshots are also captured. Source anchors and destinations are checked by the existing SEO/link audits. Publication and live verification must still be performed after current-head CI passes. No claim about indexing, traffic, purchases or physical-device testing.
+
+## Publication evidence
+
+PR #116 merged as `0a24f18976db642aeb2d4b1d905522dd4ee20b09` after successful latest-head CI run 37267956798 on `e176a569279ed7ae4cefaf543c5813596a1aa8ee`. All 11 tested live HTML pages, homepage and shared stylesheet returned HTTP 200 and exactly matched the browser-tested local release. The narrow-viewport render uses the same verified HTML/CSS/JS; it is Chromium viewport testing, not a claim of testing every physical phone. Newsletter screenshot, table scrolling and menu reset were reviewed after the fix. The prior mobile-verification blocker is resolved.

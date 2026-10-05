@@ -100,3 +100,11 @@ Prepared refresh of two product pages (Digital Homeschool Planner and AI Student
 ## October 5 mobile layout follow-up (prepared for immediate release)
 
 Actual Chromium render of the eight October 4 pages plus three October 5 journals found newsletter overflow at 360px and one unwrapped 620px guide-reference table in each education guide. The focused fix stacks newsletter controls below 520px and wraps those reference tables in keyboard-focusable scroll regions. All 44 combinations (11 pages at 360/390/430/1363px) now have document width equal to viewport width and no broken page images. Table scroll and Products submenu close/toggle/reset behavior passed. Details: `docs/verification/oct05-mobile-layout.md`. This entry records tested local preparation; verify current-head CI and live assets after merging. Header/footer markup, prices, checkout and executable app behavior are preserved.
+
+## October 5 confirmed releases and October 6 preparation
+
+PR #115 merged as `1634b9c13532b56cce01a0b40c3ad72bd87c5ec9`: student-planner-guide, academic-planner-school-year and exam-study-schedule-template each returned HTTP 200 with bytes matching the release; sitemap matched too. Original publication dates were preserved.
+
+PR #116 merged as `0a24f18976db642aeb2d4b1d905522dd4ee20b09`: mobile newsletter/table corrections passed exact-head CI, 44 browser viewport checks and menu/table behavior checks. All 11 education pages, homepage and stylesheet were then verified live HTTP 200 and byte-for-byte equal to the tested release. See `docs/verification/oct05-mobile-layout.md`. No payment, subscription or feedback form was submitted.
+
+October 6 remains a separate draft: two existing homeschool journals gain uncertainty/interrupted-work decision workflows; the multiple-child journal receives section/TOC ordering improvements while retaining its October 4 modification date; the existing homeschool product corrects two remaining absolute text claims. No new URL or product, and no invented ranking/indexing outcome. Draft detail and research: `docs/editorial/oct06/README.md` and `research.md`.
