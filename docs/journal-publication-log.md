@@ -100,3 +100,7 @@ Prepared refresh of two product pages (Digital Homeschool Planner and AI Student
 ## October 5 mobile layout follow-up (prepared for immediate release)
 
 Actual Chromium render of the eight October 4 pages plus three October 5 journals found newsletter overflow at 360px and one unwrapped 620px guide-reference table in each education guide. The focused fix stacks newsletter controls below 520px and wraps those reference tables in keyboard-focusable scroll regions. All 44 combinations (11 pages at 360/390/430/1363px) now have document width equal to viewport width and no broken page images. Table scroll and Products submenu close/toggle/reset behavior passed. Details: `docs/verification/oct05-mobile-layout.md`. This entry records tested local preparation; verify current-head CI and live assets after merging. Header/footer markup, prices, checkout and executable app behavior are preserved.
+
+## October 5 — buying journey copy correction
+
+Audited three existing buying pages and embedded demos, opened their corresponding $11.99 Polar checkouts, and tested a selected three-product bundle at $25.99. Corrected Boutique product wording to distinguish manual stock/order records from automatic sync and explain JSON backup/device transfer/restore. No new journal or product. Evidence and coverage limits: docs/verification/oct05-buying-journey.md. Release requires exact-head CI and live copy verification.
