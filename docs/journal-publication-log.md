@@ -104,3 +104,7 @@ Actual Chromium render of the eight October 4 pages plus three October 5 journal
 ## October 5 — buying journey copy correction
 
 Audited three existing buying pages and embedded demos, opened their corresponding $11.99 Polar checkouts, and tested a selected three-product bundle at $25.99. Corrected Boutique product wording to distinguish manual stock/order records from automatic sync and explain JSON backup/device transfer/restore. No new journal or product. Evidence and coverage limits: docs/verification/oct05-buying-journey.md. Release requires exact-head CI and live copy verification.
+
+## October 5 — all-product journey audit and core freeze
+
+Completed the remaining eighteen desktop product/demo entry and single-checkout smoke checks. Combined with the earlier three, twenty checkouts showed the correct product and $11.99; Copilot displayed RepairBench and remains a Polar provider exception. All 3/5/10 bundle checkouts opened with selection references and correct prices. Whole Collection displays 21/$109.99 but its Polar description still says 15; benefits require admin verification. Added documented source baseline and CI core-freeze guard that allows editorial prose/catalogue changes. No site design, product feature, price or checkout mapping changed. Evidence/limits: docs/verification/oct05-all-products.md and docs/SITE-CORE-LOCK.md.
