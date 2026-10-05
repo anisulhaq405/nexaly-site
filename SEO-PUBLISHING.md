@@ -2,6 +2,8 @@
 
 Main is the existing Hostinger deployment branch. Publish every content batch through a feature branch and pull request.
 
+Owner core freeze (October 5): read `docs/SITE-CORE-LOCK.md` and run `python3 scripts/check-core-lock.py` before publishing. Routine editorial updates must retain the protected baseline; do not refresh the baseline to hide unexpected core changes. Known Polar provider exceptions are documented separately and are not certified healthy by source checks.
+
 1. Add or update complete pages under journal/<slug>/index.html or planners/<slug>/index.html.
 2. Run python3 scripts/seo-build.py to generate canonical/social metadata, sitemap and static/JavaScript listings.
 3. Run python3 scripts/test-seo.py, then python3 scripts/seo-build.py --check.

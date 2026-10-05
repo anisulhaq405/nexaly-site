@@ -23,3 +23,5 @@ jobs:
         run: python3 scripts/seo-build.py --check
       - name: Test publishing and protected storefront
         run: python3 scripts/test-seo.py
+      - name: Verify owner core freeze
+        run: python3 scripts/check-core-lock.py
