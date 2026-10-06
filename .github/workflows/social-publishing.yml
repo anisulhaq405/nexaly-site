@@ -1,0 +1,41 @@
+name: Publish live editorial changes to social media
+on:
+  workflow_run:
+    workflows: [Maintain technical SEO]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      test_url:
+        description: Optional single existing page URL for a publishing test
+        type: string
+        required: false
+permissions:
+  contents: write
+concurrency:
+  group: nexaly-social-publishing
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event != 'pull_request')
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: python -m pip install Pillow==11.3.0
+      - name: Install video rendering tools
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg fonts-dejavu-core
+      - name: Publish only verified live editorial changes
+        env:
+          MAKE_NEXALY_SOCIAL_WEBHOOK_URL: ${{ secrets.MAKE_NEXALY_SOCIAL_WEBHOOK_URL }}
+          SOCIAL_DESTINATIONS: ${{ vars.NEXALY_SOCIAL_DESTINATIONS || 'facebook,instagram,pinterest,youtube' }}
+          SOCIAL_TEST_URL: ${{ inputs.test_url }}
+        run: python scripts/publish-social.py
