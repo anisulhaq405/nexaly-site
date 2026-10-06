@@ -1,4 +1,4 @@
-# Second eight-category release — October 7, 2026 (Asia/Karachi)
+# Second eight-category release — October 6, 2026 (Asia/Karachi)
 
 Eight additional tools bring the collection to 16 of the planned 50. Every category now has two working tool pages. Existing paid applications and checkout remain protected.
 
