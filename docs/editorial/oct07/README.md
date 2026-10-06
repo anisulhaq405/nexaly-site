@@ -1,0 +1,9 @@
+# October 7 inventory cluster prepared batch
+
+Prepared October 6 on main 51d520ce23bbb88a491381012e95410a1a9ec699. Do not merge before October 7 at 08:00 Asia/Karachi. Owner requests publication between 08:00 and 09:00 subject to successful checks/deployment, not guaranteed minute-exact completion.
+
+Four existing pages gain original practical decision examples: inventory-software-without-subscription (purchase evidence classification), boutique-inventory-spreadsheet (count cutoff and duplicate correction), owneros-core guide (distinguish recorded activity from proven stock changes), boutique-business-planner guide (manual cancellation/return handoff). No new URL: existing owners already answer these intents. Existing visuals retained. Source behavior checked against existing guide and demo code; no new claim of purchasing, full-version delivery or restoring a buyer archive. OwnerOS example is explicitly a verification task, not a claim that general activity records automatically update stock.
+
+Original publication dates retained. Planned substantive modifications October 7. Preserve all performance work, core baseline and Polar URLs; run core guard, build/regression/link/JS/diff checks and fresh CI at actual head. At release reconcile current main; use actual date if delayed. Verify four pages, cards, sitemap, images, mobile and contextual anchors after deployment. Do not republish October6 batch PR123 or old PR117.
+
+Research: public candidate results, not geolocated US rankings. Available official vendor pages distinguish local storage/restore, terminal sync and exports; apparel resources already address variants and movement logs. No verified volume or difficulty claim. Existing content overlaps the proposed topics, so improve it rather than add synonym pages. See research.md.
