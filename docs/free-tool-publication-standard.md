@@ -13,3 +13,9 @@ Apply this standard to each completed tool in the 50-tool collection. Do not pub
 - Keep calculation reports free of navigation, guides and sales CTAs when printed.
 - Verify calculations, input errors, saving/import/export, print output, image delivery, links and phone/tablet/desktop layout before publication.
 - SEO fundamentals apply to AI search too. Crawlable text, useful images, clear links and accurate schema support discovery; indexing, ranking and AI citations cannot be promised.
+
+## October 6 category release
+
+The collection has eight available tools, one per category. Each worksheet uses a distinct scoped palette and visual treatment. Shared site navigation, product prices, checkout links and paid applications remain outside these theme styles. The inventory tool keeps teal; new tools use navy, purple, orange, blue, green, rose and amber.
+
+The attendance log allows 400 entries to cover an annual record with some repeated subject dates; the other new worksheets allow 100. Task-specific calculations live in `assets/js/small-tools-models.js`. Saving and exports are explicit, with separate storage keys and versioned backups per tool. No entered worksheet fields are added to analytics or sent to another application.

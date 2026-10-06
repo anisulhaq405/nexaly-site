@@ -221,12 +221,14 @@ def build(check=False):
     for path in files:
         if path.endswith('index.html'):
             files[path]=re.sub(r'(/assets/css/style\.css)(?:\?[^\"\s>]*)?', lambda m:m[1]+'?v='+css_version, files[path])
-    tool_css=ROOT/'assets/css/free-tools.css'
-    if tool_css.exists():
-        tool_version=hashlib.sha256(tool_css.read_bytes()).hexdigest()[:12]
-        for path in files:
-            if path.endswith('index.html'):
-                files[path]=re.sub(r'(/assets/css/free-tools\.css)(?:\?[^\"\s>]*)?', lambda m:m[1]+'?v='+tool_version, files[path])
+    for tool_name in ('free-tools.css','small-tools.css'):
+        tool_css=ROOT/'assets/css'/tool_name
+        if tool_css.exists():
+            tool_version=hashlib.sha256(tool_css.read_bytes()).hexdigest()[:12]
+            for path in files:
+                if path.endswith('index.html'):
+                    pattern=r'(/assets/css/'+re.escape(tool_name)+r')(?:\?[^\"\s>]*)?'
+                    files[path]=re.sub(pattern, lambda m:m[1]+'?v='+tool_version, files[path])
     if re.search(r'url\(|@import|</style',css,re.I):
         raise ValueError('Homepage inline CSS needs URL/HTML escaping review')
     logo_rules=[]
