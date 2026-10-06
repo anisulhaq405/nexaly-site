@@ -78,14 +78,17 @@ def replace_inner(source, ident, contents):
     e=entries[0];return source[:e['open_end']]+'\n'+contents+'\n'+source[e['close_start']:]
 
 def ensure_global_navigation(source):
-    """Keep the Product Guides hub discoverable in every desktop/mobile menu."""
-    if '<a href="/guides/">Product Guides</a>' in source:
-        return source
-    old='<a href="/journal/">Journal</a>'
-    new=old+'\n      <a href="/guides/">Product Guides</a>'
-    if old not in source:
-        return source
-    return source.replace(old,new,1)
+    """Keep guide and free-tool hubs discoverable without duplicate menu entries."""
+    def update(match):
+        nav = match.group(0)
+        if 'class="links"' not in nav:
+            return nav
+        if '<a href="/tools/">Free Tools</a>' not in nav:
+            nav = nav.replace('<a href="/pricing/">Pricing</a>', '<a href="/tools/">Free Tools</a>\n      <a href="/pricing/">Pricing</a>', 1)
+        if '<a href="/guides/">Product Guides</a>' not in nav:
+            nav = nav.replace('<a href="/journal/">Journal</a>', '<a href="/journal/">Journal</a>\n      <a href="/guides/">Product Guides</a>', 1)
+        return nav
+    return re.sub(r'<nav\b.*?</nav>', update, source, flags=re.S)
 def metadata(source,url):
     doc=Document(source)
     heads=doc.find('head');titles=[e for e in doc.find('title') if heads and e['start'] < heads[0]['end']];h1=doc.find('h1')

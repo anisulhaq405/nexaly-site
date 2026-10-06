@@ -649,6 +649,13 @@ a[href="/planners/renewguard-os/"] .pcover img{object-fit:contain;padding:12px;b
 
 /* Keep newsletter controls within narrow screens. */
 @media(max-width:520px){.news-form{min-width:0;flex-direction:column;align-items:stretch}.news-form input{min-width:0;width:100%}.news-form .btn{width:100%;justify-content:center}}
+
+/* Fit the authorized Free Tools menu item on smaller desktop/tablet widths. */
+@media(min-width:781px) and (max-width:1100px){
+  header.nav .nav-in{gap:8px;}
+  header.nav nav.links{gap:0;}
+  header.nav nav.links>a,header.nav nav.links>.nav-dd>a{font-size:11px;letter-spacing:0;padding:10px 7px;white-space:nowrap;}
+}
 </style><style id="nexaly-home-image-space">.brand-mark[src="/assets/img/logo-mark.png"]{aspect-ratio:112/92}.brand-mark[src="/assets/img/logo-light.png"]{aspect-ratio:380/345}</style>
 <style>
 .home-hero{max-width:1120px;margin:0 auto;padding:60px 24px 22px;text-align:center}
@@ -677,6 +684,7 @@ a[href="/planners/renewguard-os/"] .pcover img{object-fit:contain;padding:12px;b
     </a>
     <nav class="links" id="menu">
       <span class="nav-dd"><a href="/planners/">Products</a><span class="dd"><a href="/planners/digital-planners/">Digital Planners</a><a href="/planners/business-operating-systems/">Business Operating Systems</a></span></span>
+      <a href="/tools/">Free Tools</a>
       <a href="/pricing/">Pricing</a>
       <a href="/journal/">Journal</a>
       <a href="/guides/">Product Guides</a>
