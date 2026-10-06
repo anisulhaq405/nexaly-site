@@ -834,7 +834,7 @@ var posts = [
   {
     "tag": "Homeschool Schedule",
     "title": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
-    "date": "Updated Oct 4, 2026 · 5 min",
+    "date": "Updated Oct 6, 2026 · 5 min",
     "url": "/journal/homeschool-schedule-multiple-ages/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-lesson-planner-calendar.jpg",
     "alt": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
@@ -843,7 +843,7 @@ var posts = [
   {
     "tag": "Attendance Tracker",
     "title": "Homeschool Attendance Tracker: A Simple Daily Record",
-    "date": "Updated Oct 4, 2026 · 5 min",
+    "date": "Updated Oct 6, 2026 · 5 min",
     "url": "/journal/homeschool-attendance-tracker/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-reports-transcript.jpg",
     "alt": "Homeschool Attendance Tracker: A Simple Daily Record",
