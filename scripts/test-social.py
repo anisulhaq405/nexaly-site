@@ -10,6 +10,7 @@ import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('publisher', ROOT / 'scripts/publish-social.py')
@@ -20,6 +21,15 @@ class Response(io.BytesIO):
     status = 200
 
 class DeliveryTests(unittest.TestCase):
+    def test_hosting_recompression_and_changed_image(self):
+        original = Image.new('RGB', (200, 100), (80, 110, 130))
+        first, recompressed, changed = io.BytesIO(), io.BytesIO(), io.BytesIO()
+        original.save(first, 'JPEG', quality=95)
+        original.save(recompressed, 'JPEG', quality=85)
+        Image.new('RGB', (200, 100), 'red').save(changed, 'JPEG')
+        self.assertTrue(publisher.image_matches(recompressed.getvalue(), first.getvalue()))
+        self.assertFalse(publisher.image_matches(changed.getvalue(), first.getvalue()))
+        self.assertFalse(publisher.image_matches(b'<html>not an image</html>', first.getvalue()))
     def test_baseline_retry_and_ambiguous_timeout(self):
         with tempfile.TemporaryDirectory() as tmp:
             remote = Path(tmp) / 'remote.git'

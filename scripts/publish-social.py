@@ -3,13 +3,14 @@
 import importlib.util
 import json
 import os
+import io
 import subprocess
 import tempfile
 import time
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps, ImageChops, ImageStat
 
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('social_feed', ROOT / 'scripts/social-feed.py')
@@ -22,6 +23,23 @@ BRANCH = 'social-publish-state'
 
 def now():
     return datetime.now(timezone.utc).isoformat()
+
+def image_matches(live, authored):
+    if live == authored:
+        return True
+    # Hostinger recompresses JPEGs without changing the pictured content. Compare
+    # decoded pixels as well as bytes; reject changed aspect ratios or visible changes.
+    try:
+        with Image.open(io.BytesIO(live)) as a, Image.open(io.BytesIO(authored)) as b:
+            a, b = ImageOps.exif_transpose(a), ImageOps.exif_transpose(b)
+            if abs(a.width / a.height - b.width / b.height) > 0.01:
+                return False
+            a = a.convert('RGB').resize((128, 128))
+            b = b.convert('RGB').resize((128, 128))
+            delta = ImageStat.Stat(ImageChops.difference(a, b))
+            return max(delta.mean) <= 1.5 and max(delta.rms) <= 3
+    except Exception:
+        return False
 
 def run():
     webhook = os.environ.get('MAKE_NEXALY_SOCIAL_WEBHOOK_URL')
@@ -78,7 +96,8 @@ def run():
         raise RuntimeError('Could not persist delivery reservation; no further posts sent.')
     test_url = os.environ.get('SOCIAL_TEST_URL', '')
     smoke_url = os.environ.get('SOCIAL_FIRST_TEST_URL', '')
-    first_test = bool(smoke_url and not state.get('firstTestCompleted'))
+    untouched_test = all(state['records'].get(smoke_url + '|' + d, {}).get('status') == 'baseline' for d in destinations)
+    first_test = bool(smoke_url and (not state.get('firstTestCompleted') or untouched_test))
     if first_test and not test_url:
         test_url = smoke_url
     if test_url and test_url not in {item['url'] for item in feed['items']}:
@@ -114,7 +133,7 @@ def run():
                 live = feed_module.content_hash(source) == item['contentHash']
                 if live:
                     with urllib.request.urlopen(item['imageSource'], timeout=15) as response:
-                        live = feed_module.digest(response.read()) == feed_module.digest((ROOT / item['imagePath']).read_bytes())
+                        live = image_matches(response.read(), (ROOT / item['imagePath']).read_bytes())
             except Exception:
                 live = False
             if live:
