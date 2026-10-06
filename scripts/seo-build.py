@@ -84,7 +84,7 @@ def ensure_global_navigation(source):
         if 'class="links"' not in nav:
             return nav
         if '<a href="/tools/">Free Tools</a>' not in nav:
-            nav = nav.replace('<a href="/pricing/">Pricing</a>', '<a href="/tools/">Free Tools</a>\n      <a href="/pricing/">Pricing</a>', 1)
+            nav = re.sub(r'<a\b[^>]*href="/pricing/"[^>]*>Pricing</a>', lambda m:'<a href="/tools/">Free Tools</a>\n      '+m[0], nav, count=1)
         if '<a href="/guides/">Product Guides</a>' not in nav:
             nav = nav.replace('<a href="/journal/">Journal</a>', '<a href="/journal/">Journal</a>\n      <a href="/guides/">Product Guides</a>', 1)
         return nav
@@ -217,6 +217,16 @@ def build(check=False):
     # Preserve the full CSS cascade while avoiding a blocking homepage round trip.
     # Other pages continue to use the shared, cacheable stylesheet.
     css=(ROOT/'assets/css/style.css').read_text()
+    css_version=hashlib.sha256(css.encode()).hexdigest()[:12]
+    for path in files:
+        if path.endswith('index.html'):
+            files[path]=re.sub(r'(/assets/css/style\.css)(?:\?[^\"\s>]*)?', lambda m:m[1]+'?v='+css_version, files[path])
+    tool_css=ROOT/'assets/css/free-tools.css'
+    if tool_css.exists():
+        tool_version=hashlib.sha256(tool_css.read_bytes()).hexdigest()[:12]
+        for path in files:
+            if path.endswith('index.html'):
+                files[path]=re.sub(r'(/assets/css/free-tools\.css)(?:\?[^\"\s>]*)?', lambda m:m[1]+'?v='+tool_version, files[path])
     if re.search(r'url\(|@import|</style',css,re.I):
         raise ValueError('Homepage inline CSS needs URL/HTML escaping review')
     logo_rules=[]

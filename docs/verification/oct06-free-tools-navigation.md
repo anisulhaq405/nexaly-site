@@ -9,3 +9,5 @@ The `/tools/` directory has eight category anchors, one working tool and an avai
 Local Chromium checks passed at 360, 390, 768, 820, 1024 and 1440 px: menu visibility, mobile burger state, one Free Tools link, direct navigation, category anchors, search success/no-match/reset, no document overflow and no runtime errors. Desktop and mobile screenshots inspected. Existing product page menu checked. SEO generation consistency and core freeze pass. Existing publishing regressions run before release.
 
 This change improves discovery and navigation; it does not guarantee Google indexing or an authority-score increase. New tools must be fully functional and tested before cards and sitemap entries are added.
+
+Live verification found an old cached free-tools stylesheet. Publishing now derives content-hash revisions for shared and free-tools CSS links so changed styles reload reliably. Bundle baseline includes the authorized CSS revision.
