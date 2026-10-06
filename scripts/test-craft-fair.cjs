@@ -1,0 +1,16 @@
+const assert=require('node:assert/strict');
+const {calculate,validateBackup,csvCell,cents}=require('../assets/js/craft-fair-tool.js');
+const row={id:'fixture',item:'Mug',brought:20,sold:8,gifted:1,damaged:1,returned:10,price:'15.00'};
+const data={event:'Test',date:'2026-10-06',currency:'USD',costs:'40.00',rows:[row]};
+assert.deepEqual(Object.fromEntries(Object.entries(calculate(data)).filter(([k])=>k!=='rows')),{revenue:12000,expected:10,actual:10,difference:0,costs:4000,afterCosts:8000,discrepancies:0});
+assert.equal(calculate({...data,rows:[{...row,returned:9}]}).difference,-1);
+assert.equal(calculate({...data,rows:[{...row,price:'0.10',sold:3,returned:15}]}).revenue,30);
+assert.equal(calculate({...data,costs:'200'}).afterCosts,-8000);
+for(const mutation of [{brought:''},{sold:-1},{sold:21},{brought:1.5},{price:'NaN'},{price:'1.001'},{item:''}])assert.throws(()=>calculate({...data,rows:[{...row,...mutation}]}));
+assert.throws(()=>calculate({...data,rows:[row,row]}));
+assert.throws(()=>calculate({...data,costs:''}));
+assert.throws(()=>calculate({...data,rows:[]}));
+const backup={tool:'craft-fair-stock-reconciliation',version:1,data};assert.deepEqual(validateBackup(JSON.parse(JSON.stringify(backup))),data);
+assert.throws(()=>validateBackup({...backup,version:2}));assert.throws(()=>validateBackup({...backup,data:{...data,date:'2026-02-30'}}));
+assert.equal(csvCell('=1+1'),'"\'=1+1"');assert.equal(csvCell('a"b'),'"a""b"');assert.equal(cents('0.29'),29);
+console.log('PASS craft fair formula, money precision, boundaries, duplicate IDs, backup round trip, date and CSV validation');
