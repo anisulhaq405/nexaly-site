@@ -1,0 +1,1733 @@
+{
+  "version": 1,
+  "records": {
+    "https://nexalyplanner.com/guides/adhd-digital-planner/|facebook": {
+      "revision": "030be6a2275373cdeb643408a1e6fa03f95184a7b5dc73a89e3f6db78e856a2a",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/adhd-digital-planner/|instagram": {
+      "revision": "030be6a2275373cdeb643408a1e6fa03f95184a7b5dc73a89e3f6db78e856a2a",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/adhd-digital-planner/|pinterest": {
+      "revision": "030be6a2275373cdeb643408a1e6fa03f95184a7b5dc73a89e3f6db78e856a2a",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/adhd-digital-planner/|youtube": {
+      "revision": "030be6a2275373cdeb643408a1e6fa03f95184a7b5dc73a89e3f6db78e856a2a",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/agency-client-profitability-capacity-os/|facebook": {
+      "revision": "098820498d69fd0a9915dd5621036cd0462512937e886a99f33e3007846d9488",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/agency-client-profitability-capacity-os/|instagram": {
+      "revision": "098820498d69fd0a9915dd5621036cd0462512937e886a99f33e3007846d9488",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/agency-client-profitability-capacity-os/|pinterest": {
+      "revision": "098820498d69fd0a9915dd5621036cd0462512937e886a99f33e3007846d9488",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/agency-client-profitability-capacity-os/|youtube": {
+      "revision": "098820498d69fd0a9915dd5621036cd0462512937e886a99f33e3007846d9488",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/ai-student-planner/|facebook": {
+      "revision": "d73f7bab15be32a948402d304ab64a17505df5a366760e125e7351f9f5055624",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/ai-student-planner/|instagram": {
+      "revision": "d73f7bab15be32a948402d304ab64a17505df5a366760e125e7351f9f5055624",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/ai-student-planner/|pinterest": {
+      "revision": "d73f7bab15be32a948402d304ab64a17505df5a366760e125e7351f9f5055624",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/ai-student-planner/|youtube": {
+      "revision": "d73f7bab15be32a948402d304ab64a17505df5a366760e125e7351f9f5055624",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/batchtrace-os/|facebook": {
+      "revision": "83b25a9184afe0dd42828e9ddd362eb0a2963ebb2c906cc02d58ecb62c40ae70",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/batchtrace-os/|instagram": {
+      "revision": "83b25a9184afe0dd42828e9ddd362eb0a2963ebb2c906cc02d58ecb62c40ae70",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/batchtrace-os/|pinterest": {
+      "revision": "83b25a9184afe0dd42828e9ddd362eb0a2963ebb2c906cc02d58ecb62c40ae70",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/batchtrace-os/|youtube": {
+      "revision": "83b25a9184afe0dd42828e9ddd362eb0a2963ebb2c906cc02d58ecb62c40ae70",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/boutique-business-planner/|facebook": {
+      "revision": "ef8aaafdac6b32759841ef6be5de8fa400fc8661fc1df6a0c403172a48a938a3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/boutique-business-planner/|instagram": {
+      "revision": "ef8aaafdac6b32759841ef6be5de8fa400fc8661fc1df6a0c403172a48a938a3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/boutique-business-planner/|pinterest": {
+      "revision": "ef8aaafdac6b32759841ef6be5de8fa400fc8661fc1df6a0c403172a48a938a3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/boutique-business-planner/|youtube": {
+      "revision": "ef8aaafdac6b32759841ef6be5de8fa400fc8661fc1df6a0c403172a48a938a3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/business-runway-burn-rate-os/|facebook": {
+      "revision": "ca3a9be9407c7d4d64e84b1106b1d7fc9ca247bf31730e774dce9b5ec17b2f50",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/business-runway-burn-rate-os/|instagram": {
+      "revision": "ca3a9be9407c7d4d64e84b1106b1d7fc9ca247bf31730e774dce9b5ec17b2f50",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/business-runway-burn-rate-os/|pinterest": {
+      "revision": "ca3a9be9407c7d4d64e84b1106b1d7fc9ca247bf31730e774dce9b5ec17b2f50",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/business-runway-burn-rate-os/|youtube": {
+      "revision": "ca3a9be9407c7d4d64e84b1106b1d7fc9ca247bf31730e774dce9b5ec17b2f50",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/calibratrack-os/|facebook": {
+      "revision": "6812e32182ebca070e28f365b4ac4e570eb212322150adacd82ca06cdf8f5c91",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/calibratrack-os/|instagram": {
+      "revision": "6812e32182ebca070e28f365b4ac4e570eb212322150adacd82ca06cdf8f5c91",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/calibratrack-os/|pinterest": {
+      "revision": "6812e32182ebca070e28f365b4ac4e570eb212322150adacd82ca06cdf8f5c91",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/calibratrack-os/|youtube": {
+      "revision": "6812e32182ebca070e28f365b4ac4e570eb212322150adacd82ca06cdf8f5c91",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/caregiver-planner-aging-parents/|facebook": {
+      "revision": "b5cab8c496f06ac5206e2a50388cfe42ab761d2fb5186a584b0b4616c3fe899e",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/caregiver-planner-aging-parents/|instagram": {
+      "revision": "b5cab8c496f06ac5206e2a50388cfe42ab761d2fb5186a584b0b4616c3fe899e",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/caregiver-planner-aging-parents/|pinterest": {
+      "revision": "b5cab8c496f06ac5206e2a50388cfe42ab761d2fb5186a584b0b4616c3fe899e",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/caregiver-planner-aging-parents/|youtube": {
+      "revision": "b5cab8c496f06ac5206e2a50388cfe42ab761d2fb5186a584b0b4616c3fe899e",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/cashflow-13-os/|facebook": {
+      "revision": "a98336d88a1fd0be98d853bef3f9246fe58be275492b17ff4806524eba29be19",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/cashflow-13-os/|instagram": {
+      "revision": "a98336d88a1fd0be98d853bef3f9246fe58be275492b17ff4806524eba29be19",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/cashflow-13-os/|pinterest": {
+      "revision": "a98336d88a1fd0be98d853bef3f9246fe58be275492b17ff4806524eba29be19",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/cashflow-13-os/|youtube": {
+      "revision": "a98336d88a1fd0be98d853bef3f9246fe58be275492b17ff4806524eba29be19",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/consignclear-os/|facebook": {
+      "revision": "7b6de0fa3c606fa79012d737e602e70ce63dc7a5a0f33823afd51ba87ad6d4fa",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/consignclear-os/|instagram": {
+      "revision": "7b6de0fa3c606fa79012d737e602e70ce63dc7a5a0f33823afd51ba87ad6d4fa",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/consignclear-os/|pinterest": {
+      "revision": "7b6de0fa3c606fa79012d737e602e70ce63dc7a5a0f33823afd51ba87ad6d4fa",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/consignclear-os/|youtube": {
+      "revision": "7b6de0fa3c606fa79012d737e602e70ce63dc7a5a0f33823afd51ba87ad6d4fa",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/content-marketing-planner/|facebook": {
+      "revision": "ea04262e12baa4017aa9d5e70a8f795924ecc30751f7306bc1661e8aa810b400",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/content-marketing-planner/|instagram": {
+      "revision": "ea04262e12baa4017aa9d5e70a8f795924ecc30751f7306bc1661e8aa810b400",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/content-marketing-planner/|pinterest": {
+      "revision": "ea04262e12baa4017aa9d5e70a8f795924ecc30751f7306bc1661e8aa810b400",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/content-marketing-planner/|youtube": {
+      "revision": "ea04262e12baa4017aa9d5e70a8f795924ecc30751f7306bc1661e8aa810b400",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/digital-homeschool-planner/|facebook": {
+      "revision": "dbe766fb7eaa1ab8dc44daf85dcc0e8fa8647275db6eb582cc9101538794d479",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/digital-homeschool-planner/|instagram": {
+      "revision": "dbe766fb7eaa1ab8dc44daf85dcc0e8fa8647275db6eb582cc9101538794d479",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/digital-homeschool-planner/|pinterest": {
+      "revision": "dbe766fb7eaa1ab8dc44daf85dcc0e8fa8647275db6eb582cc9101538794d479",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/digital-homeschool-planner/|youtube": {
+      "revision": "dbe766fb7eaa1ab8dc44daf85dcc0e8fa8647275db6eb582cc9101538794d479",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/inventory-procurement-planner/|facebook": {
+      "revision": "8c247b60c5da89d2a6551938f1c2ca13efb974a95aa6f87e77b307e03beaf728",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/inventory-procurement-planner/|instagram": {
+      "revision": "8c247b60c5da89d2a6551938f1c2ca13efb974a95aa6f87e77b307e03beaf728",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/inventory-procurement-planner/|pinterest": {
+      "revision": "8c247b60c5da89d2a6551938f1c2ca13efb974a95aa6f87e77b307e03beaf728",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/inventory-procurement-planner/|youtube": {
+      "revision": "8c247b60c5da89d2a6551938f1c2ca13efb974a95aa6f87e77b307e03beaf728",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/offline-ai-business-copilot/|facebook": {
+      "revision": "d75d1b15ba37e713fc18a41471dbd5b06ea6c5d8c458dd60fecb350320435884",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/offline-ai-business-copilot/|instagram": {
+      "revision": "d75d1b15ba37e713fc18a41471dbd5b06ea6c5d8c458dd60fecb350320435884",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/offline-ai-business-copilot/|pinterest": {
+      "revision": "d75d1b15ba37e713fc18a41471dbd5b06ea6c5d8c458dd60fecb350320435884",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/offline-ai-business-copilot/|youtube": {
+      "revision": "d75d1b15ba37e713fc18a41471dbd5b06ea6c5d8c458dd60fecb350320435884",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/owneros-core/|facebook": {
+      "revision": "040c33896fb4cc645688d94943585a76925a62a93ffea290b292c523f1c865c2",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/owneros-core/|instagram": {
+      "revision": "040c33896fb4cc645688d94943585a76925a62a93ffea290b292c523f1c865c2",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/owneros-core/|pinterest": {
+      "revision": "040c33896fb4cc645688d94943585a76925a62a93ffea290b292c523f1c865c2",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/owneros-core/|youtube": {
+      "revision": "040c33896fb4cc645688d94943585a76925a62a93ffea290b292c523f1c865c2",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/renewguard-os/|facebook": {
+      "revision": "2482129505280475576fe7516b8e37957da2cf84ca511238c273120098134696",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/renewguard-os/|instagram": {
+      "revision": "2482129505280475576fe7516b8e37957da2cf84ca511238c273120098134696",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/renewguard-os/|pinterest": {
+      "revision": "2482129505280475576fe7516b8e37957da2cf84ca511238c273120098134696",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/renewguard-os/|youtube": {
+      "revision": "2482129505280475576fe7516b8e37957da2cf84ca511238c273120098134696",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/rentflow-os/|facebook": {
+      "revision": "a6fd2052af4d68ae1032f4c5a83085a9ca0c205db20f028e286288903f27d2b8",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/rentflow-os/|instagram": {
+      "revision": "a6fd2052af4d68ae1032f4c5a83085a9ca0c205db20f028e286288903f27d2b8",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/rentflow-os/|pinterest": {
+      "revision": "a6fd2052af4d68ae1032f4c5a83085a9ca0c205db20f028e286288903f27d2b8",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/rentflow-os/|youtube": {
+      "revision": "a6fd2052af4d68ae1032f4c5a83085a9ca0c205db20f028e286288903f27d2b8",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/repairbench-os/|facebook": {
+      "revision": "7c422ec5a463942c8d6bbea429927e89139890e8c80519943cd9edc827f44107",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/repairbench-os/|instagram": {
+      "revision": "7c422ec5a463942c8d6bbea429927e89139890e8c80519943cd9edc827f44107",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/repairbench-os/|pinterest": {
+      "revision": "7c422ec5a463942c8d6bbea429927e89139890e8c80519943cd9edc827f44107",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/repairbench-os/|youtube": {
+      "revision": "7c422ec5a463942c8d6bbea429927e89139890e8c80519943cd9edc827f44107",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/sales-management-system/|facebook": {
+      "revision": "ee49dce039b7ae46887839e62ce0b36e7b8d70a7e797067ae782c89a8a1f6841",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/sales-management-system/|instagram": {
+      "revision": "ee49dce039b7ae46887839e62ce0b36e7b8d70a7e797067ae782c89a8a1f6841",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/sales-management-system/|pinterest": {
+      "revision": "ee49dce039b7ae46887839e62ce0b36e7b8d70a7e797067ae782c89a8a1f6841",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/sales-management-system/|youtube": {
+      "revision": "ee49dce039b7ae46887839e62ce0b36e7b8d70a7e797067ae782c89a8a1f6841",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/small-business-planner/|facebook": {
+      "revision": "4b9dcb0360eeaf02b2a8be7d87d802c18973af120b984a3988dadbe4be1c9590",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/small-business-planner/|instagram": {
+      "revision": "4b9dcb0360eeaf02b2a8be7d87d802c18973af120b984a3988dadbe4be1c9590",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/small-business-planner/|pinterest": {
+      "revision": "4b9dcb0360eeaf02b2a8be7d87d802c18973af120b984a3988dadbe4be1c9590",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/small-business-planner/|youtube": {
+      "revision": "4b9dcb0360eeaf02b2a8be7d87d802c18973af120b984a3988dadbe4be1c9590",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/vendorpulse-os/|facebook": {
+      "revision": "96f8480fd410c319caaf9093ab210049b21408aadf22f93543d56d5674889a69",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/vendorpulse-os/|instagram": {
+      "revision": "96f8480fd410c319caaf9093ab210049b21408aadf22f93543d56d5674889a69",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/vendorpulse-os/|pinterest": {
+      "revision": "96f8480fd410c319caaf9093ab210049b21408aadf22f93543d56d5674889a69",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/guides/vendorpulse-os/|youtube": {
+      "revision": "96f8480fd410c319caaf9093ab210049b21408aadf22f93543d56d5674889a69",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/2026-monthly-planner-free-layouts/|facebook": {
+      "revision": "1fabe7cff619e58a46520c21fcc28f437d448513ae0b82407b056e9b76409f83",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/2026-monthly-planner-free-layouts/|instagram": {
+      "revision": "1fabe7cff619e58a46520c21fcc28f437d448513ae0b82407b056e9b76409f83",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/2026-monthly-planner-free-layouts/|pinterest": {
+      "revision": "1fabe7cff619e58a46520c21fcc28f437d448513ae0b82407b056e9b76409f83",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/2026-monthly-planner-free-layouts/|youtube": {
+      "revision": "1fabe7cff619e58a46520c21fcc28f437d448513ae0b82407b056e9b76409f83",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/a5-planner-sizes-layouts-digital-options/|facebook": {
+      "revision": "d97665f43d232bfe09fada02bc9e765b6928b064ff8e31bf4c8ac85ff3238557",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/a5-planner-sizes-layouts-digital-options/|instagram": {
+      "revision": "d97665f43d232bfe09fada02bc9e765b6928b064ff8e31bf4c8ac85ff3238557",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/a5-planner-sizes-layouts-digital-options/|pinterest": {
+      "revision": "d97665f43d232bfe09fada02bc9e765b6928b064ff8e31bf4c8ac85ff3238557",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/a5-planner-sizes-layouts-digital-options/|youtube": {
+      "revision": "d97665f43d232bfe09fada02bc9e765b6928b064ff8e31bf4c8ac85ff3238557",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/academic-planner-school-year/|facebook": {
+      "revision": "54e8d2ad013f54c4a114d1747961260ab120ae57c996b811e9c3b892db8c5102",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/academic-planner-school-year/|instagram": {
+      "revision": "54e8d2ad013f54c4a114d1747961260ab120ae57c996b811e9c3b892db8c5102",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/academic-planner-school-year/|pinterest": {
+      "revision": "54e8d2ad013f54c4a114d1747961260ab120ae57c996b811e9c3b892db8c5102",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/academic-planner-school-year/|youtube": {
+      "revision": "54e8d2ad013f54c4a114d1747961260ab120ae57c996b811e9c3b892db8c5102",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/adhd-planner-for-adults/|facebook": {
+      "revision": "be618e74991d7c7657e1d359316060c6e7bf0445a052fb952f11efd795762dc3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/adhd-planner-for-adults/|instagram": {
+      "revision": "be618e74991d7c7657e1d359316060c6e7bf0445a052fb952f11efd795762dc3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/adhd-planner-for-adults/|pinterest": {
+      "revision": "be618e74991d7c7657e1d359316060c6e7bf0445a052fb952f11efd795762dc3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/adhd-planner-for-adults/|youtube": {
+      "revision": "be618e74991d7c7657e1d359316060c6e7bf0445a052fb952f11efd795762dc3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/agency-capacity-planning-example/|facebook": {
+      "revision": "1693db73cf97ba4d6b7790c35c31dac68745412a07760f37f1db4b7f21135027",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/agency-capacity-planning-example/|instagram": {
+      "revision": "1693db73cf97ba4d6b7790c35c31dac68745412a07760f37f1db4b7f21135027",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/agency-capacity-planning-example/|pinterest": {
+      "revision": "1693db73cf97ba4d6b7790c35c31dac68745412a07760f37f1db4b7f21135027",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/agency-capacity-planning-example/|youtube": {
+      "revision": "1693db73cf97ba4d6b7790c35c31dac68745412a07760f37f1db4b7f21135027",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/batch-lot-traceability-log/|facebook": {
+      "revision": "b6a738f8b2aa822b088b9953019536e2bef0aec74175eb7088f41efe3ad434fb",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/batch-lot-traceability-log/|instagram": {
+      "revision": "b6a738f8b2aa822b088b9953019536e2bef0aec74175eb7088f41efe3ad434fb",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/batch-lot-traceability-log/|pinterest": {
+      "revision": "b6a738f8b2aa822b088b9953019536e2bef0aec74175eb7088f41efe3ad434fb",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/batch-lot-traceability-log/|youtube": {
+      "revision": "b6a738f8b2aa822b088b9953019536e2bef0aec74175eb7088f41efe3ad434fb",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-2026-planners-digital-printable-options/|facebook": {
+      "revision": "392d61c5aeb8416091c97876d26f311808b873bc84cada4ad8c6d3d21dd7cb33",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-2026-planners-digital-printable-options/|instagram": {
+      "revision": "392d61c5aeb8416091c97876d26f311808b873bc84cada4ad8c6d3d21dd7cb33",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-2026-planners-digital-printable-options/|pinterest": {
+      "revision": "392d61c5aeb8416091c97876d26f311808b873bc84cada4ad8c6d3d21dd7cb33",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-2026-planners-digital-printable-options/|youtube": {
+      "revision": "392d61c5aeb8416091c97876d26f311808b873bc84cada4ad8c6d3d21dd7cb33",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-digital-planner-for-ipad/|facebook": {
+      "revision": "67433439419e4f007c71bc18ea13049f4f81b44d884ccb39580dc51d5b3ecbbc",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-digital-planner-for-ipad/|instagram": {
+      "revision": "67433439419e4f007c71bc18ea13049f4f81b44d884ccb39580dc51d5b3ecbbc",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-digital-planner-for-ipad/|pinterest": {
+      "revision": "67433439419e4f007c71bc18ea13049f4f81b44d884ccb39580dc51d5b3ecbbc",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-digital-planner-for-ipad/|youtube": {
+      "revision": "67433439419e4f007c71bc18ea13049f4f81b44d884ccb39580dc51d5b3ecbbc",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-offline-small-business-software/|facebook": {
+      "revision": "2a1f48e19a03779b9bd025717a27a27741dbc0de78e3abf22203528771c754cf",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-offline-small-business-software/|instagram": {
+      "revision": "2a1f48e19a03779b9bd025717a27a27741dbc0de78e3abf22203528771c754cf",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-offline-small-business-software/|pinterest": {
+      "revision": "2a1f48e19a03779b9bd025717a27a27741dbc0de78e3abf22203528771c754cf",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-offline-small-business-software/|youtube": {
+      "revision": "2a1f48e19a03779b9bd025717a27a27741dbc0de78e3abf22203528771c754cf",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-planner-app-for-ipad-2026/|facebook": {
+      "revision": "8b1d4dac992e69a1a5e2a7676fbe1cf82b0e27ab20cac14f6c52d5404c04bae8",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-planner-app-for-ipad-2026/|instagram": {
+      "revision": "8b1d4dac992e69a1a5e2a7676fbe1cf82b0e27ab20cac14f6c52d5404c04bae8",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-planner-app-for-ipad-2026/|pinterest": {
+      "revision": "8b1d4dac992e69a1a5e2a7676fbe1cf82b0e27ab20cac14f6c52d5404c04bae8",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/best-planner-app-for-ipad-2026/|youtube": {
+      "revision": "8b1d4dac992e69a1a5e2a7676fbe1cf82b0e27ab20cac14f6c52d5404c04bae8",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/black-friday-marketing-plan-small-business/|facebook": {
+      "revision": "f852194aa6b3fa1700f43d26a4f8609f33dd3d526ba45b4cf5a6c0f1fe81c5e4",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/black-friday-marketing-plan-small-business/|instagram": {
+      "revision": "f852194aa6b3fa1700f43d26a4f8609f33dd3d526ba45b4cf5a6c0f1fe81c5e4",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/black-friday-marketing-plan-small-business/|pinterest": {
+      "revision": "f852194aa6b3fa1700f43d26a4f8609f33dd3d526ba45b4cf5a6c0f1fe81c5e4",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/black-friday-marketing-plan-small-business/|youtube": {
+      "revision": "f852194aa6b3fa1700f43d26a4f8609f33dd3d526ba45b4cf5a6c0f1fe81c5e4",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/boutique-inventory-spreadsheet/|facebook": {
+      "revision": "5fa18ff6a404784a2df8de0a2d4b671f35c1d78155ab5a6eb6183fe73639bfb2",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/boutique-inventory-spreadsheet/|instagram": {
+      "revision": "5fa18ff6a404784a2df8de0a2d4b671f35c1d78155ab5a6eb6183fe73639bfb2",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/boutique-inventory-spreadsheet/|pinterest": {
+      "revision": "5fa18ff6a404784a2df8de0a2d4b671f35c1d78155ab5a6eb6183fe73639bfb2",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/boutique-inventory-spreadsheet/|youtube": {
+      "revision": "5fa18ff6a404784a2df8de0a2d4b671f35c1d78155ab5a6eb6183fe73639bfb2",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/boutique-social-media-post-ideas/|facebook": {
+      "revision": "2191ab83acae97b34769790e24347a0ab3a1b4c589d94e27094d7c79bd11796c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/boutique-social-media-post-ideas/|instagram": {
+      "revision": "2191ab83acae97b34769790e24347a0ab3a1b4c589d94e27094d7c79bd11796c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/boutique-social-media-post-ideas/|pinterest": {
+      "revision": "2191ab83acae97b34769790e24347a0ab3a1b4c589d94e27094d7c79bd11796c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/boutique-social-media-post-ideas/|youtube": {
+      "revision": "2191ab83acae97b34769790e24347a0ab3a1b4c589d94e27094d7c79bd11796c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/business-planner-weekly-review/|facebook": {
+      "revision": "9e902c463cbbcb0644017fc71659dc25facc1d55f6d96a3e55d76094ec6c67dc",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/business-planner-weekly-review/|instagram": {
+      "revision": "9e902c463cbbcb0644017fc71659dc25facc1d55f6d96a3e55d76094ec6c67dc",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/business-planner-weekly-review/|pinterest": {
+      "revision": "9e902c463cbbcb0644017fc71659dc25facc1d55f6d96a3e55d76094ec6c67dc",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/business-planner-weekly-review/|youtube": {
+      "revision": "9e902c463cbbcb0644017fc71659dc25facc1d55f6d96a3e55d76094ec6c67dc",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/caregiver-daily-log-template/|facebook": {
+      "revision": "e3da3adac71093705a357e99170044e9b5e6189d1570b22c022185bf466c135c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/caregiver-daily-log-template/|instagram": {
+      "revision": "e3da3adac71093705a357e99170044e9b5e6189d1570b22c022185bf466c135c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/caregiver-daily-log-template/|pinterest": {
+      "revision": "e3da3adac71093705a357e99170044e9b5e6189d1570b22c022185bf466c135c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/caregiver-daily-log-template/|youtube": {
+      "revision": "e3da3adac71093705a357e99170044e9b5e6189d1570b22c022185bf466c135c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/|facebook": {
+      "revision": "4ec76faa4d0bf2f133da9b8c1bb0a921112ea49c8e9db7f0f33af030e4c77928",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/|instagram": {
+      "revision": "4ec76faa4d0bf2f133da9b8c1bb0a921112ea49c8e9db7f0f33af030e4c77928",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/|pinterest": {
+      "revision": "4ec76faa4d0bf2f133da9b8c1bb0a921112ea49c8e9db7f0f33af030e4c77928",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/|youtube": {
+      "revision": "4ec76faa4d0bf2f133da9b8c1bb0a921112ea49c8e9db7f0f33af030e4c77928",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/cash-runway-template/|facebook": {
+      "revision": "663f76133c1326f3c907500e66219dc6c2de0334a0bdfb4e3eb4a74689d5052b",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/cash-runway-template/|instagram": {
+      "revision": "663f76133c1326f3c907500e66219dc6c2de0334a0bdfb4e3eb4a74689d5052b",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/cash-runway-template/|pinterest": {
+      "revision": "663f76133c1326f3c907500e66219dc6c2de0334a0bdfb4e3eb4a74689d5052b",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/cash-runway-template/|youtube": {
+      "revision": "663f76133c1326f3c907500e66219dc6c2de0334a0bdfb4e3eb4a74689d5052b",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/client-profitability-analysis/|facebook": {
+      "revision": "b894e1193d91b292c1842086ac19a5b22d3f85afbd314a2d2888365c4a5071f5",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/client-profitability-analysis/|instagram": {
+      "revision": "b894e1193d91b292c1842086ac19a5b22d3f85afbd314a2d2888365c4a5071f5",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/client-profitability-analysis/|pinterest": {
+      "revision": "b894e1193d91b292c1842086ac19a5b22d3f85afbd314a2d2888365c4a5071f5",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/client-profitability-analysis/|youtube": {
+      "revision": "b894e1193d91b292c1842086ac19a5b22d3f85afbd314a2d2888365c4a5071f5",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/college-assignment-tracker/|facebook": {
+      "revision": "f65401f2bf44803d27dd6f2c9bb684ba580d2aab951eddcd20e25d55cf82b166",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/college-assignment-tracker/|instagram": {
+      "revision": "f65401f2bf44803d27dd6f2c9bb684ba580d2aab951eddcd20e25d55cf82b166",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/college-assignment-tracker/|pinterest": {
+      "revision": "f65401f2bf44803d27dd6f2c9bb684ba580d2aab951eddcd20e25d55cf82b166",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/college-assignment-tracker/|youtube": {
+      "revision": "f65401f2bf44803d27dd6f2c9bb684ba580d2aab951eddcd20e25d55cf82b166",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/content-calendar-clothing-brand/|facebook": {
+      "revision": "493af47e34cdcb5fa525ca17582c6526f69ce45017ecddd41eeac96dcae82a6d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/content-calendar-clothing-brand/|instagram": {
+      "revision": "493af47e34cdcb5fa525ca17582c6526f69ce45017ecddd41eeac96dcae82a6d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/content-calendar-clothing-brand/|pinterest": {
+      "revision": "493af47e34cdcb5fa525ca17582c6526f69ce45017ecddd41eeac96dcae82a6d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/content-calendar-clothing-brand/|youtube": {
+      "revision": "493af47e34cdcb5fa525ca17582c6526f69ce45017ecddd41eeac96dcae82a6d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/contract-renewal-workflow/|facebook": {
+      "revision": "645164641e41a950a1df9141805d3c24aaeaafb8501916baed47390852f88c00",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/contract-renewal-workflow/|instagram": {
+      "revision": "645164641e41a950a1df9141805d3c24aaeaafb8501916baed47390852f88c00",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/contract-renewal-workflow/|pinterest": {
+      "revision": "645164641e41a950a1df9141805d3c24aaeaafb8501916baed47390852f88c00",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/contract-renewal-workflow/|youtube": {
+      "revision": "645164641e41a950a1df9141805d3c24aaeaafb8501916baed47390852f88c00",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/daily-digital-planner/|facebook": {
+      "revision": "2a5aa2ee847e4cc53d6b89f9601f0ce8771587a30d1c3eef22e8d4b87e488ba6",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/daily-digital-planner/|instagram": {
+      "revision": "2a5aa2ee847e4cc53d6b89f9601f0ce8771587a30d1c3eef22e8d4b87e488ba6",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/daily-digital-planner/|pinterest": {
+      "revision": "2a5aa2ee847e4cc53d6b89f9601f0ce8771587a30d1c3eef22e8d4b87e488ba6",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/daily-digital-planner/|youtube": {
+      "revision": "2a5aa2ee847e4cc53d6b89f9601f0ce8771587a30d1c3eef22e8d4b87e488ba6",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/daily-planner-2026-free-layouts/|facebook": {
+      "revision": "153d09ebc300f17fd6a305848f4d3ef8778fb1b743c6c49876834571e47a1b9f",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/daily-planner-2026-free-layouts/|instagram": {
+      "revision": "153d09ebc300f17fd6a305848f4d3ef8778fb1b743c6c49876834571e47a1b9f",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/daily-planner-2026-free-layouts/|pinterest": {
+      "revision": "153d09ebc300f17fd6a305848f4d3ef8778fb1b743c6c49876834571e47a1b9f",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/daily-planner-2026-free-layouts/|youtube": {
+      "revision": "153d09ebc300f17fd6a305848f4d3ef8778fb1b743c6c49876834571e47a1b9f",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/daily-planner-complete-guide/|facebook": {
+      "revision": "39d6f1ec4300027265bc9273f9fff81008b6a197825c4921b08baf6dbf5a0e25",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/daily-planner-complete-guide/|instagram": {
+      "revision": "39d6f1ec4300027265bc9273f9fff81008b6a197825c4921b08baf6dbf5a0e25",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/daily-planner-complete-guide/|pinterest": {
+      "revision": "39d6f1ec4300027265bc9273f9fff81008b6a197825c4921b08baf6dbf5a0e25",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/daily-planner-complete-guide/|youtube": {
+      "revision": "39d6f1ec4300027265bc9273f9fff81008b6a197825c4921b08baf6dbf5a0e25",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/day-planner-vs-daily-planner/|facebook": {
+      "revision": "a6ed32383081956149aff195616b6bc421b4b3e9b271431d7c761c4b69fbe3fa",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/day-planner-vs-daily-planner/|instagram": {
+      "revision": "a6ed32383081956149aff195616b6bc421b4b3e9b271431d7c761c4b69fbe3fa",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/day-planner-vs-daily-planner/|pinterest": {
+      "revision": "a6ed32383081956149aff195616b6bc421b4b3e9b271431d7c761c4b69fbe3fa",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/day-planner-vs-daily-planner/|youtube": {
+      "revision": "a6ed32383081956149aff195616b6bc421b4b3e9b271431d7c761c4b69fbe3fa",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/digital-planner-app-how-it-works/|facebook": {
+      "revision": "46c90fbeb3b3fa0f54bc03541c6168c4105d142ff6c894a253c33f2b61a339db",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/digital-planner-app-how-it-works/|instagram": {
+      "revision": "46c90fbeb3b3fa0f54bc03541c6168c4105d142ff6c894a253c33f2b61a339db",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/digital-planner-app-how-it-works/|pinterest": {
+      "revision": "46c90fbeb3b3fa0f54bc03541c6168c4105d142ff6c894a253c33f2b61a339db",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/digital-planner-app-how-it-works/|youtube": {
+      "revision": "46c90fbeb3b3fa0f54bc03541c6168c4105d142ff6c894a253c33f2b61a339db",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/digital-planner-for-ipad-setup/|facebook": {
+      "revision": "eb5a34bc796b27c0fb1c0d90907fba19c496ce42033a966b96782555e932d40f",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/digital-planner-for-ipad-setup/|instagram": {
+      "revision": "eb5a34bc796b27c0fb1c0d90907fba19c496ce42033a966b96782555e932d40f",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/digital-planner-for-ipad-setup/|pinterest": {
+      "revision": "eb5a34bc796b27c0fb1c0d90907fba19c496ce42033a966b96782555e932d40f",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/digital-planner-for-ipad-setup/|youtube": {
+      "revision": "eb5a34bc796b27c0fb1c0d90907fba19c496ce42033a966b96782555e932d40f",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/equipment-calibration-log/|facebook": {
+      "revision": "ef4eda130fb9bf4adc15f05f7bd95510e96371187ded114dbf2db7c462ef4b20",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/equipment-calibration-log/|instagram": {
+      "revision": "ef4eda130fb9bf4adc15f05f7bd95510e96371187ded114dbf2db7c462ef4b20",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/equipment-calibration-log/|pinterest": {
+      "revision": "ef4eda130fb9bf4adc15f05f7bd95510e96371187ded114dbf2db7c462ef4b20",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/equipment-calibration-log/|youtube": {
+      "revision": "ef4eda130fb9bf4adc15f05f7bd95510e96371187ded114dbf2db7c462ef4b20",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/equipment-rental-business-plan-example/|facebook": {
+      "revision": "e466805b32b683c9c1382e9d5ef0fb0386ed233e08117f1a74c8618ccedc0c85",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/equipment-rental-business-plan-example/|instagram": {
+      "revision": "e466805b32b683c9c1382e9d5ef0fb0386ed233e08117f1a74c8618ccedc0c85",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/equipment-rental-business-plan-example/|pinterest": {
+      "revision": "e466805b32b683c9c1382e9d5ef0fb0386ed233e08117f1a74c8618ccedc0c85",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/equipment-rental-business-plan-example/|youtube": {
+      "revision": "e466805b32b683c9c1382e9d5ef0fb0386ed233e08117f1a74c8618ccedc0c85",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/exam-study-schedule-template/|facebook": {
+      "revision": "57218cca60e56242a0db428773a57101ca2744a765a94cbb126db8c1cd46ca10",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/exam-study-schedule-template/|instagram": {
+      "revision": "57218cca60e56242a0db428773a57101ca2744a765a94cbb126db8c1cd46ca10",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/exam-study-schedule-template/|pinterest": {
+      "revision": "57218cca60e56242a0db428773a57101ca2744a765a94cbb126db8c1cd46ca10",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/exam-study-schedule-template/|youtube": {
+      "revision": "57218cca60e56242a0db428773a57101ca2744a765a94cbb126db8c1cd46ca10",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/free-digital-planner-for-ipad/|facebook": {
+      "revision": "d2ff368eebc031d464c7c3c3c24ad00d9b849594480fc3d8f6bb80cb62674f7d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/free-digital-planner-for-ipad/|instagram": {
+      "revision": "d2ff368eebc031d464c7c3c3c24ad00d9b849594480fc3d8f6bb80cb62674f7d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/free-digital-planner-for-ipad/|pinterest": {
+      "revision": "d2ff368eebc031d464c7c3c3c24ad00d9b849594480fc3d8f6bb80cb62674f7d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/free-digital-planner-for-ipad/|youtube": {
+      "revision": "d2ff368eebc031d464c7c3c3c24ad00d9b849594480fc3d8f6bb80cb62674f7d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/freelance-business-plan-example/|facebook": {
+      "revision": "58012cf8232ea02e6c556233a0674b15198b535f56e2349de773a09276fca8e1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/freelance-business-plan-example/|instagram": {
+      "revision": "58012cf8232ea02e6c556233a0674b15198b535f56e2349de773a09276fca8e1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/freelance-business-plan-example/|pinterest": {
+      "revision": "58012cf8232ea02e6c556233a0674b15198b535f56e2349de773a09276fca8e1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/freelance-business-plan-example/|youtube": {
+      "revision": "58012cf8232ea02e6c556233a0674b15198b535f56e2349de773a09276fca8e1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/homeschool-attendance-tracker/|facebook": {
+      "revision": "6a5b4b7f9ee3b38848a91201bd5ec2b768d95eedb3b9247a601cafac5f372b64",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/homeschool-attendance-tracker/|instagram": {
+      "revision": "6a5b4b7f9ee3b38848a91201bd5ec2b768d95eedb3b9247a601cafac5f372b64",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/homeschool-attendance-tracker/|pinterest": {
+      "revision": "6a5b4b7f9ee3b38848a91201bd5ec2b768d95eedb3b9247a601cafac5f372b64",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/homeschool-attendance-tracker/|youtube": {
+      "revision": "6a5b4b7f9ee3b38848a91201bd5ec2b768d95eedb3b9247a601cafac5f372b64",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/homeschool-planner-multiple-children/|facebook": {
+      "revision": "9276260f90be6aae082df6acc23965ae45144d9666200fac25c1f6efced8c688",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/homeschool-planner-multiple-children/|instagram": {
+      "revision": "9276260f90be6aae082df6acc23965ae45144d9666200fac25c1f6efced8c688",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/homeschool-planner-multiple-children/|pinterest": {
+      "revision": "9276260f90be6aae082df6acc23965ae45144d9666200fac25c1f6efced8c688",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/homeschool-planner-multiple-children/|youtube": {
+      "revision": "9276260f90be6aae082df6acc23965ae45144d9666200fac25c1f6efced8c688",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/homeschool-schedule-multiple-ages/|facebook": {
+      "revision": "644c908e814320f6aec59b6c6755a162829b6c78fd67261db8e6b22939833259",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/homeschool-schedule-multiple-ages/|instagram": {
+      "revision": "644c908e814320f6aec59b6c6755a162829b6c78fd67261db8e6b22939833259",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/homeschool-schedule-multiple-ages/|pinterest": {
+      "revision": "644c908e814320f6aec59b6c6755a162829b6c78fd67261db8e6b22939833259",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/homeschool-schedule-multiple-ages/|youtube": {
+      "revision": "644c908e814320f6aec59b6c6755a162829b6c78fd67261db8e6b22939833259",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/hourly-planner-best-free-digital-layouts/|facebook": {
+      "revision": "594427ab08f99d0a8b58322842b932c9863ee422260a77045c54a88fb013f6f2",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/hourly-planner-best-free-digital-layouts/|instagram": {
+      "revision": "594427ab08f99d0a8b58322842b932c9863ee422260a77045c54a88fb013f6f2",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/hourly-planner-best-free-digital-layouts/|pinterest": {
+      "revision": "594427ab08f99d0a8b58322842b932c9863ee422260a77045c54a88fb013f6f2",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/hourly-planner-best-free-digital-layouts/|youtube": {
+      "revision": "594427ab08f99d0a8b58322842b932c9863ee422260a77045c54a88fb013f6f2",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/how-much-inventory-start-boutique/|facebook": {
+      "revision": "fb38bd3e2b3a3a5e4677eaf3195283dda331f1053e7120481f3ff469fa7c7c8d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/how-much-inventory-start-boutique/|instagram": {
+      "revision": "fb38bd3e2b3a3a5e4677eaf3195283dda331f1053e7120481f3ff469fa7c7c8d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/how-much-inventory-start-boutique/|pinterest": {
+      "revision": "fb38bd3e2b3a3a5e4677eaf3195283dda331f1053e7120481f3ff469fa7c7c8d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/how-much-inventory-start-boutique/|youtube": {
+      "revision": "fb38bd3e2b3a3a5e4677eaf3195283dda331f1053e7120481f3ff469fa7c7c8d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/how-to-run-a-one-person-business-with-ai/|facebook": {
+      "revision": "e4a18ee6538132e8c5817879fe034961082bafb1a6fcedd2ddece0c0b2a3cf2c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/how-to-run-a-one-person-business-with-ai/|instagram": {
+      "revision": "e4a18ee6538132e8c5817879fe034961082bafb1a6fcedd2ddece0c0b2a3cf2c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/how-to-run-a-one-person-business-with-ai/|pinterest": {
+      "revision": "e4a18ee6538132e8c5817879fe034961082bafb1a6fcedd2ddece0c0b2a3cf2c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/how-to-run-a-one-person-business-with-ai/|youtube": {
+      "revision": "e4a18ee6538132e8c5817879fe034961082bafb1a6fcedd2ddece0c0b2a3cf2c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/how-to-track-consignment-inventory/|facebook": {
+      "revision": "3b663ef476747e7d54f0e789b522590ca713f2d05454c443de129aa7d3d52c8b",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/how-to-track-consignment-inventory/|instagram": {
+      "revision": "3b663ef476747e7d54f0e789b522590ca713f2d05454c443de129aa7d3d52c8b",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/how-to-track-consignment-inventory/|pinterest": {
+      "revision": "3b663ef476747e7d54f0e789b522590ca713f2d05454c443de129aa7d3d52c8b",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/how-to-track-consignment-inventory/|youtube": {
+      "revision": "3b663ef476747e7d54f0e789b522590ca713f2d05454c443de129aa7d3d52c8b",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/inventory-software-without-subscription/|facebook": {
+      "revision": "c5367806cc9b07abc9f5481362a8c6a99dce1cb4993fd31a2395189de1dd1d18",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/inventory-software-without-subscription/|instagram": {
+      "revision": "c5367806cc9b07abc9f5481362a8c6a99dce1cb4993fd31a2395189de1dd1d18",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/inventory-software-without-subscription/|pinterest": {
+      "revision": "c5367806cc9b07abc9f5481362a8c6a99dce1cb4993fd31a2395189de1dd1d18",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/inventory-software-without-subscription/|youtube": {
+      "revision": "c5367806cc9b07abc9f5481362a8c6a99dce1cb4993fd31a2395189de1dd1d18",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/ipad-digital-planner-setup-guide/|facebook": {
+      "revision": "955f69cd62d07d9b3d2bb8205130504f98e5df0fe00d9ca150fd50947984f711",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/ipad-digital-planner-setup-guide/|instagram": {
+      "revision": "955f69cd62d07d9b3d2bb8205130504f98e5df0fe00d9ca150fd50947984f711",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/ipad-digital-planner-setup-guide/|pinterest": {
+      "revision": "955f69cd62d07d9b3d2bb8205130504f98e5df0fe00d9ca150fd50947984f711",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/ipad-digital-planner-setup-guide/|youtube": {
+      "revision": "955f69cd62d07d9b3d2bb8205130504f98e5df0fe00d9ca150fd50947984f711",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/ipad-planner-app-buying-guide/|facebook": {
+      "revision": "faa59ffee5b6ccd582a6e6a38ef57dec2df1fd90e0f096427ba6bc2f12d38061",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/ipad-planner-app-buying-guide/|instagram": {
+      "revision": "faa59ffee5b6ccd582a6e6a38ef57dec2df1fd90e0f096427ba6bc2f12d38061",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/ipad-planner-app-buying-guide/|pinterest": {
+      "revision": "faa59ffee5b6ccd582a6e6a38ef57dec2df1fd90e0f096427ba6bc2f12d38061",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/ipad-planner-app-buying-guide/|youtube": {
+      "revision": "faa59ffee5b6ccd582a6e6a38ef57dec2df1fd90e0f096427ba6bc2f12d38061",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/marketing-agency-profit-margins/|facebook": {
+      "revision": "fe5fce7bf5a6ffab640e70f93d026430ac2588d8892a2e9d8d1f094dc0e7b219",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/marketing-agency-profit-margins/|instagram": {
+      "revision": "fe5fce7bf5a6ffab640e70f93d026430ac2588d8892a2e9d8d1f094dc0e7b219",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/marketing-agency-profit-margins/|pinterest": {
+      "revision": "fe5fce7bf5a6ffab640e70f93d026430ac2588d8892a2e9d8d1f094dc0e7b219",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/marketing-agency-profit-margins/|youtube": {
+      "revision": "fe5fce7bf5a6ffab640e70f93d026430ac2588d8892a2e9d8d1f094dc0e7b219",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/minimalist-planner/|facebook": {
+      "revision": "612b7e7c159bcfb2077348d0a374d83aedc514bd2da1b428f5cba54ae79918ae",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/minimalist-planner/|instagram": {
+      "revision": "612b7e7c159bcfb2077348d0a374d83aedc514bd2da1b428f5cba54ae79918ae",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/minimalist-planner/|pinterest": {
+      "revision": "612b7e7c159bcfb2077348d0a374d83aedc514bd2da1b428f5cba54ae79918ae",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/minimalist-planner/|youtube": {
+      "revision": "612b7e7c159bcfb2077348d0a374d83aedc514bd2da1b428f5cba54ae79918ae",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/monthly-planner-2026-best-layouts/|facebook": {
+      "revision": "674c8419780a39403d5aab212b8618731acf5046d79cab1123da2f5dc2aa4620",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/monthly-planner-2026-best-layouts/|instagram": {
+      "revision": "674c8419780a39403d5aab212b8618731acf5046d79cab1123da2f5dc2aa4620",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/monthly-planner-2026-best-layouts/|pinterest": {
+      "revision": "674c8419780a39403d5aab212b8618731acf5046d79cab1123da2f5dc2aa4620",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/monthly-planner-2026-best-layouts/|youtube": {
+      "revision": "674c8419780a39403d5aab212b8618731acf5046d79cab1123da2f5dc2aa4620",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/monthly-planner-free-templates/|facebook": {
+      "revision": "92cb3654738315e120ab94bdab0a4c360d35b99b3a291b5ff3bac121243687eb",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/monthly-planner-free-templates/|instagram": {
+      "revision": "92cb3654738315e120ab94bdab0a4c360d35b99b3a291b5ff3bac121243687eb",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/monthly-planner-free-templates/|pinterest": {
+      "revision": "92cb3654738315e120ab94bdab0a4c360d35b99b3a291b5ff3bac121243687eb",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/monthly-planner-free-templates/|youtube": {
+      "revision": "92cb3654738315e120ab94bdab0a4c360d35b99b3a291b5ff3bac121243687eb",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/offline-digital-planners-guide/|facebook": {
+      "revision": "0cba001fada5368dd9971e8a6a0c64a4d84b442d4eab3eb669cfc39c9ec92ba1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/offline-digital-planners-guide/|instagram": {
+      "revision": "0cba001fada5368dd9971e8a6a0c64a4d84b442d4eab3eb669cfc39c9ec92ba1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/offline-digital-planners-guide/|pinterest": {
+      "revision": "0cba001fada5368dd9971e8a6a0c64a4d84b442d4eab3eb669cfc39c9ec92ba1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/offline-digital-planners-guide/|youtube": {
+      "revision": "0cba001fada5368dd9971e8a6a0c64a4d84b442d4eab3eb669cfc39c9ec92ba1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/one-page-marketing-plan-example/|facebook": {
+      "revision": "0e9be6dfa2421655ec3e73eb47e9b4d6c655522859bb10d723e828bc07e15763",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/one-page-marketing-plan-example/|instagram": {
+      "revision": "0e9be6dfa2421655ec3e73eb47e9b4d6c655522859bb10d723e828bc07e15763",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/one-page-marketing-plan-example/|pinterest": {
+      "revision": "0e9be6dfa2421655ec3e73eb47e9b4d6c655522859bb10d723e828bc07e15763",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/one-page-marketing-plan-example/|youtube": {
+      "revision": "0e9be6dfa2421655ec3e73eb47e9b4d6c655522859bb10d723e828bc07e15763",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/planner-2026-what-to-look-for/|facebook": {
+      "revision": "3d7f05607b5d2e7e7eaed0de2921d77802d83c8a6d8920a6bdc2b147009a4b8d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/planner-2026-what-to-look-for/|instagram": {
+      "revision": "3d7f05607b5d2e7e7eaed0de2921d77802d83c8a6d8920a6bdc2b147009a4b8d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/planner-2026-what-to-look-for/|pinterest": {
+      "revision": "3d7f05607b5d2e7e7eaed0de2921d77802d83c8a6d8920a6bdc2b147009a4b8d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/planner-2026-what-to-look-for/|youtube": {
+      "revision": "3d7f05607b5d2e7e7eaed0de2921d77802d83c8a6d8920a6bdc2b147009a4b8d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/planners-2026-full-comparison/|facebook": {
+      "revision": "6c4d9c3296347e6dceb0683a3571455b3a82d73979e384925bc7cbe02eb24ab0",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/planners-2026-full-comparison/|instagram": {
+      "revision": "6c4d9c3296347e6dceb0683a3571455b3a82d73979e384925bc7cbe02eb24ab0",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/planners-2026-full-comparison/|pinterest": {
+      "revision": "6c4d9c3296347e6dceb0683a3571455b3a82d73979e384925bc7cbe02eb24ab0",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/planners-2026-full-comparison/|youtube": {
+      "revision": "6c4d9c3296347e6dceb0683a3571455b3a82d73979e384925bc7cbe02eb24ab0",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/purchase-order-tracker/|facebook": {
+      "revision": "ef2ef4f18f27de54f55857c475717939f99435968994712e554226cfe89d0661",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/purchase-order-tracker/|instagram": {
+      "revision": "ef2ef4f18f27de54f55857c475717939f99435968994712e554226cfe89d0661",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/purchase-order-tracker/|pinterest": {
+      "revision": "ef2ef4f18f27de54f55857c475717939f99435968994712e554226cfe89d0661",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/purchase-order-tracker/|youtube": {
+      "revision": "ef2ef4f18f27de54f55857c475717939f99435968994712e554226cfe89d0661",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/rental-equipment-maintenance-log/|facebook": {
+      "revision": "98ce253a00a6b48773f38fe18bb72b83395a4494823dd985e3e2e96b71ca048e",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/rental-equipment-maintenance-log/|instagram": {
+      "revision": "98ce253a00a6b48773f38fe18bb72b83395a4494823dd985e3e2e96b71ca048e",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/rental-equipment-maintenance-log/|pinterest": {
+      "revision": "98ce253a00a6b48773f38fe18bb72b83395a4494823dd985e3e2e96b71ca048e",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/rental-equipment-maintenance-log/|youtube": {
+      "revision": "98ce253a00a6b48773f38fe18bb72b83395a4494823dd985e3e2e96b71ca048e",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/reorder-point-small-business/|facebook": {
+      "revision": "d29821008bee4288754ec95cd1976fafd282f1b3c33c77c0efd523e27488222d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/reorder-point-small-business/|instagram": {
+      "revision": "d29821008bee4288754ec95cd1976fafd282f1b3c33c77c0efd523e27488222d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/reorder-point-small-business/|pinterest": {
+      "revision": "d29821008bee4288754ec95cd1976fafd282f1b3c33c77c0efd523e27488222d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/reorder-point-small-business/|youtube": {
+      "revision": "d29821008bee4288754ec95cd1976fafd282f1b3c33c77c0efd523e27488222d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/repair-shop-parts-inventory/|facebook": {
+      "revision": "714ce1785e49e5c19c4eb278b71c3fa1b638b631b6e85b857a779ec175c2af92",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/repair-shop-parts-inventory/|instagram": {
+      "revision": "714ce1785e49e5c19c4eb278b71c3fa1b638b631b6e85b857a779ec175c2af92",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/repair-shop-parts-inventory/|pinterest": {
+      "revision": "714ce1785e49e5c19c4eb278b71c3fa1b638b631b6e85b857a779ec175c2af92",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/repair-shop-parts-inventory/|youtube": {
+      "revision": "714ce1785e49e5c19c4eb278b71c3fa1b638b631b6e85b857a779ec175c2af92",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/retail-store-business-plan-example/|facebook": {
+      "revision": "5d6371a5c5abce7c1459e23bd050d4518ac3dd26a75ab46e8542a427c51969e1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/retail-store-business-plan-example/|instagram": {
+      "revision": "5d6371a5c5abce7c1459e23bd050d4518ac3dd26a75ab46e8542a427c51969e1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/retail-store-business-plan-example/|pinterest": {
+      "revision": "5d6371a5c5abce7c1459e23bd050d4518ac3dd26a75ab46e8542a427c51969e1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/retail-store-business-plan-example/|youtube": {
+      "revision": "5d6371a5c5abce7c1459e23bd050d4518ac3dd26a75ab46e8542a427c51969e1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/saas-business-plan-template-example/|facebook": {
+      "revision": "2fdf15270cfdb9fa27b4ec292cd34ff73673210dab55ab976e23131ffc028388",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/saas-business-plan-template-example/|instagram": {
+      "revision": "2fdf15270cfdb9fa27b4ec292cd34ff73673210dab55ab976e23131ffc028388",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/saas-business-plan-template-example/|pinterest": {
+      "revision": "2fdf15270cfdb9fa27b4ec292cd34ff73673210dab55ab976e23131ffc028388",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/saas-business-plan-template-example/|youtube": {
+      "revision": "2fdf15270cfdb9fa27b4ec292cd34ff73673210dab55ab976e23131ffc028388",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/sales-inventory-tracking-small-business/|facebook": {
+      "revision": "15d5a630dfdb6f9346f8c3e75a5b5ec8ec56370a9fad46d663a23cdf749e909c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/sales-inventory-tracking-small-business/|instagram": {
+      "revision": "15d5a630dfdb6f9346f8c3e75a5b5ec8ec56370a9fad46d663a23cdf749e909c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/sales-inventory-tracking-small-business/|pinterest": {
+      "revision": "15d5a630dfdb6f9346f8c3e75a5b5ec8ec56370a9fad46d663a23cdf749e909c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/sales-inventory-tracking-small-business/|youtube": {
+      "revision": "15d5a630dfdb6f9346f8c3e75a5b5ec8ec56370a9fad46d663a23cdf749e909c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/small-business-budget-example/|facebook": {
+      "revision": "a351ca0764151c14690cd160b170968ada4c1706bd9215cd5cd57a9a7aa92293",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/small-business-budget-example/|instagram": {
+      "revision": "a351ca0764151c14690cd160b170968ada4c1706bd9215cd5cd57a9a7aa92293",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/small-business-budget-example/|pinterest": {
+      "revision": "a351ca0764151c14690cd160b170968ada4c1706bd9215cd5cd57a9a7aa92293",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/small-business-budget-example/|youtube": {
+      "revision": "a351ca0764151c14690cd160b170968ada4c1706bd9215cd5cd57a9a7aa92293",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/small-engine-repair-business-plan/|facebook": {
+      "revision": "02f46e12ab2a0532a2988952ed98b8155d0f2119a51d5645fae18313d1193db9",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/small-engine-repair-business-plan/|instagram": {
+      "revision": "02f46e12ab2a0532a2988952ed98b8155d0f2119a51d5645fae18313d1193db9",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/small-engine-repair-business-plan/|pinterest": {
+      "revision": "02f46e12ab2a0532a2988952ed98b8155d0f2119a51d5645fae18313d1193db9",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/small-engine-repair-business-plan/|youtube": {
+      "revision": "02f46e12ab2a0532a2988952ed98b8155d0f2119a51d5645fae18313d1193db9",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/student-planner-guide/|facebook": {
+      "revision": "96454b2d28e89cae4a110dd4b88827e31cd30cc5d4ac5f30339903443b57cd99",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/student-planner-guide/|instagram": {
+      "revision": "96454b2d28e89cae4a110dd4b88827e31cd30cc5d4ac5f30339903443b57cd99",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/student-planner-guide/|pinterest": {
+      "revision": "96454b2d28e89cae4a110dd4b88827e31cd30cc5d4ac5f30339903443b57cd99",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/student-planner-guide/|youtube": {
+      "revision": "96454b2d28e89cae4a110dd4b88827e31cd30cc5d4ac5f30339903443b57cd99",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/supplier-quote-comparison/|facebook": {
+      "revision": "0e1054a577dce9be42015b7f1aa072e7d280bfd66dc52037a25f0c7c5e145627",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/supplier-quote-comparison/|instagram": {
+      "revision": "0e1054a577dce9be42015b7f1aa072e7d280bfd66dc52037a25f0c7c5e145627",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/supplier-quote-comparison/|pinterest": {
+      "revision": "0e1054a577dce9be42015b7f1aa072e7d280bfd66dc52037a25f0c7c5e145627",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/supplier-quote-comparison/|youtube": {
+      "revision": "0e1054a577dce9be42015b7f1aa072e7d280bfd66dc52037a25f0c7c5e145627",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/supplier-scorecard-template/|facebook": {
+      "revision": "aef663775e23447442502d711015d34bce784f267455b3b2c337ad66f88fb1a4",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/supplier-scorecard-template/|instagram": {
+      "revision": "aef663775e23447442502d711015d34bce784f267455b3b2c337ad66f88fb1a4",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/supplier-scorecard-template/|pinterest": {
+      "revision": "aef663775e23447442502d711015d34bce784f267455b3b2c337ad66f88fb1a4",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/supplier-scorecard-template/|youtube": {
+      "revision": "aef663775e23447442502d711015d34bce784f267455b3b2c337ad66f88fb1a4",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/track-small-business-orders/|facebook": {
+      "revision": "f87314d76d3d743c3255d9dbbee5f7003202f94e0eb07027c44df59087b47c3f",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/track-small-business-orders/|instagram": {
+      "revision": "f87314d76d3d743c3255d9dbbee5f7003202f94e0eb07027c44df59087b47c3f",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/track-small-business-orders/|pinterest": {
+      "revision": "f87314d76d3d743c3255d9dbbee5f7003202f94e0eb07027c44df59087b47c3f",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/track-small-business-orders/|youtube": {
+      "revision": "f87314d76d3d743c3255d9dbbee5f7003202f94e0eb07027c44df59087b47c3f",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/weekly-digital-planner-small-business/|facebook": {
+      "revision": "ae6cdc70107e251b8ea888a321b3bc330bc64778a2de6947a8e59ce7fb2fe181",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/weekly-digital-planner-small-business/|instagram": {
+      "revision": "ae6cdc70107e251b8ea888a321b3bc330bc64778a2de6947a8e59ce7fb2fe181",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/weekly-digital-planner-small-business/|pinterest": {
+      "revision": "ae6cdc70107e251b8ea888a321b3bc330bc64778a2de6947a8e59ce7fb2fe181",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/weekly-digital-planner-small-business/|youtube": {
+      "revision": "ae6cdc70107e251b8ea888a321b3bc330bc64778a2de6947a8e59ce7fb2fe181",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/weekly-planner-2026-free-templates/|facebook": {
+      "revision": "2ffa91546039d26ad6f0071fd2018f953d5deb7c0e16664adaf35f97c437b3f7",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/weekly-planner-2026-free-templates/|instagram": {
+      "revision": "2ffa91546039d26ad6f0071fd2018f953d5deb7c0e16664adaf35f97c437b3f7",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/weekly-planner-2026-free-templates/|pinterest": {
+      "revision": "2ffa91546039d26ad6f0071fd2018f953d5deb7c0e16664adaf35f97c437b3f7",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/weekly-planner-2026-free-templates/|youtube": {
+      "revision": "2ffa91546039d26ad6f0071fd2018f953d5deb7c0e16664adaf35f97c437b3f7",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/why-one-time-purchase-offline-apps/|facebook": {
+      "revision": "d5771e7c739db86aab11b495b2f102f0716a2a29c01cef7969670d6db48b9232",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/why-one-time-purchase-offline-apps/|instagram": {
+      "revision": "d5771e7c739db86aab11b495b2f102f0716a2a29c01cef7969670d6db48b9232",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/why-one-time-purchase-offline-apps/|pinterest": {
+      "revision": "d5771e7c739db86aab11b495b2f102f0716a2a29c01cef7969670d6db48b9232",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/journal/why-one-time-purchase-offline-apps/|youtube": {
+      "revision": "d5771e7c739db86aab11b495b2f102f0716a2a29c01cef7969670d6db48b9232",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/adhd-digital-planner/|facebook": {
+      "revision": "28004a29847238c575d8bee93544f7f9264c144bad697573fd7f6843773d4ca8",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/adhd-digital-planner/|instagram": {
+      "revision": "28004a29847238c575d8bee93544f7f9264c144bad697573fd7f6843773d4ca8",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/adhd-digital-planner/|pinterest": {
+      "revision": "28004a29847238c575d8bee93544f7f9264c144bad697573fd7f6843773d4ca8",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/adhd-digital-planner/|youtube": {
+      "revision": "28004a29847238c575d8bee93544f7f9264c144bad697573fd7f6843773d4ca8",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/agency-client-profitability-capacity-os/|facebook": {
+      "revision": "7daee20456d28aeddc9e0c9c56ac8860c45e780b5fdedfc62c7c691fb1e944fc",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/agency-client-profitability-capacity-os/|instagram": {
+      "revision": "7daee20456d28aeddc9e0c9c56ac8860c45e780b5fdedfc62c7c691fb1e944fc",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/agency-client-profitability-capacity-os/|pinterest": {
+      "revision": "7daee20456d28aeddc9e0c9c56ac8860c45e780b5fdedfc62c7c691fb1e944fc",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/agency-client-profitability-capacity-os/|youtube": {
+      "revision": "7daee20456d28aeddc9e0c9c56ac8860c45e780b5fdedfc62c7c691fb1e944fc",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/ai-student-planner/|facebook": {
+      "revision": "b75ceb037004df72a113abb72e52cdcbe904b323934bdec605f12b9190738b06",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/ai-student-planner/|instagram": {
+      "revision": "b75ceb037004df72a113abb72e52cdcbe904b323934bdec605f12b9190738b06",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/ai-student-planner/|pinterest": {
+      "revision": "b75ceb037004df72a113abb72e52cdcbe904b323934bdec605f12b9190738b06",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/ai-student-planner/|youtube": {
+      "revision": "b75ceb037004df72a113abb72e52cdcbe904b323934bdec605f12b9190738b06",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/batchtrace-os/|facebook": {
+      "revision": "4c8d2ed59320250658124fc5b2aa7bcc7b969cecbc1cf90051720553d907d2c3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/batchtrace-os/|instagram": {
+      "revision": "4c8d2ed59320250658124fc5b2aa7bcc7b969cecbc1cf90051720553d907d2c3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/batchtrace-os/|pinterest": {
+      "revision": "4c8d2ed59320250658124fc5b2aa7bcc7b969cecbc1cf90051720553d907d2c3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/batchtrace-os/|youtube": {
+      "revision": "4c8d2ed59320250658124fc5b2aa7bcc7b969cecbc1cf90051720553d907d2c3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/boutique-business-planner/|facebook": {
+      "revision": "1af2ee087ce307ee52cdb57510cfd30d9d85530a9212627baf95fe6d36a24a1a",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/boutique-business-planner/|instagram": {
+      "revision": "1af2ee087ce307ee52cdb57510cfd30d9d85530a9212627baf95fe6d36a24a1a",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/boutique-business-planner/|pinterest": {
+      "revision": "1af2ee087ce307ee52cdb57510cfd30d9d85530a9212627baf95fe6d36a24a1a",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/boutique-business-planner/|youtube": {
+      "revision": "1af2ee087ce307ee52cdb57510cfd30d9d85530a9212627baf95fe6d36a24a1a",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/business-runway-burn-rate-os/|facebook": {
+      "revision": "897ee42c9c436eab06c14bfa48c0dac02d3f16d107c53a88d1ba1496019b5b95",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/business-runway-burn-rate-os/|instagram": {
+      "revision": "897ee42c9c436eab06c14bfa48c0dac02d3f16d107c53a88d1ba1496019b5b95",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/business-runway-burn-rate-os/|pinterest": {
+      "revision": "897ee42c9c436eab06c14bfa48c0dac02d3f16d107c53a88d1ba1496019b5b95",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/business-runway-burn-rate-os/|youtube": {
+      "revision": "897ee42c9c436eab06c14bfa48c0dac02d3f16d107c53a88d1ba1496019b5b95",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/calibratrack-os/|facebook": {
+      "revision": "a34d13166918e4c981bd2bfbc4327dbfddee803a9f7abda358abb4bcd205c091",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/calibratrack-os/|instagram": {
+      "revision": "a34d13166918e4c981bd2bfbc4327dbfddee803a9f7abda358abb4bcd205c091",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/calibratrack-os/|pinterest": {
+      "revision": "a34d13166918e4c981bd2bfbc4327dbfddee803a9f7abda358abb4bcd205c091",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/calibratrack-os/|youtube": {
+      "revision": "a34d13166918e4c981bd2bfbc4327dbfddee803a9f7abda358abb4bcd205c091",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/caregiver-planner-aging-parents/|facebook": {
+      "revision": "3434466a59fc810b273f35b6e91ae8409e043b2325fc59d57b0f7ff436bd7834",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/caregiver-planner-aging-parents/|instagram": {
+      "revision": "3434466a59fc810b273f35b6e91ae8409e043b2325fc59d57b0f7ff436bd7834",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/caregiver-planner-aging-parents/|pinterest": {
+      "revision": "3434466a59fc810b273f35b6e91ae8409e043b2325fc59d57b0f7ff436bd7834",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/caregiver-planner-aging-parents/|youtube": {
+      "revision": "3434466a59fc810b273f35b6e91ae8409e043b2325fc59d57b0f7ff436bd7834",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/cashflow-13-os/|facebook": {
+      "revision": "f791de0a08de7a7b94f0212e32533a0dce265856f61e1db0573aae5195bad564",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/cashflow-13-os/|instagram": {
+      "revision": "f791de0a08de7a7b94f0212e32533a0dce265856f61e1db0573aae5195bad564",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/cashflow-13-os/|pinterest": {
+      "revision": "f791de0a08de7a7b94f0212e32533a0dce265856f61e1db0573aae5195bad564",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/cashflow-13-os/|youtube": {
+      "revision": "f791de0a08de7a7b94f0212e32533a0dce265856f61e1db0573aae5195bad564",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/consignclear-os/|facebook": {
+      "revision": "a47d6dcf8cf98e5f0b5ad3c6729b11cf34c14a80672f54ea9681b184e5a94817",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/consignclear-os/|instagram": {
+      "revision": "a47d6dcf8cf98e5f0b5ad3c6729b11cf34c14a80672f54ea9681b184e5a94817",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/consignclear-os/|pinterest": {
+      "revision": "a47d6dcf8cf98e5f0b5ad3c6729b11cf34c14a80672f54ea9681b184e5a94817",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/consignclear-os/|youtube": {
+      "revision": "a47d6dcf8cf98e5f0b5ad3c6729b11cf34c14a80672f54ea9681b184e5a94817",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/content-marketing-planner/|facebook": {
+      "revision": "ca0857232ffd23aa49fbd2b0384099d5c1f84f9e898ec8a7f13da9b20d3c3039",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/content-marketing-planner/|instagram": {
+      "revision": "ca0857232ffd23aa49fbd2b0384099d5c1f84f9e898ec8a7f13da9b20d3c3039",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/content-marketing-planner/|pinterest": {
+      "revision": "ca0857232ffd23aa49fbd2b0384099d5c1f84f9e898ec8a7f13da9b20d3c3039",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/content-marketing-planner/|youtube": {
+      "revision": "ca0857232ffd23aa49fbd2b0384099d5c1f84f9e898ec8a7f13da9b20d3c3039",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/digital-homeschool-planner/|facebook": {
+      "revision": "d395afcb396a7f7ebc84ecf767a1aa45c4af166050e058fd973f7e656b0bff59",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/digital-homeschool-planner/|instagram": {
+      "revision": "d395afcb396a7f7ebc84ecf767a1aa45c4af166050e058fd973f7e656b0bff59",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/digital-homeschool-planner/|pinterest": {
+      "revision": "d395afcb396a7f7ebc84ecf767a1aa45c4af166050e058fd973f7e656b0bff59",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/digital-homeschool-planner/|youtube": {
+      "revision": "d395afcb396a7f7ebc84ecf767a1aa45c4af166050e058fd973f7e656b0bff59",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/inventory-procurement-planner/|facebook": {
+      "revision": "35d5c4a47e5585b23928e40694bf79931dc61043d1f67915accd75334ac30ab1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/inventory-procurement-planner/|instagram": {
+      "revision": "35d5c4a47e5585b23928e40694bf79931dc61043d1f67915accd75334ac30ab1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/inventory-procurement-planner/|pinterest": {
+      "revision": "35d5c4a47e5585b23928e40694bf79931dc61043d1f67915accd75334ac30ab1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/inventory-procurement-planner/|youtube": {
+      "revision": "35d5c4a47e5585b23928e40694bf79931dc61043d1f67915accd75334ac30ab1",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/offline-ai-business-copilot/|facebook": {
+      "revision": "04068002c984417bea849f7af3b7e17b7a97a0636e72092558855355d10bd7c3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/offline-ai-business-copilot/|instagram": {
+      "revision": "04068002c984417bea849f7af3b7e17b7a97a0636e72092558855355d10bd7c3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/offline-ai-business-copilot/|pinterest": {
+      "revision": "04068002c984417bea849f7af3b7e17b7a97a0636e72092558855355d10bd7c3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/offline-ai-business-copilot/|youtube": {
+      "revision": "04068002c984417bea849f7af3b7e17b7a97a0636e72092558855355d10bd7c3",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/owneros-core/|facebook": {
+      "revision": "527deb8312c4c1f52ab4b7ca65493543421b2afbac7bd02cdff16cf526ce3e4d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/owneros-core/|instagram": {
+      "revision": "527deb8312c4c1f52ab4b7ca65493543421b2afbac7bd02cdff16cf526ce3e4d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/owneros-core/|pinterest": {
+      "revision": "527deb8312c4c1f52ab4b7ca65493543421b2afbac7bd02cdff16cf526ce3e4d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/owneros-core/|youtube": {
+      "revision": "527deb8312c4c1f52ab4b7ca65493543421b2afbac7bd02cdff16cf526ce3e4d",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/renewguard-os/|facebook": {
+      "revision": "74414c2d88840a38204c2ee239a88779dc0e71286d2a54ea6a5628996be8a68b",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/renewguard-os/|instagram": {
+      "revision": "74414c2d88840a38204c2ee239a88779dc0e71286d2a54ea6a5628996be8a68b",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/renewguard-os/|pinterest": {
+      "revision": "74414c2d88840a38204c2ee239a88779dc0e71286d2a54ea6a5628996be8a68b",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/renewguard-os/|youtube": {
+      "revision": "74414c2d88840a38204c2ee239a88779dc0e71286d2a54ea6a5628996be8a68b",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/rentflow-os/|facebook": {
+      "revision": "a0b8a2f6b87c561cfa9e3e6edea0d1bbb7fa29a773d06ed091220f4fcb14b626",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/rentflow-os/|instagram": {
+      "revision": "a0b8a2f6b87c561cfa9e3e6edea0d1bbb7fa29a773d06ed091220f4fcb14b626",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/rentflow-os/|pinterest": {
+      "revision": "a0b8a2f6b87c561cfa9e3e6edea0d1bbb7fa29a773d06ed091220f4fcb14b626",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/rentflow-os/|youtube": {
+      "revision": "a0b8a2f6b87c561cfa9e3e6edea0d1bbb7fa29a773d06ed091220f4fcb14b626",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/repairbench-os/|facebook": {
+      "revision": "9c07e42130626b80256e07f54f0d2e76030de062b37d35e336386a6ae2220bc5",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/repairbench-os/|instagram": {
+      "revision": "9c07e42130626b80256e07f54f0d2e76030de062b37d35e336386a6ae2220bc5",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/repairbench-os/|pinterest": {
+      "revision": "9c07e42130626b80256e07f54f0d2e76030de062b37d35e336386a6ae2220bc5",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/repairbench-os/|youtube": {
+      "revision": "9c07e42130626b80256e07f54f0d2e76030de062b37d35e336386a6ae2220bc5",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/sales-management-system/|facebook": {
+      "revision": "0a052e87914bcad4f089476f77e074210d26a299ed92757fd55f9cb0137eb9aa",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/sales-management-system/|instagram": {
+      "revision": "0a052e87914bcad4f089476f77e074210d26a299ed92757fd55f9cb0137eb9aa",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/sales-management-system/|pinterest": {
+      "revision": "0a052e87914bcad4f089476f77e074210d26a299ed92757fd55f9cb0137eb9aa",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/sales-management-system/|youtube": {
+      "revision": "0a052e87914bcad4f089476f77e074210d26a299ed92757fd55f9cb0137eb9aa",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/small-business-planner-2026-2028/|facebook": {
+      "revision": "0c0adf266d89aab3424ebfe82d5da2994ec5f6407a4d75f071096887770bdf8e",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/small-business-planner-2026-2028/|instagram": {
+      "revision": "0c0adf266d89aab3424ebfe82d5da2994ec5f6407a4d75f071096887770bdf8e",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/small-business-planner-2026-2028/|pinterest": {
+      "revision": "0c0adf266d89aab3424ebfe82d5da2994ec5f6407a4d75f071096887770bdf8e",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/small-business-planner-2026-2028/|youtube": {
+      "revision": "0c0adf266d89aab3424ebfe82d5da2994ec5f6407a4d75f071096887770bdf8e",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/vendorpulse-os/|facebook": {
+      "revision": "46b2db0e1240b3a3ff8e4627d1ae8ed6421ad34ee01e4b99de66a7574a1c5b3c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/vendorpulse-os/|instagram": {
+      "revision": "46b2db0e1240b3a3ff8e4627d1ae8ed6421ad34ee01e4b99de66a7574a1c5b3c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/vendorpulse-os/|pinterest": {
+      "revision": "46b2db0e1240b3a3ff8e4627d1ae8ed6421ad34ee01e4b99de66a7574a1c5b3c",
+      "status": "baseline"
+    },
+    "https://nexalyplanner.com/planners/vendorpulse-os/|youtube": {
+      "revision": "46b2db0e1240b3a3ff8e4627d1ae8ed6421ad34ee01e4b99de66a7574a1c5b3c",
+      "status": "baseline"
+    }
+  }
+}
