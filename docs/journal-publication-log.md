@@ -108,3 +108,9 @@ Audited three existing buying pages and embedded demos, opened their correspondi
 ## October 5 — all-product journey audit and core freeze
 
 Completed the remaining eighteen desktop product/demo entry and single-checkout smoke checks. Combined with the earlier three, twenty checkouts showed the correct product and $11.99; Copilot displayed RepairBench and remains a Polar provider exception. All 3/5/10 bundle checkouts opened with selection references and correct prices. Whole Collection displays 21/$109.99 but its Polar description still says 15; benefits require admin verification. Added documented source baseline and CI core-freeze guard that allows editorial prose/catalogue changes. No site design, product feature, price or checkout mapping changed. Evidence/limits: docs/verification/oct05-all-products.md and docs/SITE-CORE-LOCK.md.
+
+## October 6 release recovery
+
+Owner reported the scheduled updates absent. PR #117 remained draft on an older base and conflicted with October 5 performance/core work. The four approved content edits were reapplied to main f22f6b3 and generated listings/sitemap rebuilt, retaining the performance fixes and core baseline. Scope: three existing homeschool journals and homeschool product copy; no new URLs. Two substantive journals/product carry October 6 modification dates; section-order-only journal keeps October 4. This records preparation; current-head CI and live verification are required before reporting publication.
+
+October 5 Polar corrections were publicly verified: Copilot correct identity/$11.99, Whole Collection 21-product description/$109.99. Owner confirmed download delivery. No agent payment was made and no checkout URL/baseline changed.

@@ -6,12 +6,10 @@ The owner requested a complete product journey audit and then a stable core base
 
 This is regression protection in the repository workflow, not immutable hosting or account-level access control. Repository administrators and direct Hostinger uploads can bypass it. Branch-protection administration was not changed or independently verified in this audit.
 
-## Provider exceptions — not a healthy-checkout certification
+## Polar corrections verified October 5
 
-- Offline AI Business Copilot's distinct checkout link currently displays **RepairBench OS — Small Engine Repair Shop Manager** at $11.99, with a Copilot return link. The delivered benefit/download has not been verified. Do not describe this checkout as correct until Polar product identity and benefit are checked.
-- Whole Collection displays **All 21 Products** at $109.99, but its public checkout description still says **all 15**. The actual attached downloads have not been verified.
-- Polar admin sign-in is required to inspect/correct these provider records. No product rename, benefit/file replacement, price change or payment was performed.
+The existing Copilot checkout link was remapped in Polar from RepairBench to Offline AI Business Copilot. Its public checkout displayed the correct product at $11.99. Copilot already had its AI Business Copilot ZIP download benefit. Whole Collection description was corrected from 15 to 21 and its public checkout showed All 21 Products at $109.99 with the corrected text. Source checkout URLs and the core baseline did not change.
 
-The baseline preserves existing source while these explicit exceptions remain open. It does not turn them into approved final product mappings. A confirmed correction must update all relevant product/demo/header checkout references if the URL changes, then update this baseline within authorized repair scope.
+The owner subsequently confirmed checking successful download delivery. This is owner-reported verification, not an agent-completed purchase or inspection of every downloaded archive. Source checks still do not validate live provider account state.
 
-See `docs/verification/oct05-all-products.md` for audit coverage and limitations.
+See `docs/verification/oct05-all-products.md` for the original audit coverage and limitations.
