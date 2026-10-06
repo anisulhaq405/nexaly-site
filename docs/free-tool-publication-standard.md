@@ -14,8 +14,16 @@ Apply this standard to each completed tool in the 50-tool collection. Do not pub
 - Verify calculations, input errors, saving/import/export, print output, image delivery, links and phone/tablet/desktop layout before publication.
 - SEO fundamentals apply to AI search too. Crawlable text, useful images, clear links and accurate schema support discovery; indexing, ranking and AI citations cannot be promised.
 
-## October 6 category release
+## October 6 initial category release
 
 The collection has eight available tools, one per category. Each worksheet uses a distinct scoped palette and visual treatment. Shared site navigation, product prices, checkout links and paid applications remain outside these theme styles. The inventory tool keeps teal; new tools use navy, purple, orange, blue, green, rose and amber.
 
 The attendance log allows 400 entries to cover an annual record with some repeated subject dates; the other new worksheets allow 100. Task-specific calculations live in `assets/js/small-tools-models.js`. Saving and exports are explicit, with separate storage keys and versioned backups per tool. No entered worksheet fields are added to analytics or sent to another application.
+
+## Second category release
+
+The collection now has 16 available tools: two in every category. The eight new tools use copper, indigo, burgundy, graphite, olive, turquoise, plum and cobalt; no existing tool palette is reused. The homeschool subject-hours log supports 400 sessions; other new tools support 100 rows.
+
+The Content Publishing Checklist expands the original single-item content category. Category labels show available tools rather than treating the original per-category draft counts as a fixed allocation. The collection goal remains 50 total tools; the remaining backlog must be reconciled to 34 tools before that release, dropping one overlapping draft rather than silently raising the target to 51.
+
+Content and metadata explain the actual manual workflow. No keyword demand figures, automatic audits, ranking promises, legal requirements or clinical instructions are inferred. The maintenance worksheet compares entered intervals; the renewal worksheet calculates entered notice periods. Shared JavaScript files now use content-hashed URLs on tool pages so existing browser caches cannot omit newly published models.
