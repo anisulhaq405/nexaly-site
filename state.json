@@ -1729,5 +1729,6 @@
       "revision": "46b2db0e1240b3a3ff8e4627d1ae8ed6421ad34ee01e4b99de66a7574a1c5b3c",
       "status": "baseline"
     }
-  }
+  },
+  "firstTestCompleted": true
 }
