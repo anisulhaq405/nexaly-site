@@ -38,4 +38,5 @@ jobs:
           MAKE_NEXALY_SOCIAL_WEBHOOK_URL: ${{ secrets.MAKE_NEXALY_SOCIAL_WEBHOOK_URL }}
           SOCIAL_DESTINATIONS: ${{ vars.NEXALY_SOCIAL_DESTINATIONS || 'facebook,instagram,pinterest,youtube' }}
           SOCIAL_TEST_URL: ${{ inputs.test_url }}
+          SOCIAL_FIRST_TEST_URL: https://nexalyplanner.com/journal/retail-store-business-plan-example/
         run: python scripts/publish-social.py

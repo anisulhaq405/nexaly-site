@@ -77,6 +77,10 @@ def run():
             time.sleep(2 * (attempt + 1))
         raise RuntimeError('Could not persist delivery reservation; no further posts sent.')
     test_url = os.environ.get('SOCIAL_TEST_URL', '')
+    smoke_url = os.environ.get('SOCIAL_FIRST_TEST_URL', '')
+    first_test = bool(smoke_url and not state.get('firstTestCompleted'))
+    if first_test and not test_url:
+        test_url = smoke_url
     if test_url and test_url not in {item['url'] for item in feed['items']}:
         raise ValueError('Test URL must identify one existing editorial page')
     (directory / 'media').mkdir(exist_ok=True)
@@ -168,6 +172,9 @@ def run():
                                          'postId': str(result['postId']), 'publishedAt': now()}
                 save('Record ' + destination + ' publication')
                 print('Published', destination, item['url'], result['postId'])
+    if first_test:
+        state['firstTestCompleted'] = True
+        save('Record initial smoke-test completion; uncertain deliveries retain review status')
     if failures:
         raise RuntimeError('Some deliveries need review: ' + ', '.join(failures))
     print('Social publication state saved. No duplicate archive deliveries.')
