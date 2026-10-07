@@ -469,7 +469,7 @@ var posts = [
     "img": "/images/journal/retail-store-business-plan-example-v2.jpg",
     "alt": "Boutique owner assembling clothing stock, size plan, shipping supplies and a sales forecast under Retail Business Plan",
     "tag": "Planning Guides",
-    "date": "Sep 28, 2026"
+    "date": "Updated Oct 7, 2026"
   },
   {
     "url": "/journal/saas-business-plan-template-example/",
@@ -478,7 +478,7 @@ var posts = [
     "img": "/images/journal/saas-business-plan-template-example-v2.jpg",
     "alt": "Founder reviewing subscriber growth and cash runway charts under SaaS Business Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 2, 2026"
+    "date": "Updated Oct 7, 2026"
   },
   {
     "url": "/journal/small-business-budget-example/",
@@ -496,7 +496,7 @@ var posts = [
     "img": "/images/journal/weekly-digital-planner-small-business-v2.jpg",
     "alt": "Tablet weekly calendar beside small-business parcels and task notes under Weekly Digital Plan",
     "tag": "Planning Guides",
-    "date": "Sep 28, 2026"
+    "date": "Updated Oct 7, 2026"
   },
   {
     "url": "/journal/academic-planner-school-year/",

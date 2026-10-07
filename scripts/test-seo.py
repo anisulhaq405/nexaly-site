@@ -16,6 +16,12 @@ with tempfile.TemporaryDirectory(prefix='nexaly-seo-test-') as directory:
     regions_before={p.relative_to(target):regions(p.read_text()) for p in target.rglob('index.html')}
     js_before=(target/'assets/js/main.js').read_text()
     run();run(True,'--check')
+    # Link-only policy markup must not invent shipping or refund commitments.
+    refund=(target/'refund/index.html').read_text()
+    graph=json.loads(re.search(r'<script id="nexaly-seo" type="application/ld\+json">(.*?)</script>',refund,re.S)[1])['@graph']
+    policies=[node['hasMerchantReturnPolicy'] for node in graph if 'hasMerchantReturnPolicy' in node]
+    assert len(policies)==1 and policies[0]['merchantReturnLink']=='https://nexalyplanner.com/refund/'
+    assert set(policies[0])=={'@type','@id','merchantReturnLink'},'policy markup invented return terms'
     for p,value in protected.items():assert (target/p).read_bytes()==value,str(p)+' product changed'
     for p,value in regions_before.items():assert regions((target/p).read_text())==value,str(p)+' header/footer changed'
     js_after=(target/'assets/js/main.js').read_text()

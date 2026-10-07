@@ -154,6 +154,13 @@ def metadata(source,url):
             {'@type':'WebSite','@id':SITE+'/#website','url':SITE+'/','name':'Nexaly Planner','publisher':{'@id':org_id}},
             {'@type':'Organization','@id':org_id,'name':'Nexaly Planner','url':SITE+'/','logo':{'@type':'ImageObject','url':SITE+'/assets/img/logo-mark.png'},'sameAs':['https://www.instagram.com/nexalyplanner/','https://www.facebook.com/NexalyPlanner','https://www.tiktok.com/@nexalyplanner1','https://www.pinterest.com/NexalyPlanner/','https://x.com/Nexalyplanner','https://www.youtube.com/@NexalyPlanner']}
         ])
+    if url==SITE+'/refund/':
+        # Google's organization-level Option B links to the actual policy.
+        # Do not turn conditional digital refunds into invented return terms.
+        graph.append({'@type':'Organization','@id':org_id,'name':'Nexaly Planner','url':SITE+'/',
+                      'hasMerchantReturnPolicy':{'@type':'MerchantReturnPolicy',
+                                                '@id':SITE+'/refund/#return-policy',
+                                                'merchantReturnLink':SITE+'/refund/'}})
     schema=json.dumps({'@context':'https://schema.org','@graph':graph},ensure_ascii=False).replace('<','\\u003c')
     source=source.replace('</head>','<script id="nexaly-seo" type="application/ld+json">'+schema+'</script>\n</head>')
     return source
