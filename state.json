@@ -349,7 +349,7 @@
     },
     "https://nexalyplanner.com/guides/repairbench-os/|instagram": {
       "revision": "8266fa44b7cf14a4afd2cf6e72a96b16a8b1a224ed98cb4352e39ef368543e2b",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-07T11:54:40.554138+00:00"
     },
     "https://nexalyplanner.com/guides/repairbench-os/|pinterest": {
