@@ -1391,10 +1391,9 @@
       "status": "baseline"
     },
     "https://nexalyplanner.com/journal/small-business-budget-example/|facebook": {
-      "revision": "51beaa478e613356539909e18ab84900dcede33664a65de1cf0dfe4aa276d384",
-      "status": "published",
-      "postId": "1308942472292403_122114342217409632",
-      "publishedAt": "2026-10-07T10:27:50.064784+00:00"
+      "revision": "e07567b7d72f2976d704f6c5ccbab49e453c85036d585c37ba1ec190e618cdf2",
+      "status": "attempting",
+      "attemptedAt": "2026-10-07T11:04:42.228613+00:00"
     },
     "https://nexalyplanner.com/journal/small-business-budget-example/|instagram": {
       "revision": "51beaa478e613356539909e18ab84900dcede33664a65de1cf0dfe4aa276d384",
