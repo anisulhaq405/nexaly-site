@@ -549,8 +549,9 @@
     },
     "https://nexalyplanner.com/journal/boutique-inventory-spreadsheet/|youtube": {
       "revision": "1edf8a4872335939263bf0e93617c8dce4fc38f08876f4424ffea2cb96e7d95b",
-      "status": "attempting",
-      "attemptedAt": "2026-10-07T04:49:57.703056+00:00"
+      "status": "published",
+      "postId": "Rsa6Cib4-xs",
+      "publishedAt": "2026-10-07T04:50:01.944185+00:00"
     },
     "https://nexalyplanner.com/journal/boutique-social-media-post-ideas/|facebook": {
       "revision": "2191ab83acae97b34769790e24347a0ab3a1b4c589d94e27094d7c79bd11796c",
