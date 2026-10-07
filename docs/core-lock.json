@@ -3,7 +3,7 @@
     "assets/css/style.css": "7e6083e6f963bb65247a5583bdb81ba964fd0f77afea3f869dfda25e9ddc3f07",
     "assets/img/logo-light.png": "88fcadb17ee49fc6e30050abf0ac549f2955caef19bec7e4b1a95419bfb65baa",
     "assets/img/logo-mark.png": "59305927ca3509761e290274eb9b557992a63024e63150a10a38a92fa1b6f149",
-    "assets/js/main.js:behavior": "0ef8c1ff4a6a69d0db2f06c874ce4df2c59d23ef4d96b8a4cec9a6d6a47e0a3a",
+    "assets/js/main.js:behavior": "b326f28ad538cb7c54aa7a4b59d59ced1bbc1587ec88c4e4e5deb09e6cee3a50",
     "bundles/index.html": "e9c34ee5b67dd2d6b4d67eb0204c0bac62307a620519abee99eec95c35ad1e8c",
     "demos/adhd-digital-planner/index.html": "6871a8d15d4d6afcc849707af194f8c0f2f18abddcba6032fd3015e3e4e8a382",
     "demos/agency-client-profitability-capacity-os/index.html": "9829835b098ca666bc4f5a0d0450aedd8f5621b13ad7c570659e120dded0535c",
@@ -32,7 +32,7 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_le5cjYcPCBuMbje2Eol7ZrFw3kMLefDdiUVZF2lTFMS"
       ],
-      "core": "59fe12353a710ec319ab5876c65c7fe8372de5483d66769e4079f3e272da3c9f",
+      "core": "f120319fac6ddf902325a4064a4718489c456df42fb38b86fa148b30d79993ed",
       "prices": [
         [
           "11.99",
@@ -44,14 +44,14 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_Gx4ApkU4koLJbuvusojMVSmyfOqqEjTGkkRe90TV0KR"
       ],
-      "core": "0f6eccb69f593d032f0fbcee501a876630e45a6af09937ee467b87e550014dea",
+      "core": "0327e6ec7adc861a34de6bb67e3c97f91b9fa2d35523dc1df143ee3a529fd0ee",
       "prices": []
     },
     "planners/ai-student-planner/index.html": {
       "checkout": [
         "https://buy.polar.sh/polar_cl_l7wGLhCXODsUhcv88BY7IjI2IMouNPW4BUOdh0tfTRa"
       ],
-      "core": "3d91781b2d660d2541a56416080d6adb5a95dec913bc545a868676395a6f05fe",
+      "core": "1de18c6612a60e36058b5abd3febd9ed9089f87f22765f9c295b5fd470fa958c",
       "prices": [
         [
           "11.99",
@@ -63,7 +63,7 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_SplQ4BnMTDwB1YoZE5UNT7qYzQLB3Fkby3mqP3YQEMY"
       ],
-      "core": "04e8a9d759e4d353a03869ecb8393f92c1ea5873992d1309eec70490a5ba600e",
+      "core": "1f8cabe9bf4c253841904d161fc6cd7c58cfd7fa13fc7d6de2228907527b7d0a",
       "prices": [
         [
           "11.99",
@@ -75,7 +75,7 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_CO8mXt7Ab8aYM2kccXirUTI4a1BWzGcF6TbFx2uw9OB"
       ],
-      "core": "7ac64f35d19e4d905f5e6502ce496188fa8a2f244c28ba59d7ae2317ca0692cc",
+      "core": "9ed3dc828414fa62fc7eb6e1eb903e2d5cf859ae9deb17eb8a874937ddaf9d1b",
       "prices": [
         [
           "11.99",
@@ -87,14 +87,14 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_WG9ImbQPceF0e6KWEm83HYsNNqPQSVwzRHDsM4PlH0h"
       ],
-      "core": "1ec0c7a61e8099a514dbe2aafb0e9e80cffb84301520f924f32dfb4facc00423",
+      "core": "7d6468abf66ac64ddc4659e9838f252c1dc2a49820c90dc0cb5241bd39eb23cc",
       "prices": []
     },
     "planners/calibratrack-os/index.html": {
       "checkout": [
         "https://buy.polar.sh/polar_cl_Mkgrb6HYsSJ7vkQXD6d6kKrhaE4lL235OxATJ0QWGGM"
       ],
-      "core": "dc76a1196a87287cdf76da9f0cdfefe759477c7e3abe5ebad95b15cd84e64652",
+      "core": "92919201eaa50d2e1ee67a22e2cca4f2ab9f6e2edf1cfd669b73db5040ec6964",
       "prices": [
         [
           null,
@@ -106,7 +106,7 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_y97hHWsumJWw3ZWyAxJKfJsZtqIbhb3M3mZun3T5foJ"
       ],
-      "core": "d5398e594c2e0c7afd8a08f1fccc91aef3409175fe900d3bd6bac41c640166c3",
+      "core": "608a871d3e7fea9df1121f1991a2eb8cfc5a16aee624fad5bacfd441cbc44d30",
       "prices": [
         [
           "11.99",
@@ -118,21 +118,21 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_5vct596bmMLA34N3zbTtCvRcfxeBnZjQuyMtk06IJFN"
       ],
-      "core": "9d7533d3cad221c285af41952b0cd3f017a52502707efcec1e6f36ba0e054148",
+      "core": "c67fbd97a16ec5cf2d138c25a857cc6e6d0d49bacdb9deff8ee9ec15f2bf637e",
       "prices": []
     },
     "planners/consignclear-os/index.html": {
       "checkout": [
         "https://buy.polar.sh/polar_cl_D85h1GBWaERI0fcegEhl8vY6snPNJmMpzA5Yp1Nvl1Y"
       ],
-      "core": "6fa4d177ab5af56e209db68e70df2aed0edc072d2fa6d30749d7c573a5393d3b",
+      "core": "dd2ecaf7098aa1bd670439476bd6aee91bfe92ef1bd1af6b188e60cd1ed3ad46",
       "prices": []
     },
     "planners/content-marketing-planner/index.html": {
       "checkout": [
         "https://buy.polar.sh/polar_cl_56lsbzVx9DQaqUBAot4fNVuZRcNsHffSAhN8Y4EEEsg"
       ],
-      "core": "4a3cc6d0fa75004e7955edb0c1684229942c3b0f90a0ce09ad32ac4f14774c34",
+      "core": "2b03565eb826264481b96dabbbbc336b264ce5c70a19f9ed120f9a829dfa582e",
       "prices": [
         [
           "11.99",
@@ -144,7 +144,7 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_LMGTbcHUEl1VcR6tgXW7mr4pTknyjfrwekSXN01sVUV"
       ],
-      "core": "78672862aca0db6f708751b3050c1c6867cec19050099d1219b4a74a3a432c49",
+      "core": "41389824ef41ef6d46640c1cb355b20a3bbb11e55cbd973a96024e88f94b9957",
       "prices": [
         [
           "11.99",
@@ -156,7 +156,7 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_tMPiPWta5R773BRHnqicjiJaUBONiBoKPS7DD1KZ5dX"
       ],
-      "core": "f81eb73302af1ca45b1c18aedbd8f0456e30f9ed850c080b7e50a80ff14244d5",
+      "core": "15eb7e73af08f53d1427abe89cf5ab03435ec66146ab63ae6c0dc3d6db1cbf3e",
       "prices": [
         [
           "11.99",
@@ -168,7 +168,7 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_xqL0Mx8Vxk2IiMH9tENfft5QH6tZ4CQFLEPed24slVT"
       ],
-      "core": "45d349a9e4acac38e51140c31f1dd6aed0625fb5d647bdf8678a39aff79a6b2c",
+      "core": "ae5c1dbdd5fbdd03672d39201555fee9072afdf9d8b4d0c2bcc58aa79d79dd50",
       "prices": [
         [
           "11.99",
@@ -180,7 +180,7 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_zNIc2hrZIsCWw83NWUZ7bWqEtlz9FMcsnXNxm1Np7Ub"
       ],
-      "core": "bfe7f0bf297237f668decea75390c327dda7d2315438cf91929ed7d4dcbe9f22",
+      "core": "4fcaf4154f435e6ae27530516badbb975bb1120862c375af31b06bdbeae6ef59",
       "prices": [
         [
           "11.99",
@@ -192,7 +192,7 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_qd5d2QXy5emSRzevZRavrLuRUK16vH12H716s19rF6S"
       ],
-      "core": "cab2a0c36c14148eb4c4be85743792215d37c185f62902bc502b9c903fe976d1",
+      "core": "8ec84564628bf459dfa6b8088ad70b193d4eea6c144acfd786c9a2c0b14268db",
       "prices": [
         [
           "11.99",
@@ -204,7 +204,7 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_dPrYOPFXv04wbfBZDQ1gvEuwKQynkQicGRh091I6m6k"
       ],
-      "core": "edde51e0a311fcf188b30b46487b7f28b73511c2f77e9f0e5c21b8a7b292a460",
+      "core": "02d48c0492046ffddfb0bfbf4a1671244d54e14bee599542eb407e3764e8ac1c",
       "prices": [
         [
           "11.99",
@@ -216,7 +216,7 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_LDfhqo384rYgSE1QMxqnNVTvf9jqYVQqYfUiL4Yx0Ps"
       ],
-      "core": "25a30167be98ec04b4dfc74ea184d0b052fc86156acd9f7d60ec5ef99b88f368",
+      "core": "e8a87fd226da4625e9bd4f6774fc4eab0c7553f58049abeab50ca20093b9dcd0",
       "prices": [
         [
           "11.99",
@@ -228,7 +228,7 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_Mceh5y8KTYDhF2t5A1mLySmps5evEe1BRIecN2aE0dz"
       ],
-      "core": "bf70eb49dccbc9635831d5d2b7dae8a393f4f8d197578668475955e55d6c1679",
+      "core": "d0bbb5183b1d0e5fc138947f2f0a0ddeb353a1fa6d25b05bc25870fec222fbbf",
       "prices": [
         [
           "11.99",
@@ -240,7 +240,7 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_7WUb0TgGBCv1JRqUwYsiuJZfyKS8US7dKJrhW4DXoKF"
       ],
-      "core": "5a5597b68ab75a5fa5d91a4c55ac9c781b216e04555a967ceda8f9d45eeaf69e",
+      "core": "1677fe689b864cdec284e7bb0bff923e6735788a99b16246c1d7219edaf598e0",
       "prices": [
         [
           "11.99",
@@ -252,7 +252,7 @@
       "checkout": [
         "https://buy.polar.sh/polar_cl_MBJG9jLafpaZRIxWPco8gJKVNvcAyCwPJOBdI0eIqrG"
       ],
-      "core": "a51d6713119444d6e22cc51200f85b3f114728b924aeb55bff177846fa017183",
+      "core": "7bb04b14a39fccbe5dad0d7ff56093e2ee7723de6f2eed7ca8ba900cb437a73b",
       "prices": [
         [
           "11.99",

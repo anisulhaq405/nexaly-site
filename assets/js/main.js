@@ -987,9 +987,9 @@ function postHTML(p,i){
   return '<a class="pcard journal-card" href="'+href+'" aria-label="'+p.title+'"><div class="pcover">'+media+'</div><div class="pcard-body"><h3>'+p.title+'</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">'+p.tag+'</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">'+(p.excerpt||'')+'</p><div style="font-size:12px;color:var(--faint);margin-top:9px">'+p.date+'</div></div></a>';
 }
 function fill(id,h){var e=$(id);if(e)e.innerHTML=h;}
-fill('featTrack', products.slice(0,15).map(cardHTML).join(''));
+fill('featTrack', products.slice(0,8).map(cardHTML).join(''));
 (function(){var ac=$('allCards');if(ac){var fc=ac.getAttribute('data-cat');var L=fc?products.filter(function(p){return p.cat===fc;}):products;ac.innerHTML=L.map(cardHTML).join('');}})();
-fill('homePosts', posts.slice(0,3).map(postHTML).join(''));
+fill('homePosts', posts.slice(0,4).map(postHTML).join(''));
 fill('blogPosts', posts.map(postHTML).join(''));
 function scrollTrack(id,dir){var e=$(id);if(e)e.scrollBy({left:dir*294,behavior:'smooth'});}
 
