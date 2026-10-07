@@ -661,8 +661,9 @@
     },
     "https://nexalyplanner.com/journal/client-profitability-analysis/|youtube": {
       "revision": "1f6b4b0531f9acb1da55790e6194dd499b66ea8f7d8420f16c3ac729f2059ba4",
-      "status": "attempting",
-      "attemptedAt": "2026-10-07T10:22:58.487330+00:00"
+      "status": "published",
+      "postId": "RjaMO55pvtM",
+      "publishedAt": "2026-10-07T10:23:04.013014+00:00"
     },
     "https://nexalyplanner.com/journal/college-assignment-tracker/|facebook": {
       "revision": "f65401f2bf44803d27dd6f2c9bb684ba580d2aab951eddcd20e25d55cf82b166",
