@@ -1746,8 +1746,9 @@
       "attemptedAt": "2026-10-07T11:26:08.565761+00:00"
     },
     "https://nexalyplanner.com/planners/digital-homeschool-planner/|youtube": {
-      "revision": "d395afcb396a7f7ebc84ecf767a1aa45c4af166050e058fd973f7e656b0bff59",
-      "status": "baseline"
+      "revision": "80b87c2fdddba8dad08588c8ad880dddbdd4b9742cbb22274c34a4ac9de1018a",
+      "status": "attempting",
+      "attemptedAt": "2026-10-07T11:26:12.022883+00:00"
     },
     "https://nexalyplanner.com/planners/inventory-procurement-planner/|facebook": {
       "revision": "35d5c4a47e5585b23928e40694bf79931dc61043d1f67915accd75334ac30ab1",
