@@ -179,8 +179,9 @@
     },
     "https://nexalyplanner.com/guides/consignclear-os/|facebook": {
       "revision": "5eafba34ed01d406a6aa5d09258f7560c6541b4e91090d4175898de5819a486e",
-      "status": "attempting",
-      "attemptedAt": "2026-10-07T11:02:14.385937+00:00"
+      "status": "published",
+      "postId": "1308942472292403_122114347089409632",
+      "publishedAt": "2026-10-07T11:02:21.608485+00:00"
     },
     "https://nexalyplanner.com/guides/consignclear-os/|instagram": {
       "revision": "7b6de0fa3c606fa79012d737e602e70ce63dc7a5a0f33823afd51ba87ad6d4fa",
