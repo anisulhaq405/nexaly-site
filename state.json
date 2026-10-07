@@ -649,8 +649,9 @@
     },
     "https://nexalyplanner.com/journal/client-profitability-analysis/|instagram": {
       "revision": "1f6b4b0531f9acb1da55790e6194dd499b66ea8f7d8420f16c3ac729f2059ba4",
-      "status": "attempting",
-      "attemptedAt": "2026-10-07T10:22:40.723472+00:00"
+      "status": "published",
+      "postId": "17913261591468723",
+      "publishedAt": "2026-10-07T10:22:52.973462+00:00"
     },
     "https://nexalyplanner.com/journal/client-profitability-analysis/|pinterest": {
       "revision": "b894e1193d91b292c1842086ac19a5b22d3f85afbd314a2d2888365c4a5071f5",
