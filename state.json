@@ -1251,8 +1251,9 @@
       "publishedAt": "2026-10-07T10:27:21.992464+00:00"
     },
     "https://nexalyplanner.com/journal/purchase-order-tracker/|youtube": {
-      "revision": "ef2ef4f18f27de54f55857c475717939f99435968994712e554226cfe89d0661",
-      "status": "baseline"
+      "revision": "95e6e43dadb2a7c8acc9ed25fd17d9c1dcd3e11e86459b3d2954f546c0ef432a",
+      "status": "attempting",
+      "attemptedAt": "2026-10-07T10:27:23.233838+00:00"
     },
     "https://nexalyplanner.com/journal/rental-equipment-maintenance-log/|facebook": {
       "revision": "98ce253a00a6b48773f38fe18bb72b83395a4494823dd985e3e2e96b71ca048e",
