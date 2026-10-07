@@ -956,8 +956,9 @@
     },
     "https://nexalyplanner.com/journal/homeschool-planner-multiple-children/|youtube": {
       "revision": "377a3b26d5308254dc9709e6db989b9c2c87a26df8fd36a54045fb7925d2f35f",
-      "status": "attempting",
-      "attemptedAt": "2026-10-07T10:26:00.592870+00:00"
+      "status": "published",
+      "postId": "B_c4hX9m8rA",
+      "publishedAt": "2026-10-07T10:26:06.247272+00:00"
     },
     "https://nexalyplanner.com/journal/homeschool-schedule-multiple-ages/|facebook": {
       "revision": "644c908e814320f6aec59b6c6755a162829b6c78fd67261db8e6b22939833259",
