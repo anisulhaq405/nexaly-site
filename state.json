@@ -79,8 +79,9 @@
     },
     "https://nexalyplanner.com/guides/boutique-business-planner/|pinterest": {
       "revision": "c4dae54ac1dac3626a86397df2c09ecd16f31667bd3aa5fbcb32f6a941ad4388",
-      "status": "attempting",
-      "attemptedAt": "2026-10-07T04:48:31.375225+00:00"
+      "status": "published",
+      "postId": "1106196727259351613",
+      "publishedAt": "2026-10-07T04:48:33.888634+00:00"
     },
     "https://nexalyplanner.com/guides/boutique-business-planner/|youtube": {
       "revision": "ef8aaafdac6b32759841ef6be5de8fa400fc8661fc1df6a0c403172a48a938a3",
