@@ -358,8 +358,9 @@
       "attemptedAt": "2026-10-07T11:54:45.001907+00:00"
     },
     "https://nexalyplanner.com/guides/repairbench-os/|youtube": {
-      "revision": "7c422ec5a463942c8d6bbea429927e89139890e8c80519943cd9edc827f44107",
-      "status": "baseline"
+      "revision": "8266fa44b7cf14a4afd2cf6e72a96b16a8b1a224ed98cb4352e39ef368543e2b",
+      "status": "attempting",
+      "attemptedAt": "2026-10-07T11:54:48.412204+00:00"
     },
     "https://nexalyplanner.com/guides/sales-management-system/|facebook": {
       "revision": "ee49dce039b7ae46887839e62ce0b36e7b8d70a7e797067ae782c89a8a1f6841",
