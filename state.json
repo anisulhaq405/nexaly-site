@@ -531,8 +531,9 @@
     },
     "https://nexalyplanner.com/journal/boutique-inventory-spreadsheet/|facebook": {
       "revision": "1edf8a4872335939263bf0e93617c8dce4fc38f08876f4424ffea2cb96e7d95b",
-      "status": "attempting",
-      "attemptedAt": "2026-10-07T04:49:30.879995+00:00"
+      "status": "published",
+      "postId": "1308942472292403_122114279751409632",
+      "publishedAt": "2026-10-07T04:49:38.149671+00:00"
     },
     "https://nexalyplanner.com/journal/boutique-inventory-spreadsheet/|instagram": {
       "revision": "5fa18ff6a404784a2df8de0a2d4b671f35c1d78155ab5a6eb6183fe73639bfb2",
