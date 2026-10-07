@@ -858,8 +858,9 @@
     },
     "https://nexalyplanner.com/journal/exam-study-schedule-template/|facebook": {
       "revision": "afe7e90048d4b34f9362da6081b7350f714aa4c991f79c962e6525a27cd34298",
-      "status": "attempting",
-      "attemptedAt": "2026-10-07T10:24:22.699579+00:00"
+      "status": "published",
+      "postId": "1308942472292403_122114341047409632",
+      "publishedAt": "2026-10-07T10:24:28.966768+00:00"
     },
     "https://nexalyplanner.com/journal/exam-study-schedule-template/|instagram": {
       "revision": "57218cca60e56242a0db428773a57101ca2744a765a94cbb126db8c1cd46ca10",
