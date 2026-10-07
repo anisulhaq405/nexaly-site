@@ -83,8 +83,9 @@ def ensure_global_navigation(source):
         nav = match.group(0)
         if 'class="links"' not in nav:
             return nav
-        if '<a href="/tools/">Free Tools</a>' not in nav:
-            nav = re.sub(r'<a\b[^>]*href="/pricing/"[^>]*>Pricing</a>', lambda m:'<a href="/tools/">Free Tools</a>\n      '+m[0], nav, count=1)
+        nav = re.sub(r'(<a\b[^>]*href="/tools/"[^>]*>).*?(</a>)', r'\1Free Planners\2', nav, flags=re.S)
+        if not re.search(r'<a\b[^>]*href="/tools/"', nav):
+            nav = re.sub(r'<a\b[^>]*href="/pricing/"[^>]*>Pricing</a>', lambda m:'<a href="/tools/">Free Planners</a>\n      '+m[0], nav, count=1)
         if '<a href="/guides/">Product Guides</a>' not in nav:
             nav = nav.replace('<a href="/journal/">Journal</a>', '<a href="/journal/">Journal</a>\n      <a href="/guides/">Product Guides</a>', 1)
         return nav
