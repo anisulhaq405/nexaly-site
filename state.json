@@ -765,8 +765,9 @@
     },
     "https://nexalyplanner.com/journal/daily-planner-complete-guide/|youtube": {
       "revision": "f6a52daca2d5a02569f45996b165ef45a251c614459eba52b7831aaccec41383",
-      "status": "attempting",
-      "attemptedAt": "2026-10-07T10:23:36.704584+00:00"
+      "status": "published",
+      "postId": "NVgZAlD2vG8",
+      "publishedAt": "2026-10-07T10:23:41.370008+00:00"
     },
     "https://nexalyplanner.com/journal/day-planner-vs-daily-planner/|facebook": {
       "revision": "a6ed32383081956149aff195616b6bc421b4b3e9b271431d7c761c4b69fbe3fa",
