@@ -297,8 +297,9 @@
       "attemptedAt": "2026-10-07T11:02:39.964382+00:00"
     },
     "https://nexalyplanner.com/guides/renewguard-os/|pinterest": {
-      "revision": "2482129505280475576fe7516b8e37957da2cf84ca511238c273120098134696",
-      "status": "baseline"
+      "revision": "949dee09388ab611c37db3da3348506528e56a367d4844af754cc9a3ab14e52b",
+      "status": "attempting",
+      "attemptedAt": "2026-10-07T11:02:42.712307+00:00"
     },
     "https://nexalyplanner.com/guides/renewguard-os/|youtube": {
       "revision": "2482129505280475576fe7516b8e37957da2cf84ca511238c273120098134696",
