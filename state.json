@@ -121,8 +121,9 @@
     },
     "https://nexalyplanner.com/guides/calibratrack-os/|instagram": {
       "revision": "bdf6a45c9fbae98e97ff522613a72cfd0f363477fca6847b4c7fd74276b11482",
-      "status": "attempting",
-      "attemptedAt": "2026-10-07T11:01:11.611830+00:00"
+      "status": "published",
+      "postId": "18092411774691925",
+      "publishedAt": "2026-10-07T11:01:22.782939+00:00"
     },
     "https://nexalyplanner.com/guides/calibratrack-os/|pinterest": {
       "revision": "6812e32182ebca070e28f365b4ac4e570eb212322150adacd82ca06cdf8f5c91",
