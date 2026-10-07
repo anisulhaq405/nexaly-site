@@ -246,8 +246,9 @@
       "publishedAt": "2026-10-07T04:49:15.737746+00:00"
     },
     "https://nexalyplanner.com/guides/owneros-core/|pinterest": {
-      "revision": "040c33896fb4cc645688d94943585a76925a62a93ffea290b292c523f1c865c2",
-      "status": "baseline"
+      "revision": "63edd4e299796124b4932a13bf85353433ce2ccb59dba7116fc1d9949581c7f3",
+      "status": "attempting",
+      "attemptedAt": "2026-10-07T04:49:16.811294+00:00"
     },
     "https://nexalyplanner.com/guides/owneros-core/|youtube": {
       "revision": "040c33896fb4cc645688d94943585a76925a62a93ffea290b292c523f1c865c2",
