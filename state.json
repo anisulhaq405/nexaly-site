@@ -1566,8 +1566,9 @@
       "attemptedAt": "2026-10-07T11:25:51.248089+00:00"
     },
     "https://nexalyplanner.com/planners/adhd-digital-planner/|youtube": {
-      "revision": "28004a29847238c575d8bee93544f7f9264c144bad697573fd7f6843773d4ca8",
-      "status": "baseline"
+      "revision": "1836f62e9c542554f2effb93b39316e2aee89acda939a235227c617372c4806c",
+      "status": "attempting",
+      "attemptedAt": "2026-10-07T11:25:54.591052+00:00"
     },
     "https://nexalyplanner.com/planners/agency-client-profitability-capacity-os/|facebook": {
       "revision": "7daee20456d28aeddc9e0c9c56ac8860c45e780b5fdedfc62c7c691fb1e944fc",
