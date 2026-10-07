@@ -85,8 +85,9 @@
     },
     "https://nexalyplanner.com/guides/boutique-business-planner/|youtube": {
       "revision": "c4dae54ac1dac3626a86397df2c09ecd16f31667bd3aa5fbcb32f6a941ad4388",
-      "status": "attempting",
-      "attemptedAt": "2026-10-07T04:48:35.016590+00:00"
+      "status": "published",
+      "postId": "DnDUqDHEjhA",
+      "publishedAt": "2026-10-07T04:48:39.909310+00:00"
     },
     "https://nexalyplanner.com/guides/business-runway-burn-rate-os/|facebook": {
       "revision": "ca3a9be9407c7d4d64e84b1106b1d7fc9ca247bf31730e774dce9b5ec17b2f50",
