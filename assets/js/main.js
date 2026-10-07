@@ -113,9 +113,9 @@ var products = [
     "m2": "#DCE4F7"
   },
   {
-    "title": "Digital Homeschool Planner — Offline Multi-Kid Dashboard, Gradebook & Transcript",
+    "title": "Digital Homeschool Planner for Multiple Children",
     "cat": "Digital Planners",
-    "desc": "Organize homeschooling for multiple children with a private offline parent dashboard, curriculum and lesson planning, calendar, assignments, gradebook, attendance and learning hours, analytics, reports, transcripts and a built-in AI assistant.",
+    "desc": "Plan lessons, attendance and grades for multiple children in an offline homeschool planner app. Try the demo. One-time $11.99; no subscription.",
     "price": 11.99,
     "img": "/images/products/digital-homeschool-planner.jpg",
     "thumb": "/images/products/thumbs/digital-homeschool-planner.webp?v=20260928g",
@@ -126,9 +126,9 @@ var products = [
     "m2": "#D5E5F0"
   },
   {
-    "title": "ADHD Digital Planner — Focus, Tasks, Routines & Goals",
+    "title": "ADHD Digital Planner for Adults",
     "cat": "Digital Planners",
-    "desc": "A calm, interactive ADHD-friendly planner for adults with 15 connected tools for daily focus, brain dumps, tasks, routines, goals, time blocks, Pomodoro sessions, habits, mood, achievements and practical analytics. Private, offline and subscription-free.",
+    "desc": "Plan your day with a brain dump, top-three tasks, time blocks and routines. Try this offline ADHD digital planner for adults. One-time $11.99.",
     "price": 11.99,
     "img": "/images/products/adhd-digital-planner.png",
     "thumb": "/images/products/thumbs/adhd-digital-planner.webp?v=20260928b",
