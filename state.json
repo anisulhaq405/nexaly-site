@@ -998,8 +998,9 @@
       "publishedAt": "2026-10-07T04:50:34.646817+00:00"
     },
     "https://nexalyplanner.com/journal/inventory-software-without-subscription/|pinterest": {
-      "revision": "c5367806cc9b07abc9f5481362a8c6a99dce1cb4993fd31a2395189de1dd1d18",
-      "status": "baseline"
+      "revision": "c2624e92162c50787b833181f11d15d888dfb27f3a6e858b9c9fc24e8c56653d",
+      "status": "attempting",
+      "attemptedAt": "2026-10-07T04:50:35.696270+00:00"
     },
     "https://nexalyplanner.com/journal/inventory-software-without-subscription/|youtube": {
       "revision": "c5367806cc9b07abc9f5481362a8c6a99dce1cb4993fd31a2395189de1dd1d18",
