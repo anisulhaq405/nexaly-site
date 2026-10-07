@@ -1240,8 +1240,9 @@
     },
     "https://nexalyplanner.com/journal/purchase-order-tracker/|instagram": {
       "revision": "95e6e43dadb2a7c8acc9ed25fd17d9c1dcd3e11e86459b3d2954f546c0ef432a",
-      "status": "attempting",
-      "attemptedAt": "2026-10-07T10:26:58.091920+00:00"
+      "status": "published",
+      "postId": "18130502866809789",
+      "publishedAt": "2026-10-07T10:27:18.119452+00:00"
     },
     "https://nexalyplanner.com/journal/purchase-order-tracker/|pinterest": {
       "revision": "ef2ef4f18f27de54f55857c475717939f99435968994712e554226cfe89d0661",
