@@ -451,8 +451,9 @@
       "status": "baseline"
     },
     "https://nexalyplanner.com/journal/agency-capacity-planning-example/|facebook": {
-      "revision": "1693db73cf97ba4d6b7790c35c31dac68745412a07760f37f1db4b7f21135027",
-      "status": "baseline"
+      "revision": "7b375d44b090f2e016cb1a8bf20640399c9bf036195d075204480ccab9ac6720",
+      "status": "attempting",
+      "attemptedAt": "2026-10-07T11:02:52.936295+00:00"
     },
     "https://nexalyplanner.com/journal/agency-capacity-planning-example/|instagram": {
       "revision": "1693db73cf97ba4d6b7790c35c31dac68745412a07760f37f1db4b7f21135027",
