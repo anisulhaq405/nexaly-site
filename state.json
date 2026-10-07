@@ -132,8 +132,9 @@
       "publishedAt": "2026-10-07T11:01:26.545315+00:00"
     },
     "https://nexalyplanner.com/guides/calibratrack-os/|youtube": {
-      "revision": "6812e32182ebca070e28f365b4ac4e570eb212322150adacd82ca06cdf8f5c91",
-      "status": "baseline"
+      "revision": "bdf6a45c9fbae98e97ff522613a72cfd0f363477fca6847b4c7fd74276b11482",
+      "status": "attempting",
+      "attemptedAt": "2026-10-07T11:01:27.636807+00:00"
     },
     "https://nexalyplanner.com/guides/caregiver-planner-aging-parents/|facebook": {
       "revision": "b5cab8c496f06ac5206e2a50388cfe42ab761d2fb5186a584b0b4616c3fe899e",
