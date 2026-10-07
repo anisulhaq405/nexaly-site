@@ -79,6 +79,7 @@ def replace_inner(source, ident, contents):
 
 def ensure_global_navigation(source):
     """Keep guide and free-tool hubs discoverable without duplicate menu entries."""
+    source = re.sub(r'<footer\b.*?</footer>', lambda m: m[0].replace('VISA · Mastercard · PayPal', 'Payments handled by Polar'), source, flags=re.S)
     def update(match):
         nav = match.group(0)
         if 'class="links"' not in nav:
@@ -204,9 +205,9 @@ def build(check=False):
     if jsdata(js)!={'products':products,'posts':posts}:raise ValueError('Catalogue update failed')
     rendered=jsdata(js,True)
     for path,ident,cat in [('index.html','featTrack',None),('planners/index.html','allCards',None),('planners/digital-planners/index.html','allCards','Digital Planners'),('planners/business-operating-systems/index.html','allCards','Business Operating Systems')]:
-        cards=rendered['products'];cards=cards[:15] if path=='index.html' else cards
+        cards=rendered['products'];cards=cards[:8] if path=='index.html' else cards
         files[path]=replace_inner(files[path],ident,'\n'.join(p['html'] for p in cards if not cat or p['cat']==cat))
-    files['index.html']=replace_inner(files['index.html'],'homePosts','\n'.join(rendered['posts'][:3]))
+    files['index.html']=replace_inner(files['index.html'],'homePosts','\n'.join(rendered['posts'][:4]))
     files['journal/index.html']=replace_inner(files['journal/index.html'],'blogPosts','\n'.join(rendered['posts'])).rstrip('\n')+'\n'
     # Keep browser rendering in sync with static catalogues; do not edit checkout logic.
     version=hashlib.sha256(js.encode()).hexdigest()[:12]
