@@ -466,8 +466,9 @@
       "attemptedAt": "2026-10-07T11:02:58.744471+00:00"
     },
     "https://nexalyplanner.com/journal/agency-capacity-planning-example/|youtube": {
-      "revision": "1693db73cf97ba4d6b7790c35c31dac68745412a07760f37f1db4b7f21135027",
-      "status": "baseline"
+      "revision": "7b375d44b090f2e016cb1a8bf20640399c9bf036195d075204480ccab9ac6720",
+      "status": "attempting",
+      "attemptedAt": "2026-10-07T11:03:01.421706+00:00"
     },
     "https://nexalyplanner.com/journal/batch-lot-traceability-log/|facebook": {
       "revision": "b6a738f8b2aa822b088b9953019536e2bef0aec74175eb7088f41efe3ad434fb",
