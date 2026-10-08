@@ -219,8 +219,8 @@ def build(check=False):
     # Keep browser rendering in sync with static catalogues; do not edit checkout logic.
     version=hashlib.sha256(js.encode()).hexdigest()[:12]
     for path in files:
-        # Product detail files are protected: catalogue refreshes must not rewrite them.
-        if path not in {'index.html','journal/index.html','planners/index.html','planners/digital-planners/index.html','planners/business-operating-systems/index.html'}:continue
+        # Version-only updates keep shared storefront behavior current; product markup is preserved.
+        if not path.endswith('index.html'):continue
         files[path]=re.sub(r'(/assets/js/main\.js)(?:\?[^"\s>]*)?',lambda m:m[1]+'?v='+version,files[path])
     files['assets/js/main.js']=js
     # Preserve the full CSS cascade while avoiding a blocking homepage round trip.

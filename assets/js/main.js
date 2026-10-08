@@ -1240,3 +1240,10 @@ runReveal();
   panel.querySelector("#nxSend").addEventListener("click", send);
   panel.querySelector("#nxIn").addEventListener("keydown", function (e) { if (e.key === "Enter") send(); });
 })();
+
+/* Load optional website analytics separately from storefront behavior. */
+(function () {
+  var script = document.createElement('script'); script.async = true;
+  script.src = '/assets/js/analytics.js?v=8cc3d71f6c20';
+  document.head.appendChild(script);
+}());
