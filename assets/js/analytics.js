@@ -36,7 +36,7 @@
   settings.style.cssText = 'position:fixed;bottom:12px;left:16px;z-index:10000;padding:7px 10px;border:1px solid #cbd5e1;border-radius:7px;background:#fff;color:#15283b;font:12px system-ui;cursor:pointer';
   settings.addEventListener('click', function () { panel.hidden = !panel.hidden; }); document.body.appendChild(settings);
   if (choice === 'accepted') start();
-  var actions = {'tool-calculate':'calculate_click','tool-csv':'csv_click','tool-json':'backup_click','tool-print':'print_click','tool-sample':'sample_click'};
+  var actions = {'tool-calculate':'calculate_click','tool-csv':'csv_click','tool-json':'backup_click','tool-print':'print_click','tool-sample':'sample_click','calculate':'calculate_click','csv':'csv_click','json':'backup_click','print':'print_click','sample':'sample_click'};
   document.addEventListener('click', function (event) {
     if (!allowed || !started) return;
     var button = event.target.closest('button');
