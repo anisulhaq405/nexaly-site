@@ -1,0 +1,5 @@
+.next-tool .planner-tip{border:1px solid color-mix(in srgb,var(--accent) 22%,white);background:var(--soft);border-radius:10px;padding:12px 15px;font-size:13px;line-height:1.65;margin:0 0 18px;color:var(--ink)}
+.next-tool .planner-tip strong{display:block;font-size:11px;letter-spacing:.6px;text-transform:uppercase;margin-bottom:3px}
+.next-tool #report-heading{scroll-margin-top:100px}.next-tool #report-heading:focus{outline:2px solid var(--accent);outline-offset:6px;border-radius:3px}
+.next-tool .tool-steps{display:flex;gap:8px;flex-wrap:wrap;list-style:none;margin:14px 0 0;padding:0}.next-tool .tool-steps li{display:flex;gap:7px;align-items:center;font-size:12px;color:var(--ink);padding:6px 9px;border-radius:20px;background:var(--soft)}.next-tool .tool-steps b{display:grid;place-items:center;width:19px;height:19px;border-radius:50%;background:var(--accent);color:white;font-size:10px}
+@media(max-width:650px){.next-tool .planner-tip{padding:11px 12px}.next-tool .tool-steps{gap:6px}.next-tool .tool-steps li{font-size:11px}.next-tool #report-heading{scroll-margin-top:90px}}
