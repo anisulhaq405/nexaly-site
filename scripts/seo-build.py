@@ -238,7 +238,7 @@ def build(check=False):
                 if path.endswith('index.html'):
                     pattern=r'(/assets/css/'+re.escape(tool_name)+r')(?:\?[^\"\s>]*)?'
                     files[path]=re.sub(pattern, lambda m:m[1]+'?v='+tool_version, files[path])
-    for tool_name in ('small-tools-models.js','small-tools-ui.js'):
+    for tool_name in ('small-tools-models.js','next-tools-models.js','small-tools-ui.js'):
         tool_js=ROOT/'assets/js'/tool_name
         if tool_js.exists():
             tool_version=hashlib.sha256(tool_js.read_bytes()).hexdigest()[:12]
