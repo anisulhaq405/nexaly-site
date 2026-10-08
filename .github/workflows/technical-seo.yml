@@ -27,6 +27,7 @@ jobs:
         run: |
           node scripts/test-craft-fair.cjs
           node scripts/test-small-tools.cjs
+          node scripts/test-next-tools.cjs
       - name: Verify owner core freeze
         run: python3 scripts/check-core-lock.py
       - name: Install social media image dependency

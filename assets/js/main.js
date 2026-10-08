@@ -334,7 +334,7 @@ var posts = [
     "img": "/images/journal/client-profitability-analysis-20261002.webp",
     "alt": "Agency manager comparing three client project folders and time logs at a desk.",
     "tag": "Planning Guides",
-    "date": "Oct 2, 2026"
+    "date": "Updated Oct 8, 2026"
   },
   {
     "url": "/journal/marketing-agency-profit-margins/",
@@ -388,7 +388,7 @@ var posts = [
     "img": "/images/journal/contract-renewal-workflow-20260930.webp",
     "alt": "Business owner checking a contract, calendar and renewal decision checklist",
     "tag": "Planning Guides",
-    "date": "Updated Oct 3, 2026"
+    "date": "Updated Oct 8, 2026"
   },
   {
     "url": "/journal/repair-shop-parts-inventory/",
@@ -433,7 +433,7 @@ var posts = [
     "img": "/images/journal/cash-flow-forecast-template-example-v2.jpg",
     "alt": "Shop owner reviewing a 13-week cash flow chart and invoices under 13-Week Cash Flow",
     "tag": "Planning Guides",
-    "date": "Updated Oct 1, 2026"
+    "date": "Updated Oct 8, 2026"
   },
   {
     "url": "/journal/equipment-rental-business-plan-example/",
@@ -442,7 +442,7 @@ var posts = [
     "img": "/images/journal/equipment-rental-business-plan-example-v2.jpg",
     "alt": "Event lighting rental team inspecting equipment and a booking handoff under Equipment Rental Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 3, 2026"
+    "date": "Updated Oct 8, 2026"
   },
   {
     "url": "/journal/freelance-business-plan-example/",
@@ -771,7 +771,7 @@ var posts = [
   {
     "tag": "Inventory",
     "title": "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
-    "date": "Updated Oct 7, 2026 · 5 min",
+    "date": "Updated Oct 8, 2026 · 5 min",
     "url": "/journal/boutique-inventory-spreadsheet/",
     "img": "/images/journal/boutique-stock-20260915.jpg",
     "alt": "Tagged boutique clothing and folded knitwear with the heading Know Your Stock: Every Size, Every Color",
@@ -798,7 +798,7 @@ var posts = [
   {
     "tag": "Sales Tracking",
     "title": "How to Connect Sales and Inventory Tracking for a Small Shop",
-    "date": "Updated Sep 30, 2026 · 5 min",
+    "date": "Updated Oct 8, 2026 · 5 min",
     "url": "/journal/sales-inventory-tracking-small-business/",
     "img": "/images/products/sales-management-system/8-dashboard-closeup.webp",
     "alt": "How to Connect Sales and Inventory Tracking for a Small Shop",
@@ -843,7 +843,7 @@ var posts = [
   {
     "tag": "Attendance Tracker",
     "title": "Homeschool Attendance Tracker: A Simple Daily Record",
-    "date": "Updated Oct 6, 2026 · 5 min",
+    "date": "Updated Oct 8, 2026 · 5 min",
     "url": "/journal/homeschool-attendance-tracker/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-reports-transcript.jpg",
     "alt": "Homeschool Attendance Tracker: A Simple Daily Record",
@@ -870,7 +870,7 @@ var posts = [
   {
     "tag": "Study Schedule",
     "title": "Exam Study Schedule Template: Plan the Weeks Before Finals",
-    "date": "Updated Oct 5, 2026 · 5 min",
+    "date": "Updated Oct 8, 2026 · 5 min",
     "url": "/journal/exam-study-schedule-template/",
     "img": "/images/journal/exam-prep-20260915.jpg",
     "alt": "Study desk with a planning notebook, textbooks and a clock under the heading Plan Your Exam Prep",

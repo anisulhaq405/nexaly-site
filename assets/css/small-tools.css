@@ -42,3 +42,24 @@
 @media print{.new-tool .tool-panel{border:0!important}.new-tool .metric{border:1px solid #bbb!important;border-radius:0!important}}
 
 .new-tool #tool-message[data-status="error"]{color:#952522}.planner-review{padding:16px 20px;background:var(--soft,#eef5ef);border-radius:10px;margin:24px 0}.planner-review h3{margin-top:0!important;font-size:18px}.planner-review li{line-height:1.65}.free-tools button,.free-tools .tool-cta,.free-tools .file-label{min-height:44px}.free-tools .table-wrap{max-width:100%}
+
+.theme-pine{--accent:#174f40;--soft:#e1f1ea;--ink:#17372e;--canvas:#f3faf7}
+.theme-pine .tool-panel{border-radius:4px;border-top:3px solid var(--accent)}.theme-pine .metric{border-radius:2px;border-bottom:2px solid var(--accent)}
+.theme-clay{--accent:#9a3826;--soft:#fce9e3;--ink:#49291f;--canvas:#fff7f3}
+.theme-clay .tool-panel{border-radius:6px;border-left:3px solid var(--accent)}.theme-clay .metric{border-radius:4px;border-bottom:2px solid var(--accent)}
+.theme-ochre{--accent:#775108;--soft:#fff1d3;--ink:#403516;--canvas:#fffaf0}
+.theme-ochre .tool-panel{border-radius:8px;border-bottom:3px solid var(--accent)}.theme-ochre .metric{border-radius:6px;border-bottom:2px solid var(--accent)}
+.theme-violet{--accent:#573598;--soft:#efe8fc;--ink:#33234d;--canvas:#faf7ff}
+.theme-violet .tool-panel{border-radius:10px;border-right:3px solid var(--accent)}.theme-violet .metric{border-radius:8px;border-bottom:2px solid var(--accent)}
+.theme-espresso{--accent:#634126;--soft:#f3eadd;--ink:#362719;--canvas:#fcf9f3}
+.theme-espresso .tool-panel{border-radius:12px;border-top:3px solid var(--accent)}.theme-espresso .metric{border-radius:10px;border-bottom:2px solid var(--accent)}
+.theme-marine{--accent:#124f6d;--soft:#e2f1fa;--ink:#183643;--canvas:#f3faff}
+.theme-marine .tool-panel{border-radius:14px;border-left:3px solid var(--accent)}.theme-marine .metric{border-radius:12px;border-bottom:2px solid var(--accent)}
+.theme-aubergine{--accent:#692859;--soft:#f9e7f3;--ink:#41213b;--canvas:#fff7fc}
+.theme-aubergine .tool-panel{border-radius:16px;border-bottom:3px solid var(--accent)}.theme-aubergine .metric{border-radius:14px;border-bottom:2px solid var(--accent)}
+.theme-moss{--accent:#405927;--soft:#edf4df;--ink:#2c3a20;--canvas:#f8fbf2}
+.theme-moss .tool-panel{border-radius:18px;border-right:3px solid var(--accent)}.theme-moss .metric{border-radius:16px;border-bottom:2px solid var(--accent)}
+.next-tool .tool-intro{padding:20px 0 12px;margin-bottom:12px}.next-tool .tool-intro h1{font-size:clamp(28px,4vw,44px)}.next-tool .tool-report{border-top:4px solid var(--accent)}.next-tool .item-row legend{font-weight:700}.next-tool input,.next-tool select{min-height:44px}.next-tool .tool-input{scroll-margin-top:100px}
+@media(max-width:650px){.next-tool .tool-intro{padding-top:8px}.next-tool .metrics{grid-template-columns:1fr 1fr}.next-tool .tool-actions button{flex:1 1 150px}}
+
+.next-tool .tool-guide .tool-categories{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.next-tool .tool-guide .tool-categories a{display:inline-flex;padding:8px 12px;min-height:44px;align-items:center;border:1px solid var(--accent);border-radius:8px;background:var(--soft);text-decoration:none}.next-tool .tool-guide .tool-categories a:hover{background:white;text-decoration:underline}

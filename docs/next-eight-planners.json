@@ -1,0 +1,1143 @@
+[
+  {
+    "slug": "reserved-vs-available-stock-planner",
+    "name": "Reserved vs Available Stock Planner",
+    "kind": "reserved",
+    "category": "inventory",
+    "theme": "pine",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Stock review label",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "asOf",
+        "label": "Count date",
+        "type": "date",
+        "optional": false
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "sku",
+        "label": "SKU / item",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "onHand",
+        "label": "Physical on-hand units",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": true,
+        "step": "1"
+      },
+      {
+        "key": "reserved",
+        "label": "Reserved units",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": true,
+        "step": "1"
+      },
+      {
+        "key": "blocked",
+        "label": "Damaged / quarantined units",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": true,
+        "step": "1"
+      },
+      {
+        "key": "buffer",
+        "label": "Uncommitted safety buffer units",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": true,
+        "step": "1"
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional shop availability check",
+        "asOf": "2026-10-08"
+      },
+      "rows": [
+        {
+          "sku": "EXAMPLE-BAG",
+          "onHand": "100",
+          "reserved": "25",
+          "blocked": "5",
+          "buffer": "10"
+        }
+      ]
+    },
+    "maxRows": 100,
+    "description": "Calculate available-to-sell inventory after reservations, blocked units and a safety buffer. Review stock shortages by SKU; save or export the worksheet.",
+    "reportNote": "Available to sell = max(0, on hand \u2212 reserved \u2212 blocked \u2212 buffer). Excluded quantities must be separate groups, not overlapping counts. Negative raw availability appears as a shortfall, not sellable stock. This snapshot does not sync with a store.",
+    "formula": "For each SKU, subtract reserved, blocked and safety-buffer units from physical on-hand units. Show a floor of zero for available-to-sell units and a separate shortfall if exclusions exceed the count. Summaries add units across SKUs; they do not make different products interchangeable.",
+    "example": "100 on hand \u2212 25 reserved \u2212 5 blocked \u2212 10 buffer = 60 available units. If reservations rise to 95, raw availability is \u221210: the report shows zero available and a 10-unit shortfall.",
+    "steps": [
+      "Count physical units and use one row per SKU.",
+      "Separate customer reservations from damaged stock and your uncommitted buffer. Do not count the same unit twice.",
+      "Review available-to-sell units and any shortfall before taking another order.",
+      "Save the review and update your actual store quantities through your normal process."
+    ],
+    "features": [
+      "Separate reserved, blocked and buffer quantities.",
+      "Zero-floor availability with explicit shortage reporting.",
+      "Per-SKU review instead of a misleading negative sellable figure."
+    ],
+    "questions": [
+      [
+        "Does this update Shopify or Etsy inventory?",
+        "No. It is a manual stock snapshot. Enter updated counts whenever orders, cancellations or stock movements change your records."
+      ],
+      [
+        "What belongs in the buffer?",
+        "Only additional units intentionally held back that are not already reserved or blocked. Enter zero if you do not hold a separate buffer."
+      ]
+    ],
+    "product": [
+      "inventory-procurement-planner",
+      "Inventory & Procurement Planner",
+      "Keep a broader stock and purchasing workflow in one offline application."
+    ],
+    "related": [
+      "supplier-quote-comparison",
+      "Compare supplier quotes before replenishing available stock"
+    ],
+    "journal": [
+      "inventory-procurement-planner-guide",
+      ""
+    ],
+    "workflow": [
+      "Check shortages SKU by SKU; a surplus of one product cannot cover another product\u2019s reservation.",
+      "Confirm canceled reservations before freeing units for sale.",
+      "Use a fresh count for important orders; an old worksheet is not live inventory."
+    ],
+    "liveJournal": "sales-inventory-tracking-small-business"
+  },
+  {
+    "slug": "boutique-size-color-stock-matrix",
+    "name": "Boutique Size & Color Stock Matrix",
+    "kind": "matrix",
+    "category": "inventory",
+    "theme": "clay",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Collection / shop label",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "asOf",
+        "label": "Stock count date",
+        "type": "date",
+        "optional": false
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "style",
+        "label": "Style / product",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "color",
+        "label": "Color",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "size",
+        "label": "Size",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "units",
+        "label": "On-hand units",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": true,
+        "step": "1"
+      },
+      {
+        "key": "target",
+        "label": "Your target units",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": true,
+        "step": "1"
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional weekend boutique count",
+        "asOf": "2026-10-08"
+      },
+      "rows": [
+        {
+          "style": "Example linen shirt",
+          "color": "Navy",
+          "size": "S",
+          "units": "3",
+          "target": "5"
+        },
+        {
+          "style": "Example linen shirt",
+          "color": "Navy",
+          "size": "M",
+          "units": "7",
+          "target": "5"
+        }
+      ]
+    },
+    "maxRows": 100,
+    "description": "Build a clothing inventory size and color matrix. Compare counted variants with your own stock targets and export a printable boutique stock worksheet.",
+    "reportNote": "Gap = max(0, target \u2212 on-hand units). Surplus = max(0, on-hand \u2212 target). Targets are entered by you, not predicted demand. Duplicate style/color/size combinations are rejected to prevent double counting. Missing combinations are not assumed to have zero stock.",
+    "formula": "Each unique style, color and size is one variant. The report groups styles/colors and shows one column per entered size. A dash means no record was entered. Replenishment gaps and surpluses use the target you enter for that variant.",
+    "example": "A navy shirt has 3 small units against a target of 5, so its gap is 2. Medium has 7 against 5, so its surplus is 2. Both remain separate variants; the medium surplus does not cancel the small gap.",
+    "steps": [
+      "Choose a collection and count date.",
+      "Enter one row for every style/color/size combination you want to review.",
+      "Set realistic variant targets from your own records; calculate the matrix and variant gaps.",
+      "Verify missing combinations and supplier pack constraints before preparing a purchase order."
+    ],
+    "features": [
+      "Actual size columns built from your entered variants.",
+      "Missing entries distinguished from counted zero units.",
+      "Separate replenishment gaps and surpluses by variant."
+    ],
+    "questions": [
+      [
+        "Does a dash mean out of stock?",
+        "No. A dash means that combination has no entered record. Enter a zero-unit row to record a confirmed stockout."
+      ],
+      [
+        "Can I enter the same variant twice?",
+        "No. Style, color and size are checked ignoring surrounding spaces and letter case. Combine counts for the same variant before calculating."
+      ]
+    ],
+    "product": [
+      "boutique-business-planner",
+      "Boutique Business Planner",
+      "Review the full boutique workflow for collection and business planning."
+    ],
+    "related": [
+      "reserved-vs-available-stock-planner",
+      "Check reservations before treating counted units as available"
+    ],
+    "journal": [
+      "boutique-inventory-planning",
+      ""
+    ],
+    "workflow": [
+      "Inspect gaps in your best-selling sizes before reviewing the total unit count.",
+      "Check the meaning of size labels so S and Small do not accidentally become separate variants.",
+      "Share the matrix with a buyer alongside your own sales history, supplier packs and budget."
+    ],
+    "liveJournal": "boutique-inventory-spreadsheet"
+  },
+  {
+    "slug": "invoice-collection-schedule",
+    "name": "Invoice Collection Schedule",
+    "kind": "invoices",
+    "category": "cashflow",
+    "theme": "ochre",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Collection review label",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "asOf",
+        "label": "Review as of",
+        "type": "date",
+        "optional": false
+      },
+      {
+        "key": "currency",
+        "label": "Currency",
+        "type": "select",
+        "options": [
+          "USD",
+          "GBP",
+          "CAD",
+          "AUD",
+          "EUR",
+          "NZD",
+          "AED"
+        ]
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "invoice",
+        "label": "Invoice reference",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "client",
+        "label": "Client",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "due",
+        "label": "Contractual due date",
+        "type": "date",
+        "optional": false
+      },
+      {
+        "key": "expected",
+        "label": "Expected collection date",
+        "type": "date",
+        "optional": false
+      },
+      {
+        "key": "amount",
+        "label": "Invoice amount",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "paid",
+        "label": "Payments already received",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "action",
+        "label": "Next follow-up action",
+        "type": "text",
+        "maxLength": 160,
+        "optional": true
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional October collections",
+        "asOf": "2026-10-08",
+        "currency": "USD"
+      },
+      "rows": [
+        {
+          "invoice": "EXAMPLE-001",
+          "client": "Example Studio",
+          "due": "2026-10-05",
+          "expected": "2026-10-12",
+          "amount": "1000",
+          "paid": "250",
+          "action": "Confirm expected payment date"
+        }
+      ]
+    },
+    "maxRows": 100,
+    "description": "Track invoice balances, overdue days and expected collection dates. Build an accounts receivable follow-up schedule with CSV and printable reports.",
+    "reportNote": "Outstanding = invoice amount \u2212 received payments. A balance is overdue only when its due date is before the entered review date. Expected dates are your estimates, not confirmed receipts. No email is sent and no accounting system is updated.",
+    "formula": "Amounts use whole cents. Fully paid invoices have zero overdue balance. Open balances are grouped by entered expected collection date. Past expected dates are flagged for review; they are not moved forward automatically. Duplicate invoice references are rejected.",
+    "example": "An invoice for USD 1,000 with USD 250 paid leaves USD 750 outstanding. Due October 5 and reviewed October 8, it is 3 days overdue. An expected October 12 collection appears in that date\u2019s expected-balance schedule.",
+    "steps": [
+      "Use one currency and a clear review date.",
+      "Enter invoice references, contractual due dates, amounts and payments received.",
+      "Enter a realistic expected collection date and next follow-up action.",
+      "Review overdue invoices, confirm estimates with customers and export your collection schedule."
+    ],
+    "features": [
+      "Outstanding balances and overdue days on the same record.",
+      "Expected collections grouped by date.",
+      "Past expected dates flagged for manual follow-up."
+    ],
+    "questions": [
+      [
+        "Is expected collection the same as money in the bank?",
+        "No. It is an entered estimate. Use confirmed receipt information in your actual cash records."
+      ],
+      [
+        "Can I record an overpayment?",
+        "This schedule rejects received payments above the invoice amount. Resolve credits and overpayments separately before entering the remaining invoice balance."
+      ]
+    ],
+    "product": [
+      "sales-management-system",
+      "Sales Management System",
+      "Explore the offline application for a broader sales-record workflow."
+    ],
+    "related": [
+      "weekly-cash-commitments-planner",
+      "Add confirmed collections to a weekly cash plan"
+    ],
+    "journal": [
+      "small-business-cash-flow-planning",
+      ""
+    ],
+    "workflow": [
+      "Follow up overdue balances before treating expected collections as available cash.",
+      "Keep partial receipts current so reminders use the correct remaining balance.",
+      "Review a past expected date with the customer rather than repeatedly moving it forward without evidence."
+    ],
+    "liveJournal": "cash-flow-forecast-template-example"
+  },
+  {
+    "slug": "price-increase-budget-planner",
+    "name": "Subscription Price Increase Budget Planner",
+    "kind": "pricechange",
+    "category": "cashflow",
+    "theme": "violet",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Subscription budget review",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "currency",
+        "label": "Currency",
+        "type": "select",
+        "options": [
+          "USD",
+          "GBP",
+          "CAD",
+          "AUD",
+          "EUR",
+          "NZD",
+          "AED"
+        ]
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "service",
+        "label": "Service / subscription",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "old",
+        "label": "Current charge per billing cycle",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "new",
+        "label": "New charge per billing cycle",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "cycle",
+        "label": "Billing cycle",
+        "type": "select",
+        "options": [
+          "Monthly",
+          "Quarterly",
+          "Annual"
+        ]
+      },
+      {
+        "key": "seats",
+        "label": "Paid seats / units",
+        "type": "number",
+        "min": 1,
+        "max": 100000,
+        "integer": true,
+        "step": "1"
+      },
+      {
+        "key": "effective",
+        "label": "New price effective date",
+        "type": "date",
+        "optional": false
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional software budget review",
+        "currency": "USD"
+      },
+      "rows": [
+        {
+          "service": "Example design app",
+          "old": "10",
+          "new": "12",
+          "cycle": "Monthly",
+          "seats": "3",
+          "effective": "2026-11-01"
+        }
+      ]
+    },
+    "maxRows": 100,
+    "description": "Compare subscription price increases across monthly, quarterly and annual billing. Calculate annualized budget changes per seat and export your review.",
+    "reportNote": "Annualized cost = per-cycle charge \u00d7 cycles per year \u00d7 seats. Annual change is new annualized cost \u2212 old annualized cost. This is a full-year run-rate comparison, not a prorated forecast. Tax, exchange rates and discounts are excluded unless included in your entered charges.",
+    "formula": "Monthly uses 12 cycles per year, quarterly 4 and annual 1. Percentage change uses the old charge; zero old price shows \u201cNot defined (old price is zero)\u201d instead of dividing by zero. Effective dates stay visible as planning records; they do not prorate the calculation.",
+    "example": "USD 10 becomes USD 12 monthly for 3 seats. The old annualized cost is 10 \u00d7 12 \u00d7 3 = USD 360; the new cost is USD 432, an increase of USD 72 per year and 20%.",
+    "steps": [
+      "Choose one currency and name your budget review.",
+      "Enter current/new per-cycle charges, billing cadence and paid seats.",
+      "Record the effective date from the provider\u2019s notice.",
+      "Compare annualized changes, review actual renewal timing, then export a decision record."
+    ],
+    "features": [
+      "Comparable annualized totals across three billing cycles.",
+      "Per-seat or unit quantities included explicitly.",
+      "Zero old-price handling and decreases supported."
+    ],
+    "questions": [
+      [
+        "Does the annualized increase equal this year\u2019s cash impact?",
+        "Not necessarily. It is a full-year run rate. The effective date, remaining billing cycles and prorations can change the actual cash paid this year."
+      ],
+      [
+        "Where should I put a flat account price?",
+        "Enter the whole account charge and use one seat/unit. Do not multiply a flat price by your number of users."
+      ]
+    ],
+    "product": [
+      "renewguard-os",
+      "RenewGuard OS",
+      "Keep renewal decisions and records in a broader offline workflow."
+    ],
+    "related": [
+      "software-renewal-decision-planner",
+      "Review renewal dates and notice periods alongside the price change"
+    ],
+    "journal": [
+      "subscription-renewal-tracker",
+      ""
+    ],
+    "workflow": [
+      "Sort decisions by the size of the annualized change, then check contract and renewal timing.",
+      "Check whether the provider quoted a per-seat price or a flat account charge.",
+      "Use the weekly cash planner for actual payment dates instead of treating run-rate cost as a cash forecast."
+    ],
+    "liveJournal": "contract-renewal-workflow"
+  },
+  {
+    "slug": "fixed-fee-scope-change-planner",
+    "name": "Fixed-Fee Scope Change Planner",
+    "kind": "scope",
+    "category": "agency",
+    "theme": "espresso",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Project / change request",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "currency",
+        "label": "Currency",
+        "type": "select",
+        "options": [
+          "USD",
+          "GBP",
+          "CAD",
+          "AUD",
+          "EUR",
+          "NZD",
+          "AED"
+        ]
+      },
+      {
+        "key": "fee",
+        "label": "Original fixed fee",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "budget",
+        "label": "Originally budgeted hours",
+        "type": "number",
+        "min": 0,
+        "max": 10000,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "forecast",
+        "label": "Base-work total hours now expected",
+        "type": "number",
+        "min": 0,
+        "max": 10000,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "rate",
+        "label": "Internal cost per hour",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "baseExpense",
+        "label": "Base-work expenses",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "extraFee",
+        "label": "Proposed additional fee",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": false,
+        "step": "0.01"
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "change",
+        "label": "Added deliverable / change",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "hours",
+        "label": "Additional hours",
+        "type": "number",
+        "min": 0,
+        "max": 10000,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "expense",
+        "label": "Additional expenses",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": false,
+        "step": "0.01"
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional website scope review",
+        "currency": "USD",
+        "fee": "1000",
+        "budget": "20",
+        "forecast": "25",
+        "rate": "30",
+        "baseExpense": "50",
+        "extraFee": "200"
+      },
+      "rows": [
+        {
+          "change": "Example extra landing page",
+          "hours": "5",
+          "expense": "20"
+        }
+      ]
+    },
+    "maxRows": 100,
+    "description": "Calculate the cost of scope creep on a fixed-fee project. Compare planned, current and revised contribution before agreeing to extra deliverables.",
+    "reportNote": "Incremental cost = additional hours \u00d7 internal cost rate + additional expenses. Contribution = fee \u2212 modeled labour cost \u2212 entered expenses. It is not net profit: unentered overhead, taxes and other costs are excluded. A proposed fee is not approved revenue.",
+    "formula": "Original contribution uses budgeted base hours. Current base contribution uses your updated total-hours forecast for original work, not only hours already logged. Revised contribution adds proposed fees and subtracts additional-scope cost. Zero revenue has no defined margin percentage.",
+    "example": "5 additional hours at USD 30 plus USD 20 expenses cost USD 170. Base work at 25 hours and USD 50 expenses costs USD 800 against a USD 1,000 fee. Adding a USD 200 proposed change fee produces USD 230 modeled contribution after the extra scope.",
+    "steps": [
+      "Enter the original fee, budgeted hours and updated base-work total-hours forecast.",
+      "Use an internal cost rate, not a client billing rate.",
+      "List only additional scope in the rows; avoid counting those hours in the base forecast too.",
+      "Compare the results and get written approval separately before treating the proposed fee as billable."
+    ],
+    "features": [
+      "Original plan compared with the updated base-work forecast.",
+      "Incremental cost for each change request.",
+      "Revised contribution with a separately entered proposed fee."
+    ],
+    "questions": [
+      [
+        "What if I enter hours already worked as the base forecast?",
+        "Add expected remaining hours for the original work first. The model needs a total-hours forecast to compare the complete project."
+      ],
+      [
+        "Does the planner recommend what to charge?",
+        "No. It shows the cost and modeled contribution of your entered proposal. Pricing, scope and approval remain your decision."
+      ]
+    ],
+    "product": [
+      "agency-client-profitability-capacity-os",
+      "Agency Client Profitability & Capacity OS",
+      "Explore the broader client, project and capacity planning workflow."
+    ],
+    "related": [
+      "freelancer-weekly-capacity-planner",
+      "Check whether additional scope fits next week\u2019s delivery capacity"
+    ],
+    "journal": [
+      "client-profitability-analysis",
+      ""
+    ],
+    "workflow": [
+      "Write down the added deliverable before estimating extra time.",
+      "Separate a base-project overrun from an actual scope change so the client discussion uses clear facts.",
+      "Compare proposed fees and remaining capacity before approving another deadline."
+    ],
+    "liveJournal": "client-profitability-analysis"
+  },
+  {
+    "slug": "rental-booking-conflict-checker",
+    "name": "Rental Booking Conflict Checker",
+    "kind": "bookings",
+    "category": "operations",
+    "theme": "marine",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Booking review label",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "resource",
+        "label": "Resource / equipment group",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "capacity",
+        "label": "Available quantity",
+        "type": "number",
+        "min": 1,
+        "max": 100000,
+        "integer": true,
+        "step": "1"
+      },
+      {
+        "key": "buffer",
+        "label": "Turnaround minutes after each booking",
+        "type": "number",
+        "min": 0,
+        "max": 10080,
+        "integer": true,
+        "step": "1"
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "booking",
+        "label": "Booking reference",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "start",
+        "label": "Start date and time (UTC)",
+        "type": "datetime-local"
+      },
+      {
+        "key": "end",
+        "label": "End date and time (UTC)",
+        "type": "datetime-local"
+      },
+      {
+        "key": "quantity",
+        "label": "Reserved quantity",
+        "type": "number",
+        "min": 1,
+        "max": 100000,
+        "integer": true,
+        "step": "1"
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional projector rental review",
+        "resource": "Example projector",
+        "capacity": "2",
+        "buffer": "30"
+      },
+      "rows": [
+        {
+          "booking": "EXAMPLE-A",
+          "start": "2026-10-09T09:00",
+          "end": "2026-10-09T12:00",
+          "quantity": "2"
+        },
+        {
+          "booking": "EXAMPLE-B",
+          "start": "2026-10-09T12:15",
+          "end": "2026-10-09T14:00",
+          "quantity": "1"
+        }
+      ]
+    },
+    "maxRows": 100,
+    "description": "Check equipment rental booking overlaps against capacity and turnaround time. Review every concurrent reservation interval with a printable conflict report.",
+    "reportNote": "Enter every timestamp in UTC (not local time). The calculation makes no timezone conversion. Bookings occupy [start, end + turnaround); at the exact available-again time capacity is released. This is a capacity check, not a booking system or equipment safety approval.",
+    "formula": "For one equipment group, place quantity-change events at each booking start and buffered end. Sum all active quantities between consecutive event times. Every interval above capacity is a conflict, including three or more overlapping reservations. Same-time releases and starts are combined before evaluating the next interval.",
+    "example": "Capacity is 2 projectors. Booking A holds 2 until 12:00 plus 30 minutes turnaround. Booking B starts at 12:15 for 1. From 12:15 to 12:30 UTC, 3 are reserved against capacity 2: a 1-unit conflict.",
+    "steps": [
+      "Review one resource group with a consistent total capacity.",
+      "Convert booking times to UTC before entering them; include the full dates for overnight bookings.",
+      "Enter each reference, start/end and reserved quantity, then set the turnaround buffer.",
+      "Calculate and resolve every over-capacity interval in your actual booking records."
+    ],
+    "features": [
+      "All concurrent bookings checked together, not only in pairs.",
+      "Half-open intervals allow exact back-to-back bookings when the buffer is zero.",
+      "Conflict quantities and affected references shown for each interval."
+    ],
+    "questions": [
+      [
+        "Can I enter local timestamps?",
+        "No. These fields are explicitly UTC. Convert local times before entering them, especially around daylight-saving changes. The worksheet does not resolve ambiguous local times."
+      ],
+      [
+        "Can I check different equipment groups together?",
+        "Use a separate worksheet/backup per group. A shared pool must contain interchangeable units; unrelated assets do not share capacity."
+      ]
+    ],
+    "product": [
+      "rentflow-os",
+      "RentFlow OS",
+      "Explore a broader offline rental-record workflow."
+    ],
+    "related": [
+      "equipment-maintenance-due-planner",
+      "Check entered maintenance thresholds before confirming equipment availability"
+    ],
+    "journal": [
+      "equipment-rental-business-planner",
+      ""
+    ],
+    "workflow": [
+      "Resolve quantity conflicts before promising a rental slot.",
+      "Allow enough turnaround for your own inspection and preparation process.",
+      "Check the source booking timezone carefully; UTC input keeps daylight-saving ambiguity outside the calculation."
+    ],
+    "liveJournal": "equipment-rental-business-plan-example"
+  },
+  {
+    "slug": "study-catch-up-planner",
+    "name": "Study Catch-Up Planner",
+    "kind": "catchup",
+    "category": "personal",
+    "theme": "aubergine",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Catch-up plan label",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "start",
+        "label": "First study date",
+        "type": "date",
+        "optional": false
+      },
+      {
+        "key": "end",
+        "label": "Last study date",
+        "type": "date",
+        "optional": false
+      },
+      {
+        "key": "daily",
+        "label": "Study window minutes per day",
+        "type": "number",
+        "min": 1,
+        "max": 1440,
+        "integer": true,
+        "step": "1"
+      },
+      {
+        "key": "breaks",
+        "label": "Break minutes within each daily window",
+        "type": "number",
+        "min": 0,
+        "max": 1440,
+        "integer": true,
+        "step": "1"
+      },
+      {
+        "key": "days",
+        "label": "Study days",
+        "type": "select",
+        "options": [
+          "Every day",
+          "Weekdays only"
+        ]
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "task",
+        "label": "Task / topic",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "minutes",
+        "label": "Remaining study minutes",
+        "type": "number",
+        "min": 1,
+        "max": 100000,
+        "integer": true,
+        "step": "1"
+      },
+      {
+        "key": "due",
+        "label": "Task deadline date",
+        "type": "date",
+        "optional": false
+      },
+      {
+        "key": "priority",
+        "label": "Priority",
+        "type": "select",
+        "options": [
+          "High",
+          "Normal",
+          "Low"
+        ]
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional three-day catch-up plan",
+        "start": "2026-10-09",
+        "end": "2026-10-11",
+        "daily": "150",
+        "breaks": "30",
+        "days": "Every day"
+      },
+      "rows": [
+        {
+          "task": "Example economics revision",
+          "minutes": "480",
+          "due": "2026-10-11",
+          "priority": "High"
+        }
+      ]
+    },
+    "maxRows": 100,
+    "description": "Build a study catch-up schedule from remaining work, daily windows and breaks. Allocate tasks before deadlines and show study time that does not fit.",
+    "reportNote": "Net daily capacity = study-window minutes \u2212 breaks. Tasks are ordered by deadline, then priority, then entered order. Allocation uses eligible days through each deadline and may split a task across days. No task is forced into a full slot; unallocated work stays visible. This is a suggested date/minute plan, not exact clock scheduling.",
+    "formula": "Choose up to 60 calendar days. Every-day or weekday slots use the same daily net capacity. Allocate earlier deadlines first, then High/Normal/Low priority for equal deadlines. A task due before the plan starts receives no allocation. Deadlines are date-only and inclusive; confirm exact submission times separately.",
+    "example": "3 daily windows of 150 minutes with 30 minutes of breaks each give 360 usable minutes (6 hours). A 480-minute task due on the last day receives 360 scheduled minutes and leaves 120 minutes (2 hours) unallocated.",
+    "steps": [
+      "Enter a short planning horizon, daily study window and break allowance.",
+      "List remaining work in minutes, with deadline dates and priorities.",
+      "Calculate to see a suggested day-by-day allocation and unmet effort.",
+      "Adjust scope or available windows; keep breaks and confirm exact course deadlines before using the plan."
+    ],
+    "features": [
+      "Deadline-aware allocation within entered daily capacity.",
+      "Breaks removed before work is assigned.",
+      "Unallocated effort displayed instead of hidden in an unrealistic timetable."
+    ],
+    "questions": [
+      [
+        "Does High priority override an earlier deadline?",
+        "No. Earlier deadlines come first. Priority only breaks ties between tasks with the same deadline, then entered order breaks equal priorities."
+      ],
+      [
+        "Can I use a different window each day?",
+        "This version uses one daily window and an every-day or weekdays rule. Use shorter plans if your available time changes; review the date/minute allocation yourself."
+      ]
+    ],
+    "product": [
+      "ai-student-planner",
+      "AI Student Planner",
+      "Explore the full student planner for a broader study workflow."
+    ],
+    "related": [
+      "assignment-deadline-planner",
+      "Check assignment effort and exact submission cutoffs first"
+    ],
+    "journal": [
+      "exam-study-schedule-template",
+      ""
+    ],
+    "workflow": [
+      "Treat unallocated effort as a decision to change the plan, not a reason to remove every break.",
+      "Start with realistic remaining effort instead of the total assignment size.",
+      "Review the allocation after finishing a study session and update remaining minutes."
+    ],
+    "liveJournal": "exam-study-schedule-template"
+  },
+  {
+    "slug": "homeschool-portfolio-index",
+    "name": "Homeschool Portfolio Index",
+    "kind": "portfolio",
+    "category": "homeschool",
+    "theme": "moss",
+    "fields": [
+      {
+        "key": "learner",
+        "label": "Learner label / initials",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "title",
+        "label": "Portfolio period label",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "asOf",
+        "label": "Review date",
+        "type": "date",
+        "optional": false
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "subject",
+        "label": "Subject",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "sample",
+        "label": "Work-sample title",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "date",
+        "label": "Work-sample date",
+        "type": "date",
+        "optional": false
+      },
+      {
+        "key": "reference",
+        "label": "External file / folder reference",
+        "type": "text",
+        "maxLength": 160,
+        "optional": true
+      },
+      {
+        "key": "observation",
+        "label": "Learning observation",
+        "type": "text",
+        "maxLength": 160,
+        "optional": true
+      }
+    ],
+    "sample": {
+      "top": {
+        "learner": "Example learner",
+        "title": "Fictional fall portfolio",
+        "asOf": "2026-10-08"
+      },
+      "rows": [
+        {
+          "subject": "Science",
+          "sample": "Example leaf journal",
+          "date": "2026-10-02",
+          "reference": "Example folder / science / leaf-journal.pdf",
+          "observation": "Recorded three observable leaf differences"
+        }
+      ]
+    },
+    "maxRows": 100,
+    "description": "Organize a homeschool portfolio checklist by subject, sample date and external file reference. Flag missing references and export a printable work-sample index.",
+    "reportNote": "This index stores text metadata only; it does not upload, copy or preserve actual work samples. A reference is marked present when text is entered, not when a file has been verified. Missing references or observations remain open review items. The index is not proof of legal compliance.",
+    "formula": "Count work-sample records and subjects (ignoring letter case and outer spaces). Group the report by subject, then date. A missing file reference is flagged separately from a missing observation. Work-sample dates after the review date are rejected.",
+    "example": "A Science record with a title and sample date but no reference appears as \u201cMissing reference.\u201d Adding a folder path changes it to \u201cReference entered\u201d; this still does not establish that the file exists or contains the sample.",
+    "steps": [
+      "Use learner initials or a short label and describe the review period.",
+      "Enter each subject, sample title and date.",
+      "Add the actual external file/folder reference and a brief observation, or leave them blank to keep missing items visible.",
+      "Check the referenced samples outside this worksheet, then export a portable index."
+    ],
+    "features": [
+      "Subject-grouped work-sample records.",
+      "Missing references and observations remain visible.",
+      "Text references only, with no file upload required."
+    ],
+    "questions": [
+      [
+        "Are my child\u2019s work samples saved here?",
+        "No. Only the entered text index is saved. Keep the actual documents in your own folders and back them up separately."
+      ],
+      [
+        "Does this checklist meet every state\u2019s requirements?",
+        "No. Requirements vary. Use your own applicable record-keeping guidance; the worksheet only organizes the records you enter."
+      ]
+    ],
+    "product": [
+      "digital-homeschool-planner",
+      "Digital Homeschool Planner",
+      "Explore the broader offline homeschool planning and record workflow."
+    ],
+    "related": [
+      "homeschool-subject-hours-log",
+      "Keep learning-time records alongside the portfolio index"
+    ],
+    "journal": [
+      "homeschool-record-keeping",
+      ""
+    ],
+    "workflow": [
+      "Open the referenced document and check it is the sample described in the index.",
+      "Keep a stable folder naming convention so later reviews can find the evidence.",
+      "Use attendance and subject-hour records as separate context; a sample count is not an attendance total."
+    ],
+    "liveJournal": "homeschool-attendance-tracker"
+  }
+]
