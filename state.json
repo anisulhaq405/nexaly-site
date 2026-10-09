@@ -1643,8 +1643,9 @@
       "status": "baseline"
     },
     "https://nexalyplanner.com/planners/boutique-business-planner/|facebook": {
-      "revision": "1af2ee087ce307ee52cdb57510cfd30d9d85530a9212627baf95fe6d36a24a1a",
-      "status": "baseline"
+      "revision": "4250e6bb9ad2499fee5bfea06f6c5256cd024a4b74593b3048b9f0adee597275",
+      "status": "attempting",
+      "attemptedAt": "2026-10-09T03:06:55.591938+00:00"
     },
     "https://nexalyplanner.com/planners/boutique-business-planner/|instagram": {
       "revision": "1af2ee087ce307ee52cdb57510cfd30d9d85530a9212627baf95fe6d36a24a1a",
