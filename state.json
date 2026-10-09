@@ -1811,8 +1811,9 @@
       "status": "baseline"
     },
     "https://nexalyplanner.com/planners/owneros-core/|facebook": {
-      "revision": "527deb8312c4c1f52ab4b7ca65493543421b2afbac7bd02cdff16cf526ce3e4d",
-      "status": "baseline"
+      "revision": "98b7bb4ec357be8a1e76c7dbecc28e01241144fc8fa4ff055238977b4dfc8d4b",
+      "status": "attempting",
+      "attemptedAt": "2026-10-09T03:07:13.938148+00:00"
     },
     "https://nexalyplanner.com/planners/owneros-core/|instagram": {
       "revision": "527deb8312c4c1f52ab4b7ca65493543421b2afbac7bd02cdff16cf526ce3e4d",
