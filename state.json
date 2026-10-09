@@ -1822,7 +1822,7 @@
     },
     "https://nexalyplanner.com/planners/owneros-core/|pinterest": {
       "revision": "98b7bb4ec357be8a1e76c7dbecc28e01241144fc8fa4ff055238977b4dfc8d4b",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-09T03:07:20.598276+00:00"
     },
     "https://nexalyplanner.com/planners/owneros-core/|youtube": {
