@@ -1481,7 +1481,7 @@
     },
     "https://nexalyplanner.com/journal/supplier-quote-comparison/|instagram": {
       "revision": "e44ffe87660bbf166859c050a25c4b0e34427d2775ab0069853bc66828ff98fd",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-10T10:38:34.239035+00:00"
     },
     "https://nexalyplanner.com/journal/supplier-quote-comparison/|pinterest": {
