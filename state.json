@@ -1915,8 +1915,9 @@
       "status": "baseline"
     },
     "https://nexalyplanner.com/planners/vendorpulse-os/|facebook": {
-      "revision": "46b2db0e1240b3a3ff8e4627d1ae8ed6421ad34ee01e4b99de66a7574a1c5b3c",
-      "status": "baseline"
+      "revision": "c55e376c45ecdb6c70312b72ae741248caf00e0b6a128fda6a8ee232e7b18c94",
+      "status": "attempting",
+      "attemptedAt": "2026-10-10T03:35:16.842444+00:00"
     },
     "https://nexalyplanner.com/planners/vendorpulse-os/|instagram": {
       "revision": "46b2db0e1240b3a3ff8e4627d1ae8ed6421ad34ee01e4b99de66a7574a1c5b3c",
