@@ -1,5 +1,9 @@
 # Journal publication log
 
+## October 10, 2026 — procurement workflow continuation
+
+Prepared four substantive existing-page updates on current main: Inventory & Procurement Planner and VendorPulse OS buying pages now explain buyer fit, manual decision boundaries, browser-local backup ownership and evidence-based handoffs; purchase-order and reorder-point journals now connect a replenishment trigger to one controlled PO and show how open/cancelled inbound quantities prevent duplicate orders. No new URL or product. Original publication dates retained; substantive journal/product modification date October 10. Supplier comparison and scorecard owners were already complete enough to avoid filler and remain for focused review within the October 10–12 window. Accuracy, calculations, limits and release gates: `docs/editorial/oct10/README.md`. Publication requires protected diff review, local checks, exact-head green CI and live verification.
+
 ## 15 September 2026 — supplied-keyword batch
 
 - New: `/journal/adhd-planner-for-adults/` — selection checklist, 20-minute setup, worked daily plan, reset routine and accurate non-medical positioning.

@@ -352,7 +352,7 @@ var posts = [
     "img": "/images/journal/purchase-order-tracker-20261001.webp",
     "alt": "Receiving clerk comparing a purchase order with a partial delivery of cartons.",
     "tag": "Planning Guides",
-    "date": "Oct 1, 2026"
+    "date": "Updated Oct 10, 2026"
   },
   {
     "url": "/journal/small-engine-repair-business-plan/",
@@ -739,7 +739,7 @@ var posts = [
     "img": "/images/journal/reorder-point-20260915.jpg",
     "alt": "Organized stockroom with parcels, a low-stock shelf marker and the heading When to Reorder",
     "tag": "Planning Guides",
-    "date": "Updated Sep 29, 2026"
+    "date": "Updated Oct 10, 2026"
   },
   {
     "tag": "Small Business Software",
