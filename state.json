@@ -1293,7 +1293,7 @@
     },
     "https://nexalyplanner.com/journal/purchase-order-tracker/|instagram": {
       "revision": "bfef803bfd02c31d4430811b0e4ac8fa0a4d0945db8ec18486a7f159c5bbb030",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-10T03:34:27.122864+00:00"
     },
     "https://nexalyplanner.com/journal/purchase-order-tracker/|pinterest": {
