@@ -1795,7 +1795,7 @@
     },
     "https://nexalyplanner.com/planners/inventory-procurement-planner/|youtube": {
       "revision": "b0deb290f293d78482692d2cecdf26586ae7f408253e2d5a67440f0a77c48a60",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-10T03:35:08.729839+00:00"
     },
     "https://nexalyplanner.com/planners/offline-ai-business-copilot/|facebook": {
