@@ -1485,8 +1485,9 @@
       "attemptedAt": "2026-10-10T10:38:34.239035+00:00"
     },
     "https://nexalyplanner.com/journal/supplier-quote-comparison/|pinterest": {
-      "revision": "0e1054a577dce9be42015b7f1aa072e7d280bfd66dc52037a25f0c7c5e145627",
-      "status": "baseline"
+      "revision": "e44ffe87660bbf166859c050a25c4b0e34427d2775ab0069853bc66828ff98fd",
+      "status": "attempting",
+      "attemptedAt": "2026-10-10T10:38:36.635936+00:00"
     },
     "https://nexalyplanner.com/journal/supplier-quote-comparison/|youtube": {
       "revision": "0e1054a577dce9be42015b7f1aa072e7d280bfd66dc52037a25f0c7c5e145627",
