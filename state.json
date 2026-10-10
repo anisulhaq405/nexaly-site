@@ -1510,8 +1510,9 @@
       "attemptedAt": "2026-10-10T10:38:50.855901+00:00"
     },
     "https://nexalyplanner.com/journal/supplier-scorecard-template/|youtube": {
-      "revision": "aef663775e23447442502d711015d34bce784f267455b3b2c337ad66f88fb1a4",
-      "status": "baseline"
+      "revision": "aecca79cb4f6fcff772448887ccdea8574b02362172fb195e4231b3f00fa827e",
+      "status": "attempting",
+      "attemptedAt": "2026-10-10T10:38:53.273474+00:00"
     },
     "https://nexalyplanner.com/journal/track-small-business-orders/|facebook": {
       "revision": "f87314d76d3d743c3255d9dbbee5f7003202f94e0eb07027c44df59087b47c3f",
