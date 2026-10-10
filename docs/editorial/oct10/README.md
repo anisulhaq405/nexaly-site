@@ -17,6 +17,8 @@ Claims were checked against the current product pages, guides and demo source. T
 
 This update does not change price, checkout URLs, executable product/demo behavior, shared styles, header/footer markup, navigation, images or the protected core baseline. Original journal publication dates remain; substantive modification date is October 10, 2026.
 
+The first CI run exposed that the catalogue generator rewrote only the shared-JavaScript cache query on protected `bundles/index.html`. The generator now deliberately leaves that core-locked checkout page's reviewed script revision unchanged. This preserves the protected byte baseline while other public pages receive the current generated catalogue revision; no checkout behavior or baseline was changed.
+
 ## Release gates
 
 Run the SEO builder, generated-output check, publishing regression suite, core-lock guard, internal-link audit, JavaScript syntax check and whitespace check. Review the protected diff, require green CI on the exact PR head, merge only that head, then verify the four live pages, journal card dates, sitemap entries, images and responsive layout. A successful deployment confirms availability, not Google indexing or performance uplift.

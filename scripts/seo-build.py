@@ -220,7 +220,9 @@ def build(check=False):
     version=hashlib.sha256(js.encode()).hexdigest()[:12]
     for path in files:
         # Version-only updates keep shared storefront behavior current; product markup is preserved.
-        if not path.endswith('index.html'):continue
+        # bundles/index.html is byte-locked because it contains checkout selection behavior.
+        # Keep its reviewed script revision until the core is explicitly re-audited.
+        if not path.endswith('index.html') or path == 'bundles/index.html':continue
         files[path]=re.sub(r'(/assets/js/main\.js)(?:\?[^"\s>]*)?',lambda m:m[1]+'?v='+version,files[path])
     files['assets/js/main.js']=js
     # Preserve the full CSS cascade while avoiding a blocking homepage round trip.
