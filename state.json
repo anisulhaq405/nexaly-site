@@ -1338,8 +1338,9 @@
       "attemptedAt": "2026-10-10T03:34:48.312251+00:00"
     },
     "https://nexalyplanner.com/journal/reorder-point-small-business/|youtube": {
-      "revision": "d29821008bee4288754ec95cd1976fafd282f1b3c33c77c0efd523e27488222d",
-      "status": "baseline"
+      "revision": "eaef62df99a942946cbde152ef1956869daaf80e8b6c5211008bf9e8d2c20ac9",
+      "status": "attempting",
+      "attemptedAt": "2026-10-10T03:34:51.462526+00:00"
     },
     "https://nexalyplanner.com/journal/repair-shop-parts-inventory/|facebook": {
       "revision": "714ce1785e49e5c19c4eb278b71c3fa1b638b631b6e85b857a779ec175c2af92",
