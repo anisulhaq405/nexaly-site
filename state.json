@@ -1534,8 +1534,9 @@
       "attemptedAt": "2026-10-10T19:35:40.627428+00:00"
     },
     "https://nexalyplanner.com/journal/track-small-business-orders/|youtube": {
-      "revision": "f87314d76d3d743c3255d9dbbee5f7003202f94e0eb07027c44df59087b47c3f",
-      "status": "baseline"
+      "revision": "53577c5ac44fe73810e122b98726fb416351d88a3f0c8c5685585f0c1b15ef8b",
+      "status": "attempting",
+      "attemptedAt": "2026-10-10T19:35:43.407639+00:00"
     },
     "https://nexalyplanner.com/journal/weekly-digital-planner-small-business/|facebook": {
       "revision": "a889a41e1e3de5747f61835d67f2d58ef9ba9ccbf956ca939fbc7047232f0c63",
