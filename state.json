@@ -1789,8 +1789,9 @@
       "attemptedAt": "2026-10-10T03:35:02.573533+00:00"
     },
     "https://nexalyplanner.com/planners/inventory-procurement-planner/|pinterest": {
-      "revision": "35d5c4a47e5585b23928e40694bf79931dc61043d1f67915accd75334ac30ab1",
-      "status": "baseline"
+      "revision": "b0deb290f293d78482692d2cecdf26586ae7f408253e2d5a67440f0a77c48a60",
+      "status": "attempting",
+      "attemptedAt": "2026-10-10T03:35:05.527154+00:00"
     },
     "https://nexalyplanner.com/planners/inventory-procurement-planner/|youtube": {
       "revision": "35d5c4a47e5585b23928e40694bf79931dc61043d1f67915accd75334ac30ab1",
