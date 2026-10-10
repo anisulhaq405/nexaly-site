@@ -1520,7 +1520,7 @@
     },
     "https://nexalyplanner.com/journal/track-small-business-orders/|facebook": {
       "revision": "53577c5ac44fe73810e122b98726fb416351d88a3f0c8c5685585f0c1b15ef8b",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-10T19:35:35.205460+00:00"
     },
     "https://nexalyplanner.com/journal/track-small-business-orders/|instagram": {
