@@ -780,11 +780,11 @@ var posts = [
   {
     "tag": "Order Tracking",
     "title": "How to Keep Track of Small Business Orders in One Place",
-    "date": "Updated Oct 1, 2026 · 5 min",
+    "date": "Updated Oct 10, 2026 · 5 min",
     "url": "/journal/track-small-business-orders/",
     "img": "/images/products/sales-management-system/9-inventory-orders.webp",
     "alt": "How to Keep Track of Small Business Orders in One Place",
-    "excerpt": "Organize small-business orders with a free tracker. Separate payments, partial shipments and next actions so every confirmed order has a clear record."
+    "excerpt": "Organize small-business orders with a copyable order-log example. Separate payments, partial shipments and next actions so every confirmed order has a clear record."
   },
   {
     "tag": "Inventory Software",
@@ -861,7 +861,7 @@ var posts = [
   {
     "tag": "Student Planner",
     "title": "Assignment Tracker for College Students: Set Up Your Semester",
-    "date": "Updated Oct 4, 2026 · 5 min",
+    "date": "Updated Oct 10, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
     "img": "/images/products/ai-student-planner/ai-student-planner-plan-track-stay-ahead.jpg",
     "alt": "Assignment Tracker for College Students: Set Up Your Semester",
