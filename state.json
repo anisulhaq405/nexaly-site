@@ -1292,10 +1292,9 @@
       "attemptedAt": "2026-10-10T03:34:23.946167+00:00"
     },
     "https://nexalyplanner.com/journal/purchase-order-tracker/|instagram": {
-      "revision": "95e6e43dadb2a7c8acc9ed25fd17d9c1dcd3e11e86459b3d2954f546c0ef432a",
-      "status": "published",
-      "postId": "18130502866809789",
-      "publishedAt": "2026-10-07T10:27:18.119452+00:00"
+      "revision": "bfef803bfd02c31d4430811b0e4ac8fa0a4d0945db8ec18486a7f159c5bbb030",
+      "status": "attempting",
+      "attemptedAt": "2026-10-10T03:34:27.122864+00:00"
     },
     "https://nexalyplanner.com/journal/purchase-order-tracker/|pinterest": {
       "revision": "95e6e43dadb2a7c8acc9ed25fd17d9c1dcd3e11e86459b3d2954f546c0ef432a",
