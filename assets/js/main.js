@@ -370,7 +370,7 @@ var posts = [
     "img": "/images/journal/supplier-scorecard-20261001.webp",
     "alt": "Purchasing colleagues reviewing delivery records and supplier performance at a desk.",
     "tag": "Planning Guides",
-    "date": "Oct 1, 2026"
+    "date": "Updated Oct 10, 2026"
   },
   {
     "url": "/journal/caregiver-daily-log-template/",
@@ -730,7 +730,7 @@ var posts = [
     "img": "/images/journal/supplier-quote-comparison-20260915.jpg",
     "alt": "Three supplier quote folders beside a parcel and calculator, with the heading Compare Supplier Quotes",
     "tag": "Planning Guides",
-    "date": "Updated Oct 1, 2026"
+    "date": "Updated Oct 10, 2026"
   },
   {
     "url": "/journal/reorder-point-small-business/",
