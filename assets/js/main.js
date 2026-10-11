@@ -292,6 +292,24 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/track-partial-shipments-backorders/",
+    "title": "How to Track Partial Shipments and Backorders",
+    "excerpt": "Track customer-order shipments by order ID, line ID and shipment reference. Use a worked backorder ledger to keep outstanding units and next actions visible.",
+    "img": "/images/products/sales-management-system/9-inventory-orders.webp",
+    "alt": "How to Track Partial Shipments and Backorders",
+    "tag": "Order Tracking",
+    "date": "Oct 11, 2026"
+  },
+  {
+    "url": "/journal/release-reserved-stock-cancelled-orders/",
+    "title": "How to Release Reserved Stock After an Order Cancellation",
+    "excerpt": "Review cancelled order quantities, physical stock and reservations before releasing inventory. Includes a worked example and a copyable cancellation record.",
+    "img": "/images/products/sales-management-system/9-inventory-orders.webp",
+    "alt": "How to Release Reserved Stock After an Order Cancellation",
+    "tag": "Order Tracking",
+    "date": "Oct 11, 2026"
+  },
+  {
     "url": "/journal/batch-lot-traceability-log/",
     "title": "Batch and Lot Traceability: A Practical Log for Small Makers",
     "excerpt": "Use linked receipt, consumption and shipment records to trace supplier lots through production. Includes free sample CSV, a candle-batch example and quantity reconciliation.",
@@ -780,7 +798,7 @@ var posts = [
   {
     "tag": "Order Tracking",
     "title": "How to Keep Track of Small Business Orders in One Place",
-    "date": "Updated Oct 10, 2026 · 5 min",
+    "date": "Updated Oct 11, 2026 · 5 min",
     "url": "/journal/track-small-business-orders/",
     "img": "/images/products/sales-management-system/9-inventory-orders.webp",
     "alt": "How to Keep Track of Small Business Orders in One Place",
