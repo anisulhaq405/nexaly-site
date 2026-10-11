@@ -1961,7 +1961,7 @@
     },
     "https://nexalyplanner.com/journal/release-reserved-stock-cancelled-orders/|instagram": {
       "revision": "079ad28b4fed894178088ae0bfafd81f3dffed869e1372819687d135bb780813",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-11T04:08:48.226099+00:00"
     }
   },
