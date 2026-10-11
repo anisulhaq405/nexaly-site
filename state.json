@@ -1978,6 +1978,11 @@
       "revision": "458808221c176130abb36dd62dadee6df35bd70123a65ea322ca1a7a6aa7fde9",
       "status": "needs_review",
       "attemptedAt": "2026-10-11T04:08:59.945325+00:00"
+    },
+    "https://nexalyplanner.com/journal/track-partial-shipments-backorders/|instagram": {
+      "revision": "458808221c176130abb36dd62dadee6df35bd70123a65ea322ca1a7a6aa7fde9",
+      "status": "attempting",
+      "attemptedAt": "2026-10-11T04:09:03.084213+00:00"
     }
   },
   "firstTestCompleted": true
