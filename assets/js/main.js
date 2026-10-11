@@ -807,11 +807,11 @@ var posts = [
   {
     "tag": "Content Calendar",
     "title": "A 30-Day Content Calendar for a Clothing Brand",
-    "date": "Sep 8, 2026 · 5 min",
+    "date": "Updated Oct 10, 2026 · 5 min",
     "url": "/journal/content-calendar-clothing-brand/",
     "img": "/images/products/content-marketing-planner/content-marketing-planner-visual-content-calendar.jpg",
     "alt": "A 30-Day Content Calendar for a Clothing Brand",
-    "excerpt": "Plan clothing-brand content with a free 30-day calendar. Get product-detail ideas, formats, clear CTAs and a practical routine for reviewing results."
+    "excerpt": "Copy a 30-day clothing-brand content calendar from this guide. Get product-detail ideas, formats, clear CTAs and a routine for reviewing results."
   },
   {
     "tag": "Social Content",
@@ -843,11 +843,11 @@ var posts = [
   {
     "tag": "Attendance Tracker",
     "title": "Homeschool Attendance Tracker: A Simple Daily Record",
-    "date": "Updated Oct 8, 2026 · 5 min",
+    "date": "Updated Oct 10, 2026 · 5 min",
     "url": "/journal/homeschool-attendance-tracker/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-reports-transcript.jpg",
     "alt": "Homeschool Attendance Tracker: A Simple Daily Record",
-    "excerpt": "Download a free homeschool attendance tracker. Keep separate daily records for each child, review duplicate entries and understand what the totals mean."
+    "excerpt": "Use a free browser attendance log or copy the daily-record example. Keep separate records for each child, review duplicates and understand the totals."
   },
   {
     "tag": "Homeschool Planner",
