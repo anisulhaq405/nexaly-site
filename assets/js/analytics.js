@@ -43,6 +43,9 @@
     var anchor = event.target.closest('a[href]');
     if (anchor) {
       var url; try { url = new URL(anchor.href, location.origin); } catch (_) { return; }
+      var sheetResources = {'1rxi5554h8Wfc3Vd66TY9_ZXuiTZZ3KBO8Lvcb_24bqM':'assignment-tracker-template','1XllAhmk7sDGlajM7xfy3xUhqeoF0X4-0SYIVk4L4d1Y':'13-week-cash-flow-forecast-template','1JaEvb77fWoaBfUc9_0Lo1L4kR9Tp-iP1znyYHaYqQrA':'purchase-order-tracker-template'};
+      var sheetLink = url.pathname.match(/^\/spreadsheets\/d\/([A-Za-z0-9_-]+)\/copy$/);
+      if (url.origin === 'https://docs.google.com' && sheetLink && sheetResources[sheetLink[1]]) window.gtag('event', 'template_open', {resource_id: sheetResources[sheetLink[1]], file_extension: 'google_sheets', page_location: location.origin + location.pathname, page_referrer: ''});
       if (url.origin === location.origin) {
         var resource = url.pathname.match(/^\/assets\/downloads\/(assignment-tracker-template|13-week-cash-flow-forecast-template|purchase-order-tracker-template|adhd-daily-planning-layout)\.(xlsx|pdf|html)$/);
         if (resource) window.gtag('event', resource[2] === 'html' ? 'template_open' : 'template_download', {resource_id: resource[1], file_extension: resource[2], page_location: location.origin + location.pathname, page_referrer: ''});
