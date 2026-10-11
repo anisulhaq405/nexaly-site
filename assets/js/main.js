@@ -365,12 +365,12 @@ var posts = [
   },
   {
     "url": "/journal/purchase-order-tracker/",
-    "title": "Purchase Order Tracker: Follow Partial Deliveries Without Losing the Balance",
-    "excerpt": "Set up a purchase order tracker with line-level quantities, accepted receipts, cancellations and next actions. Includes a worked partial-delivery example.",
+    "title": "Purchase Order Tracker Template: Partial Deliveries & Balances",
+    "excerpt": "Download a free purchase order tracker Excel template. Record ordered, accepted and cancelled quantities to calculate open balances for partial deliveries.",
     "img": "/images/journal/purchase-order-tracker-20261001.webp",
     "alt": "Receiving clerk comparing a purchase order with a partial delivery of cartons.",
     "tag": "Planning Guides",
-    "date": "Updated Oct 10, 2026"
+    "date": "Updated Oct 11, 2026"
   },
   {
     "url": "/journal/small-engine-repair-business-plan/",
@@ -446,8 +446,8 @@ var posts = [
   },
   {
     "url": "/journal/cash-flow-forecast-template-example/",
-    "title": "Cash Flow Forecast Template: A 13-Week Worked Example",
-    "excerpt": "Forecast receipts and payments week by week without mixing in profit. Includes a worked numerical example, assumptions and practical decisions.",
+    "title": "Cash Flow Forecast Template: Free 13-Week Excel Example",
+    "excerpt": "Download a free 13-week cash flow forecast Excel template with a worked example. Enter weekly receipts and payments to calculate closing cash balances.",
     "img": "/images/journal/cash-flow-forecast-template-example-v2.jpg",
     "alt": "Shop owner reviewing a 13-week cash flow chart and invoices under 13-Week Cash Flow",
     "tag": "Planning Guides",
@@ -716,12 +716,12 @@ var posts = [
   },
   {
     "url": "/journal/adhd-planner-for-adults/",
-    "title": "ADHD Planner for Adults: Build a System You Can Reuse",
-    "excerpt": "Choose an ADHD planner for adults and set up a reusable daily system for task capture, time blocks, focus sessions, resets and weekly reviews.",
+    "title": "ADHD Planner for Adults: Daily Planning and Reset Guide",
+    "excerpt": "Set up an ADHD planner for adults with a printable daily layout, small next actions, time anchors and a missed-day reset. Includes a worked planning example.",
     "img": "/images/journal/adhd-planner-for-adults-20260915.jpg",
     "alt": "Adult using a short visual daily plan, capture inbox and focus timer under the heading ADHD Planner That Sticks",
     "tag": "Planning Guides",
-    "date": "Updated Sep 30, 2026"
+    "date": "Updated Oct 11, 2026"
   },
   {
     "url": "/journal/business-planner-weekly-review/",
@@ -878,12 +878,12 @@ var posts = [
   },
   {
     "tag": "Student Planner",
-    "title": "Assignment Tracker for College Students: Set Up Your Semester",
-    "date": "Updated Oct 10, 2026 · 5 min",
+    "title": "Free Assignment Tracker Template for College Students",
+    "date": "Updated Oct 11, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
     "img": "/images/products/ai-student-planner/ai-student-planner-plan-track-stay-ahead.jpg",
-    "alt": "Assignment Tracker for College Students: Set Up Your Semester",
-    "excerpt": "Organize college assignments with a free tracker. Record due dates, next actions and planned work, then use editable flags to review approaching deadlines."
+    "alt": "Free Assignment Tracker Template for College Students",
+    "excerpt": "Download a free Excel assignment tracker template with editable dates, task status and next actions. Includes a college example and setup instructions."
   },
   {
     "tag": "Study Schedule",
