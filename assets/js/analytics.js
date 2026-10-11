@@ -47,7 +47,7 @@
         var resource = url.pathname.match(/^\/assets\/downloads\/(assignment-tracker-template|13-week-cash-flow-forecast-template|purchase-order-tracker-template|adhd-daily-planning-layout)\.(xlsx|pdf|html)$/);
         if (resource) window.gtag('event', resource[2] === 'html' ? 'template_open' : 'template_download', {resource_id: resource[1], file_extension: resource[2], page_location: location.origin + location.pathname, page_referrer: ''});
         var product = url.pathname.match(/^\/planners\/([a-z0-9-]+)\/$/);
-        if (/^\/journal\/[a-z0-9-]+\/$/.test(location.pathname) && product) window.gtag('event', 'product_click', {product_id: product[1], page_location: location.origin + location.pathname, page_referrer: ''});
+        if (/^\/journal\/[a-z0-9-]+\/$/.test(location.pathname) && product && !/^(digital-planners|business-operating-systems)$/.test(product[1])) window.gtag('event', 'product_click', {product_id: product[1], page_location: location.origin + location.pathname, page_referrer: ''});
       }
     }
     var button = event.target.closest('button');
