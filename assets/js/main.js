@@ -295,8 +295,8 @@ var posts = [
     "url": "/journal/track-partial-shipments-backorders/",
     "title": "How to Track Partial Shipments and Backorders",
     "excerpt": "Track customer-order shipments by order ID, line ID and shipment reference. Use a worked backorder ledger to keep outstanding units and next actions visible.",
-    "img": "/images/products/sales-management-system/9-inventory-orders.webp",
-    "alt": "How to Track Partial Shipments and Backorders",
+    "img": "/images/journal/track-partial-shipments-backorders-20261011.webp",
+    "alt": "Packing desk with blue mugs in an outgoing parcel and additional mugs on a shelf for a later shipment.",
     "tag": "Order Tracking",
     "date": "Oct 11, 2026"
   },
@@ -304,8 +304,8 @@ var posts = [
     "url": "/journal/release-reserved-stock-cancelled-orders/",
     "title": "How to Release Reserved Stock After an Order Cancellation",
     "excerpt": "Review cancelled order quantities, physical stock and reservations before releasing inventory. Includes a worked example and a copyable cancellation record.",
-    "img": "/images/products/sales-management-system/9-inventory-orders.webp",
-    "alt": "How to Release Reserved Stock After an Order Cancellation",
+    "img": "/images/journal/release-reserved-stock-cancelled-orders-20261011.webp",
+    "alt": "Stockroom with a usable blue mug returning to a shelf and a chipped mug kept separately for inspection.",
     "tag": "Order Tracking",
     "date": "Oct 11, 2026"
   },

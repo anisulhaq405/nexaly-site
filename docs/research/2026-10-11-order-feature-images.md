@@ -1,0 +1,5 @@
+# Order support editorial image refresh
+
+Two topic-specific images generated using the built-in image generation tool, visually reviewed for correct title text and subject. Images are editorial illustrations, not app screenshots or quantitative diagrams. Prompts: premium landscape warm cream/sage/forest-green packing desk with blue mugs, outgoing parcel and waiting stock, title “Partial Shipments & Backorders”; matching stockroom scene with a usable mug returned to shelf and chipped mug held separately, title “Cancelled Orders”, subtitle “Release Reserved Stock Carefully”. Full generated outputs retained outside the repository; project assets stored as optimized WebP under images/journal.
+
+Added visible article feature figures with dimensions, descriptive alt text and explanatory captions; replaced journal-card, Open Graph, Twitter and structured-data image references. Added unique shipment-event and superseded-record guidance; added idempotent cancellation-reference review and amendment handling. Existing calculations and product capabilities preserved.
