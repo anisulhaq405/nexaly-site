@@ -761,8 +761,9 @@
       "attemptedAt": "2026-10-11T03:46:56.437426+00:00"
     },
     "https://nexalyplanner.com/journal/content-calendar-clothing-brand/|pinterest": {
-      "revision": "493af47e34cdcb5fa525ca17582c6526f69ce45017ecddd41eeac96dcae82a6d",
-      "status": "baseline"
+      "revision": "d7954e48f0f356bd8a635fb972eb74e10cca377afb84f297cbc4d6f954d40e35",
+      "status": "attempting",
+      "attemptedAt": "2026-10-11T03:46:58.910855+00:00"
     },
     "https://nexalyplanner.com/journal/content-calendar-clothing-brand/|youtube": {
       "revision": "493af47e34cdcb5fa525ca17582c6526f69ce45017ecddd41eeac96dcae82a6d",
