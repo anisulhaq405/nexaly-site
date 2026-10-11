@@ -295,7 +295,7 @@ var posts = [
     "url": "/journal/track-partial-shipments-backorders/",
     "title": "How to Track Partial Shipments and Backorders",
     "excerpt": "Track customer-order shipments by order ID, line ID and shipment reference. Use a worked backorder ledger to keep outstanding units and next actions visible.",
-    "img": "/images/journal/track-partial-shipments-backorders-20261011.webp",
+    "img": "/images/journal/track-partial-shipments-backorders-20261011.webp?v=20261011",
     "alt": "Packing desk with blue mugs in an outgoing parcel and additional mugs on a shelf for a later shipment.",
     "tag": "Order Tracking",
     "date": "Oct 11, 2026"
