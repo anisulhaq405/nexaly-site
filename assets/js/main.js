@@ -1262,6 +1262,6 @@ runReveal();
 /* Load optional website analytics separately from storefront behavior. */
 (function () {
   var script = document.createElement('script'); script.async = true;
-  script.src = '/assets/js/analytics.js?v=0a3752d7dbcb';
+  script.src = '/assets/js/analytics.js?v=9dff181bb9d1';
   document.head.appendChild(script);
 }());
