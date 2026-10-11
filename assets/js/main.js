@@ -451,7 +451,7 @@ var posts = [
     "img": "/images/journal/cash-flow-forecast-template-example-v2.jpg",
     "alt": "Shop owner reviewing a 13-week cash flow chart and invoices under 13-Week Cash Flow",
     "tag": "Planning Guides",
-    "date": "Updated Oct 8, 2026"
+    "date": "Updated Oct 11, 2026"
   },
   {
     "url": "/journal/equipment-rental-business-plan-example/",
@@ -505,7 +505,7 @@ var posts = [
     "img": "/images/journal/small-business-budget-example-v2.jpg",
     "alt": "Owner comparing planned and actual costs on two budget sheets under Small Business Budget",
     "tag": "Planning Guides",
-    "date": "Updated Sep 29, 2026"
+    "date": "Updated Oct 11, 2026"
   },
   {
     "url": "/journal/weekly-digital-planner-small-business/",
