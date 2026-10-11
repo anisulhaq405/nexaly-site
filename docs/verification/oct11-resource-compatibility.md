@@ -7,7 +7,7 @@ Owner authorized completion of the remaining resource and measurement checks.
 - Added a one-page Letter PDF; rendered and visually inspected for clipping and page count.
 - Added consent-gated template_download/template_open and journal product_click events. These measure clicks, not completed downloads, purchases or ranking. Event parameters omit query strings, worksheet entries and referrers. Isolated tests cover accepted/rejected/unset consent and external links.
 - Updated only the protected main.js analytics-loader cache revision digest after inspecting the exact diff; every other protected file/product remains identical. This refresh loads the owner-authorized measurement fix.
-- Native Sheets files are in the owner's ChatGPT Drive folder. Public copy links remain unpublished because browser sign-in and public viewer access have not been verified.
+- Native Sheets files are in the owner's ChatGPT Drive folder. After owner sign-in, the three templates have public link access limited to Viewer; Make-a-copy links are added to their existing articles. Native browser views and exported PDF pages were inspected. The separate corrected-import QA copy remains private.
 
 ## Pre-release measurement baseline
 
