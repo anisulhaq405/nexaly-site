@@ -1624,8 +1624,9 @@
       "attemptedAt": "2026-10-12T11:24:51.968185+00:00"
     },
     "https://nexalyplanner.com/journal/why-one-time-purchase-offline-apps/|instagram": {
-      "revision": "d5771e7c739db86aab11b495b2f102f0716a2a29c01cef7969670d6db48b9232",
-      "status": "baseline"
+      "revision": "1b496de56a9f823df9acc1984b89795133269ae43b8ab8a82fc6f8910080d7dc",
+      "status": "attempting",
+      "attemptedAt": "2026-10-12T11:24:54.756951+00:00"
     },
     "https://nexalyplanner.com/journal/why-one-time-purchase-offline-apps/|pinterest": {
       "revision": "d5771e7c739db86aab11b495b2f102f0716a2a29c01cef7969670d6db48b9232",
