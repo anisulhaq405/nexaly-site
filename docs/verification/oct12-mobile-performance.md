@@ -23,3 +23,9 @@ Reviewed core snapshot: all 21 protected product structures/prices/checkout URLs
 Consent behavioral checks cover initial, accepted, rejected, blocked-storage and withdrawal cases, and ensure existing first-render markup is not recreated. Existing resource-click, product/Sheets-link, no-query-leakage and contact-draft tests remain. SEO publishing regression, generator idempotence, internal links, core guard and exact-head CI are required before merge.
 
 Representative generated image variants visually inspected; no new imagery, crop or content redesign. Browser/live deployment and fresh PageSpeed results must be verified after merge; source checks alone cannot promise an LCP or score. No physical-phone test or AdSense account creation is claimed by this release.
+
+## First deployed measurement and follow-up
+
+PR178 merged at ded24f6d438abc7a551fbcbc174b84d378a3423f. Fresh 17:12 Karachi Google PageSpeed report: mobile 90 / Accessibility 100 / Best Practices 100 / SEO 100; LCP 3.3 s, FCP 2.0 s, TBT 0 ms, CLS 0. Desktop 100 in all four categories, LCP 0.4 s, FCP 0.3 s, TBT 0 ms, CLS 0. Mobile image-delivery estimate is now 9 KiB. Report: https://pagespeed.web.dev/analysis/https-nexalyplanner-com/fv5cek0eii?form_factor=mobile.
+
+The mobile LCP paragraph is still the consent notice. Follow-up removes unnecessary cssText assignments to the pre-rendered panel/buttons, preserving their original styles while binding handlers. A regression test throws if the first-render panel or button styles are rewritten. Legacy dynamic panels retain their existing styles. This is a focused repaint repair, not removal/delay of consent choices. Recheck final deployed metrics; do not claim LCP below 2.5 s from this intermediate report.
