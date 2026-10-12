@@ -2265,6 +2265,11 @@
       "revision": "2d036939e8478631d7af4c1643b9ebeff768452fef7d80b77cd2ffb01f4b149d",
       "status": "needs_review",
       "attemptedAt": "2026-10-12T23:56:08.709378+00:00"
+    },
+    "https://nexalyplanner.com/journal/trucking-company-business-plan-trip-cost/|facebook": {
+      "revision": "2d6f4d811d1816a000bc2843f4cf9f6df830683ca522c9283b31ee36e748d058",
+      "status": "attempting",
+      "attemptedAt": "2026-10-12T23:56:16.179074+00:00"
     }
   },
   "firstTestCompleted": true
