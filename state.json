@@ -2205,6 +2205,11 @@
       "revision": "ec8ffa2895bc9cbb4614b4a36d6b06339ee3db9f9ec8fad314dd924ae6824275",
       "status": "needs_review",
       "attemptedAt": "2026-10-12T23:55:19.324047+00:00"
+    },
+    "https://nexalyplanner.com/journal/monthly-teacher-planner-lesson-preparation/|facebook": {
+      "revision": "e82f45583b464b2032de18cb3df74ff329a00c4a0bd788d0e256ee0fc0ace789",
+      "status": "attempting",
+      "attemptedAt": "2026-10-12T23:55:26.589201+00:00"
     }
   },
   "firstTestCompleted": true
