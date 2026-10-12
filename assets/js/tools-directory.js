@@ -17,7 +17,7 @@ function update(){
   if(empty)empty.hidden=shown!==0;
   if(clear)clear.hidden=input.value.length===0;
   if(reset)reset.hidden=category==='all'&&input.value.length===0;
-  const caption=document.getElementById('active-filter');if(caption)caption.textContent=words.length?'Results for “'+input.value.trim()+'”':category==='latest'?'The latest eight additions to the collection.':'Browse the planners in this category.';
+  const caption=document.getElementById('active-filter');if(caption)caption.textContent=words.length?'Results for “'+input.value.trim()+'”':category==='latest'?'The latest additions to the collection.':'Browse the planners in this category.';
 }
 function resetAll(){input.value='';category='all';history.replaceState(null,'',location.pathname+location.search+'#browse');update();input.focus();}
 input.addEventListener('input',update);
