@@ -27,11 +27,13 @@
       });
     }
   }
-  var panel = document.createElement('section'); panel.setAttribute('aria-label', 'Analytics preferences');
+  // The homepage supplies first-render markup; other pages retain the same fallback.
+  var existingPanel = document.getElementById('nexaly-analytics-panel');
+  var panel = existingPanel || document.createElement('section'); panel.setAttribute('aria-label', 'Analytics preferences');
   panel.style.cssText = 'position:fixed;bottom:52px;left:16px;right:16px;max-width:560px;z-index:10001;background:#fff;color:#15283b;padding:16px;border:1px solid #cbd5e1;border-radius:12px;box-shadow:0 8px 30px #0002;font:14px/1.5 system-ui';
-  panel.innerHTML = '<p style="margin:0 0 12px">Allow optional Google Analytics cookies to help us understand website visits, template downloads and planner link/button use? Planner entries are never sent. <a href="/privacy/">Privacy policy</a></p><button type="button" data-choice="accepted">Allow analytics</button> <button type="button" data-choice="rejected">Decline</button>';
-  panel.querySelectorAll('button').forEach(function (button) { button.style.cssText = 'padding:9px 14px;border:1px solid #64748b;border-radius:7px;background:#f8fafc;color:#15283b;cursor:pointer'; button.addEventListener('click', function () { save(button.dataset.choice); }); });
-  panel.hidden = choice === 'accepted' || choice === 'rejected'; document.body.appendChild(panel);
+  if (!existingPanel) panel.innerHTML = '<p style="margin:0 0 12px">Allow optional Google Analytics cookies to help us understand website visits, template downloads and planner link/button use? Planner entries are never sent. <a href="/privacy/">Privacy policy</a></p><button type="button" data-choice="accepted">Allow analytics</button> <button type="button" data-choice="rejected">Decline</button>';
+  panel.querySelectorAll('button').forEach(function (button) { button.style.cssText = 'padding:9px 14px;border:1px solid #64748b;border-radius:7px;background:#f8fafc;color:#15283b;cursor:pointer'; button.addEventListener('click', function () { save(button.dataset.choice); }); button.disabled = false; });
+  panel.hidden = choice === 'accepted' || choice === 'rejected'; if (!panel.parentNode) document.body.appendChild(panel);
   var settings = document.createElement('button'); settings.type = 'button'; settings.textContent = 'Analytics settings';
   settings.style.cssText = 'position:fixed;bottom:12px;left:16px;z-index:10000;padding:7px 10px;border:1px solid #cbd5e1;border-radius:7px;background:#fff;color:#15283b;font:12px system-ui;cursor:pointer';
   settings.addEventListener('click', function () { panel.hidden = !panel.hidden; }); document.body.appendChild(settings);
