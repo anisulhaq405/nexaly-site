@@ -141,4 +141,4 @@ All 365 calendar dates, 14 rendered PDF pages, worked arithmetic, consent/downlo
 
 ## October 13, 2026: clustered keyword workflows
 
-Prepared 12 original guides and 11 distinct worksheets, with 14 contextual existing-page updates. Scope, exact routes, research confidence and verification status are recorded in `docs/verification/oct13-keyword-workflows.md`. Three lower-priority extensions remain held. Existing completed guides were preserved; no keyword-country, indexing or ranking result was inferred.
+Published 12 original guides and 11 distinct worksheets, with 14 contextual existing-page updates in PR #180. CI passed; all 201 changed public files matched live and all 11 new worksheet examples calculated in the cloud browser. Scope, exact routes, research confidence and verification status are recorded in `docs/verification/oct13-keyword-workflows.md`. Three lower-priority extensions remain held. Existing completed guides were preserved; no keyword-country, indexing or ranking result was inferred.
