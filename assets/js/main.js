@@ -908,6 +908,8 @@ var heartSvg = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-
 var sprigSvg = '<svg width="58" height="20" viewBox="0 0 58 20" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M2 18C16 18 24 10 32 2M32 2c-5 0-8 2-10 5M32 2c0 4-2 7-5 9"/></svg>';
 
 var cardImages = {
+  "/images/journal/track-partial-shipments-backorders-20261011.webp": {"srcset": "/images/cards/track-partial-shipments-backorders-20261011-320.webp 320w, /images/cards/track-partial-shipments-backorders-20261011-640.webp 640w, /images/journal/track-partial-shipments-backorders-20261011.webp 1599w"},
+  "/images/journal/release-reserved-stock-cancelled-orders-20261011.webp": {"srcset": "/images/cards/release-reserved-stock-cancelled-orders-20261011-320.webp 320w, /images/cards/release-reserved-stock-cancelled-orders-20261011-640.webp 640w, /images/journal/release-reserved-stock-cancelled-orders-20261011.webp 1599w"},
   "/images/products/thumbs/business-runway-burn-rate-os.webp": {
     "srcset": "/images/cards/business-runway-burn-rate-os-320.webp 320w, /images/products/thumbs/business-runway-burn-rate-os.webp?v=20260928e 540w"
   },
@@ -918,7 +920,7 @@ var cardImages = {
     "srcset": "/images/cards/agency-client-profitability-capacity-os-320.webp 320w, /images/products/thumbs/agency-client-profitability-capacity-os.webp?v=20260928e 540w"
   },
   "/images/products/thumbs/renewguard-os.jpg": {
-    "srcset": "/images/cards/renewguard-os-320.webp 320w, /images/cards/renewguard-os-640.webp 640w, /images/products/thumbs/renewguard-os.jpg?v=20260928g 1040w"
+    "srcset": "/images/cards/renewguard-os-320.webp 320w, /images/cards/renewguard-os-480-oct12.webp 480w, /images/cards/renewguard-os-640.webp 640w, /images/products/thumbs/renewguard-os.jpg?v=20260928g 1040w"
   },
   "/images/products/thumbs/consignclear-os-v3.webp": {
     "srcset": "/images/cards/consignclear-os-v3-320.webp 320w, /images/products/thumbs/consignclear-os-v3.webp?v=20260928g 720w"
@@ -983,7 +985,7 @@ var cardImages = {
 };
 function cardImageAttrs(source,responsive){
   var image=responsive===false?null:cardImages[source.split('?')[0]];
-  return 'src="'+source+'"'+(image?' srcset="'+image.srcset+'" sizes="(max-width: 520px) calc(100vw - 48px), (max-width: 780px) 44vw, (max-width: 1100px) 30vw, 270px"':'');
+  return 'src="'+source+'"'+(image?' srcset="'+image.srcset+'" sizes="auto, (max-width: 520px) calc(100vw - 48px), (max-width: 780px) 44vw, (max-width: 1100px) 30vw, 270px"':'');
 }
 
 function coverHTML(p,priority){
@@ -1271,6 +1273,6 @@ runReveal();
 /* Load optional website analytics separately from storefront behavior. */
 (function () {
   var script = document.createElement('script'); script.async = true;
-  script.src = '/assets/js/analytics.js?v=f601b62d9312';
+  script.src = '/assets/js/analytics.js?v=61a958bbaaa8';
   document.head.appendChild(script);
 }());
