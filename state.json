@@ -2163,7 +2163,7 @@
     },
     "https://nexalyplanner.com/journal/create-your-own-printable-planner/|youtube": {
       "revision": "ecf7050d7effa7e81af5d8a07c9ab1fc2405f79d01be1215dfc20430aa7d8d29",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-12T23:54:48.555354+00:00"
     }
   },
