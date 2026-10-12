@@ -567,8 +567,9 @@
       "status": "baseline"
     },
     "https://nexalyplanner.com/journal/best-planner-app-for-ipad-2026/|facebook": {
-      "revision": "8b1d4dac992e69a1a5e2a7676fbe1cf82b0e27ab20cac14f6c52d5404c04bae8",
-      "status": "baseline"
+      "revision": "53451703043a5e7a3800391725dbafd06530079ca76f502f733052c1ad306615",
+      "status": "attempting",
+      "attemptedAt": "2026-10-12T11:22:28.082566+00:00"
     },
     "https://nexalyplanner.com/journal/best-planner-app-for-ipad-2026/|instagram": {
       "revision": "8b1d4dac992e69a1a5e2a7676fbe1cf82b0e27ab20cac14f6c52d5404c04bae8",
