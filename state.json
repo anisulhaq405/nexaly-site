@@ -2065,6 +2065,11 @@
       "revision": "8a94a64635ef219a8403931e9d646dd104bc113862438075676389fd76965eda",
       "status": "needs_review",
       "attemptedAt": "2026-10-12T23:53:29.620756+00:00"
+    },
+    "https://nexalyplanner.com/journal/cash-flow-report-template-variance/|facebook": {
+      "revision": "609cf213120f5e7d6bdcfcdc831ac7e2bff805522c3468f639783c17a8f497f7",
+      "status": "attempting",
+      "attemptedAt": "2026-10-12T23:53:37.452757+00:00"
     }
   },
   "firstTestCompleted": true
