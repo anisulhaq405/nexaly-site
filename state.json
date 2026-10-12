@@ -678,8 +678,9 @@
       "attemptedAt": "2026-10-12T11:22:49.979969+00:00"
     },
     "https://nexalyplanner.com/journal/caregiver-daily-log-template/|youtube": {
-      "revision": "e3da3adac71093705a357e99170044e9b5e6189d1570b22c022185bf466c135c",
-      "status": "baseline"
+      "revision": "afc8d7aba692d1043dc329607f7ec275d3f6411888ed74dbb537d534fa7e22f8",
+      "status": "attempting",
+      "attemptedAt": "2026-10-12T11:22:52.952238+00:00"
     },
     "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/|facebook": {
       "revision": "316c81cb433ef67f003d5f0e79c39a5526943033ab7fa0c6e4bf817f64cd5148",
