@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-13",
+  "tools": [
+    "cash-flow-variance-report",
+    "monthly-business-budget-variance",
+    "printable-planner-builder",
+    "monthly-teacher-lesson-planner",
+    "content-production-capacity-planner",
+    "marketing-campaign-budget-planner",
+    "one-page-business-plan-builder",
+    "service-business-financial-projections",
+    "coffee-shop-daily-operating-plan",
+    "construction-milestone-cash-schedule",
+    "trucking-trip-cost-worksheet"
+  ],
+  "articles": [
+    "cash-flow-report-template-variance",
+    "small-business-budget-template-monthly-variance",
+    "create-your-own-printable-planner",
+    "monthly-teacher-planner-lesson-preparation",
+    "content-marketing-plan-template-capacity",
+    "one-page-business-plan-template-assumptions",
+    "business-plan-financial-projections-service-example",
+    "coffee-shop-business-plan-daily-capacity",
+    "construction-company-business-plan-milestone-cash",
+    "trucking-company-business-plan-trip-cost",
+    "interior-design-business-plan-project-capacity",
+    "it-consulting-business-plan-retainer-capacity"
+  ],
+  "existing_updates": {
+    "journal/a5-planner-sizes-layouts-digital-options": "Put the next operating decision into a worksheet",
+    "journal/academic-planner-school-year": "Put the next operating decision into a worksheet",
+    "journal/agency-capacity-planning-example": "Put the next operating decision into a worksheet",
+    "journal/cash-flow-forecast-template-example": "Put the next operating decision into a worksheet",
+    "journal/content-calendar-clothing-brand": "Put the next operating decision into a worksheet",
+    "journal/equipment-rental-business-plan-example": "Put the next operating decision into a worksheet",
+    "journal/freelance-business-plan-example": "Put the next operating decision into a worksheet",
+    "journal/saas-business-plan-template-example": "Put the next operating decision into a worksheet",
+    "journal/small-business-budget-example": "Put the next operating decision into a worksheet",
+    "journal/one-page-marketing-plan-example": "Review a campaign against its actual test budget",
+    "journal/daily-planner-2026-free-layouts": "Make a daily page fit an overnight shift",
+    "journal/weekly-planner-2026-free-templates": "Print the week with the starting day you use",
+    "journal/monthly-planner-free-templates": "Trace one monthly deadline into the week and day",
+    "tools/craft-fair-stock-reconciliation": "Farmers market vendor example: stock, spoilage and selling costs"
+  },
+  "unchanged_reviewed": [
+    "adhd-planner-for-adults",
+    "best-planner-app-for-ipad-2026",
+    "digital-planner-app-how-it-works",
+    "college-assignment-tracker",
+    "retail-store-business-plan-example"
+  ],
+  "held": [
+    "nonprofit",
+    "real-estate",
+    "sustainable-farm"
+  ],
+  "merged": [
+    "business-plan-sections",
+    "startup-business-plan"
+  ]
+}

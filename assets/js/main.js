@@ -292,6 +292,114 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/business-plan-financial-projections-service-example/",
+    "title": "Business Plan Financial Projections: Service Business Example",
+    "excerpt": "Separate billed revenue, operating result and cash in a service-business projection. Use a worked two-month worksheet with explicit assumptions.",
+    "img": "/assets/img/workflows/business-plan-financial-projections-service-example.webp",
+    "alt": "Business Plan Financial Projections: Service Business Example original worked-example diagram",
+    "tag": "Planning Guides",
+    "date": "Oct 13, 2026"
+  },
+  {
+    "url": "/journal/cash-flow-report-template-variance/",
+    "title": "Cash Flow Report Template: Forecast vs Actual Variance",
+    "excerpt": "Reconcile forecast and actual cash with a worked variance report. Separate timing from amount changes and use a free cash bridge worksheet.",
+    "img": "/assets/img/workflows/cash-flow-report-template-variance.webp",
+    "alt": "Cash Flow Report Template: Forecast vs Actual Variance original worked-example diagram",
+    "tag": "Planning Guides",
+    "date": "Oct 13, 2026"
+  },
+  {
+    "url": "/journal/coffee-shop-business-plan-daily-capacity/",
+    "title": "Coffee Shop Business Plan: Daily Capacity and Cost Example",
+    "excerpt": "Connect a coffee shop business plan to orders, opening hours, staffing and a slower-day scenario. Use a free daily operating worksheet.",
+    "img": "/assets/img/workflows/coffee-shop-business-plan-daily-capacity.webp",
+    "alt": "Coffee Shop Business Plan: Daily Capacity and Cost Example original worked-example diagram",
+    "tag": "Planning Guides",
+    "date": "Oct 13, 2026"
+  },
+  {
+    "url": "/journal/construction-company-business-plan-milestone-cash/",
+    "title": "Construction Company Business Plan: Milestone Cash Example",
+    "excerpt": "Plan construction deposits, materials, labor and milestone collections with a dated cash schedule. Compare base cash with confirmed receipts only.",
+    "img": "/assets/img/workflows/construction-company-business-plan-milestone-cash.webp",
+    "alt": "Construction Company Business Plan: Milestone Cash Example original worked-example diagram",
+    "tag": "Planning Guides",
+    "date": "Oct 13, 2026"
+  },
+  {
+    "url": "/journal/content-marketing-plan-template-capacity/",
+    "title": "Content Marketing Plan Template With a Capacity Check",
+    "excerpt": "Build a content marketing plan around realistic production hours. Check overloaded dates, review owners and a worked content-capacity example.",
+    "img": "/assets/img/workflows/content-marketing-plan-template-capacity.webp",
+    "alt": "Content Marketing Plan Template With a Capacity Check original worked-example diagram",
+    "tag": "Planning Guides",
+    "date": "Oct 13, 2026"
+  },
+  {
+    "url": "/journal/create-your-own-printable-planner/",
+    "title": "Create Your Own Printable Planner: Letter, A4 or A5",
+    "excerpt": "Create a daily or weekly printable planner with your hours, week start and writing sections. Preview Letter, A4 or A5 and print or save PDF.",
+    "img": "/assets/img/workflows/create-your-own-printable-planner.webp",
+    "alt": "Create Your Own Printable Planner: Letter, A4 or A5 original worked-example diagram",
+    "tag": "Planning Guides",
+    "date": "Oct 13, 2026"
+  },
+  {
+    "url": "/journal/interior-design-business-plan-project-capacity/",
+    "title": "Interior Design Business Plan: Scope, Deposits and Capacity",
+    "excerpt": "Build an interior design business plan around project scope, revision hours, supplier deposits and delivery capacity using a worked studio example.",
+    "img": "/assets/img/workflows/interior-design-business-plan-project-capacity.webp",
+    "alt": "Interior Design Business Plan: Scope, Deposits and Capacity original worked-example diagram",
+    "tag": "Planning Guides",
+    "date": "Oct 13, 2026"
+  },
+  {
+    "url": "/journal/it-consulting-business-plan-retainer-capacity/",
+    "title": "IT Consulting Business Plan: Retainer Hours and Capacity",
+    "excerpt": "Write an IT consulting business plan with a clear support boundary, retainer-hour budget and delivery-capacity example using existing free worksheets.",
+    "img": "/assets/img/workflows/it-consulting-business-plan-retainer-capacity.webp",
+    "alt": "IT Consulting Business Plan: Retainer Hours and Capacity original worked-example diagram",
+    "tag": "Planning Guides",
+    "date": "Oct 13, 2026"
+  },
+  {
+    "url": "/journal/monthly-teacher-planner-lesson-preparation/",
+    "title": "Monthly Teacher Planner: Lessons and Preparation Dates",
+    "excerpt": "Use a monthly teacher planner to connect lessons, preparation dates, materials and owners. Find overdue preparation with a worked classroom example.",
+    "img": "/assets/img/workflows/monthly-teacher-planner-lesson-preparation.webp",
+    "alt": "Monthly Teacher Planner: Lessons and Preparation Dates original worked-example diagram",
+    "tag": "Planning Guides",
+    "date": "Oct 13, 2026"
+  },
+  {
+    "url": "/journal/one-page-business-plan-template-assumptions/",
+    "title": "One-Page Business Plan Template With an Assumptions Log",
+    "excerpt": "Write a one-page business plan with customer, offer, costs and evidence. Use a free builder and a practical first-90-days assumption-testing example.",
+    "img": "/assets/img/workflows/one-page-business-plan-template-assumptions.webp",
+    "alt": "One-Page Business Plan Template With an Assumptions Log original worked-example diagram",
+    "tag": "Planning Guides",
+    "date": "Oct 13, 2026"
+  },
+  {
+    "url": "/journal/small-business-budget-template-monthly-variance/",
+    "title": "Small Business Budget Template: Monthly Variance Review",
+    "excerpt": "Use a small business budget template to compare monthly budget and actual results, explain zero-base percentages and assign practical follow-up actions.",
+    "img": "/assets/img/workflows/small-business-budget-template-monthly-variance.webp",
+    "alt": "Small Business Budget Template: Monthly Variance Review original worked-example diagram",
+    "tag": "Planning Guides",
+    "date": "Oct 13, 2026"
+  },
+  {
+    "url": "/journal/trucking-company-business-plan-trip-cost/",
+    "title": "Trucking Company Business Plan: Total-Mile Cost Example",
+    "excerpt": "Use a trucking business plan example to separate loaded and empty miles, fuel, maintenance allowances and payment timing with a free trip worksheet.",
+    "img": "/assets/img/workflows/trucking-company-business-plan-trip-cost.webp",
+    "alt": "Trucking Company Business Plan: Total-Mile Cost Example original worked-example diagram",
+    "tag": "Planning Guides",
+    "date": "Oct 13, 2026"
+  },
+  {
     "url": "/journal/track-partial-shipments-backorders/",
     "title": "How to Track Partial Shipments and Backorders",
     "excerpt": "Track customer-order shipments by order ID, line ID and shipment reference. Use a worked backorder ledger to keep outstanding units and next actions visible.",
@@ -424,7 +532,7 @@ var posts = [
     "img": "/images/journal/agency-capacity-planning-example-20260929.webp",
     "alt": "Agency team planning retainer and project hours against monthly capacity",
     "tag": "Planning Guides",
-    "date": "Updated Oct 2, 2026"
+    "date": "Updated Oct 13, 2026"
   },
   {
     "url": "/journal/how-much-inventory-start-boutique/",
@@ -451,7 +559,7 @@ var posts = [
     "img": "/images/journal/cash-flow-forecast-template-example-v2.jpg",
     "alt": "Shop owner reviewing a 13-week cash flow chart and invoices under 13-Week Cash Flow",
     "tag": "Planning Guides",
-    "date": "Updated Oct 11, 2026"
+    "date": "Updated Oct 13, 2026"
   },
   {
     "url": "/journal/equipment-rental-business-plan-example/",
@@ -460,7 +568,7 @@ var posts = [
     "img": "/images/journal/equipment-rental-business-plan-example-v2.jpg",
     "alt": "Event lighting rental team inspecting equipment and a booking handoff under Equipment Rental Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 8, 2026"
+    "date": "Updated Oct 13, 2026"
   },
   {
     "url": "/journal/freelance-business-plan-example/",
@@ -469,7 +577,7 @@ var posts = [
     "img": "/images/journal/freelance-business-plan-example-v2.jpg",
     "alt": "Freelance designer reviewing client work and a calendar under Freelance Business Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 1, 2026"
+    "date": "Updated Oct 13, 2026"
   },
   {
     "url": "/journal/one-page-marketing-plan-example/",
@@ -478,7 +586,7 @@ var posts = [
     "img": "/images/journal/one-page-marketing-plan-example-v2.jpg",
     "alt": "Boutique marketing plan with audience, offer, channels, budget and calendar under One-Page Marketing Plan",
     "tag": "Planning Guides",
-    "date": "Sep 28, 2026"
+    "date": "Updated Oct 13, 2026"
   },
   {
     "url": "/journal/retail-store-business-plan-example/",
@@ -496,7 +604,7 @@ var posts = [
     "img": "/images/journal/saas-business-plan-template-example-v2.jpg",
     "alt": "Founder reviewing subscriber growth and cash runway charts under SaaS Business Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 7, 2026"
+    "date": "Updated Oct 13, 2026"
   },
   {
     "url": "/journal/small-business-budget-example/",
@@ -505,7 +613,7 @@ var posts = [
     "img": "/images/journal/small-business-budget-example-v2.jpg",
     "alt": "Owner comparing planned and actual costs on two budget sheets under Small Business Budget",
     "tag": "Planning Guides",
-    "date": "Updated Oct 11, 2026"
+    "date": "Updated Oct 13, 2026"
   },
   {
     "url": "/journal/weekly-digital-planner-small-business/",
@@ -523,7 +631,7 @@ var posts = [
     "img": "/images/journal/academic-planner-school-year-text-20260926.jpg",
     "alt": "Academic Planner: Plan Your School Year headline beside monthly and weekly planner pages on a desk",
     "tag": "Planning Guides",
-    "date": "Updated Oct 5, 2026"
+    "date": "Updated Oct 13, 2026"
   },
   {
     "url": "/journal/best-digital-planner-for-ipad/",
@@ -613,7 +721,7 @@ var posts = [
     "img": "/images/journal/daily-planner-2026-free-layouts-20260918.jpg",
     "alt": "Open 2026 daily planner showing priorities, time blocks, appointments, and notes beside a tablet",
     "tag": "Planning Guides",
-    "date": "Updated Oct 12, 2026"
+    "date": "Updated Oct 13, 2026"
   },
   {
     "url": "/journal/monthly-planner-2026-best-layouts/",
@@ -649,7 +757,7 @@ var posts = [
     "img": "/images/journal/weekly-planner-2026-free-templates-20260918.jpg",
     "alt": "Open 2026 weekly planner showing priorities, appointments, daily tasks, and a short weekly review",
     "tag": "Planning Guides",
-    "date": "Updated Oct 12, 2026"
+    "date": "Updated Oct 13, 2026"
   },
   {
     "url": "/journal/a5-planner-sizes-layouts-digital-options/",
@@ -658,7 +766,7 @@ var posts = [
     "img": "/images/journal/a5-planner-sizes-layouts-digital-options-20260918.jpg",
     "alt": "Open A5 planner showing a weekly layout beside a tablet with a digital planner page",
     "tag": "Planning Guides",
-    "date": "Updated Sep 21, 2026"
+    "date": "Updated Oct 13, 2026"
   },
   {
     "url": "/journal/daily-digital-planner/",
@@ -703,7 +811,7 @@ var posts = [
     "img": "/images/journal/monthly-planner-free-templates-20260918.jpg",
     "alt": "Open monthly planner with commitments, goals, project milestones, and review notes arranged across one calendar spread.",
     "tag": "Planning Guides",
-    "date": "Updated Oct 12, 2026"
+    "date": "Updated Oct 13, 2026"
   },
   {
     "url": "/journal/minimalist-planner/",
@@ -825,7 +933,7 @@ var posts = [
   {
     "tag": "Content Calendar",
     "title": "A 30-Day Content Calendar for a Clothing Brand",
-    "date": "Updated Oct 10, 2026 · 5 min",
+    "date": "Updated Oct 13, 2026 · 5 min",
     "url": "/journal/content-calendar-clothing-brand/",
     "img": "/images/products/content-marketing-planner/content-marketing-planner-visual-content-calendar.jpg",
     "alt": "A 30-Day Content Calendar for a Clothing Brand",

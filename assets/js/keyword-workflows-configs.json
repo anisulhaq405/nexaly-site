@@ -1,0 +1,1477 @@
+[
+  {
+    "slug": "cash-flow-variance-report",
+    "kind": "variance",
+    "name": "Cash Flow Variance Report",
+    "category": "cashflow",
+    "theme": "workflow-variance",
+    "color": "#175c67",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet name",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "currency",
+        "label": "Currency",
+        "type": "select",
+        "options": [
+          "USD",
+          "GBP",
+          "CAD",
+          "AUD",
+          "EUR",
+          "NZD"
+        ]
+      },
+      {
+        "key": "period",
+        "label": "Period covered",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "forecastOpening",
+        "label": "Forecast opening cash",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "actualOpening",
+        "label": "Actual opening cash",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "label",
+        "label": "Cash movement",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "direction",
+        "label": "Direction",
+        "type": "select",
+        "options": [
+          "Receipt",
+          "Payment"
+        ]
+      },
+      {
+        "key": "forecast",
+        "label": "Forecast amount",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "actual",
+        "label": "Actual amount",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "cause",
+        "label": "Reason to investigate",
+        "type": "select",
+        "options": [
+          "Timing",
+          "Amount",
+          "Unclassified"
+        ]
+      },
+      {
+        "key": "owner",
+        "label": "Follow-up owner",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "review",
+        "label": "Follow-up date",
+        "type": "date"
+      },
+      {
+        "key": "action",
+        "label": "Evidence and next action",
+        "type": "textarea",
+        "maxLength": 600,
+        "optional": true
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional example: Cash Flow Variance Report",
+        "currency": "USD",
+        "period": "One completed week",
+        "forecastOpening": "1000",
+        "actualOpening": "1000"
+      },
+      "rows": [
+        {
+          "label": "Customer collection",
+          "direction": "Receipt",
+          "forecast": "1500",
+          "actual": "1200",
+          "cause": "Timing",
+          "owner": "Owner",
+          "review": "2026-10-16",
+          "action": "Confirm whether the remaining 300 is still collectible."
+        },
+        {
+          "label": "Supplier payment",
+          "direction": "Payment",
+          "forecast": "800",
+          "actual": "900",
+          "cause": "Amount",
+          "owner": "Owner",
+          "review": "2026-10-16",
+          "action": "Compare the final invoice with the quote."
+        }
+      ]
+    },
+    "reportNote": "Forecast closing = forecast opening + forecast receipts \u2212 forecast payments. Actual closing uses actual cash. Cash impact is actual minus forecast for receipts and forecast minus actual for payments. Reasons are entered manually; this is not a statutory cash flow statement.",
+    "maxRows": 100
+  },
+  {
+    "slug": "monthly-business-budget-variance",
+    "kind": "budget",
+    "name": "Monthly Business Budget Variance",
+    "category": "cashflow",
+    "theme": "workflow-budget",
+    "color": "#6a401e",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet name",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "currency",
+        "label": "Currency",
+        "type": "select",
+        "options": [
+          "USD",
+          "GBP",
+          "CAD",
+          "AUD",
+          "EUR",
+          "NZD"
+        ]
+      },
+      {
+        "key": "period",
+        "label": "Budget month",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "label",
+        "label": "Budget line",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "type",
+        "label": "Line type",
+        "type": "select",
+        "options": [
+          "Revenue",
+          "Variable cost",
+          "Fixed cost"
+        ]
+      },
+      {
+        "key": "budget",
+        "label": "Budget amount",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "actual",
+        "label": "Actual amount",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "owner",
+        "label": "Review owner",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "review",
+        "label": "Review date",
+        "type": "date"
+      },
+      {
+        "key": "action",
+        "label": "Explanation and next action",
+        "type": "textarea",
+        "maxLength": 600,
+        "optional": true
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional example: Monthly Business Budget Variance",
+        "currency": "USD",
+        "period": "October 2026"
+      },
+      "rows": [
+        {
+          "label": "Sales",
+          "type": "Revenue",
+          "budget": "10000",
+          "actual": "9000",
+          "owner": "Owner",
+          "review": "2026-11-02",
+          "action": "Check orders and average order value separately."
+        },
+        {
+          "label": "Direct costs",
+          "type": "Variable cost",
+          "budget": "4000",
+          "actual": "3800",
+          "owner": "Owner",
+          "review": "2026-11-02",
+          "action": "Lower total cost does not establish lower unit cost."
+        },
+        {
+          "label": "Overhead",
+          "type": "Fixed cost",
+          "budget": "3000",
+          "actual": "3200",
+          "owner": "Owner",
+          "review": "2026-11-02",
+          "action": "Identify the additional 200 before renewing spending."
+        }
+      ]
+    },
+    "reportNote": "Amount variance = actual \u2212 budget. Percentage variance = amount variance \u00f7 budget \u00d7 100, undefined for a zero budget. Modeled operating remainder = revenue \u2212 variable costs \u2212 fixed costs. Cash dates, tax, financing and inventory valuation are outside this worksheet.",
+    "maxRows": 100
+  },
+  {
+    "slug": "printable-planner-builder",
+    "kind": "builder",
+    "name": "Printable Planner Builder",
+    "category": "personal",
+    "theme": "workflow-builder",
+    "color": "#714075",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet name",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "paper",
+        "label": "Paper size",
+        "type": "select",
+        "options": [
+          "US Letter",
+          "A4",
+          "A5"
+        ]
+      },
+      {
+        "key": "layout",
+        "label": "Layout",
+        "type": "select",
+        "options": [
+          "Daily",
+          "Weekly"
+        ]
+      },
+      {
+        "key": "start",
+        "label": "Date on daily page / date within week",
+        "type": "date"
+      },
+      {
+        "key": "weekStart",
+        "label": "Week starts on",
+        "type": "select",
+        "options": [
+          "Monday",
+          "Sunday"
+        ]
+      },
+      {
+        "key": "startHour",
+        "label": "Daily start hour (0\u201323)",
+        "type": "number",
+        "min": 0,
+        "max": 23,
+        "step": "1",
+        "integer": true
+      },
+      {
+        "key": "endHour",
+        "label": "Daily end hour (0\u201323)",
+        "type": "number",
+        "min": 0,
+        "max": 23,
+        "step": "1",
+        "integer": true
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "section",
+        "label": "Writing section name",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "lines",
+        "label": "Writing lines",
+        "type": "number",
+        "min": 0,
+        "max": 6,
+        "step": "1",
+        "integer": true
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional example: Printable Planner Builder",
+        "paper": "US Letter",
+        "layout": "Daily",
+        "start": "2026-10-13",
+        "weekStart": "Monday",
+        "startHour": "8",
+        "endHour": "18"
+      },
+      "rows": [
+        {
+          "section": "Three priorities",
+          "lines": "3"
+        },
+        {
+          "section": "Next actions",
+          "lines": "3"
+        },
+        {
+          "section": "Notes",
+          "lines": "3"
+        }
+      ]
+    },
+    "reportNote": "Builds one undated-style daily or dated weekly printable page. Daily ranges may cross midnight and are limited to 16 hourly slots; start and end must differ. Use one to three writing sections, one to six lines each, at most 12 lines overall. Browser PDF printing is not a GoodNotes file or reminder app.",
+    "maxRows": 3
+  },
+  {
+    "slug": "monthly-teacher-lesson-planner",
+    "kind": "teacher",
+    "name": "Monthly Teacher Lesson Planner",
+    "category": "homeschool",
+    "theme": "workflow-teacher",
+    "color": "#335548",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet name",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "month",
+        "label": "Teaching month (YYYY-MM)",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "asOf",
+        "label": "Preparation review date",
+        "type": "date"
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "lesson",
+        "label": "Lesson / group",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "date",
+        "label": "Lesson date",
+        "type": "date"
+      },
+      {
+        "key": "prep",
+        "label": "Preparation due date",
+        "type": "date"
+      },
+      {
+        "key": "owner",
+        "label": "Preparation owner",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "materials",
+        "label": "Materials / preparation task",
+        "type": "textarea",
+        "maxLength": 600,
+        "optional": false
+      },
+      {
+        "key": "status",
+        "label": "Preparation status",
+        "type": "select",
+        "options": [
+          "Not started",
+          "In progress",
+          "Ready"
+        ]
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional example: Monthly Teacher Lesson Planner",
+        "month": "2026-10",
+        "asOf": "2026-10-13"
+      },
+      "rows": [
+        {
+          "lesson": "Grade 4 fractions",
+          "date": "2026-10-16",
+          "prep": "2026-10-12",
+          "owner": "Teacher",
+          "materials": "Print fraction strips and check the worked example.",
+          "status": "In progress"
+        },
+        {
+          "lesson": "Grade 4 number review",
+          "date": "2026-10-19",
+          "prep": "2026-10-16",
+          "owner": "Teacher",
+          "materials": "Prepare three practice questions.",
+          "status": "Ready"
+        }
+      ]
+    },
+    "reportNote": "Lists only lessons in the entered month. Preparation due date must be on or before the lesson date; earlier-month preparation is allowed. Overdue means prep date before review date and status not Ready. No curriculum approval, attendance compliance or reminders are provided.",
+    "maxRows": 100
+  },
+  {
+    "slug": "content-production-capacity-planner",
+    "kind": "production",
+    "name": "Content Production Capacity Planner",
+    "category": "content",
+    "theme": "workflow-production",
+    "color": "#1d4d84",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet name",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "objective",
+        "label": "One content objective",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "start",
+        "label": "First production day",
+        "type": "date"
+      },
+      {
+        "key": "end",
+        "label": "Last production day",
+        "type": "date"
+      },
+      {
+        "key": "daily",
+        "label": "Production hours available each working day",
+        "type": "number",
+        "min": 0,
+        "max": 24,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "days",
+        "label": "Working days",
+        "type": "select",
+        "options": [
+          "Weekdays",
+          "Every day"
+        ]
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "item",
+        "label": "Deliverable",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "date",
+        "label": "Production day",
+        "type": "date"
+      },
+      {
+        "key": "hours",
+        "label": "Production and review hours",
+        "type": "number",
+        "min": 0,
+        "max": 24,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "owner",
+        "label": "Production owner",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "reviewer",
+        "label": "Review owner",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "select",
+        "options": [
+          "Planned",
+          "In progress",
+          "Complete"
+        ]
+      },
+      {
+        "key": "action",
+        "label": "Destination / next action",
+        "type": "textarea",
+        "maxLength": 600,
+        "optional": true
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional example: Content Production Capacity Planner",
+        "objective": "Explain one product and publish two useful demonstrations",
+        "start": "2026-10-13",
+        "end": "2026-10-16",
+        "daily": "3",
+        "days": "Weekdays"
+      },
+      "rows": [
+        {
+          "item": "Product explanation",
+          "date": "2026-10-13",
+          "hours": "2",
+          "owner": "Writer",
+          "reviewer": "Editor",
+          "status": "Planned",
+          "action": "Link to the relevant product page."
+        },
+        {
+          "item": "Short demonstration",
+          "date": "2026-10-13",
+          "hours": "2",
+          "owner": "Creator",
+          "reviewer": "Editor",
+          "status": "In progress",
+          "action": "Check the demonstration before posting."
+        }
+      ]
+    },
+    "reportNote": "Remaining planned load includes Planned and In progress hours, excludes Complete items, and groups by production date. It does not spread work automatically or publish content. Allocate a multi-day deliverable as separate dated work blocks. Completed hours remain visible for recordkeeping.",
+    "maxRows": 100
+  },
+  {
+    "slug": "marketing-campaign-budget-planner",
+    "kind": "campaign",
+    "name": "Marketing Campaign Budget Planner",
+    "category": "content",
+    "theme": "workflow-campaign",
+    "color": "#7c342d",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet name",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "currency",
+        "label": "Currency",
+        "type": "select",
+        "options": [
+          "USD",
+          "GBP",
+          "CAD",
+          "AUD",
+          "EUR",
+          "NZD"
+        ]
+      },
+      {
+        "key": "objective",
+        "label": "One campaign objective",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "ceiling",
+        "label": "Total test budget",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "review",
+        "label": "Next review date",
+        "type": "date"
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "channel",
+        "label": "Channel / test",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "planned",
+        "label": "Planned spend",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "actual",
+        "label": "Actual spend",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "inquiries",
+        "label": "Observed inquiries",
+        "type": "number",
+        "min": 0,
+        "max": 100000,
+        "step": "1",
+        "integer": true
+      },
+      {
+        "key": "customers",
+        "label": "Confirmed customers",
+        "type": "number",
+        "min": 0,
+        "max": 100000,
+        "step": "1",
+        "integer": true
+      },
+      {
+        "key": "rule",
+        "label": "Decision rule / attribution note",
+        "type": "textarea",
+        "maxLength": 600,
+        "optional": false
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional example: Marketing Campaign Budget Planner",
+        "currency": "USD",
+        "objective": "Test one service offer with attributable inquiries",
+        "ceiling": "600",
+        "review": "2026-10-30"
+      },
+      "rows": [
+        {
+          "channel": "Email test",
+          "planned": "200",
+          "actual": "180",
+          "inquiries": "12",
+          "customers": "3",
+          "rule": "Use a distinct inquiry tag; check lead quality."
+        },
+        {
+          "channel": "Search test",
+          "planned": "300",
+          "actual": "320",
+          "inquiries": "8",
+          "customers": "1",
+          "rule": "Review actual inquiries before allocating the unassigned budget."
+        }
+      ]
+    },
+    "reportNote": "Unallocated planned budget = ceiling \u2212 planned spend. Remaining actual budget = ceiling \u2212 actual spend. Cost per inquiry/customer uses actual spend divided by that entered count, undefined at zero. Channel counts may overlap; no automatic attribution, ROI or sales forecast is inferred.",
+    "maxRows": 100
+  },
+  {
+    "slug": "one-page-business-plan-builder",
+    "kind": "lean",
+    "name": "One-Page Business Plan Builder",
+    "category": "agency",
+    "theme": "workflow-lean",
+    "color": "#4c496d",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet name",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "customer",
+        "label": "Specific customer",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "problem",
+        "label": "Problem and existing workaround",
+        "type": "textarea",
+        "maxLength": 600,
+        "optional": false
+      },
+      {
+        "key": "offer",
+        "label": "Offer and service boundary",
+        "type": "textarea",
+        "maxLength": 600,
+        "optional": false
+      },
+      {
+        "key": "economics",
+        "label": "Revenue and cost assumptions",
+        "type": "textarea",
+        "maxLength": 600,
+        "optional": false
+      },
+      {
+        "key": "review",
+        "label": "Plan review date",
+        "type": "date"
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "assumption",
+        "label": "Assumption to test",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "evidence",
+        "label": "Evidence observed",
+        "type": "textarea",
+        "maxLength": 600,
+        "optional": true
+      },
+      {
+        "key": "test",
+        "label": "Next test",
+        "type": "textarea",
+        "maxLength": 600,
+        "optional": false
+      },
+      {
+        "key": "owner",
+        "label": "Test owner",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "due",
+        "label": "Test due date",
+        "type": "date"
+      },
+      {
+        "key": "status",
+        "label": "Evidence status",
+        "type": "select",
+        "options": [
+          "Untested",
+          "Supported",
+          "Contradicted"
+        ]
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional example: One-Page Business Plan Builder",
+        "customer": "Local service businesses launching a website",
+        "problem": "Owners lose time assembling a clear landing-page brief.",
+        "offer": "One landing-page design with two revision rounds; development excluded.",
+        "economics": "Illustrative package 1250; 20 delivery hours; verify actual demand and cost.",
+        "review": "2026-11-13"
+      },
+      "rows": [
+        {
+          "assumption": "A prospect will pay 1250 for this package",
+          "evidence": "Three conversations; no paid sale yet.",
+          "test": "Offer one paid pilot with written scope.",
+          "owner": "Owner",
+          "due": "2026-10-23",
+          "status": "Untested"
+        },
+        {
+          "assumption": "Delivery fits in 20 hours",
+          "evidence": "No completed pilot time log.",
+          "test": "Track the pilot delivery and revision hours.",
+          "owner": "Designer",
+          "due": "2026-11-06",
+          "status": "Untested"
+        }
+      ]
+    },
+    "reportNote": "Prints the core customer, problem, offer and economics with an evidence log. A one-page summary is compact with up to three short assumptions; additional or long entries can require more pages. Supported is a user-entered status, not independent proof. This is not a funding application.",
+    "maxRows": 20
+  },
+  {
+    "slug": "service-business-financial-projections",
+    "kind": "projections",
+    "name": "Service Business Financial Projections",
+    "category": "cashflow",
+    "theme": "workflow-projections",
+    "color": "#234b59",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet name",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "currency",
+        "label": "Currency",
+        "type": "select",
+        "options": [
+          "USD",
+          "GBP",
+          "CAD",
+          "AUD",
+          "EUR",
+          "NZD"
+        ]
+      },
+      {
+        "key": "opening",
+        "label": "Opening cash",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "month",
+        "label": "Month starting (first day)",
+        "type": "date"
+      },
+      {
+        "key": "sales",
+        "label": "Billed service revenue",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "expense",
+        "label": "Operating expense incurred",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "depreciation",
+        "label": "Noncash depreciation",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "receipts",
+        "label": "Cash collected",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "paid",
+        "label": "Operating cash paid",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "principal",
+        "label": "Debt principal paid",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "funding",
+        "label": "New loan / owner capital received",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "draw",
+        "label": "Owner cash withdrawal",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional example: Service Business Financial Projections",
+        "currency": "USD",
+        "opening": "2000"
+      },
+      "rows": [
+        {
+          "month": "2026-10-01",
+          "sales": "6000",
+          "expense": "4000",
+          "depreciation": "200",
+          "receipts": "5000",
+          "paid": "4200",
+          "principal": "300",
+          "funding": "0",
+          "draw": "1000"
+        },
+        {
+          "month": "2026-11-01",
+          "sales": "6500",
+          "expense": "4200",
+          "depreciation": "200",
+          "receipts": "6000",
+          "paid": "4000",
+          "principal": "300",
+          "funding": "0",
+          "draw": "1000"
+        }
+      ]
+    },
+    "reportNote": "Operating result = billed service revenue \u2212 incurred operating expenses \u2212 noncash depreciation. Closing cash = prior cash + collections + new funding \u2212 operating cash paid \u2212 debt principal \u2212 owner withdrawals. Months must be consecutive and start on day 1. Excludes inventory, tax, a balance sheet and loan approval; include applicable interest within operating expense and cash-paid inputs.",
+    "maxRows": 12
+  },
+  {
+    "slug": "coffee-shop-daily-operating-plan",
+    "kind": "coffee",
+    "name": "Coffee Shop Daily Operating Plan",
+    "category": "operations",
+    "theme": "workflow-coffee",
+    "color": "#75492e",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet name",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "currency",
+        "label": "Currency",
+        "type": "select",
+        "options": [
+          "USD",
+          "GBP",
+          "CAD",
+          "AUD",
+          "EUR",
+          "NZD"
+        ]
+      },
+      {
+        "key": "hours",
+        "label": "Opening hours",
+        "type": "number",
+        "min": 0,
+        "max": 24,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "capacity",
+        "label": "Maximum feasible orders per hour",
+        "type": "number",
+        "min": 0,
+        "max": 10000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "orders",
+        "label": "Expected daily orders",
+        "type": "number",
+        "min": 0,
+        "max": 100000,
+        "step": "1",
+        "integer": true
+      },
+      {
+        "key": "ticket",
+        "label": "Average order value",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "unitCost",
+        "label": "Ingredients / packaging per order",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "other",
+        "label": "Other daily operating cost",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "slow",
+        "label": "Slower-day orders",
+        "type": "number",
+        "min": 0,
+        "max": 100000,
+        "step": "1",
+        "integer": true
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "role",
+        "label": "Staffing role / shift",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "hours",
+        "label": "Paid shift hours",
+        "type": "number",
+        "min": 0,
+        "max": 24,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "rate",
+        "label": "Hourly employer cost",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional example: Coffee Shop Daily Operating Plan",
+        "currency": "USD",
+        "hours": "8",
+        "capacity": "20",
+        "orders": "120",
+        "ticket": "8",
+        "unitCost": "2.5",
+        "other": "180",
+        "slow": "80"
+      },
+      "rows": [
+        {
+          "role": "Morning shift",
+          "hours": "6",
+          "rate": "20"
+        },
+        {
+          "role": "Afternoon shift",
+          "hours": "6",
+          "rate": "20"
+        }
+      ]
+    },
+    "reportNote": "Daily sales = orders \u00d7 average order value. Remainder = sales \u2212 order ingredients/packaging \u2212 entered staffing \u2212 other costs. Capacity = opening hours \u00d7 entered feasible orders/hour, a planning ceiling rather than proven throughput. Staffing is unchanged in the slower-day scenario. Not net profit, cash timing or a full cafe feasibility model.",
+    "maxRows": 100
+  },
+  {
+    "slug": "construction-milestone-cash-schedule",
+    "kind": "construction",
+    "name": "Construction Milestone Cash Schedule",
+    "category": "cashflow",
+    "theme": "workflow-construction",
+    "color": "#78521a",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet name",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "currency",
+        "label": "Currency",
+        "type": "select",
+        "options": [
+          "USD",
+          "GBP",
+          "CAD",
+          "AUD",
+          "EUR",
+          "NZD"
+        ]
+      },
+      {
+        "key": "start",
+        "label": "Project start date",
+        "type": "date"
+      },
+      {
+        "key": "end",
+        "label": "Project end date",
+        "type": "date"
+      },
+      {
+        "key": "opening",
+        "label": "Opening project cash",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "label",
+        "label": "Milestone / payment",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "date",
+        "label": "Expected cash date",
+        "type": "date"
+      },
+      {
+        "key": "direction",
+        "label": "Direction",
+        "type": "select",
+        "options": [
+          "Receipt",
+          "Payment"
+        ]
+      },
+      {
+        "key": "amount",
+        "label": "Cash amount",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "certainty",
+        "label": "Status",
+        "type": "select",
+        "options": [
+          "Expected",
+          "Confirmed"
+        ]
+      },
+      {
+        "key": "action",
+        "label": "Dependency / next action",
+        "type": "textarea",
+        "maxLength": 600,
+        "optional": true
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional example: Construction Milestone Cash Schedule",
+        "currency": "USD",
+        "start": "2026-10-13",
+        "end": "2026-11-13",
+        "opening": "1000"
+      },
+      "rows": [
+        {
+          "label": "Customer deposit",
+          "date": "2026-10-13",
+          "direction": "Receipt",
+          "amount": "2000",
+          "certainty": "Confirmed",
+          "action": "Confirm collection before purchasing materials."
+        },
+        {
+          "label": "Materials",
+          "date": "2026-10-14",
+          "direction": "Payment",
+          "amount": "2500",
+          "certainty": "Confirmed",
+          "action": "Supplier payment date."
+        },
+        {
+          "label": "Labour",
+          "date": "2026-10-16",
+          "direction": "Payment",
+          "amount": "1200",
+          "certainty": "Expected",
+          "action": "Confirm the payroll date."
+        },
+        {
+          "label": "Milestone collection",
+          "date": "2026-10-23",
+          "direction": "Receipt",
+          "amount": "3000",
+          "certainty": "Expected",
+          "action": "Confirm approval and collection timing."
+        }
+      ]
+    },
+    "reportNote": "Closing cash = opening + all entered receipts \u2212 all entered payments, including Expected records. The confirmed-only-receipts downside retains all payments. Lowest balance groups same-day movements and includes opening cash; it does not identify intraday shortages. No contract entitlement or legal payment right is inferred.",
+    "maxRows": 100
+  },
+  {
+    "slug": "trucking-trip-cost-worksheet",
+    "kind": "trucking",
+    "name": "Trucking Trip Cost Worksheet",
+    "category": "operations",
+    "theme": "workflow-trucking",
+    "color": "#4b555e",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet name",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "currency",
+        "label": "Currency",
+        "type": "select",
+        "options": [
+          "USD",
+          "GBP",
+          "CAD",
+          "AUD",
+          "EUR",
+          "NZD"
+        ]
+      },
+      {
+        "key": "loaded",
+        "label": "Loaded miles",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "empty",
+        "label": "Empty miles",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "revenue",
+        "label": "Trip revenue excluding pass-through tax",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "mpg",
+        "label": "Expected miles per gallon",
+        "type": "number",
+        "min": 0,
+        "max": 100,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "fuel",
+        "label": "Fuel price per gallon",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "maintenance",
+        "label": "Maintenance allowance per total mile",
+        "type": "number",
+        "min": 0,
+        "max": 100,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "paidOn",
+        "label": "Expected customer collection date",
+        "type": "date"
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "label",
+        "label": "Nonfuel trip cost",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "amount",
+        "label": "Cost amount",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "step": "0.01",
+        "integer": false
+      },
+      {
+        "key": "date",
+        "label": "Cash payment date",
+        "type": "date"
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional example: Trucking Trip Cost Worksheet",
+        "currency": "USD",
+        "loaded": "400",
+        "empty": "100",
+        "revenue": "1500",
+        "mpg": "6.25",
+        "fuel": "4",
+        "maintenance": "0.2",
+        "paidOn": "2026-10-30"
+      },
+      "rows": [
+        {
+          "label": "Driver cost",
+          "amount": "300",
+          "date": "2026-10-16"
+        },
+        {
+          "label": "Tolls",
+          "amount": "50",
+          "date": "2026-10-16"
+        },
+        {
+          "label": "Fixed operating allocation",
+          "amount": "100",
+          "date": "2026-10-16"
+        }
+      ]
+    },
+    "reportNote": "Total miles = loaded + empty. Fuel cost = total miles \u00f7 mpg \u00d7 fuel price. Modeled trip cost includes fuel, maintenance allowance and entered nonfuel costs. Cost/mile always uses total miles. Allowances and fixed allocations are not necessarily cash paid on this trip. The report dates only entered nonfuel payments, not fuel or maintenance cash timing.",
+    "maxRows": 100
+  }
+]
