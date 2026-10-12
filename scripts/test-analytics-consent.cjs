@@ -7,7 +7,7 @@ function fixture(choice, pathname = '/journal/monthly-planner-free-templates/', 
   const choices = ['accepted','rejected'].map(value=>({dataset:{choice:value},style:{},addEventListener(type,fn){this.listener=fn;}}));
   const element = ()=>({style:{},hidden:false,setAttribute(){},addEventListener(){},querySelectorAll:()=>choices});
   const panel = existing ? element() : null;
-  if (panel) { panel.parentNode = {}; Object.defineProperty(panel, 'innerHTML', {set(){throw new Error('First-render consent markup must not be recreated');}}); }
+  if (panel) { Object.defineProperty(panel.style, 'cssText', {set(){throw new Error('First-render panel styles must not be reapplied');}}); choices.forEach(button=>Object.defineProperty(button.style, 'cssText', {set(){throw new Error('First-render button styles must not be reapplied');}})); panel.parentNode = {}; Object.defineProperty(panel, 'innerHTML', {set(){throw new Error('First-render consent markup must not be recreated');}}); }
   const ctx = {location:{protocol:'https:',hostname:'nexalyplanner.com',origin:'https://nexalyplanner.com',pathname},localStorage:{getItem:()=>choice,setItem(){}},document:{getElementById:()=>panel,cookie:'',title:'A public guide',createElement:element,head:{appendChild(){}},body:{appendChild(){}},addEventListener:(type,fn)=>{if(type==='click')click=fn;}},URL,Date};
   ctx.window = ctx;
   vm.runInNewContext(source,ctx);
