@@ -1,0 +1,37 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const vm = require('node:vm');
+const source = fs.readFileSync('assets/js/main.js', 'utf8');
+const start = source.indexOf('function subscribeNews(e)');
+const end = source.indexOf('/* reveal */', start);
+assert(start >= 0 && end > start);
+function fixture(valid = true, message = 'Please explain the PDF & HTML formats.\nNo private records attached.') {
+  const fields = {cName:{value:'Alex & Sam'},cEmail:{value:'alex+planner@example.test'},cMsg:{value:message},newsEmail:{value:'alex@example.test'}};
+  const notifications = [];
+  const ctx = {$:id=>fields[id],location:{href:'https://nexalyplanner.com/contact/'},toast:text=>notifications.push(text),encodeURIComponent};
+  vm.runInNewContext(source.slice(start, end), ctx);
+  let prevented = false;
+  const event = {preventDefault(){prevented=true;},target:{reportValidity:()=>valid}};
+  return {ctx,fields,notifications,event,prevented:()=>prevented};
+}
+const f = fixture();
+assert.equal(f.ctx.sendContact(f.event), false);
+assert(f.prevented());
+const mail = new URL(f.ctx.location.href);
+assert.equal(mail.protocol, 'mailto:');
+assert.equal(mail.pathname, 'info@nexalyplanner.com');
+assert.equal(mail.searchParams.get('subject'), 'NexalyPlanner enquiry');
+assert.equal(mail.searchParams.get('body'), 'Name: Alex & Sam\nReply email: alex+planner@example.test\n\nPlease explain the PDF & HTML formats.\nNo private records attached.');
+assert.equal(mail.searchParams.size, 2);
+assert.equal(f.fields.cName.value, 'Alex & Sam');
+assert.equal(f.fields.cEmail.value, 'alex+planner@example.test');
+assert(f.fields.cMsg.value.length > 0);
+assert(!f.notifications.some(x=>/sent|subscribed|we.ll reply/i.test(x)));
+const invalid = fixture(false); invalid.ctx.sendContact(invalid.event);
+assert.equal(invalid.ctx.location.href, 'https://nexalyplanner.com/contact/');
+const empty = fixture(true, ''); empty.ctx.sendContact(empty.event);
+assert.equal(empty.ctx.location.href, 'https://nexalyplanner.com/contact/');
+const legacy = fixture(); legacy.ctx.subscribeNews(legacy.event);
+assert.equal(legacy.fields.newsEmail.value, 'alex@example.test');
+assert(!legacy.notifications.some(x=>/subscribed|success/i.test(x)));
+console.log('PASS contact: encoded user-controlled email draft, retained inputs, invalid/empty rejection and truthful legacy newsletter fallback; no message sent.');

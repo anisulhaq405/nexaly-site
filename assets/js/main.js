@@ -393,11 +393,11 @@ var posts = [
   {
     "url": "/journal/caregiver-daily-log-template/",
     "title": "A caregiver daily log you can copy and adapt",
-    "excerpt": "Use a simple dated caregiver log for tasks, observations, appointments and the next handoff. Includes a filled fictional example and blank fields.",
+    "excerpt": "Download a free editable caregiver daily log. Record completed tasks, factual observations and acknowledged handoffs using a fictional family example.",
     "img": "/images/journal/caregiver-daily-log-template-20260930.webp",
     "alt": "Two family caregivers reviewing a daily care log together",
     "tag": "Planning Guides",
-    "date": "Sep 30, 2026"
+    "date": "Updated Oct 12, 2026"
   },
   {
     "url": "/journal/contract-renewal-workflow/",
@@ -537,11 +537,11 @@ var posts = [
   {
     "url": "/journal/best-planner-app-for-ipad-2026/",
     "title": "Best Planner App for iPad in 2026: Formats Compared",
-    "excerpt": "Compare Goodnotes PDF planners, Notion, offline HTML apps, and iPad tools to choose a planner that fits your routine.",
+    "excerpt": "Compare iPad planner apps by appointments, reminders, PDF handwriting and project records. Includes official sources, offline checks and a free daily PDF.",
     "img": "/images/journal/best-planner-app-for-ipad-2026-20260919.jpg",
     "alt": "iPad displaying a weekly digital planner beside an Apple Pencil and handwritten planning notes",
     "tag": "Planning Guides",
-    "date": "Updated Sep 24, 2026"
+    "date": "Updated Oct 12, 2026"
   },
   {
     "url": "/journal/digital-planner-app-how-it-works/",
@@ -568,16 +568,16 @@ var posts = [
     "img": "/images/journal/free-digital-planner-for-ipad-20260919.jpg",
     "alt": "iPad showing a handwritten weekly digital planner beside an Apple Pencil",
     "tag": "Planning Guides",
-    "date": "Updated Sep 24, 2026"
+    "date": "Updated Oct 12, 2026"
   },
   {
     "url": "/journal/ipad-digital-planner-setup-guide/",
     "title": "iPad Digital Planner: Complete Setup Guide",
-    "excerpt": "Set up an iPad digital planner with PDF, Goodnotes, Notion, or offline HTML. Learn what you need, how to work offline, and how to back up files.",
+    "excerpt": "Set up a PDF planner on iPad: preserve the source, import a working copy, test navigation and check annotated exports. Includes a free sample PDF.",
     "img": "/images/journal/ipad-digital-planner-setup-guide-20260919.jpg",
     "alt": "iPad with Apple Pencil beside a digital weekly planner, Files folder, and notes for an offline setup",
     "tag": "Planning Guides",
-    "date": "Updated Sep 24, 2026"
+    "date": "Updated Oct 12, 2026"
   },
   {
     "url": "/journal/ipad-planner-app-buying-guide/",
@@ -595,7 +595,7 @@ var posts = [
     "img": "/images/journal/2026-monthly-planner-free-layouts-20260918.jpg",
     "alt": "Open 2026 monthly planner showing a dated calendar grid, priorities, deadlines, and notes on a desk",
     "tag": "Planning Guides",
-    "date": "Sep 22, 2026"
+    "date": "Updated Oct 12, 2026"
   },
   {
     "url": "/journal/best-2026-planners-digital-printable-options/",
@@ -613,7 +613,7 @@ var posts = [
     "img": "/images/journal/daily-planner-2026-free-layouts-20260918.jpg",
     "alt": "Open 2026 daily planner showing priorities, time blocks, appointments, and notes beside a tablet",
     "tag": "Planning Guides",
-    "date": "Sep 22, 2026"
+    "date": "Updated Oct 12, 2026"
   },
   {
     "url": "/journal/monthly-planner-2026-best-layouts/",
@@ -649,7 +649,7 @@ var posts = [
     "img": "/images/journal/weekly-planner-2026-free-templates-20260918.jpg",
     "alt": "Open 2026 weekly planner showing priorities, appointments, daily tasks, and a short weekly review",
     "tag": "Planning Guides",
-    "date": "Sep 22, 2026"
+    "date": "Updated Oct 12, 2026"
   },
   {
     "url": "/journal/a5-planner-sizes-layouts-digital-options/",
@@ -703,7 +703,7 @@ var posts = [
     "img": "/images/journal/monthly-planner-free-templates-20260918.jpg",
     "alt": "Open monthly planner with commitments, goals, project milestones, and review notes arranged across one calendar spread.",
     "tag": "Planning Guides",
-    "date": "Updated Sep 21, 2026"
+    "date": "Updated Oct 12, 2026"
   },
   {
     "url": "/journal/minimalist-planner/",
@@ -780,11 +780,11 @@ var posts = [
   {
     "tag": "No Subscription",
     "title": "Subscription Fatigue Is Real: Why One-Time-Purchase, Offline Apps Win",
-    "date": "Sep 11, 2026 · 6 min",
+    "date": "Updated Oct 12, 2026 · 6 min",
     "url": "/journal/why-one-time-purchase-offline-apps/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-parent-command-center.jpg",
-    "alt": "offline app dashboard that works without a monthly subscription, data stored on device",
-    "excerpt": "Tired of monthly software fees? Here is the case for one-time-purchase, offline apps — lower cost over time, real data ownership, and no lock-in."
+    "alt": "Subscription Fatigue Is Real: Why One-Time-Purchase, Offline Apps Win",
+    "excerpt": "Compare one-time and subscription apps using a worked cost example, local-storage limits and a practical migration and backup checklist."
   },
   {
     "tag": "Inventory",
@@ -897,11 +897,11 @@ var posts = [
   {
     "url": "/journal/how-to-run-a-one-person-business-with-ai/",
     "title": "How to run a one-person business with AI",
-    "excerpt": "A practical guide to running a one-person business with AI: which work to hand off, which to keep, the tools that replace early hires, and the operations gap most solo founders miss.",
+    "excerpt": "Run a small AI workflow trial for a one-person business. Use approved inputs, review every draft and measure preparation, corrections and actual time saved.",
     "img": "/images/journal/one-person-business-ai-concept.jpg",
     "alt": "A solo business owner at a laptop with conceptual AI panels for research, writing, support and business records",
     "tag": "Planning Guides",
-    "date": "Updated Sep 15, 2026"
+    "date": "Updated Oct 12, 2026"
   }
 ];
 var heartSvg = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.6-9.3-8.4C1 9.5 2.4 6 5.6 6c1.9 0 3.2 1.1 4.4 2.6C11.2 7.1 12.5 6 14.4 6c3.2 0 4.6 3.5 2.9 6.6C19 16.4 12 21 12 21z"/></svg>';
@@ -1094,8 +1094,17 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeProduct
 
 /* toast + forms */
 var tt;function toast(m){var t=$('toast');if(!t)return;t.innerHTML=m;t.classList.add('show');clearTimeout(tt);tt=setTimeout(function(){t.classList.remove('show');},3200);}
-function subscribeNews(e){e.preventDefault();var v=($('newsEmail').value||'').trim();if(v){$('newsEmail').value='';toast('Subscribed — thanks!');}return false;}
-function sendContact(e){e.preventDefault();var n=($('cName').value||'').trim(),em=($('cEmail').value||'').trim();if(!n||!em)return false;$('cName').value='';$('cEmail').value='';$('cMsg').value='';toast('Thanks '+n.split(' ')[0]+" — we'll reply within a day");return false;}
+function subscribeNews(e){e.preventDefault();toast('For planner news, visit the Journal or follow our social channels.');return false;}
+function sendContact(e){
+  e.preventDefault();
+  if(e.target&&typeof e.target.reportValidity==='function'&&!e.target.reportValidity())return false;
+  var n=($('cName').value||'').trim(),em=($('cEmail').value||'').trim(),message=($('cMsg').value||'').trim();
+  if(!n||!em||!message)return false;
+  var body='Name: '+n+'\nReply email: '+em+'\n\n'+message;
+  location.href='mailto:info@nexalyplanner.com?subject='+encodeURIComponent('NexalyPlanner enquiry')+'&body='+encodeURIComponent(body);
+  toast('Send the draft in your email app. If no app opens, email info@nexalyplanner.com. Your text stays on this page.');
+  return false;
+}
 
 /* reveal */
 function runReveal(){var els=document.querySelectorAll('.reveal:not(.seen)');for(var i=0;i<els.length;i++){if(els[i].getBoundingClientRect().top<window.innerHeight*0.92)els[i].classList.add('seen');}}
@@ -1262,6 +1271,6 @@ runReveal();
 /* Load optional website analytics separately from storefront behavior. */
 (function () {
   var script = document.createElement('script'); script.async = true;
-  script.src = '/assets/js/analytics.js?v=0484ebae45a1';
+  script.src = '/assets/js/analytics.js?v=f601b62d9312';
   document.head.appendChild(script);
 }());
