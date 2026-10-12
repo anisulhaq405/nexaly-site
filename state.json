@@ -2145,6 +2145,11 @@
       "revision": "c35d54135430ecec41f7dca72eb9797237011a704a27724b6a3c5294b8f45edc",
       "status": "needs_review",
       "attemptedAt": "2026-10-12T23:54:33.120968+00:00"
+    },
+    "https://nexalyplanner.com/journal/create-your-own-printable-planner/|facebook": {
+      "revision": "ecf7050d7effa7e81af5d8a07c9ab1fc2405f79d01be1215dfc20430aa7d8d29",
+      "status": "attempting",
+      "attemptedAt": "2026-10-12T23:54:40.565234+00:00"
     }
   },
   "firstTestCompleted": true
