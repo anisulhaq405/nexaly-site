@@ -1,0 +1,31 @@
+NexalyPlanner - Caregiver daily log
+Blank family coordination worksheet; not a clinical chart or treatment plan.
+Keep completed copies private. Follow the actual care plan and care-team instructions.
+
+Date:
+Entry time:
+Caregiver making this entry:
+
+PLANNED TASKS / APPOINTMENTS
+Task | Scheduled time | Responsible person
+
+COMPLETED TASKS
+What happened | Actual time | Person completing the task
+
+FACTUAL OBSERVATIONS
+Time | Observed event or the person's words
+
+QUESTIONS / CONTACTS
+Question | Person contacted | Contact time | Actual response
+
+OPEN HANDOFF
+Next action | Named owner | Time to revisit | Current status
+
+HANDOFF ACKNOWLEDGED
+Receiving caregiver | Acknowledgement time
+
+CORRECTIONS / CHANGES
+Correction time | Original item | What changed | Who confirmed
+
+Review open items at the next handoff. For an urgent change, follow the care plan
+and local emergency guidance rather than waiting for a routine log review.
