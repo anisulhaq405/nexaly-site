@@ -2185,6 +2185,11 @@
       "revision": "6a7d34e2fabba6d85e4855ab8940ca903acdf0050826b1ca4de5ce073860cf1e",
       "status": "needs_review",
       "attemptedAt": "2026-10-12T23:55:03.893472+00:00"
+    },
+    "https://nexalyplanner.com/journal/it-consulting-business-plan-retainer-capacity/|facebook": {
+      "revision": "ec8ffa2895bc9cbb4614b4a36d6b06339ee3db9f9ec8fad314dd924ae6824275",
+      "status": "attempting",
+      "attemptedAt": "2026-10-12T23:55:11.087131+00:00"
     }
   },
   "firstTestCompleted": true
