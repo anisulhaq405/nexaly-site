@@ -19,7 +19,7 @@ SBA lean/traditional business-plan guidance and business.gov.au budgeting guidan
 
 ## Validation before publication
 
-PASS: 11 worksheet model fixtures and scenario/boundary checks, including cash-versus-operating-result distinctions, cents, zero-base ratios, overnight hours, lesson preparation dates, daily capacity, incomplete attribution, consecutive projection months, slower-day staffing, confirmed-only receipt scenarios and loaded/total-mile denominators.
+PASS: 11 worksheet model fixtures and scenario/boundary checks, including cash-versus-operating-result distinctions, cents, fractional half-cent ties, unsafe-result rejection, zero-base ratios, overnight hours, lesson preparation dates, daily capacity, incomplete attribution, consecutive projection months, slower-day staffing, confirmed-only receipt scenarios and loaded/total-mile denominators.
 
 PASS: DOM integration controls for all 11 worksheets: calculation, save/restore, JSON export, import review/confirmation, wrong-tool rejection, CSV escaping, print calls, editable records, reset and blocked-storage messages. These are jsdom integration checks, not browser rendering or physical-device tests.
 
@@ -27,11 +27,11 @@ PASS: existing small-tool, next-tool, craft-fair, contact and analytics/consent 
 
 Visual QA: 23 original diagrams reviewed together, with exact computed report values; all 1200 × 800 WebP covers total about 840 KB. New tools have distinct scoped palettes; the shared storefront theme is unchanged.
 
-Local Chromium was unavailable; an official Playwright download failed with an invalid archive and was stopped. The cloud browser could not reach the local server. A file-protocol preview was rejected by browser security policy; no attempt was made to circumvent it. Public deployed-page browser interaction remains to be verified after publication. Neither physical Android/iPad tests nor rendered PDF page counts are claimed at this stage.
+Local Chromium was unavailable; an official Playwright download failed with an invalid archive and was stopped. The cloud browser could not reach the local server. A file-protocol preview was rejected by browser security policy; no attempt was made to circumvent it. All 11 public deployed worksheets were subsequently exercised in the cloud Chrome browser: fictional examples calculated successfully, matching the checked models. The budget worksheet saved on the device, reloaded and restored its three records. A real JSON backup file (1,185 bytes) and a real builder CSV report (981 bytes) were read from browser downloads. The printable builder rendered its real layout and A5 selection produced the expected page rule. Physical Android/iPad tests and rendered PDF page counts are not claimed; the cloud print action did not expose a rendered PDF file. A narrow-viewport rendering check was not available in this browser; responsive CSS and DOM controls were checked, but those do not establish physical-device behavior.
 
 ## Release checks and follow-up
 
-The repository's rebuild check must pass on the exact pull-request revision before merge. Check deployed HTML, assets, canonical/sitemap/listing presence, worksheet interaction and screenshots after merge. Publication/indexability is not proof of Google indexing or improved rankings. Record any remaining browser/print/device limitations explicitly.
+PR #180 passed every rebuild step on head ea573b4227474572e51100f70c7fc8e563dd01a5 and merged as 50af2ea7f4de2fe6312fcda921d95599f788badb. All 201 changed public files matched the deployed bytes exactly, with no HTTP failures (see oct13-live-files.json). Live directory shows 35 tools and Latest additions 11; all 23 new pages have their canonical, links, covers and sitemap entries. The live budget screenshot is oct13-live-budget.jpg. Conventional negative currency labels were also applied to the static worked-example tables to match live report formatting. Publication/indexability is not proof of Google indexing or improved rankings. The physical-device, narrow-rendering and PDF-page-count limits above remain explicit.
 
 Rollback: revert the release PR on main and let the normal Hostinger deployment restore the previous source. Existing user image edits are outside this isolated worktree.
 
@@ -80,3 +80,5 @@ Rollback: revert the release PR on main and let the normal Hostinger deployment 
 - `/journal/weekly-planner-2026-free-templates/`: Print the week with the starting day you use
 - `/journal/monthly-planner-free-templates/`: Trace one monthly deadline into the week and day
 - `/tools/craft-fair-stock-reconciliation/`: Farmers market vendor example: stock, spoilage and selling costs
+
+Final boundary correction: fractional unit costs use integer-ratio half-up rounding. The 2.01-hour × $0.50 fixture yields $1.01, and the matching fuel/maintenance fixture yields $2.02 total. Unrepresentable extreme trip results are rejected instead of producing an imprecise monetary value. All 11 model and DOM controls fixtures passed again after the change.

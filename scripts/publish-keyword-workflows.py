@@ -20,7 +20,7 @@ def wrapclose(scripts=''):return '</main>'+FOOTER+'<div id="toast" class="toast"
 node="const a=require('./assets/js/keyword-workflows-models.js');console.log(JSON.stringify(a.configs.filter(c=>c.theme.startsWith('workflow-')).map(c=>{const s=structuredClone(c.sample);s.rows.forEach((r,i)=>r.id='row-'+i);return {kind:c.kind,result:a.evaluate(c.slug,s)};})));"
 RESULTS={r['kind']:r['result'] for r in json.loads(subprocess.check_output(['node','-e',node],cwd=ROOT))}
 def value(v):
- if isinstance(v,dict) and 'money'in v:return f'${v["money"]/100:,.2f}'
+ if isinstance(v,dict) and 'money'in v:return ('-$' if v['money']<0 else '$')+f"{abs(v['money'])/100:,.2f}"
  return str(v)
 def table(headers,rows):return '<div class="table-wrap"><table><thead><tr>'+''.join('<th scope="col">'+esc(h)+'</th>' for h in headers)+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+esc(value(v))+'</td>' for v in row)+'</tr>' for row in rows)+'</tbody></table></div>'
 for c in CONFIGS:
@@ -43,6 +43,7 @@ for c in CONFIGS:
   else:rule+=f' Up to {f["maxLength"]} characters.'
   fieldRows.append([f['label'],rule])
  source+='<h3 id="inputs">Inputs and units</h3>'+table(['Field','Rule'],fieldRows)+'<h3 id="calculation">Calculation and scope</h3><p>'+esc(c['reportNote'])+'</p>'
+ if kind in ['coffee','trucking']:source+='<p>Unit-based cost components are rounded to cents individually, with half-cent ties rounded up. For example, 2.01 hours at $0.50 per hour produces a rounded $1.01 cost.</p>'
  result=RESULTS[kind];source+='<h3 id="example">Fictional worked example</h3><p>Load the fictional example to reproduce this report. The sample is an original illustration, not a customer result or a market benchmark. The dollar figures below use USD.</p>'+table(['Result','Sample value'],[[m['label'],{'money':m['value']} if m['format']=='money' else m['value']] for m in result['metrics']])
  source+=table(result['headers'],result['rows'])
  for x in result['extra']:source+='<h4>'+esc(x['title'])+'</h4>'+table(x['headers'],x['rows'])
@@ -78,7 +79,11 @@ for a in ARTICLES:
  p=ROOT/'journal'/a['slug']/'index.html';p.parent.mkdir(parents=True,exist_ok=True);p.write_text(source+wrapclose())
 
 # Directory: extend the existing categories and controls, not the store layout.
-p=ROOT/'tools/index.html';s=p.read_text();s=s.replace('data-latest="true"','data-latest="false"').replace('<span class="library-new">Latest addition</span>','')
+p=ROOT/'tools/index.html';s=p.read_text()
+# Upsert this batch so reproducing it does not create duplicate directory cards.
+own_routes={'href=\"/tools/'+c['slug']+'/\"' for c in CONFIGS}
+s=re.sub(r'<article class=\"directory-tool\b[^>]*>.*?</article>',lambda match:'' if any(route in match[0] for route in own_routes) else match[0],s,flags=re.S)
+s=s.replace('data-latest=\"true\"','data-latest=\"false\"').replace('<span class=\"library-new\">Latest addition</span>','')
 categories={'cashflow':'Cashflow & renewals','personal':'Personal planning','homeschool':'Homeschool & learning','content':'Content & publishing','agency':'Agency & freelance','operations':'Operations & equipment'}
 for category in categories:
  pattern=r'(<section class="tool-category" id="'+category+r'".*?</section>)';match=re.search(pattern,s,re.S);section=match[0];cards=''
