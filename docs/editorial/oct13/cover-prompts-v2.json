@@ -1,0 +1,142 @@
+{
+  "method": "Built-in imagegen",
+  "style": "Topic-specific editorial photography and dimensional accents; landscape 3:2; crop-safe composition; no promotional text or numerical claims.",
+  "assets": [
+    {
+      "slug": "monthly-business-budget-variance",
+      "topic": "monthly business budget",
+      "palette": "emerald and coral",
+      "scene": "a calculator, expense receipts and two contrasting stacks of budget envelopes on a sleek desk"
+    },
+    {
+      "slug": "printable-planner-builder",
+      "topic": "build your own printable planner",
+      "palette": "lavender and indigo",
+      "scene": "beautiful blank planner sheets emerging from a desktop printer, binder rings and colorful section tabs"
+    },
+    {
+      "slug": "monthly-teacher-lesson-planner",
+      "topic": "monthly teacher lesson planning",
+      "palette": "sky blue and sunflower yellow",
+      "scene": "teacher desk with a monthly planner grid, lesson cards, pencils, classroom books and a small globe"
+    },
+    {
+      "slug": "content-production-capacity-planner",
+      "topic": "content production capacity",
+      "palette": "purple and lime",
+      "scene": "editorial work desk with camera, microphone, article draft sheets and scheduling cards neatly balanced on a modern visual balance"
+    },
+    {
+      "slug": "marketing-campaign-budget-planner",
+      "topic": "marketing campaign budget",
+      "palette": "orange and cobalt",
+      "scene": "campaign spending envelopes beside a smartphone, megaphone, calculator and tasteful marketing creative cards"
+    },
+    {
+      "slug": "one-page-business-plan-builder",
+      "topic": "one page business plan",
+      "palette": "forest green and cream",
+      "scene": "single elegant business plan sheet surrounded by customer, offer, experiment and idea objects, stylish entrepreneurial desk"
+    },
+    {
+      "slug": "service-business-financial-projections",
+      "topic": "service business financial projections",
+      "palette": "blue and cyan",
+      "scene": "consultant desk with appointment planner, invoices, calculator and three ascending translucent monthly forecast blocks"
+    },
+    {
+      "slug": "coffee-shop-daily-operating-plan",
+      "topic": "coffee shop daily operating plan",
+      "palette": "espresso brown and mint",
+      "scene": "stylish cafe counter with espresso cup, pastry display, small daily planning notebook and order tickets"
+    },
+    {
+      "slug": "construction-milestone-cash-schedule",
+      "topic": "construction milestone cash planning",
+      "palette": "safety orange and slate",
+      "scene": "architectural worktable with hardhat, miniature building under construction, rolled plans and milestone payment envelopes"
+    },
+    {
+      "slug": "trucking-trip-cost-worksheet",
+      "topic": "trucking trip costs",
+      "palette": "midnight blue and red",
+      "scene": "modern freight truck model beside route map, fuel nozzle, road toll tokens and trip planning notebook"
+    },
+    {
+      "slug": "cash-flow-report-template-variance",
+      "topic": "cash flow forecast versus actual guide",
+      "palette": "teal and gold",
+      "scene": "premium overhead business workspace with bank ledger, receipts and two visually different cash flow ribbons"
+    },
+    {
+      "slug": "small-business-budget-template-monthly-variance",
+      "topic": "monthly small business budget guide",
+      "palette": "sage and peach",
+      "scene": "warm small business workspace with open budget notebook, calculator, receipts and planned versus spent envelopes"
+    },
+    {
+      "slug": "create-your-own-printable-planner",
+      "topic": "create your own printable planner guide",
+      "palette": "pink and periwinkle",
+      "scene": "creative stationery flat lay with custom planner pages, scissors, binder, paper size sheets and sophisticated colorful tabs"
+    },
+    {
+      "slug": "monthly-teacher-planner-lesson-preparation",
+      "topic": "teacher lesson preparation guide",
+      "palette": "terracotta and aqua",
+      "scene": "inviting teacher preparation workspace with lesson notebook, books, sticky notes, pencils and classroom materials"
+    },
+    {
+      "slug": "content-marketing-plan-template-capacity",
+      "topic": "content marketing production planning guide",
+      "palette": "violet and electric blue",
+      "scene": "content creator studio with camera lens, microphone, writing notebook and a weekly editorial planning board"
+    },
+    {
+      "slug": "one-page-business-plan-template-assumptions",
+      "topic": "one page business plan assumptions guide",
+      "palette": "olive and ochre",
+      "scene": "founder workspace with one large plan page, customer interview notes, prototype pieces and experiment cards"
+    },
+    {
+      "slug": "business-plan-financial-projections-service-example",
+      "topic": "service business financial projection guide",
+      "palette": "navy and copper",
+      "scene": "premium consultant workstation with service appointment book, invoice folder, calculator and translucent future month layers"
+    },
+    {
+      "slug": "coffee-shop-business-plan-daily-capacity",
+      "topic": "coffee shop business plan capacity guide",
+      "palette": "cream and burnt orange",
+      "scene": "trendy neighborhood cafe interior with espresso machine, tables and a planning notebook in foreground"
+    },
+    {
+      "slug": "construction-company-business-plan-milestone-cash",
+      "topic": "construction company business plan cash guide",
+      "palette": "charcoal and amber",
+      "scene": "miniature construction site with crane and staged building sections, blueprint and payment planning folder in foreground"
+    },
+    {
+      "slug": "trucking-company-business-plan-trip-cost",
+      "topic": "trucking company business plan trip costs guide",
+      "palette": "steel blue and lime",
+      "scene": "dramatic freight truck traveling along a highway with a subtle route map and fuel planning objects in foreground"
+    },
+    {
+      "slug": "interior-design-business-plan-project-capacity",
+      "topic": "interior design business plan project capacity guide",
+      "palette": "dusty rose and warm taupe",
+      "scene": "designer moodboard workspace with fabric swatches, room model, measuring tape and project schedule notebook"
+    },
+    {
+      "slug": "it-consulting-business-plan-retainer-capacity",
+      "topic": "IT consulting retainer capacity guide",
+      "palette": "indigo and turquoise",
+      "scene": "modern IT consultant desk with laptop showing abstract code blocks, client folders and time planning calendar"
+    }
+  ],
+  "first": {
+    "slug": "cash-flow-variance-report",
+    "scene": "Teal and amber cash streams entering a ledger with calculator and invoice slips on navy."
+  }
+}
