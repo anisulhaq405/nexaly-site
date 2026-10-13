@@ -9,6 +9,24 @@ BY_KIND={c['kind']:c for c in CONFIGS}
 DATE='2026-10-13';SITE='https://nexalyplanner.com'
 def esc(s):return html.escape(str(s),quote=True)
 def link(route,label):return f'<a href="{route}">{esc(label)}</a>'
+OPTIMIZATION=json.loads((ROOT/'docs/editorial/oct13/optimization.json').read_text())
+def page_label(route):
+ text=(ROOT/route.strip('/')/'index.html').read_text()
+ return html.unescape(re.sub('<[^>]+>', '', re.search(r'<h1\b[^>]*>(.*?)</h1>',text,re.S)[1])).strip()
+def next_steps(kind, article=False):
+ if kind not in OPTIMIZATION:return ''
+ _,_,related,heading,paragraph=OPTIMIZATION[kind]
+ level='h2' if article else 'h3'
+ output=('<'+level+'>'+esc(heading)+'</'+level+'><p>'+esc(paragraph)+'</p>') if heading else ''
+ output+='<'+level+'>Choose your next planning step</'+level+'><ul>'
+ for slug,label,reason in related:
+  output+='<li>'+link('/tools/'+slug+'/',label)+': '+esc(reason)+'</li>'
+ return output+'</ul>'
+def contextual_text(text):
+ output=esc(text)
+ for phrase,slug in [('maintenance-due planner','equipment-maintenance-due-planner'),('invoice collection schedule','invoice-collection-schedule'),('publishing checklist','content-publishing-checklist')]:
+  output=output.replace(phrase,link('/tools/'+slug+'/',phrase),1)
+ return output
 tool_base=(ROOT/'tools/content-publishing-checklist/index.html').read_text()
 HEADER=re.search(r'<header class="nav">.*?</header>',tool_base,re.S)[0]
 FOOTER=re.search(r'<footer.*?</footer>',tool_base,re.S)[0]
@@ -53,8 +71,9 @@ for c in CONFIGS:
  for x in result['extra']:source+='<h4>'+esc(x['title'])+'</h4>'+table(x['headers'],x['rows'])
  source+='<h3 id="saving">Save, restore and export</h3><p>Save on this device writes an explicit save to this browser; it does not download a file or sync across devices. Clearing browser storage can remove it. Download backup keeps an editable JSON file for this exact worksheet. Import previews the backup before replacing current entries; save again if you want to replace the device save. CSV contains the calculated report, not an editable import format. Print / Save PDF opens the browser print dialog; choose Save as PDF where available.</p><h3 id="questions">Questions and limits</h3><h4>Is the example my result?</h4><p>No. It is fictional data. Replace its assumptions with your own records, then calculate again.</p><h4>Does saving share my worksheet?</h4><p>No. Device saves belong to this browser. Move an editable worksheet with its JSON backup and keep sensitive information out of a shared device.</p><h4>Does a report establish that my plan is correct?</h4><p>No. Arithmetic can be consistent while the input assumptions are wrong. Keep evidence, review the scope described above and check any decisions against your real records.</p>'
  parent='one-page-marketing-plan-example' if kind=='campaign' else article['parent'];product='content-marketing-planner' if kind=='campaign' else article['product']
- source+='<h3>Continue the workflow</h3><p>'+link('/journal/'+parent+'/','Read the related existing planning guide')+'. '+(link('/journal/'+article['slug']+'/','Work through the detailed example')+'.' if article else 'The existing marketing guide explains the offer, campaign and review process behind this budget.')+'</p></section>'
- source+='<section class="tool-panel no-print tool-upgrade"><h2>Need a broader planning workflow?</h2><p>This free worksheet covers the specific task above. '+link('/planners/'+product+'/','Explore the relevant planner collection or product')+' for its documented features and format. The free JSON backup is not a paid-product import file.</p></section>'
+ source+='<h3>Continue the workflow</h3><p>'+link('/journal/'+parent+'/',page_label('/journal/'+parent+'/'))+'. '+(link('/journal/'+article['slug']+'/',article['title'])+'.' if article else 'The existing marketing guide explains the offer, campaign and review process behind this budget.')+'</p></section>'
+ source+='<section class="tool-panel no-print">'+next_steps(kind)+'</section>'
+ source+='<section class="tool-panel no-print tool-upgrade"><h2>'+esc(OPTIMIZATION[kind][0])+'</h2><p>'+esc(OPTIMIZATION[kind][1])+' '+link('/planners/'+product+'/',page_label('/planners/'+product+'/'))+'. Paid products are separate; the free JSON backup is not a paid-product import file.</p></section>'
  scripts='<script src="/assets/js/small-tools-models.js" defer></script><script src="/assets/js/keyword-workflows-models.js" defer></script><script src="/assets/js/small-tools-ui.js" defer></script>'
  if kind=='builder':scripts+='<script src="/assets/js/keyword-workflows-preview.js" defer></script>'
  p=ROOT/'tools'/c['slug']/'index.html';p.parent.mkdir(parents=True,exist_ok=True);p.write_text(source+wrapclose(scripts))
@@ -71,15 +90,16 @@ for a in ARTICLES:
   # Paragraph breaks follow concrete ideas, without automatic filler.
   sentences=re.split(r'(?<=[.!?])\s+(?=[A-Z])',paragraph);mid=len(sentences)//2
   parts=[' '.join(sentences[:mid]),' '.join(sentences[mid:])] if len(sentences)>5 else [paragraph]
-  source+='<section id="section-'+str(i+1)+'"><h2>'+esc(heading)+'</h2>'+''.join('<p>'+esc(part)+'</p>' for part in parts)+'</section>'
+  source+='<section id="section-'+str(i+1)+'"><h2>'+esc(heading)+'</h2>'+''.join('<p>'+contextual_text(part)+'</p>' for part in parts)+'</section>'
  if c and c['kind'] not in ['builder','lean']:
   source+='<h2>Reproduce the worksheet example</h2><p>The sample button loads the following results from the assumptions described in this guide. Change one input at a time to inspect its effect.</p>'+table(['Result','Fictional sample'],[[m['label'],{'money':m['value']} if m['format']=='money' else m['value']] for m in RESULTS[c['kind']]['metrics']])
+ source+=next_steps(a['tool'],article=True)
  source+='<h2>Keep a version you can review</h2><p>Save on this device keeps the worksheet in the current browser. Download a JSON backup for an editable copy before changing assumptions. CSV is a calculated report; Print / Save PDF produces a browser print copy. Device saving does not provide cloud synchronization. A static PDF needs its own annotation and backup workflow.</p>'
  if a['tool']in ['variance','budget','projections','coffee','construction']:
   source+='<h2>Reference and example scope</h2><p>'+link('https://business.gov.au/finance/financial-tools-and-templates/create-a-budget','business.gov.au budgeting guidance')+' explains the role of comparing a budget with actual results. The numerical examples and worksheet scope here are NexalyPlanner originals; they are not official accounting templates.</p>'
  elif a['tool']=='lean' or not a['tool'] or a['tool']=='trucking':
   source+='<h2>Reference and example scope</h2><p>The '+link('https://legacy.sba.gov/business-guide/plan-your-business/write-your-business-plan','SBA business-plan guide')+' distinguishes lean and traditional formats. This article adds an original operating example and does not replace the wider plan or supporting evidence a reader may request.</p>'
- source+='<section class="workflow-callout"><h2>Connect this task to your existing plan</h2><p>'+link('/journal/'+a['parent']+'/','Continue with the related planning guide')+' for the wider workflow. '+link('/planners/'+a['product']+'/','Review the relevant NexalyPlanner product or collection')+' for documented features and compatibility. Paid products are separate from these free worksheets.</p></section></article>'
+ source+='<section class="workflow-callout"><h2>Connect this task to your existing plan</h2><p>'+link('/journal/'+a['parent']+'/',page_label('/journal/'+a['parent']+'/'))+' for the wider workflow. '+link('/planners/'+a['product']+'/',page_label('/planners/'+a['product']+'/'))+' for documented features and compatibility. Paid products are separate from these free worksheets.</p></section></article>'
  p=ROOT/'journal'/a['slug']/'index.html';p.parent.mkdir(parents=True,exist_ok=True);p.write_text(source+wrapclose())
 
 # Directory: extend the existing categories and controls, not the store layout.
