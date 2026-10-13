@@ -1,0 +1,17 @@
+{
+  "status": "draft",
+  "release_not_before": "2026-10-14 morning Asia/Karachi",
+  "base_commit": "934dfccba3b40bd406ae09d88e6ac07e56dedf99",
+  "pages": [
+    "tools/assignment-deadline-planner",
+    "tools/study-catch-up-planner",
+    "tools/weekly-cash-commitments-planner",
+    "tools/supplier-quote-comparison",
+    "tools/reserved-vs-available-stock-planner",
+    "journal/college-assignment-tracker",
+    "journal/exam-study-schedule-template",
+    "journal/cash-flow-forecast-template-example",
+    "journal/supplier-quote-comparison",
+    "journal/release-reserved-stock-cancelled-orders"
+  ]
+}
