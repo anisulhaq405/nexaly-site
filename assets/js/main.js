@@ -295,7 +295,7 @@ var posts = [
     "url": "/journal/business-plan-financial-projections-service-example/",
     "title": "Business Plan Financial Projections: Service Business Example",
     "excerpt": "Separate billed revenue, operating result and cash in a service-business projection. Use a worked two-month worksheet with explicit assumptions.",
-    "img": "/assets/img/workflows/business-plan-financial-projections-service-example-cover-v2.webp",
+    "img": "/assets/img/workflows/business-plan-financial-projections-service-example-cover-v3.webp",
     "alt": "Business Plan Financial Projections: Service Business Example editorial planning illustration",
     "tag": "Planning Guides",
     "date": "Oct 13, 2026"
@@ -304,7 +304,7 @@ var posts = [
     "url": "/journal/cash-flow-report-template-variance/",
     "title": "Cash Flow Report Template: Forecast vs Actual Variance",
     "excerpt": "Reconcile forecast and actual cash with a worked variance report. Separate timing from amount changes and use a free cash bridge worksheet.",
-    "img": "/assets/img/workflows/cash-flow-report-template-variance-cover-v2.webp",
+    "img": "/assets/img/workflows/cash-flow-report-template-variance-cover-v3.webp",
     "alt": "Cash Flow Report Template: Forecast vs Actual Variance editorial planning illustration",
     "tag": "Planning Guides",
     "date": "Oct 13, 2026"
@@ -313,7 +313,7 @@ var posts = [
     "url": "/journal/coffee-shop-business-plan-daily-capacity/",
     "title": "Coffee Shop Business Plan: Daily Capacity and Cost Example",
     "excerpt": "Connect a coffee shop business plan to orders, opening hours, staffing and a slower-day scenario. Use a free daily operating worksheet.",
-    "img": "/assets/img/workflows/coffee-shop-business-plan-daily-capacity-cover-v2.webp",
+    "img": "/assets/img/workflows/coffee-shop-business-plan-daily-capacity-cover-v3.webp",
     "alt": "Coffee Shop Business Plan: Daily Capacity and Cost Example editorial planning illustration",
     "tag": "Planning Guides",
     "date": "Oct 13, 2026"
@@ -322,7 +322,7 @@ var posts = [
     "url": "/journal/construction-company-business-plan-milestone-cash/",
     "title": "Construction Company Business Plan: Milestone Cash Example",
     "excerpt": "Plan construction deposits, materials, labor and milestone collections with a dated cash schedule. Compare base cash with confirmed receipts only.",
-    "img": "/assets/img/workflows/construction-company-business-plan-milestone-cash-cover-v2.webp",
+    "img": "/assets/img/workflows/construction-company-business-plan-milestone-cash-cover-v3.webp",
     "alt": "Construction Company Business Plan: Milestone Cash Example editorial planning illustration",
     "tag": "Planning Guides",
     "date": "Oct 13, 2026"
@@ -331,7 +331,7 @@ var posts = [
     "url": "/journal/content-marketing-plan-template-capacity/",
     "title": "Content Marketing Plan Template With a Capacity Check",
     "excerpt": "Build a content marketing plan around realistic production hours. Check overloaded dates, review owners and a worked content-capacity example.",
-    "img": "/assets/img/workflows/content-marketing-plan-template-capacity-cover-v2.webp",
+    "img": "/assets/img/workflows/content-marketing-plan-template-capacity-cover-v3.webp",
     "alt": "Content Marketing Plan Template With a Capacity Check editorial planning illustration",
     "tag": "Planning Guides",
     "date": "Oct 13, 2026"
@@ -340,7 +340,7 @@ var posts = [
     "url": "/journal/create-your-own-printable-planner/",
     "title": "Create Your Own Printable Planner: Letter, A4 or A5",
     "excerpt": "Create a daily or weekly printable planner with your hours, week start and writing sections. Preview Letter, A4 or A5 and print or save PDF.",
-    "img": "/assets/img/workflows/create-your-own-printable-planner-cover-v2.webp",
+    "img": "/assets/img/workflows/create-your-own-printable-planner-cover-v3.webp",
     "alt": "Create Your Own Printable Planner: Letter, A4 or A5 editorial planning illustration",
     "tag": "Planning Guides",
     "date": "Oct 13, 2026"
@@ -349,7 +349,7 @@ var posts = [
     "url": "/journal/interior-design-business-plan-project-capacity/",
     "title": "Interior Design Business Plan: Scope, Deposits and Capacity",
     "excerpt": "Build an interior design business plan around project scope, revision hours, supplier deposits and delivery capacity using a worked studio example.",
-    "img": "/assets/img/workflows/interior-design-business-plan-project-capacity-cover-v2.webp",
+    "img": "/assets/img/workflows/interior-design-business-plan-project-capacity-cover-v3.webp",
     "alt": "Interior Design Business Plan: Scope, Deposits and Capacity editorial planning illustration",
     "tag": "Planning Guides",
     "date": "Oct 13, 2026"
@@ -358,7 +358,7 @@ var posts = [
     "url": "/journal/it-consulting-business-plan-retainer-capacity/",
     "title": "IT Consulting Business Plan: Retainer Hours and Capacity",
     "excerpt": "Write an IT consulting business plan with a clear support boundary, retainer-hour budget and delivery-capacity example using existing free worksheets.",
-    "img": "/assets/img/workflows/it-consulting-business-plan-retainer-capacity-cover-v2.webp",
+    "img": "/assets/img/workflows/it-consulting-business-plan-retainer-capacity-cover-v3.webp",
     "alt": "IT Consulting Business Plan: Retainer Hours and Capacity editorial planning illustration",
     "tag": "Planning Guides",
     "date": "Oct 13, 2026"
@@ -367,7 +367,7 @@ var posts = [
     "url": "/journal/monthly-teacher-planner-lesson-preparation/",
     "title": "Monthly Teacher Planner: Lessons and Preparation Dates",
     "excerpt": "Use a monthly teacher planner to connect lessons, preparation dates, materials and owners. Find overdue preparation with a worked classroom example.",
-    "img": "/assets/img/workflows/monthly-teacher-planner-lesson-preparation-cover-v2.webp",
+    "img": "/assets/img/workflows/monthly-teacher-planner-lesson-preparation-cover-v3.webp",
     "alt": "Monthly Teacher Planner: Lessons and Preparation Dates editorial planning illustration",
     "tag": "Planning Guides",
     "date": "Oct 13, 2026"
@@ -376,7 +376,7 @@ var posts = [
     "url": "/journal/one-page-business-plan-template-assumptions/",
     "title": "One-Page Business Plan Template With an Assumptions Log",
     "excerpt": "Write a one-page business plan with customer, offer, costs and evidence. Use a free builder and a practical first-90-days assumption-testing example.",
-    "img": "/assets/img/workflows/one-page-business-plan-template-assumptions-cover-v2.webp",
+    "img": "/assets/img/workflows/one-page-business-plan-template-assumptions-cover-v3.webp",
     "alt": "One-Page Business Plan Template With an Assumptions Log editorial planning illustration",
     "tag": "Planning Guides",
     "date": "Oct 13, 2026"
@@ -385,7 +385,7 @@ var posts = [
     "url": "/journal/small-business-budget-template-monthly-variance/",
     "title": "Small Business Budget Template: Monthly Variance Review",
     "excerpt": "Use a small business budget template to compare monthly budget and actual results, explain zero-base percentages and assign practical follow-up actions.",
-    "img": "/assets/img/workflows/small-business-budget-template-monthly-variance-cover-v2.webp",
+    "img": "/assets/img/workflows/small-business-budget-template-monthly-variance-cover-v3.webp",
     "alt": "Small Business Budget Template: Monthly Variance Review editorial planning illustration",
     "tag": "Planning Guides",
     "date": "Oct 13, 2026"
@@ -394,7 +394,7 @@ var posts = [
     "url": "/journal/trucking-company-business-plan-trip-cost/",
     "title": "Trucking Company Business Plan: Total-Mile Cost Example",
     "excerpt": "Use a trucking business plan example to separate loaded and empty miles, fuel, maintenance allowances and payment timing with a free trip worksheet.",
-    "img": "/assets/img/workflows/trucking-company-business-plan-trip-cost-cover-v2.webp",
+    "img": "/assets/img/workflows/trucking-company-business-plan-trip-cost-cover-v3.webp",
     "alt": "Trucking Company Business Plan: Total-Mile Cost Example editorial planning illustration",
     "tag": "Planning Guides",
     "date": "Oct 13, 2026"
