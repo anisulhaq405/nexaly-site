@@ -1,0 +1,170 @@
+{
+  "variance": [
+    "Plan the next cash period",
+    "Use Cashflow-13 OS to review its documented forward-planning workflow after reconciling this period.",
+    [
+      [
+        "monthly-business-budget-variance",
+        "monthly budget variance worksheet",
+        "Compare revenue and expense performance separately from the timing of bank movements."
+      ],
+      [
+        "invoice-collection-schedule",
+        "invoice collection schedule",
+        "Give a delayed receipt a dated collection follow-up."
+      ]
+    ],
+    "Cash variance and budget variance answer different questions",
+    "A fictional $300 invoice included in revenue but collected next month can leave this month’s cash $300 below forecast without changing that invoice’s revenue amount. Record the collection timing in this report; use the budget worksheet to investigate changes in sales and expense amounts. Do not count the same invoice as new revenue when the cash arrives."
+  ],
+  "budget": [
+    "Turn the monthly review into an operating plan",
+    "Review Small Business Planner 2026–2028 for the wider goals, tasks and finance-planning workflow.",
+    [
+      [
+        "cash-flow-variance-report",
+        "cash flow variance report",
+        "Check whether the operating result and bank movement tell different stories."
+      ]
+    ],
+    "Compare the operating result with collections",
+    "Suppose the fictional $9,000 actual revenue includes a $500 invoice still unpaid. Under a consistent billed-revenue basis, the $2,000 operating remainder does not change merely because collection is late. Cash receipts can nevertheless be $500 lower. Reconcile cash separately rather than reducing revenue solely to match the bank."
+  ],
+  "builder": [
+    "Choose a reusable planning format",
+    "Browse the Digital Planners collection to compare documented formats after testing your preferred daily or weekly layout.",
+    [
+      [
+        "monthly-teacher-lesson-planner",
+        "monthly teacher lesson planner",
+        "Track preparation dates separately when your printed page is used for teaching."
+      ]
+    ],
+    "",
+    ""
+  ],
+  "teacher": [
+    "Connect lessons with family learning plans",
+    "Review Digital Homeschool Planner for its documented family learning workflow and compatibility.",
+    [
+      [
+        "assignment-deadline-planner",
+        "assignment deadline planner",
+        "Keep student assignment deadlines separate from teacher preparation tasks."
+      ]
+    ],
+    "",
+    ""
+  ],
+  "production": [
+    "Connect production capacity to your content plan",
+    "Review Content Marketing Planner for the broader documented planning workflow around your production schedule.",
+    [
+      [
+        "marketing-campaign-budget-planner",
+        "marketing campaign budget planner",
+        "Check the spending allowance as well as the hours needed to produce campaign material."
+      ],
+      [
+        "content-publishing-checklist",
+        "content publishing checklist",
+        "Review publication tasks after the work fits your available hours."
+      ]
+    ],
+    "Move a task and recheck the deadline",
+    "In the fictional sample, two two-hour tasks on a three-hour day create a one-hour overload. Moving the full second task to another available three-hour day leaves two hours booked on each day and removes the overload. Confirm that its reviewer and publication deadline allow the move; the worksheet does not resolve those dependencies automatically."
+  ],
+  "campaign": [
+    "Plan the work behind the campaign budget",
+    "Review Content Marketing Planner for its documented content-planning features alongside this spending worksheet.",
+    [
+      [
+        "content-production-capacity-planner",
+        "content production capacity planner",
+        "Check whether research, design and review hours fit before committing the campaign spend."
+      ]
+    ],
+    "",
+    ""
+  ],
+  "lean": [
+    "Put the next business-plan action on a schedule",
+    "Review Small Business Planner 2026–2028 for the documented goals, tasks and finance workflow behind your assumption tests.",
+    [
+      [
+        "service-business-financial-projections",
+        "service-business financial projections worksheet",
+        "Test the monthly money assumptions behind a service offer."
+      ]
+    ],
+    "",
+    ""
+  ],
+  "projections": [
+    "Review the runway behind your service plan",
+    "Review Business Runway / Burn Rate OS for its documented runway workflow and compare its scope with this monthly projection.",
+    [
+      [
+        "one-page-business-plan-builder",
+        "one-page business plan builder",
+        "Document the customer and offer assumptions that drive the projection."
+      ],
+      [
+        "invoice-collection-schedule",
+        "invoice collection schedule",
+        "Track the evidence behind expected collection dates."
+      ]
+    ],
+    "",
+    ""
+  ],
+  "coffee": [
+    "Turn a daily operating check into a business plan",
+    "Review Small Business Planner 2026–2028 for the wider documented business-planning workflow.",
+    [
+      [
+        "monthly-business-budget-variance",
+        "monthly budget variance worksheet",
+        "Compare monthly budget and actual results once you have consistent operating records."
+      ]
+    ],
+    "",
+    ""
+  ],
+  "construction": [
+    "Review cash across concurrent projects",
+    "Review Cashflow-13 OS for its documented company cash-planning workflow before combining project commitments.",
+    [
+      [
+        "weekly-cash-commitments-planner",
+        "weekly cash commitments planner",
+        "Review dated commitments together and avoid allocating the same opening cash to several projects."
+      ],
+      [
+        "invoice-collection-schedule",
+        "invoice collection schedule",
+        "Record a follow-up when milestone approval or collection is uncertain."
+      ]
+    ],
+    "What changes if the milestone receipt is late?",
+    "Keep the fictional deposit and payments unchanged but move the $3,000 collection from October 23 to October 30. With no other movements, cash stays at negative $700 from October 16 through October 29, then rises to $2,300 on October 30. The lowest balance is unchanged, but the funding gap lasts seven additional days. Include October 30 in the planning window to see the receipt; do not treat the later positive balance as proof that earlier commitments are funded."
+  ],
+  "trucking": [
+    "Plan beyond one trip",
+    "Review Small Business Planner 2026–2028 for the documented wider business-planning workflow around your trip assumptions.",
+    [
+      [
+        "equipment-maintenance-due-planner",
+        "equipment maintenance due planner",
+        "Check entered service intervals alongside the trip cost allowance."
+      ],
+      [
+        "invoice-collection-schedule",
+        "invoice collection schedule",
+        "Follow up the expected receipt separately from the trip operating remainder."
+      ]
+    ],
+    "Compare fuel price and empty-mile scenarios",
+    "These are separate fictional changes to the 500-mile sample, not current market rates. At $4.50 per gallon instead of $4.00, 80 gallons cost $360: total modeled cost becomes $910 and the $1,500 trip leaves $590. Reset fuel to $4.00, then increase empty miles from 100 to 150. Total distance becomes 550 miles; fuel costs $352, maintenance allowance is $110 and other entered costs stay $450. Total cost is $912, leaving $588. Review whether driver, toll and fixed allocations also need to change before using that second scenario."
+  ]
+}
