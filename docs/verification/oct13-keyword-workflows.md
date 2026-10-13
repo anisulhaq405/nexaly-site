@@ -19,7 +19,7 @@ SBA lean/traditional business-plan guidance and business.gov.au budgeting guidan
 
 ## Validation before publication
 
-PASS: 11 worksheet model fixtures and scenario/boundary checks, including cash-versus-operating-result distinctions, cents, zero-base ratios, overnight hours, lesson preparation dates, daily capacity, incomplete attribution, consecutive projection months, slower-day staffing, confirmed-only receipt scenarios and loaded/total-mile denominators.
+PASS: 11 worksheet model fixtures and scenario/boundary checks, including cash-versus-operating-result distinctions, cents, fractional half-cent ties, unsafe-result rejection, zero-base ratios, overnight hours, lesson preparation dates, daily capacity, incomplete attribution, consecutive projection months, slower-day staffing, confirmed-only receipt scenarios and loaded/total-mile denominators.
 
 PASS: DOM integration controls for all 11 worksheets: calculation, save/restore, JSON export, import review/confirmation, wrong-tool rejection, CSV escaping, print calls, editable records, reset and blocked-storage messages. These are jsdom integration checks, not browser rendering or physical-device tests.
 
@@ -80,3 +80,5 @@ Rollback: revert the release PR on main and let the normal Hostinger deployment 
 - `/journal/weekly-planner-2026-free-templates/`: Print the week with the starting day you use
 - `/journal/monthly-planner-free-templates/`: Trace one monthly deadline into the week and day
 - `/tools/craft-fair-stock-reconciliation/`: Farmers market vendor example: stock, spoilage and selling costs
+
+Final boundary correction: fractional unit costs use integer-ratio half-up rounding. The 2.01-hour × $0.50 fixture yields $1.01, and the matching fuel/maintenance fixture yields $2.02 total. Unrepresentable extreme trip results are rejected instead of producing an imprecise monetary value. All 11 model and DOM controls fixtures passed again after the change.

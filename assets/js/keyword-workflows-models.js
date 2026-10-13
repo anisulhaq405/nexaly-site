@@ -1480,7 +1480,15 @@ const configs=[
 const previous=api.evaluate;
 api.configs.push(...configs);
 const n=v=>Number(v),cent=api.cents,day=api.dateNumber,round=v=>Math.round((v+Number.EPSILON)*100)/100;
-const mul=(units,price)=>Math.round(n(units)*cent(price));
+// Inputs have at most two decimals. Integer ratios preserve half-cent ties;
+// floating products such as 2.01 * 50 can land just below 100.5.
+function ratioMoney(unitsHundredths,priceCents,divisor){
+ const numerator=BigInt(unitsHundredths)*BigInt(priceCents),denominator=BigInt(divisor);
+ const rounded=(numerator*2n+denominator)/(denominator*2n);
+ if(rounded>BigInt(Number.MAX_SAFE_INTEGER))throw Error('Calculated monetary result is too large to represent exactly. Reduce the entered amounts.');
+ return Number(rounded);
+}
+const mul=(units,price)=>ratioMoney(Math.round(n(units)*100),cent(price),100);
 const iso=v=>new Date(v).toISOString().slice(0,10),money=v=>({money:v});
 const percent=(difference,base)=>base?round(difference/base*100)+'%':'Not defined (zero base)';
 api.evaluate=function(slug,state){
@@ -1555,11 +1563,11 @@ api.evaluate=function(slug,state){
  }
  if(c.kind==='trucking'){
   const miles=n(t.loaded)+n(t.empty);if(!miles)throw Error('Enter at least one total mile.');if(!n(t.mpg))throw Error('Miles per gallon must be greater than zero.');
-  const gallons=miles/n(t.mpg),fuelCost=Math.round(gallons*cent(t.fuel)),maintenance=mul(miles,t.maintenance),other=rs.reduce((a,r)=>a+cent(r.amount),0),cost=fuelCost+maintenance+other,rev=cent(t.revenue);headers=['Nonfuel cost','Amount','Entered cash date'];rs.forEach(r=>rows.push([r.label,money(cent(r.amount)),r.date]));
+  const gallons=miles/n(t.mpg),fuelCost=ratioMoney(cent(t.loaded)+cent(t.empty),cent(t.fuel),cent(t.mpg)),maintenance=mul(miles,t.maintenance),other=rs.reduce((a,r)=>a+cent(r.amount),0),cost=fuelCost+maintenance+other,rev=cent(t.revenue);if(!Number.isSafeInteger(cost))throw Error('Calculated trip cost is too large to represent exactly. Reduce the entered amounts.');headers=['Nonfuel cost','Amount','Entered cash date'];rs.forEach(r=>rows.push([r.label,money(cent(r.amount)),r.date]));
   metric('Total miles',round(miles));metric('Modeled trip cost',cost,'money');metric('Cost per total mile',Math.round(cost/miles),'money');metric('Trip operating remainder',rev-cost,'money');
   extra.push({title:'Consistent trip economics',headers:['Measure','Value'],rows:[['Loaded miles',t.loaded],['Empty miles',t.empty],['Expected fuel gallons',round(gallons)],['Modeled fuel cost',money(fuelCost)],['Maintenance allowance',money(maintenance)],['Nonfuel entered costs',money(other)],['Revenue / total mile',money(Math.round(rev/miles))],['Revenue / loaded mile',n(t.loaded)?money(Math.round(rev/n(t.loaded))):'Not defined (zero loaded miles)'],['Expected collection date',t.paidOn]]},{title:'Entered nonfuel payments before collection',headers:['Cost','Cash date','Amount'],rows:rs.filter(r=>r.date<t.paidOn).map(r=>[r.label,r.date,money(cent(r.amount))])});warnings.push('Fuel and maintenance cash dates are not modeled. Use a dated cash planner to check the full payment gap. All rates are your assumptions, not industry benchmarks.');
  }
- return {metrics,headers,rows,extra,warnings,note:c.reportNote,preview};
+ return {metrics,headers,rows,extra,warnings,note:c.reportNote+(['coffee','trucking'].includes(c.kind)?' Unit-based cost components are rounded to cents individually, with half-cent ties rounded up.':''),preview};
 };
 if(typeof module!=='undefined'&&module.exports)module.exports=api;
 })(typeof window!=='undefined'?window:globalThis);

@@ -43,6 +43,7 @@ for c in CONFIGS:
   else:rule+=f' Up to {f["maxLength"]} characters.'
   fieldRows.append([f['label'],rule])
  source+='<h3 id="inputs">Inputs and units</h3>'+table(['Field','Rule'],fieldRows)+'<h3 id="calculation">Calculation and scope</h3><p>'+esc(c['reportNote'])+'</p>'
+ if kind in ['coffee','trucking']:source+='<p>Unit-based cost components are rounded to cents individually, with half-cent ties rounded up. For example, 2.01 hours at $0.50 per hour produces a rounded $1.01 cost.</p>'
  result=RESULTS[kind];source+='<h3 id="example">Fictional worked example</h3><p>Load the fictional example to reproduce this report. The sample is an original illustration, not a customer result or a market benchmark. The dollar figures below use USD.</p>'+table(['Result','Sample value'],[[m['label'],{'money':m['value']} if m['format']=='money' else m['value']] for m in result['metrics']])
  source+=table(result['headers'],result['rows'])
  for x in result['extra']:source+='<h4>'+esc(x['title'])+'</h4>'+table(x['headers'],x['rows'])
