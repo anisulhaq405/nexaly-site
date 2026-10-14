@@ -406,7 +406,7 @@ var posts = [
     "img": "/images/journal/track-partial-shipments-backorders-20261011.webp?release=4d0cb492",
     "alt": "Packing desk with blue mugs in an outgoing parcel and additional mugs on a shelf for a later shipment.",
     "tag": "Order Tracking",
-    "date": "Oct 11, 2026"
+    "date": "Updated Oct 14, 2026"
   },
   {
     "url": "/journal/release-reserved-stock-cancelled-orders/",
@@ -905,12 +905,12 @@ var posts = [
   },
   {
     "tag": "Order Tracking",
-    "title": "How to Keep Track of Small Business Orders in One Place",
-    "date": "Updated Oct 11, 2026 · 5 min",
+    "title": "Small Business Order Tracking: Free Template and Worked Examples",
+    "date": "Updated Oct 14, 2026 · 5 min",
     "url": "/journal/track-small-business-orders/",
     "img": "/images/products/sales-management-system/9-inventory-orders.webp",
-    "alt": "How to Keep Track of Small Business Orders in One Place",
-    "excerpt": "Organize small-business orders with a copyable order-log example. Separate payments, partial shipments and next actions so every confirmed order has a clear record."
+    "alt": "Small Business Order Tracking: Free Template and Worked Examples",
+    "excerpt": "Download a free small business order tracker CSV. Keep order lines, payments, shipped units and cancellations separate with worked examples and a next-action checklist."
   },
   {
     "tag": "Inventory Software",
@@ -960,7 +960,7 @@ var posts = [
   {
     "tag": "Homeschool Schedule",
     "title": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
-    "date": "Updated Oct 6, 2026 · 5 min",
+    "date": "Updated Oct 14, 2026 · 5 min",
     "url": "/journal/homeschool-schedule-multiple-ages/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-lesson-planner-calendar.jpg",
     "alt": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
@@ -968,12 +968,12 @@ var posts = [
   },
   {
     "tag": "Attendance Tracker",
-    "title": "Homeschool Attendance Tracker: A Simple Daily Record",
-    "date": "Updated Oct 10, 2026 · 5 min",
+    "title": "Free Homeschool Attendance Sheet and Daily Tracker",
+    "date": "Updated Oct 14, 2026 · 5 min",
     "url": "/journal/homeschool-attendance-tracker/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-reports-transcript.jpg",
-    "alt": "Homeschool Attendance Tracker: A Simple Daily Record",
-    "excerpt": "Use a free browser attendance log or copy the daily-record example. Keep separate records for each child, review duplicates and understand the totals."
+    "alt": "Free Homeschool Attendance Sheet and Daily Tracker",
+    "excerpt": "Download a free homeschool attendance sheet for Excel. Record dates, learner names and minutes, count days once and review duplicate child/date entries."
   },
   {
     "tag": "Homeschool Planner",
@@ -986,12 +986,12 @@ var posts = [
   },
   {
     "tag": "Student Planner",
-    "title": "Free Assignment Tracker Template for College Students",
-    "date": "Updated Oct 11, 2026 · 5 min",
+    "title": "College Assignment Tracker: Free Excel and Google Sheets Template",
+    "date": "Updated Oct 14, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
     "img": "/images/products/ai-student-planner/ai-student-planner-plan-track-stay-ahead.jpg",
-    "alt": "Free Assignment Tracker Template for College Students",
-    "excerpt": "Download a free Excel assignment tracker template with editable dates, task status and next actions. Includes a college example and setup instructions."
+    "alt": "College Assignment Tracker: Free Excel and Google Sheets Template",
+    "excerpt": "Use a free college assignment tracker in Excel or Google Sheets. Record due dates, next actions and remaining hours, then plan study time with the browser worksheet."
   },
   {
     "tag": "Study Schedule",
