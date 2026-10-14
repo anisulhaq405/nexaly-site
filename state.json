@@ -1379,8 +1379,9 @@
       "attemptedAt": "2026-10-10T03:34:33.264252+00:00"
     },
     "https://nexalyplanner.com/journal/rental-equipment-maintenance-log/|facebook": {
-      "revision": "98ce253a00a6b48773f38fe18bb72b83395a4494823dd985e3e2e96b71ca048e",
-      "status": "baseline"
+      "revision": "70a7f58c68427ddbcc3c46060f1ee2176c38aa7fb2c1a98bcc83d7b4868ce200",
+      "status": "attempting",
+      "attemptedAt": "2026-10-14T23:09:46.675442+00:00"
     },
     "https://nexalyplanner.com/journal/rental-equipment-maintenance-log/|instagram": {
       "revision": "98ce253a00a6b48773f38fe18bb72b83395a4494823dd985e3e2e96b71ca048e",
