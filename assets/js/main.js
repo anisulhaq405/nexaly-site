@@ -469,7 +469,7 @@ var posts = [
     "img": "/images/journal/rental-equipment-maintenance-log-20261003.webp",
     "alt": "Rental warehouse workbench with event lighting, equipment cases, inspection tags and a maintenance clipboard.",
     "tag": "Planning Guides",
-    "date": "Oct 3, 2026"
+    "date": "Updated Oct 15, 2026"
   },
   {
     "url": "/journal/cash-runway-template/",
@@ -523,7 +523,7 @@ var posts = [
     "img": "/images/journal/supplier-scorecard-20261001.webp",
     "alt": "Purchasing colleagues reviewing delivery records and supplier performance at a desk.",
     "tag": "Planning Guides",
-    "date": "Updated Oct 10, 2026"
+    "date": "Updated Oct 15, 2026"
   },
   {
     "url": "/journal/caregiver-daily-log-template/",
@@ -532,7 +532,7 @@ var posts = [
     "img": "/images/journal/caregiver-daily-log-template-20260930.webp",
     "alt": "Two family caregivers reviewing a daily care log together",
     "tag": "Planning Guides",
-    "date": "Updated Oct 12, 2026"
+    "date": "Updated Oct 15, 2026"
   },
   {
     "url": "/journal/contract-renewal-workflow/",
@@ -924,7 +924,7 @@ var posts = [
   {
     "tag": "Inventory",
     "title": "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
-    "date": "Updated Oct 8, 2026 · 5 min",
+    "date": "Updated Oct 15, 2026 · 5 min",
     "url": "/journal/boutique-inventory-spreadsheet/",
     "img": "/images/journal/boutique-stock-20260915.jpg",
     "alt": "Tagged boutique clothing and folded knitwear with the heading Know Your Stock: Every Size, Every Color",
@@ -987,7 +987,7 @@ var posts = [
   {
     "tag": "Homeschool Planner",
     "title": "Choosing a Homeschool Planner for Multiple Children",
-    "date": "Updated Oct 4, 2026 · 5 min",
+    "date": "Updated Oct 15, 2026 · 5 min",
     "url": "/journal/homeschool-planner-multiple-children/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-multiple-child-profiles.jpg",
     "alt": "Choosing a Homeschool Planner for Multiple Children",
