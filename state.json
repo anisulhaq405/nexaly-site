@@ -871,8 +871,9 @@
       "attemptedAt": "2026-10-14T15:14:15.045031+00:00"
     },
     "https://nexalyplanner.com/journal/day-planner-vs-daily-planner/|facebook": {
-      "revision": "a6ed32383081956149aff195616b6bc421b4b3e9b271431d7c761c4b69fbe3fa",
-      "status": "baseline"
+      "revision": "fa09d521ea55b71d59a2c9cd209094a3cb0f6dedd3b25abe4f540c9f66eeed68",
+      "status": "attempting",
+      "attemptedAt": "2026-10-14T15:14:24.101476+00:00"
     },
     "https://nexalyplanner.com/journal/day-planner-vs-daily-planner/|instagram": {
       "revision": "a6ed32383081956149aff195616b6bc421b4b3e9b271431d7c761c4b69fbe3fa",
