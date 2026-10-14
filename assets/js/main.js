@@ -292,6 +292,33 @@ var products = [
 ];
 var posts = [
   {
+    "tag": "Attendance Tracker",
+    "title": "Free Homeschool Attendance Sheet and Daily Tracker",
+    "date": "Updated Oct 14, 2026 · 5 min",
+    "url": "/journal/homeschool-attendance-tracker/",
+    "img": "/assets/img/resource-previews/attendance.webp",
+    "alt": "Free Homeschool Attendance Sheet and Daily Tracker",
+    "excerpt": "Download a free homeschool attendance sheet for Excel or printable A4/Letter PDF. Record learner dates and minutes, review duplicates and count days once."
+  },
+  {
+    "tag": "Student Planner",
+    "title": "College Assignment Tracker: Free Excel and Google Sheets Template",
+    "date": "Updated Oct 14, 2026 · 5 min",
+    "url": "/journal/college-assignment-tracker/",
+    "img": "/assets/img/resource-previews/assignment.webp",
+    "alt": "College Assignment Tracker: Free Excel and Google Sheets Template",
+    "excerpt": "Use a free college assignment tracker in Excel or Google Sheets. Record due dates, next actions and remaining hours, then plan study time with the browser worksheet."
+  },
+  {
+    "tag": "Order Tracking",
+    "title": "Small Business Order Tracking: Free Template and Worked Examples",
+    "date": "Updated Oct 14, 2026 · 5 min",
+    "url": "/journal/track-small-business-orders/",
+    "img": "/assets/img/resource-previews/orders-inputs.webp",
+    "alt": "Small Business Order Tracking: Free Template and Worked Examples",
+    "excerpt": "Free small business order tracker in Excel or CSV. Calculate open units, remaining payment and pending refunds with a worked cancellation example."
+  },
+  {
     "url": "/journal/business-plan-financial-projections-service-example/",
     "title": "Business Plan Financial Projections: Service Business Example",
     "excerpt": "Separate billed revenue, operating result and cash in a service-business projection. Use a worked two-month worksheet with explicit assumptions.",
@@ -635,12 +662,12 @@ var posts = [
   },
   {
     "url": "/journal/best-digital-planner-for-ipad/",
-    "title": "Best Digital Planner for iPad: Full Breakdown",
-    "excerpt": "Compare iPad digital planner formats, including Goodnotes PDFs, Notion, offline HTML, and free options, with a practical setup example.",
+    "title": "Best Digital Planner for iPad: Choose the Right Format",
+    "excerpt": "Choose an iPad planner format for handwriting, typed projects or reminders. Compare dated and undated PDFs, workspaces and local files with a practical test.",
     "img": "/images/journal/best-digital-planner-for-ipad-20260919.jpg",
     "alt": "iPad beside an Apple Pencil showing a digital planner with monthly, weekly, and daily layouts",
     "tag": "Planning Guides",
-    "date": "Updated Sep 24, 2026"
+    "date": "Updated Oct 14, 2026"
   },
   {
     "url": "/journal/best-planner-app-for-ipad-2026/",
@@ -689,12 +716,12 @@ var posts = [
   },
   {
     "url": "/journal/ipad-planner-app-buying-guide/",
-    "title": "iPad Planner App: What to Look For Before You Buy",
-    "excerpt": "Compare iPad planner apps, PDF planners, Goodnotes, Notion, and offline HTML options before you buy.",
+    "title": "iPad Planner App Buying Checklist: Files, Costs & Backup",
+    "excerpt": "Before buying an iPad planner, verify the file or app, device compatibility, separate charges and backup/export. Use a practical evidence checklist.",
     "img": "/images/journal/ipad-planner-app-buying-guide-20260919.jpg",
     "alt": "iPad showing a digital planner comparison with Apple Pencil, PDF, Goodnotes, Notion, and offline HTML options",
     "tag": "Planning Guides",
-    "date": "Updated Sep 24, 2026"
+    "date": "Updated Oct 14, 2026"
   },
   {
     "url": "/journal/2026-monthly-planner-free-layouts/",
@@ -763,7 +790,7 @@ var posts = [
     "url": "/journal/a5-planner-sizes-layouts-digital-options/",
     "title": "A5 Planner: Sizes, Layouts and Best Digital Options",
     "excerpt": "Compare A5 planner dimensions, paper, printable PDF, offline HTML, GoodNotes, and Notion options to choose a practical layout for daily use.",
-    "img": "/images/journal/a5-planner-sizes-layouts-digital-options-20260918.jpg",
+    "img": "/assets/img/journal-responsive/a5-planner-sizes-layouts-digital-options-1280.webp",
     "alt": "Open A5 planner showing a weekly layout beside a tablet with a digital planner page",
     "tag": "Planning Guides",
     "date": "Updated Oct 13, 2026"
@@ -781,7 +808,7 @@ var posts = [
     "url": "/journal/daily-planner-complete-guide/",
     "title": "Daily Planner: The Complete Guide to Planning Your Day",
     "excerpt": "Learn how to plan your day with three priorities, fixed commitments, realistic time blocks, useful buffers, and a short end-of-day review.",
-    "img": "/images/journal/daily-planner-complete-guide-20260918.jpg",
+    "img": "/assets/img/journal-responsive/daily-planner-complete-guide-1280.webp",
     "alt": "Open daily planner with three priorities, fixed appointments, time blocks, and an end-of-day review",
     "tag": "Planning Guides",
     "date": "Updated Sep 21, 2026"
@@ -790,7 +817,7 @@ var posts = [
     "url": "/journal/day-planner-vs-daily-planner/",
     "title": "Day Planner vs Daily Planner: What Is the Difference?",
     "excerpt": "Day planner or daily planner? Learn the real difference, compare calendars, hourly layouts, PDFs, offline HTML, and apps, and choose your fit.",
-    "img": "/images/journal/day-planner-vs-daily-planner-20260918.jpg",
+    "img": "/assets/img/journal-responsive/day-planner-vs-daily-planner-1280.webp",
     "alt": "Open day planner beside a calendar with hourly schedule blocks and a digital tablet planner",
     "tag": "Planning Guides",
     "date": "Updated Sep 21, 2026"
@@ -799,7 +826,7 @@ var posts = [
     "url": "/journal/hourly-planner-best-free-digital-layouts/",
     "title": "Hourly Planner: Paper, Printable and Digital Layouts",
     "excerpt": "Compare paper, printable PDF, offline HTML, and cloud hourly planners. See a realistic workday example and choose a simple daily layout that fits.",
-    "img": "/images/journal/hourly-planner-best-free-digital-layouts-20260918.jpg",
+    "img": "/assets/img/journal-responsive/hourly-planner-best-free-digital-layouts-1280.webp",
     "alt": "Open hourly planner showing time blocks, priorities, and buffer space on a desk",
     "tag": "Planning Guides",
     "date": "Updated Sep 21, 2026"
@@ -808,7 +835,7 @@ var posts = [
     "url": "/journal/monthly-planner-free-templates/",
     "title": "Monthly Planner: How to Set Up a Practical Monthly Layout",
     "excerpt": "Learn how to set up a practical monthly planner for commitments, goals, projects, dated actions, and an effective end-of-month review.",
-    "img": "/images/journal/monthly-planner-free-templates-20260918.jpg",
+    "img": "/assets/img/journal-responsive/monthly-planner-free-templates-1280.webp",
     "alt": "Open monthly planner with commitments, goals, project milestones, and review notes arranged across one calendar spread.",
     "tag": "Planning Guides",
     "date": "Updated Oct 13, 2026"
@@ -904,15 +931,6 @@ var posts = [
     "excerpt": "Build a boutique inventory spreadsheet with variant SKUs, stock formulas, reservations, returns and a worked clothing-store example."
   },
   {
-    "tag": "Order Tracking",
-    "title": "Small Business Order Tracking: Free Template and Worked Examples",
-    "date": "Updated Oct 14, 2026 · 5 min",
-    "url": "/journal/track-small-business-orders/",
-    "img": "/assets/img/resource-previews/orders-inputs.webp",
-    "alt": "Small Business Order Tracking: Free Template and Worked Examples",
-    "excerpt": "Free small business order tracker in Excel or CSV. Calculate open units, remaining payment and pending refunds with a worked cancellation example."
-  },
-  {
     "tag": "Inventory Software",
     "title": "Inventory Software Without a Subscription: What to Check Before Buying",
     "date": "Updated Oct 7, 2026 · 5 min",
@@ -967,15 +985,6 @@ var posts = [
     "excerpt": "Build a homeschool schedule for multiple ages with three worked examples, shared lessons, individual support blocks and accurate child-specific records."
   },
   {
-    "tag": "Attendance Tracker",
-    "title": "Free Homeschool Attendance Sheet and Daily Tracker",
-    "date": "Updated Oct 14, 2026 · 5 min",
-    "url": "/journal/homeschool-attendance-tracker/",
-    "img": "/assets/img/resource-previews/attendance.webp",
-    "alt": "Free Homeschool Attendance Sheet and Daily Tracker",
-    "excerpt": "Download a free homeschool attendance sheet for Excel or printable A4/Letter PDF. Record learner dates and minutes, review duplicates and count days once."
-  },
-  {
     "tag": "Homeschool Planner",
     "title": "Choosing a Homeschool Planner for Multiple Children",
     "date": "Updated Oct 4, 2026 · 5 min",
@@ -983,15 +992,6 @@ var posts = [
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-multiple-child-profiles.jpg",
     "alt": "Choosing a Homeschool Planner for Multiple Children",
     "excerpt": "Choose a homeschool planner for multiple children with a practical checklist. Compare shared schedules, separate records, rescheduling, exports and backups."
-  },
-  {
-    "tag": "Student Planner",
-    "title": "College Assignment Tracker: Free Excel and Google Sheets Template",
-    "date": "Updated Oct 14, 2026 · 5 min",
-    "url": "/journal/college-assignment-tracker/",
-    "img": "/assets/img/resource-previews/assignment.webp",
-    "alt": "College Assignment Tracker: Free Excel and Google Sheets Template",
-    "excerpt": "Use a free college assignment tracker in Excel or Google Sheets. Record due dates, next actions and remaining hours, then plan study time with the browser worksheet."
   },
   {
     "tag": "Study Schedule",
