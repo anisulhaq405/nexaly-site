@@ -1279,8 +1279,9 @@
       "attemptedAt": "2026-10-12T11:24:18.243915+00:00"
     },
     "https://nexalyplanner.com/journal/offline-digital-planners-guide/|facebook": {
-      "revision": "0cba001fada5368dd9971e8a6a0c64a4d84b442d4eab3eb669cfc39c9ec92ba1",
-      "status": "baseline"
+      "revision": "4b4d0b4a201ecfd636a7dde863001dc72572c18a37a01f5645a0201fb6e6d3db",
+      "status": "attempting",
+      "attemptedAt": "2026-10-14T15:15:18.519674+00:00"
     },
     "https://nexalyplanner.com/journal/offline-digital-planners-guide/|instagram": {
       "revision": "0cba001fada5368dd9971e8a6a0c64a4d84b442d4eab3eb669cfc39c9ec92ba1",
