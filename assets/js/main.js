@@ -908,9 +908,9 @@ var posts = [
     "title": "Small Business Order Tracking: Free Template and Worked Examples",
     "date": "Updated Oct 14, 2026 · 5 min",
     "url": "/journal/track-small-business-orders/",
-    "img": "/images/products/sales-management-system/9-inventory-orders.webp",
+    "img": "/assets/img/resource-previews/orders-inputs.webp",
     "alt": "Small Business Order Tracking: Free Template and Worked Examples",
-    "excerpt": "Download a free small business order tracker CSV. Keep order lines, payments, shipped units and cancellations separate with worked examples and a next-action checklist."
+    "excerpt": "Free small business order tracker in Excel or CSV. Calculate open units, remaining payment and pending refunds with a worked cancellation example."
   },
   {
     "tag": "Inventory Software",
@@ -971,9 +971,9 @@ var posts = [
     "title": "Free Homeschool Attendance Sheet and Daily Tracker",
     "date": "Updated Oct 14, 2026 · 5 min",
     "url": "/journal/homeschool-attendance-tracker/",
-    "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-reports-transcript.jpg",
+    "img": "/assets/img/resource-previews/attendance.webp",
     "alt": "Free Homeschool Attendance Sheet and Daily Tracker",
-    "excerpt": "Download a free homeschool attendance sheet for Excel. Record dates, learner names and minutes, count days once and review duplicate child/date entries."
+    "excerpt": "Download a free homeschool attendance sheet for Excel or printable A4/Letter PDF. Record learner dates and minutes, review duplicates and count days once."
   },
   {
     "tag": "Homeschool Planner",
@@ -989,7 +989,7 @@ var posts = [
     "title": "College Assignment Tracker: Free Excel and Google Sheets Template",
     "date": "Updated Oct 14, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
-    "img": "/images/products/ai-student-planner/ai-student-planner-plan-track-stay-ahead.jpg",
+    "img": "/assets/img/resource-previews/assignment.webp",
     "alt": "College Assignment Tracker: Free Excel and Google Sheets Template",
     "excerpt": "Use a free college assignment tracker in Excel or Google Sheets. Record due dates, next actions and remaining hours, then plan study time with the browser worksheet."
   },
