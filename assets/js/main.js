@@ -466,8 +466,8 @@ var posts = [
     "url": "/journal/rental-equipment-maintenance-log/",
     "title": "Rental Equipment Maintenance Log: Inspections, Repairs and Availability",
     "excerpt": "Keep rental asset service records connected to booking availability. Includes a free CSV starter, return inspection workflow and a worked downtime and repair-cost example.",
-    "img": "/images/journal/rental-equipment-maintenance-log-20261003.webp",
-    "alt": "Rental warehouse workbench with event lighting, equipment cases, inspection tags and a maintenance clipboard.",
+    "img": "/images/journal/rental-equipment-maintenance-log-cover-20261015.webp",
+    "alt": "Equipment maintenance log cover showing a work light and service record",
     "tag": "Planning Guides",
     "date": "Updated Oct 15, 2026"
   },
@@ -520,8 +520,8 @@ var posts = [
     "url": "/journal/supplier-scorecard-template/",
     "title": "Supplier Scorecard Template: A Small-Business Example",
     "excerpt": "Build a supplier scorecard with clear delivery and quality measures, a weighted example, sample-size checks and a practical follow-up plan.",
-    "img": "/images/journal/supplier-scorecard-20261001.webp",
-    "alt": "Purchasing colleagues reviewing delivery records and supplier performance at a desk.",
+    "img": "/images/journal/supplier-scorecard-template-cover-20261015.webp",
+    "alt": "Supplier scorecard template cover with purchasing records and material samples",
     "tag": "Planning Guides",
     "date": "Updated Oct 15, 2026"
   },
@@ -529,8 +529,8 @@ var posts = [
     "url": "/journal/caregiver-daily-log-template/",
     "title": "A caregiver daily log you can copy and adapt",
     "excerpt": "Download a free editable caregiver daily log. Record completed tasks, factual observations and acknowledged handoffs using a fictional family example.",
-    "img": "/images/journal/caregiver-daily-log-template-20260930.webp",
-    "alt": "Two family caregivers reviewing a daily care log together",
+    "img": "/images/journal/caregiver-daily-log-template-cover-20261015.webp",
+    "alt": "Caregiver daily log and handoff cover showing family members passing daily notes",
     "tag": "Planning Guides",
     "date": "Updated Oct 15, 2026"
   },
@@ -926,8 +926,8 @@ var posts = [
     "title": "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
     "date": "Updated Oct 15, 2026 · 5 min",
     "url": "/journal/boutique-inventory-spreadsheet/",
-    "img": "/images/journal/boutique-stock-20260915.jpg",
-    "alt": "Tagged boutique clothing and folded knitwear with the heading Know Your Stock: Every Size, Every Color",
+    "img": "/images/journal/boutique-inventory-spreadsheet-cover-20261015.webp",
+    "alt": "Boutique inventory spreadsheet cover showing size-labeled clothing stock and a laptop",
     "excerpt": "Build a boutique inventory spreadsheet with variant SKUs, stock formulas, reservations, returns and a worked clothing-store example."
   },
   {
@@ -989,8 +989,8 @@ var posts = [
     "title": "Choosing a Homeschool Planner for Multiple Children",
     "date": "Updated Oct 15, 2026 · 5 min",
     "url": "/journal/homeschool-planner-multiple-children/",
-    "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-multiple-child-profiles.jpg",
-    "alt": "Choosing a Homeschool Planner for Multiple Children",
+    "img": "/images/journal/homeschool-planner-multiple-children-cover-20261015.webp",
+    "alt": "Homeschool weekly planner cover with two learner planning sheets and subject materials",
     "excerpt": "Choose a homeschool planner for multiple children with a practical checklist. Compare shared schedules, separate records, rescheduling, exports and backups."
   },
   {
