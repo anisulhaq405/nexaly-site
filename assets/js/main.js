@@ -296,8 +296,8 @@ var posts = [
     "title": "Free Homeschool Attendance Sheet and Daily Tracker",
     "date": "Updated Oct 14, 2026 · 5 min",
     "url": "/journal/homeschool-attendance-tracker/",
-    "img": "/assets/img/resource-previews/attendance.webp",
-    "alt": "Free Homeschool Attendance Sheet and Daily Tracker",
+    "img": "/images/journal/homeschool-attendance-tracker-cover-20261015.webp",
+    "alt": "Homeschool attendance tracker cover with a calendar, learning books and an attendance notebook",
     "excerpt": "Download a free homeschool attendance sheet for Excel or printable A4/Letter PDF. Record learner dates and minutes, review duplicates and count days once."
   },
   {
@@ -305,8 +305,8 @@ var posts = [
     "title": "College Assignment Tracker: Free Excel and Google Sheets Template",
     "date": "Updated Oct 14, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
-    "img": "/assets/img/resource-previews/assignment.webp",
-    "alt": "College Assignment Tracker: Free Excel and Google Sheets Template",
+    "img": "/images/journal/college-assignment-tracker-cover-20261015.webp",
+    "alt": "College assignment tracker cover showing a study desk, assignment list and deadline calendar",
     "excerpt": "Use a free college assignment tracker in Excel or Google Sheets. Record due dates, next actions and remaining hours, then plan study time with the browser worksheet."
   },
   {
@@ -314,8 +314,8 @@ var posts = [
     "title": "Small Business Order Tracking: Free Template and Worked Examples",
     "date": "Updated Oct 14, 2026 · 5 min",
     "url": "/journal/track-small-business-orders/",
-    "img": "/assets/img/resource-previews/orders-inputs.webp",
-    "alt": "Small Business Order Tracking: Free Template and Worked Examples",
+    "img": "/images/journal/track-small-business-orders-cover-20261015.webp",
+    "alt": "Small business order tracker cover showing parcels, an order checklist and a packing workspace",
     "excerpt": "Free small business order tracker in Excel or CSV. Calculate open units, remaining payment and pending refunds with a worked cancellation example."
   },
   {
