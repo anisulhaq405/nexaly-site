@@ -1,0 +1,731 @@
+[
+  {
+    "slug": "physical-count-adjustment-worksheet",
+    "name": "Physical Count Adjustment Worksheet",
+    "kind": "count",
+    "category": "inventory",
+    "color": "#423473",
+    "pale": "#f0edf8",
+    "imageKey": "physical-count",
+    "description": "Compare book stock with a physical count. Calculate unit and cost variances, record recounts and prepare proposed adjustments for review.",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet label",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "asOf",
+        "label": "Review date",
+        "type": "date",
+        "optional": false
+      },
+      {
+        "key": "currency",
+        "label": "Currency (no conversion)",
+        "type": "select",
+        "options": [
+          "USD",
+          "GBP",
+          "CAD",
+          "AUD",
+          "EUR",
+          "NZD",
+          "AED"
+        ]
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "sku",
+        "label": "SKU / location (unique)",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "book",
+        "label": "Book quantity",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": true,
+        "step": "1"
+      },
+      {
+        "key": "count",
+        "label": "First physical count",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": true,
+        "step": "1"
+      },
+      {
+        "key": "recount",
+        "label": "Verified recount (optional)",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": true,
+        "step": "1",
+        "optional": true
+      },
+      {
+        "key": "cost",
+        "label": "Unit inventory cost",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "reason",
+        "label": "Reason / investigation note",
+        "type": "text",
+        "maxLength": 160,
+        "optional": true
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional stock count review",
+        "asOf": "2026-10-16",
+        "currency": "USD"
+      },
+      "rows": [
+        {
+          "sku": "BAG-BLUE / Shelf A",
+          "book": "50",
+          "count": "47",
+          "recount": "48",
+          "cost": "12",
+          "reason": "Recount found one item on another shelf"
+        }
+      ]
+    },
+    "reportNote": "Proposed adjustment = verified recount (when entered), otherwise first count, minus book quantity. Value = quantity variance \u00d7 entered unit cost. Signed values are proposals only; no inventory or accounting record is updated.",
+    "maxRows": 100,
+    "features": [
+      "Keep book quantity, initial count and verified recount separately.",
+      "See signed unit variance, shortage value and surplus value without hiding one behind the other.",
+      "Keep investigation notes with every proposed adjustment."
+    ],
+    "steps": [
+      "Choose one count date and one currency, then enter a worksheet label.",
+      "Add one row for each distinct SKU and location; freeze or reconcile movements to the same count cutoff.",
+      "Enter the book balance, first count and unit inventory cost. Add a verified recount if one was done.",
+      "Review the differences, investigate causes and obtain approval before adjusting your real stock records."
+    ],
+    "formula": "Selected physical quantity = verified recount if supplied, otherwise first count. Unit variance = selected physical quantity \u2212 book quantity. Cost variance = unit variance \u00d7 entered unit inventory cost.",
+    "example": "The fictional bag has 50 book units and an initial count of 47. A verified recount of 48 replaces the initial count for the proposal: 48 \u2212 50 = \u22122 units. At $12 per unit, the proposed value adjustment is \u2212$24, with $24 of shortage value.",
+    "limits": "Use the same units, location and cutoff for book and counted stock. This is a count reconciliation, not an available-to-sell calculation. It does not identify theft, establish a write-off policy or update an inventory system. Cost variance uses your entered cost and excludes unentered landed-cost adjustments.",
+    "workflow": "If the first count is wrong, preserve it and enter a recount rather than changing the book balance to force a match. Record the explanation, check receipts and dispatches around the cutoff, and keep an approved record outside this worksheet. A zero net value can conceal a shortage on one SKU and a surplus on another; review the separate totals.",
+    "faq": [
+      [
+        "Does a recount of zero get ignored?",
+        "No. An entered zero is a valid verified count; only a blank recount falls back to the first count."
+      ],
+      [
+        "Does this post an adjustment to my store?",
+        "No. The report is a proposal for review. Apply approved corrections in your actual stock system."
+      ],
+      [
+        "Can I count one SKU in two places?",
+        "Yes. Use a distinct SKU / location label for each row so the same location is not entered twice."
+      ]
+    ],
+    "product": "inventory-procurement-planner",
+    "productName": "Inventory & Procurement Planner",
+    "related": [
+      [
+        "reserved-vs-available-stock-planner",
+        "Separate sellable units from reserved stock"
+      ],
+      [
+        "craft-fair-stock-reconciliation",
+        "Reconcile stock after a craft fair"
+      ]
+    ],
+    "journal": "inventory-software-without-subscription"
+  },
+  {
+    "slug": "supplier-lead-time-log",
+    "name": "Supplier Lead Time Log",
+    "kind": "lead",
+    "category": "inventory",
+    "color": "#23634c",
+    "pale": "#eaf5ef",
+    "imageKey": "supplier-lead-time",
+    "description": "Log promised and actual supplier delivery dates. Review elapsed calendar days, late open orders and average lead time for received orders.",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet label",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "asOf",
+        "label": "Review date",
+        "type": "date",
+        "optional": false
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "ref",
+        "label": "Order / delivery reference (unique)",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "supplier",
+        "label": "Supplier",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "ordered",
+        "label": "Order placed date",
+        "type": "date",
+        "optional": false
+      },
+      {
+        "key": "promised",
+        "label": "Original promised delivery date",
+        "type": "date",
+        "optional": false
+      },
+      {
+        "key": "received",
+        "label": "Fully received date (optional)",
+        "type": "date",
+        "optional": true
+      },
+      {
+        "key": "note",
+        "label": "Delay / follow-up note",
+        "type": "text",
+        "maxLength": 160,
+        "optional": true
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional supplier delivery review",
+        "asOf": "2026-10-16"
+      },
+      "rows": [
+        {
+          "ref": "EXAMPLE-PO-01",
+          "supplier": "Example Packaging",
+          "ordered": "2026-10-01",
+          "promised": "2026-10-08",
+          "received": "2026-10-11",
+          "note": "Full delivery received three days after promise"
+        },
+        {
+          "ref": "EXAMPLE-PO-02",
+          "supplier": "Example Packaging",
+          "ordered": "2026-10-05",
+          "promised": "2026-10-14",
+          "received": "",
+          "note": "Confirm revised full delivery date"
+        }
+      ]
+    },
+    "reportNote": "Actual lead time = full receipt date \u2212 order date in elapsed calendar days. Received-order delay = receipt date \u2212 original promise; open overdue days = max(0, review date \u2212 promise). Averages include received orders only and are not weighted by quantities.",
+    "maxRows": 100,
+    "features": [
+      "Keep original promises separate from actual full receipt dates.",
+      "Flag open orders after their promise date and show their elapsed age.",
+      "Summarize observed average lead time and on-time percentage by supplier."
+    ],
+    "steps": [
+      "Set the review date for a consistent historical snapshot.",
+      "Enter one order or complete delivery reference, supplier and order date per row.",
+      "Keep the original promised date; leave received date blank until the scoped delivery is complete.",
+      "Calculate, review late open orders and compare received-order history before changing purchasing assumptions."
+    ],
+    "formula": "Lead time uses elapsed calendar days, with same-day delivery equal to zero. On-time received orders have receipt date on or before promise. On-time percentage = on-time received orders \u00f7 all received orders \u00d7 100. Pending orders stay outside that denominator.",
+    "example": "An order placed October 1 and received October 11 has 10 calendar days of actual lead time. With an October 8 promise, it is 3 days late. An open order promised October 14 is 2 days overdue on the October 16 review date; it is not included in the received-order average.",
+    "limits": "This log does not estimate a future delivery date, monitor carrier tracking or contact suppliers. Dates after the review date are rejected for order and receipt events. For partial shipments, use a defined complete-delivery scope or the separate shipment workflow; do not call a partly received order fully delivered.",
+    "workflow": "Use the same lead-time boundary for each supplier: order acceptance to full receipt, for example. Small samples can be misleading. Review item mix, transit and unusual delays before replacing a planning assumption with the simple observed average. Keep note of changed promises without overwriting the original comparison date.",
+    "faq": [
+      [
+        "Are these working days?",
+        "No. The log counts elapsed calendar days; weekends and holidays are included."
+      ],
+      [
+        "Is an order promised today already late?",
+        "No. It becomes overdue when the review date is later than its promised date."
+      ],
+      [
+        "Do open orders lower the on-time percentage?",
+        "No. Open orders are shown separately. The percentage describes received orders only."
+      ]
+    ],
+    "product": "vendorpulse-os",
+    "productName": "VendorPulse OS",
+    "related": [
+      [
+        "supplier-quote-comparison",
+        "Compare supplier quotes before ordering"
+      ],
+      [
+        "stock-coverage-planner",
+        "Compare stock coverage with lead time"
+      ]
+    ],
+    "journal": "supplier-scorecard-template"
+  },
+  {
+    "slug": "stock-coverage-planner",
+    "name": "Stock Coverage Planner",
+    "kind": "coverage",
+    "category": "inventory",
+    "color": "#a54e22",
+    "pale": "#fff1e4",
+    "imageKey": "stock-coverage",
+    "description": "Calculate weeks and days of stock coverage by SKU. Compare available units with weekly demand, replenishment lead time and your chosen buffer.",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet label",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "asOf",
+        "label": "Review date",
+        "type": "date",
+        "optional": false
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "sku",
+        "label": "SKU / item (unique)",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "available",
+        "label": "Sellable units available",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": true,
+        "step": "1"
+      },
+      {
+        "key": "weekly",
+        "label": "Expected weekly unit demand",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "lead",
+        "label": "Replenishment lead time (days)",
+        "type": "number",
+        "min": 0,
+        "max": 3650,
+        "integer": true,
+        "step": "1"
+      },
+      {
+        "key": "buffer",
+        "label": "Chosen extra buffer (days)",
+        "type": "number",
+        "min": 0,
+        "max": 3650,
+        "integer": true,
+        "step": "1"
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional shop coverage review",
+        "asOf": "2026-10-16"
+      },
+      "rows": [
+        {
+          "sku": "EXAMPLE-NOTEBOOK",
+          "available": "120",
+          "weekly": "30",
+          "lead": "21",
+          "buffer": "7"
+        }
+      ]
+    },
+    "reportNote": "Weeks of coverage = sellable units \u00f7 weekly unit demand. Days = weeks \u00d7 7. Target units = ceil(weekly demand \u00f7 7 \u00d7 (lead time days + chosen buffer days)). A zero demand rate has no finite coverage estimate. Future receipts and demand changes are excluded.",
+    "maxRows": 100,
+    "features": [
+      "Review weeks and days of cover separately for every SKU.",
+      "Compare stock with lead time plus your own buffer in calendar days.",
+      "Show target unit gaps and flag zero-demand rows without inventing a stockout date."
+    ],
+    "steps": [
+      "Set a review date and use one consistent SKU and location scope.",
+      "Enter sellable units, excluding reserved, damaged and blocked stock.",
+      "Choose a realistic weekly demand rate, supplier lead time and extra days of buffer.",
+      "Calculate coverage and target gaps; review actual demand and open purchase orders before placing an order."
+    ],
+    "formula": "Weeks of supply = available units \u00f7 expected weekly unit demand. Days of supply = weeks \u00d7 7. Required cover days = lead days + buffer days. The unit target rounds upward because this worksheet treats stock as whole units.",
+    "example": "120 available units at 30 units per week give 4 weeks, or 28 days, of coverage. A 21-day lead time and 7-day chosen buffer require 28 days of cover: ceil(30 \u00f7 7 \u00d7 28) = 120 units. The example therefore sits exactly at its chosen target, with no unit gap.",
+    "limits": "This is a steady-demand snapshot, not a sales forecast or purchase recommendation. It does not include stock on order, seasonality, minimum order quantities or stock lost to new reservations. A zero weekly demand returns \u201cNot estimable\u201d, not infinite certainty. Coverage values are not averaged across unrelated SKUs.",
+    "workflow": "Review each SKU separately. A fast-selling item with one week of cover cannot be protected by another item with twenty weeks. If your sales period includes a promotion or a stockout, adjust the demand assumption using evidence before relying on the result. The buffer is chosen by you; the tool does not calculate statistical safety stock.",
+    "faq": [
+      [
+        "Is this the same as inventory turnover?",
+        "No. Coverage estimates how long current sellable units last at your entered weekly rate. It does not calculate annual turnover."
+      ],
+      [
+        "What happens when weekly demand is zero?",
+        "Coverage is not estimable. The row asks you to review its demand assumption instead of displaying a misleading finite duration."
+      ],
+      [
+        "Does the target gap include incoming orders?",
+        "No. Review open orders separately before using the gap in a purchasing decision."
+      ]
+    ],
+    "product": "inventory-procurement-planner",
+    "productName": "Inventory & Procurement Planner",
+    "related": [
+      [
+        "reserved-vs-available-stock-planner",
+        "Calculate available-to-sell stock first"
+      ],
+      [
+        "supplier-lead-time-log",
+        "Review observed supplier lead times"
+      ]
+    ],
+    "journal": "reorder-point-small-business"
+  },
+  {
+    "slug": "consignment-settlement-planner",
+    "name": "Consignment Settlement Planner",
+    "kind": "settlement",
+    "category": "inventory",
+    "color": "#803559",
+    "pale": "#f9edf3",
+    "imageKey": "consignment-settlement",
+    "description": "Prepare a consignment payout worksheet from net sales, agreed store commission, consignor fees and amounts already paid. Review each settlement balance.",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet label",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "asOf",
+        "label": "Review date",
+        "type": "date",
+        "optional": false
+      },
+      {
+        "key": "currency",
+        "label": "Currency (no conversion)",
+        "type": "select",
+        "options": [
+          "USD",
+          "GBP",
+          "CAD",
+          "AUD",
+          "EUR",
+          "NZD",
+          "AED"
+        ]
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "ref",
+        "label": "Settlement line reference (unique)",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "owner",
+        "label": "Consignor / owner",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "sales",
+        "label": "Sales collected after discounts (excluding tax)",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "refunds",
+        "label": "Refunds on these sales (excluding tax)",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "rate",
+        "label": "Store commission (%)",
+        "type": "number",
+        "min": 0,
+        "max": 100,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "fees",
+        "label": "Agreed consignor fees after split",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": false,
+        "step": "0.01"
+      },
+      {
+        "key": "paid",
+        "label": "Already paid to consignor",
+        "type": "number",
+        "min": 0,
+        "max": 1000000,
+        "integer": false,
+        "step": "0.01"
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional consignment settlement",
+        "asOf": "2026-10-16",
+        "currency": "USD"
+      },
+      "rows": [
+        {
+          "ref": "EXAMPLE-LINE-01",
+          "owner": "Example Maker",
+          "sales": "200",
+          "refunds": "20",
+          "rate": "40",
+          "fees": "8",
+          "paid": "50"
+        }
+      ]
+    },
+    "reportNote": "Net sales = collected sales after discounts \u2212 refunds, excluding sales tax. Store commission is rounded to cents per line on net sales. Consignor entitlement = net sales \u2212 commission \u2212 agreed post-split consignor fees. Settlement balance = entitlement \u2212 already paid; a negative balance is a review item, not an automatic charge.",
+    "maxRows": 100,
+    "features": [
+      "Separate store commission, post-split fees, consignor entitlement and prior payouts.",
+      "Group settlement balances by consignor for review.",
+      "Keep negative balances visible when previous payments or fees exceed entitlement."
+    ],
+    "steps": [
+      "Enter a review label, date and one currency.",
+      "Use a unique reference for each settlement line and identify the consignor consistently.",
+      "Enter collected sales after discounts excluding tax, refunds, the agreed store share, post-split fees and prior payouts.",
+      "Review balances with the signed consignment terms and payment records before paying anyone."
+    ],
+    "formula": "Net sales = sales \u2212 refunds. Store commission = net sales \u00d7 store commission percentage, rounded to cents on each row. Consignor entitlement = net sales \u2212 commission \u2212 agreed fees. Remaining settlement balance = consignor entitlement \u2212 already paid.",
+    "example": "For $200 of sales and $20 of refunds, net sales are $180. A 40% store commission is $72. After $8 in agreed consignor fees, entitlement is $100. With $50 already paid, the remaining settlement balance is $50. Store commission plus fees is $80 before the store\u2019s own costs.",
+    "limits": "This version supports commission on net sales with consignor fees deducted after the split. It does not implement fees before the split, tax-inclusive commission, item-level tiered rates or cross-currency conversion. Refunds cannot exceed entered sales on a line. Store commission plus fees is not store profit.",
+    "workflow": "Confirm who bears refunds and fees before entering figures. Do not deduct the same discount or refund twice. Use separate references for returns from earlier periods and reconcile them under your agreement outside this simplified worksheet when the original sale is not in the same scope. A negative balance needs investigation, not an automatic collection action.",
+    "faq": [
+      [
+        "Is the percentage the store\u2019s share?",
+        "Yes. Enter the store commission percentage. The consignor receives the remaining net sales before agreed post-split fees."
+      ],
+      [
+        "Can a remaining balance be negative?",
+        "Yes. Prior payouts or fees can exceed entitlement. The report preserves the signed balance and flags it for review."
+      ],
+      [
+        "Does this send a payout?",
+        "No. It prepares a manual report and does not connect to banking or accounting accounts."
+      ]
+    ],
+    "product": "consignclear-os",
+    "productName": "ConsignClear OS",
+    "related": [
+      [
+        "craft-fair-stock-reconciliation",
+        "Reconcile event stock separately"
+      ],
+      [
+        "invoice-collection-schedule",
+        "Plan outstanding customer collections"
+      ]
+    ],
+    "journal": "how-to-track-consignment-inventory"
+  },
+  {
+    "slug": "document-renewal-calendar",
+    "name": "Document Renewal Calendar",
+    "kind": "documents",
+    "category": "operations",
+    "color": "#1d6074",
+    "pale": "#e9f4f7",
+    "imageKey": "document-renewal",
+    "description": "Organize document expiry dates, renewal lead days and owners. Review overdue renewal-start dates and export a manual action calendar.",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Worksheet label",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "asOf",
+        "label": "Review date",
+        "type": "date",
+        "optional": false
+      },
+      {
+        "key": "window",
+        "label": "Look-ahead window (calendar days)",
+        "type": "number",
+        "min": 0,
+        "max": 730,
+        "integer": true,
+        "step": "1"
+      }
+    ],
+    "rowFields": [
+      {
+        "key": "ref",
+        "label": "Document reference (unique)",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "document",
+        "label": "Document label (no private numbers)",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "owner",
+        "label": "Responsible owner",
+        "type": "text",
+        "maxLength": 160,
+        "optional": false
+      },
+      {
+        "key": "expiry",
+        "label": "Current document expiry date",
+        "type": "date",
+        "optional": false
+      },
+      {
+        "key": "lead",
+        "label": "Days before expiry to start renewal",
+        "type": "number",
+        "min": 0,
+        "max": 3650,
+        "integer": true,
+        "step": "1"
+      },
+      {
+        "key": "status",
+        "label": "Current status",
+        "type": "select",
+        "options": [
+          "Active",
+          "Renewal in progress",
+          "Replaced / archived"
+        ]
+      },
+      {
+        "key": "note",
+        "label": "Next action / source reference",
+        "type": "text",
+        "maxLength": 160,
+        "optional": true
+      }
+    ],
+    "sample": {
+      "top": {
+        "title": "Fictional document renewal review",
+        "asOf": "2026-10-16",
+        "window": "30"
+      },
+      "rows": [
+        {
+          "ref": "EXAMPLE-DOC-01",
+          "document": "Example equipment service agreement",
+          "owner": "Operations lead",
+          "expiry": "2026-11-15",
+          "lead": "45",
+          "status": "Active",
+          "note": "Confirm required paperwork and provider turnaround"
+        }
+      ]
+    },
+    "reportNote": "Renewal start date = expiry date \u2212 entered calendar lead days. Dates before the review date are overdue; the review date itself is due today. Expiry before review date is expired. Archived rows are excluded from action counts. No reminders are sent and no document validity is verified.",
+    "maxRows": 100,
+    "features": [
+      "Keep expiry dates separate from earlier renewal-start dates.",
+      "Assign an owner and next action to each manual renewal record.",
+      "Review overdue, due-today and upcoming renewal actions, keeping archived records out of active totals."
+    ],
+    "steps": [
+      "Choose a review date and the number of calendar days to look ahead.",
+      "Enter a short document label, owner and expiry date; avoid private document numbers.",
+      "Enter how many calendar days before expiry you want work to start and record progress.",
+      "Review the action calendar, verify source dates and place reminders in your own calendar if needed."
+    ],
+    "formula": "Start renewal = current expiry date minus chosen lead days. Days until expiry = expiry minus review date. The look-ahead window includes action dates from the review date through review date plus the selected number of days. The worksheet sorts active actions by renewal-start date.",
+    "example": "A document expiring November 15, 2026 with 45 lead days has a renewal-start date of October 1. At an October 16 review it is 15 days overdue to start, even though expiry is still 30 days away. The example is an active record requiring follow-up.",
+    "limits": "A renewal-start date is your internal planning date, not a verified contractual notice deadline. Provider processing time and calendar conventions vary; confirm the real source. \u201cRenewal in progress\u201d does not remove the old expiry. Only mark a record replaced or archived after checking the replacement; create a new active row for the new expiry.",
+    "workflow": "Sort by start-renewal date rather than waiting for expiry. Assign an action owner, verify the source date and document what remains to be done. Keep original documents securely elsewhere; this tool stores labels and notes, not uploaded files. It provides no email, notification, legal determination or validity certificate.",
+    "faq": [
+      [
+        "Will this send automatic reminders?",
+        "No. Dates are calculated only when you review the worksheet. Add verified action dates to your own calendar."
+      ],
+      [
+        "Does \u201cin progress\u201d mean the document remains valid?",
+        "No. The original expiry still applies in this planner. Verify validity and any replacement outside the worksheet."
+      ],
+      [
+        "Is the start date a legal notice deadline?",
+        "No. It is expiry minus your chosen lead days. Check the actual agreement or issuing authority for required deadlines."
+      ]
+    ],
+    "product": "renewguard-os",
+    "productName": "RenewGuard OS",
+    "related": [
+      [
+        "software-renewal-decision-planner",
+        "Review software subscription decisions separately"
+      ],
+      [
+        "equipment-maintenance-due-planner",
+        "Review equipment maintenance due dates"
+      ]
+    ],
+    "journal": "supplier-scorecard-template"
+  }
+]
