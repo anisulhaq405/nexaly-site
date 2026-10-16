@@ -803,8 +803,9 @@
       "attemptedAt": "2026-10-11T03:47:01.237267+00:00"
     },
     "https://nexalyplanner.com/journal/contract-renewal-workflow/|facebook": {
-      "revision": "645164641e41a950a1df9141805d3c24aaeaafb8501916baed47390852f88c00",
-      "status": "baseline"
+      "revision": "c6d7b3579c62ebe8f3c6d7b363e631a5992377406a7cc31e4582f70594363cbe",
+      "status": "attempting",
+      "attemptedAt": "2026-10-16T17:59:20.477859+00:00"
     },
     "https://nexalyplanner.com/journal/contract-renewal-workflow/|instagram": {
       "revision": "645164641e41a950a1df9141805d3c24aaeaafb8501916baed47390852f88c00",
