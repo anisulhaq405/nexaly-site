@@ -294,7 +294,7 @@ var posts = [
   {
     "tag": "Attendance Tracker",
     "title": "Free Homeschool Attendance Sheet and Daily Tracker",
-    "date": "Updated Oct 14, 2026 · 5 min",
+    "date": "Updated Oct 16, 2026 · 5 min",
     "url": "/journal/homeschool-attendance-tracker/",
     "img": "/images/journal/homeschool-attendance-tracker-cover-20261015.webp",
     "alt": "Homeschool attendance tracker cover with a calendar, learning books and an attendance notebook",
@@ -303,7 +303,7 @@ var posts = [
   {
     "tag": "Student Planner",
     "title": "College Assignment Tracker: Free Excel and Google Sheets Template",
-    "date": "Updated Oct 14, 2026 · 5 min",
+    "date": "Updated Oct 16, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
     "img": "/images/journal/college-assignment-tracker-cover-20261015.webp",
     "alt": "College assignment tracker cover showing a study desk, assignment list and deadline calendar",
@@ -312,7 +312,7 @@ var posts = [
   {
     "tag": "Order Tracking",
     "title": "Small Business Order Tracking: Free Template and Worked Examples",
-    "date": "Updated Oct 14, 2026 · 5 min",
+    "date": "Updated Oct 16, 2026 · 5 min",
     "url": "/journal/track-small-business-orders/",
     "img": "/images/journal/track-small-business-orders-cover-20261015.webp",
     "alt": "Small business order tracker cover showing parcels, an order checklist and a packing workspace",
