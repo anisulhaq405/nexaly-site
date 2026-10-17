@@ -1987,8 +1987,9 @@
       "status": "baseline"
     },
     "https://nexalyplanner.com/planners/sales-management-system/|facebook": {
-      "revision": "0a052e87914bcad4f089476f77e074210d26a299ed92757fd55f9cb0137eb9aa",
-      "status": "baseline"
+      "revision": "2c04512b8807eed87783485583091cbe69a79bbf055ab9154647643fd16d1a0c",
+      "status": "attempting",
+      "attemptedAt": "2026-10-17T06:12:56.053945+00:00"
     },
     "https://nexalyplanner.com/planners/sales-management-system/|instagram": {
       "revision": "0a052e87914bcad4f089476f77e074210d26a299ed92757fd55f9cb0137eb9aa",
