@@ -303,7 +303,7 @@ var posts = [
   {
     "tag": "Student Planner",
     "title": "College Assignment Tracker: Free Excel and Google Sheets Template",
-    "date": "Updated Oct 16, 2026 · 5 min",
+    "date": "Updated Oct 17, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
     "img": "/images/journal/college-assignment-tracker-cover-20261015.webp",
     "alt": "College assignment tracker cover showing a study desk, assignment list and deadline calendar",
@@ -860,12 +860,12 @@ var posts = [
   },
   {
     "url": "/journal/business-planner-weekly-review/",
-    "title": "Business Planner for Small Business: What to Track Each Week",
-    "excerpt": "Use a business planner to review sales, cash, orders, marketing and next actions each week, with a practical dashboard and worked small-business example.",
+    "title": "Weekly Business Planner: Free Review Template and Example",
+    "excerpt": "Copy a free weekly business planner template for sales, cash, open orders and next actions. Follow a worked shop example and choose a focused planning worksheet.",
     "img": "/images/journal/business-planner-weekly-review-20260915.jpg",
     "alt": "Small-business owner reviewing goals, orders, weekly sales, cash and next actions under the heading Plan the Business Week",
     "tag": "Planning Guides",
-    "date": "Updated Sep 29, 2026"
+    "date": "Updated Oct 17, 2026"
   },
   {
     "url": "/journal/student-planner-guide/",
