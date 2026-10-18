@@ -1281,8 +1281,9 @@
       "attemptedAt": "2026-10-18T18:47:49.122389+00:00"
     },
     "https://nexalyplanner.com/journal/minimalist-planner/|pinterest": {
-      "revision": "612b7e7c159bcfb2077348d0a374d83aedc514bd2da1b428f5cba54ae79918ae",
-      "status": "baseline"
+      "revision": "14a89b337817acd7f80db410603230414d879b2157560e1a6ce5dc072d13edd3",
+      "status": "attempting",
+      "attemptedAt": "2026-10-18T18:47:51.987117+00:00"
     },
     "https://nexalyplanner.com/journal/minimalist-planner/|youtube": {
       "revision": "612b7e7c159bcfb2077348d0a374d83aedc514bd2da1b428f5cba54ae79918ae",
