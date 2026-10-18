@@ -514,7 +514,7 @@ var posts = [
     "img": "/images/journal/small-engine-repair-business-plan-20261001.webp",
     "alt": "Small-engine repair shop owner planning appointments and services at a workshop desk.",
     "tag": "Planning Guides",
-    "date": "Oct 1, 2026"
+    "date": "Updated Oct 18, 2026"
   },
   {
     "url": "/journal/supplier-scorecard-template/",
@@ -550,7 +550,7 @@ var posts = [
     "img": "/images/journal/repair-shop-parts-inventory-20260930.webp",
     "alt": "Repair technician comparing a filter and parts bins with a work order",
     "tag": "Planning Guides",
-    "date": "Updated Oct 3, 2026"
+    "date": "Updated Oct 18, 2026"
   },
   {
     "url": "/journal/agency-capacity-planning-example/",
