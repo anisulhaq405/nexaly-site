@@ -1251,8 +1251,9 @@
       "attemptedAt": "2026-10-14T21:16:59.299491+00:00"
     },
     "https://nexalyplanner.com/journal/marketing-agency-profit-margins/|facebook": {
-      "revision": "fe5fce7bf5a6ffab640e70f93d026430ac2588d8892a2e9d8d1f094dc0e7b219",
-      "status": "baseline"
+      "revision": "468ed6b6350b4989bc25fb59f27938b890b6b03195174f251b7183ac78f7fb1e",
+      "status": "attempting",
+      "attemptedAt": "2026-10-18T18:47:28.141463+00:00"
     },
     "https://nexalyplanner.com/journal/marketing-agency-profit-margins/|instagram": {
       "revision": "fe5fce7bf5a6ffab640e70f93d026430ac2588d8892a2e9d8d1f094dc0e7b219",
