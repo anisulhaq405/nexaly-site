@@ -1601,8 +1601,9 @@
       "attemptedAt": "2026-10-18T18:49:01.339580+00:00"
     },
     "https://nexalyplanner.com/journal/student-planner-guide/|pinterest": {
-      "revision": "96454b2d28e89cae4a110dd4b88827e31cd30cc5d4ac5f30339903443b57cd99",
-      "status": "baseline"
+      "revision": "8bc705df2c5de254c48ce15f78250cf2ece7135000262205d7a67978a6cb0214",
+      "status": "attempting",
+      "attemptedAt": "2026-10-18T18:49:04.127768+00:00"
     },
     "https://nexalyplanner.com/journal/student-planner-guide/|youtube": {
       "revision": "96454b2d28e89cae4a110dd4b88827e31cd30cc5d4ac5f30339903443b57cd99",
