@@ -512,7 +512,7 @@
     },
     "https://nexalyplanner.com/journal/batch-lot-traceability-log/|facebook": {
       "revision": "3b43350ecd80bf2e4e64005e6c30a23fa861e5834c4cbdc24301ebbeda1a30ad",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-18T18:44:46.807441+00:00"
     },
     "https://nexalyplanner.com/journal/batch-lot-traceability-log/|instagram": {
