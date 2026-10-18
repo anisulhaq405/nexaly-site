@@ -836,8 +836,9 @@
       "attemptedAt": "2026-10-18T18:45:46.875984+00:00"
     },
     "https://nexalyplanner.com/journal/daily-digital-planner/|instagram": {
-      "revision": "2a5aa2ee847e4cc53d6b89f9601f0ce8771587a30d1c3eef22e8d4b87e488ba6",
-      "status": "baseline"
+      "revision": "e5fbf1fa3ab44abaebed1d3fdebaf39026057dc7b9bf3f55589361b8c087d7c8",
+      "status": "attempting",
+      "attemptedAt": "2026-10-18T18:45:49.513858+00:00"
     },
     "https://nexalyplanner.com/journal/daily-digital-planner/|pinterest": {
       "revision": "2a5aa2ee847e4cc53d6b89f9601f0ce8771587a30d1c3eef22e8d4b87e488ba6",
