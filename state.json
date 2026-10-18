@@ -1406,8 +1406,9 @@
       "attemptedAt": "2026-10-18T18:48:46.049299+00:00"
     },
     "https://nexalyplanner.com/journal/planners-2026-full-comparison/|youtube": {
-      "revision": "6c4d9c3296347e6dceb0683a3571455b3a82d73979e384925bc7cbe02eb24ab0",
-      "status": "baseline"
+      "revision": "dfae46d146596620b28eaadd4dd22024a197a204e356d14e7cea5fd24e41fcfc",
+      "status": "attempting",
+      "attemptedAt": "2026-10-18T18:48:52.053639+00:00"
     },
     "https://nexalyplanner.com/journal/purchase-order-tracker/|facebook": {
       "revision": "bfef803bfd02c31d4430811b0e4ac8fa0a4d0945db8ec18486a7f159c5bbb030",
