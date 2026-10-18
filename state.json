@@ -1423,8 +1423,9 @@
       "attemptedAt": "2026-10-10T03:34:51.462526+00:00"
     },
     "https://nexalyplanner.com/journal/repair-shop-parts-inventory/|facebook": {
-      "revision": "714ce1785e49e5c19c4eb278b71c3fa1b638b631b6e85b857a779ec175c2af92",
-      "status": "baseline"
+      "revision": "5a2436b06e64e9931e384db3df6ac6a3440fc0a197dddfcc22c3a5d068018bef",
+      "status": "attempting",
+      "attemptedAt": "2026-10-18T18:26:31.463900+00:00"
     },
     "https://nexalyplanner.com/journal/repair-shop-parts-inventory/|instagram": {
       "revision": "714ce1785e49e5c19c4eb278b71c3fa1b638b631b6e85b857a779ec175c2af92",
