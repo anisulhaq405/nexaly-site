@@ -1146,8 +1146,9 @@
       "attemptedAt": "2026-10-18T18:47:18.784920+00:00"
     },
     "https://nexalyplanner.com/journal/how-much-inventory-start-boutique/|youtube": {
-      "revision": "fb38bd3e2b3a3a5e4677eaf3195283dda331f1053e7120481f3ff469fa7c7c8d",
-      "status": "baseline"
+      "revision": "2dc84f18449f5daa22d64c9324b3ef7521c18415eaca60d55b4e31e48c2447cc",
+      "status": "attempting",
+      "attemptedAt": "2026-10-18T18:47:21.408361+00:00"
     },
     "https://nexalyplanner.com/journal/how-to-run-a-one-person-business-with-ai/|facebook": {
       "revision": "2cdd733d4aa41943d7ed05d83c72bb6659f105ae504b0c75c7bab363c1330cd7",
