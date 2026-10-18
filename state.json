@@ -846,8 +846,9 @@
       "attemptedAt": "2026-10-18T18:46:01.550941+00:00"
     },
     "https://nexalyplanner.com/journal/daily-digital-planner/|youtube": {
-      "revision": "2a5aa2ee847e4cc53d6b89f9601f0ce8771587a30d1c3eef22e8d4b87e488ba6",
-      "status": "baseline"
+      "revision": "e5fbf1fa3ab44abaebed1d3fdebaf39026057dc7b9bf3f55589361b8c087d7c8",
+      "status": "attempting",
+      "attemptedAt": "2026-10-18T18:46:04.274224+00:00"
     },
     "https://nexalyplanner.com/journal/daily-planner-2026-free-layouts/|facebook": {
       "revision": "6ddb1af68d4e2e00c6103d8c9677c4bedda8dcb0b8e9206140b7e2fd9ebe1471",
