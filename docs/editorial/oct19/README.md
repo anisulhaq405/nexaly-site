@@ -22,6 +22,6 @@ Local SEO publishing regression PASS; generated output freshness PASS; core lock
 
 Fresh browser/mobile rendering and remote CI must be verified before merge; no physical-device test is claimed. Require green rebuild on the exact PR head. On release, verify live article text, image loading, mobile table scrolling, reciprocal fragment targets, journal card dates and sitemap lastmod. Do not claim publication from a draft PR. GSC review remains October 21; PO-form decision remains October 28.
 
-## Draft package storage
+## October 18 immediate release authorization
 
-The two HTML files in this directory are prepared article source, not public pages. Automatic review rejected uploading broad generated cache revisions touching paid/pricing pages. No such revisions are part of this draft package. At release, copy each named HTML file to its matching journal/<slug>/index.html, rebuild the catalogue/sitemap and review generated-only changes separately before publishing. The original local prepared build passed the checks above; this source-only package must be integrated and checked again before merge to publish. This PR does not itself release the articles.
+Owner requested live publication after reviewing the draft. Public article modification dates corrected to October 18. Chromium rendering passed both articles at 390px and 1440px, with feature images, single H1, no page overflow and horizontal scrolling of the new table. Physical phone testing is not claimed. Paid/pricing/bundle source comparisons prove only generated main.js cache-query changes; no paid content, prices, checkout, policies, product behavior or shared styles changed. This evidence resolves the prior broad-upload concern for the authorized editorial release.
