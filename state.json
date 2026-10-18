@@ -926,8 +926,9 @@
       "attemptedAt": "2026-10-18T18:46:16.444866+00:00"
     },
     "https://nexalyplanner.com/journal/digital-planner-app-how-it-works/|youtube": {
-      "revision": "46c90fbeb3b3fa0f54bc03541c6168c4105d142ff6c894a253c33f2b61a339db",
-      "status": "baseline"
+      "revision": "88824f6d06deab802d7463699537e8f7859c9a953ddb53b4003930fa95a97866",
+      "status": "attempting",
+      "attemptedAt": "2026-10-18T18:46:19.218046+00:00"
     },
     "https://nexalyplanner.com/journal/digital-planner-for-ipad-setup/|facebook": {
       "revision": "eb5a34bc796b27c0fb1c0d90907fba19c496ce42033a966b96782555e932d40f",
