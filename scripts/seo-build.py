@@ -6,6 +6,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
 from seo_validate import validate
+from journal_header import normalize_journal_header
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -176,7 +177,10 @@ def build(check=False):
     for path,source in sorted(files.items()):
         url=SITE+'/'+path.removesuffix('index.html');doc=Document(source)
         if 'noindex' in doc.meta('robots').lower() or doc.meta('nexaly:status').lower()=='draft':continue
-        public.append(url);source=metadata(source,url);files[path]=source;doc=Document(source)
+        public.append(url)
+        if re.fullmatch(r'journal/[^/]+/index.html',path):
+            source=normalize_journal_header(source, Document)
+        source=metadata(source,url);files[path]=source;doc=Document(source)
         relative=url[len(SITE):];title=plain(doc.inner(doc.find('h1')[0]));desc=doc.meta('description');image=doc.meta('og:image')
         image=image.removeprefix(SITE) if image.startswith(SITE+'/') else image
         if re.fullmatch(r'planners/[^/]+/index.html',path) and '/digital-planners/' not in relative and '/business-operating-systems/' not in relative:
