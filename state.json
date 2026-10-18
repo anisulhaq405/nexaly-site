@@ -521,8 +521,9 @@
       "attemptedAt": "2026-10-18T18:44:49.576378+00:00"
     },
     "https://nexalyplanner.com/journal/batch-lot-traceability-log/|pinterest": {
-      "revision": "b6a738f8b2aa822b088b9953019536e2bef0aec74175eb7088f41efe3ad434fb",
-      "status": "baseline"
+      "revision": "3b43350ecd80bf2e4e64005e6c30a23fa861e5834c4cbdc24301ebbeda1a30ad",
+      "status": "attempting",
+      "attemptedAt": "2026-10-18T18:44:52.265583+00:00"
     },
     "https://nexalyplanner.com/journal/batch-lot-traceability-log/|youtube": {
       "revision": "b6a738f8b2aa822b088b9953019536e2bef0aec74175eb7088f41efe3ad434fb",
