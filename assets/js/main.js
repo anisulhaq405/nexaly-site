@@ -469,7 +469,7 @@ var posts = [
     "img": "/images/journal/rental-equipment-maintenance-log-cover-20261015.webp",
     "alt": "Equipment maintenance log cover showing a work light and service record",
     "tag": "Planning Guides",
-    "date": "Updated Oct 15, 2026"
+    "date": "Updated Oct 19, 2026"
   },
   {
     "url": "/journal/cash-runway-template/",

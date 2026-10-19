@@ -27,3 +27,7 @@ Use the same property, Web search type, device settings and complete-date window
 Inspect the two repair URLs and rental guide individually: reported index status, last crawl, user and Google-selected canonical, fetch/crawl availability and exclusion reason. A successful live HTTP response is not index confirmation. Separate deliberate exclusions and duplicates from intended indexable pages. Request indexing only for eligible changed pages when the inspection evidence supports it; no mass requests or guarantee.
 
 Prioritize actual exclusion fixes first, then existing pages with relevant impressions and weak click-through, then genuine content gaps. Compare observed queries to each page's intent before editing titles. Preserve the purchase-order-form hold until the planned October 28 decision. No GSC metrics were fetched or invented in this preparation.
+
+## Immediate publication authorized October 19
+
+Owner requested publishing now. Section integrated into the existing guide; modification date October 19. Standard author/date line generated automatically. Preserve original publication date and all paid content. Exact-head CI and live verification complete the release.
