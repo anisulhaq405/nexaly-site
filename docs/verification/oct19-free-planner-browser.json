@@ -1,0 +1,2154 @@
+[
+  {
+    "slug": "assignment-deadline-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/leave-on-time-routine-planner/",
+      "/tools/#personal",
+      "/tools/study-catch-up-planner/",
+      "/tools/study-catch-up-planner/"
+    ],
+    "guideLinks": [
+      "/guides/ai-student-planner/",
+      "/guides/ai-student-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet fields - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "boutique-size-color-stock-matrix",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/reserved-vs-available-stock-planner/",
+      "/tools/#inventory"
+    ],
+    "guideLinks": [
+      "/guides/boutique-business-planner/",
+      "/guides/boutique-business-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet field rules - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "caregiver-visit-coordination-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/family-caregiver-handoff-sheet/",
+      "/tools/family-caregiver-handoff-sheet/",
+      "/tools/#caregiving"
+    ],
+    "guideLinks": [
+      "/guides/caregiver-planner-aging-parents/",
+      "/guides/caregiver-planner-aging-parents/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet fields - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Fictional helper confirmations - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "cash-flow-variance-report",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/monthly-business-budget-variance/",
+      "/tools/invoice-collection-schedule/"
+    ],
+    "guideLinks": [
+      "/guides/cashflow-13-os/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Inputs and units - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Reconciled forecast-to-actual bridge - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "coffee-shop-daily-operating-plan",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/monthly-business-budget-variance/"
+    ],
+    "guideLinks": [
+      "/guides/small-business-planner/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Inputs and units - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Base and slower-day operating comparison - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "consignment-settlement-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/craft-fair-stock-reconciliation/",
+      "/tools/invoice-collection-schedule/"
+    ],
+    "guideLinks": [
+      "/guides/consignclear-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Consignment Settlement Planner input reference \u2014 scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "construction-milestone-cash-schedule",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/weekly-cash-commitments-planner/",
+      "/tools/invoice-collection-schedule/"
+    ],
+    "guideLinks": [
+      "/guides/cashflow-13-os/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Inputs and units - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Milestone cash schedule - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "content-production-capacity-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/marketing-campaign-budget-planner/",
+      "/tools/content-publishing-checklist/"
+    ],
+    "guideLinks": [
+      "/guides/content-marketing-planner/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Inputs and units - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Remaining production load by date - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "content-publishing-checklist",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/content-repurposing-planner/",
+      "/tools/content-repurposing-planner/",
+      "/tools/#content"
+    ],
+    "guideLinks": [
+      "/guides/content-marketing-planner/",
+      "/guides/content-marketing-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet fields - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Fictional manual review of one blog post - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "content-repurposing-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/content-publishing-checklist/",
+      "/tools/freelancer-weekly-capacity-planner/",
+      "/tools/content-publishing-checklist/",
+      "/tools/#content"
+    ],
+    "guideLinks": [
+      "/guides/content-marketing-planner/",
+      "/guides/content-marketing-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet fields - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Fictional repurposing tasks reviewed on October 8 - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "craft-fair-stock-reconciliation",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/supplier-quote-comparison/",
+      "/tools/#inventory",
+      "/tools/supplier-quote-comparison/"
+    ],
+    "guideLinks": [
+      "/guides/inventory-procurement-planner/",
+      "/guides/inventory-procurement-planner/"
+    ],
+    "reportText": "Enter your quantities, unit prices and event costs, then calculate.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "What to enter in each product row - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Fictional craft-fair reconciliation by variant - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "document-renewal-calendar",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/software-renewal-decision-planner/",
+      "/tools/equipment-maintenance-due-planner/"
+    ],
+    "guideLinks": [
+      "/guides/renewguard-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Document Renewal Calendar input reference \u2014 scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "equipment-maintenance-due-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/repair-parts-labour-worksheet/",
+      "/tools/#operations",
+      "/tools/rental-booking-conflict-checker/"
+    ],
+    "guideLinks": [
+      "/guides/calibratrack-os/",
+      "/guides/calibratrack-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet fields - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Fictional equipment records reviewed on October 8 - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "family-caregiver-handoff-sheet",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/caregiver-visit-coordination-planner/",
+      "/tools/caregiver-visit-coordination-planner/",
+      "/tools/#caregiving"
+    ],
+    "guideLinks": [
+      "/guides/caregiver-planner-aging-parents/",
+      "/guides/caregiver-planner-aging-parents/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet fields - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Fictional household handoff with two open tasks - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "fixed-fee-scope-change-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/freelancer-weekly-capacity-planner/",
+      "/tools/#agency"
+    ],
+    "guideLinks": [
+      "/guides/agency-client-profitability-capacity-os/",
+      "/guides/agency-client-profitability-capacity-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet field rules - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "freelancer-weekly-capacity-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/retainer-overage-calculator/",
+      "/tools/weekly-cash-commitments-planner/",
+      "/tools/retainer-overage-calculator/",
+      "/tools/#agency",
+      "/tools/fixed-fee-scope-change-planner/"
+    ],
+    "guideLinks": [
+      "/guides/agency-client-profitability-capacity-os/",
+      "/guides/agency-client-profitability-capacity-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet fields - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "homeschool-attendance-log",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/homeschool-subject-hours-log/",
+      "/tools/assignment-deadline-planner/",
+      "/tools/homeschool-subject-hours-log/",
+      "/tools/#homeschool"
+    ],
+    "guideLinks": [
+      "/guides/digital-homeschool-planner/",
+      "/guides/digital-homeschool-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet fields - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "homeschool-portfolio-index",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/homeschool-subject-hours-log/",
+      "/tools/#homeschool"
+    ],
+    "guideLinks": [
+      "/guides/digital-homeschool-planner/",
+      "/guides/digital-homeschool-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet field rules - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "homeschool-subject-hours-log",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/homeschool-attendance-log/",
+      "/tools/homeschool-attendance-log/",
+      "/tools/#homeschool",
+      "/tools/homeschool-portfolio-index/"
+    ],
+    "guideLinks": [
+      "/guides/digital-homeschool-planner/",
+      "/guides/digital-homeschool-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet fields - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "invoice-collection-schedule",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/weekly-cash-commitments-planner/",
+      "/tools/#cashflow"
+    ],
+    "guideLinks": [
+      "/guides/sales-management-system/",
+      "/guides/sales-management-system/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet field rules - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "leave-on-time-routine-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/assignment-deadline-planner/",
+      "/tools/assignment-deadline-planner/",
+      "/tools/#personal"
+    ],
+    "guideLinks": [
+      "/guides/adhd-digital-planner/",
+      "/guides/adhd-digital-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet fields - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "marketing-campaign-budget-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/content-production-capacity-planner/"
+    ],
+    "guideLinks": [
+      "/guides/content-marketing-planner/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Inputs and units - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "monthly-business-budget-variance",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/cash-flow-variance-report/"
+    ],
+    "guideLinks": [
+      "/guides/small-business-planner/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Inputs and units - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "monthly-teacher-lesson-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/assignment-deadline-planner/"
+    ],
+    "guideLinks": [
+      "/guides/digital-homeschool-planner/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Inputs and units - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "one-page-business-plan-builder",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/service-business-financial-projections/"
+    ],
+    "guideLinks": [
+      "/guides/small-business-planner/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Inputs and units - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "physical-count-adjustment-worksheet",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/reserved-vs-available-stock-planner/",
+      "/tools/craft-fair-stock-reconciliation/"
+    ],
+    "guideLinks": [
+      "/guides/inventory-procurement-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Physical Count Adjustment Worksheet input reference \u2014 scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "price-increase-budget-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/software-renewal-decision-planner/",
+      "/tools/#cashflow"
+    ],
+    "guideLinks": [
+      "/guides/renewguard-os/",
+      "/guides/renewguard-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet field rules - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "printable-planner-builder",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/monthly-teacher-lesson-planner/"
+    ],
+    "guideLinks": [],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Inputs and units - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "rental-booking-conflict-checker",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/equipment-maintenance-due-planner/",
+      "/tools/#operations"
+    ],
+    "guideLinks": [
+      "/guides/rentflow-os/",
+      "/guides/rentflow-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet field rules - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "repair-parts-labour-worksheet",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/equipment-maintenance-due-planner/",
+      "/tools/equipment-maintenance-due-planner/",
+      "/tools/#operations"
+    ],
+    "guideLinks": [
+      "/guides/repairbench-os/",
+      "/guides/repairbench-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet fields - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Fictional USD repair estimate, with no entered tax - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "reserved-vs-available-stock-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/supplier-quote-comparison/",
+      "/tools/#inventory",
+      "/tools/boutique-size-color-stock-matrix/",
+      "/tools/supplier-quote-comparison/"
+    ],
+    "guideLinks": [
+      "/guides/inventory-procurement-planner/",
+      "/guides/inventory-procurement-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet field rules - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "retainer-overage-calculator",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/freelancer-weekly-capacity-planner/",
+      "/tools/freelancer-weekly-capacity-planner/",
+      "/tools/#agency"
+    ],
+    "guideLinks": [
+      "/guides/agency-client-profitability-capacity-os/",
+      "/guides/agency-client-profitability-capacity-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet fields - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "service-business-financial-projections",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/one-page-business-plan-builder/",
+      "/tools/invoice-collection-schedule/"
+    ],
+    "guideLinks": [
+      "/guides/business-runway-burn-rate-os/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Inputs and units - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "software-renewal-decision-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/weekly-cash-commitments-planner/",
+      "/tools/weekly-cash-commitments-planner/",
+      "/tools/#cashflow",
+      "/tools/price-increase-budget-planner/"
+    ],
+    "guideLinks": [
+      "/guides/renewguard-os/",
+      "/guides/renewguard-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet fields - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "stock-coverage-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/reserved-vs-available-stock-planner/",
+      "/tools/supplier-lead-time-log/"
+    ],
+    "guideLinks": [
+      "/guides/inventory-procurement-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Stock Coverage Planner input reference \u2014 scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "study-catch-up-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/assignment-deadline-planner/",
+      "/tools/#personal",
+      "/tools/assignment-deadline-planner/"
+    ],
+    "guideLinks": [
+      "/guides/ai-student-planner/",
+      "/guides/ai-student-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet field rules - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "supplier-lead-time-log",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/supplier-quote-comparison/",
+      "/tools/stock-coverage-planner/"
+    ],
+    "guideLinks": [
+      "/guides/vendorpulse-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Supplier Lead Time Log input reference \u2014 scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "supplier-quote-comparison",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/craft-fair-stock-reconciliation/",
+      "/tools/#inventory",
+      "/tools/reserved-vs-available-stock-planner/",
+      "/tools/weekly-cash-commitments-planner/",
+      "/tools/reserved-vs-available-stock-planner/"
+    ],
+    "guideLinks": [
+      "/guides/inventory-procurement-planner/",
+      "/guides/inventory-procurement-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet fields - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Fictional quotes for the same 200-unit order - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "trucking-trip-cost-worksheet",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/equipment-maintenance-due-planner/",
+      "/tools/invoice-collection-schedule/"
+    ],
+    "guideLinks": [
+      "/guides/small-business-planner/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Inputs and units - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Consistent trip economics - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Entered nonfuel payments before collection - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "weekly-cash-commitments-planner",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/software-renewal-decision-planner/",
+      "/tools/freelancer-weekly-capacity-planner/",
+      "/tools/software-renewal-decision-planner/",
+      "/tools/#cashflow",
+      "/tools/invoice-collection-schedule/",
+      "/tools/supplier-quote-comparison/",
+      "/tools/invoice-collection-schedule/"
+    ],
+    "guideLinks": [
+      "/guides/cashflow-13-os/",
+      "/guides/cashflow-13-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [
+      {
+        "tab": 0,
+        "label": "Worksheet fields - scroll horizontally for more columns"
+      },
+      {
+        "tab": 0,
+        "label": "Planner table - scroll horizontally for more columns"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "slug": "assignment-deadline-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/leave-on-time-routine-planner/",
+      "/tools/#personal",
+      "/tools/study-catch-up-planner/",
+      "/tools/study-catch-up-planner/"
+    ],
+    "guideLinks": [
+      "/guides/ai-student-planner/",
+      "/guides/ai-student-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "boutique-size-color-stock-matrix",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/reserved-vs-available-stock-planner/",
+      "/tools/#inventory"
+    ],
+    "guideLinks": [
+      "/guides/boutique-business-planner/",
+      "/guides/boutique-business-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "caregiver-visit-coordination-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/family-caregiver-handoff-sheet/",
+      "/tools/family-caregiver-handoff-sheet/",
+      "/tools/#caregiving"
+    ],
+    "guideLinks": [
+      "/guides/caregiver-planner-aging-parents/",
+      "/guides/caregiver-planner-aging-parents/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "cash-flow-variance-report",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/monthly-business-budget-variance/",
+      "/tools/invoice-collection-schedule/"
+    ],
+    "guideLinks": [
+      "/guides/cashflow-13-os/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "coffee-shop-daily-operating-plan",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/monthly-business-budget-variance/"
+    ],
+    "guideLinks": [
+      "/guides/small-business-planner/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "consignment-settlement-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/craft-fair-stock-reconciliation/",
+      "/tools/invoice-collection-schedule/"
+    ],
+    "guideLinks": [
+      "/guides/consignclear-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "construction-milestone-cash-schedule",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/weekly-cash-commitments-planner/",
+      "/tools/invoice-collection-schedule/"
+    ],
+    "guideLinks": [
+      "/guides/cashflow-13-os/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "content-production-capacity-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/marketing-campaign-budget-planner/",
+      "/tools/content-publishing-checklist/"
+    ],
+    "guideLinks": [
+      "/guides/content-marketing-planner/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "content-publishing-checklist",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/content-repurposing-planner/",
+      "/tools/content-repurposing-planner/",
+      "/tools/#content"
+    ],
+    "guideLinks": [
+      "/guides/content-marketing-planner/",
+      "/guides/content-marketing-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "content-repurposing-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/content-publishing-checklist/",
+      "/tools/freelancer-weekly-capacity-planner/",
+      "/tools/content-publishing-checklist/",
+      "/tools/#content"
+    ],
+    "guideLinks": [
+      "/guides/content-marketing-planner/",
+      "/guides/content-marketing-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "craft-fair-stock-reconciliation",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/supplier-quote-comparison/",
+      "/tools/#inventory",
+      "/tools/supplier-quote-comparison/"
+    ],
+    "guideLinks": [
+      "/guides/inventory-procurement-planner/",
+      "/guides/inventory-procurement-planner/"
+    ],
+    "reportText": "Enter your quantities, unit prices and event costs, then calculate.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "document-renewal-calendar",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/software-renewal-decision-planner/",
+      "/tools/equipment-maintenance-due-planner/"
+    ],
+    "guideLinks": [
+      "/guides/renewguard-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "equipment-maintenance-due-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/repair-parts-labour-worksheet/",
+      "/tools/#operations",
+      "/tools/rental-booking-conflict-checker/"
+    ],
+    "guideLinks": [
+      "/guides/calibratrack-os/",
+      "/guides/calibratrack-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "family-caregiver-handoff-sheet",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/caregiver-visit-coordination-planner/",
+      "/tools/caregiver-visit-coordination-planner/",
+      "/tools/#caregiving"
+    ],
+    "guideLinks": [
+      "/guides/caregiver-planner-aging-parents/",
+      "/guides/caregiver-planner-aging-parents/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "fixed-fee-scope-change-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/freelancer-weekly-capacity-planner/",
+      "/tools/#agency"
+    ],
+    "guideLinks": [
+      "/guides/agency-client-profitability-capacity-os/",
+      "/guides/agency-client-profitability-capacity-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "freelancer-weekly-capacity-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/retainer-overage-calculator/",
+      "/tools/weekly-cash-commitments-planner/",
+      "/tools/retainer-overage-calculator/",
+      "/tools/#agency",
+      "/tools/fixed-fee-scope-change-planner/"
+    ],
+    "guideLinks": [
+      "/guides/agency-client-profitability-capacity-os/",
+      "/guides/agency-client-profitability-capacity-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "homeschool-attendance-log",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/homeschool-subject-hours-log/",
+      "/tools/assignment-deadline-planner/",
+      "/tools/homeschool-subject-hours-log/",
+      "/tools/#homeschool"
+    ],
+    "guideLinks": [
+      "/guides/digital-homeschool-planner/",
+      "/guides/digital-homeschool-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "homeschool-portfolio-index",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/homeschool-subject-hours-log/",
+      "/tools/#homeschool"
+    ],
+    "guideLinks": [
+      "/guides/digital-homeschool-planner/",
+      "/guides/digital-homeschool-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "homeschool-subject-hours-log",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/homeschool-attendance-log/",
+      "/tools/homeschool-attendance-log/",
+      "/tools/#homeschool",
+      "/tools/homeschool-portfolio-index/"
+    ],
+    "guideLinks": [
+      "/guides/digital-homeschool-planner/",
+      "/guides/digital-homeschool-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "invoice-collection-schedule",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/weekly-cash-commitments-planner/",
+      "/tools/#cashflow"
+    ],
+    "guideLinks": [
+      "/guides/sales-management-system/",
+      "/guides/sales-management-system/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "leave-on-time-routine-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/assignment-deadline-planner/",
+      "/tools/assignment-deadline-planner/",
+      "/tools/#personal"
+    ],
+    "guideLinks": [
+      "/guides/adhd-digital-planner/",
+      "/guides/adhd-digital-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "marketing-campaign-budget-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/content-production-capacity-planner/"
+    ],
+    "guideLinks": [
+      "/guides/content-marketing-planner/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "monthly-business-budget-variance",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/cash-flow-variance-report/"
+    ],
+    "guideLinks": [
+      "/guides/small-business-planner/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "monthly-teacher-lesson-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/assignment-deadline-planner/"
+    ],
+    "guideLinks": [
+      "/guides/digital-homeschool-planner/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "one-page-business-plan-builder",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/service-business-financial-projections/"
+    ],
+    "guideLinks": [
+      "/guides/small-business-planner/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "physical-count-adjustment-worksheet",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/reserved-vs-available-stock-planner/",
+      "/tools/craft-fair-stock-reconciliation/"
+    ],
+    "guideLinks": [
+      "/guides/inventory-procurement-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "price-increase-budget-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/software-renewal-decision-planner/",
+      "/tools/#cashflow"
+    ],
+    "guideLinks": [
+      "/guides/renewguard-os/",
+      "/guides/renewguard-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "printable-planner-builder",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/monthly-teacher-lesson-planner/"
+    ],
+    "guideLinks": [],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "rental-booking-conflict-checker",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/equipment-maintenance-due-planner/",
+      "/tools/#operations"
+    ],
+    "guideLinks": [
+      "/guides/rentflow-os/",
+      "/guides/rentflow-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "repair-parts-labour-worksheet",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/equipment-maintenance-due-planner/",
+      "/tools/equipment-maintenance-due-planner/",
+      "/tools/#operations"
+    ],
+    "guideLinks": [
+      "/guides/repairbench-os/",
+      "/guides/repairbench-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "reserved-vs-available-stock-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/supplier-quote-comparison/",
+      "/tools/#inventory",
+      "/tools/boutique-size-color-stock-matrix/",
+      "/tools/supplier-quote-comparison/"
+    ],
+    "guideLinks": [
+      "/guides/inventory-procurement-planner/",
+      "/guides/inventory-procurement-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "retainer-overage-calculator",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/freelancer-weekly-capacity-planner/",
+      "/tools/freelancer-weekly-capacity-planner/",
+      "/tools/#agency"
+    ],
+    "guideLinks": [
+      "/guides/agency-client-profitability-capacity-os/",
+      "/guides/agency-client-profitability-capacity-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "service-business-financial-projections",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/one-page-business-plan-builder/",
+      "/tools/invoice-collection-schedule/"
+    ],
+    "guideLinks": [
+      "/guides/business-runway-burn-rate-os/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "software-renewal-decision-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/weekly-cash-commitments-planner/",
+      "/tools/weekly-cash-commitments-planner/",
+      "/tools/#cashflow",
+      "/tools/price-increase-budget-planner/"
+    ],
+    "guideLinks": [
+      "/guides/renewguard-os/",
+      "/guides/renewguard-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "stock-coverage-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/reserved-vs-available-stock-planner/",
+      "/tools/supplier-lead-time-log/"
+    ],
+    "guideLinks": [
+      "/guides/inventory-procurement-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "study-catch-up-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/assignment-deadline-planner/",
+      "/tools/#personal",
+      "/tools/assignment-deadline-planner/"
+    ],
+    "guideLinks": [
+      "/guides/ai-student-planner/",
+      "/guides/ai-student-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "supplier-lead-time-log",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/supplier-quote-comparison/",
+      "/tools/stock-coverage-planner/"
+    ],
+    "guideLinks": [
+      "/guides/vendorpulse-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "supplier-quote-comparison",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/craft-fair-stock-reconciliation/",
+      "/tools/#inventory",
+      "/tools/reserved-vs-available-stock-planner/",
+      "/tools/weekly-cash-commitments-planner/",
+      "/tools/reserved-vs-available-stock-planner/"
+    ],
+    "guideLinks": [
+      "/guides/inventory-procurement-planner/",
+      "/guides/inventory-procurement-planner/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "trucking-trip-cost-worksheet",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/equipment-maintenance-due-planner/",
+      "/tools/invoice-collection-schedule/"
+    ],
+    "guideLinks": [
+      "/guides/small-business-planner/"
+    ],
+    "reportText": "Enter your details, then calculate to review results.",
+    "tables": [],
+    "errors": []
+  },
+  {
+    "slug": "weekly-cash-commitments-planner",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "brokenImages": [],
+    "sampleStatus": "",
+    "guide": true,
+    "missingAnchors": [],
+    "unlabelled": [],
+    "nextTools": [
+      "/tools/software-renewal-decision-planner/",
+      "/tools/freelancer-weekly-capacity-planner/",
+      "/tools/software-renewal-decision-planner/",
+      "/tools/#cashflow",
+      "/tools/invoice-collection-schedule/",
+      "/tools/supplier-quote-comparison/",
+      "/tools/invoice-collection-schedule/"
+    ],
+    "guideLinks": [
+      "/guides/cashflow-13-os/",
+      "/guides/cashflow-13-os/"
+    ],
+    "reportText": "Enter your details and records, then calculate to review the results.",
+    "tables": [],
+    "errors": []
+  }
+]

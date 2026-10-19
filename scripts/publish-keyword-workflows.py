@@ -34,7 +34,7 @@ SAVE=re.search(r'<section class="tool-panel no-print"><h2>Save or download.*?</s
 STYLE='<link rel="stylesheet" href="/assets/css/style.css"><link rel="stylesheet" href="/assets/css/free-tools.css"><link rel="stylesheet" href="/assets/css/small-tools.css"><link rel="stylesheet" href="/assets/css/keyword-workflows.css"><link rel="icon" href="/assets/img/logo-mark.png">'
 def head(title,desc,route,image,article=False):
  return f'<!doctype html><html lang="en-US"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="index,follow"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="{SITE+route}"><meta property="og:url" content="{SITE+route}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:image" content="{SITE+image}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)}"><meta name="twitter:description" content="{esc(desc)}"><meta name="twitter:image" content="{SITE+image}"><meta property="article:modified_time" content="{DATE}">'+(f'<meta property="article:published_time" content="{DATE}"><meta property="og:type" content="article">' if article else '')+STYLE
-def wrapclose(scripts=''):return '</main>'+FOOTER+'<div id="toast" class="toast" role="status"></div><script src="/assets/js/main.js" defer></script>'+scripts+'</body></html>\n'
+def wrapclose(scripts=''):return '</main>'+FOOTER+'<div id="toast" class="toast" role="status"></div><script src="/assets/js/main.js" defer></script>'+scripts+('<script src="/assets/js/free-planner-tables.js" defer></script>' if 'small-tools-ui.js' in scripts else '')+'</body></html>\n'
 node="const a=require('./assets/js/keyword-workflows-models.js');console.log(JSON.stringify(a.configs.filter(c=>c.theme.startsWith('workflow-')).map(c=>{const s=structuredClone(c.sample);s.rows.forEach((r,i)=>r.id='row-'+i);return {kind:c.kind,result:a.evaluate(c.slug,s)};})));"
 RESULTS={r['kind']:r['result'] for r in json.loads(subprocess.check_output(['node','-e',node],cwd=ROOT))}
 def value(v):
@@ -74,6 +74,12 @@ for c in CONFIGS:
  source+='<h3>Continue the workflow</h3><p>'+link('/journal/'+parent+'/',page_label('/journal/'+parent+'/'))+'. '+(link('/journal/'+article['slug']+'/',article['title'])+'.' if article else 'The existing marketing guide explains the offer, campaign and review process behind this budget.')+'</p></section>'
  source+='<section class="tool-panel no-print">'+next_steps(kind)+'</section>'
  source+='<section class="tool-panel no-print tool-upgrade"><h2>'+esc(OPTIMIZATION[kind][0])+'</h2><p>'+esc(OPTIMIZATION[kind][1])+' '+link('/planners/'+product+'/',page_label('/planners/'+product+'/'))+'. Paid products are separate; the free JSON backup is not a paid-product import file.</p></section>'
+ guide_slug='small-business-planner' if product=='small-business-planner-2026-2028' else product
+ guide_route='/guides/'+guide_slug+'/'
+ if (ROOT/guide_route.strip('/')/'index.html').exists():
+  extra='<p>Before choosing the paid product, '+link(guide_route,'read '+page_label(guide_route))+' to check its workflow and supported features.</p>'
+  source=source[:-len('</section>')]+extra+'</section>'
+
  scripts='<script src="/assets/js/small-tools-models.js" defer></script><script src="/assets/js/keyword-workflows-models.js" defer></script><script src="/assets/js/small-tools-ui.js" defer></script>'
  if kind=='builder':scripts+='<script src="/assets/js/keyword-workflows-preview.js" defer></script>'
  p=ROOT/'tools'/c['slug']/'index.html';p.parent.mkdir(parents=True,exist_ok=True);p.write_text(source+wrapclose(scripts))
