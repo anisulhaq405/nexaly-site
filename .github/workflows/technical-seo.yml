@@ -30,6 +30,7 @@ jobs:
           node scripts/test-next-tools.cjs
           node scripts/test-keyword-workflows.cjs
           node scripts/test-oct16-planners.cjs
+          node scripts/test-final-ten.cjs
       - name: Verify new worksheet controls in a DOM environment
         run: |
           npm install --prefix "$RUNNER_TEMP/nexaly-ui-tests" jsdom@26.1.0 --no-audit --no-fund --ignore-scripts
