@@ -451,7 +451,7 @@ var posts = [
     "img": "/images/journal/batch-lot-traceability-log-20261003.webp",
     "alt": "Candle-making workbench with raw materials, batch-tagged jars, a production clipboard and shipping carton.",
     "tag": "Planning Guides",
-    "date": "Oct 3, 2026"
+    "date": "Updated Oct 20, 2026"
   },
   {
     "url": "/journal/equipment-calibration-log/",
@@ -460,7 +460,7 @@ var posts = [
     "img": "/images/journal/equipment-calibration-log-20261003.webp",
     "alt": "Metrology bench with a caliper, micrometer, gauge blocks and calibration record clipboard.",
     "tag": "Planning Guides",
-    "date": "Oct 3, 2026"
+    "date": "Updated Oct 20, 2026"
   },
   {
     "url": "/journal/rental-equipment-maintenance-log/",
