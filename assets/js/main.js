@@ -292,6 +292,24 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/inventory-count-sheet/",
+    "title": "Inventory Count Sheet: Free Template and Filled Example",
+    "excerpt": "Download a printable inventory count sheet and follow a worked stocktake example covering blind counts, recounts, movement cutoffs and reviewed adjustments.",
+    "img": "/images/journal/inventory-count-sheet-20261020.webp",
+    "alt": "Hands counting textile stock beside a clipboard and labeled storage bins in a small stockroom.",
+    "tag": "Planning Guides",
+    "date": "Oct 20, 2026"
+  },
+  {
+    "url": "/journal/production-schedule-template/",
+    "title": "Production Schedule Template for a Small Workshop",
+    "excerpt": "Use a free printable production schedule template with a filled weekly example, setup and run-time calculations, material checks and a rush-order capacity test.",
+    "img": "/images/journal/production-schedule-template-20261020.webp",
+    "alt": "Canvas pouch materials, sewing equipment and a weekly planning sheet arranged on a workshop bench.",
+    "tag": "Planning Guides",
+    "date": "Oct 20, 2026"
+  },
+  {
     "tag": "Attendance Tracker",
     "title": "Free Homeschool Attendance Sheet and Daily Tracker",
     "date": "Updated Oct 16, 2026 · 5 min",
