@@ -2453,6 +2453,11 @@
       "revision": "1527364e641c8e1d46278e0445c6c3d689d9dff62e40e1aa4e7280daab0ad826",
       "status": "needs_review",
       "attemptedAt": "2026-10-21T08:13:26.756157+00:00"
+    },
+    "https://nexalyplanner.com/guides/free-executive-function-task-breakdown/|facebook": {
+      "revision": "875ad2fc90f8833298d2b7821ffb1d33d6adedf830ac68db66f02dfd46c103e8",
+      "status": "attempting",
+      "attemptedAt": "2026-10-21T08:13:34.008157+00:00"
     }
   },
   "firstTestCompleted": true
