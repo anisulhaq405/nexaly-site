@@ -2421,7 +2421,7 @@
     },
     "https://nexalyplanner.com/guides/free-calibration-due-date-planner/|instagram": {
       "revision": "333f312144340ba9575cac6be044f05b259fcf0ffb9d7bd07124472a82ee13fe",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-21T08:13:02.948678+00:00"
     }
   },
