@@ -1,0 +1,5 @@
+Checkpoint,Order ID,SKU,Ordered units,Cumulative shipped units,Opening on hand,Current on hand,Outstanding reserved,Available units,Unit sale price USD,Order merchandise amount USD,Cumulative cash received USD,Unpaid order merchandise balance USD,Fulfilled merchandise amount USD,Assumed cost per unit USD,Fulfilled merchandise cost USD,Illustrative fulfilled merchandise margin USD
+Order confirmed unpaid,EX-1001,TEE-BLK-M,2,0,10,10,2,8,35,70,0,70,0,20,0,0
+Payment received not shipped,EX-1001,TEE-BLK-M,2,0,10,10,2,8,35,70,70,0,0,20,0,0
+First unit shipped,EX-1001,TEE-BLK-M,2,1,10,9,1,8,35,70,70,0,35,20,20,15
+Second unit shipped,EX-1001,TEE-BLK-M,2,2,10,8,0,8,35,70,70,0,70,20,40,30
