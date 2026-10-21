@@ -2418,6 +2418,11 @@
       "revision": "333f312144340ba9575cac6be044f05b259fcf0ffb9d7bd07124472a82ee13fe",
       "status": "needs_review",
       "attemptedAt": "2026-10-21T08:12:59.885815+00:00"
+    },
+    "https://nexalyplanner.com/guides/free-calibration-due-date-planner/|instagram": {
+      "revision": "333f312144340ba9575cac6be044f05b259fcf0ffb9d7bd07124472a82ee13fe",
+      "status": "attempting",
+      "attemptedAt": "2026-10-21T08:13:02.948678+00:00"
     }
   },
   "firstTestCompleted": true
