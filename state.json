@@ -2478,6 +2478,11 @@
       "revision": "54e61410f7b054babd42bf0d35944611d37996e00ec8dc2105acf76963d766ed",
       "status": "needs_review",
       "attemptedAt": "2026-10-21T08:13:50.118175+00:00"
+    },
+    "https://nexalyplanner.com/guides/free-rental-dispatch-return-checklist/|instagram": {
+      "revision": "54e61410f7b054babd42bf0d35944611d37996e00ec8dc2105acf76963d766ed",
+      "status": "attempting",
+      "attemptedAt": "2026-10-21T08:13:52.972611+00:00"
     }
   },
   "firstTestCompleted": true
