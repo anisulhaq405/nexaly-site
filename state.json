@@ -2383,6 +2383,11 @@
       "revision": "ea696d928e5e171d714f525fec6fb88cf6f49bbe1dd7ba16e8ad762bff01c62d",
       "status": "needs_review",
       "attemptedAt": "2026-10-21T08:12:27.892135+00:00"
+    },
+    "https://nexalyplanner.com/guides/free-batch-expiry-review-planner/|pinterest": {
+      "revision": "ea696d928e5e171d714f525fec6fb88cf6f49bbe1dd7ba16e8ad762bff01c62d",
+      "status": "attempting",
+      "attemptedAt": "2026-10-21T08:12:31.001545+00:00"
     }
   },
   "firstTestCompleted": true
