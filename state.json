@@ -2436,7 +2436,7 @@
     },
     "https://nexalyplanner.com/guides/free-dead-stock-review-planner/|facebook": {
       "revision": "1527364e641c8e1d46278e0445c6c3d689d9dff62e40e1aa4e7280daab0ad826",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-21T08:13:16.686684+00:00"
     }
   },
