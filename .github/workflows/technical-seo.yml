@@ -36,6 +36,7 @@ jobs:
           npm install --prefix "$RUNNER_TEMP/nexaly-ui-tests" jsdom@26.1.0 --no-audit --no-fund --ignore-scripts
           NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-keyword-workflows-ui.cjs
           NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-oct16-planners-ui.cjs
+          NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-final-ten-ui.cjs
       - name: Verify contact drafts and optional analytics
         run: |
           node scripts/test-contact-flow.cjs
