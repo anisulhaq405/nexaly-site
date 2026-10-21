@@ -2393,6 +2393,11 @@
       "revision": "ea696d928e5e171d714f525fec6fb88cf6f49bbe1dd7ba16e8ad762bff01c62d",
       "status": "needs_review",
       "attemptedAt": "2026-10-21T08:12:34.708167+00:00"
+    },
+    "https://nexalyplanner.com/guides/free-boutique-return-to-stock-log/|facebook": {
+      "revision": "06f7ae472cfb9d4257faa9b2b06867f33ad770e748d7f88b56e8df4746f83f12",
+      "status": "attempting",
+      "attemptedAt": "2026-10-21T08:12:41.855403+00:00"
     }
   },
   "firstTestCompleted": true
