@@ -2376,7 +2376,7 @@
     },
     "https://nexalyplanner.com/guides/free-batch-expiry-review-planner/|facebook": {
       "revision": "ea696d928e5e171d714f525fec6fb88cf6f49bbe1dd7ba16e8ad762bff01c62d",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-21T08:12:24.280716+00:00"
     }
   },
