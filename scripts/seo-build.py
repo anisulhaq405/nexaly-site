@@ -236,7 +236,7 @@ def build(check=False):
     for path in files:
         if path.endswith('index.html'):
             files[path]=re.sub(r'(/assets/css/style\.css)(?:\?[^\"\s>]*)?', lambda m:m[1]+'?v='+css_version, files[path])
-    for tool_name in ('free-tools.css','small-tools.css','planner-library.css','next-planner-ux.css','keyword-workflows.css'):
+    for tool_name in ('free-tools.css','small-tools.css','planner-library.css','next-planner-ux.css','keyword-workflows.css','final-ten.css'):
         tool_css=ROOT/'assets/css'/tool_name
         if tool_css.exists():
             tool_version=hashlib.sha256(tool_css.read_bytes()).hexdigest()[:12]
@@ -244,7 +244,7 @@ def build(check=False):
                 if path.endswith('index.html'):
                     pattern=r'(/assets/css/'+re.escape(tool_name)+r')(?:\?[^\"\s>]*)?'
                     files[path]=re.sub(pattern, lambda m:m[1]+'?v='+tool_version, files[path])
-    for tool_name in ('small-tools-models.js','next-tools-models.js','small-tools-ui.js','tools-directory.js','next-planner-ux.js','keyword-workflows-models.js','keyword-workflows-preview.js','free-planner-tables.js'):
+    for tool_name in ('small-tools-models.js','next-tools-models.js','small-tools-ui.js','tools-directory.js','next-planner-ux.js','keyword-workflows-models.js','keyword-workflows-preview.js','free-planner-tables.js','final-ten-models.js','final-ten-ux.js'):
         tool_js=ROOT/'assets/js'/tool_name
         if tool_js.exists():
             tool_version=hashlib.sha256(tool_js.read_bytes()).hexdigest()[:12]

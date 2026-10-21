@@ -50,3 +50,7 @@ for row in rr:
  if row['Route proposed'] in routes:row['Implementation status']='IMPLEMENTED 2026-10-21 - publication verification pending'
 buf=io.StringIO();w=csv.DictWriter(buf,fieldnames=cols,lineterminator="\n");w.writeheader();w.writerows(rr);p.write_text(buf.getvalue())
 print('Ten tools, ten guide pages, ten original diagrams and directory cards generated')
+
+# Preserve reviewed covers when original pages are regenerated.
+import runpy
+runpy.run_path(str(Path(__file__).with_name("apply-covers.py")))

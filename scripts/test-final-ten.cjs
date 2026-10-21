@@ -14,3 +14,11 @@ s=sample(7);assert.equal(calc(7).rows[0][3],4);s.rows[0].status='Disposed';asser
 s=sample(8);assert.equal(v(calc(8),'Ready work beyond window'),5);s.rows[1].status='Blocked';assert.equal(v(calc(8,s),'Remaining total minutes'),30);assert.equal(v(calc(8,s),'Ready work beyond window'),0);assert.equal(v(calc(8,s),'Blocked work minutes'),20);
 s=sample(9);assert.equal(calc(9).rows[0][4],'2026-10-21');s.rows[0].status='Requested';assert.equal(v(calc(9,s),'Action due / overdue'),1);s.rows[0].status='Confirmed';assert.equal(v(calc(9,s),'Action due / overdue'),0);s.rows[0].end='1900-01-01';assert.throws(()=>calc(9,s));
 console.log('PASS ten planners: samples, invalid dates, duplicates, input shape, unit reconciliation, zero/negative margins, cent allocation, inspection holds, inactive records, blocked effort and cancellation confirmation.');
+// Calendar, precision and conservation boundaries found during implementation audit.
+s=sample(0);s.top.asOf='2028-03-01';s.rows[0].received='2028-02-28';s.rows[0].sale='2028-02-29';assert.equal(calc(0,s).rows[0][3],1);
+s=sample(0);s.rows=Array.from({length:100},(_,i)=>({...s.rows[0],id:'r-'+i,ref:'record-'+i,qty:'1000000',cost:'1000000'}));s.top.threshold='0';assert.throws(()=>calc(0,s),/precision/);s.rows.push({...s.rows[0],id:'extra',ref:'extra'});assert.throws(()=>calc(0,s),/at most 100/);
+for(let seed=1;seed<=50;seed++)for(const basis of ['Units','Merchandise value']){
+ s=sample(3);s.top.basis=basis;s.top.shared=(seed*123.47).toFixed(2);s.rows=Array.from({length:17},(_,i)=>({...s.rows[0],id:'r-'+i,ref:'record-'+i,qty:String((seed*(i+3))%99+1),cost:((seed+i*17)/100).toFixed(2)}));
+ const result=calc(3,s);assert.equal(result.rows.reduce((sum,row)=>sum+row[4].money,0),api.cents(s.top.shared));for(const row of result.rows){assert.equal(row[5].money,row[3].money+row[4].money);assert(Number.isSafeInteger(row[4].money));}
+}
+console.log('PASS leap day, overflow rejection, row cap and 100 allocation conservation scenarios.');

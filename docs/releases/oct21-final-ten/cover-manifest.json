@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "dead-stock-review-planner",
+    "alt": "Boutique owner reviewing folded clothing and boxed stock",
+    "source": "Boutique stockroom inventory review.png",
+    "assets": {
+      "480": {
+        "path": "assets/img/tools/dead-stock-review-planner-cover-480.webp",
+        "bytes": 31658
+      },
+      "960": {
+        "path": "assets/img/tools/dead-stock-review-planner-cover-960.webp",
+        "bytes": 81020
+      },
+      "1200": {
+        "path": "assets/img/tools/dead-stock-review-planner-cover-1200.webp",
+        "bytes": 107226
+      }
+    }
+  },
+  {
+    "slug": "boutique-return-to-stock-log",
+    "alt": "Returned sweater and inspection trays at a boutique counter",
+    "source": "Boutique returns inspection station.png",
+    "assets": {
+      "480": {
+        "path": "assets/img/tools/boutique-return-to-stock-log-cover-480.webp",
+        "bytes": 18590
+      },
+      "960": {
+        "path": "assets/img/tools/boutique-return-to-stock-log-cover-960.webp",
+        "bytes": 49900
+      },
+      "1200": {
+        "path": "assets/img/tools/boutique-return-to-stock-log-cover-1200.webp",
+        "bytes": 68092
+      }
+    }
+  },
+  {
+    "slug": "seasonal-stock-clearance-planner",
+    "alt": "Seasonal clothing rack beside folded stock and a calculator",
+    "source": "Boutique autumn clearance with folded summer stock.png",
+    "assets": {
+      "480": {
+        "path": "assets/img/tools/seasonal-stock-clearance-planner-cover-480.webp",
+        "bytes": 32108
+      },
+      "960": {
+        "path": "assets/img/tools/seasonal-stock-clearance-planner-cover-960.webp",
+        "bytes": 93420
+      },
+      "1200": {
+        "path": "assets/img/tools/seasonal-stock-clearance-planner-cover-1200.webp",
+        "bytes": 131482
+      }
+    }
+  },
+  {
+    "slug": "shipment-cost-allocation-tool",
+    "alt": "Shipment cartons beside a receiving worksheet and calculator",
+    "source": "Cartons, invoice, and calculator at receiving desk.png",
+    "assets": {
+      "480": {
+        "path": "assets/img/tools/shipment-cost-allocation-tool-cover-480.webp",
+        "bytes": 21794
+      },
+      "960": {
+        "path": "assets/img/tools/shipment-cost-allocation-tool-cover-960.webp",
+        "bytes": 55642
+      },
+      "1200": {
+        "path": "assets/img/tools/shipment-cost-allocation-tool-cover-1200.webp",
+        "bytes": 75608
+      }
+    }
+  },
+  {
+    "slug": "repair-job-handoff-planner",
+    "alt": "Small-engine repair workbench with a job clipboard",
+    "source": "Serviced lawnmower engine handoff.png",
+    "assets": {
+      "480": {
+        "path": "assets/img/tools/repair-job-handoff-planner-cover-480.webp",
+        "bytes": 32332
+      },
+      "960": {
+        "path": "assets/img/tools/repair-job-handoff-planner-cover-960.webp",
+        "bytes": 85006
+      },
+      "1200": {
+        "path": "assets/img/tools/repair-job-handoff-planner-cover-1200.webp",
+        "bytes": 113510
+      }
+    }
+  },
+  {
+    "slug": "rental-dispatch-return-checklist",
+    "alt": "Rental lighting equipment in inspection and dispatch cases",
+    "source": "Rugged Camera Gear Return Check.png",
+    "assets": {
+      "480": {
+        "path": "assets/img/tools/rental-dispatch-return-checklist-cover-480.webp",
+        "bytes": 29042
+      },
+      "960": {
+        "path": "assets/img/tools/rental-dispatch-return-checklist-cover-960.webp",
+        "bytes": 74644
+      },
+      "1200": {
+        "path": "assets/img/tools/rental-dispatch-return-checklist-cover-1200.webp",
+        "bytes": 101850
+      }
+    }
+  },
+  {
+    "slug": "calibration-due-date-planner",
+    "alt": "Measuring instruments and gauge blocks beside a record clipboard",
+    "source": "Calibration bench with precision measurement tools.png",
+    "assets": {
+      "480": {
+        "path": "assets/img/tools/calibration-due-date-planner-cover-480.webp",
+        "bytes": 19426
+      },
+      "960": {
+        "path": "assets/img/tools/calibration-due-date-planner-cover-960.webp",
+        "bytes": 50380
+      },
+      "1200": {
+        "path": "assets/img/tools/calibration-due-date-planner-cover-1200.webp",
+        "bytes": 68136
+      }
+    }
+  },
+  {
+    "slug": "batch-expiry-review-planner",
+    "alt": "Batch-labelled jars and cartons beside a review ledger",
+    "source": "Amber Jars and Review Ledger.png",
+    "assets": {
+      "480": {
+        "path": "assets/img/tools/batch-expiry-review-planner-cover-480.webp",
+        "bytes": 25838
+      },
+      "960": {
+        "path": "assets/img/tools/batch-expiry-review-planner-cover-960.webp",
+        "bytes": 66412
+      },
+      "1200": {
+        "path": "assets/img/tools/batch-expiry-review-planner-cover-1200.webp",
+        "bytes": 87640
+      }
+    }
+  },
+  {
+    "slug": "executive-function-task-breakdown",
+    "alt": "Task checklist, sticky notes and a timer on a quiet desk",
+    "source": "Calm workspace with lavender notes.png",
+    "assets": {
+      "480": {
+        "path": "assets/img/tools/executive-function-task-breakdown-cover-480.webp",
+        "bytes": 17390
+      },
+      "960": {
+        "path": "assets/img/tools/executive-function-task-breakdown-cover-960.webp",
+        "bytes": 44200
+      },
+      "1200": {
+        "path": "assets/img/tools/executive-function-task-breakdown-cover-1200.webp",
+        "bytes": 58116
+      }
+    }
+  },
+  {
+    "slug": "free-trial-cancellation-calendar",
+    "alt": "Calendar with marked dates beside a wallet and cards",
+    "source": "Green dates on a subscription calendar.png",
+    "assets": {
+      "480": {
+        "path": "assets/img/tools/free-trial-cancellation-calendar-cover-480.webp",
+        "bytes": 24050
+      },
+      "960": {
+        "path": "assets/img/tools/free-trial-cancellation-calendar-cover-960.webp",
+        "bytes": 72778
+      },
+      "1200": {
+        "path": "assets/img/tools/free-trial-cancellation-calendar-cover-1200.webp",
+        "bytes": 99836
+      }
+    }
+  }
+]

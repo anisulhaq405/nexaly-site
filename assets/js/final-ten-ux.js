@@ -5,4 +5,16 @@ function enhance(scope){for(const wrap of scope.querySelectorAll('.table-wrap'))
 enhance(app);new MutationObserver(()=>enhance(results)).observe(results,{childList:true});
 // Make printed reports identifiable even when the user's worksheet label is vague.
 const reportHeading=document.getElementById('report-heading');reportHeading.textContent=name+' report';
+// Native required checks miss whitespace-only text and duplicate references.
+app.addEventListener('click',function(event){
+ if(!event.target.closest('#tool-calculate,#tool-csv,#tool-print'))return;
+ const message=document.getElementById('tool-message');
+ if(message.dataset.status!=='error')return;
+ const controls=[...app.querySelectorAll('#tool-settings input,#tool-settings select,#tool-rows input,#tool-rows select')];
+ let invalid=controls.find(input=>!input.checkValidity()||(input.required&&input.type==='text'&&!input.value.trim()));
+ if(!invalid&&message.textContent.startsWith('Duplicate record reference:')){
+  const seen=new Set();invalid=controls.filter(input=>input.dataset.field==='ref').find(input=>{const key=input.value.trim().toLowerCase();if(seen.has(key))return true;seen.add(key);return false;});
+ }
+ if(invalid){invalid.setAttribute('aria-invalid','true');invalid.setAttribute('aria-errormessage','tool-message');invalid.focus();}
+});
 })();
