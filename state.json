@@ -2396,7 +2396,7 @@
     },
     "https://nexalyplanner.com/guides/free-boutique-return-to-stock-log/|facebook": {
       "revision": "06f7ae472cfb9d4257faa9b2b06867f33ad770e748d7f88b56e8df4746f83f12",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-21T08:12:41.855403+00:00"
     }
   },
