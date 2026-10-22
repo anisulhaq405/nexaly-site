@@ -4,14 +4,17 @@
   if (!/^https?:$/.test(location.protocol) || !/^(www\.)?nexalyplanner\.com$/.test(location.hostname) || /^\/(demos|downloads)\//.test(location.pathname)) return;
   var id = 'G-NPE1Y88BDG', key = 'nexaly-analytics-consent-v1', started = false, allowed = false;
   var choice; try { choice = localStorage.getItem(key); } catch (_) {}
+  // Retain referring domains without collecting private URL paths or query strings.
+  var referrer = '';
+  try { var referring = new URL(document.referrer); if (/^https?:$/.test(referring.protocol)) referrer = referring.origin + '/'; } catch (_) {}
   function start() {
     allowed = true; window['ga-disable-' + id] = false;
     if (started) return; started = true;
     window.dataLayer = window.dataLayer || [];
     window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
     window.gtag('js', new Date());
-    window.gtag('config', id, {send_page_view: false, page_location: location.origin + location.pathname, page_referrer: '', allow_google_signals: false, allow_ad_personalization_signals: false});
-    window.gtag('event', 'page_view', {page_location: location.origin + location.pathname, page_referrer: '', page_title: document.title});
+    window.gtag('config', id, {send_page_view: false, page_location: location.origin + location.pathname, page_referrer: referrer, allow_google_signals: false, allow_ad_personalization_signals: false});
+    window.gtag('event', 'page_view', {page_location: location.origin + location.pathname, page_referrer: referrer, page_title: document.title});
     var script = document.createElement('script'); script.async = true;
     script.src = 'https://www.googletagmanager.com/gtag/js?id=' + id; document.head.appendChild(script);
   }
@@ -49,13 +52,18 @@
       var sheetLink = url.pathname.match(/^\/spreadsheets\/d\/([A-Za-z0-9_-]+)\/copy$/);
       if (url.origin === 'https://docs.google.com' && sheetLink && sheetResources[sheetLink[1]]) window.gtag('event', 'template_open', {resource_id: sheetResources[sheetLink[1]], file_extension: 'google_sheets', page_location: location.origin + location.pathname, page_referrer: ''});
       if (url.origin === location.origin) {
-        var resource = url.pathname.match(/^\/assets\/downloads\/(assignment-tracker-template|13-week-cash-flow-forecast-template|purchase-order-tracker-template|adhd-daily-planning-layout|2026-monthly-planner|undated-monthly-planner-template|weekly-planner-template|caregiver-daily-log-template)\.(xlsx|pdf|html|txt)$/);
+        var resource = url.pathname.match(/^\/assets\/downloads\/([a-z0-9][a-z0-9-]*)\.(xlsx|pdf|html|txt|csv)$/i);
         if (resource) window.gtag('event', resource[2] === 'html' ? 'template_open' : 'template_download', {resource_id: resource[1], file_extension: resource[2], page_location: location.origin + location.pathname, page_referrer: ''});
         var product = url.pathname.match(/^\/planners\/([a-z0-9-]+)\/$/);
         if (/^\/journal\/[a-z0-9-]+\/$/.test(location.pathname) && product && !/^(digital-planners|business-operating-systems)$/.test(product[1])) window.gtag('event', 'product_click', {product_id: product[1], page_location: location.origin + location.pathname, page_referrer: ''});
+        var demo = url.pathname.match(/^\/demos\/([a-z0-9-]+)\/(?:index\.html)?$/);
+        if (demo) window.gtag('event', 'demo_open', {product_id: demo[1], page_location: location.origin + location.pathname});
       }
+      // A checkout click is intent only; it is never a purchase event.
+      if (url.origin === 'https://buy.polar.sh' && /^\/polar_cl_[A-Za-z0-9_]+$/.test(url.pathname)) window.gtag('event', 'checkout_click', {page_location: location.origin + location.pathname});
     }
     var button = event.target.closest('button');
+    if (button && button.getAttribute && button.getAttribute('onclick') === 'buyProduct()' && window.products && window.products[window.curP] && window.products[window.curP].buyUrl) window.gtag('event', 'checkout_click', {page_location: location.origin + location.pathname});
     var match = location.pathname.match(/^\/tools\/([a-z0-9-]+)\/$/);
     if (match && button && actions[button.id]) window.gtag('event', 'planner_action', {planner_id: match[1], planner_action: actions[button.id], page_location: location.origin + location.pathname, page_referrer: ''});
   });

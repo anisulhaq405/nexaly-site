@@ -2,13 +2,13 @@ const fs = require('node:fs');
 const vm = require('node:vm');
 const assert = require('node:assert/strict');
 const source = fs.readFileSync('assets/js/analytics.js', 'utf8');
-function fixture(choice, pathname = '/journal/monthly-planner-free-templates/', existing = false) {
+function fixture(choice, pathname = '/journal/monthly-planner-free-templates/', existing = false, referrer = '') {
   let click;
   const choices = ['accepted','rejected'].map(value=>({dataset:{choice:value},style:{},addEventListener(type,fn){this.listener=fn;}}));
   const element = ()=>({style:{},hidden:false,setAttribute(){},addEventListener(){},querySelectorAll:()=>choices});
   const panel = existing ? element() : null;
   if (panel) { Object.defineProperty(panel.style, 'cssText', {set(){throw new Error('First-render panel styles must not be reapplied');}}); choices.forEach(button=>Object.defineProperty(button.style, 'cssText', {set(){throw new Error('First-render button styles must not be reapplied');}})); panel.parentNode = {}; Object.defineProperty(panel, 'innerHTML', {set(){throw new Error('First-render consent markup must not be recreated');}}); }
-  const ctx = {location:{protocol:'https:',hostname:'nexalyplanner.com',origin:'https://nexalyplanner.com',pathname},localStorage:{getItem:()=>choice,setItem(){}},document:{getElementById:()=>panel,cookie:'',title:'A public guide',createElement:element,head:{appendChild(){}},body:{appendChild(){}},addEventListener:(type,fn)=>{if(type==='click')click=fn;}},URL,Date};
+  const ctx = {location:{protocol:'https:',hostname:'nexalyplanner.com',origin:'https://nexalyplanner.com',pathname},localStorage:{getItem:()=>choice,setItem(){}},document:{getElementById:()=>panel,cookie:'',referrer,title:'A public guide',createElement:element,head:{appendChild(){}},body:{appendChild(){}},addEventListener:(type,fn)=>{if(type==='click')click=fn;}},URL,Date};
   ctx.window = ctx;
   vm.runInNewContext(source,ctx);
   return {ctx,choices,panel,events:()=>Array.from(ctx.dataLayer||[]).filter(x=>x[0]==='event').map(x=>[x[1],x[2]]),click:href=>click({target:{closest:selector=>selector==='a[href]'?{href}:null}})};
@@ -55,3 +55,19 @@ for (const choice of [null, 'accepted', 'rejected']) {
 }
 {const panel={hidden:true};vm.runInNewContext(bootstrap,{localStorage:{getItem(){throw Error('blocked');}},document:{getElementById:()=>panel}});assert.equal(panel.hidden,false);}
 console.log('PASS first-render consent: saved choices, blocked storage, no duplicate/recreated markup, rejection and existing consent gate.');
+
+const expanded = fixture('accepted','/tools/purchase-order-template/',false,'https://www.google.com/search?q=private-secret');
+for(const file of ['boutique-inventory-worksheet.xlsx','small-business-order-tracker.csv','supplier-scorecard.xlsx','purchase-order-template.xlsx','purchase-order-template.pdf','one-page-marketing-plan-template.html','homeschool-attendance-sheet-A4.pdf']) expanded.click('https://nexalyplanner.com/assets/downloads/'+file+'?private=secret');
+expanded.click('https://nexalyplanner.com/demos/inventory-procurement-planner/');
+expanded.click('https://buy.polar.sh/polar_cl_Example?private=secret');
+expanded.click('https://other.example/assets/downloads/fake.xlsx');
+assert.equal(expanded.events().filter(x=>x[0]==='page_view').length,1);
+assert.equal(expanded.events().filter(x=>x[0]==='template_download').length,6);
+assert.equal(expanded.events().filter(x=>x[0]==='template_open').length,1);
+assert.equal(expanded.events().filter(x=>x[0]==='demo_open').length,1);
+assert.equal(expanded.events().filter(x=>x[0]==='checkout_click').length,1);
+assert.equal(expanded.events()[0][1].page_referrer,'https://www.google.com/');
+assert(!JSON.stringify(expanded.events()).includes('secret'));
+assert(!expanded.events().some(x=>x[0]==='purchase'));
+expanded.choices[0].listener();assert.equal(expanded.events().filter(x=>x[0]==='page_view').length,1);
+console.log('PASS expanded resources, one consented pageview, referring domain only, demo/checkout intent and no purchase fabrication.');

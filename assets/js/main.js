@@ -321,7 +321,7 @@ var posts = [
   {
     "tag": "Student Planner",
     "title": "College Assignment Tracker: Free Excel and Google Sheets Template",
-    "date": "Updated Oct 17, 2026 · 5 min",
+    "date": "Updated Oct 22, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
     "img": "/images/journal/college-assignment-tracker-cover-20261015.webp",
     "alt": "College assignment tracker cover showing a study desk, assignment list and deadline calendar",
@@ -523,7 +523,7 @@ var posts = [
     "img": "/images/journal/purchase-order-tracker-20261001.webp",
     "alt": "Receiving clerk comparing a purchase order with a partial delivery of cartons.",
     "tag": "Planning Guides",
-    "date": "Updated Oct 11, 2026"
+    "date": "Updated Oct 22, 2026"
   },
   {
     "url": "/journal/small-engine-repair-business-plan/",
@@ -631,7 +631,7 @@ var posts = [
     "img": "/images/journal/one-page-marketing-plan-example-v2.jpg",
     "alt": "Boutique marketing plan with audience, offer, channels, budget and calendar under One-Page Marketing Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 13, 2026"
+    "date": "Updated Oct 22, 2026"
   },
   {
     "url": "/journal/retail-store-business-plan-example/",
@@ -698,12 +698,12 @@ var posts = [
   },
   {
     "url": "/journal/digital-planner-app-how-it-works/",
-    "title": "Digital Planner App: How It Works and Best Options",
-    "excerpt": "Compare PDF, Goodnotes, Notion, iPad, and offline HTML planner options. Learn how digital planners work and choose a practical setup.",
+    "title": "Digital Planner App: Compare PDF, Notion and Offline HTML",
+    "excerpt": "Compare digital planner formats, required apps, offline use and backups. Try a free weekly PDF before choosing a planner for your device.",
     "img": "/images/journal/digital-planner-app-how-it-works-20260919.jpg",
     "alt": "iPad showing a weekly digital planner beside a laptop with a typed planning workspace",
     "tag": "Planning Guides",
-    "date": "Updated Sep 24, 2026"
+    "date": "Updated Oct 22, 2026"
   },
   {
     "url": "/journal/digital-planner-for-ipad-setup/",
@@ -797,12 +797,12 @@ var posts = [
   },
   {
     "url": "/journal/weekly-planner-2026-free-templates/",
-    "title": "Weekly Planner 2026: Free Templates That Are Easy to Use",
-    "excerpt": "Build a practical weekly planner for 2026 with simple free layouts, a worked January example, format comparisons, and setup tips.",
+    "title": "Free Weekly Planner Template: Undated Printable PDF",
+    "excerpt": "Download a free undated weekly planner PDF with Monday-Sunday space, priorities, next actions and notes. Includes a worked week and print setup.",
     "img": "/images/journal/weekly-planner-2026-free-templates-20260918.jpg",
     "alt": "Open 2026 weekly planner showing priorities, appointments, daily tasks, and a short weekly review",
     "tag": "Planning Guides",
-    "date": "Updated Oct 13, 2026"
+    "date": "Updated Oct 22, 2026"
   },
   {
     "url": "/journal/a5-planner-sizes-layouts-digital-options/",
@@ -901,7 +901,7 @@ var posts = [
     "img": "/images/journal/supplier-quote-comparison-20260915.jpg",
     "alt": "Three supplier quote folders beside a parcel and calculator, with the heading Compare Supplier Quotes",
     "tag": "Planning Guides",
-    "date": "Updated Oct 10, 2026"
+    "date": "Updated Oct 22, 2026"
   },
   {
     "url": "/journal/reorder-point-small-business/",
@@ -1399,6 +1399,6 @@ runReveal();
 /* Load optional website analytics separately from storefront behavior. */
 (function () {
   var script = document.createElement('script'); script.async = true;
-  script.src = '/assets/js/analytics.js?v=c5557e4a8345';
+  script.src = '/assets/js/analytics.js?v=8298d352a643';
   document.head.appendChild(script);
 }());
