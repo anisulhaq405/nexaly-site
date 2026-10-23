@@ -292,6 +292,15 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/small-business-balance-sheet-template/",
+    "title": "Small Business Balance Sheet Template With a Filled Example",
+    "excerpt": "Download a small business balance sheet template in Excel with a blank sheet, filled $15,000 example, balance check, printable PDF and clear instructions.",
+    "img": "/assets/img/resource-previews/small-business-balance-sheet-example.webp",
+    "alt": "Actual fictional balance-sheet workbook example",
+    "tag": "Planning Guides",
+    "date": "Oct 23, 2026"
+  },
+  {
     "url": "/journal/inventory-count-sheet/",
     "title": "Inventory Count Sheet: Free Template and Filled Example",
     "excerpt": "Download a printable inventory count sheet and follow a worked stocktake example covering blind counts, recounts, movement cutoffs and reviewed adjustments.",
@@ -307,7 +316,7 @@ var posts = [
     "img": "/images/journal/production-schedule-template-20261020.webp",
     "alt": "Canvas pouch materials, sewing equipment and a weekly planning sheet arranged on a workshop bench.",
     "tag": "Planning Guides",
-    "date": "Oct 20, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "tag": "Attendance Tracker",
@@ -433,7 +442,7 @@ var posts = [
     "img": "/assets/img/workflows/small-business-budget-template-monthly-variance-cover-v3.webp",
     "alt": "Small Business Budget Template: Monthly Variance Review editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Oct 13, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "url": "/journal/trucking-company-business-plan-trip-cost/",
@@ -541,7 +550,7 @@ var posts = [
     "img": "/images/journal/supplier-scorecard-template-cover-20261015.webp",
     "alt": "Supplier scorecard template cover with purchasing records and material samples",
     "tag": "Planning Guides",
-    "date": "Updated Oct 15, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "url": "/journal/caregiver-daily-log-template/",
@@ -604,7 +613,7 @@ var posts = [
     "img": "/images/journal/cash-flow-forecast-template-example-v2.jpg",
     "alt": "Shop owner reviewing a 13-week cash flow chart and invoices under 13-Week Cash Flow",
     "tag": "Planning Guides",
-    "date": "Updated Oct 13, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "url": "/journal/equipment-rental-business-plan-example/",
