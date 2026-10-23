@@ -496,7 +496,7 @@ var posts = [
     "img": "/images/journal/rental-equipment-maintenance-log-cover-20261015.webp",
     "alt": "Equipment maintenance log cover showing a work light and service record",
     "tag": "Planning Guides",
-    "date": "Updated Oct 19, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "url": "/journal/cash-runway-template/",
@@ -532,7 +532,7 @@ var posts = [
     "img": "/images/journal/purchase-order-tracker-20261001.webp",
     "alt": "Receiving clerk comparing a purchase order with a partial delivery of cartons.",
     "tag": "Planning Guides",
-    "date": "Updated Oct 22, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "url": "/journal/small-engine-repair-business-plan/",
@@ -586,7 +586,7 @@ var posts = [
     "img": "/images/journal/agency-capacity-planning-example-20260929.webp",
     "alt": "Agency team planning retainer and project hours against monthly capacity",
     "tag": "Planning Guides",
-    "date": "Updated Oct 13, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "url": "/journal/how-much-inventory-start-boutique/",
