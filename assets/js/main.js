@@ -321,7 +321,7 @@ var posts = [
   {
     "tag": "Student Planner",
     "title": "College Assignment Tracker: Free Excel and Google Sheets Template",
-    "date": "Updated Oct 22, 2026 · 5 min",
+    "date": "Updated Oct 23, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
     "img": "/images/journal/college-assignment-tracker-cover-20261015.webp",
     "alt": "College assignment tracker cover showing a study desk, assignment list and deadline calendar",
@@ -631,7 +631,7 @@ var posts = [
     "img": "/images/journal/one-page-marketing-plan-example-v2.jpg",
     "alt": "Boutique marketing plan with audience, offer, channels, budget and calendar under One-Page Marketing Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 22, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "url": "/journal/retail-store-business-plan-example/",
@@ -703,7 +703,7 @@ var posts = [
     "img": "/images/journal/digital-planner-app-how-it-works-20260919.jpg",
     "alt": "iPad showing a weekly digital planner beside a laptop with a typed planning workspace",
     "tag": "Planning Guides",
-    "date": "Updated Oct 22, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "url": "/journal/digital-planner-for-ipad-setup/",
@@ -802,7 +802,7 @@ var posts = [
     "img": "/images/journal/weekly-planner-2026-free-templates-20260918.jpg",
     "alt": "Open 2026 weekly planner showing priorities, appointments, daily tasks, and a short weekly review",
     "tag": "Planning Guides",
-    "date": "Updated Oct 22, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "url": "/journal/a5-planner-sizes-layouts-digital-options/",
