@@ -824,12 +824,12 @@ var posts = [
   },
   {
     "url": "/journal/daily-planner-complete-guide/",
-    "title": "Daily Planner: The Complete Guide to Planning Your Day",
-    "excerpt": "Learn how to plan your day with three priorities, fixed commitments, realistic time blocks, useful buffers, and a short end-of-day review.",
+    "title": "Daily Planner Template: Free PDF and Practical Planning Guide",
+    "excerpt": "Download a free daily planner template with blank and filled PDF pages. Plan fixed commitments, realistic time blocks, priorities and a daily review.",
     "img": "/assets/img/journal-responsive/daily-planner-complete-guide-1280.webp",
     "alt": "Open daily planner with three priorities, fixed appointments, time blocks, and an end-of-day review",
     "tag": "Planning Guides",
-    "date": "Updated Sep 21, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "url": "/journal/day-planner-vs-daily-planner/",
@@ -851,12 +851,12 @@ var posts = [
   },
   {
     "url": "/journal/monthly-planner-free-templates/",
-    "title": "Monthly Planner: How to Set Up a Practical Monthly Layout",
-    "excerpt": "Learn how to set up a practical monthly planner for commitments, goals, projects, dated actions, and an effective end-of-month review.",
+    "title": "Monthly Planner Template: Free PDF and Setup Examples",
+    "excerpt": "Download a free undated monthly planner template. Place dates correctly, plan realistic goals and connect your monthly view to weekly and daily actions.",
     "img": "/assets/img/journal-responsive/monthly-planner-free-templates-1280.webp",
     "alt": "Open monthly planner with commitments, goals, project milestones, and review notes arranged across one calendar spread.",
     "tag": "Planning Guides",
-    "date": "Updated Oct 13, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "url": "/journal/minimalist-planner/",
@@ -874,7 +874,7 @@ var posts = [
     "img": "/images/journal/adhd-planner-for-adults-20260915.jpg",
     "alt": "Adult using a short visual daily plan, capture inbox and focus timer under the heading ADHD Planner That Sticks",
     "tag": "Planning Guides",
-    "date": "Updated Oct 11, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "url": "/journal/business-planner-weekly-review/",
@@ -969,7 +969,7 @@ var posts = [
   {
     "tag": "Content Calendar",
     "title": "A 30-Day Content Calendar for a Clothing Brand",
-    "date": "Updated Oct 13, 2026 · 5 min",
+    "date": "Updated Oct 23, 2026 · 5 min",
     "url": "/journal/content-calendar-clothing-brand/",
     "img": "/images/products/content-marketing-planner/content-marketing-planner-visual-content-calendar.jpg",
     "alt": "A 30-Day Content Calendar for a Clothing Brand",
@@ -996,7 +996,7 @@ var posts = [
   {
     "tag": "Homeschool Schedule",
     "title": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
-    "date": "Updated Oct 14, 2026 · 5 min",
+    "date": "Updated Oct 23, 2026 · 5 min",
     "url": "/journal/homeschool-schedule-multiple-ages/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-lesson-planner-calendar.jpg",
     "alt": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
@@ -1014,11 +1014,11 @@ var posts = [
   {
     "tag": "Study Schedule",
     "title": "Exam Study Schedule Template: Plan the Weeks Before Finals",
-    "date": "Updated Oct 8, 2026 · 5 min",
+    "date": "Updated Oct 23, 2026 · 5 min",
     "url": "/journal/exam-study-schedule-template/",
     "img": "/images/journal/exam-prep-20260915.jpg",
     "alt": "Study desk with a planning notebook, textbooks and a clock under the heading Plan Your Exam Prep",
-    "excerpt": "Download an exam study schedule template with an editable ten-day plan. Organize practice, review, flexible time and exam logistics before finals."
+    "excerpt": "Use a ten-day exam study schedule with an editable text download, realistic time checks and missed-session examples. Enter dates manually for your course."
   },
   {
     "url": "/journal/how-to-run-a-one-person-business-with-ai/",

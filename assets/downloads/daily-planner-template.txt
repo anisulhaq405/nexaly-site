@@ -1,0 +1,41 @@
+DAILY PLANNER TEMPLATE
+Free plain-text worksheet. Save a working copy. No automatic calculations or reminders.
+
+BLANK COPY
+Date and fixed commitments:
+
+
+Main outcome and first action:
+
+
+Time blocks and transitions:
+
+
+Up to two additional tasks:
+
+
+Buffer and tasks to defer:
+
+
+End of day and next action:
+
+
+FICTIONAL FILLED EXAMPLE
+
+Date and fixed commitments:
+Fictional workday | Client call 11:00-11:30 | Leave desk at 12:00.
+
+Main outcome and first action:
+Send the revised quote. First action: open the draft and check the two missing line prices.
+
+Time blocks and transitions:
+09:00-10:00 quote; 10:00-10:15 break; 10:15-10:45 expense entry; 10:45-11:00 buffer; 11:00-11:30 call; 11:30-11:45 follow-up; 11:45-12:00 shutdown.
+
+Up to two additional tasks:
+Enter one batch of expenses (30 min). Send the call follow-up (15 min).
+
+Buffer and tasks to defer:
+Keep 15 minutes unassigned before the call. Defer the optional 45-minute filing task; it does not fit this morning.
+
+End of day and next action:
+Record actual progress. If the quote waits for a reply, note the question and follow-up time instead of marking it sent.

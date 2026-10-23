@@ -1,0 +1,21 @@
+EXAM STUDY SCHEDULE - MANUAL TEN-DAY STARTER
+Exam subject/date/time/location:
+Confirmed coverage and course source:
+Other commitments and available time:
+
+10 days before | Confirm coverage; attempt a short diagnostic | example 25 min
+9 days before | Practice Topic A; check uncertain steps | example 30 min
+8 days before | Practice Topic B; record questions | example 30 min
+7 days before | Recall Topic A without notes, then correct | example 25 min
+6 days before | Flexible catch-up or rest | optional
+5 days before | Mix selected A/B questions | example 30 min
+4 days before | Resolve specific gaps using course support | example 25 min
+3 days before | Attempt an appropriate practice section | example 40 min
+2 days before | Review errors and difficult steps | example 25 min
+1 day before | Light review and confirm exam logistics | example 20 min
+
+For each row add: actual date, start/end time, task, output, observed gap, next action.
+The nine stated durations total 250 minutes, excluding optional catch-up, breaks and setup.
+These are illustrative durations, not required study time or a grade prediction.
+Fill dates manually; this text file does not recalculate, alert or synchronize.
+Check all subjects together before assigning the same time twice.

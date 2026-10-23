@@ -1,0 +1,53 @@
+STUDY GUIDE TEMPLATE
+Free plain-text worksheet. Save a working copy. No automatic calculations or reminders.
+
+BLANK COPY
+Subject and topic:
+
+
+Learning objective and source:
+
+
+Key concepts:
+
+
+Explain it in your own words:
+
+
+Worked question and checked answer:
+
+
+Recall questions without notes:
+
+
+Weak area and correction:
+
+
+Next revision date and task:
+
+
+FICTIONAL FILLED EXAMPLE
+
+Subject and topic:
+Mathematics | Adding fractions with different denominators
+
+Learning objective and source:
+Add 3/4 and 1/8 and explain the common denominator. Source: your assigned lesson and checked course examples.
+
+Key concepts:
+Equivalent fractions represent the same value. Use a common denominator before adding numerators.
+
+Explain it in your own words:
+Rename quarters as eighths: 3/4 = 6/8. The pieces must have the same size before their counts can be added.
+
+Worked question and checked answer:
+3/4 + 1/8 = 6/8 + 1/8 = 7/8. Check: 0.75 + 0.125 = 0.875, which equals 7/8.
+
+Recall questions without notes:
+Why use eighths here? What is 1/2 + 1/4? After trying: 1/2 = 2/4, so the sum is 3/4.
+
+Weak area and correction:
+First attempt added denominators. Correction: rename both fractions, keep the common denominator and add numerators.
+
+Next revision date and task:
+Choose your next available session. Solve 2/3 + 1/6 without notes, then check: 4/6 + 1/6 = 5/6.
