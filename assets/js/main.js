@@ -295,8 +295,8 @@ var posts = [
     "url": "/journal/small-business-balance-sheet-template/",
     "title": "Small Business Balance Sheet Template With a Filled Example",
     "excerpt": "Download a small business balance sheet template in Excel with a blank sheet, filled $15,000 example, balance check, printable PDF and clear instructions.",
-    "img": "/assets/img/resource-previews/small-business-balance-sheet-example.webp",
-    "alt": "Actual fictional balance-sheet workbook example",
+    "img": "/images/journal/small-business-balance-sheet-cover-20261023.webp",
+    "alt": "Small-business financial records, laptop and calculator on a workshop office desk",
     "tag": "Planning Guides",
     "date": "Oct 23, 2026"
   },
