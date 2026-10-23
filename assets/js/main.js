@@ -298,7 +298,7 @@ var posts = [
     "img": "/images/journal/inventory-count-sheet-20261020.webp",
     "alt": "Hands counting textile stock beside a clipboard and labeled storage bins in a small stockroom.",
     "tag": "Planning Guides",
-    "date": "Oct 20, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "url": "/journal/production-schedule-template/",
@@ -330,11 +330,11 @@ var posts = [
   {
     "tag": "Order Tracking",
     "title": "Small Business Order Tracking: Free Template and Worked Examples",
-    "date": "Updated Oct 16, 2026 · 5 min",
+    "date": "Updated Oct 23, 2026 · 5 min",
     "url": "/journal/track-small-business-orders/",
     "img": "/images/journal/track-small-business-orders-cover-20261015.webp",
     "alt": "Small business order tracker cover showing parcels, an order checklist and a packing workspace",
-    "excerpt": "Free small business order tracker in Excel or CSV. Calculate open units, remaining payment and pending refunds with a worked cancellation example."
+    "excerpt": "Track customer orders with a free Excel workbook or manual CSV. Separate payments, shipments, cancellations and open quantities with worked examples."
   },
   {
     "url": "/journal/business-plan-financial-projections-service-example/",
@@ -595,7 +595,7 @@ var posts = [
     "img": "/images/journal/how-to-track-consignment-inventory-20260929.webp",
     "alt": "Tagged consignment items and owner records prepared for a payout review",
     "tag": "Planning Guides",
-    "date": "Updated Oct 3, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "url": "/journal/cash-flow-forecast-template-example/",
@@ -910,7 +910,7 @@ var posts = [
     "img": "/images/journal/reorder-point-20260915.jpg",
     "alt": "Organized stockroom with parcels, a low-stock shelf marker and the heading When to Reorder",
     "tag": "Planning Guides",
-    "date": "Updated Oct 10, 2026"
+    "date": "Updated Oct 23, 2026"
   },
   {
     "tag": "Small Business Software",
@@ -942,7 +942,7 @@ var posts = [
   {
     "tag": "Inventory",
     "title": "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
-    "date": "Updated Oct 15, 2026 · 5 min",
+    "date": "Updated Oct 23, 2026 · 5 min",
     "url": "/journal/boutique-inventory-spreadsheet/",
     "img": "/images/journal/boutique-inventory-spreadsheet-cover-20261015.webp",
     "alt": "Boutique inventory spreadsheet cover showing size-labeled clothing stock and a laptop",
@@ -960,7 +960,7 @@ var posts = [
   {
     "tag": "Sales Tracking",
     "title": "How to Connect Sales and Inventory Tracking for a Small Shop",
-    "date": "Updated Oct 8, 2026 · 5 min",
+    "date": "Updated Oct 23, 2026 · 5 min",
     "url": "/journal/sales-inventory-tracking-small-business/",
     "img": "/images/products/sales-management-system/8-dashboard-closeup.webp",
     "alt": "How to Connect Sales and Inventory Tracking for a Small Shop",
