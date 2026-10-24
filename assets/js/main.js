@@ -339,7 +339,7 @@ var posts = [
   {
     "tag": "Order Tracking",
     "title": "Small Business Order Tracking: Free Template and Worked Examples",
-    "date": "Updated Oct 23, 2026 · 5 min",
+    "date": "Updated Oct 24, 2026 · 5 min",
     "url": "/journal/track-small-business-orders/",
     "img": "/images/journal/track-small-business-orders-cover-20261015.webp",
     "alt": "Small business order tracker cover showing parcels, an order checklist and a packing workspace",
@@ -442,7 +442,7 @@ var posts = [
     "img": "/assets/img/workflows/small-business-budget-template-monthly-variance-cover-v3.webp",
     "alt": "Small Business Budget Template: Monthly Variance Review editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Oct 24, 2026"
   },
   {
     "url": "/journal/trucking-company-business-plan-trip-cost/",

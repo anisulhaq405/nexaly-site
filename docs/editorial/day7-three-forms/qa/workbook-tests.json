@@ -1,0 +1,127 @@
+[
+  {
+    "resource": "expense",
+    "case": "baseline",
+    "pass": true
+  },
+  {
+    "resource": "expense",
+    "case": "increased employee cost",
+    "pass": true
+  },
+  {
+    "resource": "expense",
+    "case": "company paid excluded",
+    "pass": true
+  },
+  {
+    "resource": "expense",
+    "case": "advance excess visible",
+    "pass": true
+  },
+  {
+    "resource": "expense",
+    "case": "eligible above receipt blocked",
+    "pass": true
+  },
+  {
+    "resource": "expense",
+    "case": "text amount blocked",
+    "pass": true
+  },
+  {
+    "resource": "expense",
+    "case": "restored baseline",
+    "pass": true
+  },
+  {
+    "resource": "expense",
+    "case": "blank incomplete",
+    "pass": true
+  },
+  {
+    "resource": "expense",
+    "case": "XLSX export/import baseline",
+    "pass": true
+  },
+  {
+    "resource": "requisition",
+    "case": "baseline",
+    "pass": true
+  },
+  {
+    "resource": "requisition",
+    "case": "quantity change",
+    "pass": true
+  },
+  {
+    "resource": "requisition",
+    "case": "zero quantity blocked",
+    "pass": true
+  },
+  {
+    "resource": "requisition",
+    "case": "text amount blocked",
+    "pass": true
+  },
+  {
+    "resource": "requisition",
+    "case": "restored baseline",
+    "pass": true
+  },
+  {
+    "resource": "requisition",
+    "case": "blank incomplete",
+    "pass": true
+  },
+  {
+    "resource": "requisition",
+    "case": "XLSX export/import baseline",
+    "pass": true
+  },
+  {
+    "resource": "order",
+    "case": "baseline",
+    "pass": true
+  },
+  {
+    "resource": "order",
+    "case": "quantity change",
+    "pass": true
+  },
+  {
+    "resource": "order",
+    "case": "zero quantity blocked",
+    "pass": true
+  },
+  {
+    "resource": "order",
+    "case": "overpayment visible",
+    "pass": true
+  },
+  {
+    "resource": "order",
+    "case": "excess discount blocked",
+    "pass": true
+  },
+  {
+    "resource": "order",
+    "case": "text amount blocked",
+    "pass": true
+  },
+  {
+    "resource": "order",
+    "case": "restored baseline",
+    "pass": true
+  },
+  {
+    "resource": "order",
+    "case": "blank incomplete",
+    "pass": true
+  },
+  {
+    "resource": "order",
+    "case": "XLSX export/import baseline",
+    "pass": true
+  }
+]
