@@ -1,0 +1,31 @@
+{
+  "contextual_links": [
+    {
+      "source": "/journal/academic-planner-school-year/",
+      "target": "/journal/best-planner-app-for-ipad-2026/",
+      "anchor": "iPad planner app comparison"
+    },
+    {
+      "source": "/journal/weekly-digital-planner-small-business/",
+      "target": "/journal/digital-planner-app-how-it-works/",
+      "anchor": "digital planner app and file comparison"
+    },
+    {
+      "source": "/journal/create-your-own-printable-planner/",
+      "target": "/journal/ipad-planner-app-buying-guide/",
+      "anchor": "iPad planner app buying checklist"
+    },
+    {
+      "source": "/journal/retail-store-business-plan-example/",
+      "target": "/planners/owneros-core/",
+      "anchor": "OwnerOS Core product details"
+    }
+  ],
+  "edited_pages": [
+    "journal/academic-planner-school-year",
+    "journal/weekly-digital-planner-small-business",
+    "journal/create-your-own-printable-planner",
+    "journal/retail-store-business-plan-example"
+  ],
+  "note": "Six targets already had direct main-content links from the retained indexed sample. Four missing paths are added without inventing technical exclusions or rewriting paid pages."
+}

@@ -31,7 +31,10 @@ class Page(HTMLParser):
   if self.body and not self.skip:self.body_text.append(d)
 def request(url):
  with urllib.request.urlopen(urllib.request.Request(url,headers={'Cache-Control':'no-cache'}),timeout=35) as r:return r.status,r.url,dict(r.headers),r.read()
-def run(live=False):
+def run(live=False, audit_dir=None):
+ global AUDIT
+ if audit_dir:
+  AUDIT=ROOT/audit_dir
  targets=json.loads((AUDIT/'targets.json').read_text());reference=json.loads((AUDIT/'inspection-reference.json').read_text());indexed={x['url'] for x in reference if x['code']=='I'}
  incoming={};pages={}
  for f in ROOT.rglob('index.html'):
@@ -67,4 +70,4 @@ def run(live=False):
  result={'checked_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'mode':'live' if live else 'source','passed':passed,'targets':len(rows),'added_links':len(added),'note':'Indexed source status is the saved 24 October inspection, not a new Google status check. Eligibility does not guarantee indexing.','rows':rows,'link_checks':added}
  path=AUDIT/('live-verification.json' if live else 'source-verification.json');path.write_text(json.dumps(result,indent=2)+'\n');print(json.dumps({k:v for k,v in result.items() if k not in ['rows','link_checks']}));return 0 if passed else 1
 if __name__=='__main__':
- ap=argparse.ArgumentParser();ap.add_argument('--live',action='store_true');sys.exit(run(ap.parse_args().live))
+ ap=argparse.ArgumentParser();ap.add_argument('--live',action='store_true');ap.add_argument('--audit-dir');args=ap.parse_args();sys.exit(run(args.live,args.audit_dir))
