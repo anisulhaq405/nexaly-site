@@ -153,3 +153,8 @@ Published 12 original guides and 11 distinct worksheets, with 14 contextual exis
 Prepared two substantive existing-journal improvements: small-engine weekly ready/blocked capacity and repair-parts supplier-delay/receipt/cancellation follow-up. Existing rental and renewal examples already cover the planned gap and were preserved. No new URL or paid product edit. Original publication dates retained; October 19 modification dates are planned until release. Local publishing/core/link/freshness checks pass. Exact scope and remaining release gates: `docs/editorial/oct19/README.md`. Hold draft until the October 19 publishing window; not live at preparation.
 
 October 18 follow-up: owner authorized immediate publication of the October 19 prepared batch. Actual modification dates set to October 18; mobile/desktop Chromium checks passed. Paid/pricing content preservation proved after removing only generated script cache-query differences. Exact-head CI and live verification remain release gates.
+
+
+## 24 October 2026 — discovered URL review
+
+Audited the exact 41 retained Discovered URLs; all returned HTTP 200 with correct self-canonicals and no observed noindex. Added 13 contextual links from eight individually inspected indexed resources. Refreshed three overlapping 2026 planner comparisons with separate format/layout/purchase scopes and original comparison tables. Full scope, baseline, rollback and reproducible checks: `docs/audits/indexability-2026-10-24/README.md`. Indexing is not confirmed by these eligibility checks; the separate Unknown and uninspected queues remain open.

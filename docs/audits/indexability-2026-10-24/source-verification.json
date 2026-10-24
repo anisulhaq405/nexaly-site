@@ -1,0 +1,1002 @@
+{
+  "checked_utc": "2026-10-24T11:42:04.687244+00:00",
+  "mode": "source",
+  "passed": true,
+  "targets": 41,
+  "added_links": 13,
+  "note": "Indexed source status is the saved 24 October inspection, not a new Google status check. Eligibility does not guarantee indexing.",
+  "rows": [
+    {
+      "url": "https://nexalyplanner.com/guides/business-runway-burn-rate-os/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/guides/",
+        "https://nexalyplanner.com/guides/agency-client-profitability-capacity-os/",
+        "https://nexalyplanner.com/guides/cashflow-13-os/",
+        "https://nexalyplanner.com/guides/renewguard-os/",
+        "https://nexalyplanner.com/journal/saas-business-plan-template-example/",
+        "https://nexalyplanner.com/journal/small-business-budget-example/",
+        "https://nexalyplanner.com/tools/service-business-financial-projections/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/tools/service-business-financial-projections/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/guides/consignclear-os/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/guides/",
+        "https://nexalyplanner.com/journal/how-to-track-consignment-inventory/",
+        "https://nexalyplanner.com/tools/consignment-settlement-planner/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/how-to-track-consignment-inventory/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/2026-monthly-planner-free-layouts/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/academic-planner-school-year/",
+        "https://nexalyplanner.com/journal/monthly-planner-2026-best-layouts/",
+        "https://nexalyplanner.com/journal/monthly-planner-free-templates/",
+        "https://nexalyplanner.com/journal/weekly-planner-2026-free-templates/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/academic-planner-school-year/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/a5-planner-sizes-layouts-digital-options/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/2026-monthly-planner-free-layouts/",
+        "https://nexalyplanner.com/journal/create-your-own-printable-planner/",
+        "https://nexalyplanner.com/journal/planner-2026-what-to-look-for/",
+        "https://nexalyplanner.com/journal/planners-2026-full-comparison/",
+        "https://nexalyplanner.com/journal/student-planner-guide/",
+        "https://nexalyplanner.com/tools/printable-planner-builder/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/create-your-own-printable-planner/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/agency-capacity-planning-example/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/business-planner-weekly-review/",
+        "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/",
+        "https://nexalyplanner.com/journal/client-profitability-analysis/",
+        "https://nexalyplanner.com/journal/freelance-business-plan-example/",
+        "https://nexalyplanner.com/journal/it-consulting-business-plan-retainer-capacity/",
+        "https://nexalyplanner.com/journal/marketing-agency-profit-margins/",
+        "https://nexalyplanner.com/tools/freelancer-weekly-capacity-planner/",
+        "https://nexalyplanner.com/tools/retainer-overage-calculator/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/client-profitability-analysis/",
+        "https://nexalyplanner.com/tools/freelancer-weekly-capacity-planner/",
+        "https://nexalyplanner.com/tools/retainer-overage-calculator/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/batch-lot-traceability-log/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/guides/free-batch-expiry-review-planner/",
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/how-to-track-consignment-inventory/",
+        "https://nexalyplanner.com/journal/inventory-count-sheet/",
+        "https://nexalyplanner.com/journal/inventory-software-without-subscription/",
+        "https://nexalyplanner.com/journal/production-schedule-template/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/how-to-track-consignment-inventory/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/best-2026-planners-digital-printable-options/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/best-digital-planner-for-ipad/",
+        "https://nexalyplanner.com/journal/planner-2026-what-to-look-for/",
+        "https://nexalyplanner.com/journal/planners-2026-full-comparison/",
+        "https://nexalyplanner.com/journal/weekly-digital-planner-small-business/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/weekly-digital-planner-small-business/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/best-digital-planner-for-ipad/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/best-planner-app-for-ipad-2026/",
+        "https://nexalyplanner.com/journal/create-your-own-printable-planner/",
+        "https://nexalyplanner.com/journal/digital-planner-app-how-it-works/",
+        "https://nexalyplanner.com/journal/ipad-planner-app-buying-guide/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/create-your-own-printable-planner/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/business-plan-financial-projections-service-example/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/saas-business-plan-template-example/",
+        "https://nexalyplanner.com/tools/service-business-financial-projections/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/tools/service-business-financial-projections/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/coffee-shop-business-plan-daily-capacity/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/small-business-budget-example/",
+        "https://nexalyplanner.com/tools/coffee-shop-daily-operating-plan/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/tools/coffee-shop-daily-operating-plan/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/construction-company-business-plan-milestone-cash/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/",
+        "https://nexalyplanner.com/tools/construction-milestone-cash-schedule/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/tools/construction-milestone-cash-schedule/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/daily-planner-complete-guide/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/2026-monthly-planner-free-layouts/",
+        "https://nexalyplanner.com/journal/academic-planner-school-year/",
+        "https://nexalyplanner.com/journal/daily-planner-2026-free-layouts/",
+        "https://nexalyplanner.com/journal/day-planner-vs-daily-planner/",
+        "https://nexalyplanner.com/journal/hourly-planner-best-free-digital-layouts/",
+        "https://nexalyplanner.com/journal/monthly-planner-free-templates/",
+        "https://nexalyplanner.com/journal/planners-2026-full-comparison/",
+        "https://nexalyplanner.com/tools/leave-on-time-routine-planner/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/academic-planner-school-year/",
+        "https://nexalyplanner.com/tools/leave-on-time-routine-planner/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/day-planner-vs-daily-planner/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/daily-planner-complete-guide/",
+        "https://nexalyplanner.com/journal/hourly-planner-best-free-digital-layouts/",
+        "https://nexalyplanner.com/tools/leave-on-time-routine-planner/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/tools/leave-on-time-routine-planner/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/digital-planner-for-ipad-setup/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/academic-planner-school-year/",
+        "https://nexalyplanner.com/journal/best-digital-planner-for-ipad/",
+        "https://nexalyplanner.com/journal/digital-planner-app-how-it-works/",
+        "https://nexalyplanner.com/journal/free-digital-planner-for-ipad/",
+        "https://nexalyplanner.com/journal/ipad-digital-planner-setup-guide/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/academic-planner-school-year/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/equipment-calibration-log/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/guides/calibratrack-os/",
+        "https://nexalyplanner.com/guides/free-calibration-due-date-planner/",
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/repair-shop-parts-inventory/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/guides/calibratrack-os/",
+        "https://nexalyplanner.com/journal/repair-shop-parts-inventory/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/free-digital-planner-for-ipad/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/academic-planner-school-year/",
+        "https://nexalyplanner.com/journal/best-digital-planner-for-ipad/",
+        "https://nexalyplanner.com/journal/digital-planner-for-ipad-setup/",
+        "https://nexalyplanner.com/journal/ipad-planner-app-buying-guide/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/academic-planner-school-year/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/freelance-business-plan-example/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/agency-capacity-planning-example/",
+        "https://nexalyplanner.com/journal/interior-design-business-plan-project-capacity/",
+        "https://nexalyplanner.com/journal/one-page-business-plan-template-assumptions/",
+        "https://nexalyplanner.com/journal/small-engine-repair-business-plan/",
+        "https://nexalyplanner.com/tools/freelancer-weekly-capacity-planner/",
+        "https://nexalyplanner.com/tools/one-page-business-plan-builder/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/interior-design-business-plan-project-capacity/",
+        "https://nexalyplanner.com/journal/one-page-business-plan-template-assumptions/",
+        "https://nexalyplanner.com/journal/small-engine-repair-business-plan/",
+        "https://nexalyplanner.com/tools/freelancer-weekly-capacity-planner/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/hourly-planner-best-free-digital-layouts/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/2026-monthly-planner-free-layouts/",
+        "https://nexalyplanner.com/journal/adhd-planner-for-adults/",
+        "https://nexalyplanner.com/journal/best-2026-planners-digital-printable-options/",
+        "https://nexalyplanner.com/journal/daily-digital-planner/",
+        "https://nexalyplanner.com/journal/daily-planner-2026-free-layouts/",
+        "https://nexalyplanner.com/journal/daily-planner-complete-guide/",
+        "https://nexalyplanner.com/journal/minimalist-planner/",
+        "https://nexalyplanner.com/journal/planner-2026-what-to-look-for/",
+        "https://nexalyplanner.com/journal/planners-2026-full-comparison/",
+        "https://nexalyplanner.com/journal/weekly-planner-2026-free-templates/",
+        "https://nexalyplanner.com/tools/leave-on-time-routine-planner/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/tools/leave-on-time-routine-planner/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/inventory-software-without-subscription/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/guides/consignclear-os/",
+        "https://nexalyplanner.com/guides/owneros-core/",
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/batch-lot-traceability-log/",
+        "https://nexalyplanner.com/journal/best-offline-small-business-software/",
+        "https://nexalyplanner.com/journal/black-friday-marketing-plan-small-business/",
+        "https://nexalyplanner.com/journal/reorder-point-small-business/",
+        "https://nexalyplanner.com/journal/sales-inventory-tracking-small-business/",
+        "https://nexalyplanner.com/journal/supplier-quote-comparison/",
+        "https://nexalyplanner.com/journal/track-small-business-orders/",
+        "https://nexalyplanner.com/journal/why-one-time-purchase-offline-apps/",
+        "https://nexalyplanner.com/tools/craft-fair-stock-reconciliation/",
+        "https://nexalyplanner.com/tools/physical-count-adjustment-worksheet/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/tools/craft-fair-stock-reconciliation/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/ipad-digital-planner-setup-guide/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/best-planner-app-for-ipad-2026/",
+        "https://nexalyplanner.com/journal/create-your-own-printable-planner/",
+        "https://nexalyplanner.com/journal/digital-planner-for-ipad-setup/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/create-your-own-printable-planner/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/planner-2026-what-to-look-for/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/best-2026-planners-digital-printable-options/",
+        "https://nexalyplanner.com/journal/weekly-digital-planner-small-business/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/weekly-digital-planner-small-business/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/planners-2026-full-comparison/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/academic-planner-school-year/",
+        "https://nexalyplanner.com/journal/best-2026-planners-digital-printable-options/",
+        "https://nexalyplanner.com/journal/daily-digital-planner/",
+        "https://nexalyplanner.com/journal/planner-2026-what-to-look-for/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/academic-planner-school-year/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/purchase-order-tracker/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/",
+        "https://nexalyplanner.com/journal/inventory-count-sheet/",
+        "https://nexalyplanner.com/journal/production-schedule-template/",
+        "https://nexalyplanner.com/journal/reorder-point-small-business/",
+        "https://nexalyplanner.com/journal/retail-store-business-plan-example/",
+        "https://nexalyplanner.com/journal/supplier-quote-comparison/",
+        "https://nexalyplanner.com/journal/supplier-scorecard-template/",
+        "https://nexalyplanner.com/journal/track-partial-shipments-backorders/",
+        "https://nexalyplanner.com/tools/packing-slip-template/",
+        "https://nexalyplanner.com/tools/purchase-order-template/",
+        "https://nexalyplanner.com/tools/purchase-requisition-template/",
+        "https://nexalyplanner.com/tools/reserved-vs-available-stock-planner/",
+        "https://nexalyplanner.com/tools/supplier-quote-comparison/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/retail-store-business-plan-example/",
+        "https://nexalyplanner.com/journal/track-partial-shipments-backorders/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/small-business-budget-example/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/",
+        "https://nexalyplanner.com/journal/cash-runway-template/",
+        "https://nexalyplanner.com/journal/coffee-shop-business-plan-daily-capacity/",
+        "https://nexalyplanner.com/journal/how-much-inventory-start-boutique/",
+        "https://nexalyplanner.com/journal/small-business-budget-template-monthly-variance/",
+        "https://nexalyplanner.com/tools/coffee-shop-daily-operating-plan/",
+        "https://nexalyplanner.com/tools/monthly-business-budget-variance/",
+        "https://nexalyplanner.com/tools/software-renewal-decision-planner/",
+        "https://nexalyplanner.com/tools/weekly-cash-commitments-planner/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/cash-runway-template/",
+        "https://nexalyplanner.com/journal/how-much-inventory-start-boutique/",
+        "https://nexalyplanner.com/journal/small-business-budget-template-monthly-variance/",
+        "https://nexalyplanner.com/tools/coffee-shop-daily-operating-plan/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/student-planner-guide/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/guides/ai-student-planner/",
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/a5-planner-sizes-layouts-digital-options/",
+        "https://nexalyplanner.com/journal/academic-planner-school-year/",
+        "https://nexalyplanner.com/journal/college-assignment-tracker/",
+        "https://nexalyplanner.com/journal/daily-digital-planner/",
+        "https://nexalyplanner.com/journal/daily-planner-complete-guide/",
+        "https://nexalyplanner.com/journal/day-planner-vs-daily-planner/",
+        "https://nexalyplanner.com/journal/digital-planner-for-ipad-setup/",
+        "https://nexalyplanner.com/journal/exam-study-schedule-template/",
+        "https://nexalyplanner.com/journal/free-digital-planner-for-ipad/",
+        "https://nexalyplanner.com/journal/hourly-planner-best-free-digital-layouts/",
+        "https://nexalyplanner.com/journal/ipad-planner-app-buying-guide/",
+        "https://nexalyplanner.com/journal/minimalist-planner/",
+        "https://nexalyplanner.com/journal/monthly-planner-free-templates/",
+        "https://nexalyplanner.com/journal/weekly-planner-2026-free-templates/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/academic-planner-school-year/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/supplier-scorecard-template/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/equipment-calibration-log/",
+        "https://nexalyplanner.com/journal/production-schedule-template/",
+        "https://nexalyplanner.com/journal/purchase-order-tracker/",
+        "https://nexalyplanner.com/journal/small-business-budget-template-monthly-variance/",
+        "https://nexalyplanner.com/journal/supplier-quote-comparison/",
+        "https://nexalyplanner.com/tools/supplier-lead-time-log/",
+        "https://nexalyplanner.com/tools/supplier-quote-comparison/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/small-business-budget-template-monthly-variance/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/trucking-company-business-plan-trip-cost/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/equipment-rental-business-plan-example/",
+        "https://nexalyplanner.com/tools/service-business-financial-projections/",
+        "https://nexalyplanner.com/tools/trucking-trip-cost-worksheet/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/tools/service-business-financial-projections/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/planners/cashflow-13-os/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/",
+        "https://nexalyplanner.com/guides/cashflow-13-os/",
+        "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/",
+        "https://nexalyplanner.com/journal/cash-flow-report-template-variance/",
+        "https://nexalyplanner.com/journal/construction-company-business-plan-milestone-cash/",
+        "https://nexalyplanner.com/planners/",
+        "https://nexalyplanner.com/planners/business-operating-systems/",
+        "https://nexalyplanner.com/tools/cash-flow-variance-report/",
+        "https://nexalyplanner.com/tools/construction-milestone-cash-schedule/",
+        "https://nexalyplanner.com/tools/weekly-cash-commitments-planner/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/cash-flow-report-template-variance/",
+        "https://nexalyplanner.com/tools/construction-milestone-cash-schedule/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/boutique-size-color-stock-matrix/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/boutique-inventory-spreadsheet/",
+        "https://nexalyplanner.com/journal/how-much-inventory-start-boutique/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/reserved-vs-available-stock-planner/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/how-much-inventory-start-boutique/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/caregiver-visit-coordination-planner/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/",
+        "https://nexalyplanner.com/guides/caregiver-planner-aging-parents/",
+        "https://nexalyplanner.com/journal/caregiver-daily-log-template/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/family-caregiver-handoff-sheet/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/caregiver-daily-log-template/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/content-repurposing-planner/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/",
+        "https://nexalyplanner.com/guides/content-marketing-planner/",
+        "https://nexalyplanner.com/journal/content-calendar-clothing-brand/",
+        "https://nexalyplanner.com/journal/one-page-marketing-plan-example/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/content-publishing-checklist/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/one-page-marketing-plan-example/",
+        "https://nexalyplanner.com/tools/content-publishing-checklist/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/equipment-maintenance-due-planner/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/",
+        "https://nexalyplanner.com/guides/calibratrack-os/",
+        "https://nexalyplanner.com/guides/free-calibration-due-date-planner/",
+        "https://nexalyplanner.com/journal/equipment-calibration-log/",
+        "https://nexalyplanner.com/journal/equipment-rental-business-plan-example/",
+        "https://nexalyplanner.com/journal/production-schedule-template/",
+        "https://nexalyplanner.com/journal/rental-equipment-maintenance-log/",
+        "https://nexalyplanner.com/journal/trucking-company-business-plan-trip-cost/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/document-renewal-calendar/",
+        "https://nexalyplanner.com/tools/rental-booking-conflict-checker/",
+        "https://nexalyplanner.com/tools/repair-parts-labour-worksheet/",
+        "https://nexalyplanner.com/tools/trucking-trip-cost-worksheet/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/guides/calibratrack-os/",
+        "https://nexalyplanner.com/journal/rental-equipment-maintenance-log/",
+        "https://nexalyplanner.com/tools/rental-booking-conflict-checker/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/family-caregiver-handoff-sheet/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/",
+        "https://nexalyplanner.com/guides/caregiver-planner-aging-parents/",
+        "https://nexalyplanner.com/journal/caregiver-daily-log-template/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/caregiver-visit-coordination-planner/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/caregiver-daily-log-template/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/homeschool-attendance-log/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/",
+        "https://nexalyplanner.com/journal/homeschool-attendance-tracker/",
+        "https://nexalyplanner.com/journal/homeschool-planner-multiple-children/",
+        "https://nexalyplanner.com/planners/digital-homeschool-planner/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/homeschool-portfolio-index/",
+        "https://nexalyplanner.com/tools/homeschool-subject-hours-log/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/tools/homeschool-portfolio-index/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/homeschool-subject-hours-log/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/",
+        "https://nexalyplanner.com/journal/homeschool-attendance-tracker/",
+        "https://nexalyplanner.com/journal/homeschool-planner-multiple-children/",
+        "https://nexalyplanner.com/journal/homeschool-schedule-multiple-ages/",
+        "https://nexalyplanner.com/planners/digital-homeschool-planner/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/homeschool-attendance-log/",
+        "https://nexalyplanner.com/tools/homeschool-portfolio-index/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/tools/homeschool-portfolio-index/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/monthly-business-budget-variance/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/cash-flow-report-template-variance/",
+        "https://nexalyplanner.com/journal/coffee-shop-business-plan-daily-capacity/",
+        "https://nexalyplanner.com/journal/small-business-budget-example/",
+        "https://nexalyplanner.com/journal/small-business-budget-template-monthly-variance/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/cash-flow-variance-report/",
+        "https://nexalyplanner.com/tools/coffee-shop-daily-operating-plan/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/cash-flow-report-template-variance/",
+        "https://nexalyplanner.com/journal/small-business-budget-template-monthly-variance/",
+        "https://nexalyplanner.com/tools/coffee-shop-daily-operating-plan/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/monthly-teacher-lesson-planner/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/academic-planner-school-year/",
+        "https://nexalyplanner.com/journal/create-your-own-printable-planner/",
+        "https://nexalyplanner.com/journal/monthly-teacher-planner-lesson-preparation/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/printable-planner-builder/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/academic-planner-school-year/",
+        "https://nexalyplanner.com/journal/create-your-own-printable-planner/",
+        "https://nexalyplanner.com/journal/monthly-teacher-planner-lesson-preparation/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/one-page-business-plan-builder/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/business-plan-financial-projections-service-example/",
+        "https://nexalyplanner.com/journal/freelance-business-plan-example/",
+        "https://nexalyplanner.com/journal/one-page-business-plan-template-assumptions/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/service-business-financial-projections/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/one-page-business-plan-template-assumptions/",
+        "https://nexalyplanner.com/tools/service-business-financial-projections/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/price-increase-budget-planner/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/contract-renewal-workflow/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/software-renewal-decision-planner/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/contract-renewal-workflow/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/repair-parts-labour-worksheet/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/",
+        "https://nexalyplanner.com/guides/free-repair-job-handoff-planner/",
+        "https://nexalyplanner.com/guides/repairbench-os/",
+        "https://nexalyplanner.com/journal/repair-shop-parts-inventory/",
+        "https://nexalyplanner.com/journal/small-engine-repair-business-plan/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/equipment-maintenance-due-planner/",
+        "https://nexalyplanner.com/tools/repair-job-handoff-planner/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/repair-shop-parts-inventory/",
+        "https://nexalyplanner.com/journal/small-engine-repair-business-plan/"
+      ],
+      "source_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/reserved-vs-available-stock-planner/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/release-reserved-stock-cancelled-orders/",
+        "https://nexalyplanner.com/journal/sales-inventory-tracking-small-business/",
+        "https://nexalyplanner.com/journal/track-partial-shipments-backorders/",
+        "https://nexalyplanner.com/journal/track-small-business-orders/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/boutique-size-color-stock-matrix/",
+        "https://nexalyplanner.com/tools/physical-count-adjustment-worksheet/",
+        "https://nexalyplanner.com/tools/stock-coverage-planner/",
+        "https://nexalyplanner.com/tools/supplier-quote-comparison/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/release-reserved-stock-cancelled-orders/",
+        "https://nexalyplanner.com/journal/track-partial-shipments-backorders/"
+      ],
+      "source_eligible": true
+    }
+  ],
+  "link_checks": [
+    {
+      "source": "https://nexalyplanner.com/journal/academic-planner-school-year/",
+      "target": "https://nexalyplanner.com/journal/2026-monthly-planner-free-layouts/",
+      "source_inspected_indexed": true,
+      "present_in_main": true
+    },
+    {
+      "source": "https://nexalyplanner.com/journal/academic-planner-school-year/",
+      "target": "https://nexalyplanner.com/journal/free-digital-planner-for-ipad/",
+      "source_inspected_indexed": true,
+      "present_in_main": true
+    },
+    {
+      "source": "https://nexalyplanner.com/journal/academic-planner-school-year/",
+      "target": "https://nexalyplanner.com/journal/planners-2026-full-comparison/",
+      "source_inspected_indexed": true,
+      "present_in_main": true
+    },
+    {
+      "source": "https://nexalyplanner.com/journal/weekly-digital-planner-small-business/",
+      "target": "https://nexalyplanner.com/journal/best-2026-planners-digital-printable-options/",
+      "source_inspected_indexed": true,
+      "present_in_main": true
+    },
+    {
+      "source": "https://nexalyplanner.com/journal/weekly-digital-planner-small-business/",
+      "target": "https://nexalyplanner.com/journal/planner-2026-what-to-look-for/",
+      "source_inspected_indexed": true,
+      "present_in_main": true
+    },
+    {
+      "source": "https://nexalyplanner.com/journal/create-your-own-printable-planner/",
+      "target": "https://nexalyplanner.com/journal/best-digital-planner-for-ipad/",
+      "source_inspected_indexed": true,
+      "present_in_main": true
+    },
+    {
+      "source": "https://nexalyplanner.com/journal/create-your-own-printable-planner/",
+      "target": "https://nexalyplanner.com/journal/ipad-digital-planner-setup-guide/",
+      "source_inspected_indexed": true,
+      "present_in_main": true
+    },
+    {
+      "source": "https://nexalyplanner.com/tools/leave-on-time-routine-planner/",
+      "target": "https://nexalyplanner.com/journal/day-planner-vs-daily-planner/",
+      "source_inspected_indexed": true,
+      "present_in_main": true
+    },
+    {
+      "source": "https://nexalyplanner.com/tools/leave-on-time-routine-planner/",
+      "target": "https://nexalyplanner.com/journal/hourly-planner-best-free-digital-layouts/",
+      "source_inspected_indexed": true,
+      "present_in_main": true
+    },
+    {
+      "source": "https://nexalyplanner.com/journal/how-to-track-consignment-inventory/",
+      "target": "https://nexalyplanner.com/journal/batch-lot-traceability-log/",
+      "source_inspected_indexed": true,
+      "present_in_main": true
+    },
+    {
+      "source": "https://nexalyplanner.com/journal/how-much-inventory-start-boutique/",
+      "target": "https://nexalyplanner.com/tools/boutique-size-color-stock-matrix/",
+      "source_inspected_indexed": true,
+      "present_in_main": true
+    },
+    {
+      "source": "https://nexalyplanner.com/tools/homeschool-portfolio-index/",
+      "target": "https://nexalyplanner.com/tools/homeschool-attendance-log/",
+      "source_inspected_indexed": true,
+      "present_in_main": true
+    },
+    {
+      "source": "https://nexalyplanner.com/tools/service-business-financial-projections/",
+      "target": "https://nexalyplanner.com/journal/trucking-company-business-plan-trip-cost/",
+      "source_inspected_indexed": true,
+      "present_in_main": true
+    }
+  ]
+}
