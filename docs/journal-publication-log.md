@@ -158,3 +158,8 @@ October 18 follow-up: owner authorized immediate publication of the October 19 p
 ## 24 October 2026 — discovered URL review
 
 Audited the exact 41 retained Discovered URLs; all returned HTTP 200 with correct self-canonicals and no observed noindex. Added 13 contextual links from eight individually inspected indexed resources. Refreshed three overlapping 2026 planner comparisons with separate format/layout/purchase scopes and original comparison tables. Full scope, baseline, rollback and reproducible checks: `docs/audits/indexability-2026-10-24/README.md`. Indexing is not confirmed by these eligibility checks; the separate Unknown and uninspected queues remain open.
+
+
+## 24 October 2026 — ten retained Unknown URLs
+
+Live-audited all ten exact canonical URLs: HTTP 200, source match, sitemap/robots eligibility, self-canonical and no observed noindex. Added four contextual discovery paths from the retained indexed sample; six targets already had such paths. No confirmed technical exclusion or new Google indexing status is claimed. Evidence and reproduction: `docs/audits/unknown-10-2026-10-24/README.md`.

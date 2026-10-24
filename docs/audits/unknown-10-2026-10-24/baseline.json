@@ -1,0 +1,334 @@
+{
+  "checked_utc": "2026-10-24T11:57:07.203453+00:00",
+  "mode": "live",
+  "passed": false,
+  "targets": 10,
+  "added_links": 0,
+  "note": "Indexed source status is the saved 24 October inspection, not a new Google status check. Eligibility does not guarantee indexing.",
+  "rows": [
+    {
+      "url": "https://nexalyplanner.com/journal/best-planner-app-for-ipad-2026/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/best-digital-planner-for-ipad/",
+        "https://nexalyplanner.com/journal/ipad-digital-planner-setup-guide/",
+        "https://nexalyplanner.com/journal/ipad-planner-app-buying-guide/"
+      ],
+      "inspected_indexed_sources": [],
+      "source_eligible": false,
+      "http": 200,
+      "final_url": "https://nexalyplanner.com/journal/best-planner-app-for-ipad-2026/",
+      "live_canonical": [
+        "https://nexalyplanner.com/journal/best-planner-app-for-ipad-2026/"
+      ],
+      "live_robots": [
+        "index,follow"
+      ],
+      "x_robots": "",
+      "source_match": true,
+      "live_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/guides/cashflow-13-os/",
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/agency-capacity-planning-example/",
+        "https://nexalyplanner.com/journal/cash-flow-report-template-variance/",
+        "https://nexalyplanner.com/journal/cash-runway-template/",
+        "https://nexalyplanner.com/journal/client-profitability-analysis/",
+        "https://nexalyplanner.com/journal/construction-company-business-plan-milestone-cash/",
+        "https://nexalyplanner.com/journal/contract-renewal-workflow/",
+        "https://nexalyplanner.com/journal/marketing-agency-profit-margins/",
+        "https://nexalyplanner.com/journal/rental-equipment-maintenance-log/",
+        "https://nexalyplanner.com/journal/small-business-balance-sheet-template/",
+        "https://nexalyplanner.com/journal/small-business-budget-example/",
+        "https://nexalyplanner.com/journal/small-business-budget-template-monthly-variance/",
+        "https://nexalyplanner.com/journal/small-engine-repair-business-plan/",
+        "https://nexalyplanner.com/journal/weekly-digital-planner-small-business/",
+        "https://nexalyplanner.com/tools/cash-flow-variance-report/",
+        "https://nexalyplanner.com/tools/construction-milestone-cash-schedule/",
+        "https://nexalyplanner.com/tools/expense-report-template/",
+        "https://nexalyplanner.com/tools/invoice-collection-schedule/",
+        "https://nexalyplanner.com/tools/marketing-campaign-budget-planner/",
+        "https://nexalyplanner.com/tools/one-page-business-plan-builder/",
+        "https://nexalyplanner.com/tools/weekly-cash-commitments-planner/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/cash-flow-report-template-variance/",
+        "https://nexalyplanner.com/journal/cash-runway-template/",
+        "https://nexalyplanner.com/journal/client-profitability-analysis/",
+        "https://nexalyplanner.com/journal/contract-renewal-workflow/",
+        "https://nexalyplanner.com/journal/rental-equipment-maintenance-log/",
+        "https://nexalyplanner.com/journal/small-business-budget-template-monthly-variance/",
+        "https://nexalyplanner.com/journal/small-engine-repair-business-plan/",
+        "https://nexalyplanner.com/journal/weekly-digital-planner-small-business/",
+        "https://nexalyplanner.com/tools/construction-milestone-cash-schedule/",
+        "https://nexalyplanner.com/tools/invoice-collection-schedule/"
+      ],
+      "source_eligible": true,
+      "http": 200,
+      "final_url": "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/",
+      "live_canonical": [
+        "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/"
+      ],
+      "live_robots": [
+        "index,follow"
+      ],
+      "x_robots": "",
+      "source_match": true,
+      "live_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/digital-planner-app-how-it-works/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/free-digital-planner-for-ipad/"
+      ],
+      "inspected_indexed_sources": [],
+      "source_eligible": false,
+      "http": 200,
+      "final_url": "https://nexalyplanner.com/journal/digital-planner-app-how-it-works/",
+      "live_canonical": [
+        "https://nexalyplanner.com/journal/digital-planner-app-how-it-works/"
+      ],
+      "live_robots": [
+        "index,follow"
+      ],
+      "x_robots": "",
+      "source_match": true,
+      "live_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/equipment-rental-business-plan-example/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/rental-equipment-maintenance-log/",
+        "https://nexalyplanner.com/journal/trucking-company-business-plan-trip-cost/",
+        "https://nexalyplanner.com/tools/equipment-maintenance-due-planner/",
+        "https://nexalyplanner.com/tools/rental-booking-conflict-checker/",
+        "https://nexalyplanner.com/tools/trucking-trip-cost-worksheet/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/rental-equipment-maintenance-log/",
+        "https://nexalyplanner.com/tools/rental-booking-conflict-checker/"
+      ],
+      "source_eligible": true,
+      "http": 200,
+      "final_url": "https://nexalyplanner.com/journal/equipment-rental-business-plan-example/",
+      "live_canonical": [
+        "https://nexalyplanner.com/journal/equipment-rental-business-plan-example/"
+      ],
+      "live_robots": [
+        "index,follow"
+      ],
+      "x_robots": "",
+      "source_match": true,
+      "live_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/ipad-planner-app-buying-guide/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/",
+        "https://nexalyplanner.com/journal/best-digital-planner-for-ipad/"
+      ],
+      "inspected_indexed_sources": [],
+      "source_eligible": false,
+      "http": 200,
+      "final_url": "https://nexalyplanner.com/journal/ipad-planner-app-buying-guide/",
+      "live_canonical": [
+        "https://nexalyplanner.com/journal/ipad-planner-app-buying-guide/"
+      ],
+      "live_robots": [
+        "index,follow"
+      ],
+      "x_robots": "",
+      "source_match": true,
+      "live_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/planners/owneros-core/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/guides/owneros-core/",
+        "https://nexalyplanner.com/journal/freelance-business-plan-example/",
+        "https://nexalyplanner.com/planners/",
+        "https://nexalyplanner.com/planners/business-operating-systems/"
+      ],
+      "inspected_indexed_sources": [],
+      "source_eligible": false,
+      "http": 200,
+      "final_url": "https://nexalyplanner.com/planners/owneros-core/",
+      "live_canonical": [
+        "https://nexalyplanner.com/planners/owneros-core/"
+      ],
+      "live_robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "x_robots": "",
+      "source_match": true,
+      "live_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/planners/renewguard-os/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/",
+        "https://nexalyplanner.com/guides/renewguard-os/",
+        "https://nexalyplanner.com/journal/contract-renewal-workflow/",
+        "https://nexalyplanner.com/planners/",
+        "https://nexalyplanner.com/planners/business-operating-systems/",
+        "https://nexalyplanner.com/tools/document-renewal-calendar/",
+        "https://nexalyplanner.com/tools/price-increase-budget-planner/",
+        "https://nexalyplanner.com/tools/software-renewal-decision-planner/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/contract-renewal-workflow/"
+      ],
+      "source_eligible": true,
+      "http": 200,
+      "final_url": "https://nexalyplanner.com/planners/renewguard-os/",
+      "live_canonical": [
+        "https://nexalyplanner.com/planners/renewguard-os/"
+      ],
+      "live_robots": [],
+      "x_robots": "",
+      "source_match": true,
+      "live_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/cash-flow-variance-report/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/",
+        "https://nexalyplanner.com/journal/cash-flow-report-template-variance/",
+        "https://nexalyplanner.com/journal/small-business-budget-template-monthly-variance/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/monthly-business-budget-variance/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/cash-flow-report-template-variance/",
+        "https://nexalyplanner.com/journal/small-business-budget-template-monthly-variance/"
+      ],
+      "source_eligible": true,
+      "http": 200,
+      "final_url": "https://nexalyplanner.com/tools/cash-flow-variance-report/",
+      "live_canonical": [
+        "https://nexalyplanner.com/tools/cash-flow-variance-report/"
+      ],
+      "live_robots": [
+        "index,follow"
+      ],
+      "x_robots": "",
+      "source_match": true,
+      "live_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/content-production-capacity-planner/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/content-calendar-clothing-brand/",
+        "https://nexalyplanner.com/journal/content-marketing-plan-template-capacity/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/marketing-campaign-budget-planner/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/content-marketing-plan-template-capacity/"
+      ],
+      "source_eligible": true,
+      "http": 200,
+      "final_url": "https://nexalyplanner.com/tools/content-production-capacity-planner/",
+      "live_canonical": [
+        "https://nexalyplanner.com/tools/content-production-capacity-planner/"
+      ],
+      "live_robots": [
+        "index,follow"
+      ],
+      "x_robots": "",
+      "source_match": true,
+      "live_eligible": true
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/marketing-campaign-budget-planner/",
+      "in_sitemap": true,
+      "robots_allowed": true,
+      "self_canonical": true,
+      "one_h1": true,
+      "no_noindex": true,
+      "main_content_present": true,
+      "incoming_sources": [
+        "https://nexalyplanner.com/journal/content-marketing-plan-template-capacity/",
+        "https://nexalyplanner.com/journal/one-page-marketing-plan-example/",
+        "https://nexalyplanner.com/tools/",
+        "https://nexalyplanner.com/tools/content-production-capacity-planner/"
+      ],
+      "inspected_indexed_sources": [
+        "https://nexalyplanner.com/journal/content-marketing-plan-template-capacity/",
+        "https://nexalyplanner.com/journal/one-page-marketing-plan-example/"
+      ],
+      "source_eligible": true,
+      "http": 200,
+      "final_url": "https://nexalyplanner.com/tools/marketing-campaign-budget-planner/",
+      "live_canonical": [
+        "https://nexalyplanner.com/tools/marketing-campaign-budget-planner/"
+      ],
+      "live_robots": [
+        "index,follow"
+      ],
+      "x_robots": "",
+      "source_match": true,
+      "live_eligible": true
+    }
+  ],
+  "link_checks": []
+}
