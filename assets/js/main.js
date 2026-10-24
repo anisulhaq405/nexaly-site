@@ -761,12 +761,12 @@ var posts = [
   },
   {
     "url": "/journal/best-2026-planners-digital-printable-options/",
-    "title": "Best 2026 Planners: Digital and Printable Options",
-    "excerpt": "Compare the best 2026 planner formats, including digital, printable, paper, daily, weekly, and monthly options for US readers.",
+    "title": "2026 Planner Formats: Digital, Printable or Paper?",
+    "excerpt": "Compare paper, printable PDF, annotated PDF and browser planner formats for 2026. Use a one-week test to check editing, offline access and backups.",
     "img": "/images/journal/best-2026-planners-digital-printable-options-20260918.jpg",
     "alt": "2026 digital and printable planner options arranged on a desk with monthly, weekly, and daily layouts",
     "tag": "Planning Guides",
-    "date": "Sep 22, 2026"
+    "date": "Updated Oct 24, 2026"
   },
   {
     "url": "/journal/daily-planner-2026-free-layouts/",
@@ -788,21 +788,21 @@ var posts = [
   },
   {
     "url": "/journal/planner-2026-what-to-look-for/",
-    "title": "Planner 2026: What to Look For Before You Buy",
-    "excerpt": "Choosing a planner 2026? Compare paper, PDF, digital, and app formats, then check layouts, dates, compatibility, and backup before buying.",
+    "title": "2026 Planner Buying Checklist: Dates, Files and Backups",
+    "excerpt": "Check a 2026 planner before buying: remaining date coverage, file type, device requirements, sample pages, exports and backup limits.",
     "img": "/images/journal/planner-2026-what-to-look-for-20260918.jpg",
     "alt": "Open 2026 planner beside a tablet and handwritten weekly schedule",
     "tag": "Planning Guides",
-    "date": "Sep 22, 2026"
+    "date": "Updated Oct 24, 2026"
   },
   {
     "url": "/journal/planners-2026-full-comparison/",
-    "title": "Planners 2026: Full Comparison for Work, Study, and Life",
-    "excerpt": "Compare planners 2026 formats for work, study, and life. Choose daily, weekly, monthly, paper, printable, or digital layouts.",
+    "title": "Daily vs Weekly vs Monthly Planners for 2026",
+    "excerpt": "Choose daily, weekly or monthly planner layouts for 2026. Compare planning horizons and use one deadline across three views without duplicating task lists.",
     "img": "/images/journal/planners-2026-full-comparison-20260918.jpg",
     "alt": "Open 2026 planner with monthly, weekly, and daily planning pages for work, study, and home life",
     "tag": "Planning Guides",
-    "date": "Sep 22, 2026"
+    "date": "Updated Oct 24, 2026"
   },
   {
     "url": "/journal/weekly-planner-2026-free-templates/",
