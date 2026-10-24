@@ -321,7 +321,7 @@ var posts = [
   {
     "tag": "Attendance Tracker",
     "title": "Free Homeschool Attendance Sheet and Daily Tracker",
-    "date": "Updated Oct 16, 2026 · 5 min",
+    "date": "Updated Oct 24, 2026 · 5 min",
     "url": "/journal/homeschool-attendance-tracker/",
     "img": "/images/journal/homeschool-attendance-tracker-cover-20261015.webp",
     "alt": "Homeschool attendance tracker cover with a calendar, learning books and an attendance notebook",
@@ -330,7 +330,7 @@ var posts = [
   {
     "tag": "Student Planner",
     "title": "College Assignment Tracker: Free Excel and Google Sheets Template",
-    "date": "Updated Oct 23, 2026 · 5 min",
+    "date": "Updated Oct 24, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
     "img": "/images/journal/college-assignment-tracker-cover-20261015.webp",
     "alt": "College assignment tracker cover showing a study desk, assignment list and deadline calendar",
@@ -658,7 +658,7 @@ var posts = [
     "img": "/images/journal/saas-business-plan-template-example-v2.jpg",
     "alt": "Founder reviewing subscriber growth and cash runway charts under SaaS Business Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 13, 2026"
+    "date": "Updated Oct 24, 2026"
   },
   {
     "url": "/journal/small-business-budget-example/",
@@ -775,7 +775,7 @@ var posts = [
     "img": "/images/journal/daily-planner-2026-free-layouts-20260918.jpg",
     "alt": "Open 2026 daily planner showing priorities, time blocks, appointments, and notes beside a tablet",
     "tag": "Planning Guides",
-    "date": "Updated Oct 13, 2026"
+    "date": "Updated Oct 24, 2026"
   },
   {
     "url": "/journal/monthly-planner-2026-best-layouts/",
@@ -784,7 +784,7 @@ var posts = [
     "img": "/images/journal/monthly-planner-2026-best-layouts-20260918.jpg",
     "alt": "Open monthly planner 2026 showing a calendar grid, priorities, and notes for a realistic March planning example",
     "tag": "Planning Guides",
-    "date": "Sep 22, 2026"
+    "date": "Updated Oct 24, 2026"
   },
   {
     "url": "/journal/planner-2026-what-to-look-for/",
@@ -811,7 +811,7 @@ var posts = [
     "img": "/images/journal/weekly-planner-2026-free-templates-20260918.jpg",
     "alt": "Open 2026 weekly planner showing priorities, appointments, daily tasks, and a short weekly review",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Oct 24, 2026"
   },
   {
     "url": "/journal/a5-planner-sizes-layouts-digital-options/",
@@ -829,7 +829,7 @@ var posts = [
     "img": "/images/journal/daily-digital-planner-20260918.jpg",
     "alt": "Open daily digital planner showing priorities, time blocks, notes, and a completed day",
     "tag": "Planning Guides",
-    "date": "Updated Sep 21, 2026"
+    "date": "Updated Oct 24, 2026"
   },
   {
     "url": "/journal/daily-planner-complete-guide/",
@@ -874,7 +874,7 @@ var posts = [
     "img": "/images/journal/minimalist-planner-20260918.jpg",
     "alt": "Open minimalist planner with three priorities, a short schedule, and a notes area on a clean desk",
     "tag": "Planning Guides",
-    "date": "Updated Sep 21, 2026"
+    "date": "Updated Oct 24, 2026"
   },
   {
     "url": "/journal/adhd-planner-for-adults/",
@@ -883,7 +883,7 @@ var posts = [
     "img": "/images/journal/adhd-planner-for-adults-20260915.jpg",
     "alt": "Adult using a short visual daily plan, capture inbox and focus timer under the heading ADHD Planner That Sticks",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Oct 24, 2026"
   },
   {
     "url": "/journal/business-planner-weekly-review/",
@@ -892,7 +892,7 @@ var posts = [
     "img": "/images/journal/business-planner-weekly-review-20260915.jpg",
     "alt": "Small-business owner reviewing goals, orders, weekly sales, cash and next actions under the heading Plan the Business Week",
     "tag": "Planning Guides",
-    "date": "Updated Oct 17, 2026"
+    "date": "Updated Oct 24, 2026"
   },
   {
     "url": "/journal/student-planner-guide/",
@@ -910,7 +910,7 @@ var posts = [
     "img": "/images/journal/supplier-quote-comparison-20260915.jpg",
     "alt": "Three supplier quote folders beside a parcel and calculator, with the heading Compare Supplier Quotes",
     "tag": "Planning Guides",
-    "date": "Updated Oct 22, 2026"
+    "date": "Updated Oct 24, 2026"
   },
   {
     "url": "/journal/reorder-point-small-business/",
@@ -919,12 +919,12 @@ var posts = [
     "img": "/images/journal/reorder-point-20260915.jpg",
     "alt": "Organized stockroom with parcels, a low-stock shelf marker and the heading When to Reorder",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Oct 24, 2026"
   },
   {
     "tag": "Small Business Software",
     "title": "The Best Offline Small Business Software in 2026 (No Subscription)",
-    "date": "Updated Oct 1, 2026 · 7 min",
+    "date": "Updated Oct 24, 2026 · 7 min",
     "url": "/journal/best-offline-small-business-software/",
     "img": "/images/products/repairbench-os/repairbench-os-owner-dashboard.jpg",
     "alt": "offline small business software dashboard showing revenue, gross profit and a job pipeline",
@@ -933,7 +933,7 @@ var posts = [
   {
     "tag": "Digital Planners",
     "title": "Digital Planners That Work Offline: A 2026 Buyer's Guide",
-    "date": "Updated Oct 1, 2026 · 6 min",
+    "date": "Updated Oct 24, 2026 · 6 min",
     "url": "/journal/offline-digital-planners-guide/",
     "img": "/images/products/ai-student-planner/ai-student-planner-dashboard-analytics.jpg",
     "alt": "offline digital planner dashboard with study time, tasks, streaks and analytics",
@@ -942,7 +942,7 @@ var posts = [
   {
     "tag": "No Subscription",
     "title": "Subscription Fatigue Is Real: Why One-Time-Purchase, Offline Apps Win",
-    "date": "Updated Oct 12, 2026 · 6 min",
+    "date": "Updated Oct 24, 2026 · 6 min",
     "url": "/journal/why-one-time-purchase-offline-apps/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-parent-command-center.jpg",
     "alt": "Subscription Fatigue Is Real: Why One-Time-Purchase, Offline Apps Win",
@@ -951,7 +951,7 @@ var posts = [
   {
     "tag": "Inventory",
     "title": "Boutique Inventory Spreadsheet: Track Sizes, Colors and Stock",
-    "date": "Updated Oct 23, 2026 · 5 min",
+    "date": "Updated Oct 24, 2026 · 5 min",
     "url": "/journal/boutique-inventory-spreadsheet/",
     "img": "/images/journal/boutique-inventory-spreadsheet-cover-20261015.webp",
     "alt": "Boutique inventory spreadsheet cover showing size-labeled clothing stock and a laptop",
@@ -969,7 +969,7 @@ var posts = [
   {
     "tag": "Sales Tracking",
     "title": "How to Connect Sales and Inventory Tracking for a Small Shop",
-    "date": "Updated Oct 23, 2026 · 5 min",
+    "date": "Updated Oct 24, 2026 · 5 min",
     "url": "/journal/sales-inventory-tracking-small-business/",
     "img": "/images/products/sales-management-system/8-dashboard-closeup.webp",
     "alt": "How to Connect Sales and Inventory Tracking for a Small Shop",
@@ -978,7 +978,7 @@ var posts = [
   {
     "tag": "Content Calendar",
     "title": "A 30-Day Content Calendar for a Clothing Brand",
-    "date": "Updated Oct 23, 2026 · 5 min",
+    "date": "Updated Oct 24, 2026 · 5 min",
     "url": "/journal/content-calendar-clothing-brand/",
     "img": "/images/products/content-marketing-planner/content-marketing-planner-visual-content-calendar.jpg",
     "alt": "A 30-Day Content Calendar for a Clothing Brand",
@@ -987,7 +987,7 @@ var posts = [
   {
     "tag": "Social Content",
     "title": "30 Boutique Social Media Post Ideas With Clear Sales CTAs",
-    "date": "Sep 8, 2026 · 6 min",
+    "date": "Updated Oct 24, 2026 · 6 min",
     "url": "/journal/boutique-social-media-post-ideas/",
     "img": "/images/products/content-marketing-planner/content-marketing-planner-content-hub.jpg",
     "alt": "30 Boutique Social Media Post Ideas With Clear Sales CTAs",
@@ -996,7 +996,7 @@ var posts = [
   {
     "tag": "Marketing Plan",
     "title": "Black Friday Marketing Plan for a Small Clothing Business",
-    "date": "Sep 8, 2026 · 5 min",
+    "date": "Updated Oct 24, 2026 · 5 min",
     "url": "/journal/black-friday-marketing-plan-small-business/",
     "img": "/images/products/content-marketing-planner/content-marketing-planner-analytics-what-sells.jpg",
     "alt": "Black Friday Marketing Plan for a Small Clothing Business",
@@ -1005,7 +1005,7 @@ var posts = [
   {
     "tag": "Homeschool Schedule",
     "title": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
-    "date": "Updated Oct 23, 2026 · 5 min",
+    "date": "Updated Oct 24, 2026 · 5 min",
     "url": "/journal/homeschool-schedule-multiple-ages/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-lesson-planner-calendar.jpg",
     "alt": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
@@ -1014,7 +1014,7 @@ var posts = [
   {
     "tag": "Homeschool Planner",
     "title": "Choosing a Homeschool Planner for Multiple Children",
-    "date": "Updated Oct 15, 2026 · 5 min",
+    "date": "Updated Oct 24, 2026 · 5 min",
     "url": "/journal/homeschool-planner-multiple-children/",
     "img": "/images/journal/homeschool-planner-multiple-children-cover-20261015.webp",
     "alt": "Homeschool weekly planner cover with two learner planning sheets and subject materials",
@@ -1023,7 +1023,7 @@ var posts = [
   {
     "tag": "Study Schedule",
     "title": "Exam Study Schedule Template: Plan the Weeks Before Finals",
-    "date": "Updated Oct 23, 2026 · 5 min",
+    "date": "Updated Oct 24, 2026 · 5 min",
     "url": "/journal/exam-study-schedule-template/",
     "img": "/images/journal/exam-prep-20260915.jpg",
     "alt": "Study desk with a planning notebook, textbooks and a clock under the heading Plan Your Exam Prep",
@@ -1036,7 +1036,7 @@ var posts = [
     "img": "/images/journal/one-person-business-ai-concept.jpg",
     "alt": "A solo business owner at a laptop with conceptual AI panels for research, writing, support and business records",
     "tag": "Planning Guides",
-    "date": "Updated Oct 12, 2026"
+    "date": "Updated Oct 24, 2026"
   }
 ];
 var heartSvg = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.6-9.3-8.4C1 9.5 2.4 6 5.6 6c1.9 0 3.2 1.1 4.4 2.6C11.2 7.1 12.5 6 14.4 6c3.2 0 4.6 3.5 2.9 6.6C19 16.4 12 21 12 21z"/></svg>';
