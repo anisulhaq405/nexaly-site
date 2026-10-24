@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "expense-report-template",
+    "one_h1": true,
+    "unique_ids": true,
+    "one_schema_graph": true,
+    "internal_assets_and_links": true,
+    "in_sitemap": true
+  },
+  {
+    "slug": "purchase-requisition-template",
+    "one_h1": true,
+    "unique_ids": true,
+    "one_schema_graph": true,
+    "internal_assets_and_links": true,
+    "in_sitemap": true
+  },
+  {
+    "slug": "customer-order-form",
+    "one_h1": true,
+    "unique_ids": true,
+    "one_schema_graph": true,
+    "internal_assets_and_links": true,
+    "in_sitemap": true
+  }
+]
