@@ -55,7 +55,8 @@
         var resource = url.pathname.match(/^\/assets\/downloads\/([a-z0-9][a-z0-9-]*)\.(xlsx|pdf|html|txt|csv)$/i);
         if (resource) window.gtag('event', resource[2] === 'html' ? 'template_open' : 'template_download', {resource_id: resource[1], file_extension: resource[2], page_location: location.origin + location.pathname, page_referrer: ''});
         var product = url.pathname.match(/^\/planners\/([a-z0-9-]+)\/$/);
-        // Count the same product-intent event from both editorial guides and free worksheets.\n        if (/^\/(?:journal|tools)\/[a-z0-9-]+\/$/.test(location.pathname) && product && !/^(digital-planners|business-operating-systems)$/.test(product[1])) window.gtag('event', 'product_click', {product_id: product[1], page_location: location.origin + location.pathname, page_referrer: ''});
+        // Count the same product-intent event from both editorial guides and free worksheets.
+        if (/^\/(?:journal|tools)\/[a-z0-9-]+\/$/.test(location.pathname) && product && !/^(digital-planners|business-operating-systems)$/.test(product[1])) window.gtag('event', 'product_click', {product_id: product[1], page_location: location.origin + location.pathname, page_referrer: ''});
         var demo = url.pathname.match(/^\/demos\/([a-z0-9-]+)\/(?:index\.html)?$/);
         if (demo) window.gtag('event', 'demo_open', {product_id: demo[1], page_location: location.origin + location.pathname});
       }
