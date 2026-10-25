@@ -56,6 +56,20 @@ for (const choice of [null, 'accepted', 'rejected']) {
 {const panel={hidden:true};vm.runInNewContext(bootstrap,{localStorage:{getItem(){throw Error('blocked');}},document:{getElementById:()=>panel}});assert.equal(panel.hidden,false);}
 console.log('PASS first-render consent: saved choices, blocked storage, no duplicate/recreated markup, rejection and existing consent gate.');
 
+// Free planner CTA clicks are product intent, not purchases, and remain consent-gated.
+const toolProduct = fixture('accepted','/tools/boutique-return-to-stock-log/');
+toolProduct.click('https://nexalyplanner.com/planners/boutique-business-planner/?ignored=secret');
+toolProduct.click('https://nexalyplanner.com/planners/digital-planners/');
+assert.deepEqual(toolProduct.events().map(x => x[0]), ['page_view','product_click']);
+assert.equal(toolProduct.events()[1][1].product_id, 'boutique-business-planner');
+assert.equal(toolProduct.events()[1][1].page_location, 'https://nexalyplanner.com/tools/boutique-return-to-stock-log/');
+assert(!JSON.stringify(toolProduct.events()).includes('secret'));
+assert(!toolProduct.events().some(x => x[0] === 'purchase'));
+const rejectedToolProduct = fixture('rejected','/tools/boutique-return-to-stock-log/');
+rejectedToolProduct.click('https://nexalyplanner.com/planners/boutique-business-planner/');
+assert.equal(rejectedToolProduct.events().length,0);
+console.log('PASS free planner product_click: proper destination, source path, consent gate and no purchase fabrication.');
+
 const expanded = fixture('accepted','/tools/purchase-order-template/',false,'https://www.google.com/search?q=private-secret');
 for(const file of ['boutique-inventory-worksheet.xlsx','small-business-order-tracker.csv','supplier-scorecard.xlsx','purchase-order-template.xlsx','purchase-order-template.pdf','one-page-marketing-plan-template.html','homeschool-attendance-sheet-A4.pdf']) expanded.click('https://nexalyplanner.com/assets/downloads/'+file+'?private=secret');
 expanded.click('https://nexalyplanner.com/demos/inventory-procurement-planner/');
