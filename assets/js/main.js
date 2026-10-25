@@ -292,6 +292,15 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/planner-sizes-chart-printable-inserts/",
+    "title": "Planner Sizes Chart: A5, Half Letter, A4 & Inserts",
+    "excerpt": "Compare planner sizes in inches and mm: A5 vs Half Letter, A4 vs US Letter, B5, Personal and 7×9 inserts. Print at actual size and check binder fit.",
+    "img": "/assets/img/journal-responsive/a5-planner-sizes-layouts-digital-options-1280.webp",
+    "alt": "A5 planner example beside a tablet, illustrating one format in a full planner sizes comparison",
+    "tag": "Planning Guides",
+    "date": "Oct 25, 2026"
+  },
+  {
     "url": "/journal/small-business-balance-sheet-template/",
     "title": "Small Business Balance Sheet Template With a Filled Example",
     "excerpt": "Download a small business balance sheet template in Excel with a blank sheet, filled $15,000 example, balance check, printable PDF and clear instructions.",
