@@ -61,10 +61,23 @@
         if (demo) window.gtag('event', 'demo_open', {product_id: demo[1], page_location: location.origin + location.pathname});
       }
       // A checkout click is intent only; it is never a purchase event.
-      if (url.origin === 'https://buy.polar.sh' && /^\/polar_cl_[A-Za-z0-9_]+$/.test(url.pathname)) window.gtag('event', 'checkout_click', {page_location: location.origin + location.pathname});
+      if (url.origin === 'https://buy.polar.sh' && /^\/polar_cl_[A-Za-z0-9_]+$/.test(url.pathname)) {
+        var productPage = location.pathname.match(/^\/planners\/([a-z0-9-]+)\/$/);
+        var checkoutInfo = {page_location: location.origin + location.pathname};
+        if (productPage && !/^(digital-planners|business-operating-systems)$/.test(productPage[1])) checkoutInfo.product_id = productPage[1];
+        window.gtag('event', 'checkout_click', checkoutInfo);
+      }
     }
     var button = event.target.closest('button');
-    if (button && button.getAttribute && button.getAttribute('onclick') === 'buyProduct()' && window.products && window.products[window.curP] && window.products[window.curP].buyUrl) window.gtag('event', 'checkout_click', {page_location: location.origin + location.pathname});
+    if (button && button.getAttribute && button.getAttribute('onclick') === 'buyProduct()' && !button.classList.contains('btn-ghost') && window.products && window.products[window.curP] && window.products[window.curP].buyUrl) {
+      var selectedProduct = window.products[window.curP];
+      var buttonCheckout = {page_location: location.origin + location.pathname};
+      if (selectedProduct.url) {
+        var selectedPath = selectedProduct.url.match(/^\/planners\/([a-z0-9-]+)\/$/);
+        if (selectedPath) buttonCheckout.product_id = selectedPath[1];
+      }
+      window.gtag('event', 'checkout_click', buttonCheckout);
+    }
     var match = location.pathname.match(/^\/tools\/([a-z0-9-]+)\/$/);
     if (match && button && actions[button.id]) window.gtag('event', 'planner_action', {planner_id: match[1], planner_action: actions[button.id], page_location: location.origin + location.pathname, page_referrer: ''});
   });
