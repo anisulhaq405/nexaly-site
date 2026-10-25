@@ -69,7 +69,7 @@
       }
     }
     var button = event.target.closest('button');
-    if (button && button.getAttribute && button.getAttribute('onclick') === 'buyProduct()' && window.products && window.products[window.curP] && window.products[window.curP].buyUrl) {
+    if (button && button.getAttribute && button.getAttribute('onclick') === 'buyProduct()' && !button.classList.contains('btn-ghost') && window.products && window.products[window.curP] && window.products[window.curP].buyUrl) {
       var selectedProduct = window.products[window.curP];
       var buttonCheckout = {page_location: location.origin + location.pathname};
       if (selectedProduct.url) {
