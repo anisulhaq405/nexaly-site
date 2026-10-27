@@ -1884,8 +1884,9 @@
       "attemptedAt": "2026-10-27T09:51:34.953741+00:00"
     },
     "https://nexalyplanner.com/planners/cashflow-13-os/|instagram": {
-      "revision": "f791de0a08de7a7b94f0212e32533a0dce265856f61e1db0573aae5195bad564",
-      "status": "baseline"
+      "revision": "7dda643bce207c4cfc792a3f85d83969d174bb259e86944103eca1173d2c0ea3",
+      "status": "attempting",
+      "attemptedAt": "2026-10-27T09:51:37.913692+00:00"
     },
     "https://nexalyplanner.com/planners/cashflow-13-os/|pinterest": {
       "revision": "f791de0a08de7a7b94f0212e32533a0dce265856f61e1db0573aae5195bad564",
