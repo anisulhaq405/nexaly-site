@@ -1832,8 +1832,9 @@
       "attemptedAt": "2026-10-27T09:51:18.825914+00:00"
     },
     "https://nexalyplanner.com/planners/business-runway-burn-rate-os/|instagram": {
-      "revision": "897ee42c9c436eab06c14bfa48c0dac02d3f16d107c53a88d1ba1496019b5b95",
-      "status": "baseline"
+      "revision": "bd0f3a6990c47888c1835588ae268acb1a57c183f32556c6ecdc3511df840ab0",
+      "status": "attempting",
+      "attemptedAt": "2026-10-27T09:51:22.170819+00:00"
     },
     "https://nexalyplanner.com/planners/business-runway-burn-rate-os/|pinterest": {
       "revision": "897ee42c9c436eab06c14bfa48c0dac02d3f16d107c53a88d1ba1496019b5b95",
