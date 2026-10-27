@@ -2530,7 +2530,7 @@
     },
     "https://nexalyplanner.com/guides/free-shipment-cost-allocation-tool/|pinterest": {
       "revision": "4d0fe3f0bed671bac71c9a5a9839a8e00e73e8500345e9ac4a31265cd75c5a76",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-27T09:49:30.704524+00:00"
     }
   },
