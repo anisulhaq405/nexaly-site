@@ -2597,6 +2597,11 @@
       "revision": "247f87fdf49652da4cf205ebc5fed30ad70592744b39f1b9d37fbe03e44ccbef",
       "status": "needs_review",
       "attemptedAt": "2026-10-27T09:50:22.497725+00:00"
+    },
+    "https://nexalyplanner.com/journal/production-schedule-template/|facebook": {
+      "revision": "ccc1635d71c0165eb6cab3ca4ef272216c726ecc26db56ebf110e7b543897b7a",
+      "status": "attempting",
+      "attemptedAt": "2026-10-27T09:50:29.379227+00:00"
     }
   },
   "firstTestCompleted": true
