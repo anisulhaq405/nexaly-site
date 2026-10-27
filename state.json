@@ -1787,7 +1787,7 @@
     },
     "https://nexalyplanner.com/planners/ai-student-planner/|youtube": {
       "revision": "953b92e94f5fe95ae76082ba7c8d67b0c1b549186fe96b73a7501e397549624e",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-27T09:51:11.948359+00:00"
     },
     "https://nexalyplanner.com/planners/batchtrace-os/|facebook": {
