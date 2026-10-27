@@ -2575,7 +2575,7 @@
     },
     "https://nexalyplanner.com/journal/inventory-count-sheet/|youtube": {
       "revision": "455481c735d027e77626ce7df91a173fdb639e1b14545679f5e9dbc10deb361d",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-27T09:50:06.074788+00:00"
     }
   },
