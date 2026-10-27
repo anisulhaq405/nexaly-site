@@ -2090,8 +2090,9 @@
       "attemptedAt": "2026-10-27T09:51:58.817578+00:00"
     },
     "https://nexalyplanner.com/planners/small-business-planner-2026-2028/|youtube": {
-      "revision": "0c0adf266d89aab3424ebfe82d5da2994ec5f6407a4d75f071096887770bdf8e",
-      "status": "baseline"
+      "revision": "5a3918f4d0a6b4b3011e1855638a3844801a53cb6bf976d8ecc4a18c1f4c8bd5",
+      "status": "attempting",
+      "attemptedAt": "2026-10-27T09:52:01.527423+00:00"
     },
     "https://nexalyplanner.com/planners/vendorpulse-os/|facebook": {
       "revision": "c55e376c45ecdb6c70312b72ae741248caf00e0b6a128fda6a8ee232e7b18c94",
