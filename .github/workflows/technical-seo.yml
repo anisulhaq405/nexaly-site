@@ -19,6 +19,8 @@ jobs:
         with:
           fetch-depth: 1
           persist-credentials: false
+      - name: Reject empty image assets
+        run: python3 scripts/check-empty-images.py
       - name: Verify committed SEO output
         run: python3 scripts/seo-build.py --check
       - name: Test publishing and protected storefront
