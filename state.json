@@ -2537,6 +2537,11 @@
       "revision": "4d0fe3f0bed671bac71c9a5a9839a8e00e73e8500345e9ac4a31265cd75c5a76",
       "status": "needs_review",
       "attemptedAt": "2026-10-27T09:49:33.774741+00:00"
+    },
+    "https://nexalyplanner.com/guides/free-trial-cancellation-calendar/|facebook": {
+      "revision": "d85fd8839948e502dbb5d6198a7933d42fca8139de8b7df3cf1997083c7f9ccf",
+      "status": "attempting",
+      "attemptedAt": "2026-10-27T09:49:40.298928+00:00"
     }
   },
   "firstTestCompleted": true
