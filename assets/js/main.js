@@ -375,11 +375,11 @@ var posts = [
   {
     "url": "/journal/coffee-shop-business-plan-daily-capacity/",
     "title": "Coffee Shop Business Plan: Daily Capacity and Cost Example",
-    "excerpt": "Connect a coffee shop business plan to orders, opening hours, staffing and a slower-day scenario. Use a free daily operating worksheet.",
+    "excerpt": "Build a coffee shop business plan with a daily cost example, a 77-order operating threshold, peak-hour capacity checks and a practical evidence checklist.",
     "img": "/assets/img/workflows/coffee-shop-business-plan-daily-capacity-cover-v3.webp",
     "alt": "Coffee Shop Business Plan: Daily Capacity and Cost Example editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Oct 13, 2026"
+    "date": "Updated Oct 29, 2026"
   },
   {
     "url": "/journal/construction-company-business-plan-milestone-cash/",
@@ -393,20 +393,20 @@ var posts = [
   {
     "url": "/journal/content-marketing-plan-template-capacity/",
     "title": "Content Marketing Plan Template With a Capacity Check",
-    "excerpt": "Build a content marketing plan around realistic production hours. Check overloaded dates, review owners and a worked content-capacity example.",
+    "excerpt": "Use a content marketing plan template with a reusable brief, dated production blocks, review handoffs and a tested workload example that fits available hours.",
     "img": "/assets/img/workflows/content-marketing-plan-template-capacity-cover-v3.webp",
     "alt": "Content Marketing Plan Template With a Capacity Check editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Oct 13, 2026"
+    "date": "Updated Oct 29, 2026"
   },
   {
     "url": "/journal/create-your-own-printable-planner/",
     "title": "Create Your Own Printable Planner: Letter, A4 or A5",
-    "excerpt": "Create a daily or weekly printable planner with your hours, week start and writing sections. Preview Letter, A4 or A5 and print or save PDF.",
+    "excerpt": "Create your own printable planner in US Letter, A4 or A5. Follow tested daily, weekly and overnight presets, then troubleshoot PDF printing and keep a backup.",
     "img": "/assets/img/workflows/create-your-own-printable-planner-cover-v3.webp",
     "alt": "Create Your Own Printable Planner: Letter, A4 or A5 editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Oct 13, 2026"
+    "date": "Updated Oct 29, 2026"
   },
   {
     "url": "/journal/interior-design-business-plan-project-capacity/",
@@ -825,11 +825,11 @@ var posts = [
   {
     "url": "/journal/a5-planner-sizes-layouts-digital-options/",
     "title": "A5 Planner: Sizes, Layouts and Best Digital Options",
-    "excerpt": "Compare A5 planner dimensions, paper, printable PDF, offline HTML, GoodNotes, and Notion options to choose a practical layout for daily use.",
+    "excerpt": "A5 is 148 × 210 mm. Check insert size, binding clearance and print scale, compare A5 with Half Letter, and test one page before buying or printing a full set.",
     "img": "/assets/img/journal-responsive/a5-planner-sizes-layouts-digital-options-1280.webp",
     "alt": "Open A5 planner showing a weekly layout beside a tablet with a digital planner page",
     "tag": "Planning Guides",
-    "date": "Updated Oct 13, 2026"
+    "date": "Updated Oct 29, 2026"
   },
   {
     "url": "/journal/daily-digital-planner/",
@@ -852,11 +852,11 @@ var posts = [
   {
     "url": "/journal/day-planner-vs-daily-planner/",
     "title": "Day Planner vs Daily Planner: What Is the Difference?",
-    "excerpt": "Day planner or daily planner? Learn the real difference, compare calendars, hourly layouts, PDFs, offline HTML, and apps, and choose your fit.",
+    "excerpt": "Day planner and daily planner usually mean the same thing. Compare layouts, test a realistic daily time budget and choose a simple calendar-to-task workflow.",
     "img": "/assets/img/journal-responsive/day-planner-vs-daily-planner-1280.webp",
     "alt": "Open day planner beside a calendar with hourly schedule blocks and a digital tablet planner",
     "tag": "Planning Guides",
-    "date": "Updated Sep 21, 2026"
+    "date": "Updated Oct 29, 2026"
   },
   {
     "url": "/journal/hourly-planner-best-free-digital-layouts/",

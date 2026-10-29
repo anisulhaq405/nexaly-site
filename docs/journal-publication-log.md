@@ -163,3 +163,8 @@ Audited the exact 41 retained Discovered URLs; all returned HTTP 200 with correc
 ## 24 October 2026 — ten retained Unknown URLs
 
 Live-audited all ten exact canonical URLs: HTTP 200, source match, sitemap/robots eligibility, self-canonical and no observed noindex. Added four contextual discovery paths from the retained indexed sample; six targets already had such paths. No confirmed technical exclusion or new Google indexing status is claimed. Evidence and reproduction: `docs/audits/unknown-10-2026-10-24/README.md`.
+
+
+## October 29, 2026 - second five-guide refresh
+
+Prepared competitor-informed updates to the existing Coffee Shop Daily Capacity, Content Marketing Capacity, Day vs Daily Planner, A5 Planner and Create Your Own Printable Planner guides. Add original threshold/peak-load arithmetic, a reusable content brief and dated capacity example, daily time budgeting, A5 physical-fit checks and tested builder presets/troubleshooting. Correct two unmatched main closing tags and clarify A5-on-Letter printing. Preserve all original publication dates, artwork, layout, tools, prices and checkout. Research URLs, distinct intents, selection limits and generated-only maintenance of the prior five-blog lock are recorded in `docs/research/2026-10-29-next-five-competitor-review.md`. Publish only through successful current-head PR CI and verify live pages, listing and sitemap before reporting completion.
