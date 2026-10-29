@@ -361,7 +361,7 @@ var posts = [
     "img": "/assets/img/workflows/business-plan-financial-projections-service-example-cover-v3.webp",
     "alt": "Business Plan Financial Projections: Service Business Example editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Oct 13, 2026"
+    "date": "Updated Oct 29, 2026"
   },
   {
     "url": "/journal/cash-flow-report-template-variance/",
@@ -388,7 +388,7 @@ var posts = [
     "img": "/assets/img/workflows/construction-company-business-plan-milestone-cash-cover-v3.webp",
     "alt": "Construction Company Business Plan: Milestone Cash Example editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Oct 13, 2026"
+    "date": "Updated Oct 29, 2026"
   },
   {
     "url": "/journal/content-marketing-plan-template-capacity/",
@@ -415,7 +415,7 @@ var posts = [
     "img": "/assets/img/workflows/interior-design-business-plan-project-capacity-cover-v3.webp",
     "alt": "Interior Design Business Plan: Scope, Deposits and Capacity editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Oct 13, 2026"
+    "date": "Updated Oct 29, 2026"
   },
   {
     "url": "/journal/it-consulting-business-plan-retainer-capacity/",
@@ -424,7 +424,7 @@ var posts = [
     "img": "/assets/img/workflows/it-consulting-business-plan-retainer-capacity-cover-v3.webp",
     "alt": "IT Consulting Business Plan: Retainer Hours and Capacity editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Oct 13, 2026"
+    "date": "Updated Oct 29, 2026"
   },
   {
     "url": "/journal/monthly-teacher-planner-lesson-preparation/",
@@ -460,7 +460,7 @@ var posts = [
     "img": "/assets/img/workflows/trucking-company-business-plan-trip-cost-cover-v3.webp",
     "alt": "Trucking Company Business Plan: Total-Mile Cost Example editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Oct 13, 2026"
+    "date": "Updated Oct 29, 2026"
   },
   {
     "url": "/journal/track-partial-shipments-backorders/",
