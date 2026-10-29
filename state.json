@@ -2666,7 +2666,7 @@
     },
     "https://nexalyplanner.com/guides/free-repair-job-handoff-planner/|pinterest": {
       "revision": "60e4a000e8a8a09d76d6b1970b3116b9779449ec260b60a282b2c2819b29650f",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-10-29T14:46:00.951142+00:00"
     }
   },
