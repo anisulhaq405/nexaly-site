@@ -339,20 +339,20 @@ var posts = [
   {
     "tag": "Student Planner",
     "title": "College Assignment Tracker: Free Excel and Google Sheets Template",
-    "date": "Updated Oct 24, 2026 · 5 min",
+    "date": "Updated Oct 30, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
     "img": "/images/journal/college-assignment-tracker-cover-20261015.webp",
     "alt": "College assignment tracker cover showing a study desk, assignment list and deadline calendar",
-    "excerpt": "Use a free college assignment tracker in Excel or Google Sheets. Record due dates, next actions and remaining hours, then plan study time with the browser worksheet."
+    "excerpt": "Download a college assignment tracker for Excel or Google Sheets. Check due dates, remaining hours, sorting and the differences between workbook and custom formulas."
   },
   {
     "tag": "Order Tracking",
     "title": "Small Business Order Tracking: Free Template and Worked Examples",
-    "date": "Updated Oct 24, 2026 · 5 min",
+    "date": "Updated Oct 30, 2026 · 5 min",
     "url": "/journal/track-small-business-orders/",
     "img": "/images/journal/track-small-business-orders-cover-20261015.webp",
     "alt": "Small business order tracker cover showing parcels, an order checklist and a packing workspace",
-    "excerpt": "Track customer orders with a free Excel workbook or manual CSV. Separate payments, shipments, cancellations and open quantities with worked examples."
+    "excerpt": "Track customer orders with an Excel or CSV log, separate payment and fulfillment, and check duplicate requests across channels before reserving stock."
   },
   {
     "url": "/journal/business-plan-financial-projections-service-example/",
@@ -600,11 +600,11 @@ var posts = [
   {
     "url": "/journal/how-much-inventory-start-boutique/",
     "title": "How much inventory do you need to start a boutique?",
-    "excerpt": "Plan a boutique's opening stock by category, size and cash limit. See a worked 120-unit example, reorder rules and a purchase checklist.",
+    "excerpt": "Calculate an opening boutique inventory budget, then check styles, sizes, landed costs and supplier pack minimums with a worked 120-to-192-unit comparison.",
     "img": "/images/journal/how-much-inventory-start-boutique-20260929.webp",
     "alt": "Boutique owner planning an opening clothing assortment by size and purchase budget",
     "tag": "Planning Guides",
-    "date": "Sep 29, 2026"
+    "date": "Updated Oct 30, 2026"
   },
   {
     "url": "/journal/how-to-track-consignment-inventory/",
@@ -663,11 +663,11 @@ var posts = [
   {
     "url": "/journal/saas-business-plan-template-example/",
     "title": "SaaS Business Plan Template: Runway and Subscription Math",
-    "excerpt": "A compact subscription plan with churn, margin and runway assumptions. Includes a worked numerical example, assumptions and practical decisions.",
+    "excerpt": "Use a copyable SaaS business plan with customer evidence, acquisition tests, subscriber assumptions, costs, cash limits and dated decisions—not just an MRR forecast.",
     "img": "/images/journal/saas-business-plan-template-example-v2.jpg",
     "alt": "Founder reviewing subscriber growth and cash runway charts under SaaS Business Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 24, 2026"
+    "date": "Updated Oct 30, 2026"
   },
   {
     "url": "/journal/small-business-budget-example/",
@@ -888,11 +888,11 @@ var posts = [
   {
     "url": "/journal/adhd-planner-for-adults/",
     "title": "ADHD Planner for Adults: Daily Planning and Reset Guide",
-    "excerpt": "Set up an ADHD planner for adults with a printable daily layout, small next actions, time anchors and a missed-day reset. Includes a worked planning example.",
+    "excerpt": "Choose an adult ADHD planning layout by the task: daily priorities, smaller actions or a departure routine. Compare printable pages, free worksheets and an offline app.",
     "img": "/images/journal/adhd-planner-for-adults-20260915.jpg",
     "alt": "Adult using a short visual daily plan, capture inbox and focus timer under the heading ADHD Planner That Sticks",
     "tag": "Planning Guides",
-    "date": "Updated Oct 24, 2026"
+    "date": "Updated Oct 30, 2026"
   },
   {
     "url": "/journal/business-planner-weekly-review/",
