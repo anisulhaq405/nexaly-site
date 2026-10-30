@@ -180,3 +180,8 @@ Add dated submission workback, cross-month preparation status checks, tested 11-
 ## October 30, 2026 — owner advances saved five-blog shortlist
 
 Owner requested immediate execution of the October 31 shortlist. Prepared Opening Boutique Inventory, Small Business Order Tracking, College Assignment Tracker, SaaS Business Plan and Adult ADHD Planner updates with actual October 30 modification dates. Add pack-rounding and duplicate-intake examples plus a copyable SaaS decision plan; consolidate repetitive assignment/ADHD sections into source-specific sorting and task-to-format guidance. Retain existing fragments, artwork, original publication dates and core. Historical GSC limits and primary-source/competitor review: `docs/research/2026-10-30-shortlisted-five-release.md`. No new URL or tool/download behavior changes. Require passing current-head PR CI and live verification before reporting completion.
+
+
+## October 31, 2026 — fifth five-journal batch
+
+Prepared Clothing Content Calendar, Boutique Social Media Ideas, Homeschool Attendance, Exam Study Schedule and Offline Digital Planners updates. Add variant-level publication gates, evidence-to-post briefs, source-reproduced attendance and deadline-capacity examples, and safer offline storage/recovery guidance. Correct blanket offline/payment/storage claims. Preserve prior twenty articles and core. Historical GSC evidence, web-search limitation, actual model results and release gates: `docs/research/2026-10-31-five-journal-refresh.md`. No new URL or download/tool behavior change. Require current-head CI and live verification before reporting completion.
