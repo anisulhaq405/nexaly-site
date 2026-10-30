@@ -429,11 +429,11 @@ var posts = [
   {
     "url": "/journal/monthly-teacher-planner-lesson-preparation/",
     "title": "Monthly Teacher Planner: Lessons and Preparation Dates",
-    "excerpt": "Use a monthly teacher planner to connect lessons, preparation dates, materials and owners. Find overdue preparation with a worked classroom example.",
+    "excerpt": "Plan monthly lessons with separate preparation deadlines, owners and materials. Includes a cross-month example and checks for due, overdue and ready work.",
     "img": "/assets/img/workflows/monthly-teacher-planner-lesson-preparation-cover-v3.webp",
     "alt": "Monthly Teacher Planner: Lessons and Preparation Dates editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Oct 13, 2026"
+    "date": "Updated Oct 30, 2026"
   },
   {
     "url": "/journal/one-page-business-plan-template-assumptions/",
@@ -654,11 +654,11 @@ var posts = [
   {
     "url": "/journal/retail-store-business-plan-example/",
     "title": "Retail Store Business Plan Example: A Boutique’s First 90 Days",
-    "excerpt": "A filled-in plan for assortment, cash, sales and a decision date. Includes a worked numerical example, assumptions and practical decisions.",
+    "excerpt": "Use a retail business plan example to connect opening inventory, sales, refunds and cash. Includes a 90-day boutique plan and a reconciled return scenario.",
     "img": "/images/journal/retail-store-business-plan-example-v2.jpg",
     "alt": "Boutique owner assembling clothing stock, size plan, shipping supplies and a sales forecast under Retail Business Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 7, 2026"
+    "date": "Updated Oct 30, 2026"
   },
   {
     "url": "/journal/saas-business-plan-template-example/",
@@ -680,21 +680,21 @@ var posts = [
   },
   {
     "url": "/journal/weekly-digital-planner-small-business/",
-    "title": "Weekly Digital Planner for a Small Business: A Filled Example",
-    "excerpt": "Turn a weekly goal into time blocks, handoffs and a Friday review. Includes a worked numerical example, assumptions and practical decisions.",
+    "title": "Weekly Digital Planner for Small Business: A Filled Plan",
+    "excerpt": "Build a weekly business plan around delivery hours, customer promises and cash commitments. Includes a filled schedule, overload check and Friday handoff.",
     "img": "/images/journal/weekly-digital-planner-small-business-v2.jpg",
     "alt": "Tablet weekly calendar beside small-business parcels and task notes under Weekly Digital Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 7, 2026"
+    "date": "Updated Oct 30, 2026"
   },
   {
     "url": "/journal/academic-planner-school-year/",
-    "title": "Academic Planner: Map Your School Year Into Weekly Work",
-    "excerpt": "Plan a school year from official term dates to realistic weekly study blocks. Includes a worked high-school example and a simple review routine.",
+    "title": "Academic Planner: What It Is and How to Plan a School Year",
+    "excerpt": "Learn what an academic planner includes, map term dates to weekly work, and use a dated example to check deadlines, study time and submission evidence.",
     "img": "/images/journal/academic-planner-school-year-text-20260926.jpg",
     "alt": "Academic Planner: Plan Your School Year headline beside monthly and weekly planner pages on a desk",
     "tag": "Planning Guides",
-    "date": "Updated Oct 13, 2026"
+    "date": "Updated Oct 30, 2026"
   },
   {
     "url": "/journal/best-digital-planner-for-ipad/",
@@ -860,12 +860,12 @@ var posts = [
   },
   {
     "url": "/journal/hourly-planner-best-free-digital-layouts/",
-    "title": "Hourly Planner: Paper, Printable and Digital Layouts",
-    "excerpt": "Compare paper, printable PDF, offline HTML, and cloud hourly planners. See a realistic workday example and choose a simple daily layout that fits.",
+    "title": "Hourly Planner: Daily Time Blocks and Weekly Layouts",
+    "excerpt": "Choose an hourly planner for appointments, focused work or overnight shifts. Compare formats and check a worked schedule for overlaps, breaks and buffer time.",
     "img": "/assets/img/journal-responsive/hourly-planner-best-free-digital-layouts-1280.webp",
     "alt": "Open hourly planner showing time blocks, priorities, and buffer space on a desk",
     "tag": "Planning Guides",
-    "date": "Updated Sep 21, 2026"
+    "date": "Updated Oct 30, 2026"
   },
   {
     "url": "/journal/monthly-planner-free-templates/",
