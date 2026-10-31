@@ -330,11 +330,11 @@ var posts = [
   {
     "tag": "Attendance Tracker",
     "title": "Free Homeschool Attendance Sheet and Daily Tracker",
-    "date": "Updated Oct 24, 2026 · 5 min",
+    "date": "Updated Oct 31, 2026 · 5 min",
     "url": "/journal/homeschool-attendance-tracker/",
     "img": "/images/journal/homeschool-attendance-tracker-cover-20261015.webp",
     "alt": "Homeschool attendance tracker cover with a calendar, learning books and an attendance notebook",
-    "excerpt": "Download a free homeschool attendance sheet for Excel or printable A4/Letter PDF. Record learner dates and minutes, review duplicates and count days once."
+    "excerpt": "Keep homeschool attendance records accurate by learner, date and activity. Compare daily sheets with session logs, review corrections and keep a recoverable archive."
   },
   {
     "tag": "Student Planner",
@@ -942,11 +942,11 @@ var posts = [
   {
     "tag": "Digital Planners",
     "title": "Digital Planners That Work Offline: A 2026 Buyer's Guide",
-    "date": "Updated Oct 24, 2026 · 6 min",
+    "date": "Updated Oct 31, 2026 · 6 min",
     "url": "/journal/offline-digital-planners-guide/",
     "img": "/images/products/ai-student-planner/ai-student-planner-dashboard-analytics.jpg",
     "alt": "offline digital planner dashboard with study time, tasks, streaks and analytics",
-    "excerpt": "A practical guide to offline digital planners — how browser-based, one-time-purchase planners work, who they suit, and how to choose the right one for you."
+    "excerpt": "Compare offline planner formats, local saving, backups and device transfers. Use a non-destructive recovery check and distinguish offline access from sync or pricing."
   },
   {
     "tag": "No Subscription",
@@ -987,20 +987,20 @@ var posts = [
   {
     "tag": "Content Calendar",
     "title": "A 30-Day Content Calendar for a Clothing Brand",
-    "date": "Updated Oct 24, 2026 · 5 min",
+    "date": "Updated Oct 31, 2026 · 5 min",
     "url": "/journal/content-calendar-clothing-brand/",
     "img": "/images/products/content-marketing-planner/content-marketing-planner-visual-content-calendar.jpg",
     "alt": "A 30-Day Content Calendar for a Clothing Brand",
-    "excerpt": "Copy a 30-day clothing-brand content calendar from this guide. Get product-detail ideas, formats, clear CTAs and a routine for reviewing results."
+    "excerpt": "Plan a clothing brand content calendar with verified product details, production time and variant-level availability. Includes a launch hold-and-replace example."
   },
   {
     "tag": "Social Content",
     "title": "30 Boutique Social Media Post Ideas With Clear Sales CTAs",
-    "date": "Updated Oct 24, 2026 · 6 min",
+    "date": "Updated Oct 31, 2026 · 6 min",
     "url": "/journal/boutique-social-media-post-ideas/",
     "img": "/images/products/content-marketing-planner/content-marketing-planner-content-hub.jpg",
     "alt": "30 Boutique Social Media Post Ideas With Clear Sales CTAs",
-    "excerpt": "Explore 30 boutique social media post ideas with hooks, visuals and CTAs. Download an editable idea bank for product details, styling, offers and questions."
+    "excerpt": "Choose boutique social media post ideas by customer question, verified product evidence and one useful next step. Includes three copyable briefs and review checks."
   },
   {
     "tag": "Marketing Plan",
@@ -1032,11 +1032,11 @@ var posts = [
   {
     "tag": "Study Schedule",
     "title": "Exam Study Schedule Template: Plan the Weeks Before Finals",
-    "date": "Updated Oct 24, 2026 · 5 min",
+    "date": "Updated Oct 31, 2026 · 5 min",
     "url": "/journal/exam-study-schedule-template/",
     "img": "/images/journal/exam-prep-20260915.jpg",
     "alt": "Study desk with a planning notebook, textbooks and a clock under the heading Plan Your Exam Prep",
-    "excerpt": "Use a ten-day exam study schedule with an editable text download, realistic time checks and missed-session examples. Enter dates manually for your course."
+    "excerpt": "Build an exam study schedule from verified dates, remaining practice and usable time. Includes a deadline-first capacity example and realistic recovery checks."
   },
   {
     "url": "/journal/how-to-run-a-one-person-business-with-ai/",
