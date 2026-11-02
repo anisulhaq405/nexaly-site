@@ -465,20 +465,20 @@ var posts = [
   {
     "url": "/journal/track-partial-shipments-backorders/",
     "title": "How to Track Partial Shipments and Backorders",
-    "excerpt": "Track customer-order shipments by order ID, line ID and shipment reference. Use a worked backorder ledger to keep outstanding units and next actions visible.",
+    "excerpt": "Track each parcel against one order line. Reconcile corrected dispatches, cancellations and outstanding units with copyable worked examples.",
     "img": "/images/journal/track-partial-shipments-backorders-20261011.webp?release=4d0cb492",
     "alt": "Packing desk with blue mugs in an outgoing parcel and additional mugs on a shelf for a later shipment.",
     "tag": "Order Tracking",
-    "date": "Updated Oct 14, 2026"
+    "date": "Updated Nov 2, 2026"
   },
   {
     "url": "/journal/release-reserved-stock-cancelled-orders/",
     "title": "How to Release Reserved Stock After an Order Cancellation",
-    "excerpt": "Review cancelled order quantities, physical stock and reservations before releasing inventory. Includes a worked example and a copyable cancellation record.",
+    "excerpt": "Release only confirmed unshipped reservations. Work stock and partial-cancellation examples without duplicating releases, returns or refunds.",
     "img": "/images/journal/release-reserved-stock-cancelled-orders-20261011.webp",
     "alt": "Stockroom with a usable blue mug returning to a shelf and a chipped mug kept separately for inspection.",
     "tag": "Order Tracking",
-    "date": "Oct 11, 2026"
+    "date": "Updated Nov 2, 2026"
   },
   {
     "url": "/journal/batch-lot-traceability-log/",
@@ -510,29 +510,29 @@ var posts = [
   {
     "url": "/journal/cash-runway-template/",
     "title": "Cash Runway Template: A Monthly Plan With Reserve and Hiring Scenarios",
-    "excerpt": "Build a monthly cash runway template using dated balances, receipts and payments. Compare a minimum reserve, hiring costs and a downside collection scenario.",
+    "excerpt": "Build a monthly cash runway plan with reserve, hiring and collection-delay examples. Check the first reserve breach and keep payment timing visible.",
     "img": "/images/journal/cash-runway-template-20261002.webp",
     "alt": "Small-business owner planning monthly bills and cash dates beside a calendar and bank-record folder.",
     "tag": "Planning Guides",
-    "date": "Oct 2, 2026"
+    "date": "Updated Nov 2, 2026"
   },
   {
     "url": "/journal/client-profitability-analysis/",
     "title": "Client Profitability Analysis: Find the Work Behind Each Fee",
-    "excerpt": "Compare client fees with logged hours, direct costs and shared overhead. Includes a three-client example, scope-change scenarios and a monthly review template.",
+    "excerpt": "Calculate client contribution from fees, hours and delivery costs. Compare three agency clients, reconcile overhead and review a separately approved scope change.",
     "img": "/images/journal/client-profitability-analysis-20261002.webp",
     "alt": "Agency manager comparing three client project folders and time logs at a desk.",
     "tag": "Planning Guides",
-    "date": "Updated Oct 8, 2026"
+    "date": "Updated Nov 2, 2026"
   },
   {
     "url": "/journal/marketing-agency-profit-margins/",
     "title": "Marketing Agency Profit Margins: Calculate Them Before Changing Prices",
-    "excerpt": "Calculate agency delivery, operating and net margins with a worked monthly example. Diagnose scope, staffing and pricing before choosing a practical next step.",
+    "excerpt": "Calculate delivery, operating and net agency margins. Reconcile client costs to the agency statement with original examples and clear cost definitions.",
     "img": "/images/journal/marketing-agency-profit-margins-20261002.webp",
     "alt": "Agency owner reviewing a monthly income statement and calculator while colleagues work in a studio.",
     "tag": "Planning Guides",
-    "date": "Oct 2, 2026"
+    "date": "Updated Nov 2, 2026"
   },
   {
     "url": "/journal/purchase-order-tracker/",
@@ -573,11 +573,11 @@ var posts = [
   {
     "url": "/journal/contract-renewal-workflow/",
     "title": "A contract renewal workflow that gives you time to decide",
-    "excerpt": "Build a renewal register with verified notice dates, owners and decisions. Follow a fictional contract from source clause to completed action.",
+    "excerpt": "Track contract sources, notice deadlines, approvals and delivery evidence. Use a fictional renewal register without confusing a reminder with a sent notice.",
     "img": "/images/journal/contract-renewal-workflow-20260930.webp",
     "alt": "Business owner checking a contract, calendar and renewal decision checklist",
     "tag": "Planning Guides",
-    "date": "Updated Oct 8, 2026"
+    "date": "Updated Nov 2, 2026"
   },
   {
     "url": "/journal/repair-shop-parts-inventory/",
@@ -717,20 +717,20 @@ var posts = [
   {
     "url": "/journal/digital-planner-app-how-it-works/",
     "title": "Digital Planner App: Compare PDF, Notion and Offline HTML",
-    "excerpt": "Compare digital planner formats, required apps, offline use and backups. Try a free weekly PDF before choosing a planner for your device.",
+    "excerpt": "Compare PDF, task apps, Notion and local HTML planners. Check saved records, offline access and recoverable backups before moving your planning system.",
     "img": "/images/journal/digital-planner-app-how-it-works-20260919.jpg",
     "alt": "iPad showing a weekly digital planner beside a laptop with a typed planning workspace",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Nov 2, 2026"
   },
   {
     "url": "/journal/digital-planner-for-ipad-setup/",
     "title": "Digital Planner for iPad: Setup Guide and Free Options",
-    "excerpt": "Set up a digital planner for iPad with PDF, Goodnotes, Notion, or offline HTML options. Compare formats and test a free setup.",
+    "excerpt": "Check planner formats on your iPad, test import and links, and troubleshoot missing edits or offline access. Keep working copies and backups distinct.",
     "img": "/images/journal/digital-planner-for-ipad-setup-20260919.jpg",
     "alt": "iPad showing a linked digital planner weekly layout beside an Apple Pencil and Files app",
     "tag": "Planning Guides",
-    "date": "Updated Sep 24, 2026"
+    "date": "Updated Nov 2, 2026"
   },
   {
     "url": "/journal/free-digital-planner-for-ipad/",
@@ -906,11 +906,11 @@ var posts = [
   {
     "url": "/journal/student-planner-guide/",
     "title": "Student Planner Guide: Organize Classes, Assignments and Exams",
-    "excerpt": "Build a student planner that connects classes, assignments, exams and study sessions. Includes a semester setup, weekly routine and worked example.",
+    "excerpt": "Connect classes, assignments, exams and study sessions. Follow a dated deadline-change example and a practical weekly student planning review.",
     "img": "/images/journal/student-planner-guide-20260915.jpg",
     "alt": "College student organizing classes, assignments, exams and focus sessions under the heading Build a Student Planner",
     "tag": "Planning Guides",
-    "date": "Updated Oct 5, 2026"
+    "date": "Updated Nov 2, 2026"
   },
   {
     "url": "/journal/supplier-quote-comparison/",
@@ -969,11 +969,11 @@ var posts = [
   {
     "tag": "Inventory Software",
     "title": "Inventory Software Without a Subscription: What to Check Before Buying",
-    "date": "Updated Oct 7, 2026 · 5 min",
+    "date": "Updated Nov 2, 2026 · 5 min",
     "url": "/journal/inventory-software-without-subscription/",
     "img": "/images/journal/inventory-software-buying-checklist.png",
     "alt": "Inventory software buying checklist covering sale and return tests, backup recovery and license costs",
-    "excerpt": "Considering inventory software without a subscription? Use this buying checklist to compare licenses, offline workflows, backups, returns and data exports."
+    "excerpt": "Evaluate pay-once inventory software with sale, cancellation, return and recovery tests. Compare license terms, ownership and total operating costs."
   },
   {
     "tag": "Sales Tracking",
