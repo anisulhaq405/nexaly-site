@@ -321,11 +321,11 @@ var posts = [
   {
     "url": "/journal/production-schedule-template/",
     "title": "Production Schedule Template for a Small Workshop",
-    "excerpt": "Use a free printable production schedule template with a filled weekly example, setup and run-time calculations, material checks and a rush-order capacity test.",
+    "excerpt": "Build a production schedule from available station hours. Follow worked examples for rush orders, partial materials, accepted output, rework and packing release.",
     "img": "/images/journal/production-schedule-template-20261020.webp",
     "alt": "Canvas pouch materials, sewing equipment and a weekly planning sheet arranged on a workshop bench.",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Nov 3, 2026"
   },
   {
     "tag": "Attendance Tracker",
@@ -438,20 +438,20 @@ var posts = [
   {
     "url": "/journal/one-page-business-plan-template-assumptions/",
     "title": "One-Page Business Plan Template With an Assumptions Log",
-    "excerpt": "Write a one-page business plan with customer, offer, costs and evidence. Use a free builder and a practical first-90-days assumption-testing example.",
+    "excerpt": "Create a one-page business plan with an assumptions log. Use a paid-pilot example to connect customer evidence, delivery hours and the next decision.",
     "img": "/assets/img/workflows/one-page-business-plan-template-assumptions-cover-v3.webp",
     "alt": "One-Page Business Plan Template With an Assumptions Log editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Oct 13, 2026"
+    "date": "Updated Nov 3, 2026"
   },
   {
     "url": "/journal/small-business-budget-template-monthly-variance/",
     "title": "Small Business Budget Template: Monthly Variance Review",
-    "excerpt": "Use a small business budget template to compare monthly budget and actual results, explain zero-base percentages and assign practical follow-up actions.",
+    "excerpt": "Compare monthly budget and actual results with signed variances, a volume-versus-cost example, incomplete-actual checks and clear zero-budget limits.",
     "img": "/assets/img/workflows/small-business-budget-template-monthly-variance-cover-v3.webp",
     "alt": "Small Business Budget Template: Monthly Variance Review editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Updated Oct 24, 2026"
+    "date": "Updated Nov 3, 2026"
   },
   {
     "url": "/journal/trucking-company-business-plan-trip-cost/",
@@ -591,11 +591,11 @@ var posts = [
   {
     "url": "/journal/agency-capacity-planning-example/",
     "title": "Agency capacity planning with a three-person example",
-    "excerpt": "Calculate usable team hours, billable targets and planned client load for an agency. See a three-person monthly example and a weekly allocation routine.",
+    "excerpt": "Calculate agency capacity by role and week. Worked examples cover contractor review time, estimate changes and remaining work versus remaining capacity.",
     "img": "/images/journal/agency-capacity-planning-example-20260929.webp",
     "alt": "Agency team planning retainer and project hours against monthly capacity",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Nov 3, 2026"
   },
   {
     "url": "/journal/how-much-inventory-start-boutique/",
@@ -618,38 +618,38 @@ var posts = [
   {
     "url": "/journal/cash-flow-forecast-template-example/",
     "title": "Cash Flow Forecast Template: Free 13-Week Excel Example",
-    "excerpt": "Download a free 13-week cash flow forecast Excel template with a worked example. Enter weekly receipts and payments to calculate closing cash balances.",
+    "excerpt": "Download a free 13-week cash-flow forecast for Excel or Google Sheets. Follow the worked example, delayed receipt scenario and reconciled weekly rollover.",
     "img": "/images/journal/cash-flow-forecast-template-example-v2.jpg",
     "alt": "Shop owner reviewing a 13-week cash flow chart and invoices under 13-Week Cash Flow",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Nov 3, 2026"
   },
   {
     "url": "/journal/equipment-rental-business-plan-example/",
     "title": "Equipment Rental Business Plan Example: Utilization and Cash",
-    "excerpt": "Price a small event-equipment fleet with utilization and turn costs. Includes a worked numerical example, assumptions and practical decisions.",
+    "excerpt": "Plan an equipment-rental business with unit economics, cash and utilization examples. Check turnaround, adjacent bookings and maintenance before confirming availability.",
     "img": "/images/journal/equipment-rental-business-plan-example-v2.jpg",
     "alt": "Event lighting rental team inspecting equipment and a booking handoff under Equipment Rental Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 13, 2026"
+    "date": "Updated Nov 3, 2026"
   },
   {
     "url": "/journal/freelance-business-plan-example/",
     "title": "Freelance Business Plan: Capacity, Pricing and a 90-Day Example",
-    "excerpt": "Turn available hours into a realistic revenue and delivery plan. Includes a worked numerical example, assumptions and practical decisions.",
+    "excerpt": "Build a freelance business plan with pricing and monthly capacity examples. Separate logged hours, remaining work, milestone approval and cash collection.",
     "img": "/images/journal/freelance-business-plan-example-v2.jpg",
     "alt": "Freelance designer reviewing client work and a calendar under Freelance Business Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 13, 2026"
+    "date": "Updated Nov 3, 2026"
   },
   {
     "url": "/journal/one-page-marketing-plan-example/",
     "title": "One-Page Marketing Plan Template With a Worked $600 Budget",
-    "excerpt": "An audience, offer, channel and measurement plan on one page. Includes a worked numerical example, assumptions and practical decisions.",
+    "excerpt": "Write a one-page marketing plan with a worked $600 budget, campaign calendar, contribution check and unique-customer attribution example.",
     "img": "/images/journal/one-page-marketing-plan-example-v2.jpg",
     "alt": "Boutique marketing plan with audience, offer, channels, budget and calendar under One-Page Marketing Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Nov 3, 2026"
   },
   {
     "url": "/journal/retail-store-business-plan-example/",
@@ -672,11 +672,11 @@ var posts = [
   {
     "url": "/journal/small-business-budget-example/",
     "title": "Small Business Budget Example: Plan Costs, Then Compare Actuals",
-    "excerpt": "A practical monthly budget with a variance and cash check. Includes a worked numerical example, assumptions and practical decisions.",
+    "excerpt": "Build a small-business budget with a worked $8,000 sales example. Compare original budget, actual results and a forward reforecast without hiding variance.",
     "img": "/images/journal/small-business-budget-example-v2.jpg",
     "alt": "Owner comparing planned and actual costs on two budget sheets under Small Business Budget",
     "tag": "Planning Guides",
-    "date": "Updated Oct 13, 2026"
+    "date": "Updated Nov 3, 2026"
   },
   {
     "url": "/journal/weekly-digital-planner-small-business/",
@@ -897,11 +897,11 @@ var posts = [
   {
     "url": "/journal/business-planner-weekly-review/",
     "title": "Weekly Business Planner: Free Review Template and Example",
-    "excerpt": "Copy a free weekly business planner template for sales, cash, open orders and next actions. Follow a worked shop example and choose a focused planning worksheet.",
+    "excerpt": "Run a 20-minute weekly business review with a reusable template, cash and order checks, action owners, carry-forward decisions and closure evidence.",
     "img": "/images/journal/business-planner-weekly-review-20260915.jpg",
     "alt": "Small-business owner reviewing goals, orders, weekly sales, cash and next actions under the heading Plan the Business Week",
     "tag": "Planning Guides",
-    "date": "Updated Oct 24, 2026"
+    "date": "Updated Nov 3, 2026"
   },
   {
     "url": "/journal/student-planner-guide/",
