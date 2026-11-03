@@ -1,5 +1,11 @@
 # Journal publication log
 
+## November 3, 2026 — ten existing journals refreshed
+
+Owner advanced the saved ten-blog shortlist after competitor analysis. Updated weekly business review, small-business budget example, monthly budget variance, 13-week cash-flow forecast, one-page business plan, one-page marketing plan, freelance business plan, equipment-rental plan, agency capacity and production schedule. Original examples retained and gaps addressed with decision/evidence tables, reconciled rollover, customer deduplication, remaining capacity and rework checks. Corrected freelance final installment and production incoming-material link. Research, exact URLs, retrieval limits and arithmetic: `docs/research/2026-11-03-ten-journal-refresh.md`.
+
+Original publication dates, title/URL/artwork/styles and all fragment IDs preserved. Modification date November3; descriptions, homepage production card, journal catalog/listing and sitemap regenerated.193 other HTML files change only generated main.js cache references; executable code/core unchanged. Prior five-blog lock maintained after cache-only proof. Feature PR/current-head CI and live verification are required before declaring completion. Current-series completed count stays35 until release verification, then45. No new GSC, ranking or indexing claim; social delivery remains separate. Final release evidence is retained in the session checkpoint.
+
 ## October 20, 2026 — two new free-template journals
 
 New: `/journal/inventory-count-sheet/` and `/journal/production-schedule-template/`. Original worked examples, two-page printable HTML downloads, unique editorial covers and contextual links. Fresh US provider lookup informed keyword selection; monthly data lag is documented in release notes. Publication requires exact-head CI and live verification. GSC remains deferred. Details: `docs/editorial/oct20-new-blogs/README.md`.
