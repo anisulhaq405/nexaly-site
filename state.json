@@ -2703,6 +2703,11 @@
       "revision": "aebb26f6b0cde05044bfdc131963a48c55cb174f4db89b17f79fe1b1684fb206",
       "status": "needs_review",
       "attemptedAt": "2026-11-04T15:21:34.395204+00:00"
+    },
+    "https://nexalyplanner.com/journal/ecommerce-business-plan/|pinterest": {
+      "revision": "aebb26f6b0cde05044bfdc131963a48c55cb174f4db89b17f79fe1b1684fb206",
+      "status": "attempting",
+      "attemptedAt": "2026-11-04T15:21:39.837493+00:00"
     }
   },
   "firstTestCompleted": true
