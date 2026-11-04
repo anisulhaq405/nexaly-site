@@ -2796,7 +2796,7 @@
     },
     "https://nexalyplanner.com/journal/store-performance-dashboard/|facebook": {
       "revision": "642ea438d53d5dc4b91bd68547d64eb562632a95da38147282b8d2cdf0fb619e",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-11-04T15:23:12.252124+00:00"
     }
   },
