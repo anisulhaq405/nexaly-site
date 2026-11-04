@@ -2746,7 +2746,7 @@
     },
     "https://nexalyplanner.com/journal/financial-dashboard-example/|pinterest": {
       "revision": "ad89025af8397b418d63ad840dbb330ee781bc8cc92e51edc2452bab14205bd6",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-11-04T15:22:19.656270+00:00"
     }
   },
