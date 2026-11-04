@@ -1539,7 +1539,7 @@ api.evaluate=function(slug,state){
  }
  if(c.kind==='lean'){
   headers=['Assumption','Evidence observed','Next test','Owner','Due','Entered evidence status'];for(const r of rs)rows.push([r.assumption,r.evidence||'No evidence recorded',r.test,r.owner,r.due,r.status]);
-  metric('Assumptions entered',rs.length);metric('Untested',rs.filter(r=>r.status==='Untested').length);metric('Contradicted',rs.filter(r=>r.status==='Contradicted').length);metric('Review date',t.review,'text');
+  metric('Assumptions entered',rs.length);metric('Untested',rs.filter(r=>r.status==='Untested').length);metric('Supported',rs.filter(r=>r.status==='Supported').length);metric('Contradicted',rs.filter(r=>r.status==='Contradicted').length);metric('Review date',t.review,'text');
   if(rs.length>3)warnings.push('The evidence log contains more than three assumptions and can print across multiple pages.');warnings.push('Use evidence and actual customer behavior to revise the plan. This worksheet does not validate an offer automatically.');
  }
  if(c.kind==='projections'){
