@@ -2793,6 +2793,11 @@
       "revision": "eca122d72821b9105757459fad6cd5cf6ece9ae5da08d5f30fc1b1ccd4be9ba3",
       "status": "needs_review",
       "attemptedAt": "2026-11-04T15:23:02.922156+00:00"
+    },
+    "https://nexalyplanner.com/journal/store-performance-dashboard/|facebook": {
+      "revision": "642ea438d53d5dc4b91bd68547d64eb562632a95da38147282b8d2cdf0fb619e",
+      "status": "attempting",
+      "attemptedAt": "2026-11-04T15:23:12.252124+00:00"
     }
   },
   "firstTestCompleted": true
