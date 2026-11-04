@@ -2673,6 +2673,11 @@
       "revision": "60e4a000e8a8a09d76d6b1970b3116b9779449ec260b60a282b2c2819b29650f",
       "status": "needs_review",
       "attemptedAt": "2026-10-29T14:46:04.712340+00:00"
+    },
+    "https://nexalyplanner.com/journal/client-dashboard-example/|facebook": {
+      "revision": "d74d7c59436ca8acd494123ecb5e2c98366ea631c85fbb2b6959063ab547a917",
+      "status": "attempting",
+      "attemptedAt": "2026-11-04T15:21:08.695504+00:00"
     }
   },
   "firstTestCompleted": true
