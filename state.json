@@ -2763,6 +2763,11 @@
       "revision": "6d27d671dfe66429559c610ac5bd5423949b3ff394abc131bfb0010e94126cd6",
       "status": "needs_review",
       "attemptedAt": "2026-11-04T15:22:36.114252+00:00"
+    },
+    "https://nexalyplanner.com/journal/project-management-dashboard/|pinterest": {
+      "revision": "6d27d671dfe66429559c610ac5bd5423949b3ff394abc131bfb0010e94126cd6",
+      "status": "attempting",
+      "attemptedAt": "2026-11-04T15:22:39.685449+00:00"
     }
   },
   "firstTestCompleted": true
