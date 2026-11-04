@@ -312,11 +312,11 @@ var posts = [
   {
     "url": "/journal/inventory-count-sheet/",
     "title": "Inventory Count Sheet: Free Template and Filled Example",
-    "excerpt": "Download a printable inventory count sheet and follow a worked stocktake example covering blind counts, recounts, movement cutoffs and reviewed adjustments.",
+    "excerpt": "Download an inventory count sheet with worked reconciliations. Check stock cutoffs, pack-to-unit conversion, first counts, recounts and adjustment evidence.",
     "img": "/images/journal/inventory-count-sheet-20261020.webp",
     "alt": "Hands counting textile stock beside a clipboard and labeled storage bins in a small stockroom.",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Nov 4, 2026"
   },
   {
     "url": "/journal/production-schedule-template/",
@@ -483,29 +483,29 @@ var posts = [
   {
     "url": "/journal/batch-lot-traceability-log/",
     "title": "Batch and Lot Traceability: A Practical Log for Small Makers",
-    "excerpt": "Use linked receipt, consumption and shipment records to trace supplier lots through production. Includes free sample CSV, a candle-batch example and quantity reconciliation.",
+    "excerpt": "Build a batch and lot traceability log with linked receipts, production and shipments. Worked examples cover returns, unique lot counts and mock-trace evidence.",
     "img": "/images/journal/batch-lot-traceability-log-20261003.webp",
     "alt": "Candle-making workbench with raw materials, batch-tagged jars, a production clipboard and shipping carton.",
     "tag": "Planning Guides",
-    "date": "Updated Oct 20, 2026"
+    "date": "Updated Nov 4, 2026"
   },
   {
     "url": "/journal/equipment-calibration-log/",
     "title": "Equipment Calibration Log: Template, Due Dates and Review",
-    "excerpt": "Build an instrument register and calibration event log with a free CSV starter, due-date example, certificate checks and an out-of-tolerance follow-up workflow.",
+    "excerpt": "Use an equipment calibration log to link instrument IDs, certificates, due dates and review decisions. Includes mismatch, replacement and out-of-tolerance examples.",
     "img": "/images/journal/equipment-calibration-log-20261003.webp",
     "alt": "Metrology bench with a caliper, micrometer, gauge blocks and calibration record clipboard.",
     "tag": "Planning Guides",
-    "date": "Updated Oct 20, 2026"
+    "date": "Updated Nov 4, 2026"
   },
   {
     "url": "/journal/rental-equipment-maintenance-log/",
     "title": "Rental Equipment Maintenance Log: Inspections, Repairs and Availability",
-    "excerpt": "Keep rental asset service records connected to booking availability. Includes a free CSV starter, return inspection workflow and a worked downtime and repair-cost example.",
+    "excerpt": "Keep a rental equipment maintenance log with asset history, release evidence and booking checks. Calculate overlapping downtime without counting the same hold twice.",
     "img": "/images/journal/rental-equipment-maintenance-log-cover-20261015.webp",
     "alt": "Equipment maintenance log cover showing a work light and service record",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Nov 4, 2026"
   },
   {
     "url": "/journal/cash-runway-template/",
@@ -546,11 +546,11 @@ var posts = [
   {
     "url": "/journal/small-engine-repair-business-plan/",
     "title": "Small Engine Repair Business Plan: A One-Technician Worked Example",
-    "excerpt": "Build a small engine repair business plan around customers, service scope, technician hours, job contribution and cash timing. Includes a fictional 90-day test.",
+    "excerpt": "Plan a small-engine repair business around capacity, job contribution and cash. Worked examples include parts delays, weekly queues and additional comeback work.",
     "img": "/images/journal/small-engine-repair-business-plan-20261001.webp",
     "alt": "Small-engine repair shop owner planning appointments and services at a workshop desk.",
     "tag": "Planning Guides",
-    "date": "Updated Oct 18, 2026"
+    "date": "Updated Nov 4, 2026"
   },
   {
     "url": "/journal/supplier-scorecard-template/",
@@ -582,11 +582,11 @@ var posts = [
   {
     "url": "/journal/repair-shop-parts-inventory/",
     "title": "How to track repair-shop parts from shelf to work order",
-    "excerpt": "Track parts on hand, reserved for jobs, issued and returned. Use a worked repair-shop ledger and a simple reorder check.",
+    "excerpt": "Track repair-shop parts by SKU, work order and movement. Worked examples explain reservations, approved substitutions, delayed parts and stock issue reconciliation.",
     "img": "/images/journal/repair-shop-parts-inventory-20260930.webp",
     "alt": "Repair technician comparing a filter and parts bins with a work order",
     "tag": "Planning Guides",
-    "date": "Updated Oct 18, 2026"
+    "date": "Updated Nov 4, 2026"
   },
   {
     "url": "/journal/agency-capacity-planning-example/",
@@ -609,11 +609,11 @@ var posts = [
   {
     "url": "/journal/how-to-track-consignment-inventory/",
     "title": "How to track consignment inventory from intake to payout",
-    "excerpt": "Follow each consigned item from owner agreement and intake through sale, refund, return and payout. Includes a worked $180 sale and copyable register.",
+    "excerpt": "Track consignment inventory from item intake to sale and payout. Preserve ownership, agreement versions, commission calculations, refunds and custody evidence.",
     "img": "/images/journal/how-to-track-consignment-inventory-20260929.webp",
     "alt": "Tagged consignment items and owner records prepared for a payout review",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Nov 4, 2026"
   },
   {
     "url": "/journal/cash-flow-forecast-template-example/",
@@ -915,20 +915,20 @@ var posts = [
   {
     "url": "/journal/supplier-quote-comparison/",
     "title": "Supplier Quote Comparison Template: Compare Total Costs",
-    "excerpt": "Compare supplier quotes using a practical table, landed-cost example, accepted-unit costs, delivery dates and payment terms before you place an order.",
+    "excerpt": "Compare supplier quotes on specification, delivered cost, usable quantity and timing. Worked examples include pack rounding, surplus units, deposits and cash outlay.",
     "img": "/images/journal/supplier-quote-comparison-20260915.jpg",
     "alt": "Three supplier quote folders beside a parcel and calculator, with the heading Compare Supplier Quotes",
     "tag": "Planning Guides",
-    "date": "Updated Oct 24, 2026"
+    "date": "Updated Nov 4, 2026"
   },
   {
     "url": "/journal/reorder-point-small-business/",
     "title": "Reorder Point Calculation for Small Business: Worked Examples",
-    "excerpt": "Calculate reorder points with daily demand, lead time and safety stock. Worked SKU examples explain open orders, case packs and weekly inventory reviews.",
+    "excerpt": "Calculate a small-business reorder point with demand, lead time and safety stock. Check inventory position, open orders and shortages before delayed receipts.",
     "img": "/images/journal/reorder-point-20260915.jpg",
     "alt": "Organized stockroom with parcels, a low-stock shelf marker and the heading When to Reorder",
     "tag": "Planning Guides",
-    "date": "Updated Oct 24, 2026"
+    "date": "Updated Nov 4, 2026"
   },
   {
     "tag": "Small Business Software",
@@ -978,11 +978,11 @@ var posts = [
   {
     "tag": "Sales Tracking",
     "title": "How to Connect Sales and Inventory Tracking for a Small Shop",
-    "date": "Updated Oct 24, 2026 · 5 min",
+    "date": "Updated Nov 4, 2026 · 5 min",
     "url": "/journal/sales-inventory-tracking-small-business/",
     "img": "/images/products/sales-management-system/8-dashboard-closeup.webp",
     "alt": "How to Connect Sales and Inventory Tracking for a Small Shop",
-    "excerpt": "See how one small-shop sale connects order amounts, payments and stock. Download a worked example with formulas for fulfilled units and merchandise costs."
+    "excerpt": "Connect sales, inventory, shipments and payments for a small business. Worked examples cover partial fulfillment, returns, reservations and bundle components."
   },
   {
     "tag": "Content Calendar",

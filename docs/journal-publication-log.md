@@ -1,5 +1,11 @@
 # Journal publication log
 
+## November 4, 2026 — ten operations journals
+
+Next ten existing journals: batch/lot traceability, equipment calibration, rental maintenance, repair-shop parts, small-engine repair plan, consignment tracking, sales/inventory tracking, reorder point, supplier quote comparison and inventory count sheet. New original examples address unique trace outputs, identity/certificate mismatches, overlapping downtime, approved substitutions, comeback capacity, agreement versions, component reservations, delayed inbound gaps, pack rounding and verified recounts. Source review, retrieval limits and model reproduction: `docs/research/2026-11-04-ten-operations-journals.md`.
+
+These ten are outside the current-series45, with earlier editorial history acknowledged. Titles, original publication dates, artwork, styles and public fragments preserved. November4 modification dates/descriptions and generated discovery outputs aligned.193otherHTML files differ only in cache references; protected executable/core/tool/download behavior preserved. Require current-head CI and production verification before reporting55complete. No fresh GSC or ranking/indexing gain claimed. Final release status is in the session checkpoint.
+
 ## November 3, 2026 — ten existing journals refreshed
 
 Owner advanced the saved ten-blog shortlist after competitor analysis. Updated weekly business review, small-business budget example, monthly budget variance, 13-week cash-flow forecast, one-page business plan, one-page marketing plan, freelance business plan, equipment-rental plan, agency capacity and production schedule. Original examples retained and gaps addressed with decision/evidence tables, reconciled rollover, customer deduplication, remaining capacity and rework checks. Corrected freelance final installment and production incoming-material link. Research, exact URLs, retrieval limits and arithmetic: `docs/research/2026-11-03-ten-journal-refresh.md`.
