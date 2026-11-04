@@ -2808,6 +2808,11 @@
       "revision": "642ea438d53d5dc4b91bd68547d64eb562632a95da38147282b8d2cdf0fb619e",
       "status": "needs_review",
       "attemptedAt": "2026-11-04T15:23:19.576120+00:00"
+    },
+    "https://nexalyplanner.com/journal/store-performance-dashboard/|youtube": {
+      "revision": "642ea438d53d5dc4b91bd68547d64eb562632a95da38147282b8d2cdf0fb619e",
+      "status": "attempting",
+      "attemptedAt": "2026-11-04T15:23:23.251546+00:00"
     }
   },
   "firstTestCompleted": true
