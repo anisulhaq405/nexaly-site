@@ -292,6 +292,69 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/client-dashboard-example/",
+    "title": "Client Dashboard Example: Outcomes, Progress & Decisions",
+    "excerpt": "Build a client dashboard that separates accepted work, deduplicated results, spend and decisions. Includes a fictional agency report and privacy checklist.",
+    "img": "/images/journal/client-dashboard-example-20261104.webp",
+    "alt": "Agency lead discussing a conceptual report with a client at a desk",
+    "tag": "Planning Guides",
+    "date": "Nov 4, 2026"
+  },
+  {
+    "url": "/journal/ecommerce-business-plan/",
+    "title": "Ecommerce Business Plan: Orders, Returns & Cash Example",
+    "excerpt": "Build an ecommerce business plan around conversion, fulfillment, returns, contribution and payment timing. Follow a reconciled 120-order example.",
+    "img": "/images/journal/ecommerce-business-plan-20261104.webp",
+    "alt": "Ecommerce owner inspecting a returned garment beside separate stock and shipping containers",
+    "tag": "Planning Guides",
+    "date": "Nov 4, 2026"
+  },
+  {
+    "url": "/journal/fashion-line-business-plan/",
+    "title": "Fashion Line Business Plan: Collection Costs, Sizes & Launch Cash",
+    "excerpt": "Write a fashion line business plan with a small collection, size-level stock, returns, launch costs and cash. Includes a filled financial example.",
+    "img": "/images/journal/fashion-line-business-plan-20261104.webp",
+    "alt": "Fashion designer comparing fabric swatches beside garment sketches and a teal jacket",
+    "tag": "Planning Guides",
+    "date": "Nov 4, 2026"
+  },
+  {
+    "url": "/journal/financial-dashboard-example/",
+    "title": "Financial Dashboard Example: Profit, Cash & Working Capital",
+    "excerpt": "Use a financial dashboard example to reconcile operating results, cash, receivables, payables and stock. Includes a transparent profit-to-cash bridge.",
+    "img": "/images/journal/financial-dashboard-example-20261104.webp",
+    "alt": "Calculator and financial planning papers beside a tablet with conceptual charts",
+    "tag": "Planning Guides",
+    "date": "Nov 4, 2026"
+  },
+  {
+    "url": "/journal/project-management-dashboard/",
+    "title": "Project Management Dashboard: Budget, Capacity & Delivery",
+    "excerpt": "Create a project management dashboard with weighted progress, forecast cost, role capacity and delivery dates. Includes a reconciled project example.",
+    "img": "/images/journal/project-management-dashboard-20261104.webp",
+    "alt": "Project coordinator reviewing a physical task board with color-coded cards",
+    "tag": "Planning Guides",
+    "date": "Nov 4, 2026"
+  },
+  {
+    "url": "/journal/recruitment-company-business-plan/",
+    "title": "Recruitment Company Business Plan: Fees, Capacity & Cash",
+    "excerpt": "Write a recruitment company business plan with a niche, search capacity, fee assumptions, collection dates and a refund stress test. Includes a filled example.",
+    "img": "/images/journal/recruitment-company-business-plan-20261104.webp",
+    "alt": "Recruiter preparing anonymous candidate folders beside an interview desk",
+    "tag": "Planning Guides",
+    "date": "Nov 4, 2026"
+  },
+  {
+    "url": "/journal/store-performance-dashboard/",
+    "title": "Store Performance Dashboard: Sales, Margin & Stock Example",
+    "excerpt": "Build a store performance dashboard that reconciles orders, refunds, gross margin and available stock. Use a worked example and a weekly review template.",
+    "img": "/images/journal/store-performance-dashboard-20261104.webp",
+    "alt": "Shop owner reviewing stock and sales records in a clothing boutique",
+    "tag": "Planning Guides",
+    "date": "Nov 4, 2026"
+  },
+  {
     "url": "/journal/planner-sizes-chart-printable-inserts/",
     "title": "Planner Sizes Chart: A5, Half Letter, A4 & Inserts",
     "excerpt": "Compare planner sizes in inches and mm: A5 vs Half Letter, A4 vs US Letter, B5, Personal and 7×9 inserts. Print at actual size and check binder fit.",
@@ -811,7 +874,7 @@ var posts = [
     "img": "/images/journal/planners-2026-full-comparison-20260918.jpg",
     "alt": "Open 2026 planner with monthly, weekly, and daily planning pages for work, study, and home life",
     "tag": "Planning Guides",
-    "date": "Updated Oct 24, 2026"
+    "date": "Updated Nov 4, 2026"
   },
   {
     "url": "/journal/weekly-planner-2026-free-templates/",
