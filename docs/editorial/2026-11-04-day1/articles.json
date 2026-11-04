@@ -1,0 +1,136 @@
+[
+  {
+    "slug": "store-performance-dashboard",
+    "title": "Store Performance Dashboard: Sales, Margin & Stock Example",
+    "alt": "Shop owner reviewing stock and sales records in a clothing boutique",
+    "img": "exec-3f4b5f12-f8c9-4ff4-8885-15586c253884.png",
+    "sources": [
+      [
+        "Shopify: store performance dashboard",
+        "https://www.shopify.com/blog/store-performance-dashboard"
+      ],
+      [
+        "Shopify Help: overview dashboard",
+        "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/overview-dashboard/using-the-overview-dashboard"
+      ],
+      [
+        "Shopify Help: profit reports",
+        "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/profit-reports"
+      ]
+    ],
+    "asset": "/images/journal/store-performance-dashboard-20261104.webp",
+    "word_count": 855
+  },
+  {
+    "slug": "project-management-dashboard",
+    "title": "Project Management Dashboard: Budget, Capacity & Delivery",
+    "alt": "Project coordinator reviewing a physical task board with color-coded cards",
+    "img": "exec-ffe506c8-9f5f-4157-bbd3-83db3259bb11.png",
+    "sources": [
+      [
+        "Asana Help: project dashboards",
+        "https://help.asana.com/s/article/how-to-create-project-dashboards"
+      ],
+      [
+        "Smartsheet: project portfolio dashboards",
+        "https://www.smartsheet.com/content/project-portfolio-dashboards"
+      ]
+    ],
+    "asset": "/images/journal/project-management-dashboard-20261104.webp",
+    "word_count": 786
+  },
+  {
+    "slug": "fashion-line-business-plan",
+    "title": "Fashion Line Business Plan: Collection Costs, Sizes & Launch Cash",
+    "alt": "Fashion designer comparing fabric swatches beside garment sketches and a teal jacket",
+    "img": "exec-3344b6a6-cf35-481e-911b-9f034ae2378f.png",
+    "sources": [
+      [
+        "Shopify: clothing line business plan",
+        "https://www.shopify.com/blog/clothing-line-business-plan"
+      ],
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ]
+    ],
+    "asset": "/images/journal/fashion-line-business-plan-20261104.webp",
+    "word_count": 1048
+  },
+  {
+    "slug": "ecommerce-business-plan",
+    "title": "Ecommerce Business Plan: Orders, Returns & Cash Example",
+    "alt": "Ecommerce owner inspecting a returned garment beside separate stock and shipping containers",
+    "img": "exec-907a6bc6-f061-4549-b294-e66d095e81b8.png",
+    "sources": [
+      [
+        "Zoho Commerce: ecommerce business plan template",
+        "https://www.zoho.com/commerce/academy/ecommerce-business-plan-template.html"
+      ],
+      [
+        "SBA: business plan structure",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ]
+    ],
+    "asset": "/images/journal/ecommerce-business-plan-20261104.webp",
+    "word_count": 1051
+  },
+  {
+    "slug": "financial-dashboard-example",
+    "title": "Financial Dashboard Example: Profit, Cash & Working Capital",
+    "alt": "Calculator and financial planning papers beside a tablet with conceptual charts",
+    "img": "exec-0209561d-1e97-4f02-8c6a-a1e0b86580b5.png",
+    "sources": [
+      [
+        "Zoho Analytics: finance dashboard examples",
+        "https://www.zoho.com/analytics/dashboard-examples/finance.html"
+      ],
+      [
+        "Geckoboard: cash flow dashboard example",
+        "https://www.geckoboard.com/dashboard-examples/finance/cash-flow-dashboard/"
+      ]
+    ],
+    "asset": "/images/journal/financial-dashboard-example-20261104.webp",
+    "word_count": 758
+  },
+  {
+    "slug": "client-dashboard-example",
+    "title": "Client Dashboard Example: Outcomes, Progress & Decisions",
+    "alt": "Agency lead discussing a conceptual report with a client at a desk",
+    "img": "exec-2ab138ab-15e7-479c-844a-07c4e30a67d1.png",
+    "sources": [
+      [
+        "Assembly: client dashboard examples",
+        "https://assembly.com/blog/client-dashboard-examples"
+      ],
+      [
+        "ClickUp: client dashboard guide",
+        "https://clickup.com/blog/client-dashboard/"
+      ]
+    ],
+    "asset": "/images/journal/client-dashboard-example-20261104.webp",
+    "word_count": 790
+  },
+  {
+    "slug": "recruitment-company-business-plan",
+    "title": "Recruitment Company Business Plan: Fees, Capacity & Cash",
+    "alt": "Recruiter preparing anonymous candidate folders beside an interview desk",
+    "img": "exec-6579769c-3293-4e8a-834b-b497f411e24c.png",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "RecruiterRoles: recruitment agency business plan",
+        "https://recruiterroles.com/blog/recruitment-agency-business-plan"
+      ],
+      [
+        "Informi: starting a recruitment agency",
+        "https://informi.co.uk/starting-business/how-to-start-a-recruitment-agency"
+      ]
+    ],
+    "asset": "/images/journal/recruitment-company-business-plan-20261104.webp",
+    "word_count": 1065
+  }
+]
