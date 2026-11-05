@@ -2893,6 +2893,11 @@
       "revision": "e4063de31d3a014c3cc73cc684311bff0f1ea2336c8074980931457837832090",
       "status": "needs_review",
       "attemptedAt": "2026-11-05T10:28:35.649146+00:00"
+    },
+    "https://nexalyplanner.com/journal/farmers-market-business-plan/|facebook": {
+      "revision": "f1c8f73109173f530a56ea38633962342da495ab28356cf01a4e500568ad318e",
+      "status": "attempting",
+      "attemptedAt": "2026-11-05T10:28:42.903698+00:00"
     }
   },
   "firstTestCompleted": true
