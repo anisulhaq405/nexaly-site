@@ -2868,6 +2868,11 @@
       "revision": "4b348c25d4cbe7ee3d2db804c3fc5858169e26201b24b4e1faf0ab38ea340110",
       "status": "needs_review",
       "attemptedAt": "2026-11-05T10:28:16.525643+00:00"
+    },
+    "https://nexalyplanner.com/journal/crm-for-solopreneurs/|youtube": {
+      "revision": "4b348c25d4cbe7ee3d2db804c3fc5858169e26201b24b4e1faf0ab38ea340110",
+      "status": "attempting",
+      "attemptedAt": "2026-11-05T10:28:19.599250+00:00"
     }
   },
   "firstTestCompleted": true
