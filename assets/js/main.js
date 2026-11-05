@@ -292,6 +292,69 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/accounting-firm-business-plan/",
+    "title": "Accounting Firm Business Plan: Client Capacity, Fees & Cash",
+    "excerpt": "Build an accounting practice business plan around service scope, client hours, review capacity, fee assumptions and collections. Includes a filled monthly example.",
+    "img": "/images/journal/accounting-firm-business-plan-20261105.webp",
+    "alt": "Silver-haired accounting practice owner planning client work beside anonymous folders",
+    "tag": "Planning Guides",
+    "date": "Nov 5, 2026"
+  },
+  {
+    "url": "/journal/business-plan-examples/",
+    "title": "Business Plan Examples: Choose a Model, Then Test Its Numbers",
+    "excerpt": "Browse original small-business plan examples by operating model. Compare stock, hours, cash and risks, then adapt the right example with a free template.",
+    "img": "/images/journal/business-plan-examples-20261105.webp",
+    "alt": "Planning binder with separate retail, service and equipment-rental planning objects",
+    "tag": "Planning Guides",
+    "date": "Nov 5, 2026"
+  },
+  {
+    "url": "/journal/crm-for-solopreneurs/",
+    "title": "CRM for Solopreneurs: A Simple Pipeline & Follow-Up Workflow",
+    "excerpt": "Set up a solopreneur CRM with clear stages, unique contacts, dated next actions and separate bookings, invoices and receipts. Includes a worked pipeline example.",
+    "img": "/images/journal/crm-for-solopreneurs-20261105.webp",
+    "alt": "Solo creative professional organizing prospect cards and a follow-up calendar",
+    "tag": "Planning Guides",
+    "date": "Nov 5, 2026"
+  },
+  {
+    "url": "/journal/entrepreneurial-skills-practice-plan/",
+    "title": "Entrepreneurial Skills: A 14-Day Practice Plan With Evidence",
+    "excerpt": "Practice entrepreneurial skills through customer interviews, pricing, cash, delivery estimates and small experiments. Use a 14-day plan and evidence-based review.",
+    "img": "/images/journal/entrepreneurial-skills-practice-plan-20261105.webp",
+    "alt": "Entrepreneur practicing a customer interview beside a handmade product prototype",
+    "tag": "Planning Guides",
+    "date": "Nov 5, 2026"
+  },
+  {
+    "url": "/journal/farmers-market-business-plan/",
+    "title": "Farmers Market Business Plan: Stall Costs, Waste & Cash",
+    "excerpt": "Plan a farmers market stall with sell-through, samples, spoilage, market-day costs and owner time. Follow a filled example and a rainy-day cash test.",
+    "img": "/images/journal/farmers-market-business-plan-20261105.webp",
+    "alt": "Produce vendor arranging vegetable crates at a morning farmers market",
+    "tag": "Planning Guides",
+    "date": "Nov 5, 2026"
+  },
+  {
+    "url": "/journal/landscape-business-plan/",
+    "title": "Landscape Business Plan: Crew Hours, Route Costs & Cash",
+    "excerpt": "Write a landscape maintenance business plan with crew-hours, travel, weekly visit capacity, costs and collection timing. Includes a weather-delay scenario.",
+    "img": "/images/journal/landscape-business-plan-20261105.webp",
+    "alt": "Landscape crew lead reviewing a clipboard beside a maintenance truck and gardening tools",
+    "tag": "Planning Guides",
+    "date": "Nov 5, 2026"
+  },
+  {
+    "url": "/journal/operations-dashboard-example/",
+    "title": "Operations Dashboard Example: Backlog, Quality & Capacity",
+    "excerpt": "Create an operations dashboard that reconciles demand, completions, cancellations, rework and next-week capacity. Includes a small-workshop example.",
+    "img": "/images/journal/operations-dashboard-example-20261105.webp",
+    "alt": "Workshop dispatch station with separate job-card trays, quality tools and packaged products",
+    "tag": "Planning Guides",
+    "date": "Nov 5, 2026"
+  },
+  {
     "url": "/journal/client-dashboard-example/",
     "title": "Client Dashboard Example: Outcomes, Progress & Decisions",
     "excerpt": "Build a client dashboard that separates accepted work, deduplicated results, spend and decisions. Includes a fictional agency report and privacy checklist.",
@@ -910,7 +973,7 @@ var posts = [
     "img": "/assets/img/journal-responsive/daily-planner-complete-guide-1280.webp",
     "alt": "Open daily planner with three priorities, fixed appointments, time blocks, and an end-of-day review",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Nov 5, 2026"
   },
   {
     "url": "/journal/day-planner-vs-daily-planner/",
@@ -1108,7 +1171,7 @@ var posts = [
     "img": "/images/journal/one-person-business-ai-concept.jpg",
     "alt": "A solo business owner at a laptop with conceptual AI panels for research, writing, support and business records",
     "tag": "Planning Guides",
-    "date": "Updated Oct 24, 2026"
+    "date": "Updated Nov 5, 2026"
   }
 ];
 var heartSvg = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.6-9.3-8.4C1 9.5 2.4 6 5.6 6c1.9 0 3.2 1.1 4.4 2.6C11.2 7.1 12.5 6 14.4 6c3.2 0 4.6 3.5 2.9 6.6C19 16.4 12 21 12 21z"/></svg>';
