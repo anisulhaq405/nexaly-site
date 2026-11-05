@@ -209,3 +209,11 @@ Owner requested complete same-day publication and topic/theme-matched journal im
 Two new free resources: /tools/adhd-cleaning-planner/ (working page-local worksheet plus blank/filled two-page PDF) and /tools/business-plan-cover-page/ (editable preview, backup, printable HTML and blank one-page PDF). Existing /journal/planners-2026-full-comparison/ corrected PDF/browser format generalizations; digital-planner category and weekly free-template owner audited with no further rewrite needed. Preserve earlier dates and completed work.
 
 See docs/editorial/2026-11-04-day1/research-and-release.md for competitor coverage, examples, original visual briefs, exact audit outcomes and verification limits. Deferred batch1 covers 1,160 queries with individual reason records; 355 unresolved are explicitly retained. Five-hub architecture and two feasibility spikes are drafts, with Day2 decision gates and later scheduled production acceptance. Release evidence is recorded in the accompanying release document after checks and live verification.
+
+## November 5, 2026 — fixed sprint Day2
+
+Seven new journals prepared: farmers-market-business-plan, accounting-firm-business-plan, operations-dashboard-example, landscape-business-plan, crm-for-solopreneurs, entrepreneurial-skills-practice-plan, business-plan-examples. Original reconciled examples and seven topic/theme-matched feature images. Two working free resources: business-plan-template (editable narrative, HTML/JSON and three-page PDF) and business-startup-checklist (evidence/owner/date/status report, CSV/JSON and blank/filled PDF).
+
+Scheduled existing owners audited and improved: solo-owner AI guide (one trial plus decision register), printable builder (correct example copy and print guidance), daily planner guide (format/cross-device correction and capacity check). Earlier dates, assets, core and paid products preserved. Research, verification limits and tests: docs/editorial/2026-11-05-day2/research-and-release.md.
+
+Deferred query batch2 accounts for1,160rows without overlap;538unresolved retained, not approved. O053 build decision for Day9 bounded statements; O117 AI-generator intent explicitly excluded, no falsely labeled page. Day3 queue and five hub drafts remain scheduled. Publish only the checked PR revision, then record exact live evidence in the PR and saved project plan.

@@ -1,0 +1,117 @@
+[
+  {
+    "slug": "farmers-market-business-plan",
+    "title": "Farmers Market Business Plan: Stall Costs, Waste & Cash",
+    "alt": "Produce vendor arranging vegetable crates at a morning farmers market",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "University of Missouri Extension: break-even pricing",
+        "https://extension.missouri.edu/publications/g648"
+      ]
+    ],
+    "asset": "/images/journal/farmers-market-business-plan-20261105.webp",
+    "word_count": 901
+  },
+  {
+    "slug": "accounting-firm-business-plan",
+    "title": "Accounting Firm Business Plan: Client Capacity, Fees & Cash",
+    "alt": "Silver-haired accounting practice owner planning client work beside anonymous folders",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "Xero: grow your accounting practice",
+        "https://www.xero.com/uk/accountant-bookkeeper-guides/grow-your-accounting-practice/"
+      ]
+    ],
+    "asset": "/images/journal/accounting-firm-business-plan-20261105.webp",
+    "word_count": 902
+  },
+  {
+    "slug": "operations-dashboard-example",
+    "title": "Operations Dashboard Example: Backlog, Quality & Capacity",
+    "alt": "Workshop dispatch station with separate job-card trays, quality tools and packaged products",
+    "sources": [
+      [
+        "Geckoboard: operations dashboard examples",
+        "https://www.geckoboard.com/dashboard-examples/operations/"
+      ],
+      [
+        "Tableau Help: dashboards",
+        "https://help.tableau.com/current/pro/desktop/en-gb/dashboards.htm"
+      ]
+    ],
+    "asset": "/images/journal/operations-dashboard-example-20261105.webp",
+    "word_count": 842
+  },
+  {
+    "slug": "landscape-business-plan",
+    "title": "Landscape Business Plan: Crew Hours, Route Costs & Cash",
+    "alt": "Landscape crew lead reviewing a clipboard beside a maintenance truck and gardening tools",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "Jobber: landscaping business plan",
+        "https://www.getjobber.com/academy/landscaping/landscaping-business-plan/"
+      ]
+    ],
+    "asset": "/images/journal/landscape-business-plan-20261105.webp",
+    "word_count": 879
+  },
+  {
+    "slug": "crm-for-solopreneurs",
+    "title": "CRM for Solopreneurs: A Simple Pipeline & Follow-Up Workflow",
+    "alt": "Solo creative professional organizing prospect cards and a follow-up calendar",
+    "sources": [
+      [
+        "HubSpot: set up object pipelines",
+        "https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines"
+      ],
+      [
+        "Salesforce: CRM overview",
+        "https://www.salesforce.com/crm/what-is-crm/"
+      ]
+    ],
+    "asset": "/images/journal/crm-for-solopreneurs-20261105.webp",
+    "word_count": 929
+  },
+  {
+    "slug": "entrepreneurial-skills-practice-plan",
+    "title": "Entrepreneurial Skills: A 14-Day Practice Plan With Evidence",
+    "alt": "Entrepreneur practicing a customer interview beside a handmade product prototype",
+    "sources": [
+      [
+        "European Commission: EntreComp framework",
+        "https://op.europa.eu/en/publication-detail/-/publication/5e633083-27c8-11e6-914b-01aa75ed71a1"
+      ],
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ]
+    ],
+    "asset": "/images/journal/entrepreneurial-skills-practice-plan-20261105.webp",
+    "word_count": 868
+  },
+  {
+    "slug": "business-plan-examples",
+    "title": "Business Plan Examples: Choose a Model, Then Test Its Numbers",
+    "alt": "Planning binder with separate retail, service and equipment-rental planning objects",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ]
+    ],
+    "asset": "/images/journal/business-plan-examples-20261105.webp",
+    "word_count": 942
+  }
+]
