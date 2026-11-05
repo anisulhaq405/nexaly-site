@@ -2833,6 +2833,11 @@
       "revision": "b7d39de17d2ea2996bfdbeedd02530c70a8956fce0234ecd8f3c5f67444c9252",
       "status": "needs_review",
       "attemptedAt": "2026-11-05T10:27:47.009158+00:00"
+    },
+    "https://nexalyplanner.com/journal/business-plan-examples/|facebook": {
+      "revision": "66b9cb99f0f7e031b100174ff0a7c7581b1315c948e35fc7d4e7d3ca68a53793",
+      "status": "attempting",
+      "attemptedAt": "2026-11-05T10:27:54.017938+00:00"
     }
   },
   "firstTestCompleted": true
