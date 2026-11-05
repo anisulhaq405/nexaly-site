@@ -2913,6 +2913,11 @@
       "revision": "f1c8f73109173f530a56ea38633962342da495ab28356cf01a4e500568ad318e",
       "status": "needs_review",
       "attemptedAt": "2026-11-05T10:28:51.084281+00:00"
+    },
+    "https://nexalyplanner.com/journal/landscape-business-plan/|facebook": {
+      "revision": "7572b3657f6db02c1c2460698411a8554072071ebbd488b75c491030b0ed2cf0",
+      "status": "attempting",
+      "attemptedAt": "2026-11-05T10:28:57.759793+00:00"
     }
   },
   "firstTestCompleted": true
