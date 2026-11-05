@@ -2873,6 +2873,11 @@
       "revision": "4b348c25d4cbe7ee3d2db804c3fc5858169e26201b24b4e1faf0ab38ea340110",
       "status": "needs_review",
       "attemptedAt": "2026-11-05T10:28:19.599250+00:00"
+    },
+    "https://nexalyplanner.com/journal/entrepreneurial-skills-practice-plan/|facebook": {
+      "revision": "e4063de31d3a014c3cc73cc684311bff0f1ea2336c8074980931457837832090",
+      "status": "attempting",
+      "attemptedAt": "2026-11-05T10:28:26.626745+00:00"
     }
   },
   "firstTestCompleted": true
