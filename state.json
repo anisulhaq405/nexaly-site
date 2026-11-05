@@ -2948,6 +2948,11 @@
       "revision": "cd9ca887f27199ad084cea12b88fd29b1c8a54ff2ffe44b99cd90db4be4cb5f3",
       "status": "needs_review",
       "attemptedAt": "2026-11-05T10:29:19.040967+00:00"
+    },
+    "https://nexalyplanner.com/journal/operations-dashboard-example/|youtube": {
+      "revision": "cd9ca887f27199ad084cea12b88fd29b1c8a54ff2ffe44b99cd90db4be4cb5f3",
+      "status": "attempting",
+      "attemptedAt": "2026-11-05T10:29:22.218128+00:00"
     }
   },
   "firstTestCompleted": true
