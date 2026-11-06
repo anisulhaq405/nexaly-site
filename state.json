@@ -3118,8 +3118,9 @@
     },
     "https://nexalyplanner.com/journal/security-business-plan/|youtube": {
       "revision": "d2d20177aa0fc3c87848725f4313f99aeda9d5211cb2168a4cc12fd42ab7c7a7",
-      "status": "attempting",
-      "attemptedAt": "2026-11-06T06:10:06.246668+00:00"
+      "status": "published",
+      "postId": "xoI9086n950",
+      "publishedAt": "2026-11-06T06:10:10.650406+00:00"
     }
   },
   "firstTestCompleted": true
