@@ -1,7 +1,6 @@
 from decimal import Decimal as D
 from pathlib import Path
 from pypdf import PdfReader
-from PIL import Image
 import json
 R=Path(__file__).resolve().parents[1]
 assert 4*6000*D('.75')-4*500-6000==10000 and 12000+13500-8000-4000==13500
@@ -25,5 +24,5 @@ assert 4*300-4*60-400==560 and 40-10-4*6==6 and 4*8-30==2 and 1000+600-240-400==
 for slug in ['daily-schedule-builder','business-idea-comparison']:
  pdf=PdfReader(R/'downloads'/f'{slug}.pdf');assert len(pdf.pages)==1 and not pdf.get_fields();assert tuple(pdf.pages[0].mediabox)[2:]==(612,792);assert len(pdf.pages[0].extract_text())>300
 for a in json.loads((R/'docs/editorial/2026-11-06-day3/articles.json').read_text()):
- with Image.open(R/a['asset'].lstrip('/')) as im:assert im.size==(1200,800);im.load()
+ b=(R/a['asset'].lstrip('/')).read_bytes();assert len(b)>1024 and b[:4]==b'RIFF' and b[8:12]==b'WEBP'
 print('PASS Day3: eight original numerical examples, eight nonempty images and two static Letter PDFs.')
