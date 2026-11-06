@@ -3052,8 +3052,9 @@
     },
     "https://nexalyplanner.com/journal/nonprofit-business-plan/|facebook": {
       "revision": "93c7a1d7f552705df03656a8502e68ad07496ce949847d4edd4468674c20c8cf",
-      "status": "attempting",
-      "attemptedAt": "2026-11-06T06:07:43.322342+00:00"
+      "status": "published",
+      "postId": "1308942472292403_122118601569409632",
+      "publishedAt": "2026-11-06T06:07:54.602701+00:00"
     }
   },
   "firstTestCompleted": true
