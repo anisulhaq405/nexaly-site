@@ -2980,8 +2980,9 @@
     },
     "https://nexalyplanner.com/journal/business-plan-for-a-loan/|facebook": {
       "revision": "eb3ed41efb8728d4b1065e197265f6e9ddb925e30ee81dadf064799aa0dabdfb",
-      "status": "attempting",
-      "attemptedAt": "2026-11-06T06:05:22.496945+00:00"
+      "status": "published",
+      "postId": "1308942472292403_122118601011409632",
+      "publishedAt": "2026-11-06T06:05:34.847882+00:00"
     }
   },
   "firstTestCompleted": true
