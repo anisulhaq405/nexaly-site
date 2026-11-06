@@ -3010,8 +3010,9 @@
     },
     "https://nexalyplanner.com/journal/business-plan-guide/|instagram": {
       "revision": "a0c090c21d72e50e6adae579b527b1a205a8c665bdd6cf26f1ffef051583db63",
-      "status": "attempting",
-      "attemptedAt": "2026-11-06T06:06:22.948876+00:00"
+      "status": "published",
+      "postId": "18084846440529561",
+      "publishedAt": "2026-11-06T06:06:40.026868+00:00"
     }
   },
   "firstTestCompleted": true
