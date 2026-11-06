@@ -3001,6 +3001,11 @@
       "status": "published",
       "postId": "_LXDdRtw0Tk",
       "publishedAt": "2026-11-06T06:06:04.165329+00:00"
+    },
+    "https://nexalyplanner.com/journal/business-plan-guide/|facebook": {
+      "revision": "a0c090c21d72e50e6adae579b527b1a205a8c665bdd6cf26f1ffef051583db63",
+      "status": "attempting",
+      "attemptedAt": "2026-11-06T06:06:10.382954+00:00"
     }
   },
   "firstTestCompleted": true
