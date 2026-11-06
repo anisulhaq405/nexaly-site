@@ -1,0 +1,134 @@
+[
+  {
+    "slug": "real-estate-business-plan",
+    "title": "Real Estate Business Plan: Pipeline, Capacity & Cash Example",
+    "alt": "Real estate professional reviewing property folders, a house model and a calendar",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "TREC: become a sales agent",
+        "https://www.trec.texas.gov/become-licensed/sales-agent"
+      ]
+    ],
+    "asset": "/images/journal/real-estate-business-plan-20261106.webp",
+    "word_count": 842
+  },
+  {
+    "slug": "nonprofit-business-plan",
+    "title": "Nonprofit Business Plan: Mission, Funding & Delivery Capacity",
+    "alt": "Community coordinator reviewing budget papers in a neighborhood food packing workspace",
+    "sources": [
+      [
+        "IRS: nonprofit corporate status and federal tax obligations",
+        "https://www.irs.gov/charities-non-profits/federal-tax-obligations-of-nonprofit-corporations"
+      ],
+      [
+        "National Council of Nonprofits: business planning",
+        "https://www.councilofnonprofits.org/running-nonprofit/administration-and-financial-management/business-planning-nonprofits"
+      ]
+    ],
+    "asset": "/images/journal/nonprofit-business-plan-20261106.webp",
+    "word_count": 893
+  },
+  {
+    "slug": "farm-business-plan",
+    "title": "Farm Business Plan: Yield, Seasonal Costs & Cash Timing",
+    "alt": "Grower checking a clipboard beside seedling trays and harvested produce",
+    "sources": [
+      [
+        "USDA: plan a new farm operation",
+        "https://www.farmers.gov/your-business/beginning-farmers/business-plan"
+      ],
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ]
+    ],
+    "asset": "/images/journal/farm-business-plan-20261106.webp",
+    "word_count": 907
+  },
+  {
+    "slug": "short-term-rental-business-plan",
+    "title": "Short-Term Rental Business Plan: Occupancy, Turnover & Cash",
+    "alt": "Property host reviewing a booking calendar beside linens and keys in a guest apartment",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "IRS: rental recordkeeping",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/tips-on-rental-real-estate-income-deductions-and-recordkeeping"
+      ]
+    ],
+    "asset": "/images/journal/short-term-rental-business-plan-20261106.webp",
+    "word_count": 898
+  },
+  {
+    "slug": "security-business-plan",
+    "title": "Security Company Business Plan: Staffing, Coverage & Cash",
+    "alt": "Security operations coordinator reviewing shift cards at an unmarked dispatch desk",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "Texas DPS: private security",
+        "https://www.dps.texas.gov/section/private-security/private-security"
+      ]
+    ],
+    "asset": "/images/journal/security-business-plan-20261106.webp",
+    "word_count": 892
+  },
+  {
+    "slug": "business-plan-for-a-loan",
+    "title": "Business Plan for a Loan: Funding Uses, Cash & Repayment",
+    "alt": "Workshop owner comparing a supplier quote, cash forecast papers and a calculator",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "SBA: loan programs",
+        "https://www.sba.gov/funding-programs/loans"
+      ]
+    ],
+    "asset": "/images/journal/business-plan-for-a-loan-20261106.webp",
+    "word_count": 939
+  },
+  {
+    "slug": "bar-brewery-business-plan",
+    "title": "Bar and Brewery Business Plan: Seats, Batches & Cash",
+    "alt": "Taproom manager reviewing stock cards beside glassware and stainless brewing tanks",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "TTB: requirements for brewery operations",
+        "https://www.ttb.gov/business-central/requirements-brewery-operations"
+      ]
+    ],
+    "asset": "/images/journal/bar-brewery-business-plan-20261106.webp",
+    "word_count": 951
+  },
+  {
+    "slug": "business-plan-guide",
+    "title": "Business Plan Guide: From Evidence to a Working Cash and Capacity Plan",
+    "alt": "Overhead planning notebook, calculator and objects representing several small business models",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ]
+    ],
+    "asset": "/images/journal/business-plan-guide-20261106.webp",
+    "word_count": 1270
+  }
+]
