@@ -3073,6 +3073,11 @@
       "status": "published",
       "postId": "wr48x7SeOe8",
       "publishedAt": "2026-11-06T06:08:31.185394+00:00"
+    },
+    "https://nexalyplanner.com/journal/real-estate-business-plan/|facebook": {
+      "revision": "d34436b9878d58a56c0e239a5ba4a972fcb9f7fa991f3b900046f353d338ece1",
+      "status": "attempting",
+      "attemptedAt": "2026-11-06T06:08:36.735954+00:00"
     }
   },
   "firstTestCompleted": true
