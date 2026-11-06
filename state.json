@@ -2962,8 +2962,9 @@
     },
     "https://nexalyplanner.com/journal/bar-brewery-business-plan/|instagram": {
       "revision": "06154d6452466c5c900ba4a1773004310cbca42d32bd2a5468eca9b3a11f6266",
-      "status": "attempting",
-      "attemptedAt": "2026-11-06T06:04:48.762070+00:00"
+      "status": "published",
+      "postId": "18033136670858416",
+      "publishedAt": "2026-11-06T06:05:06.971714+00:00"
     }
   },
   "firstTestCompleted": true
