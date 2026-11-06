@@ -3076,8 +3076,9 @@
     },
     "https://nexalyplanner.com/journal/real-estate-business-plan/|facebook": {
       "revision": "d34436b9878d58a56c0e239a5ba4a972fcb9f7fa991f3b900046f353d338ece1",
-      "status": "attempting",
-      "attemptedAt": "2026-11-06T06:08:36.735954+00:00"
+      "status": "published",
+      "postId": "1308942472292403_122118601779409632",
+      "publishedAt": "2026-11-06T06:08:48.042714+00:00"
     }
   },
   "firstTestCompleted": true
