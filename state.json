@@ -3025,6 +3025,11 @@
       "status": "published",
       "postId": "a-Umz76rI6I",
       "publishedAt": "2026-11-06T06:06:49.331541+00:00"
+    },
+    "https://nexalyplanner.com/journal/farm-business-plan/|facebook": {
+      "revision": "bc6424f255664c90172871c5aa2cb782c2101b0b31248121b4c05b1120cf0d6b",
+      "status": "attempting",
+      "attemptedAt": "2026-11-06T06:06:55.342059+00:00"
     }
   },
   "firstTestCompleted": true
