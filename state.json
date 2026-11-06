@@ -3100,8 +3100,9 @@
     },
     "https://nexalyplanner.com/journal/security-business-plan/|facebook": {
       "revision": "d2d20177aa0fc3c87848725f4313f99aeda9d5211cb2168a4cc12fd42ab7c7a7",
-      "status": "attempting",
-      "attemptedAt": "2026-11-06T06:09:25.147779+00:00"
+      "status": "published",
+      "postId": "1308942472292403_122118601947409632",
+      "publishedAt": "2026-11-06T06:09:36.814224+00:00"
     }
   },
   "firstTestCompleted": true
