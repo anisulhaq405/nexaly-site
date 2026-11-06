@@ -295,7 +295,7 @@ var posts = [
     "url": "/journal/accounting-firm-business-plan/",
     "title": "Accounting Firm Business Plan: Client Capacity, Fees & Cash",
     "excerpt": "Build an accounting practice business plan around service scope, client hours, review capacity, fee assumptions and collections. Includes a filled monthly example.",
-    "img": "/images/journal/accounting-firm-business-plan-20261105.webp",
+    "img": "/images/journal/accounting-firm-business-plan-20261105.webp?v=00e8d1397423",
     "alt": "Silver-haired accounting practice owner planning client work beside anonymous folders",
     "tag": "Planning Guides",
     "date": "Nov 5, 2026"
@@ -304,7 +304,7 @@ var posts = [
     "url": "/journal/business-plan-examples/",
     "title": "Business Plan Examples: Choose a Model, Then Test Its Numbers",
     "excerpt": "Browse original small-business plan examples by operating model. Compare stock, hours, cash and risks, then adapt the right example with a free template.",
-    "img": "/images/journal/business-plan-examples-20261105.webp",
+    "img": "/images/journal/business-plan-examples-20261105.webp?v=2cf59a912774",
     "alt": "Planning binder with separate retail, service and equipment-rental planning objects",
     "tag": "Planning Guides",
     "date": "Nov 5, 2026"
@@ -313,7 +313,7 @@ var posts = [
     "url": "/journal/crm-for-solopreneurs/",
     "title": "CRM for Solopreneurs: A Simple Pipeline & Follow-Up Workflow",
     "excerpt": "Set up a solopreneur CRM with clear stages, unique contacts, dated next actions and separate bookings, invoices and receipts. Includes a worked pipeline example.",
-    "img": "/images/journal/crm-for-solopreneurs-20261105.webp",
+    "img": "/images/journal/crm-for-solopreneurs-20261105.webp?v=4a24e0427e88",
     "alt": "Solo creative professional organizing prospect cards and a follow-up calendar",
     "tag": "Planning Guides",
     "date": "Nov 5, 2026"
@@ -322,7 +322,7 @@ var posts = [
     "url": "/journal/entrepreneurial-skills-practice-plan/",
     "title": "Entrepreneurial Skills: A 14-Day Practice Plan With Evidence",
     "excerpt": "Practice entrepreneurial skills through customer interviews, pricing, cash, delivery estimates and small experiments. Use a 14-day plan and evidence-based review.",
-    "img": "/images/journal/entrepreneurial-skills-practice-plan-20261105.webp",
+    "img": "/images/journal/entrepreneurial-skills-practice-plan-20261105.webp?v=96daca81eea3",
     "alt": "Entrepreneur practicing a customer interview beside a handmade product prototype",
     "tag": "Planning Guides",
     "date": "Nov 5, 2026"
@@ -331,7 +331,7 @@ var posts = [
     "url": "/journal/farmers-market-business-plan/",
     "title": "Farmers Market Business Plan: Stall Costs, Waste & Cash",
     "excerpt": "Plan a farmers market stall with sell-through, samples, spoilage, market-day costs and owner time. Follow a filled example and a rainy-day cash test.",
-    "img": "/images/journal/farmers-market-business-plan-20261105.webp",
+    "img": "/images/journal/farmers-market-business-plan-20261105.webp?v=bc74bb7a376e",
     "alt": "Produce vendor arranging vegetable crates at a morning farmers market",
     "tag": "Planning Guides",
     "date": "Nov 5, 2026"
@@ -340,7 +340,7 @@ var posts = [
     "url": "/journal/landscape-business-plan/",
     "title": "Landscape Business Plan: Crew Hours, Route Costs & Cash",
     "excerpt": "Write a landscape maintenance business plan with crew-hours, travel, weekly visit capacity, costs and collection timing. Includes a weather-delay scenario.",
-    "img": "/images/journal/landscape-business-plan-20261105.webp",
+    "img": "/images/journal/landscape-business-plan-20261105.webp?v=f5837c46b8ae",
     "alt": "Landscape crew lead reviewing a clipboard beside a maintenance truck and gardening tools",
     "tag": "Planning Guides",
     "date": "Nov 5, 2026"
@@ -349,7 +349,7 @@ var posts = [
     "url": "/journal/operations-dashboard-example/",
     "title": "Operations Dashboard Example: Backlog, Quality & Capacity",
     "excerpt": "Create an operations dashboard that reconciles demand, completions, cancellations, rework and next-week capacity. Includes a small-workshop example.",
-    "img": "/images/journal/operations-dashboard-example-20261105.webp",
+    "img": "/images/journal/operations-dashboard-example-20261105.webp?v=0a29cb5f87f0",
     "alt": "Workshop dispatch station with separate job-card trays, quality tools and packaged products",
     "tag": "Planning Guides",
     "date": "Nov 5, 2026"
@@ -358,7 +358,7 @@ var posts = [
     "url": "/journal/client-dashboard-example/",
     "title": "Client Dashboard Example: Outcomes, Progress & Decisions",
     "excerpt": "Build a client dashboard that separates accepted work, deduplicated results, spend and decisions. Includes a fictional agency report and privacy checklist.",
-    "img": "/images/journal/client-dashboard-example-20261104.webp",
+    "img": "/images/journal/client-dashboard-example-20261104.webp?v=72f560034579",
     "alt": "Agency lead discussing a conceptual report with a client at a desk",
     "tag": "Planning Guides",
     "date": "Nov 4, 2026"
@@ -367,7 +367,7 @@ var posts = [
     "url": "/journal/ecommerce-business-plan/",
     "title": "Ecommerce Business Plan: Orders, Returns & Cash Example",
     "excerpt": "Build an ecommerce business plan around conversion, fulfillment, returns, contribution and payment timing. Follow a reconciled 120-order example.",
-    "img": "/images/journal/ecommerce-business-plan-20261104.webp",
+    "img": "/images/journal/ecommerce-business-plan-20261104.webp?v=ba274c6d4283",
     "alt": "Ecommerce owner inspecting a returned garment beside separate stock and shipping containers",
     "tag": "Planning Guides",
     "date": "Nov 4, 2026"
@@ -376,7 +376,7 @@ var posts = [
     "url": "/journal/fashion-line-business-plan/",
     "title": "Fashion Line Business Plan: Collection Costs, Sizes & Launch Cash",
     "excerpt": "Write a fashion line business plan with a small collection, size-level stock, returns, launch costs and cash. Includes a filled financial example.",
-    "img": "/images/journal/fashion-line-business-plan-20261104.webp",
+    "img": "/images/journal/fashion-line-business-plan-20261104.webp?v=98b4da7be4b7",
     "alt": "Fashion designer comparing fabric swatches beside garment sketches and a teal jacket",
     "tag": "Planning Guides",
     "date": "Nov 4, 2026"
@@ -385,7 +385,7 @@ var posts = [
     "url": "/journal/financial-dashboard-example/",
     "title": "Financial Dashboard Example: Profit, Cash & Working Capital",
     "excerpt": "Use a financial dashboard example to reconcile operating results, cash, receivables, payables and stock. Includes a transparent profit-to-cash bridge.",
-    "img": "/images/journal/financial-dashboard-example-20261104.webp",
+    "img": "/images/journal/financial-dashboard-example-20261104.webp?v=ee77423175f7",
     "alt": "Calculator and financial planning papers beside a tablet with conceptual charts",
     "tag": "Planning Guides",
     "date": "Nov 4, 2026"
@@ -394,7 +394,7 @@ var posts = [
     "url": "/journal/project-management-dashboard/",
     "title": "Project Management Dashboard: Budget, Capacity & Delivery",
     "excerpt": "Create a project management dashboard with weighted progress, forecast cost, role capacity and delivery dates. Includes a reconciled project example.",
-    "img": "/images/journal/project-management-dashboard-20261104.webp",
+    "img": "/images/journal/project-management-dashboard-20261104.webp?v=5225b98cfc4d",
     "alt": "Project coordinator reviewing a physical task board with color-coded cards",
     "tag": "Planning Guides",
     "date": "Nov 4, 2026"
@@ -403,7 +403,7 @@ var posts = [
     "url": "/journal/recruitment-company-business-plan/",
     "title": "Recruitment Company Business Plan: Fees, Capacity & Cash",
     "excerpt": "Write a recruitment company business plan with a niche, search capacity, fee assumptions, collection dates and a refund stress test. Includes a filled example.",
-    "img": "/images/journal/recruitment-company-business-plan-20261104.webp",
+    "img": "/images/journal/recruitment-company-business-plan-20261104.webp?v=2280215630a8",
     "alt": "Recruiter preparing anonymous candidate folders beside an interview desk",
     "tag": "Planning Guides",
     "date": "Nov 4, 2026"
@@ -412,7 +412,7 @@ var posts = [
     "url": "/journal/store-performance-dashboard/",
     "title": "Store Performance Dashboard: Sales, Margin & Stock Example",
     "excerpt": "Build a store performance dashboard that reconciles orders, refunds, gross margin and available stock. Use a worked example and a weekly review template.",
-    "img": "/images/journal/store-performance-dashboard-20261104.webp",
+    "img": "/images/journal/store-performance-dashboard-20261104.webp?v=25838e1ae502",
     "alt": "Shop owner reviewing stock and sales records in a clothing boutique",
     "tag": "Planning Guides",
     "date": "Nov 4, 2026"
