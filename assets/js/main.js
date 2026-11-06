@@ -292,6 +292,78 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/bar-brewery-business-plan/",
+    "title": "Bar and Brewery Business Plan: Seats, Batches & Cash",
+    "excerpt": "Compare a bar and a brewery business plan using seat capacity, saleable batch volume, stock, costs and cash timing. Includes two distinct fictional operating models.",
+    "img": "/images/journal/bar-brewery-business-plan-20261106.webp",
+    "alt": "Taproom manager reviewing stock cards beside glassware and stainless brewing tanks",
+    "tag": "Planning Guides",
+    "date": "Nov 6, 2026"
+  },
+  {
+    "url": "/journal/business-plan-for-a-loan/",
+    "title": "Business Plan for a Loan: Funding Uses, Cash & Repayment",
+    "excerpt": "Prepare a lender-facing business plan with a reconciled funding request, evidence register, cash timing and repayment downside. Includes a fictional equipment-finance case.",
+    "img": "/images/journal/business-plan-for-a-loan-20261106.webp",
+    "alt": "Workshop owner comparing a supplier quote, cash forecast papers and a calculator",
+    "tag": "Planning Guides",
+    "date": "Nov 6, 2026"
+  },
+  {
+    "url": "/journal/business-plan-guide/",
+    "title": "Business Plan Guide: From Evidence to a Working Cash and Capacity Plan",
+    "excerpt": "Write a useful business plan by connecting customer evidence, an operating model, capacity, cash, funding and review actions. Includes an original workflow and linked examples.",
+    "img": "/images/journal/business-plan-guide-20261106.webp",
+    "alt": "Overhead planning notebook, calculator and objects representing several small business models",
+    "tag": "Planning Guides",
+    "date": "Nov 6, 2026"
+  },
+  {
+    "url": "/journal/farm-business-plan/",
+    "title": "Farm Business Plan: Yield, Seasonal Costs & Cash Timing",
+    "excerpt": "Create a farm business plan that connects usable yield, sales channels, labor, seasonal spending and cash receipts. Work through a small crop example and downside case.",
+    "img": "/images/journal/farm-business-plan-20261106.webp",
+    "alt": "Grower checking a clipboard beside seedling trays and harvested produce",
+    "tag": "Planning Guides",
+    "date": "Nov 6, 2026"
+  },
+  {
+    "url": "/journal/nonprofit-business-plan/",
+    "title": "Nonprofit Business Plan: Mission, Funding & Delivery Capacity",
+    "excerpt": "Plan a nonprofit program with measurable outputs, restricted and unrestricted cash, volunteer capacity and a realistic funding gap. Includes an original worked example.",
+    "img": "/images/journal/nonprofit-business-plan-20261106.webp",
+    "alt": "Community coordinator reviewing budget papers in a neighborhood food packing workspace",
+    "tag": "Planning Guides",
+    "date": "Nov 6, 2026"
+  },
+  {
+    "url": "/journal/real-estate-business-plan/",
+    "title": "Real Estate Business Plan: Pipeline, Capacity & Cash Example",
+    "excerpt": "Build a real estate business plan around a defined service, a reconciled sales pipeline, delivery hours, fee assumptions and closing cash. Includes a worked example.",
+    "img": "/images/journal/real-estate-business-plan-20261106.webp",
+    "alt": "Real estate professional reviewing property folders, a house model and a calendar",
+    "tag": "Planning Guides",
+    "date": "Nov 6, 2026"
+  },
+  {
+    "url": "/journal/security-business-plan/",
+    "title": "Security Company Business Plan: Staffing, Coverage & Cash",
+    "excerpt": "Build a security company business plan around defined service scope, billable coverage, paid hours, relief staffing and payroll cash. Includes a fictional contract example.",
+    "img": "/images/journal/security-business-plan-20261106.webp",
+    "alt": "Security operations coordinator reviewing shift cards at an unmarked dispatch desk",
+    "tag": "Planning Guides",
+    "date": "Nov 6, 2026"
+  },
+  {
+    "url": "/journal/short-term-rental-business-plan/",
+    "title": "Short-Term Rental Business Plan: Occupancy, Turnover & Cash",
+    "excerpt": "Plan a short-term rental with available-night occupancy, stay-level cleaning costs, fees, cash timing and a lower-booking scenario. Includes a reconciled property example.",
+    "img": "/images/journal/short-term-rental-business-plan-20261106.webp",
+    "alt": "Property host reviewing a booking calendar beside linens and keys in a guest apartment",
+    "tag": "Planning Guides",
+    "date": "Nov 6, 2026"
+  },
+  {
     "url": "/journal/accounting-firm-business-plan/",
     "title": "Accounting Firm Business Plan: Client Capacity, Fees & Cash",
     "excerpt": "Build an accounting practice business plan around service scope, client hours, review capacity, fee assumptions and collections. Includes a filled monthly example.",
@@ -307,7 +379,7 @@ var posts = [
     "img": "/images/journal/business-plan-examples-20261105.webp?v=2cf59a912774",
     "alt": "Planning binder with separate retail, service and equipment-rental planning objects",
     "tag": "Planning Guides",
-    "date": "Nov 5, 2026"
+    "date": "Updated Nov 6, 2026"
   },
   {
     "url": "/journal/crm-for-solopreneurs/",
@@ -910,7 +982,7 @@ var posts = [
     "img": "/images/journal/daily-planner-2026-free-layouts-20260918.jpg",
     "alt": "Open 2026 daily planner showing priorities, time blocks, appointments, and notes beside a tablet",
     "tag": "Planning Guides",
-    "date": "Updated Oct 24, 2026"
+    "date": "Updated Nov 6, 2026"
   },
   {
     "url": "/journal/monthly-planner-2026-best-layouts/",
@@ -1036,7 +1108,7 @@ var posts = [
     "img": "/images/journal/student-planner-guide-20260915.jpg",
     "alt": "College student organizing classes, assignments, exams and focus sessions under the heading Build a Student Planner",
     "tag": "Planning Guides",
-    "date": "Updated Nov 2, 2026"
+    "date": "Updated Nov 6, 2026"
   },
   {
     "url": "/journal/supplier-quote-comparison/",

@@ -1,0 +1,29 @@
+{
+  "batch": 3,
+  "date": "2026-11-06",
+  "source_library_file_id": "libfile_35c9bef63c9081918ac9f2cfd54b7a33",
+  "source_sheet": "Keyword map",
+  "sort": "Deferred unassigned rows; supplied export SV descending, then lowercase keyword ascending",
+  "ranks": [
+    2321,
+    3480
+  ],
+  "queries": 1160,
+  "supplied_sv_sum": 501810,
+  "limits": "Rule-assisted family triage reviewed against all 1160 query strings. Not a fresh individual SERP review; supplied SV is historical, overlapping and non-additive audience data. Consolidation is an ownership recommendation, not proof of live content coverage. No new URLs approved. Unresolved retained for later evidence.",
+  "counts": {
+    "exclude-clinical-or-adjacent": 293,
+    "existing-owner-consolidation": 51,
+    "retain-unresolved": 614,
+    "exclude-news": 19,
+    "exclude-product-or-navigation": 22,
+    "exclude-financial-service-mismatch": 51,
+    "exclude-general-or-specialist": 36,
+    "exclude-capability-or-navigation-mismatch": 5,
+    "exclude-homeschool-intent-mismatch": 69
+  },
+  "previous_unresolved": 893,
+  "current_unresolved": 614,
+  "cumulative_reviewed": 3480,
+  "unbatched": 8121
+}
