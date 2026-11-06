@@ -3022,8 +3022,9 @@
     },
     "https://nexalyplanner.com/journal/business-plan-guide/|youtube": {
       "revision": "a0c090c21d72e50e6adae579b527b1a205a8c665bdd6cf26f1ffef051583db63",
-      "status": "attempting",
-      "attemptedAt": "2026-11-06T06:06:45.050416+00:00"
+      "status": "published",
+      "postId": "a-Umz76rI6I",
+      "publishedAt": "2026-11-06T06:06:49.331541+00:00"
     }
   },
   "firstTestCompleted": true
