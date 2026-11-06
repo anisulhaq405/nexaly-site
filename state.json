@@ -3130,8 +3130,9 @@
     },
     "https://nexalyplanner.com/journal/short-term-rental-business-plan/|instagram": {
       "revision": "6eba45d7c7fc2f38c871e83087668424156ca3ae8040ff2745d66a9aae7d7ae2",
-      "status": "attempting",
-      "attemptedAt": "2026-11-06T06:10:28.538445+00:00"
+      "status": "published",
+      "postId": "18221652031347644",
+      "publishedAt": "2026-11-06T06:10:45.788397+00:00"
     }
   },
   "firstTestCompleted": true
