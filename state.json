@@ -2989,6 +2989,11 @@
       "status": "published",
       "postId": "18209315608373602",
       "publishedAt": "2026-11-06T06:05:54.271547+00:00"
+    },
+    "https://nexalyplanner.com/journal/business-plan-for-a-loan/|pinterest": {
+      "revision": "eb3ed41efb8728d4b1065e197265f6e9ddb925e30ee81dadf064799aa0dabdfb",
+      "status": "attempting",
+      "attemptedAt": "2026-11-06T06:05:55.549753+00:00"
     }
   },
   "firstTestCompleted": true
