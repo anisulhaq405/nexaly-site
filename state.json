@@ -3046,8 +3046,9 @@
     },
     "https://nexalyplanner.com/journal/farm-business-plan/|youtube": {
       "revision": "bc6424f255664c90172871c5aa2cb782c2101b0b31248121b4c05b1120cf0d6b",
-      "status": "attempting",
-      "attemptedAt": "2026-11-06T06:07:34.032769+00:00"
+      "status": "published",
+      "postId": "O3UHKiyqZN8",
+      "publishedAt": "2026-11-06T06:07:37.711673+00:00"
     }
   },
   "firstTestCompleted": true
