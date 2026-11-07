@@ -3235,6 +3235,11 @@
       "status": "published",
       "postId": "1106196727262114177",
       "publishedAt": "2026-11-07T06:58:54.757738+00:00"
+    },
+    "https://nexalyplanner.com/journal/insurance-agency-business-plan/|youtube": {
+      "revision": "dd48a7298b21a54e44958c6fb180f5294876e5db4f3289da39800fe11f89be3b",
+      "status": "attempting",
+      "attemptedAt": "2026-11-07T06:58:55.946994+00:00"
     }
   },
   "firstTestCompleted": true
