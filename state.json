@@ -3214,8 +3214,9 @@
     },
     "https://nexalyplanner.com/journal/hotel-business-plan/|youtube": {
       "revision": "c99f2545c0f2766bb53c89a6ca70629f48f668f8ac1725a608d03b504a0bc53c",
-      "status": "attempting",
-      "attemptedAt": "2026-11-07T06:58:12.789667+00:00"
+      "status": "published",
+      "postId": "ympxgfvUeUQ",
+      "publishedAt": "2026-11-07T06:58:16.631352+00:00"
     }
   },
   "firstTestCompleted": true
