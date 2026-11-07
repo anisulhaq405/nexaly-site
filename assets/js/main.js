@@ -292,6 +292,69 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/bakery-business-plan/",
+    "title": "Bakery Business Plan: Batch Yield, Waste & Cash Example",
+    "excerpt": "Write a bakery business plan using batches, saleable yield, sell-through, production time, ingredient costs and cash timing. Includes an original downside and stock reconciliation.",
+    "img": "/images/journal/bakery-business-plan-20261107.webp",
+    "alt": "Bakery owner reviewing a paper batch sheet and calculator beside bread trays",
+    "tag": "Planning Guides",
+    "date": "Nov 7, 2026"
+  },
+  {
+    "url": "/journal/consulting-business-plan/",
+    "title": "Consulting Business Plan: Scope, Delivery Hours & Cash",
+    "excerpt": "Write a consulting business plan around a clear client problem, accepted deliverables, project hours, retainer capacity and payment timing. Includes an original worked model.",
+    "img": "/images/journal/consulting-business-plan-20261107.webp",
+    "alt": "Independent consultant reviewing client work folders and a paper capacity calendar",
+    "tag": "Planning Guides",
+    "date": "Nov 7, 2026"
+  },
+  {
+    "url": "/journal/hotel-business-plan/",
+    "title": "Hotel Business Plan: Room Nights, Occupancy & Operating Cash",
+    "excerpt": "Build a small-hotel business plan with clear room-night denominators, occupancy, ADR, RevPAR, operating costs and receipt timing. Includes an original downside model.",
+    "img": "/images/journal/hotel-business-plan-20261107.webp",
+    "alt": "Boutique hotel manager reviewing a paper room grid beside brass room-key hooks",
+    "tag": "Planning Guides",
+    "date": "Nov 7, 2026"
+  },
+  {
+    "url": "/journal/insurance-agency-business-plan/",
+    "title": "Insurance Agency Business Plan: Policies, Renewals & Cash",
+    "excerpt": "Build an insurance agency business plan that separates premium volume, earned agency income, renewal cohorts, service capacity and commission cash. Includes a fictional example.",
+    "img": "/images/journal/insurance-agency-business-plan-20261107.webp",
+    "alt": "Insurance agency owner reviewing anonymous policy folders and a calculator",
+    "tag": "Planning Guides",
+    "date": "Nov 7, 2026"
+  },
+  {
+    "url": "/journal/record-label-business-plan/",
+    "title": "Record Label Business Plan: Releases, Rights & Royalty Cash",
+    "excerpt": "Write an independent record-label business plan with a release budget, rights register, statement-to-cash bridge and bounded payout assumptions. No universal per-stream rate claims.",
+    "img": "/images/journal/record-label-business-plan-20261107.webp",
+    "alt": "Independent label producer reviewing release folders and headphones at a studio desk",
+    "tag": "Planning Guides",
+    "date": "Nov 7, 2026"
+  },
+  {
+    "url": "/journal/spa-business-plan/",
+    "title": "Spa Business Plan: Appointments, Room Capacity & Cash",
+    "excerpt": "Write a day-spa business plan using appointment lengths, staff and room capacity, no-shows, product costs and payment timing. Includes a worked example and downside case.",
+    "img": "/images/journal/spa-business-plan-20261107.webp",
+    "alt": "Day-spa owner reviewing appointment cards at a reception desk with folded linen",
+    "tag": "Planning Guides",
+    "date": "Nov 7, 2026"
+  },
+  {
+    "url": "/journal/travel-agency-business-plan/",
+    "title": "Travel Agency Business Plan: Booking Value, Fees & Cash",
+    "excerpt": "Build a travel agency business plan that separates trip booking value, client and supplier funds, earned agency fees, service hours and refund exposure. Includes a fictional example.",
+    "img": "/images/journal/travel-agency-business-plan-20261107.webp",
+    "alt": "Travel advisor reviewing anonymous booking folders beside a globe and route cards",
+    "tag": "Planning Guides",
+    "date": "Nov 7, 2026"
+  },
+  {
     "url": "/journal/bar-brewery-business-plan/",
     "title": "Bar and Brewery Business Plan: Seats, Batches & Cash",
     "excerpt": "Compare a bar and a brewery business plan using seat capacity, saleable batch volume, stock, costs and cash timing. Includes two distinct fictional operating models.",
@@ -316,7 +379,7 @@ var posts = [
     "img": "/images/journal/business-plan-guide-20261106.webp",
     "alt": "Overhead planning notebook, calculator and objects representing several small business models",
     "tag": "Planning Guides",
-    "date": "Nov 6, 2026"
+    "date": "Updated Nov 7, 2026"
   },
   {
     "url": "/journal/farm-business-plan/",
@@ -379,7 +442,7 @@ var posts = [
     "img": "/images/journal/business-plan-examples-20261105.webp?v=2cf59a912774",
     "alt": "Planning binder with separate retail, service and equipment-rental planning objects",
     "tag": "Planning Guides",
-    "date": "Updated Nov 6, 2026"
+    "date": "Updated Nov 7, 2026"
   },
   {
     "url": "/journal/crm-for-solopreneurs/",
@@ -937,7 +1000,7 @@ var posts = [
     "img": "/images/journal/free-digital-planner-for-ipad-20260919.jpg",
     "alt": "iPad showing a handwritten weekly digital planner beside an Apple Pencil",
     "tag": "Planning Guides",
-    "date": "Updated Oct 12, 2026"
+    "date": "Updated Nov 7, 2026"
   },
   {
     "url": "/journal/ipad-digital-planner-setup-guide/",
@@ -1212,7 +1275,7 @@ var posts = [
   {
     "tag": "Homeschool Schedule",
     "title": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",
-    "date": "Updated Oct 24, 2026 · 5 min",
+    "date": "Updated Nov 7, 2026 · 5 min",
     "url": "/journal/homeschool-schedule-multiple-ages/",
     "img": "/images/products/digital-homeschool-planner/digital-homeschool-planner-lesson-planner-calendar.jpg",
     "alt": "Homeschool Schedule for Multiple Ages: Three Flexible Examples",

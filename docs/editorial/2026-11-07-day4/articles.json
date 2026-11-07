@@ -1,0 +1,125 @@
+[
+  {
+    "slug": "consulting-business-plan",
+    "title": "Consulting Business Plan: Scope, Delivery Hours & Cash",
+    "alt": "Independent consultant reviewing client work folders and a paper capacity calendar",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ]
+    ],
+    "asset": "/images/journal/consulting-business-plan-20261107.webp",
+    "word_count": 907
+  },
+  {
+    "slug": "insurance-agency-business-plan",
+    "title": "Insurance Agency Business Plan: Policies, Renewals & Cash",
+    "alt": "Insurance agency owner reviewing anonymous policy folders and a calculator",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "NAIC: producer licensing",
+        "https://content.naic.org/insurance-topics/producer-licensing"
+      ]
+    ],
+    "asset": "/images/journal/insurance-agency-business-plan-20261107.webp",
+    "word_count": 892
+  },
+  {
+    "slug": "spa-business-plan",
+    "title": "Spa Business Plan: Appointments, Room Capacity & Cash",
+    "alt": "Day-spa owner reviewing appointment cards at a reception desk with folded linen",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "Texas TDLR: massage establishment licensing",
+        "https://www.tdlr.texas.gov/mas/apply-establishment.htm"
+      ]
+    ],
+    "asset": "/images/journal/spa-business-plan-20261107.webp",
+    "word_count": 946
+  },
+  {
+    "slug": "hotel-business-plan",
+    "title": "Hotel Business Plan: Room Nights, Occupancy & Operating Cash",
+    "alt": "Boutique hotel manager reviewing a paper room grid beside brass room-key hooks",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "CoStar STR: hotel metric glossary",
+        "https://www.costar.com/products/str-benchmark/resources/glossary"
+      ]
+    ],
+    "asset": "/images/journal/hotel-business-plan-20261107.webp",
+    "word_count": 897
+  },
+  {
+    "slug": "record-label-business-plan",
+    "title": "Record Label Business Plan: Releases, Rights & Royalty Cash",
+    "alt": "Independent label producer reviewing release folders and headphones at a studio desk",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "US Copyright Office: musicians and separate rights",
+        "https://www.copyright.gov/engage/musicians/"
+      ],
+      [
+        "SoundExchange: payment timing for its distributions",
+        "https://www.soundexchange.com/faq/how-often-do-i-get-paid/"
+      ]
+    ],
+    "asset": "/images/journal/record-label-business-plan-20261107.webp",
+    "word_count": 931
+  },
+  {
+    "slug": "travel-agency-business-plan",
+    "title": "Travel Agency Business Plan: Booking Value, Fees & Cash",
+    "alt": "Travel advisor reviewing anonymous booking folders beside a globe and route cards",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "US DOT: airline ticket and ticket-agent refunds",
+        "https://www.transportation.gov/individuals/aviation-consumer-protection/refunds"
+      ],
+      [
+        "California Attorney General: seller-of-travel FAQs",
+        "https://www.oag.ca.gov/travel/reg-faqs"
+      ]
+    ],
+    "asset": "/images/journal/travel-agency-business-plan-20261107.webp",
+    "word_count": 960
+  },
+  {
+    "slug": "bakery-business-plan",
+    "title": "Bakery Business Plan: Batch Yield, Waste & Cash Example",
+    "alt": "Bakery owner reviewing a paper batch sheet and calculator beside bread trays",
+    "sources": [
+      [
+        "SBA: write your business plan",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "FDA: starting a food business",
+        "https://www.fda.gov/food/food-industry/how-start-food-business"
+      ]
+    ],
+    "asset": "/images/journal/bakery-business-plan-20261107.webp",
+    "word_count": 940
+  }
+]
