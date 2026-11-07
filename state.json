@@ -3196,8 +3196,9 @@
     },
     "https://nexalyplanner.com/journal/hotel-business-plan/|facebook": {
       "revision": "c99f2545c0f2766bb53c89a6ca70629f48f668f8ac1725a608d03b504a0bc53c",
-      "status": "attempting",
-      "attemptedAt": "2026-11-07T06:57:36.607002+00:00"
+      "status": "published",
+      "postId": "1308942472292403_122118767265409632",
+      "publishedAt": "2026-11-07T06:57:48.245301+00:00"
     }
   },
   "firstTestCompleted": true
