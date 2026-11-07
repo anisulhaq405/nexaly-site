@@ -3244,8 +3244,9 @@
     },
     "https://nexalyplanner.com/journal/record-label-business-plan/|facebook": {
       "revision": "b715ef5352d819c5135934705392a1a9aded1c19d99218d3079642ee4b41b8f5",
-      "status": "attempting",
-      "attemptedAt": "2026-11-07T06:59:06.201188+00:00"
+      "status": "published",
+      "postId": "1308942472292403_122118767667409632",
+      "publishedAt": "2026-11-07T06:59:16.038086+00:00"
     }
   },
   "firstTestCompleted": true
