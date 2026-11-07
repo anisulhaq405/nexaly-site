@@ -3193,6 +3193,11 @@
       "status": "published",
       "postId": "gEOg_id3hOk",
       "publishedAt": "2026-11-07T06:57:29.908442+00:00"
+    },
+    "https://nexalyplanner.com/journal/hotel-business-plan/|facebook": {
+      "revision": "c99f2545c0f2766bb53c89a6ca70629f48f668f8ac1725a608d03b504a0bc53c",
+      "status": "attempting",
+      "attemptedAt": "2026-11-07T06:57:36.607002+00:00"
     }
   },
   "firstTestCompleted": true
