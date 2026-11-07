@@ -3160,8 +3160,9 @@
     },
     "https://nexalyplanner.com/journal/bakery-business-plan/|pinterest": {
       "revision": "78e09554d4a1e80b560219112e91bdbcf89a3015b8c104333bd7c09334a89afc",
-      "status": "attempting",
-      "attemptedAt": "2026-11-07T06:55:54.422441+00:00"
+      "status": "published",
+      "postId": "1106196727262114074",
+      "publishedAt": "2026-11-07T06:55:57.177645+00:00"
     }
   },
   "firstTestCompleted": true
