@@ -3187,6 +3187,11 @@
       "status": "published",
       "postId": "1106196727262114114",
       "publishedAt": "2026-11-07T06:57:24.461019+00:00"
+    },
+    "https://nexalyplanner.com/journal/consulting-business-plan/|youtube": {
+      "revision": "e6f6cef654cd960115ccf2d208f63d747a4486d1c2de0d7196190b5616d90c41",
+      "status": "attempting",
+      "attemptedAt": "2026-11-07T06:57:25.785108+00:00"
     }
   },
   "firstTestCompleted": true
