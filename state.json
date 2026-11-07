@@ -3004,8 +3004,9 @@
     },
     "https://nexalyplanner.com/journal/business-plan-guide/|facebook": {
       "revision": "8e72bd8d5ff16f7a80714439cb69766e97ea6172cf276b1d7948062027ec2416",
-      "status": "attempting",
-      "attemptedAt": "2026-11-07T06:56:09.401100+00:00"
+      "status": "published",
+      "postId": "1308942472292403_122118766953409632",
+      "publishedAt": "2026-11-07T06:56:19.948513+00:00"
     },
     "https://nexalyplanner.com/journal/business-plan-guide/|instagram": {
       "revision": "a0c090c21d72e50e6adae579b527b1a205a8c665bdd6cf26f1ffef051583db63",
