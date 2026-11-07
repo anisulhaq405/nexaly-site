@@ -3307,6 +3307,11 @@
       "status": "published",
       "postId": "1106196727262114286",
       "publishedAt": "2026-11-07T07:01:18.628698+00:00"
+    },
+    "https://nexalyplanner.com/journal/travel-agency-business-plan/|youtube": {
+      "revision": "d59e5e74658d174ed43df46e5f4f3e01ca7282ed2c11a4cc1d2dddbf7ec96b4e",
+      "status": "attempting",
+      "attemptedAt": "2026-11-07T07:01:19.718396+00:00"
     }
   },
   "firstTestCompleted": true
