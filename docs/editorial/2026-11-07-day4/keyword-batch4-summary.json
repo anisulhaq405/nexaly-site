@@ -1,0 +1,32 @@
+{
+  "batch": 4,
+  "date": "2026-11-07",
+  "source_library_file_id": "libfile_35c9bef63c9081918ac9f2cfd54b7a33",
+  "source_sheet": "Keyword map",
+  "sort": "Owner ID empty; supplied export SV descending then lowercase keyword ascending",
+  "ranks": [
+    3481,
+    4640
+  ],
+  "queries": 1160,
+  "supplied_sv_sum": 353660,
+  "limits": "Rule-assisted family triage of all query strings, not 1160 fresh SERP studies. SV is historical overlapping export data, not unique audience. Consolidation recommendations require coverage checks; scheduled owners remain unaccepted/not live until their day. No additional URLs approved.",
+  "counts": {
+    "retain-scheduled-owner-review": 45,
+    "exclude-clinical-or-adjacent": 294,
+    "retain-unresolved": 602,
+    "existing-owner-consolidation": 36,
+    "exclude-general-or-specialist": 27,
+    "exclude-financial-service-mismatch": 55,
+    "exclude-homeschool-intent-mismatch": 49,
+    "exclude-news": 22,
+    "exclude-capability-or-navigation-mismatch": 10,
+    "exclude-product-or-navigation": 20
+  },
+  "prior_unresolved": 1507,
+  "new_unresolved": 602,
+  "cumulative_unresolved": 2109,
+  "scheduled_review_holds": 45,
+  "cumulative_batched": 4640,
+  "unbatched": 6961
+}

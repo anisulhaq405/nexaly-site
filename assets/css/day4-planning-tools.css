@@ -1,0 +1,5 @@
+.d1 .d4-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;border:1px solid #c6d5d3;border-radius:10px;padding:18px;margin:20px 0}.d1 textarea{display:block;width:100%;box-sizing:border-box;min-height:120px;padding:12px;border:1px solid #879d9d;border-radius:6px;font:inherit;background:white;color:#203d4a}.d1 .d4-section{margin:22px 0}.d1 .d1-report p{white-space:pre-wrap}.d1 .d1-report h4{font-size:22px;margin-bottom:4px}@media(max-width:600px){.d1 .d4-row{grid-template-columns:1fr}.d1 textarea{min-width:0}}@media print{.d1 .d1-report h4{break-after:avoid}.d1 .d1-report p{break-inside:auto}.d1-report h3{font-size:23pt}}
+
+.d4-row{min-width:0}.d4-row input,.d4-row textarea{width:100%;box-sizing:border-box}.d4-row{margin:1rem 0;padding:1rem;border:1px solid #b8cbc5;border-radius:12px}
+
+.d4-row legend{font-weight:700}.d4-row button{align-self:end}@media print{.d1-report p{overflow-wrap:anywhere}}
