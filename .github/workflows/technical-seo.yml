@@ -57,6 +57,8 @@ jobs:
         run: |
           node scripts/test-contact-flow.cjs
           node scripts/test-analytics-consent.cjs
+      - name: Verify paid-product feedback routes and review privacy
+        run: python3 scripts/test-review-products.py
       - name: Verify owner core freeze
         run: python3 scripts/check-core-lock.py
       - name: Install social media image dependency
