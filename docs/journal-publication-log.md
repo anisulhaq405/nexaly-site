@@ -217,3 +217,12 @@ Seven new journals prepared: farmers-market-business-plan, accounting-firm-busin
 Scheduled existing owners audited and improved: solo-owner AI guide (one trial plus decision register), printable builder (correct example copy and print guidance), daily planner guide (format/cross-device correction and capacity check). Earlier dates, assets, core and paid products preserved. Research, verification limits and tests: docs/editorial/2026-11-05-day2/research-and-release.md.
 
 Deferred query batch2 accounts for1,160rows without overlap;538unresolved retained, not approved. O053 build decision for Day9 bounded statements; O117 AI-generator intent explicitly excluded, no falsely labeled page. Day3 queue and five hub drafts remain scheduled. Publish only the checked PR revision, then record exact live evidence in the PR and saved project plan.
+
+
+## November 10, 2026 — 38 GSC-excluded journal refreshes
+
+Owner requested substantive content, calculation and contextual-link improvements with three competitor comparisons per journal. Exact scope: seven crawled/currently-not-indexed journals and 31 discovered/currently-not-indexed journals from the November 10 exports. Added original, bounded examples and decision records to all 38 existing pages, with 76 contextual internal links. Preserve original publication dates, URLs, titles, descriptions, accepted images and protected product behavior. Actual modification date: November 10.
+
+Research covers 114 topic/publisher comparisons. Google result retrieval was CAPTCHA-blocked; these are three relevant external competitors selected from available search, not verified Google positions 1–3. Per-URL queries, competitor URLs, observed strengths, exact gaps and implementations are saved in `docs/editorial/2026-11-10-gsc-journals/research-and-release.md` and `competitors.json`. Raw third-party text is not copied into the release.
+
+Independent arithmetic/date checks, publication preservation, contextual-target checks, core lock and generated-output checks are required. Shared JS cache references regenerate across existing pages; those references are not substantive updates to other journals. Local visual preview was unavailable; inspect representative normal production pages after the checked release. Publication and source eligibility do not establish Google indexing or improved rankings. Production evidence belongs in the PR verification record after deployment.
