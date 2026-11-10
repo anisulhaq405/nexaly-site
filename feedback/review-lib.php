@@ -2,6 +2,9 @@
 declare(strict_types=1);
 
 const NEXALY_PRODUCTS = [
+    'agency-client-profitability-capacity-os' => 'Agency Client Profitability & Capacity OS',
+    'business-runway-burn-rate-os' => 'Business Runway & Burn Rate OS',
+    'cashflow-13-os' => 'Cashflow-13 OS',
     'boutique-business-planner' => 'Boutique Business Planner',
     'adhd-digital-planner' => 'ADHD Digital Planner',
     'offline-ai-business-copilot' => 'Offline AI Business Copilot',

@@ -17,7 +17,8 @@ concurrency:
   cancel-in-progress: false
 jobs:
   publish:
-    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event != 'pull_request')
+    # Technical-only releases can suppress delivery without disabling future editorial publishing.
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event != 'pull_request' && !contains(github.event.workflow_run.head_commit.message, '[skip social]'))
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
