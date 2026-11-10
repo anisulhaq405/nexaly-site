@@ -1,0 +1,1252 @@
+{
+  "consulting-business-plan": {
+    "query": "consulting business plan template example",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.zarla.com/business-plans/consulting",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.101planners.com/consulting-business-plan/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.coachful.co/blog/consulting-business-plan",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a copyable plan structure and reconcile acquisition assumptions to the three-project delivery model.",
+    "implemented_heading": "A one-page consulting plan you can actually test"
+  },
+  "spa-business-plan": {
+    "query": "spa business plan template",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.zarla.com/business-plans/spa",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.mindbodyonline.com/en-gb/business/education/templates/business-plan-template-spa-owners",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.business-in-a-box.com/template/spa-business-plan-D12062",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Extend the existing day economics into a whole-appointment threshold and startup evidence checklist.",
+    "implemented_heading": "Find the completed-appointment threshold before adding rooms"
+  },
+  "hotel-business-plan": {
+    "query": "hotel business plan template",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.xero.com/us/templates/business-plan-template/hotel/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.cloudbeds.com/templates/hotel-business-plan/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.flipsnack.com/templates/hotel-business-plan-template",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add channel-level contribution and an actionable hotel plan outline rather than only blended fees.",
+    "implemented_heading": "Compare booking channels at the same room revenue"
+  },
+  "operations-dashboard-example": {
+    "query": "operations dashboard examples",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.geckoboard.com/dashboard-examples/operations/",
+        "observed_strengths": [
+          "Defines measures or comparison criteria."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://datareaches.com/showcase",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.smartsheet.com/creating-operations-dashboards",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Work through the due-cohort denominator explicitly identified but not calculated in the existing article.",
+    "implemented_heading": "Measure overdue promises even when the jobs stay open"
+  },
+  "store-performance-dashboard": {
+    "query": "retail store performance dashboard KPIs",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.shopify.com/blog/store-performance-dashboard",
+        "observed_strengths": [
+          "Connects the topic with cost or operating decisions.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://gostratuslabs.com/insights/retail-store-performance-kpis",
+        "observed_strengths": [
+          "Connects the topic with cost or operating decisions.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.putler.com/blog/retail-dashboard/",
+        "observed_strengths": [
+          "Makes the explanation tangible through examples.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a reconciled retail sales-driver bridge without confusing fulfilled orders with visitor conversion.",
+    "implemented_heading": "Explain sales growth with traffic, conversion and basket value"
+  },
+  "nonprofit-business-plan": {
+    "query": "nonprofit business plan template",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.smartsheet.com/content/non-profit-business-plan-templates",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.councilofnonprofits.org/running-nonprofit/administration-and-financial-management/business-planning-nonprofits",
+        "observed_strengths": [
+          "Connects the topic with cost or operating decisions.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.zarla.com/business-plans/nonprofit",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a practical continuity decision using unrestricted cash and funded delivery capacity.",
+    "implemented_heading": "Write a funding contingency before promising the next program month"
+  },
+  "planner-sizes-chart-printable-inserts": {
+    "query": "planner sizes chart A5 half letter inserts",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.notebookgenerator.com/en/guides/planner-insert-sizes/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes format or physical-fit choices explicit."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.clothandpaper.com/en-in/pages/planner-size-guide",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.hemlockandoak.com/pages/compare-sizes",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes format or physical-fit choices explicit."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a numeric print-scaling example with physical verification and binding limits.",
+    "implemented_heading": "Calculate a scale change before printing incompatible inserts"
+  },
+  "2026-monthly-planner-free-layouts": {
+    "query": "2026 monthly planner free printable",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://freebiefy.com/freebies/monthly-planner/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://thesheetyard.com/packs/calendar-planner-kit/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes format or physical-fit choices explicit."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://folarrastudio.com/planner/monthly-planner/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a current-year date validation and practical year-end handoff instead of another generic format comparison.",
+    "implemented_heading": "Check the November-to-December handoff in the dated PDF"
+  },
+  "a5-planner-sizes-layouts-digital-options": {
+    "query": "A5 planner size layouts inserts",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://toolvil.com/en/tools/diary-insert-maker/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://getbusee.com/a5-planner-inserts/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://calendarsphere.com/planner-inserts/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a measured usable-area example for choosing between daily and weekly A5 layouts.",
+    "implemented_heading": "Budget the writing area, not just the A5 sheet"
+  },
+  "agency-capacity-planning-example": {
+    "query": "agency capacity planning example",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.operating.app/blog-posts/agency-capacity-planning",
+        "observed_strengths": [
+          "Connects the topic with cost or operating decisions.",
+          "Defines measures or comparison criteria."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://kavaro.io/guides/agency-capacity-planning",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://clickup.com/blog/agency-capacity-planning/",
+        "observed_strengths": [
+          "Explains role-based hours, planning strategies and a recurring capacity review."
+        ],
+        "access": "Full page read with web reader after direct HTTP 403."
+      }
+    ],
+    "identified_gap": "Extend signed capacity planning with an explicit probabilistic pipeline versus full-win stress test.",
+    "implemented_heading": "Keep weighted pipeline hours outside the signed-work promise"
+  },
+  "batch-lot-traceability-log": {
+    "query": "batch lot traceability log template",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://manninsystems.co.uk/templates/batch-traceability-log",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.jotform.com/form-templates/batch-traceability-log-form",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://batchscale.com/templates/lot-batch-traceability-spreadsheet/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a split-shipment event test beyond the existing input-lot and finished-lot examples.",
+    "implemented_heading": "Trace a split shipment without duplicating the affected quantity"
+  },
+  "best-2026-planners-digital-printable-options": {
+    "query": "best 2026 planners digital printable",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://customdigitalplanner.com/best-digital-planners",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.goodnotes.com/blog/digital-planners",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://hyperplanners.com/best-digital-planners-2026/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add concrete format acceptance criteria while preserving this URL as a format comparison, not an invented product ranking.",
+    "implemented_heading": "Use a pass/fail trial before comparing decorative extras"
+  },
+  "best-digital-planner-for-ipad": {
+    "query": "best digital planner for iPad",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.plannora.com/blog/best-digital-planner-apps-comparison-guide-for-ipad-users",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://plannerforipad.com/guides/best-digital-planner-for-ipad/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://taskdale.com/best-digital-planner-for-ipad/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add an explicit selection rubric distinguishing missing PDF features from unsupported app features.",
+    "implemented_heading": "Separate a planner file test from an iPad app test"
+  },
+  "best-planner-app-for-ipad-2026": {
+    "query": "best planner app for iPad",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://toprankedapps.com/blog/best-planner-apps-for-ipad",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.plannora.com/blog/best-digital-planner-apps-comparison-guide-for-ipad-users",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://toolfinder.com/best/planner-apps-for-ipad",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a concrete app-selection workflow and eliminate ambiguous claims that every planner must do everything.",
+    "implemented_heading": "Choose a single owner for each kind of record"
+  },
+  "business-plan-financial-projections-service-example": {
+    "query": "business plan financial projections service business example",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.shopify.com/uk/blog/business-plan-examples",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://revenuemap.app/blog/business-plan-financial-projections",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://allmarketstrading.com/financial-templates/business/financial-projections/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Clarify the tool boundary and add an independent receivables/cash reconciliation for a full financial narrative.",
+    "implemented_heading": "Attach a balance-sheet bridge when the reader needs full projections"
+  },
+  "cash-flow-forecast-template-example": {
+    "query": "13 week cash flow forecast template",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://arumsoft.com/resources/excel/13-week-cash-flow-forecast",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://zensus.finance/tools/13-week-cash-flow-template",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.nummbas.com/blog/13-week-cash-flow-forecast/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a cash-consolidation example so internal transfers do not inflate forecast receipts.",
+    "implemented_heading": "Reconcile bank accounts and internal transfers before rolling forward"
+  },
+  "coffee-shop-business-plan-daily-capacity": {
+    "query": "coffee shop business plan example",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.zarla.com/business-plans/coffee-shop",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://coffeeshopbusinessplan.com/business-plan/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.upmenu.com/blog/coffee-shop-business-plan/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Extend the daily capacity model with a reconciled peak service bottleneck and a queue response.",
+    "implemented_heading": "Test the peak half-hour, not just the daily average"
+  },
+  "construction-company-business-plan-milestone-cash": {
+    "query": "construction company business plan example",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.liveplan.com/sample-business-plans/construction-architecture-and-engineering/construction-business-plan",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://projul.com/blog/free-construction-business-plan-template/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.zarla.com/business-plans/construction",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a bounded retention sensitivity without claiming universal construction payment terms.",
+    "implemented_heading": "Show retention separately from the milestone invoice"
+  },
+  "daily-planner-complete-guide": {
+    "query": "how to use a daily planner",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.erincondren.com/inspiration-center-daily-weekly-monthly-planning-tips",
+        "observed_strengths": [
+          "Explains setup or data-handling choices.",
+          "Makes format or physical-fit choices explicit."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.bemidjistate.edu/services/student-success-center/2022/09/01/using-a-daily-planner-the-right-way/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://kithabits.com/how-to-use-a-daily-planner/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add an explicit recovery calculation instead of another ideal-day timetable.",
+    "implemented_heading": "Replan from remaining time when the morning slips"
+  },
+  "day-planner-vs-daily-planner": {
+    "query": "day planner vs daily planner",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://daydesigner.com/a/blog/which-planner-format-is-right-for-you",
+        "observed_strengths": [
+          "Explains setup or data-handling choices.",
+          "Makes format or physical-fit choices explicit."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.calendars.com/blog-planner-layout-comparison",
+        "observed_strengths": [
+          "Organizes the workflow by planning period."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.thejournalshop.com/blogs/guides/how-to-choose-a-planner",
+        "observed_strengths": [
+          "Explains setup or data-handling choices.",
+          "Makes format or physical-fit choices explicit."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Clarify synonymous naming and add a layout selection test without duplicating the full daily-planning workflow.",
+    "implemented_heading": "Compare the inside page rather than the product name"
+  },
+  "digital-planner-app-how-it-works": {
+    "query": "how does a digital planner work PDF app",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.plannerstudio.design/guides/digital-planner-goodnotes",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://plannerforipad.com/guides/how-to-use-a-digital-planner/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://stelaah.com/blog/how-to-use-a-digital-planner-on-android",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Explain the data lifecycle across formats rather than equating digital planning with a PDF.",
+    "implemented_heading": "Follow one entry from creation to a recoverable copy"
+  },
+  "digital-planner-for-ipad-setup": {
+    "query": "how to set up digital planner on iPad",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.plannora.com/blog/best-digital-planner-apps-comparison-guide-for-ipad-users",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.plannerstudio.design/guides/digital-planner-goodnotes",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.graphiteplanner.com/guides/ipad",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Separate format triage from the dedicated PDF installation URL and add a useful troubleshooting matrix.",
+    "implemented_heading": "Use a format decision tree before following setup instructions"
+  },
+  "equipment-calibration-log": {
+    "query": "equipment calibration log template",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.vertex42.com/ExcelTemplates/equipment-calibration-log.html",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://calibdue.com/blog/equipment-calibration-log-template/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://labtoolkitpro.com/forms/equipment-maintenance-occurrence-log-template",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Organizes the workflow by planning period."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add authoritative interval-setting limits and a useful evidence register without promising compliance.",
+    "implemented_heading": "Record the interval decision and the acceptance decision separately"
+  },
+  "equipment-rental-business-plan-example": {
+    "query": "equipment rental business plan example",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.zarla.com/business-plans/equipment-rental",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.liveplan.com/sample-business-plans/real-estate-and-rentals/equipment-rental-sales-business-plan",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://reservety.com/guides/rental-business/equipment-rental-business-plan.html",
+        "observed_strengths": [
+          "Connects the topic with cost or operating decisions.",
+          "Makes format or physical-fit choices explicit."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a reconciled maintenance denominator sensitivity and preserve the distinction between rate improvement and sales growth.",
+    "implemented_heading": "Keep physical-calendar utilization beside available-date utilization"
+  },
+  "free-digital-planner-for-ipad": {
+    "query": "free digital planner for iPad",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://willowplans.com/free-digital-planner/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Organizes the workflow by planning period."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.101planners.com/digital-planner/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://aurorapaperlab.com/ipad-planner/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Make the no-cost deliverable scope explicit and add an evidence-based free-resource comparison.",
+    "implemented_heading": "Know exactly what the free file includes before importing it"
+  },
+  "freelance-business-plan-example": {
+    "query": "freelance business plan example",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.slideteam.net/tools/Business-Plan-Generator/Freelance-and-Small-Business-Plan",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://kehkashanjaved.com/freelance-business-plan/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://bsness.co.uk/simplify-business-plans-freelancers-micro-business-uk/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add client concentration sensitivity using the existing package fee with an explicitly defined cost split.",
+    "implemented_heading": "Test the loss of one client before treating bookings as stable income"
+  },
+  "hourly-planner-best-free-digital-layouts": {
+    "query": "hourly planner daily weekly template",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://thinkinnumbers.co/templates",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes format or physical-fit choices explicit."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://weeklane.app/guides/time-blocking-template",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Organizes the workflow by planning period."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.schedulesbox.com/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a useful rounding example for half-hour grids without overstating actual work duration.",
+    "implemented_heading": "Distinguish task duration from the slots you reserve"
+  },
+  "inventory-software-without-subscription": {
+    "query": "inventory software without subscription",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://shalimoosavi.github.io/QuickStock/",
+        "observed_strengths": [
+          "Connects the topic with cost or operating decisions.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.saudaapps.com/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://warestat.com/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a data-portability acceptance exercise beyond price and simple backup checks.",
+    "implemented_heading": "Test an exit migration before depending on the inventory record"
+  },
+  "ipad-digital-planner-setup-guide": {
+    "query": "import digital planner Goodnotes iPad setup",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.goodnotes.com/blog/digital-planners",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://stelaah.com/blog/set-up-digital-planner-goodnotes-ipad",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://support.goodnotes.com/hc/en-us/articles/7353717816463-Import-files-into-Goodnotes",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add primary-documentation troubleshooting with a restore rehearsal to the short installation guide.",
+    "implemented_heading": "Recover the common PDF import and export failures"
+  },
+  "ipad-planner-app-buying-guide": {
+    "query": "iPad planner app buying guide",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.plannora.com/blog/best-digital-planner-apps-comparison-guide-for-ipad-users",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://blog.planner-apps.com/the-best-ipad-planner-in-2026-the-definitive-buyers-guide/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://toprankedapps.com/blog/best-planner-apps-for-ipad",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a transparent total-cost example with fictional amounts and no unsupported current vendor prices.",
+    "implemented_heading": "Compare the full cost of the same usable setup"
+  },
+  "monthly-planner-free-templates": {
+    "query": "monthly planner template free printable",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://dayoclock.com/planner/monthly-planner",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://folarrastudio.com/planner/monthly-planner/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://pdfty.com/en/templates/monthly-planner",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes format or physical-fit choices explicit."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a precise undated-calendar placement example that differs from the dated 2026 resource.",
+    "implemented_heading": "Place a six-row month without losing its final dates"
+  },
+  "planner-2026-what-to-look-for": {
+    "query": "how to choose a 2026 planner",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://stationerytimes.com/guides/how-to-choose-a-planner/",
+        "observed_strengths": [
+          "Explains setup or data-handling choices.",
+          "Makes format or physical-fit choices explicit."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://tollbit.forbes.com/sites/forbes-personal-shopper/article/best-planner",
+        "observed_strengths": [
+          "Connects the topic with cost or operating decisions.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://reviews.leefuhr.com/planner-picks/planner-buying-guide/",
+        "observed_strengths": [
+          "Connects the topic with cost or operating decisions.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a current-date purchase comparison while keeping 2026 URL/date ownership intact.",
+    "implemented_heading": "Check the remaining dated life before a year-end purchase"
+  },
+  "planners-2026-full-comparison": {
+    "query": "daily weekly monthly planner comparison",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.calendars.com/blog-planner-layout-comparison",
+        "observed_strengths": [
+          "Organizes the workflow by planning period."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://stationerytimes.com/guides/best-planners-2027/",
+        "observed_strengths": [
+          "Explains setup or data-handling choices.",
+          "Makes format or physical-fit choices explicit."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://p27plannerguide.com/compare/daily-weekly-monthly/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes format or physical-fit choices explicit."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a concrete change-propagation example to prevent multi-view planning from creating conflicting dates.",
+    "implemented_heading": "Choose one authoritative deadline across all three views"
+  },
+  "purchase-order-tracker": {
+    "query": "purchase order tracking template partial delivery",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.smartsheet.com/content/purchase-order-tracking",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://excelcraft.app/templates/purchase-order-tracker",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://techguruplus.com/purchase-order-tracker-excel-template/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a case-to-each receiving example so workbook totals retain a consistent tracking unit.",
+    "implemented_heading": "Track unit conversions before comparing ordered and received quantities"
+  },
+  "small-business-budget-example": {
+    "query": "small business budget example template",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.smartsheet.com/content/small-business-budget-templates",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://business.gov.au/finance/financial-tools-and-templates/create-a-budget",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.indeed.com/career-advice/career-development/budgeting-in-business",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Complete the original budget variance reconciliation with a contribution-based bridge.",
+    "implemented_heading": "Bridge the full $800 shortfall without double-counting volume"
+  },
+  "student-planner-guide": {
+    "query": "how to use student planner assignments exams",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.monash.edu/student-academic-success/goal-setting-and-time-management/manage-your-time",
+        "observed_strengths": [
+          "Explains setup or data-handling choices.",
+          "Organizes the workflow by planning period."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.sparkyourschool.com/help/assignments/student-planner",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Explains setup or data-handling choices."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://studyskills.com/students/digital-planner-system/",
+        "observed_strengths": [
+          "Explains setup or data-handling choices.",
+          "Defines measures or comparison criteria."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a backward-planning example where sufficient total hours still fail the submission deadline.",
+    "implemented_heading": "Check dependencies as well as total study hours"
+  },
+  "supplier-scorecard-template": {
+    "query": "supplier scorecard template weighted score",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.smartsheet.com/content/vendor-scorecards",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.apparelsearch.com/downloadable-templates/supplier-scorecard-template.html",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.theleansuite.com/templates/supplier-scorecard",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a transparent weight-sensitivity example without changing the downloadable workbook contract.",
+    "implemented_heading": "Test whether a small weight change reverses the ranking"
+  },
+  "trucking-company-business-plan-trip-cost": {
+    "query": "trucking business plan cost per mile example",
+    "checked_date": "2026-11-10",
+    "google_rank_verified": false,
+    "competitors": [
+      {
+        "url": "https://www.101planners.com/trucking-business-plan/",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Connects the topic with cost or operating decisions."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://buddyloads.com/owner-operator-guides/owner-operator-business-plan",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      },
+      {
+        "url": "https://www.zarla.com/business-plans/trucking",
+        "observed_strengths": [
+          "Provides a concrete template or download entry point.",
+          "Makes the explanation tangible through examples."
+        ],
+        "access": "HTTP 200; body and section structure reviewed."
+      }
+    ],
+    "identified_gap": "Add a time-based trucking plan sensitivity beyond the existing per-mile and empty-mile calculations.",
+    "implemented_heading": "Test the unpaid wait as a monthly capacity constraint"
+  }
+}

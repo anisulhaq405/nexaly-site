@@ -307,7 +307,7 @@ var posts = [
     "img": "/images/journal/consulting-business-plan-20261107.webp",
     "alt": "Independent consultant reviewing client work folders and a paper capacity calendar",
     "tag": "Planning Guides",
-    "date": "Nov 7, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/hotel-business-plan/",
@@ -316,7 +316,7 @@ var posts = [
     "img": "/images/journal/hotel-business-plan-20261107.webp",
     "alt": "Boutique hotel manager reviewing a paper room grid beside brass room-key hooks",
     "tag": "Planning Guides",
-    "date": "Nov 7, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/insurance-agency-business-plan/",
@@ -343,7 +343,7 @@ var posts = [
     "img": "/images/journal/spa-business-plan-20261107.webp",
     "alt": "Day-spa owner reviewing appointment cards at a reception desk with folded linen",
     "tag": "Planning Guides",
-    "date": "Nov 7, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/travel-agency-business-plan/",
@@ -397,7 +397,7 @@ var posts = [
     "img": "/images/journal/nonprofit-business-plan-20261106.webp",
     "alt": "Community coordinator reviewing budget papers in a neighborhood food packing workspace",
     "tag": "Planning Guides",
-    "date": "Nov 6, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/real-estate-business-plan/",
@@ -487,7 +487,7 @@ var posts = [
     "img": "/images/journal/operations-dashboard-example-20261105.webp?v=0a29cb5f87f0",
     "alt": "Workshop dispatch station with separate job-card trays, quality tools and packaged products",
     "tag": "Planning Guides",
-    "date": "Nov 5, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/client-dashboard-example/",
@@ -550,7 +550,7 @@ var posts = [
     "img": "/images/journal/store-performance-dashboard-20261104.webp?v=25838e1ae502",
     "alt": "Shop owner reviewing stock and sales records in a clothing boutique",
     "tag": "Planning Guides",
-    "date": "Nov 4, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/planner-sizes-chart-printable-inserts/",
@@ -559,7 +559,7 @@ var posts = [
     "img": "/assets/img/journal-responsive/a5-planner-sizes-layouts-digital-options-1280.webp",
     "alt": "A5 planner example beside a tablet, illustrating one format in a full planner sizes comparison",
     "tag": "Planning Guides",
-    "date": "Oct 25, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/small-business-balance-sheet-template/",
@@ -622,7 +622,7 @@ var posts = [
     "img": "/assets/img/workflows/business-plan-financial-projections-service-example-cover-v3.webp",
     "alt": "Business Plan Financial Projections: Service Business Example editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Updated Oct 29, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/cash-flow-report-template-variance/",
@@ -640,7 +640,7 @@ var posts = [
     "img": "/assets/img/workflows/coffee-shop-business-plan-daily-capacity-cover-v3.webp",
     "alt": "Coffee Shop Business Plan: Daily Capacity and Cost Example editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Updated Oct 29, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/construction-company-business-plan-milestone-cash/",
@@ -649,7 +649,7 @@ var posts = [
     "img": "/assets/img/workflows/construction-company-business-plan-milestone-cash-cover-v3.webp",
     "alt": "Construction Company Business Plan: Milestone Cash Example editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Updated Oct 29, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/content-marketing-plan-template-capacity/",
@@ -721,7 +721,7 @@ var posts = [
     "img": "/assets/img/workflows/trucking-company-business-plan-trip-cost-cover-v3.webp",
     "alt": "Trucking Company Business Plan: Total-Mile Cost Example editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Updated Oct 29, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/track-partial-shipments-backorders/",
@@ -748,7 +748,7 @@ var posts = [
     "img": "/images/journal/batch-lot-traceability-log-20261003.webp",
     "alt": "Candle-making workbench with raw materials, batch-tagged jars, a production clipboard and shipping carton.",
     "tag": "Planning Guides",
-    "date": "Updated Nov 4, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/equipment-calibration-log/",
@@ -757,7 +757,7 @@ var posts = [
     "img": "/images/journal/equipment-calibration-log-20261003.webp",
     "alt": "Metrology bench with a caliper, micrometer, gauge blocks and calibration record clipboard.",
     "tag": "Planning Guides",
-    "date": "Updated Nov 4, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/rental-equipment-maintenance-log/",
@@ -802,7 +802,7 @@ var posts = [
     "img": "/images/journal/purchase-order-tracker-20261001.webp",
     "alt": "Receiving clerk comparing a purchase order with a partial delivery of cartons.",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/small-engine-repair-business-plan/",
@@ -820,7 +820,7 @@ var posts = [
     "img": "/images/journal/supplier-scorecard-template-cover-20261015.webp",
     "alt": "Supplier scorecard template cover with purchasing records and material samples",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/caregiver-daily-log-template/",
@@ -856,7 +856,7 @@ var posts = [
     "img": "/images/journal/agency-capacity-planning-example-20260929.webp",
     "alt": "Agency team planning retainer and project hours against monthly capacity",
     "tag": "Planning Guides",
-    "date": "Updated Nov 3, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/how-much-inventory-start-boutique/",
@@ -883,7 +883,7 @@ var posts = [
     "img": "/images/journal/cash-flow-forecast-template-example-v2.jpg",
     "alt": "Shop owner reviewing a 13-week cash flow chart and invoices under 13-Week Cash Flow",
     "tag": "Planning Guides",
-    "date": "Updated Nov 3, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/equipment-rental-business-plan-example/",
@@ -892,7 +892,7 @@ var posts = [
     "img": "/images/journal/equipment-rental-business-plan-example-v2.jpg",
     "alt": "Event lighting rental team inspecting equipment and a booking handoff under Equipment Rental Plan",
     "tag": "Planning Guides",
-    "date": "Updated Nov 3, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/freelance-business-plan-example/",
@@ -901,7 +901,7 @@ var posts = [
     "img": "/images/journal/freelance-business-plan-example-v2.jpg",
     "alt": "Freelance designer reviewing client work and a calendar under Freelance Business Plan",
     "tag": "Planning Guides",
-    "date": "Updated Nov 3, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/one-page-marketing-plan-example/",
@@ -937,7 +937,7 @@ var posts = [
     "img": "/images/journal/small-business-budget-example-v2.jpg",
     "alt": "Owner comparing planned and actual costs on two budget sheets under Small Business Budget",
     "tag": "Planning Guides",
-    "date": "Updated Nov 3, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/weekly-digital-planner-small-business/",
@@ -964,7 +964,7 @@ var posts = [
     "img": "/images/journal/best-digital-planner-for-ipad-20260919.jpg",
     "alt": "iPad beside an Apple Pencil showing a digital planner with monthly, weekly, and daily layouts",
     "tag": "Planning Guides",
-    "date": "Updated Oct 14, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/best-planner-app-for-ipad-2026/",
@@ -973,7 +973,7 @@ var posts = [
     "img": "/images/journal/best-planner-app-for-ipad-2026-20260919.jpg",
     "alt": "iPad displaying a weekly digital planner beside an Apple Pencil and handwritten planning notes",
     "tag": "Planning Guides",
-    "date": "Updated Oct 12, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/digital-planner-app-how-it-works/",
@@ -982,7 +982,7 @@ var posts = [
     "img": "/images/journal/digital-planner-app-how-it-works-20260919.jpg",
     "alt": "iPad showing a weekly digital planner beside a laptop with a typed planning workspace",
     "tag": "Planning Guides",
-    "date": "Updated Nov 2, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/digital-planner-for-ipad-setup/",
@@ -991,7 +991,7 @@ var posts = [
     "img": "/images/journal/digital-planner-for-ipad-setup-20260919.jpg",
     "alt": "iPad showing a linked digital planner weekly layout beside an Apple Pencil and Files app",
     "tag": "Planning Guides",
-    "date": "Updated Nov 2, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/free-digital-planner-for-ipad/",
@@ -1000,7 +1000,7 @@ var posts = [
     "img": "/images/journal/free-digital-planner-for-ipad-20260919.jpg",
     "alt": "iPad showing a handwritten weekly digital planner beside an Apple Pencil",
     "tag": "Planning Guides",
-    "date": "Updated Nov 7, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/ipad-digital-planner-setup-guide/",
@@ -1009,7 +1009,7 @@ var posts = [
     "img": "/images/journal/ipad-digital-planner-setup-guide-20260919.jpg",
     "alt": "iPad with Apple Pencil beside a digital weekly planner, Files folder, and notes for an offline setup",
     "tag": "Planning Guides",
-    "date": "Updated Oct 12, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/ipad-planner-app-buying-guide/",
@@ -1018,7 +1018,7 @@ var posts = [
     "img": "/images/journal/ipad-planner-app-buying-guide-20260919.jpg",
     "alt": "iPad showing a digital planner comparison with Apple Pencil, PDF, Goodnotes, Notion, and offline HTML options",
     "tag": "Planning Guides",
-    "date": "Updated Oct 14, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/2026-monthly-planner-free-layouts/",
@@ -1027,7 +1027,7 @@ var posts = [
     "img": "/images/journal/2026-monthly-planner-free-layouts-20260918.jpg",
     "alt": "Open 2026 monthly planner showing a dated calendar grid, priorities, deadlines, and notes on a desk",
     "tag": "Planning Guides",
-    "date": "Updated Oct 12, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/best-2026-planners-digital-printable-options/",
@@ -1036,7 +1036,7 @@ var posts = [
     "img": "/images/journal/best-2026-planners-digital-printable-options-20260918.jpg",
     "alt": "2026 digital and printable planner options arranged on a desk with monthly, weekly, and daily layouts",
     "tag": "Planning Guides",
-    "date": "Updated Oct 24, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/daily-planner-2026-free-layouts/",
@@ -1063,7 +1063,7 @@ var posts = [
     "img": "/images/journal/planner-2026-what-to-look-for-20260918.jpg",
     "alt": "Open 2026 planner beside a tablet and handwritten weekly schedule",
     "tag": "Planning Guides",
-    "date": "Updated Oct 24, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/planners-2026-full-comparison/",
@@ -1072,7 +1072,7 @@ var posts = [
     "img": "/images/journal/planners-2026-full-comparison-20260918.jpg",
     "alt": "Open 2026 planner with monthly, weekly, and daily planning pages for work, study, and home life",
     "tag": "Planning Guides",
-    "date": "Updated Nov 4, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/weekly-planner-2026-free-templates/",
@@ -1090,7 +1090,7 @@ var posts = [
     "img": "/assets/img/journal-responsive/a5-planner-sizes-layouts-digital-options-1280.webp",
     "alt": "Open A5 planner showing a weekly layout beside a tablet with a digital planner page",
     "tag": "Planning Guides",
-    "date": "Updated Oct 29, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/daily-digital-planner/",
@@ -1108,7 +1108,7 @@ var posts = [
     "img": "/assets/img/journal-responsive/daily-planner-complete-guide-1280.webp",
     "alt": "Open daily planner with three priorities, fixed appointments, time blocks, and an end-of-day review",
     "tag": "Planning Guides",
-    "date": "Updated Nov 5, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/day-planner-vs-daily-planner/",
@@ -1117,7 +1117,7 @@ var posts = [
     "img": "/assets/img/journal-responsive/day-planner-vs-daily-planner-1280.webp",
     "alt": "Open day planner beside a calendar with hourly schedule blocks and a digital tablet planner",
     "tag": "Planning Guides",
-    "date": "Updated Oct 29, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/hourly-planner-best-free-digital-layouts/",
@@ -1126,7 +1126,7 @@ var posts = [
     "img": "/assets/img/journal-responsive/hourly-planner-best-free-digital-layouts-1280.webp",
     "alt": "Open hourly planner showing time blocks, priorities, and buffer space on a desk",
     "tag": "Planning Guides",
-    "date": "Updated Oct 30, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/monthly-planner-free-templates/",
@@ -1135,7 +1135,7 @@ var posts = [
     "img": "/assets/img/journal-responsive/monthly-planner-free-templates-1280.webp",
     "alt": "Open monthly planner with commitments, goals, project milestones, and review notes arranged across one calendar spread.",
     "tag": "Planning Guides",
-    "date": "Updated Oct 23, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/minimalist-planner/",
@@ -1171,7 +1171,7 @@ var posts = [
     "img": "/images/journal/student-planner-guide-20260915.jpg",
     "alt": "College student organizing classes, assignments, exams and focus sessions under the heading Build a Student Planner",
     "tag": "Planning Guides",
-    "date": "Updated Nov 6, 2026"
+    "date": "Updated Nov 10, 2026"
   },
   {
     "url": "/journal/supplier-quote-comparison/",
@@ -1230,7 +1230,7 @@ var posts = [
   {
     "tag": "Inventory Software",
     "title": "Inventory Software Without a Subscription: What to Check Before Buying",
-    "date": "Updated Nov 2, 2026 · 5 min",
+    "date": "Updated Nov 10, 2026 · 5 min",
     "url": "/journal/inventory-software-without-subscription/",
     "img": "/images/journal/inventory-software-buying-checklist.png",
     "alt": "Inventory software buying checklist covering sale and return tests, backup recovery and license costs",
