@@ -292,6 +292,78 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/business-process-automation/",
+    "title": "Business Process Automation: Ownership, Cost and Controls",
+    "excerpt": "Map an end-to-end process, assign approval and exception owners, and evaluate a purchase-request automation with original cost and sensitivity examples.",
+    "img": "/images/journal/business-process-automation-20261111.webp",
+    "alt": "Business Process Automation: Ownership, Cost and Controls — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 11, 2026"
+  },
+  {
+    "url": "/journal/crm-automation-guide/",
+    "title": "CRM Automation Guide: Clean Records, Rules and Exceptions",
+    "excerpt": "Assign field authority, reconcile contact imports and test safe record transitions before using CRM automation across sales and service.",
+    "img": "/images/journal/crm-automation-guide-20261111.webp",
+    "alt": "CRM Automation Guide: Clean Records, Rules and Exceptions — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 11, 2026"
+  },
+  {
+    "url": "/journal/customer-service-automation/",
+    "title": "Customer-Service Automation: Escalation and Real Resolution",
+    "excerpt": "Design support routing and human handoff, measure reopened tickets with clear denominators, and calculate a bounded customer-service capacity example.",
+    "img": "/images/journal/customer-service-automation-20261111.webp",
+    "alt": "Customer-Service Automation: Escalation and Real Resolution — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 11, 2026"
+  },
+  {
+    "url": "/journal/email-marketing-automation/",
+    "title": "Email Marketing Automation: Triggers, Stops and Metrics",
+    "excerpt": "Design a controlled email sequence with send-time suppression, goal exits and unique-recipient reporting. Includes an original delivery reconciliation.",
+    "img": "/images/journal/email-marketing-automation-20261111.webp",
+    "alt": "Email Marketing Automation: Triggers, Stops and Metrics — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 11, 2026"
+  },
+  {
+    "url": "/journal/how-to-start-a-business/",
+    "title": "How to Start a Business: Evidence Gates and a Launch Plan",
+    "excerpt": "Build a US-focused launch plan around customer evidence, delivery capacity, cash timing and official requirements before increasing commitments.",
+    "img": "/images/journal/how-to-start-a-business-20261111.webp",
+    "alt": "How to Start a Business: Evidence Gates and a Launch Plan — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 11, 2026"
+  },
+  {
+    "url": "/journal/marketing-automation-small-business/",
+    "title": "Marketing Automation for Small Business: A Measurable Pilot",
+    "excerpt": "Plan one marketing journey with eligibility, suppression and sales handoff rules, then measure an original contribution-based pilot example.",
+    "img": "/images/journal/marketing-automation-small-business-20261111.webp",
+    "alt": "Marketing Automation for Small Business: A Measurable Pilot — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 11, 2026"
+  },
+  {
+    "url": "/journal/sales-automation-guide/",
+    "title": "Sales Automation Guide: Handoffs, Capacity and Pipeline",
+    "excerpt": "Design accepted lead handoffs, calculate whole-lead capacity and separate weighted pipeline from actual cash before automating sales tasks.",
+    "img": "/images/journal/sales-automation-guide-20261111.webp",
+    "alt": "Sales Automation Guide: Handoffs, Capacity and Pipeline — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 11, 2026"
+  },
+  {
+    "url": "/journal/workflow-automation-guide/",
+    "title": "Workflow Automation Guide: Build and Test Your First Process",
+    "excerpt": "Define a trigger, owner and exception path, calculate realistic time released, and test duplicate events before rolling out a small-business workflow.",
+    "img": "/images/journal/workflow-automation-guide-20261111.webp",
+    "alt": "Workflow Automation Guide: Build and Test Your First Process — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 11, 2026"
+  },
+  {
     "url": "/journal/bakery-business-plan/",
     "title": "Bakery Business Plan: Batch Yield, Waste & Cash Example",
     "excerpt": "Write a bakery business plan using batches, saleable yield, sell-through, production time, ingredient costs and cash timing. Includes an original downside and stock reconciliation.",
@@ -379,7 +451,7 @@ var posts = [
     "img": "/images/journal/business-plan-guide-20261106.webp",
     "alt": "Overhead planning notebook, calculator and objects representing several small business models",
     "tag": "Planning Guides",
-    "date": "Updated Nov 7, 2026"
+    "date": "Updated Nov 11, 2026"
   },
   {
     "url": "/journal/farm-business-plan/",
@@ -600,7 +672,7 @@ var posts = [
   {
     "tag": "Student Planner",
     "title": "College Assignment Tracker: Free Excel and Google Sheets Template",
-    "date": "Updated Oct 30, 2026 · 5 min",
+    "date": "Updated Nov 11, 2026 · 5 min",
     "url": "/journal/college-assignment-tracker/",
     "img": "/images/journal/college-assignment-tracker-cover-20261015.webp",
     "alt": "College assignment tracker cover showing a study desk, assignment list and deadline calendar",
