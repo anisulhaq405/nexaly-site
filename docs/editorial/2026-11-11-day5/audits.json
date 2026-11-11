@@ -1,0 +1,23 @@
+[
+  {
+    "id": "O013",
+    "slug": "hourly-planner-best-free-digital-layouts",
+    "decision": "no-change",
+    "reason": "Preserve Nov10 rounding and existing day/overnight boundaries; no substantive gap found."
+  },
+  {
+    "id": "O014",
+    "slug": "college-assignment-tracker",
+    "decision": "updated",
+    "datePublished": [
+      "2026-09-08"
+    ],
+    "reason": "Add manual remaining-effort versus before-deadline capacity test."
+  },
+  {
+    "id": "O015",
+    "slug": "ipad-planner-app-buying-guide",
+    "decision": "no-change",
+    "reason": "Preserve Nov10 full usable-setup cost, format ownership and backup/privacy checks."
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "O059",
+    "slug": "workflow-automation-guide",
+    "title": "Workflow Automation Guide: Build and Test Your First Process",
+    "desc": "Define a trigger, owner and exception path, calculate realistic time released, and test duplicate events before rolling out a small-business workflow.",
+    "sources": [
+      [
+        "Zapier: workflow automation",
+        "https://zapier.com/blog/workflow-automation/"
+      ],
+      [
+        "Microsoft: error handling",
+        "https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling"
+      ],
+      [
+        "IBM: business process automation",
+        "https://www.ibm.com/think/topics/business-process-automation"
+      ]
+    ]
+  },
+  {
+    "id": "O060",
+    "slug": "marketing-automation-small-business",
+    "title": "Marketing Automation for Small Business: A Measurable Pilot",
+    "desc": "Plan one marketing journey with eligibility, suppression and sales handoff rules, then measure an original contribution-based pilot example.",
+    "sources": [
+      [
+        "HubSpot: marketing automation",
+        "https://blog.hubspot.com/marketing/what-is-marketing-automation-a-beginners-guide"
+      ],
+      [
+        "Mailchimp: automation flows",
+        "https://mailchimp.com/help/create-customer-journey/"
+      ],
+      [
+        "Salesforce: CRM automation",
+        "https://www.salesforce.com/crm/automation/"
+      ]
+    ]
+  },
+  {
+    "id": "O063",
+    "slug": "business-process-automation",
+    "title": "Business Process Automation: Ownership, Cost and Controls",
+    "desc": "Map an end-to-end process, assign approval and exception owners, and evaluate a purchase-request automation with original cost and sensitivity examples.",
+    "sources": [
+      [
+        "IBM: business process automation",
+        "https://www.ibm.com/think/topics/business-process-automation"
+      ],
+      [
+        "Zapier: workflow automation",
+        "https://zapier.com/blog/workflow-automation/"
+      ],
+      [
+        "Microsoft: error handling",
+        "https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling"
+      ]
+    ]
+  },
+  {
+    "id": "O064",
+    "slug": "customer-service-automation",
+    "title": "Customer-Service Automation: Escalation and Real Resolution",
+    "desc": "Design support routing and human handoff, measure reopened tickets with clear denominators, and calculate a bounded customer-service capacity example.",
+    "sources": [
+      [
+        "Zendesk: customer-service automation",
+        "https://www.zendesk.com/service/ticketing-system/automated-customer-support/"
+      ],
+      [
+        "Microsoft: error handling",
+        "https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling"
+      ],
+      [
+        "Salesforce: CRM automation",
+        "https://www.salesforce.com/crm/automation/"
+      ]
+    ]
+  },
+  {
+    "id": "O070",
+    "slug": "email-marketing-automation",
+    "title": "Email Marketing Automation: Triggers, Stops and Metrics",
+    "desc": "Design a controlled email sequence with send-time suppression, goal exits and unique-recipient reporting. Includes an original delivery reconciliation.",
+    "sources": [
+      [
+        "Mailchimp: automation flows",
+        "https://mailchimp.com/help/create-customer-journey/"
+      ],
+      [
+        "Mailchimp: unsubscribes",
+        "https://mailchimp.com/help/about-unsubscribes/"
+      ],
+      [
+        "HubSpot: marketing automation",
+        "https://blog.hubspot.com/marketing/what-is-marketing-automation-a-beginners-guide"
+      ]
+    ]
+  },
+  {
+    "id": "O078",
+    "slug": "sales-automation-guide",
+    "title": "Sales Automation Guide: Handoffs, Capacity and Pipeline",
+    "desc": "Design accepted lead handoffs, calculate whole-lead capacity and separate weighted pipeline from actual cash before automating sales tasks.",
+    "sources": [
+      [
+        "HubSpot: sales automation",
+        "https://blog.hubspot.com/sales/sales-automation"
+      ],
+      [
+        "Salesforce: CRM automation",
+        "https://www.salesforce.com/crm/automation/"
+      ],
+      [
+        "Zapier: workflow automation",
+        "https://zapier.com/blog/workflow-automation/"
+      ]
+    ]
+  },
+  {
+    "id": "O079",
+    "slug": "crm-automation-guide",
+    "title": "CRM Automation Guide: Clean Records, Rules and Exceptions",
+    "desc": "Assign field authority, reconcile contact imports and test safe record transitions before using CRM automation across sales and service.",
+    "sources": [
+      [
+        "Salesforce: CRM automation",
+        "https://www.salesforce.com/crm/automation/"
+      ],
+      [
+        "HubSpot: sales automation",
+        "https://blog.hubspot.com/sales/sales-automation"
+      ],
+      [
+        "Microsoft: error handling",
+        "https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling"
+      ]
+    ]
+  },
+  {
+    "id": "O124",
+    "slug": "how-to-start-a-business",
+    "title": "How to Start a Business: Evidence Gates and a Launch Plan",
+    "desc": "Build a US-focused launch plan around customer evidence, delivery capacity, cash timing and official requirements before increasing commitments.",
+    "sources": [
+      [
+        "SBA: business planning",
+        "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+      ],
+      [
+        "IRS: starting-business checklist",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/checklist-for-starting-a-business"
+      ],
+      [
+        "IBM: business process automation",
+        "https://www.ibm.com/think/topics/business-process-automation"
+      ]
+    ]
+  }
+]
