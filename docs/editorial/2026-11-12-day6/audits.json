@@ -1,0 +1,24 @@
+[
+  {
+    "id": "O016",
+    "slug": "one-page-marketing-plan-example",
+    "decision": "updated",
+    "datePublished": [
+      "2026-09-28"
+    ]
+  },
+  {
+    "id": "O018",
+    "slug": "one-page-business-plan-template-assumptions",
+    "decision": "updated",
+    "datePublished": [
+      "2026-10-13"
+    ]
+  },
+  {
+    "id": "O017",
+    "slug": "coffee-shop-business-plan-daily-capacity",
+    "decision": "no-change",
+    "reason": "Existing actual-capacity, whole-order threshold, staffing, cash and Nov10 peak-half-hour queue examples already address the intent. Preserve all content and dates."
+  }
+]

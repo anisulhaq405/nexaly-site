@@ -1,0 +1,142 @@
+[
+  {
+    "id": "O062",
+    "slug": "ai-marketing-workflow-examples",
+    "title": "AI Marketing Workflow Examples: Brief, Draft, Review and Measure",
+    "desc": "Use three bounded AI marketing workflows with source briefs, approval gates and a worked net-time example that includes fact-checking and rework.",
+    "sources": [
+      [
+        "HubSpot: AI marketing workflows",
+        "https://blog.hubspot.com/marketing/ai-automation-examples"
+      ],
+      [
+        "Google: collaborate with Gemini in Docs",
+        "https://support.google.com/docs/answer/14206696?hl=en"
+      ],
+      [
+        "Canva: review AI-generated work",
+        "https://www.canva.com/help/using-magic-studio-safely-and-legally/"
+      ]
+    ]
+  },
+  {
+    "id": "O069",
+    "slug": "small-business-bookkeeping-workflow",
+    "title": "Small-Business Bookkeeping Workflow: Capture, Reconcile and Close",
+    "desc": "Organize supporting records, review transaction classifications and reconcile bank activity with an original cash-versus-profit example for a small business.",
+    "sources": [
+      [
+        "IRS Publication 583: keeping records",
+        "https://www.irs.gov/publications/p583"
+      ],
+      [
+        "Intuit: bank reconciliation",
+        "https://quickbooks.intuit.com/accounting/bank-reconciliation/"
+      ],
+      [
+        "Xero: bookkeeping guides",
+        "https://www.xero.com/us/guides/small-business-bookkeeping/"
+      ]
+    ]
+  },
+  {
+    "id": "O071",
+    "slug": "ai-productivity-assistant-workflows",
+    "title": "AI Productivity Assistant Workflows: Summaries, Plans and Review",
+    "desc": "Design an AI assistant workflow for meeting notes, task breakdown and research triage, with a net-time calculation and clear human approval boundaries.",
+    "sources": [
+      [
+        "Microsoft: Copilot Tasks and review boundaries",
+        "https://support.microsoft.com/en-us/microsoft-365-copilot/using-copilot-tasks"
+      ],
+      [
+        "Google: collaborate with Gemini in Docs",
+        "https://support.google.com/docs/answer/14206696?hl=en"
+      ],
+      [
+        "Canva: review AI-generated work",
+        "https://www.canva.com/help/using-magic-studio-safely-and-legally/"
+      ]
+    ]
+  },
+  {
+    "id": "O075",
+    "slug": "automation-tools-comparison",
+    "title": "Automation Tools Comparison: Zapier, Make and n8n by Workflow Fit",
+    "desc": "Compare Zapier, Make and n8n using official documentation, billing-unit boundaries and a repeatable acceptance scenario instead of a universal winner.",
+    "sources": [
+      [
+        "Zapier: task usage",
+        "https://help.zapier.com/hc/en-us/articles/8496196837261-How-is-task-usage-measured-in-Zapier"
+      ],
+      [
+        "Make: credits",
+        "https://help.make.com/credits"
+      ],
+      [
+        "n8n: hosting options",
+        "https://docs.n8n.io/hosting/"
+      ]
+    ]
+  },
+  {
+    "id": "O076",
+    "slug": "crm-software-small-business",
+    "title": "CRM Software for Small Business: Compare Fit, Cost and Exit",
+    "desc": "Compare HubSpot, Zoho CRM and Pipedrive with a common record-and-deal test, total seat-cost example and export checklist for a small team.",
+    "sources": [
+      [
+        "HubSpot CRM",
+        "https://www.hubspot.com/products/crm"
+      ],
+      [
+        "Zoho: editions and roles",
+        "https://help.zoho.com/portal/en/kb/crm/getting-started/articles/choose-your-path-edition-and-role-guide"
+      ],
+      [
+        "Pipedrive: CRM features",
+        "https://www.pipedrive.com/en/crm/features"
+      ]
+    ]
+  },
+  {
+    "id": "O077",
+    "slug": "ai-content-tool-comparison",
+    "title": "AI Content Tool Comparison: Text, Design and Review Controls",
+    "desc": "Choose an AI content tool by deliverable, source fidelity and review effort. Compare tool categories with a transparent fictional acceptance and cost example.",
+    "sources": [
+      [
+        "Canva: review AI-generated work",
+        "https://www.canva.com/help/using-magic-studio-safely-and-legally/"
+      ],
+      [
+        "Adobe: Content Credentials",
+        "https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html"
+      ],
+      [
+        "WRITER: brand controls",
+        "https://writer.com/brand/"
+      ]
+    ]
+  },
+  {
+    "id": "O083",
+    "slug": "finance-automation-guide",
+    "title": "Finance Automation Guide: Match, Approve and Reconcile",
+    "desc": "Design a finance automation pilot with invoice matching, duplicate controls, human approval and a worked effort example before enabling external actions.",
+    "sources": [
+      [
+        "Zapier: accounting workflows",
+        "https://zapier.com/automations/finance/accounting"
+      ],
+      [
+        "IRS Publication 583: keeping records",
+        "https://www.irs.gov/publications/p583"
+      ],
+      [
+        "Intuit: bank reconciliation",
+        "https://quickbooks.intuit.com/accounting/bank-reconciliation/"
+      ]
+    ]
+  }
+]
