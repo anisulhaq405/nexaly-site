@@ -3664,8 +3664,9 @@
     },
     "https://nexalyplanner.com/journal/workflow-automation-guide/|pinterest": {
       "revision": "797fcbef4b197985807c048033126e3468c9eb58fba594a3ea549f60dfec94df",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T12:09:59.026241+00:00"
+      "status": "published",
+      "postId": "1106196727262539942",
+      "publishedAt": "2026-11-12T12:10:01.733658+00:00"
     }
   },
   "firstTestCompleted": true
