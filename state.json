@@ -3171,10 +3171,9 @@
       "publishedAt": "2026-11-07T06:56:02.505406+00:00"
     },
     "https://nexalyplanner.com/journal/consulting-business-plan/|facebook": {
-      "revision": "e6f6cef654cd960115ccf2d208f63d747a4486d1c2de0d7196190b5616d90c41",
-      "status": "published",
-      "postId": "1308942472292403_122118767127409632",
-      "publishedAt": "2026-11-07T06:57:04.490890+00:00"
+      "revision": "227eaa65e746050c26ca62d80a4caacf36a6434d54e2cf6c4fd7f521339db535",
+      "status": "attempting",
+      "attemptedAt": "2026-11-12T11:59:14.008836+00:00"
     },
     "https://nexalyplanner.com/journal/consulting-business-plan/|instagram": {
       "revision": "e6f6cef654cd960115ccf2d208f63d747a4486d1c2de0d7196190b5616d90c41",
