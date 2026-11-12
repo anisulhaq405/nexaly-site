@@ -3526,8 +3526,9 @@
     },
     "https://nexalyplanner.com/journal/email-marketing-automation/|youtube": {
       "revision": "7bd8c12a0d5318864432bab80548b25f6b6477d4ca49d2011c49a9da7e9b4aa3",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T12:02:59.871241+00:00"
+      "status": "published",
+      "postId": "o-DCfDuw7ZA",
+      "publishedAt": "2026-11-12T12:03:04.737254+00:00"
     }
   },
   "firstTestCompleted": true
