@@ -3382,8 +3382,9 @@
     },
     "https://nexalyplanner.com/journal/ai-productivity-assistant-workflows/|youtube": {
       "revision": "8a0136f1add91d89a961ca2b2adc3a6cb3c6ac2f1b34dbbce1f65cf52e4e8511",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T11:56:47.579283+00:00"
+      "status": "published",
+      "postId": "wkyyhNYBFbM",
+      "publishedAt": "2026-11-12T11:56:51.838539+00:00"
     }
   },
   "firstTestCompleted": true
