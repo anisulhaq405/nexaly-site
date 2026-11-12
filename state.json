@@ -3613,6 +3613,11 @@
       "status": "published",
       "postId": "18117362984019062",
       "publishedAt": "2026-11-12T12:07:34.594630+00:00"
+    },
+    "https://nexalyplanner.com/journal/sales-automation-guide/|pinterest": {
+      "revision": "117eeac228c2f57d4c0dcb927b194059438debc927c9d7ddaeedbb2a62871565",
+      "status": "attempting",
+      "attemptedAt": "2026-11-12T12:07:35.859592+00:00"
     }
   },
   "firstTestCompleted": true
