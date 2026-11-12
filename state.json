@@ -3529,6 +3529,11 @@
       "status": "published",
       "postId": "o-DCfDuw7ZA",
       "publishedAt": "2026-11-12T12:03:04.737254+00:00"
+    },
+    "https://nexalyplanner.com/journal/finance-automation-guide/|facebook": {
+      "revision": "b240530da7c42447004e1f11d32981c154e70376eab7b88d97c1999683e5906f",
+      "status": "attempting",
+      "attemptedAt": "2026-11-12T12:03:10.851588+00:00"
     }
   },
   "firstTestCompleted": true
