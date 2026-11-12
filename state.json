@@ -3352,8 +3352,9 @@
     },
     "https://nexalyplanner.com/journal/ai-marketing-workflow-examples/|pinterest": {
       "revision": "63a2da475348811084376394acd29720a50bc95057776cf0a47873fdd025255f",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T11:55:53.530664+00:00"
+      "status": "published",
+      "postId": "1106196727262539014",
+      "publishedAt": "2026-11-12T11:55:56.998040+00:00"
     }
   },
   "firstTestCompleted": true
