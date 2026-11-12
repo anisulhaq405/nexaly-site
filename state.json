@@ -3189,10 +3189,9 @@
       "publishedAt": "2026-11-12T11:59:47.928931+00:00"
     },
     "https://nexalyplanner.com/journal/consulting-business-plan/|youtube": {
-      "revision": "e6f6cef654cd960115ccf2d208f63d747a4486d1c2de0d7196190b5616d90c41",
-      "status": "published",
-      "postId": "gEOg_id3hOk",
-      "publishedAt": "2026-11-07T06:57:29.908442+00:00"
+      "revision": "227eaa65e746050c26ca62d80a4caacf36a6434d54e2cf6c4fd7f521339db535",
+      "status": "attempting",
+      "attemptedAt": "2026-11-12T11:59:49.219732+00:00"
     },
     "https://nexalyplanner.com/journal/hotel-business-plan/|facebook": {
       "revision": "c99f2545c0f2766bb53c89a6ca70629f48f668f8ac1725a608d03b504a0bc53c",
