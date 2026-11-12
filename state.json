@@ -3478,8 +3478,9 @@
     },
     "https://nexalyplanner.com/journal/crm-software-small-business/|youtube": {
       "revision": "265ba651ff4c93fcaadac5881c445762d4f1176799e794f06d2e9c172c5d74c6",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T12:01:24.624843+00:00"
+      "status": "published",
+      "postId": "G2Dt6jnvIWo",
+      "publishedAt": "2026-11-12T12:01:29.734341+00:00"
     }
   },
   "firstTestCompleted": true
