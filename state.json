@@ -3016,8 +3016,9 @@
     },
     "https://nexalyplanner.com/journal/business-plan-guide/|pinterest": {
       "revision": "0f7c815b9a832077432ee87afeafeae04d9b42ceca74e439610757b12b2d6992",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T11:58:11.258099+00:00"
+      "status": "published",
+      "postId": "1106196727262539153",
+      "publishedAt": "2026-11-12T11:58:14.637697+00:00"
     },
     "https://nexalyplanner.com/journal/business-plan-guide/|youtube": {
       "revision": "8e72bd8d5ff16f7a80714439cb69766e97ea6172cf276b1d7948062027ec2416",
