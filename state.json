@@ -3316,8 +3316,9 @@
     },
     "https://nexalyplanner.com/journal/ai-content-tool-comparison/|facebook": {
       "revision": "80edb332639bf894dd210a71328b6bd2447d11274309388c3b7c702150a51a0a",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T11:54:24.871859+00:00"
+      "status": "published",
+      "postId": "1308942472292403_122119664913409632",
+      "publishedAt": "2026-11-12T11:54:39.460258+00:00"
     }
   },
   "firstTestCompleted": true
