@@ -3598,8 +3598,9 @@
     },
     "https://nexalyplanner.com/journal/marketing-automation-small-business/|youtube": {
       "revision": "d7149001673e3f8931fb3cd52fbae2ed5d0021859868fe35a627908d539ed731",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T12:06:03.786464+00:00"
+      "status": "published",
+      "postId": "RkbPED7Iv8Y",
+      "publishedAt": "2026-11-12T12:06:08.066390+00:00"
     }
   },
   "firstTestCompleted": true
