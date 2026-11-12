@@ -1,0 +1,11 @@
+/* Product-copy presentation only; planner, checkout and shared styles are unchanged. */
+#adhd-digital-planner-app table,#app-format-and-backup table{width:100%;min-width:620px;border-collapse:collapse;margin:18px 0;font-size:.94rem;line-height:1.6;color:#5b4a34}
+#adhd-digital-planner-app caption,#app-format-and-backup caption{text-align:left;font-weight:700;color:#2c2117;margin-bottom:10px}
+#adhd-digital-planner-app th,#adhd-digital-planner-app td,#app-format-and-backup th,#app-format-and-backup td{padding:13px 15px;border:1px solid #e6ddc9;vertical-align:top;text-align:left}
+#adhd-digital-planner-app thead,#app-format-and-backup thead{background:#f1e8d9;color:#2c2117}
+#adhd-digital-planner-app tbody tr:nth-child(even),#app-format-and-backup tbody tr:nth-child(even){background:#fff}
+#adhd-digital-planner-app [role="region"]:focus-visible,#app-format-and-backup [role="region"]:focus-visible{outline:3px solid #9a4c2d;outline-offset:3px}
+#app-format-and-backup h3{margin:28px 0 10px;color:#2c2117}
+#daily-planning-example .pd-feat p,#adhd-buyer-fit .pd-feat p{line-height:1.65}
+#adhd-planner-real-day li{margin:12px 0;line-height:1.7}
+@media(max-width:640px){#daily-planning-example .pd-feats,#adhd-buyer-fit .pd-feats{grid-template-columns:1fr}#adhd-digital-planner-app table,#app-format-and-backup table{font-size:.88rem}}
