@@ -3589,6 +3589,11 @@
       "status": "published",
       "postId": "18114078680232418",
       "publishedAt": "2026-11-12T12:05:57.986263+00:00"
+    },
+    "https://nexalyplanner.com/journal/marketing-automation-small-business/|pinterest": {
+      "revision": "d7149001673e3f8931fb3cd52fbae2ed5d0021859868fe35a627908d539ed731",
+      "status": "attempting",
+      "attemptedAt": "2026-11-12T12:05:59.467151+00:00"
     }
   },
   "firstTestCompleted": true
