@@ -3622,8 +3622,9 @@
     },
     "https://nexalyplanner.com/journal/sales-automation-guide/|youtube": {
       "revision": "117eeac228c2f57d4c0dcb927b194059438debc927c9d7ddaeedbb2a62871565",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T12:07:39.694111+00:00"
+      "status": "published",
+      "postId": "Bl1vu-wsoOE",
+      "publishedAt": "2026-11-12T12:07:43.576098+00:00"
     }
   },
   "firstTestCompleted": true
