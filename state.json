@@ -3361,6 +3361,11 @@
       "status": "published",
       "postId": "ovBQ4h6sY8c",
       "publishedAt": "2026-11-12T11:56:03.335208+00:00"
+    },
+    "https://nexalyplanner.com/journal/ai-productivity-assistant-workflows/|facebook": {
+      "revision": "8a0136f1add91d89a961ca2b2adc3a6cb3c6ac2f1b34dbbce1f65cf52e4e8511",
+      "status": "attempting",
+      "attemptedAt": "2026-11-12T11:56:09.400138+00:00"
     }
   },
   "firstTestCompleted": true
