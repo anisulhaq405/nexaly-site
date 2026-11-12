@@ -3568,8 +3568,9 @@
     },
     "https://nexalyplanner.com/journal/how-to-start-a-business/|pinterest": {
       "revision": "546c175e66037393821196401eff7b260090a1dd0f8bb484b9a64d87ac00ff5a",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T12:05:13.015228+00:00"
+      "status": "published",
+      "postId": "1106196727262539606",
+      "publishedAt": "2026-11-12T12:05:15.864878+00:00"
     }
   },
   "firstTestCompleted": true
