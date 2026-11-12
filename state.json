@@ -3463,6 +3463,11 @@
       "status": "published",
       "postId": "1308942472292403_122119666581409632",
       "publishedAt": "2026-11-12T12:00:58.843880+00:00"
+    },
+    "https://nexalyplanner.com/journal/crm-software-small-business/|instagram": {
+      "revision": "265ba651ff4c93fcaadac5881c445762d4f1176799e794f06d2e9c172c5d74c6",
+      "status": "attempting",
+      "attemptedAt": "2026-11-12T12:01:00.091198+00:00"
     }
   },
   "firstTestCompleted": true
