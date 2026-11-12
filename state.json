@@ -3607,6 +3607,11 @@
       "status": "published",
       "postId": "1308942472292403_122119668369409632",
       "publishedAt": "2026-11-12T12:07:13.890908+00:00"
+    },
+    "https://nexalyplanner.com/journal/sales-automation-guide/|instagram": {
+      "revision": "117eeac228c2f57d4c0dcb927b194059438debc927c9d7ddaeedbb2a62871565",
+      "status": "attempting",
+      "attemptedAt": "2026-11-12T12:07:15.194456+00:00"
     }
   },
   "firstTestCompleted": true
