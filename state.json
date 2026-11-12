@@ -3313,6 +3313,11 @@
       "status": "published",
       "postId": "jFdJio_juQI",
       "publishedAt": "2026-11-07T07:01:24.977815+00:00"
+    },
+    "https://nexalyplanner.com/journal/ai-content-tool-comparison/|facebook": {
+      "revision": "80edb332639bf894dd210a71328b6bd2447d11274309388c3b7c702150a51a0a",
+      "status": "attempting",
+      "attemptedAt": "2026-11-12T11:54:24.871859+00:00"
     }
   },
   "firstTestCompleted": true
