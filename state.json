@@ -3343,6 +3343,11 @@
       "status": "published",
       "postId": "1308942472292403_122119665081409632",
       "publishedAt": "2026-11-12T11:55:32.292055+00:00"
+    },
+    "https://nexalyplanner.com/journal/ai-marketing-workflow-examples/|instagram": {
+      "revision": "63a2da475348811084376394acd29720a50bc95057776cf0a47873fdd025255f",
+      "status": "attempting",
+      "attemptedAt": "2026-11-12T11:55:33.757258+00:00"
     }
   },
   "firstTestCompleted": true
