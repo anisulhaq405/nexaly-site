@@ -3565,6 +3565,11 @@
       "status": "published",
       "postId": "18416718280087507",
       "publishedAt": "2026-11-12T12:05:11.573187+00:00"
+    },
+    "https://nexalyplanner.com/journal/how-to-start-a-business/|pinterest": {
+      "revision": "546c175e66037393821196401eff7b260090a1dd0f8bb484b9a64d87ac00ff5a",
+      "status": "attempting",
+      "attemptedAt": "2026-11-12T12:05:13.015228+00:00"
     }
   },
   "firstTestCompleted": true
