@@ -3574,8 +3574,9 @@
     },
     "https://nexalyplanner.com/journal/how-to-start-a-business/|youtube": {
       "revision": "546c175e66037393821196401eff7b260090a1dd0f8bb484b9a64d87ac00ff5a",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T12:05:17.101362+00:00"
+      "status": "published",
+      "postId": "2atnRGQUMk4",
+      "publishedAt": "2026-11-12T12:05:21.461717+00:00"
     }
   },
   "firstTestCompleted": true
