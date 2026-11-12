@@ -292,6 +292,69 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/ai-content-tool-comparison/",
+    "title": "AI Content Tool Comparison: Text, Design and Review Controls",
+    "excerpt": "Choose an AI content tool by deliverable, source fidelity and review effort. Compare tool categories with a transparent fictional acceptance and cost example.",
+    "img": "/images/journal/ai-content-tool-comparison-20261112.webp",
+    "alt": "AI Content Tool Comparison: Text, Design and Review Controls — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 12, 2026"
+  },
+  {
+    "url": "/journal/ai-marketing-workflow-examples/",
+    "title": "AI Marketing Workflow Examples: Brief, Draft, Review and Measure",
+    "excerpt": "Use three bounded AI marketing workflows with source briefs, approval gates and a worked net-time example that includes fact-checking and rework.",
+    "img": "/images/journal/ai-marketing-workflow-examples-20261112.webp",
+    "alt": "AI Marketing Workflow Examples: Brief, Draft, Review and Measure — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 12, 2026"
+  },
+  {
+    "url": "/journal/ai-productivity-assistant-workflows/",
+    "title": "AI Productivity Assistant Workflows: Summaries, Plans and Review",
+    "excerpt": "Design an AI assistant workflow for meeting notes, task breakdown and research triage, with a net-time calculation and clear human approval boundaries.",
+    "img": "/images/journal/ai-productivity-assistant-workflows-20261112.webp",
+    "alt": "AI Productivity Assistant Workflows: Summaries, Plans and Review — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 12, 2026"
+  },
+  {
+    "url": "/journal/automation-tools-comparison/",
+    "title": "Automation Tools Comparison: Zapier, Make and n8n by Workflow Fit",
+    "excerpt": "Compare Zapier, Make and n8n using official documentation, billing-unit boundaries and a repeatable acceptance scenario instead of a universal winner.",
+    "img": "/images/journal/automation-tools-comparison-20261112.webp",
+    "alt": "Automation Tools Comparison: Zapier, Make and n8n by Workflow Fit — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 12, 2026"
+  },
+  {
+    "url": "/journal/crm-software-small-business/",
+    "title": "CRM Software for Small Business: Compare Fit, Cost and Exit",
+    "excerpt": "Compare HubSpot, Zoho CRM and Pipedrive with a common record-and-deal test, total seat-cost example and export checklist for a small team.",
+    "img": "/images/journal/crm-software-small-business-20261112.webp",
+    "alt": "CRM Software for Small Business: Compare Fit, Cost and Exit — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 12, 2026"
+  },
+  {
+    "url": "/journal/finance-automation-guide/",
+    "title": "Finance Automation Guide: Match, Approve and Reconcile",
+    "excerpt": "Design a finance automation pilot with invoice matching, duplicate controls, human approval and a worked effort example before enabling external actions.",
+    "img": "/images/journal/finance-automation-guide-20261112.webp",
+    "alt": "Finance Automation Guide: Match, Approve and Reconcile — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 12, 2026"
+  },
+  {
+    "url": "/journal/small-business-bookkeeping-workflow/",
+    "title": "Small-Business Bookkeeping Workflow: Capture, Reconcile and Close",
+    "excerpt": "Organize supporting records, review transaction classifications and reconcile bank activity with an original cash-versus-profit example for a small business.",
+    "img": "/images/journal/small-business-bookkeeping-workflow-20261112.webp",
+    "alt": "Small-Business Bookkeeping Workflow: Capture, Reconcile and Close — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 12, 2026"
+  },
+  {
     "url": "/journal/business-process-automation/",
     "title": "Business Process Automation: Ownership, Cost and Controls",
     "excerpt": "Map an end-to-end process, assign approval and exception owners, and evaluate a purchase-request automation with original cost and sensitivity examples.",
@@ -775,7 +838,7 @@ var posts = [
     "img": "/assets/img/workflows/one-page-business-plan-template-assumptions-cover-v3.webp",
     "alt": "One-Page Business Plan Template With an Assumptions Log editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Updated Nov 3, 2026"
+    "date": "Updated Nov 12, 2026"
   },
   {
     "url": "/journal/small-business-budget-template-monthly-variance/",
@@ -982,7 +1045,7 @@ var posts = [
     "img": "/images/journal/one-page-marketing-plan-example-v2.jpg",
     "alt": "Boutique marketing plan with audience, offer, channels, budget and calendar under One-Page Marketing Plan",
     "tag": "Planning Guides",
-    "date": "Updated Nov 3, 2026"
+    "date": "Updated Nov 12, 2026"
   },
   {
     "url": "/journal/retail-store-business-plan-example/",
