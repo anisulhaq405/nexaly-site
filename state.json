@@ -3496,8 +3496,9 @@
     },
     "https://nexalyplanner.com/journal/customer-service-automation/|pinterest": {
       "revision": "9d07ad3bcdf9da1628623d1dd49919fbe2864bc7216dfb61db4871e1bbbd5f34",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T12:02:07.897457+00:00"
+      "status": "published",
+      "postId": "1106196727262539436",
+      "publishedAt": "2026-11-12T12:02:11.000362+00:00"
     }
   },
   "firstTestCompleted": true
