@@ -3325,6 +3325,11 @@
       "status": "published",
       "postId": "18000863495822825",
       "publishedAt": "2026-11-12T11:55:06.254107+00:00"
+    },
+    "https://nexalyplanner.com/journal/ai-content-tool-comparison/|pinterest": {
+      "revision": "80edb332639bf894dd210a71328b6bd2447d11274309388c3b7c702150a51a0a",
+      "status": "attempting",
+      "attemptedAt": "2026-11-12T11:55:07.623119+00:00"
     }
   },
   "firstTestCompleted": true
