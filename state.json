@@ -3286,8 +3286,9 @@
     },
     "https://nexalyplanner.com/journal/spa-business-plan/|youtube": {
       "revision": "88f31ae9777c932b3521684d9528f2c586436a846942e4a8d03ff7956e2559cf",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T12:09:15.729861+00:00"
+      "status": "published",
+      "postId": "xB4c699_x-I",
+      "publishedAt": "2026-11-12T12:09:20.196231+00:00"
     },
     "https://nexalyplanner.com/journal/travel-agency-business-plan/|facebook": {
       "revision": "d59e5e74658d174ed43df46e5f4f3e01ca7282ed2c11a4cc1d2dddbf7ec96b4e",
