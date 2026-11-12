@@ -3403,6 +3403,11 @@
       "status": "published",
       "postId": "1106196727262539111",
       "publishedAt": "2026-11-12T11:57:30.329337+00:00"
+    },
+    "https://nexalyplanner.com/journal/automation-tools-comparison/|youtube": {
+      "revision": "3b672eeadefcdf947bc2f273861c2ea1b4cdbfbf49455e4ad0c2d8a03c163ecd",
+      "status": "attempting",
+      "attemptedAt": "2026-11-12T11:57:31.617352+00:00"
     }
   },
   "firstTestCompleted": true
