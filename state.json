@@ -3349,6 +3349,11 @@
       "status": "published",
       "postId": "17898427623424711",
       "publishedAt": "2026-11-12T11:55:52.108206+00:00"
+    },
+    "https://nexalyplanner.com/journal/ai-marketing-workflow-examples/|pinterest": {
+      "revision": "63a2da475348811084376394acd29720a50bc95057776cf0a47873fdd025255f",
+      "status": "attempting",
+      "attemptedAt": "2026-11-12T11:55:53.530664+00:00"
     }
   },
   "firstTestCompleted": true
