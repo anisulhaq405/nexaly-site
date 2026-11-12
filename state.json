@@ -3448,8 +3448,9 @@
     },
     "https://nexalyplanner.com/journal/crm-automation-guide/|pinterest": {
       "revision": "42689fcc274b4637ed37e577880d176eeb2519d031cb17cd2246041e2c288b54",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T12:00:32.376556+00:00"
+      "status": "published",
+      "postId": "1106196727262539325",
+      "publishedAt": "2026-11-12T12:00:35.334775+00:00"
     }
   },
   "firstTestCompleted": true
