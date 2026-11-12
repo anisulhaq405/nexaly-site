@@ -3640,8 +3640,9 @@
     },
     "https://nexalyplanner.com/journal/small-business-bookkeeping-workflow/|pinterest": {
       "revision": "3d90ef8eee14b6db77866de3abe2412126584a545995a30bc25994f31cdb7381",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T12:08:23.921586+00:00"
+      "status": "published",
+      "postId": "1106196727262539807",
+      "publishedAt": "2026-11-12T12:08:27.392371+00:00"
     }
   },
   "firstTestCompleted": true
