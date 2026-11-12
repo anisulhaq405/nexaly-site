@@ -3511,6 +3511,11 @@
       "status": "published",
       "postId": "1308942472292403_122119667157409632",
       "publishedAt": "2026-11-12T12:02:35.720274+00:00"
+    },
+    "https://nexalyplanner.com/journal/email-marketing-automation/|instagram": {
+      "revision": "7bd8c12a0d5318864432bab80548b25f6b6477d4ca49d2011c49a9da7e9b4aa3",
+      "status": "attempting",
+      "attemptedAt": "2026-11-12T12:02:37.158916+00:00"
     }
   },
   "firstTestCompleted": true
