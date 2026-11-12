@@ -3394,8 +3394,9 @@
     },
     "https://nexalyplanner.com/journal/automation-tools-comparison/|instagram": {
       "revision": "3b672eeadefcdf947bc2f273861c2ea1b4cdbfbf49455e4ad0c2d8a03c163ecd",
-      "status": "attempting",
-      "attemptedAt": "2026-11-12T11:57:09.134310+00:00"
+      "status": "published",
+      "postId": "18076694810759774",
+      "publishedAt": "2026-11-12T11:57:25.753965+00:00"
     }
   },
   "firstTestCompleted": true
