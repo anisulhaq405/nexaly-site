@@ -27,3 +27,9 @@ Nexaly primary implementation evidence: `demos/adhd-digital-planner/index.html` 
 ## Verification
 
 Use existing publishing/SEO, paid-product feedback and core-freeze checks. Focused source/DOM checks compare the previous page with the refresh: protected markup/code unchanged, anchors preserved, FAQ parity, static hero, language correction and demo launch behavior. A DOM test is not physical-device certification. Required remote rebuild gates merge; verify live page/CSS/sitemap bytes after deployment.
+
+## November13 live visual follow-up
+
+PR311 merged after successful required rebuild43214277531. The live page and embedded demo were observed in the desktop browser. The language selector includes Nederlands and the new content, demo links and all11FAQs are present. The product-only stylesheet loaded10rules; the content-fetch service's CSS404 was an extraction outcome rather than a browser stylesheet failure.
+
+The browser also exposed an existing shared-selector collision: `.nx-head` had computed background rgb(44,33,23), identical to the h2 foreground. A target-only `#live-demo .nx-head` override now clears that background, preserving the light parent surface and existing heading/paragraph colors. No script, price, checkout, protected inline style or demo code changes. A versioned CSS reference ensures visitors receive this correction. Required rebuild and live visual check gate this follow-up.

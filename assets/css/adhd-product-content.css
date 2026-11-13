@@ -9,3 +9,6 @@
 #daily-planning-example .pd-feat p,#adhd-buyer-fit .pd-feat p{line-height:1.65}
 #adhd-planner-real-day li{margin:12px 0;line-height:1.7}
 @media(max-width:640px){#daily-planning-example .pd-feats,#adhd-buyer-fit .pd-feats{grid-template-columns:1fr}#adhd-digital-planner-app table,#app-format-and-backup table{font-size:.88rem}}
+
+/* The shared .nx-head banner otherwise gives this product's dark heading a dark background. */
+#live-demo .nx-head{background:transparent!important}
