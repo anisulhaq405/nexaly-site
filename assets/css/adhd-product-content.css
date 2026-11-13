@@ -12,3 +12,6 @@
 
 /* The shared .nx-head banner otherwise gives this product's dark heading a dark background. */
 #live-demo .nx-head{background:transparent!important}
+
+/* Intrinsic dimensions reserve space; responsive thumbnails must keep their natural ratio. */
+.pd-more .pd-shots img{height:auto}
