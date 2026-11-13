@@ -1,0 +1,24 @@
+#boutique-opening-guide{overflow-wrap:anywhere}
+#boutique-opening-guide h2,#boutique-opening-guide h3,#boutique-orderable-pack-check{scroll-margin-top:110px}
+#boutique-opening-guide .boutique-answer{padding:22px;background:#e8f3ef;border-left:4px solid #167a74;border-radius:8px}
+#boutique-opening-guide .boutique-answer h2{font-size:25px;margin:0 0 12px}
+#boutique-opening-guide .boutique-answer p:last-child{margin-bottom:0}
+#boutique-opening-guide .boutique-buy-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:24px 0}
+#boutique-opening-guide .boutique-cash-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:24px 0}
+#boutique-opening-guide .boutique-buy-card,#boutique-opening-guide .boutique-metric{min-width:0;padding:18px;background:#f6f9f8;border:1px solid #dce6e6;border-radius:10px}
+#boutique-opening-guide .boutique-buy-card h3,#boutique-opening-guide .boutique-buy-card h4,#boutique-opening-guide .boutique-metric h3{font-size:19px;margin:0 0 12px;line-height:1.4}
+#boutique-opening-guide .boutique-buy-card p,#boutique-opening-guide .boutique-metric p{font-size:16px;line-height:1.6}
+#boutique-opening-guide .boutique-number{font-size:25px!important;font-weight:750;color:#163044;margin:8px 0}
+#boutique-opening-guide dl{margin:0}
+#boutique-opening-guide dt{font-size:14px;font-weight:700;color:#5b707a;margin-top:12px}
+#boutique-opening-guide dd{margin:0;font-size:16px;line-height:1.55}
+#boutique-opening-guide .boutique-review-list{padding:20px;background:#f5f8f7;border:1px solid #dce6e6;border-radius:10px}
+#boutique-opening-guide .boutique-formula{padding:18px;background:#edf3f4;font-size:16px;line-height:1.8;border-radius:8px}
+#boutique-opening-guide .boutique-next-step{padding:22px;background:#fff7e9;border:1px solid #e4d8c6;border-radius:10px;margin-top:30px}
+#boutique-opening-guide .boutique-next-step h2{font-size:25px;margin-top:0}
+#boutique-opening-guide .boutique-faq details{border:1px solid #dce6e6;padding:16px 18px;border-radius:8px;margin:12px 0}
+#boutique-opening-guide summary{cursor:pointer;font-weight:700;line-height:1.55}
+#boutique-opening-guide :focus-visible{outline:3px solid #167a74;outline-offset:4px}
+@media(max-width:850px){#boutique-opening-guide .boutique-buy-grid{grid-template-columns:1fr}}
+@media(max-width:650px){#boutique-opening-guide .boutique-cash-grid{grid-template-columns:1fr}#boutique-opening-guide .boutique-answer,#boutique-opening-guide .boutique-next-step{padding:18px}}
+@media print{#boutique-opening-guide .boutique-buy-grid{grid-template-columns:1fr}#boutique-opening-guide .boutique-buy-card{break-inside:avoid}#boutique-opening-guide details{break-inside:avoid}}
