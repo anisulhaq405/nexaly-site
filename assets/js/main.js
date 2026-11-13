@@ -1000,7 +1000,7 @@ var posts = [
     "img": "/images/journal/how-much-inventory-start-boutique-20260929.webp",
     "alt": "Boutique owner planning an opening clothing assortment by size and purchase budget",
     "tag": "Planning Guides",
-    "date": "Updated Oct 30, 2026"
+    "date": "Updated Nov 13, 2026"
   },
   {
     "url": "/journal/how-to-track-consignment-inventory/",

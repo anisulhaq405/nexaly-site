@@ -59,6 +59,7 @@ jobs:
           python3 scripts/test-day4-examples.py
           python3 scripts/test-day5-examples.py
           python3 scripts/test-day6-examples.py
+          python3 scripts/test-boutique-opening-examples.py
       - name: Verify contact drafts and optional analytics
         run: |
           node scripts/test-contact-flow.cjs
