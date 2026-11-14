@@ -34,6 +34,7 @@ jobs:
           node scripts/test-oct16-planners.cjs
           node scripts/test-final-ten.cjs
           node scripts/test-shipment-allocation.cjs
+          node scripts/test-clearance.cjs
           node scripts/test-business-forms.cjs
       - name: Verify new worksheet controls in a DOM environment
         run: |
@@ -42,6 +43,7 @@ jobs:
           NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-oct16-planners-ui.cjs
           NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-final-ten-ui.cjs
           NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-shipment-allocation-ui.cjs
+          NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-clearance-ui.cjs
           NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-business-forms-ui.cjs
           NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-business-summary-copy.cjs
           NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-day1-tools.cjs
