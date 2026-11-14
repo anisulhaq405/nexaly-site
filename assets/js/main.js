@@ -487,7 +487,7 @@ var posts = [
     "img": "/images/journal/travel-agency-business-plan-20261107.webp",
     "alt": "Travel advisor reviewing anonymous booking folders beside a globe and route cards",
     "tag": "Planning Guides",
-    "date": "Nov 7, 2026"
+    "date": "Updated Nov 14, 2026"
   },
   {
     "url": "/journal/bar-brewery-business-plan/",
@@ -694,7 +694,7 @@ var posts = [
     "img": "/assets/img/journal-responsive/a5-planner-sizes-layouts-digital-options-1280.webp",
     "alt": "A5 planner example beside a tablet, illustrating one format in a full planner sizes comparison",
     "tag": "Planning Guides",
-    "date": "Updated Nov 10, 2026"
+    "date": "Updated Nov 14, 2026"
   },
   {
     "url": "/journal/small-business-balance-sheet-template/",
@@ -726,7 +726,7 @@ var posts = [
   {
     "tag": "Attendance Tracker",
     "title": "Free Homeschool Attendance Sheet and Daily Tracker",
-    "date": "Updated Oct 31, 2026 · 5 min",
+    "date": "Updated Nov 14, 2026 · 5 min",
     "url": "/journal/homeschool-attendance-tracker/",
     "img": "/images/journal/homeschool-attendance-tracker-cover-20261015.webp",
     "alt": "Homeschool attendance tracker cover with a calendar, learning books and an attendance notebook",
@@ -1243,7 +1243,7 @@ var posts = [
     "img": "/assets/img/journal-responsive/daily-planner-complete-guide-1280.webp",
     "alt": "Open daily planner with three priorities, fixed appointments, time blocks, and an end-of-day review",
     "tag": "Planning Guides",
-    "date": "Updated Nov 10, 2026"
+    "date": "Updated Nov 14, 2026"
   },
   {
     "url": "/journal/day-planner-vs-daily-planner/",
@@ -1270,7 +1270,7 @@ var posts = [
     "img": "/assets/img/journal-responsive/monthly-planner-free-templates-1280.webp",
     "alt": "Open monthly planner with commitments, goals, project milestones, and review notes arranged across one calendar spread.",
     "tag": "Planning Guides",
-    "date": "Updated Nov 10, 2026"
+    "date": "Updated Nov 14, 2026"
   },
   {
     "url": "/journal/minimalist-planner/",
@@ -1419,7 +1419,7 @@ var posts = [
   {
     "tag": "Homeschool Planner",
     "title": "Choosing a Homeschool Planner for Multiple Children",
-    "date": "Updated Oct 24, 2026 · 5 min",
+    "date": "Updated Nov 14, 2026 · 5 min",
     "url": "/journal/homeschool-planner-multiple-children/",
     "img": "/images/journal/homeschool-planner-multiple-children-cover-20261015.webp",
     "alt": "Homeschool weekly planner cover with two learner planning sheets and subject materials",

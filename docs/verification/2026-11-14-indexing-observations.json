@@ -1,0 +1,1524 @@
+{
+  "export_date": "2026-11-14",
+  "chart_through": "2026-11-09",
+  "method": "Public HTTP range requests (206 expected), not Googlebot identity or historical server logs. Source link graph from current repository.",
+  "summary": [
+    {
+      "file": "https___nexalyplanner.com_-Coverage-Drilldown-2026-11-14 (1).xlsx",
+      "issue": "Excluded by \u2018noindex\u2019 tag",
+      "count": 8,
+      "last_date": [
+        "2026-11-09",
+        "8.0"
+      ]
+    },
+    {
+      "file": "https___nexalyplanner.com_-Coverage-Drilldown-2026-11-14 (2).xlsx",
+      "issue": "Alternate page with proper canonical tag",
+      "count": 3,
+      "last_date": [
+        "2026-11-09",
+        "3.0"
+      ]
+    },
+    {
+      "file": "https___nexalyplanner.com_-Coverage-Drilldown-2026-11-14 (3).xlsx",
+      "issue": "Not found (404)",
+      "count": 1,
+      "last_date": [
+        "2026-11-09",
+        "1.0"
+      ]
+    },
+    {
+      "file": "https___nexalyplanner.com_-Coverage-Drilldown-2026-11-14 (4).xlsx",
+      "issue": "Blocked due to access forbidden (403)",
+      "count": 1,
+      "last_date": [
+        "2026-11-09",
+        "1.0"
+      ]
+    },
+    {
+      "file": "https___nexalyplanner.com_-Coverage-Drilldown-2026-11-14 (5).xlsx",
+      "issue": "Discovered - currently not indexed",
+      "count": 55,
+      "last_date": [
+        "2026-11-09",
+        "55.0"
+      ]
+    },
+    {
+      "file": "https___nexalyplanner.com_-Coverage-Drilldown-2026-11-14.xlsx",
+      "issue": "Crawled - currently not indexed",
+      "count": 15,
+      "last_date": [
+        "2026-11-09",
+        "15.0"
+      ]
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://nexalyplanner.com/demos/agency-client-profitability-capacity-os/",
+      "issue": "Excluded by \u2018noindex\u2019 tag",
+      "last_crawled_serial": "46332.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/demos/agency-client-profitability-capacity-os/",
+      "seconds": 8.11,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 117548,
+      "robots": "noindex,nofollow,noarchive",
+      "canonical": [],
+      "words": 11,
+      "description": null,
+      "published": null,
+      "modified": null
+    },
+    {
+      "url": "https://nexalyplanner.com/demos/rentflow-os/",
+      "issue": "Excluded by \u2018noindex\u2019 tag",
+      "last_crawled_serial": "46322.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/demos/rentflow-os/",
+      "seconds": 8.13,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 300000,
+      "robots": "noindex,nofollow,noarchive",
+      "canonical": [
+        "https://nexalyplanner.com/planners/rentflow-os/"
+      ],
+      "words": 3,
+      "description": "NexalyPlanner RentFlow OS - offline equipment rental business manager.",
+      "published": null,
+      "modified": null
+    },
+    {
+      "url": "https://nexalyplanner.com/demos/ai-student-planner/",
+      "issue": "Excluded by \u2018noindex\u2019 tag",
+      "last_crawled_serial": "46322.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/demos/ai-student-planner/",
+      "seconds": 8.15,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 95120,
+      "robots": "noindex,nofollow,noarchive",
+      "canonical": [
+        "https://nexalyplanner.com/planners/ai-student-planner/"
+      ],
+      "words": 26,
+      "description": null,
+      "published": null,
+      "modified": null
+    },
+    {
+      "url": "https://nexalyplanner.com/assets/downloads/one-page-marketing-plan-template.html",
+      "issue": "Excluded by \u2018noindex\u2019 tag",
+      "last_crawled_serial": "46318.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/assets/downloads/one-page-marketing-plan-template.html",
+      "seconds": 8.13,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 3218,
+      "robots": "noindex,follow",
+      "canonical": [],
+      "words": 173,
+      "description": null,
+      "published": null,
+      "modified": null
+    },
+    {
+      "url": "https://nexalyplanner.com/demos/calibratrack-os/",
+      "issue": "Excluded by \u2018noindex\u2019 tag",
+      "last_crawled_serial": "46318.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/demos/calibratrack-os/",
+      "seconds": 8.18,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 300000,
+      "robots": "noindex,nofollow,noarchive",
+      "canonical": [
+        "https://nexalyplanner.com/planners/calibratrack-os/"
+      ],
+      "words": 10,
+      "description": "CalibraTrack OS \u2014 private offline calibration and instrument service manager by NexalyPlanner.",
+      "published": null,
+      "modified": null
+    },
+    {
+      "url": "https://nexalyplanner.com/downloads/templates/production-schedule-template.html",
+      "issue": "Excluded by \u2018noindex\u2019 tag",
+      "last_crawled_serial": "46317.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/downloads/templates/production-schedule-template.html",
+      "seconds": 8.07,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 4636,
+      "robots": "noindex,follow",
+      "canonical": [],
+      "words": 206,
+      "description": null,
+      "published": null,
+      "modified": null
+    },
+    {
+      "url": "https://nexalyplanner.com/downloads/templates/inventory-count-sheet.html",
+      "issue": "Excluded by \u2018noindex\u2019 tag",
+      "last_crawled_serial": "46317.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/downloads/templates/inventory-count-sheet.html",
+      "seconds": 8.04,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 4609,
+      "robots": "noindex,follow",
+      "canonical": [],
+      "words": 203,
+      "description": null,
+      "published": null,
+      "modified": null
+    },
+    {
+      "url": "https://nexalyplanner.com/demos/business-runway-burn-rate-os/",
+      "issue": "Excluded by \u2018noindex\u2019 tag",
+      "last_crawled_serial": "46312.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/demos/business-runway-burn-rate-os/",
+      "seconds": 7.98,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 189182,
+      "robots": "noindex,nofollow,noarchive",
+      "canonical": [],
+      "words": 6,
+      "description": null,
+      "published": null,
+      "modified": null
+    },
+    {
+      "url": "https://nexalyplanner.com/bundles/?size=3",
+      "issue": "Alternate page with proper canonical tag",
+      "last_crawled_serial": "46323.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/bundles/?size=3",
+      "seconds": 7.98,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 12946,
+      "robots": null,
+      "canonical": [
+        "https://nexalyplanner.com/bundles/"
+      ],
+      "words": 77,
+      "description": "Build your own Nexaly Planner bundle. Choose any 3, 5 or 10 offline digital planners and business systems with one-time pricing.",
+      "published": null,
+      "modified": null
+    },
+    {
+      "url": "https://nexalyplanner.com/bundles/?size=10",
+      "issue": "Alternate page with proper canonical tag",
+      "last_crawled_serial": "46323.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/bundles/?size=10",
+      "seconds": 7.94,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 12946,
+      "robots": null,
+      "canonical": [
+        "https://nexalyplanner.com/bundles/"
+      ],
+      "words": 77,
+      "description": "Build your own Nexaly Planner bundle. Choose any 3, 5 or 10 offline digital planners and business systems with one-time pricing.",
+      "published": null,
+      "modified": null
+    },
+    {
+      "url": "https://nexalyplanner.com/bundles/?size=5",
+      "issue": "Alternate page with proper canonical tag",
+      "last_crawled_serial": "46323.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/bundles/?size=5",
+      "seconds": 7.97,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 12946,
+      "robots": null,
+      "canonical": [
+        "https://nexalyplanner.com/bundles/"
+      ],
+      "words": 77,
+      "description": "Build your own Nexaly Planner bundle. Choose any 3, 5 or 10 offline digital planners and business systems with one-time pricing.",
+      "published": null,
+      "modified": null
+    },
+    {
+      "url": "https://nexalyplanner.com/feedback/reviews.php?product=agency-client-profitability-capacity-os",
+      "issue": "Not found (404)",
+      "last_crawled_serial": "46328.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/feedback/reviews.php?product=agency-client-profitability-capacity-os",
+      "seconds": 7.96,
+      "type": "application/json; charset=utf-8",
+      "xrobots": "noindex",
+      "bytes_read": 98
+    },
+    {
+      "url": "https://nexalyplanner.com/images/products/rentflow-os/",
+      "issue": "Blocked due to access forbidden (403)",
+      "last_crawled_serial": "46324.0",
+      "status": 403,
+      "final": "https://nexalyplanner.com/images/products/rentflow-os/",
+      "seconds": 7.32,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 787,
+      "robots": null,
+      "canonical": [],
+      "words": 13,
+      "description": null,
+      "published": null,
+      "modified": null
+    },
+    {
+      "url": "https://nexalyplanner.com/guides/business-runway-burn-rate-os/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/guides/business-runway-burn-rate-os/",
+      "seconds": 7.4,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 29273,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/guides/business-runway-burn-rate-os/"
+      ],
+      "words": 1473,
+      "description": "Set up cash accounts, revenue, expenses and safe cash; read runway and burn, compare hiring and funding scenarios, track milestones and back up the offline app.",
+      "published": null,
+      "modified": "2026-10-07"
+    },
+    {
+      "url": "https://nexalyplanner.com/guides/consignclear-os/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/guides/consignclear-os/",
+      "seconds": 7.38,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 33528,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/guides/consignclear-os/"
+      ],
+      "words": 1986,
+      "description": "Set up ConsignClear OS, link consignors and agreements to items, calculate sale shares, record adjustments and payouts, and protect offline records.",
+      "published": null,
+      "modified": "2026-10-07"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/2026-monthly-planner-free-layouts/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/2026-monthly-planner-free-layouts/",
+      "seconds": 7.39,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 32828,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/2026-monthly-planner-free-layouts/"
+      ],
+      "words": 2086,
+      "description": "Find a 2026 monthly planner layout, compare free and paid formats, and learn how to set up a realistic month with a worked example.",
+      "published": "2026-09-22",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/a5-planner-sizes-layouts-digital-options/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/a5-planner-sizes-layouts-digital-options/",
+      "seconds": 7.37,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 35603,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/a5-planner-sizes-layouts-digital-options/"
+      ],
+      "words": 2451,
+      "description": "A5 is 148 \u00d7 210 mm. Check insert size, binding clearance and print scale, compare A5 with Half Letter, and test one page before buying or printing a full set.",
+      "published": "2026-09-18",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/agency-capacity-planning-example/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/agency-capacity-planning-example/",
+      "seconds": 7.33,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 35674,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/agency-capacity-planning-example/"
+      ],
+      "words": 2093,
+      "description": "Calculate agency capacity by role and week. Worked examples cover contractor review time, estimate changes and remaining work versus remaining capacity.",
+      "published": "2026-09-29",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/batch-lot-traceability-log/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/batch-lot-traceability-log/",
+      "seconds": 8.23,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 34359,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/batch-lot-traceability-log/"
+      ],
+      "words": 2135,
+      "description": "Build a batch and lot traceability log with linked receipts, production and shipments. Worked examples cover returns, unique lot counts and mock-trace evidence.",
+      "published": "2026-10-03",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/best-2026-planners-digital-printable-options/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/best-2026-planners-digital-printable-options/",
+      "seconds": 8.15,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 33903,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/best-2026-planners-digital-printable-options/"
+      ],
+      "words": 2233,
+      "description": "Compare paper, printable PDF, annotated PDF and browser planner formats for 2026. Use a one-week test to check editing, offline access and backups.",
+      "published": "2026-09-22",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/best-digital-planner-for-ipad/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/best-digital-planner-for-ipad/",
+      "seconds": 8.14,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 35184,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/best-digital-planner-for-ipad/"
+      ],
+      "words": 2392,
+      "description": "Choose an iPad planner format for handwriting, typed projects or reminders. Compare dated and undated PDFs, workspaces and local files with a practical test.",
+      "published": "2026-09-23",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/best-planner-app-for-ipad-2026/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/best-planner-app-for-ipad-2026/",
+      "seconds": 8.13,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 27004,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/best-planner-app-for-ipad-2026/"
+      ],
+      "words": 1187,
+      "description": "Compare iPad planner apps by appointments, reminders, PDF handwriting and project records. Includes official sources, offline checks and a free daily PDF.",
+      "published": "2026-09-23",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/business-plan-financial-projections-service-example/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/business-plan-financial-projections-service-example/",
+      "seconds": 8.13,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 23669,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/business-plan-financial-projections-service-example/"
+      ],
+      "words": 1376,
+      "description": "Separate billed revenue, operating result and cash in a service-business projection. Use a worked two-month worksheet with explicit assumptions.",
+      "published": "2026-10-13",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/",
+      "seconds": 8.11,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 39902,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/cash-flow-forecast-template-example/"
+      ],
+      "words": 2910,
+      "description": "Download a free 13-week cash-flow forecast for Excel or Google Sheets. Follow the worked example, delayed receipt scenario and reconciled weekly rollover.",
+      "published": "2026-09-28",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/coffee-shop-business-plan-daily-capacity/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/coffee-shop-business-plan-daily-capacity/",
+      "seconds": 8.06,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 24303,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/coffee-shop-business-plan-daily-capacity/"
+      ],
+      "words": 1494,
+      "description": "Build a coffee shop business plan with a daily cost example, a 77-order operating threshold, peak-hour capacity checks and a practical evidence checklist.",
+      "published": "2026-10-13",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/construction-company-business-plan-milestone-cash/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/construction-company-business-plan-milestone-cash/",
+      "seconds": 8.07,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 24131,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/construction-company-business-plan-milestone-cash/"
+      ],
+      "words": 1453,
+      "description": "Plan construction deposits, materials, labor and milestone collections with a dated cash schedule. Compare base cash with confirmed receipts only.",
+      "published": "2026-10-13",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/daily-planner-complete-guide/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/daily-planner-complete-guide/",
+      "seconds": 8.05,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 35235,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/daily-planner-complete-guide/"
+      ],
+      "words": 2278,
+      "description": "Download a free daily planner template with blank and filled PDF pages. Plan fixed commitments, realistic time blocks, priorities and a daily review.",
+      "published": "2026-09-18",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/day-planner-vs-daily-planner/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/day-planner-vs-daily-planner/",
+      "seconds": 8.05,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 35217,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/day-planner-vs-daily-planner/"
+      ],
+      "words": 2382,
+      "description": "Day planner and daily planner usually mean the same thing. Compare layouts, test a realistic daily time budget and choose a simple calendar-to-task workflow.",
+      "published": "2026-09-18",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/digital-planner-app-how-it-works/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/digital-planner-app-how-it-works/",
+      "seconds": 8.06,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 39228,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/digital-planner-app-how-it-works/"
+      ],
+      "words": 2835,
+      "description": "Compare PDF, task apps, Notion and local HTML planners. Check saved records, offline access and recoverable backups before moving your planning system.",
+      "published": "2026-09-23",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/digital-planner-for-ipad-setup/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/digital-planner-for-ipad-setup/",
+      "seconds": 8.05,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 34943,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/digital-planner-for-ipad-setup/"
+      ],
+      "words": 2402,
+      "description": "Check planner formats on your iPad, test import and links, and troubleshoot missing edits or offline access. Keep working copies and backups distinct.",
+      "published": "2026-09-23",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/equipment-calibration-log/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/equipment-calibration-log/",
+      "seconds": 8.16,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 34402,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/equipment-calibration-log/"
+      ],
+      "words": 2023,
+      "description": "Use an equipment calibration log to link instrument IDs, certificates, due dates and review decisions. Includes mismatch, replacement and out-of-tolerance examples.",
+      "published": "2026-10-03",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/equipment-rental-business-plan-example/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/equipment-rental-business-plan-example/",
+      "seconds": 8.17,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 35517,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/equipment-rental-business-plan-example/"
+      ],
+      "words": 2341,
+      "description": "Plan an equipment-rental business with unit economics, cash and utilization examples. Check turnaround, adjacent bookings and maintenance before confirming availability.",
+      "published": "2026-09-28",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/free-digital-planner-for-ipad/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/free-digital-planner-for-ipad/",
+      "seconds": 8.11,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 34630,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/free-digital-planner-for-ipad/"
+      ],
+      "words": 2400,
+      "description": "Find a free digital planner for iPad and choose between PDF, Goodnotes, Notion, and offline HTML with practical setup and backup tips.",
+      "published": "2026-09-23",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/freelance-business-plan-example/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/freelance-business-plan-example/",
+      "seconds": 8.17,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 33135,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/freelance-business-plan-example/"
+      ],
+      "words": 2035,
+      "description": "Build a freelance business plan with pricing and monthly capacity examples. Separate logged hours, remaining work, milestone approval and cash collection.",
+      "published": "2026-09-28",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/hourly-planner-best-free-digital-layouts/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/hourly-planner-best-free-digital-layouts/",
+      "seconds": 8.16,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 39044,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/hourly-planner-best-free-digital-layouts/"
+      ],
+      "words": 2757,
+      "description": "Choose an hourly planner for appointments, focused work or overnight shifts. Compare formats and check a worked schedule for overlaps, breaks and buffer time.",
+      "published": "2026-09-18",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/inventory-software-without-subscription/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/inventory-software-without-subscription/",
+      "seconds": 8.15,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 42102,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/inventory-software-without-subscription/"
+      ],
+      "words": 2938,
+      "description": "Evaluate pay-once inventory software with sale, cancellation, return and recovery tests. Compare license terms, ownership and total operating costs.",
+      "published": null,
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/ipad-digital-planner-setup-guide/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/ipad-digital-planner-setup-guide/",
+      "seconds": 8.06,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 24858,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/ipad-digital-planner-setup-guide/"
+      ],
+      "words": 891,
+      "description": "Set up a PDF planner on iPad: preserve the source, import a working copy, test navigation and check annotated exports. Includes a free sample PDF.",
+      "published": "2026-09-23",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/ipad-planner-app-buying-guide/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/ipad-planner-app-buying-guide/",
+      "seconds": 8.03,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 35526,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/ipad-planner-app-buying-guide/"
+      ],
+      "words": 2447,
+      "description": "Before buying an iPad planner, verify the file or app, device compatibility, separate charges and backup/export. Use a practical evidence checklist.",
+      "published": "2026-09-23",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/monthly-planner-free-templates/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/monthly-planner-free-templates/",
+      "seconds": 8.0,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 36903,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/monthly-planner-free-templates/"
+      ],
+      "words": 2544,
+      "description": "Download a free undated monthly planner template. Place dates correctly, plan realistic goals and connect your monthly view to weekly and daily actions.",
+      "published": "2026-09-18",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/planner-2026-what-to-look-for/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/planner-2026-what-to-look-for/",
+      "seconds": 8.0,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 33899,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/planner-2026-what-to-look-for/"
+      ],
+      "words": 2253,
+      "description": "Check a 2026 planner before buying: remaining date coverage, file type, device requirements, sample pages, exports and backup limits.",
+      "published": "2026-09-22",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/planners-2026-full-comparison/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/planners-2026-full-comparison/",
+      "seconds": 8.01,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 34663,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/planners-2026-full-comparison/"
+      ],
+      "words": 2270,
+      "description": "Choose daily, weekly or monthly planner layouts for 2026. Compare planning horizons and use one deadline across three views without duplicating task lists.",
+      "published": "2026-09-22",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/purchase-order-tracker/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/purchase-order-tracker/",
+      "seconds": 7.99,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 35626,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/purchase-order-tracker/"
+      ],
+      "words": 2206,
+      "description": "Download a free purchase order tracker Excel template. Record ordered, accepted and cancelled quantities to calculate open balances for partial deliveries.",
+      "published": "2026-10-01",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/small-business-budget-example/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/small-business-budget-example/",
+      "seconds": 8.1,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 33646,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/small-business-budget-example/"
+      ],
+      "words": 2152,
+      "description": "Build a small-business budget with a worked $8,000 sales example. Compare original budget, actual results and a forward reforecast without hiding variance.",
+      "published": "2026-09-28",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/student-planner-guide/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/student-planner-guide/",
+      "seconds": 8.05,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 31574,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/student-planner-guide/"
+      ],
+      "words": 1722,
+      "description": "Connect classes, assignments, exams and study sessions. Follow a dated deadline-change example and a practical weekly student planning review.",
+      "published": "2026-09-15",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/supplier-scorecard-template/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/supplier-scorecard-template/",
+      "seconds": 8.08,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 33932,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/supplier-scorecard-template/"
+      ],
+      "words": 2068,
+      "description": "Build a supplier scorecard with clear delivery and quality measures, a weighted example, sample-size checks and a practical follow-up plan.",
+      "published": "2026-10-01",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/trucking-company-business-plan-trip-cost/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/trucking-company-business-plan-trip-cost/",
+      "seconds": 8.09,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 23836,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/trucking-company-business-plan-trip-cost/"
+      ],
+      "words": 1471,
+      "description": "Use a trucking business plan example to separate loaded and empty miles, fuel, maintenance allowances and payment timing with a free trip worksheet.",
+      "published": "2026-10-13",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/planners/cashflow-13-os/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/planners/cashflow-13-os/",
+      "seconds": 8.09,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 41688,
+      "robots": null,
+      "canonical": [
+        "https://nexalyplanner.com/planners/cashflow-13-os/"
+      ],
+      "words": 1173,
+      "description": "Plan 13 weeks of cash in, cash out and closing balances in an offline business app. Track actuals, recurring items, scenarios and cash alerts.",
+      "published": null,
+      "modified": null
+    },
+    {
+      "url": "https://nexalyplanner.com/planners/owneros-core/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/planners/owneros-core/",
+      "seconds": 8.06,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 44700,
+      "robots": "index, follow, max-image-preview:large",
+      "canonical": [
+        "https://nexalyplanner.com/planners/owneros-core/"
+      ],
+      "words": 1100,
+      "description": "Business operations dashboard for products, inventory, orders, profit, campaigns, customers, suppliers, tasks and reports. Offline app, $11.99.",
+      "published": null,
+      "modified": "2026-10-08T00:00:00+05:00"
+    },
+    {
+      "url": "https://nexalyplanner.com/planners/renewguard-os/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/planners/renewguard-os/",
+      "seconds": 8.02,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 40671,
+      "robots": null,
+      "canonical": [
+        "https://nexalyplanner.com/planners/renewguard-os/"
+      ],
+      "words": 844,
+      "description": "Track vendor contracts, renewal dates, cancellation notice windows and annualized costs in a private offline app. Review commitments before they roll over.",
+      "published": null,
+      "modified": null
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/boutique-size-color-stock-matrix/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/boutique-size-color-stock-matrix/",
+      "seconds": 8.0,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 21325,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/boutique-size-color-stock-matrix/"
+      ],
+      "words": 955,
+      "description": "Build a clothing inventory size and color matrix. Compare counted variants with your own stock targets and export a printable boutique stock worksheet.",
+      "published": null,
+      "modified": "2026-10-19"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/caregiver-visit-coordination-planner/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/caregiver-visit-coordination-planner/",
+      "seconds": 8.0,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 25325,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/caregiver-visit-coordination-planner/"
+      ],
+      "words": 1478,
+      "description": "Plan one day of caregiver visits and see confirmed coverage, overlap and uncovered windows. Keep proposals separate; save, export CSV or print PDF.",
+      "published": null,
+      "modified": "2026-10-19"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/cash-flow-variance-report/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/cash-flow-variance-report/",
+      "seconds": 7.98,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 25099,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/cash-flow-variance-report/"
+      ],
+      "words": 1309,
+      "description": "Reconcile forecast and actual cash with opening balances and movement impacts. Review the cash bridge, save a backup or copy the calculated summary.",
+      "published": null,
+      "modified": "2026-11-04"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/content-production-capacity-planner/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/content-production-capacity-planner/",
+      "seconds": 7.98,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 22434,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/content-production-capacity-planner/"
+      ],
+      "words": 1003,
+      "description": "Check content production hours against each working day. Find overloaded dates, keep review owners visible and export a local capacity report.",
+      "published": null,
+      "modified": "2026-10-19"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/content-repurposing-planner/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/content-repurposing-planner/",
+      "seconds": 7.99,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 25729,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/content-repurposing-planner/"
+      ],
+      "words": 1437,
+      "description": "Turn one source piece into editable channel tasks with formats, owners, dates and statuses. Free content repurposing planner with CSV, backup and PDF reports.",
+      "published": null,
+      "modified": "2026-10-19"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/document-renewal-calendar/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/document-renewal-calendar/",
+      "seconds": 8.14,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 25485,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/document-renewal-calendar/"
+      ],
+      "words": 1468,
+      "description": "Organize document expiry dates, renewal lead days and owners. Review overdue renewal-start dates and export a manual action calendar.",
+      "published": "2026-10-16",
+      "modified": "2026-10-23"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/equipment-maintenance-due-planner/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/equipment-maintenance-due-planner/",
+      "seconds": 8.17,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 24704,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/equipment-maintenance-due-planner/"
+      ],
+      "words": 1394,
+      "description": "Compare equipment against entered calendar and meter service intervals. Review due thresholds and work notes; save, export CSV or print a PDF.",
+      "published": null,
+      "modified": "2026-10-19"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/family-caregiver-handoff-sheet/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/family-caregiver-handoff-sheet/",
+      "seconds": 8.17,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 24749,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/family-caregiver-handoff-sheet/"
+      ],
+      "words": 1406,
+      "description": "Prepare a family caregiver handoff with agreed tasks, open actions and factual notes. Keep pending work visible; save, export CSV or print PDF.",
+      "published": null,
+      "modified": "2026-10-19"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/homeschool-attendance-log/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/homeschool-attendance-log/",
+      "seconds": 8.17,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 24838,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/homeschool-attendance-log/"
+      ],
+      "words": 1447,
+      "description": "Record homeschool instructional dates and optional hours. Count unique days against your own target; save a private device copy, export CSV or print PDF.",
+      "published": null,
+      "modified": "2026-10-19"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/homeschool-subject-hours-log/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/homeschool-subject-hours-log/",
+      "seconds": 8.18,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 24381,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/homeschool-subject-hours-log/"
+      ],
+      "words": 1416,
+      "description": "Record homeschool session times for one learner and total hours by primary subject. Block overlaps, save a backup and export CSV or PDF.",
+      "published": null,
+      "modified": "2026-10-19"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/marketing-campaign-budget-planner/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/marketing-campaign-budget-planner/",
+      "seconds": 8.17,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 26000,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/marketing-campaign-budget-planner/"
+      ],
+      "words": 1423,
+      "description": "Plan a marketing test budget, compare spending and calculate cost per entered response. Handle zero counts and copy results with attribution review notes.",
+      "published": null,
+      "modified": "2026-11-04"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/monthly-business-budget-variance/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/monthly-business-budget-variance/",
+      "seconds": 8.06,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 24666,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/monthly-business-budget-variance/"
+      ],
+      "words": 1257,
+      "description": "Compare monthly budget and actual costs with signed variances and zero-budget checks. Save, export or copy a calculated summary with review notes.",
+      "published": null,
+      "modified": "2026-11-04"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/monthly-teacher-lesson-planner/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/monthly-teacher-lesson-planner/",
+      "seconds": 8.03,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 20827,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/monthly-teacher-lesson-planner/"
+      ],
+      "words": 842,
+      "description": "Track monthly lessons, preparation due dates, material tasks and owners. Review overdue preparation in a free editable teacher worksheet.",
+      "published": null,
+      "modified": "2026-10-19"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/one-page-business-plan-builder/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/one-page-business-plan-builder/",
+      "seconds": 8.01,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 27100,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/one-page-business-plan-builder/"
+      ],
+      "words": 1570,
+      "description": "Build a one-page business plan with customer, offer and an evidence log. Review assumptions, retain an editable backup or copy your calculated summary.",
+      "published": null,
+      "modified": "2026-11-04"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/price-increase-budget-planner/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/price-increase-budget-planner/",
+      "seconds": 8.0,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 21547,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/price-increase-budget-planner/"
+      ],
+      "words": 989,
+      "description": "Compare subscription price increases across monthly, quarterly and annual billing. Calculate annualized budget changes per seat and export your review.",
+      "published": null,
+      "modified": "2026-10-19"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/printable-planner-builder/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/printable-planner-builder/",
+      "seconds": 7.95,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 20183,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/printable-planner-builder/"
+      ],
+      "words": 813,
+      "description": "Build a daily or weekly writing page with your own hours and sections. Choose Letter, A4 or A5, preview the planner and print or save PDF.",
+      "published": null,
+      "modified": "2026-11-05"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/repair-parts-labour-worksheet/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/repair-parts-labour-worksheet/",
+      "seconds": 7.98,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 24653,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/repair-parts-labour-worksheet/"
+      ],
+      "words": 1428,
+      "description": "Build a repair estimate from parts, labour, discount and an entered tax amount. Keep purchase costs separate; save the worksheet, download CSV or print PDF.",
+      "published": null,
+      "modified": "2026-10-19"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/reserved-vs-available-stock-planner/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/reserved-vs-available-stock-planner/",
+      "seconds": 8.05,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 22712,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/reserved-vs-available-stock-planner/"
+      ],
+      "words": 1094,
+      "description": "Calculate available-to-sell inventory after reservations, blocked units and a safety buffer. Review stock shortages by SKU; save or export the worksheet.",
+      "published": null,
+      "modified": "2026-10-19"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/supplier-lead-time-log/",
+      "issue": "Discovered - currently not indexed",
+      "last_crawled_serial": "25569.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/supplier-lead-time-log/",
+      "seconds": 8.01,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 22647,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/tools/supplier-lead-time-log/"
+      ],
+      "words": 1096,
+      "description": "Log promised and actual supplier delivery dates. Review elapsed calendar days, late open orders and average lead time for received orders.",
+      "published": "2026-10-16",
+      "modified": "2026-10-19"
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/travel-agency-business-plan/",
+      "issue": "Crawled - currently not indexed",
+      "last_crawled_serial": "46336.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/travel-agency-business-plan/",
+      "seconds": 7.98,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 25589,
+      "robots": null,
+      "canonical": [
+        "https://nexalyplanner.com/journal/travel-agency-business-plan/"
+      ],
+      "words": 1003,
+      "description": "Build a travel agency business plan that separates trip booking value, client and supplier funds, earned agency fees, service hours and refund exposure. Includes a fictional example.",
+      "published": "2026-11-07",
+      "modified": "2026-11-07"
+    },
+    {
+      "url": "https://nexalyplanner.com/tools/homeschool-budget-planner/",
+      "issue": "Crawled - currently not indexed",
+      "last_crawled_serial": "46336.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/tools/homeschool-budget-planner/",
+      "seconds": 8.01,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 16879,
+      "robots": null,
+      "canonical": [
+        "https://nexalyplanner.com/tools/homeschool-budget-planner/"
+      ],
+      "words": 702,
+      "description": "Plan one-time and monthly homeschool costs for one to twelve months. Compare your funding budget, planned costs and payments, export CSV and keep an editable JSON backup.",
+      "published": null,
+      "modified": null
+    },
+    {
+      "url": "https://nexalyplanner.com/images/products/agency-client-profitability-capacity-os/video-02.mp4?v=real-os-1",
+      "issue": "Crawled - currently not indexed",
+      "last_crawled_serial": "46336.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/images/products/agency-client-profitability-capacity-os/video-02.mp4?v=real-os-1",
+      "seconds": 7.97,
+      "type": "video/mp4",
+      "xrobots": null,
+      "bytes_read": 300000
+    },
+    {
+      "url": "https://nexalyplanner.com/images/products/agency-client-profitability-capacity-os/video-01.mp4?v=real-os-1",
+      "issue": "Crawled - currently not indexed",
+      "last_crawled_serial": "46336.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/images/products/agency-client-profitability-capacity-os/video-01.mp4?v=real-os-1",
+      "seconds": 7.97,
+      "type": "video/mp4",
+      "xrobots": null,
+      "bytes_read": 300000
+    },
+    {
+      "url": "https://nexalyplanner.com/feedback/reviews.php?product=rentflow-os",
+      "issue": "Crawled - currently not indexed",
+      "last_crawled_serial": "46326.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/feedback/reviews.php?product=rentflow-os",
+      "seconds": 8.02,
+      "type": "application/json; charset=utf-8",
+      "xrobots": "noindex",
+      "bytes_read": 70
+    },
+    {
+      "url": "https://nexalyplanner.com/assets/downloads/packing-slip-template.xlsx",
+      "issue": "Crawled - currently not indexed",
+      "last_crawled_serial": "46326.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/assets/downloads/packing-slip-template.xlsx",
+      "seconds": 8.07,
+      "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "xrobots": null,
+      "bytes_read": 10263
+    },
+    {
+      "url": "https://nexalyplanner.com/assets/downloads/assignment-tracker-template.xlsx?v=20261011b",
+      "issue": "Crawled - currently not indexed",
+      "last_crawled_serial": "46326.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/assets/downloads/assignment-tracker-template.xlsx?v=20261011b",
+      "seconds": 7.96,
+      "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "xrobots": null,
+      "bytes_read": 5545
+    },
+    {
+      "url": "https://nexalyplanner.com/assets/downloads/purchase-order-template.xlsx",
+      "issue": "Crawled - currently not indexed",
+      "last_crawled_serial": "46324.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/assets/downloads/purchase-order-template.xlsx",
+      "seconds": 8.03,
+      "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "xrobots": null,
+      "bytes_read": 9892
+    },
+    {
+      "url": "https://nexalyplanner.com/feedback/reviews.php?product=ai-student-planner",
+      "issue": "Crawled - currently not indexed",
+      "last_crawled_serial": "46324.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/feedback/reviews.php?product=ai-student-planner",
+      "seconds": 7.99,
+      "type": "application/json; charset=utf-8",
+      "xrobots": "noindex",
+      "bytes_read": 77
+    },
+    {
+      "url": "https://nexalyplanner.com/assets/downloads/purchase-requisition-template.xlsx",
+      "issue": "Crawled - currently not indexed",
+      "last_crawled_serial": "46323.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/assets/downloads/purchase-requisition-template.xlsx",
+      "seconds": 8.03,
+      "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "xrobots": null,
+      "bytes_read": 12933
+    },
+    {
+      "url": "https://nexalyplanner.com/journal/planner-sizes-chart-printable-inserts/",
+      "issue": "Crawled - currently not indexed",
+      "last_crawled_serial": "46322.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/journal/planner-sizes-chart-printable-inserts/",
+      "seconds": 8.23,
+      "type": "text/html",
+      "xrobots": null,
+      "bytes_read": 33257,
+      "robots": "index,follow",
+      "canonical": [
+        "https://nexalyplanner.com/journal/planner-sizes-chart-printable-inserts/"
+      ],
+      "words": 1920,
+      "description": "Compare planner sizes in inches and mm: A5 vs Half Letter, A4 vs US Letter, B5, Personal and 7\u00d79 inserts. Print at actual size and check binder fit.",
+      "published": "2026-10-25",
+      "modified": "2026-11-10"
+    },
+    {
+      "url": "https://nexalyplanner.com/assets/downloads/small-business-balance-sheet-template.xlsx",
+      "issue": "Crawled - currently not indexed",
+      "last_crawled_serial": "46319.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/assets/downloads/small-business-balance-sheet-template.xlsx",
+      "seconds": 8.18,
+      "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "xrobots": null,
+      "bytes_read": 12916
+    },
+    {
+      "url": "https://nexalyplanner.com/assets/downloads/homeschool-attendance-sheet.xlsx?v=20261014b",
+      "issue": "Crawled - currently not indexed",
+      "last_crawled_serial": "46319.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/assets/downloads/homeschool-attendance-sheet.xlsx?v=20261014b",
+      "seconds": 8.18,
+      "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "xrobots": null,
+      "bytes_read": 13501
+    },
+    {
+      "url": "https://nexalyplanner.com/assets/downloads/caregiver-daily-log-template.txt?v=20261012",
+      "issue": "Crawled - currently not indexed",
+      "last_crawled_serial": "46319.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/assets/downloads/caregiver-daily-log-template.txt?v=20261012",
+      "seconds": 8.1,
+      "type": "text/plain",
+      "xrobots": null,
+      "bytes_read": 928
+    },
+    {
+      "url": "https://nexalyplanner.com/feedback/reviews.php?product=vendorpulse-os",
+      "issue": "Crawled - currently not indexed",
+      "last_crawled_serial": "46286.0",
+      "status": 206,
+      "final": "https://nexalyplanner.com/feedback/reviews.php?product=vendorpulse-os",
+      "seconds": 8.08,
+      "type": "application/json; charset=utf-8",
+      "xrobots": "noindex",
+      "bytes_read": 73
+    }
+  ]
+}

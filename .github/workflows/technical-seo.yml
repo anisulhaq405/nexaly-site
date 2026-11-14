@@ -70,6 +70,8 @@ jobs:
         run: python3 scripts/test-review-products.py
       - name: Verify GSC journal refresh examples and date preservation
         run: python3 scripts/test-nov10-journals.py
+      - name: Verify indexing recovery URLs
+        run: python3 scripts/test-indexing-recovery.py
       - name: Verify owner core freeze
         run: python3 scripts/check-core-lock.py
       - name: Install social media image dependency
