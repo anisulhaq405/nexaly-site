@@ -48,6 +48,9 @@ before={x['url']:x for x in observations['urls']}
 for u in targets:
  s=(ROOT/urlsplit(u).path.lstrip('/')/'index.html').read_text()
  if before[u].get('published'):assert f'content="{before[u]["published"]}"' in s,u
+for path in json.loads((ROOT/'docs/verification/2026-11-14-indexing-edited.json').read_text()):
+ s=(ROOT/path).read_text();assert '<meta property="article:modified_time" content="2026-11-14"' in s,path
+assert '<loc>'+SITE+'/tools/homeschool-budget-planner/</loc><lastmod>2026-11-14</lastmod>' in sitemap
 # Intentional exclusions remain excluded; asset directories aren't put in sitemap.
 for u in [x['url'] for x in observations['urls'] if x['issue'].startswith('Excluded')]:
  path=ROOT/urlsplit(u).path.lstrip('/');path=path/'index.html' if u.endswith('/') else path
