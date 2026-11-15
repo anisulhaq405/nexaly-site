@@ -1,0 +1,34 @@
+"""Build the static three-page startup checklist; no legal checklist certification."""
+from pathlib import Path
+from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,Table,TableStyle,PageBreak
+from reportlab.lib.styles import getSampleStyleSheet,ParagraphStyle
+from reportlab.lib.colors import HexColor,white
+from reportlab.lib.enums import TA_LEFT
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+pdfmetrics.registerFont(TTFont("NX", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"))
+pdfmetrics.registerFont(TTFont("NXBold", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"))
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'downloads/business-startup-checklist.pdf'
+styles=getSampleStyleSheet();styles.add(ParagraphStyle(name='TitleNX',fontName='NXBold',fontSize=23,leading=27,textColor=HexColor('#193d48'),spaceAfter=12));styles.add(ParagraphStyle(name='BodyNX',fontName='NX',fontSize=10,leading=14,spaceAfter=8));styles.add(ParagraphStyle(name='SmallNX',fontName='NX',fontSize=8,leading=10));styles.add(ParagraphStyle(name='HeadNX',fontName='NXBold',fontSize=12,leading=15,textColor=HexColor('#176d66'),spaceBefore=10,spaceAfter=6))
+def p(s,style='BodyNX'):return Paragraph(s,styles[style])
+def header(title,sub):return [p('NEXALYPLANNER / FREE WORKSHEET','SmallNX'),Spacer(1,12),p(title,'TitleNX'),p(sub)]
+def footer(c,doc):
+ c.setStrokeColor(HexColor('#bfd1ce'));c.line(42,38,570,38);c.setFont('NX',8);c.setFillColor(HexColor('#4c6068'));c.drawString(42,25,'nexalyplanner.com/tools/business-startup-checklist/');c.drawRightString(570,25,f'{doc.page} / 3 | Updated Nov 15, 2026')
+items=[('Customer and offer',['Describe one target customer and the problem to solve.','Record demand evidence and the next small test.','Write the offer, price, inclusions and exclusions.']),('Costs and cash',['List startup purchases and recurring costs separately.','Map expected receipt dates and payment due dates.','Choose a downside case and funding action.']),('Requirements to verify',['Identify structure, name and location questions.','Check relevant official registration, permit and tax sources.','Record insurance, contract or other questions for review.']),('Delivery and launch',['Confirm supplier terms, stock or delivery capacity.','Test payment records, customer delivery and backup recovery.','Assign blockers, evidence owners and a launch-review date.'])]
+story=header('Business startup checklist','A practical starting point for your own action list. Adapt it to the actual activity and location. This is a static printable PDF, not a fillable form or permission to trade.')
+for title,actions in items:
+ story.append(p(title,'HeadNX'))
+ for a in actions:story.append(p('[  ] '+a))
+story.extend([Spacer(1,6),p('Record the source, not just a tick','HeadNX'),p('For US launch topics, start with sba.gov/counseling/launch-your-business/ and the responsible state/local authority. Not every topic applies to every business. Do not mark a requirement resolved until you have checked the actual source and recorded the next action.','SmallNX'),PageBreak()])
+story+=header('Owners, dates and evidence','Use one row per action. Keep sensitive documents elsewhere and write a short evidence reference. Copy this page when you need more space.')
+story+=[p('Project: ____________________________________   Review date: __________________'),p('Statuses: Not started / In progress / Done / Blocked / Not applicable','SmallNX'),Spacer(1,12)]
+data=[[p('Action / owner / due date','SmallNX'),p('Importance / status / evidence or reason','SmallNX')]]
+for _ in range(6):data.append([p('Action: __________________________<br/><br/>Owner: __________________________<br/><br/>Due: ____________________________','SmallNX'),p('Required / Optional: __________________<br/><br/>Status: ______________________________<br/><br/>Evidence / reason: ____________________<br/>____________________________________','SmallNX')])
+t=Table(data,colWidths=[235,293],rowHeights=[25]+[76]*6);t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),HexColor('#e6f0ed')),('GRID',(0,0),(-1,-1),.5,HexColor('#c3d4ce')),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),9),('TOPPADDING',(0,0),(-1,-1),8)]));story.extend([t,Spacer(1,12),p('Done needs evidence. Not applicable needs a reason. Review blocked required work before making the next commitment; a percentage alone is not launch approval.','SmallNX'),PageBreak()])
+story+=header('Filled fictional example','Example only: an imaginary design studio reviewed on November 5, 2026. No real business, permit verification or customer results are claimed.')
+rows=[('Define buyer and interview questions','Done','Nov 3','Dated interview brief; fictional.'),('Write service inclusions and exclusions','Done','Nov 4','Draft scope reviewed; fictional.'),('Verify applicable local requirements','Blocked','Nov 4','Awaiting official-source check.'),('Prepare dated cash assumptions','In progress','Nov 7','Receipt and payment dates unverified.'),('Test delivery and backup recovery','Not started','Nov 8','Evidence not yet recorded.'),('Plan a physical shop fit-out','Not applicable','Not set','Optional: no retail premises in this example.')]
+data=[[p(x,'SmallNX') for x in ['Action (owner: Example owner)','Status / due','Evidence or reason']]]
+for a,status,due,evidence in rows:data.append([p(a,'SmallNX'),p(status+'<br/>'+due,'SmallNX'),p(evidence,'SmallNX')])
+t=Table(data,colWidths=[205,105,218],rowHeights=[26]+[52]*6);t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),HexColor('#e6f0ed')),('GRID',(0,0),(-1,-1),.5,HexColor('#c3d4ce')),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),8),('TOPPADDING',(0,0),(-1,-1),8)]));story.extend([t,Spacer(1,16),p('Read the example correctly','HeadNX'),p('Five actions are applicable and required. Two are Done: 2 / 5 = 40%. Three required actions remain open, one action is Blocked and one required action is overdue as of November 5. The optional fit-out row is Not applicable and does not improve required completion.'),p('If a third required action is marked Done with evidence, completion becomes 3 / 5 = 60%. The remaining blockers still need review. The checklist records your statuses; it does not authenticate evidence, certify compliance or establish launch readiness.'),p('Keep editable actions in the browser worksheet','HeadNX'),p('The free browser version supports up to 30 actions, manual status review, a same-tool JSON backup, CSV and browser printing. PDF and CSV reports cannot restore editable inputs. Save a JSON backup before closing the page.','SmallNX')])
+SimpleDocTemplate(str(OUT),pagesize=(612,792),rightMargin=42,leftMargin=42,topMargin=40,bottomMargin=50,title='Business Startup Checklist PDF',author='NexalyPlanner').build(story,onFirstPage=footer,onLaterPages=footer)
+print(OUT)

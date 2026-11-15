@@ -1,0 +1,11 @@
+# Startup PDF and overlapping schedule query update
+
+Owner reports these two queries have the most impressions in the latest seven days. Exact query-to-page analytics and CTR/position data were not available, so no ranking or traffic gain is claimed. Existing startup-checklist and daily-schedule-builder URLs are the selected intent matches; the weekly time-blocking page remains distinct.
+
+Startup: preserve the existing PDF URL and November 5 publication. Replace the static two-page PDF with three visually reviewed US Letter pages: practical actions, a blank owner/date/evidence sheet, and the original fictional six-action example. Preserve the 2/5 = 40% denominator and explain 3/5 = 60% without implying launch certification. Improve above-fold download copy, content, format comparison and five visible/schema FAQs. Update the old PDF page-count regression to the actual three-page deliverable, not its other validation requirements.
+
+Schedule: preserve November 6 publication, same URL and existing JSON schema. Add a page-only interval analyzer and visual report, not a new product. Show exact conflict pairs, unique clock conflict minutes, duplicate task minutes and peak simultaneous blocks. Adjacent endpoints do not clash. No automatic rescheduling, timezone conversion, calendar import, meeting poll or overnight scheduling. Existing CSV exports the input schedule, JSON restores inputs, and printing includes the rendered report. The new overlap example deliberately crosses two adjacent blocks.
+
+Research: competitor capabilities reviewed from ToolsFYI conflict checker, Just Plann weekly maker and Made Good Designs schedule maker; these are examples, not verified top-three Google positions. Startup references include the SBA launch guide https://www.sba.gov/counseling/launch-your-business/ and public checklist examples. Original writing, examples and PDF; no copied checklist.
+
+Validation: 100 independent minute-by-minute interval oracle cases, nested/triple/adjacent/overnight boundaries, DOM conflict report and invalidation, text escaping, legacy JSON schema; existing startup/schedule controls and backup/CSV/print regression; PDF three-page geometry, text and rendered visual checks; source indexing and protected-core checks. Run exact-head rebuild before merge and inspect live pages/PDF afterward. No physical-phone certification.
