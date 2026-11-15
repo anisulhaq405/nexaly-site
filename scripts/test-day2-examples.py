@@ -20,8 +20,8 @@ assert 20-4-3==13 and 4+3+6==13
 assert 2*1000*D('.2')+3*1500*D('.5')+2000*D('.7')==4050
 assert 240-40==200 and round(200/6,2)==33.33 and 3*6-12==6
 assert 40*25-40*12==520 and 1000-1200==-200 and 60*12==720
-for n,count in [('business-plan-template',3),('business-startup-checklist',2)]:
+for n,count in [('business-plan-template',3),('business-startup-checklist',3)]:
  reader=PdfReader(R/'downloads'/f'{n}.pdf');assert len(reader.pages)==count
  assert not reader.get_fields()
  for page in reader.pages:assert tuple(page.mediabox)[2:]==(612,792);assert len(page.extract_text())>300
-print('PASS Day2 journal reconciliations and 5 static Letter PDF pages; rendered pages visually reviewed separately.')
+print('PASS Day2 journal reconciliations and 6 static Letter PDF pages; rendered pages visually reviewed separately.')
