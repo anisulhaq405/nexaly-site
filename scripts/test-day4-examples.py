@@ -33,6 +33,22 @@ assert 10*40-20==380 and 380-342==38 and 342/380==.9 and 342/400==.855
 assert 10*30==300 and 10*45/60==7.5
 assert 342*4-280-D('102.60')-300-60-250==D('375.40')
 assert 1200-280-90-300-60-250==220 and D(2000)+1200-D('992.60')==D('2207.40')
+# November 16 bakery refresh: discrete labor capacity, scenario-specific thresholds, timing.
+from decimal import ROUND_CEILING
+assert min(6*60//30,7*60//45)==9
+assert 9*40-18==342 and 342*D('.9')==D('307.8')
+assert 307*4-9*28-307*D('.30')-610==D('273.90')
+assert (D(890)/D('3.70')).to_integral_value(rounding=ROUND_CEILING)==241
+assert 240*D('3.70')-890==-2 and 241*D('3.70')-890==D('1.70')
+assert (D(862)/D('3.70')).to_integral_value(rounding=ROUND_CEILING)==233
+balances=[2000]
+for receipts,payments in [(500,1100),(700,1200),(1000,700),(1500,700)]:
+ balances.append(balances[-1]+receipts-payments)
+assert balances==[2000,1400,900,1200,2000] and 1200-min(balances)==300
+bakery=(R/'journal/bakery-business-plan/index.html').read_text()
+for value in ['$273.90','241 sold units','233 sold units','$300 reserve gap','2026-11-16']:
+ assert value in bakery,value
+assert '"datePublished": "2026-11-07"' in bakery
 for slug,size in [('homeschool-budget-planner',(612,792)),('time-blocking-template',(792,612))]:
  pdf=PdfReader(R/'downloads'/f'{slug}.pdf');assert len(pdf.pages)==2 and not pdf.get_fields()
  for page in pdf.pages:assert tuple(page.mediabox)[2:]==size;assert len(page.extract_text())>250

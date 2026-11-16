@@ -428,12 +428,12 @@ var posts = [
   },
   {
     "url": "/journal/bakery-business-plan/",
-    "title": "Bakery Business Plan: Batch Yield, Waste & Cash Example",
-    "excerpt": "Write a bakery business plan using batches, saleable yield, sell-through, production time, ingredient costs and cash timing. Includes an original downside and stock reconciliation.",
+    "title": "Bakery Business Plan: Example, Costs & Break-Even",
+    "excerpt": "Build a bakery business plan with a practical outline, startup-cost checklist, batch and labor limits, waste-adjusted break-even and weekly cash examples.",
     "img": "/images/journal/bakery-business-plan-20261107.webp",
     "alt": "Bakery owner reviewing a paper batch sheet and calculator beside bread trays",
     "tag": "Planning Guides",
-    "date": "Nov 7, 2026"
+    "date": "Updated Nov 16, 2026"
   },
   {
     "url": "/journal/consulting-business-plan/",
