@@ -241,7 +241,7 @@
         }
       ]
     },
-    "reportNote": "Actual lead time = full receipt date \u2212 order date in elapsed calendar days. Received-order delay = receipt date \u2212 original promise; open overdue days = max(0, review date \u2212 promise). Averages include received orders only and are not weighted by quantities.",
+    "reportNote": "Actual lead time = full receipt date \u2212 order placed date in elapsed calendar days. Received delay = max(0, receipt \u2212 original promise); open overdue = max(0, review date \u2212 promise). Received-order averages and medians exclude open rows and give each completed row equal weight. Range = longest \u2212 shortest observed lead time, not standard deviation or a forecast. Open follow-up sorts original promise earliest first. Original backup fields remain unchanged.",
     "maxRows": 100,
     "features": [
       "Keep original promises separate from actual full receipt dates.",
