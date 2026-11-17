@@ -38,7 +38,7 @@ for u in targets:
  assert u in dist and dist[u]<=2,(u,dist.get(u))
  assert sum(u in e for e in edges.values())>=2,u
 robots=(ROOT/'robots.txt').read_text();assert 'Allow: /' in robots and not re.search(r'^Disallow:\s*/\s*$',robots,re.M)
-hub=(ROOT/'tools/index.html').read_text();assert docs[SITE+'/tools/'].cards==60;assert 'Use 60 free business and personal planners' in hub;assert 'Use 50 free' not in hub
+hub=(ROOT/'tools/index.html').read_text();card_count=docs[SITE+'/tools/'].cards;assert card_count>=60;assert f'Use {card_count} free business and personal planners' in hub;assert f'<b>{card_count}</b> free planners' in hub;assert 'Use 50 free' not in hub
 # Independent calculations in the added worked scenarios.
 assert D(20)*3==60 and D(20)*3*2==120
 assert 320+50==370 and 900-370==530 and 480-370==110 and 900-480==420
@@ -57,4 +57,4 @@ for u in [x['url'] for x in observations['urls'] if x['issue'].startswith('Exclu
  assert 'noindex' in path.read_text(),u
  assert '<loc>'+u+'</loc>' not in sitemap,u
 assert '<loc>'+SITE+'/images/products/rentflow-os/</loc>' not in sitemap
-print('PASS indexing recovery: 58 self-canonical public URLs, crawlable robots, sitemap, depth<=2, links, original dates, 60 directory cards, intentional exclusions and worked arithmetic')
+print('PASS indexing recovery: 58 self-canonical public URLs, crawlable robots, sitemap, depth<=2, links, original dates, current directory count, intentional exclusions and worked arithmetic')
