@@ -292,6 +292,78 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/crm-dashboard-example/",
+    "title": "CRM Dashboard Example: Pipeline, Win Rate and Delivery Capacity",
+    "excerpt": "Build a CRM dashboard that separates open pipeline from closed-cohort win rate, labels assumed probabilities and checks onboarding capacity before promising delivery.",
+    "img": "/images/journal/crm-dashboard-example-20261117.webp",
+    "alt": "CRM Dashboard Example: Pipeline, Win Rate and Delivery Capacity — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 17, 2026"
+  },
+  {
+    "url": "/journal/dashboard-design-guide/",
+    "title": "Dashboard Design Guide: Clear Metrics, Charts and Action Labels",
+    "excerpt": "Design a readable dashboard with visible units, filters, accessible status labels and correctly aggregated rates. Includes an original weighted-percentage example.",
+    "img": "/images/journal/dashboard-design-guide-20261117.webp",
+    "alt": "Dashboard Design Guide: Clear Metrics, Charts and Action Labels — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 17, 2026"
+  },
+  {
+    "url": "/journal/executive-kpi-dashboard/",
+    "title": "Executive KPI Dashboard: Cash, Capacity and Owner Decisions",
+    "excerpt": "Create an executive KPI report that connects money, service and capacity exceptions to accountable decisions. Includes original cash and contribution boundaries.",
+    "img": "/images/journal/executive-kpi-dashboard-20261117.webp",
+    "alt": "Executive KPI Dashboard: Cash, Capacity and Owner Decisions — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 17, 2026"
+  },
+  {
+    "url": "/journal/hr-automation-guide/",
+    "title": "HR Automation Guide: Onboarding Tasks, Approvals and Exceptions",
+    "excerpt": "Design a bounded HR administration workflow with approval ownership, duplicate controls, readiness measures and a fictional effort model that includes exceptions.",
+    "img": "/images/journal/hr-automation-guide-20261117.webp",
+    "alt": "HR Automation Guide: Onboarding Tasks, Approvals and Exceptions — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 17, 2026"
+  },
+  {
+    "url": "/journal/kpi-dashboard-guide/",
+    "title": "KPI Dashboard Guide: Definitions, Examples and Reporting Clusters",
+    "excerpt": "Choose the right dashboard, define each KPI with a numerator, period and owner, and connect specialist examples to a consistent business review process.",
+    "img": "/images/journal/kpi-dashboard-guide-20261117.webp",
+    "alt": "KPI Dashboard Guide: Definitions, Examples and Reporting Clusters — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 17, 2026"
+  },
+  {
+    "url": "/journal/marketing-dashboard-example/",
+    "title": "Marketing Dashboard Example: Leads, Acquisition Cost and Contribution",
+    "excerpt": "Use a marketing dashboard that separates session and customer scopes, measures a defined acquisition cohort and reconciles spend, refunds and direct contribution.",
+    "img": "/images/journal/marketing-dashboard-example-20261117.webp",
+    "alt": "Marketing Dashboard Example: Leads, Acquisition Cost and Contribution — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 17, 2026"
+  },
+  {
+    "url": "/journal/power-bi-dashboard-examples/",
+    "title": "Power BI Dashboard Examples: Models, Totals and Review Tests",
+    "excerpt": "Plan Power BI reporting examples with the right record grain, a sales reconciliation, refresh evidence and permission checks. Distinguish service dashboards from reports.",
+    "img": "/images/journal/power-bi-dashboard-examples-20261117.webp",
+    "alt": "Power BI Dashboard Examples: Models, Totals and Review Tests — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 17, 2026"
+  },
+  {
+    "url": "/journal/seo-dashboard-guide/",
+    "title": "SEO Dashboard Guide: Search Metrics, CTR and Review Actions",
+    "excerpt": "Build a useful SEO dashboard with consistent Search Console filters, weighted CTR, page/query context and an original example where clicks rise while CTR falls.",
+    "img": "/images/journal/seo-dashboard-guide-20261117.webp",
+    "alt": "SEO Dashboard Guide: Search Metrics, CTR and Review Actions — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 17, 2026"
+  },
+  {
     "url": "/journal/ai-content-tool-comparison/",
     "title": "AI Content Tool Comparison: Text, Design and Review Controls",
     "excerpt": "Choose an AI content tool by deliverable, source fidelity and review effort. Compare tool categories with a transparent fictional acceptance and cost example.",
@@ -1297,7 +1369,7 @@ var posts = [
     "img": "/images/journal/business-planner-weekly-review-20260915.jpg",
     "alt": "Small-business owner reviewing goals, orders, weekly sales, cash and next actions under the heading Plan the Business Week",
     "tag": "Planning Guides",
-    "date": "Updated Nov 3, 2026"
+    "date": "Updated Nov 17, 2026"
   },
   {
     "url": "/journal/student-planner-guide/",

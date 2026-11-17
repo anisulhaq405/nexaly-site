@@ -53,6 +53,7 @@ jobs:
           NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-day4-tools.cjs
           NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-day5-proposal.cjs
           NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-day6-strategy.cjs
+          NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-day7-meal.cjs
       - name: Verify Day1 editorial arithmetic
         run: |
           python3 -m pip install pypdf==6.1.3
@@ -62,6 +63,7 @@ jobs:
           python3 scripts/test-day4-examples.py
           python3 scripts/test-day5-examples.py
           python3 scripts/test-day6-examples.py
+          python3 scripts/test-day7-examples.py
           python3 scripts/test-boutique-opening-examples.py
       - name: Verify contact drafts and optional analytics
         run: |
