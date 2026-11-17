@@ -1,0 +1,227 @@
+from pathlib import Path
+import json
+D=Path(__file__).resolve().parent;A=[]
+def add(oid,slug,title,desc,text,sources):A.append(dict(id=oid,slug=slug,title=title,desc=desc,text=text.strip(),sources=sources))
+GSC=['Google Search Console: clicks, impressions and position','https://support.google.com/webmasters/answer/7042828?hl=en']
+GA=['Google Analytics: user versus traffic acquisition','https://support.google.com/analytics/answer/14731736?hl=en']
+HB=['HubSpot: sales analytics reports','https://knowledge.hubspot.com/reports/create-sales-reports-in-the-sales-analytics-suite']
+MSD=['Microsoft: dashboard design tips','https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips']
+MSS=['Microsoft: star schema guidance','https://learn.microsoft.com/en-us/power-bi/guidance/star-schema']
+MSB=['Microsoft: dashboards in Power BI','https://learn.microsoft.com/en-us/power-bi/service-dashboards']
+W3=['W3C: use of color','https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html']
+add('O066','seo-dashboard-guide','SEO Dashboard Guide: Search Metrics, CTR and Review Actions','Build a useful SEO dashboard with consistent Search Console filters, weighted CTR, page/query context and an original example where clicks rise while CTR falls.', '''
+## Start with the search decision
+An SEO dashboard summarizes search visibility and resulting visits so a named owner can decide what to investigate. Start with Search Console clicks, impressions and click-through rate for a defined search type, property, period and filter set. Add landing-page business outcomes separately when you have a valid measurement path. A rise in visibility is not automatically a rise in qualified demand or profit.
+This page owns the SEO measurement view. The [KPI dashboard guide](/journal/kpi-dashboard-guide/) owns definitions across departments, while the [marketing dashboard example](/journal/marketing-dashboard-example/) covers campaign economics and attribution. Do not merge those jobs into one unexplained traffic total.
+## Give each card a definition and cutoff
+Record source property, date range, time zone as reported by that source, search type, country/device filters, numerator, denominator and last successful update. Compare like-for-like complete periods. For a fictional review on November 17, use September 22–October 19 versus October 20–November 16: each is 28 calendar days. Confirm whether the newest source data are complete before treating that window as final.
+Google defines impressions, clicks and average position for its reporting surfaces. Their aggregation and canonical handling matter. Search Console clicks and Analytics sessions are different measures; consent, tagging, timing and attribution can also change the relationship. Keep them as separately labeled cards rather than demanding that the totals match.
+## Original example: more clicks, lower CTR
+Suppose the earlier period has 2,000 impressions and 100 clicks: CTR is 5%. The current period has 3,000 impressions and 120 clicks: CTR is 4%. Clicks grew by 20%, impressions by 50%, and CTR fell by one percentage point, or 20% relative to its earlier value. None of those statements alone proves that titles worsened or rankings fell.
+| Segment | Earlier clicks / impressions | Current clicks / impressions | Current CTR |
+| Brand | 40 / 500 | 50 / 500 | 10% |
+| Nonbrand | 60 / 1,500 | 70 / 2,500 | 2.8% |
+| Total | 100 / 2,000 | 120 / 3,000 | 4% |
+The current total is 120 divided by 3,000. Averaging the segment rates, (10% + 2.8%) / 2 = 6.4%, would be wrong because their impression volumes differ. Increased exposure in the lower-CTR segment changes the mix. Inspect the actual queries, pages and search appearance before assigning a cause.
+## Use page and query views to form an investigation
+Choose a small exception list: a valuable landing page losing clicks, a page gaining impressions with weak qualified outcomes, or a query cluster whose intent no longer matches the content. Retain the original export and compare the same filters. Search Console may omit anonymized or limited query details, so a visible query table is not always a complete reconstruction of the chart total.
+Assign an investigation rather than an automatic rewrite. Check the page's indexing/canonical state, title and visible content, current result intent and recent site changes. A query with information intent may need a better explanation; it does not necessarily need another near-duplicate page. Use the [dashboard design guide](/journal/dashboard-design-guide/) to make filters and caveats visible beside the result.
+## Connect the observation to an owned action
+A useful action record states the affected page/query group, evidence, hypothesis, owner, due date and what will be compared after the change. For the fictional mix example, first inspect nonbrand query relevance instead of declaring a sitewide CTR emergency. Keep campaign launches and technical changes on the same dated review log so later comparisons have context.
+Use the [weekly business review](/journal/business-planner-weekly-review/) to schedule that decision, and the [content publishing checklist](/tools/content-publishing-checklist/) for a manual publication check. Those resources do not retrieve Search Console data, request indexing or monitor rankings automatically.
+## Questions and limits
+Is average position a fixed rank for every searcher? No; interpret it under Google's reporting definition and the selected data scope. Does a dashboard prove why traffic changed? No; the chart supports investigation, not causal attribution. Can this page connect my accounts? It is a worked guide, not an authenticated reporting application or a guarantee of indexing, traffic or rankings.
+''',[GSC,GA,MSD])
+add('O072','marketing-dashboard-example','Marketing Dashboard Example: Leads, Acquisition Cost and Contribution','Use a marketing dashboard that separates session and customer scopes, measures a defined acquisition cohort and reconciles spend, refunds and direct contribution.', '''
+## Build the view around one campaign decision
+A marketing dashboard should help an owner decide whether to continue, change or pause a defined campaign. Show the audience, offer, channel, reporting window, spend boundary and outcome definition before adding charts. A collection of clicks and likes cannot by itself answer whether the campaign acquired useful customers.
+This example owns cross-channel campaign measurement. Use the [SEO dashboard](/journal/seo-dashboard-guide/) for search reporting mechanics and the [CRM dashboard](/journal/crm-dashboard-example/) for the status of sales opportunities. The [KPI parent guide](/journal/kpi-dashboard-guide/) connects the definitions without turning different populations into one funnel.
+## Keep acquisition scopes and maturity explicit
+Google Analytics distinguishes first-user acquisition from session acquisition. A returning customer can generate another session without becoming a newly acquired customer. Choose the scope that answers the question, and do not label a session-source chart as a count of newly acquired people.
+For a campaign cohort, retain stable permitted identifiers and a stated qualification rule. Decide how long after the initial response an outcome is observed. A campaign launched yesterday has had less time to produce a purchase than one launched a month ago. Separate provisional results from a cohort whose chosen observation window has closed. Attribution credit describes a measurement rule; it is not proof that advertising caused every credited sale.
+## Original cohort and cost example
+Assume a fictional campaign's declared observation window is complete. It cost $600, recorded 1,000 measured sessions, and linked 40 unique lead records to those responses. Twenty met the stated qualification rule and five became new customers within the window. These stages were reconciled by source IDs for this example; do not assume real platform totals automatically form that same cohort.
+| Measure | Calculation | Result |
+| Session-to-lead ratio | 40 / 1,000 | 4% |
+| Qualified share of leads | 20 / 40 | 50% |
+| New-customer share of qualified leads | 5 / 20 | 25% |
+| Cost per qualified lead | $600 / 20 | $30 |
+| Declared acquisition cost per new customer | $600 / 5 | $120 |
+The $120 covers only the entered campaign spend. If acquisition also uses agency fees, creative production, sales effort or other incremental costs, include those under a consistent definition. When there are no qualified leads or customers, show the denominator and an unavailable cost-per-result value rather than inventing a zero acquisition cost.
+## Reconcile revenue, refunds and direct contribution
+Suppose those five customers initially generate $1,000 gross sales. Related refunds are $100 and direct fulfillment costs are $300, leaving $600 before the $600 campaign spend. The planning balance after that spend is zero, before overhead, tax and other omitted costs. Gross sales divided by spend is about 1.67; net sales divided by spend is 1.5. Neither ratio establishes profit.
+Keep the refund and cost timing consistent with the chosen cohort. A later refund can change a previously provisional result. Do not count expected repeat purchases as money already earned, and do not add lifetime-value assumptions without retention, margin and timing evidence. The [financial dashboard example](/journal/financial-dashboard-example/) explains a separate management-money view.
+## Decide what to change next
+In this fictional case, “more traffic” is not a sufficient success criterion because the stated contribution is fully consumed by campaign spend. First inspect qualification, fulfillment cost, refunds and the acquisition-cost boundary. Name one controlled next test and a spend ceiling; avoid changing offer, audience, creative and landing page all at once if you want an interpretable comparison.
+Use the [marketing campaign budget planner](/tools/marketing-campaign-budget-planner/) to enter an explicit budget and the [marketing automation guide](/journal/marketing-automation-small-business/) for eligibility and exit rules. A dashboard should never be treated as permission to message someone or enroll an ineligible contact.
+## Show a readable weekly decision panel
+Put spend, qualified leads, new customers and the contribution boundary above channel detail. Show a small trend with comparable cohort maturity, then an exception table with owner, evidence and next review date. Use readable labels and a text status alongside any color. The [dashboard design guide](/journal/dashboard-design-guide/) provides a layout and acceptance checklist.
+Can platforms disagree? Yes; inspect their scope, identity, consent, attribution and timing definitions rather than forcing a match. Is this a live campaign dashboard? No; it is an original reporting example and manual decision framework, not an account connector or observed marketing performance claim.
+''',[GA,HB,MSD])
+add('O073','crm-dashboard-example','CRM Dashboard Example: Pipeline, Win Rate and Delivery Capacity','Build a CRM dashboard that separates open pipeline from closed-cohort win rate, labels assumed probabilities and checks onboarding capacity before promising delivery.', '''
+## Separate the pipeline question from the performance question
+A CRM dashboard can show today's open opportunities, the outcomes of a defined closed cohort and the work needed for the next handoff. These are different populations. Label the report's record type, stage definition, period, filters and snapshot time before comparing cards.
+Use the [CRM automation guide](/journal/crm-automation-guide/) for record identity and field authority, and the [CRM software comparison](/journal/crm-software-small-business/) for selecting a system. This page owns the reporting example; the [KPI dashboard guide](/journal/kpi-dashboard-guide/) owns shared measurement definitions.
+## Define the deal record and stage evidence
+Give each opportunity one stable reference, accountable owner, stated value/currency, stage-entry date, expected decision date and next action. Define what qualifies a proposal or a win. An internal draft is not necessarily a proposal sent to the buyer, and a verbal expression of interest is not automatically an accepted engagement.
+Use a snapshot for open stock and a dated event history for stage movement. Replacing today's stage field cannot reconstruct every prior stage transition. Keep unknown values visible. Do not turn a blank amount into a verified zero or silently combine currencies without a documented conversion basis.
+## Original open-pipeline example
+Assume twelve fictional open opportunities in one currency. The probabilities below are planning assumptions, not measured vendor forecasts or observed close rates.
+| Stage | Open opportunities | Value each | Assumed chance | Weighted value |
+| Early qualified | 4 | $1,000 | 20% | $800 |
+| Proposal | 5 | $2,000 | 50% | $5,000 |
+| Negotiation | 3 | $3,000 | 80% | $7,200 |
+| Total | 12 | $23,000 total face value | Not one shared rate | $13,000 |
+Weighted value is the sum of each opportunity value times its entered probability. It is not $13,000 collected, a guaranteed sales forecast or permission to spend that amount. Stage assumptions can become stale, and correlated opportunities may fail together. Show unweighted value, the assumptions and the cash collection schedule separately.
+## Calculate win rate from a declared closed cohort
+Suppose a separate cohort contains six closed-won and four closed-lost opportunities. Its win rate is 6 / (6 + 4) = 60%. The twelve currently open opportunities are outside that denominator. Six wins divided by twelve open deals would mix outcomes with a different stock of work.
+Document whether the cohort is based on close date, creation date or another event, and retain the observation window. A creation cohort may still contain undecided deals; a close-date report answers a different question. HubSpot's report documentation illustrates why date filters and stage requirements must be checked for the actual report type. A dashboard label should communicate that scope to the reader.
+## Check the handoff against whole delivery capacity
+The fictional stage probabilities imply 4 × 0.20 + 5 × 0.50 + 3 × 0.80 = 5.7 expected wins. That is an expected count, not 5.7 customers you can schedule. If only four new onboarding slots exist in the relevant period, the sales owner needs a dated acceptance and capacity review before making commitments.
+Check each actual start date and required delivery work. A deal may close late, need a different service scope or depend on a client input. Use the [agency capacity example](/journal/agency-capacity-planning-example/) or [weekly capacity planner](/tools/freelancer-weekly-capacity-planner/) to inspect usable hours. A high-value pipeline cannot create missing delivery time.
+## Make the next action visible
+A useful CRM dashboard includes overdue follow-ups, stale stage ages, missing values, owner gaps and upcoming handoffs. Keep those exceptions separate from a salesperson ranking. Restricted customer information should remain available only to the people who need it; a management summary need not expose every contact's private notes.
+Link each exception to one record and a clear owner/action/due date. Check a duplicate opportunity, a reopened deal, an unknown close date and a revoked access role before trusting an automated report. The [sales automation guide](/journal/sales-automation-guide/) explains the related operational handoff, while the [executive KPI report](/journal/executive-kpi-dashboard/) summarizes decisions for the owner.
+## Common reporting questions
+Can I add weighted pipeline to this month's collected revenue? No; the two cards represent different events and certainty. Is a 60% win rate good? It depends on the declared opportunity definition, cohort, costs and context; this example is not a benchmark. Does this page supply a connected CRM? No; use the structure with verified source records and the actual capabilities of your chosen system.
+''',[HB,MSD,GA])
+add('O074','dashboard-design-guide','Dashboard Design Guide: Clear Metrics, Charts and Action Labels','Design a readable dashboard with visible units, filters, accessible status labels and correctly aggregated rates. Includes an original weighted-percentage example.', '''
+## Design for a decision and a reader
+Dashboard design begins with the decision a reader must make, not a grid of attractive charts. Identify the audience, how often they review the view, the source detail they can access and the action that should follow an exception. A weekly owner panel needs different detail from an analyst's investigation report.
+Start with the [KPI definitions guide](/journal/kpi-dashboard-guide/) before arranging cards. A polished card with an ambiguous denominator is still an ambiguous measure. This page owns general information design; the [Power BI examples](/journal/power-bi-dashboard-examples/) cover that product's model and publication boundaries.
+## Arrange the page in three readable layers
+Put a small number of decision measures at the top, each with a plain name, value, unit, period and comparison. Follow with a trend or breakdown that explains the exception. Finish with an action table linking the issue to its owner, next step and review date. Keep detailed source records available through a clearly described route rather than squeezing every column into the first screen.
+Show the data cutoff and last successful refresh separately. A successful refresh at 9 a.m. does not mean every source transaction is recorded through 9 a.m. State active filters and whether a view is provisional. Use a visible unavailable or incomplete state when the source is missing; a blank card is not a verified zero.
+## Original example: do not average percentages blindly
+Suppose a fictional period contains 100 completed orders for team A, of which 90 met the promise. Team B completed two, of which one met the promise. Their rates are 90% and 50%. The combined rate is (90 + 1) / (100 + 2) = 91 / 102, or 89.22%, not the 70% average of the two percentages.
+| View | On-time completed orders | All completed orders | On-time rate |
+| Team A | 90 | 100 | 90% |
+| Team B | 1 | 2 | 50% |
+| Combined | 91 | 102 | 89.22% |
+Define how incomplete orders are handled and report them separately. This received/completed cohort does not prove that every open order is healthy. Against an owner-selected 90% target, the combined result is about 0.78 percentage points below target. That threshold is a fictional management choice, not an industry standard. Preserve the numerator and denominator so a reader can check the result.
+## Choose charts that preserve meaning
+Use a bar comparison for categories, a line for a dated trend and a table when exact values and exceptions matter. Label axes and units. Bar lengths normally need a zero baseline for an honest magnitude comparison; if a different scale is necessary, make it unmistakable and consider whether another display would be clearer. A line chart's scale can answer a different question, but it still needs explicit labels and context.
+Avoid using a decorative gauge to hide a missing target definition. Keep comparable panels on comparable scales and distinguish counts, currency, percentages and percentage-point changes. Do not add metrics with unrelated units. The [SEO example](/journal/seo-dashboard-guide/) shows why a lower CTR can coexist with more clicks, and the [marketing example](/journal/marketing-dashboard-example/) separates revenue ratios from contribution.
+## Make status usable without color alone
+W3C's use-of-color guidance requires a visible alternative when color conveys information. Pair a colored state with text such as “Below chosen target,” an icon with a meaningful label or a clear numeric difference. Keep readable text contrast, useful headings and accessible table headers. A screen-reader-only explanation does not replace the visible cue for a sighted reader who cannot distinguish the colors.
+On a narrow screen, preserve the most important label/value pair before adding detail. Let a wide table scroll within a labeled region instead of shrinking text until it is unreadable. Check keyboard focus, zoom and the actual phone/tablet view where possible. A desktop screenshot or a responsive CSS rule alone is not proof of every device's behavior.
+## Review a dashboard before release
+Ask a reader to identify the reporting period, filters, units, target and next action without your explanation. Recompute one total from source rows. Test no data, one record, zero denominator, a late source and a value outside the expected range. Confirm that a changed filter cannot leave an old comparison label behind.
+A finished design makes the decision, uncertainty and source boundary easy to find. It does not prove the data are complete or establish why a result changed. Use the [executive KPI report](/journal/executive-kpi-dashboard/) for a concise owner-facing application and keep a dated review record when definitions change.
+''',[MSD,W3,GSC])
+add('O082','power-bi-dashboard-examples','Power BI Dashboard Examples: Models, Totals and Review Tests','Plan Power BI reporting examples with the right record grain, a sales reconciliation, refresh evidence and permission checks. Distinguish service dashboards from reports.', '''
+## Use the product terms accurately
+In Microsoft's terminology, a Power BI dashboard is a single-page canvas in the service that presents selected highlights. Reports provide underlying pages and detail. A report authored in Desktop is not automatically a service dashboard simply because its first page has several charts. Check the current product documentation and applicable account capabilities for your actual environment.
+This guide provides original example specifications, not a PBIX download, live account connection or claimed hands-on certification. Use the [dashboard design guide](/journal/dashboard-design-guide/) for general layout and the [KPI parent guide](/journal/kpi-dashboard-guide/) for metric definitions across reporting tools.
+## Example 1: sales overview with a declared grain
+Define one row of the sales fact as one order line. Retain order ID, line ID, date, product, customer reference, quantity and net line value under a documented basis. Dimension tables describe entities used to group/filter facts, such as dates and products. Microsoft's star-schema guidance explains that separation; it does not remove the need to validate your own keys and relationships.
+Suppose three fictional orders contain four lines. Order A has lines worth $600 and $400, order B has one $500 line and order C one $250 line. Sales total $1,750 across three distinct orders and four lines. A row count of four is a line count, not an order count. A card labeled “Orders” needs the correct business identity.
+| Order | Order-line values | Correct order total |
+| A | $600 and $400 | $1,000 |
+| B | $500 | $500 |
+| C | $250 | $250 |
+| Total | Four lines | $1,750 |
+If a separate payment table has two payment rows for A and one each for B and C, joining it directly to A's two lines on order ID creates four joined rows. Summing those repeated line values produces $2,000 for A instead of $1,000; adding B and C produces an incorrect $2,750. Decide the relationship/model or aggregate each source to the intended grain before combining it. Do not repair the symptom with an unexplained visual filter.
+## Example 2: delivery exceptions with honest denominators
+For a fulfillment view, define the promise event and the event that counts as complete. A delivery rate can be calculated only for the declared eligible cohort. Include open overdue orders as a separate exception list rather than dropping them from view because they have no completion date.
+Use the [supplier lead-time log](/tools/supplier-lead-time-log/) as a manual example of received-only history alongside outstanding orders. It is not a Power BI connector. The [operations dashboard example](/journal/operations-dashboard-example/) provides another operating use case; preserve its own record scope rather than adding unrelated rows to this sales model.
+## Example 3: an executive service overview
+Select a few verified measures from the detailed reports for the service dashboard: period sales under the defined basis, distinct completed orders, a delivery exception count and a dated cash-review link if the finance source supports it. Show source/data cutoff and last successful refresh. A pinned tile is not evidence that every upstream table is current.
+A sales card and a payment card can refresh on different schedules. Test a deliberately late source, an unavailable connection and a changed input file. Show an explicit stale-data message or withhold a misleading combined result when the source windows do not align. The [executive KPI guide](/journal/executive-kpi-dashboard/) supplies a decision-focused specification without requiring a particular BI product.
+## Validate access as well as arithmetic
+Review who can view, edit, export and share the report and underlying data. Microsoft's row-level security guidance concerns restricted access within semantic models; the exact setup and applicable roles must be tested in your actual workspace. A test as an editor is not a substitute for testing the intended viewer role.
+Use fictional data for a public demonstration. Check customer/employee detail, exports and shared links before widening access. Do not assume that a hidden visual, a filter or a screenshot removes access to its underlying data. The publication workflow should have a named data owner and a way to withdraw an incorrect release.
+## Acceptance checklist and questions
+Reconcile source totals before and after a join. Test duplicate keys, blank values, cancelled/returned records, multiple dates, no eligible rows, currency differences and permissions. Keep expected answers with the sample so a later model change cannot quietly redefine success.
+Does this article include a ready-made model? No; the tables and checks are an implementation brief. Does Power BI make a dashboard automatically reliable? No; source quality, grain, definitions, refresh and access still need validation. Start with one bounded example and retain its source reconciliation before scaling the report.
+''',[MSB,MSS,['Microsoft: row-level security','https://learn.microsoft.com/en-us/power-bi/guidance/rls-guidance']])
+APP=['Microsoft: Power Automate approvals','https://learn.microsoft.com/en-us/power-automate/get-started-approvals']
+ONB=['Microsoft: documented employee-onboarding case study','https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/streamline-employee-onboarding']
+add('O084','hr-automation-guide','HR Automation Guide: Onboarding Tasks, Approvals and Exceptions','Design a bounded HR administration workflow with approval ownership, duplicate controls, readiness measures and a fictional effort model that includes exceptions.', '''
+## Start with administration that has a reviewable outcome
+HR automation can route an approved administrative request, create an internal checklist or track a required review. Begin with a clearly defined event and accountable owner. This guide focuses on task coordination, not automated hiring decisions, performance scoring, payroll execution or legal eligibility determinations.
+Use the [business process automation guide](/journal/business-process-automation/) to map the end-to-end work and the [workflow automation guide](/journal/workflow-automation-guide/) to define one event contract. A new system should not create a second authoritative employee record without an explicit ownership decision.
+## Define the onboarding event and approval gate
+For a bounded example, a confirmed starter record creates a checklist for the assigned manager, IT owner and facilities owner. Give the event a stable reference, effective date, authorized source and version. Required inputs should include only what the next action needs. Store sensitive source documents in the appropriate restricted system rather than copying them into every notification or dashboard.
+A workflow can request approval; it does not establish that the right person approved the right version. Record the approver, decision, scope, timestamp and evidence. A timeout, missing manager or rejected request needs an owned exception. Microsoft's approvals documentation illustrates human sign-off routing; its provider features are not automatically available in a NexalyPlanner worksheet.
+## Make replay and changes safe
+If the same starter event is replayed, expect one business checklist, not two sets of outward actions. Retain destination IDs and reconcile an uncertain write before retrying. A start-date change should update the owned task schedule with evidence instead of silently discarding the original reference.
+Separate a change from a new person or a new employment event. Confirm the actual source-system identity and permissions. Define what happens if a record is withdrawn after some tasks are done: assign a human review of remaining actions and access rather than assuming that deleting a checklist reverses every completed step. The [CRM automation guide](/journal/crm-automation-guide/) discusses the related record-identity problem in another business context.
+## Original readiness example: tasks and people are different units
+Suppose six fictional starters each have twelve planned tasks, totaling 72. Fifty-four are complete, so task completion is 54 / 72 = 75%. That does not mean 75% of starters are ready. A critical requirement can remain incomplete for one person even when many minor tasks are done for everyone else.
+| Measure | Declared basis | Fictional result |
+| Task completion | Completed tasks / all 72 planned tasks | 54 / 72 = 75% |
+| Critical-readiness check | Starters whose required critical checklist passed | 5 / 6 = 83.33% |
+| Open tasks | Planned less completed | 18 |
+Assume the five readiness results have been individually reviewed under the same rule. Do not infer them from the 54 completed tasks. Keep blockers and due dates beside the count, with access limited to the audience that needs them. The [KPI definitions guide](/journal/kpi-dashboard-guide/) explains how to keep those two denominators distinct.
+## Count exceptions and maintenance before claiming savings
+In a separate fictional monthly pilot, 40 administrative cases take fifteen minutes each manually: 600 minutes. The assisted route uses four operator preparation minutes and five review minutes per case, totaling 360. Six cases need another twenty minutes each, adding 120; monitoring and maintenance add sixty. Total is 540 minutes, releasing sixty minutes rather than the 440 implied by preparation time alone.
+At an assumed $30 per hour, released capacity is valued at $30. A fictional $40 incremental tool charge leaves a negative $10 planning balance before setup costs. Released time is not automatically a reduction in payroll spending. This model is a reason to measure actual exceptions and revise the workflow, not a promise of savings.
+## Pilot with a small acceptance pack
+Test a duplicate starter, wrong manager, changed date, rejected approval, expired permission and unavailable destination using fictional records. Confirm that missing evidence stops the affected action, that an owner can see the exception, and that a manual fallback exists. Avoid testing outward actions against real staff merely to prove a demo works.
+Keep a record of the original scope, expected outcome, actual result and approved next change. The Microsoft onboarding case study is an example of one organization's implementation, not a universal recipe, cost benchmark or guarantee that the same integrations exist in your environment. Check actual features and access before selecting software.
+## Practical questions
+Can an automated task status certify employment compliance? No; it records the chosen workflow state, not a legal determination. Is a shared HR dashboard appropriate for every detail? No; summary and source access need separate review. What should a first pilot automate? One administrative handoff whose inputs, approval, destination, duplicate behavior and exception owner can be tested clearly.
+''',[APP,ONB,HB])
+add('O089','executive-kpi-dashboard','Executive KPI Dashboard: Cash, Capacity and Owner Decisions','Create an executive KPI report that connects money, service and capacity exceptions to accountable decisions. Includes original cash and contribution boundaries.', '''
+## Make the executive view a decision brief
+An executive KPI dashboard is a concise view of the measures an owner or leadership group uses to choose priorities. Its purpose is to surface a few material exceptions, their evidence and the action needed. It is not a replacement for detailed financial statements, operational records or every department's report.
+Use the [KPI/dashboard parent guide](/journal/kpi-dashboard-guide/) to define each measure. This page owns the owner-facing decision layer. The [financial dashboard example](/journal/financial-dashboard-example/) owns the detailed money view, and the [weekly business review](/journal/business-planner-weekly-review/) turns the chosen actions into a recurring routine.
+## Choose a small panel with accountable owners
+For each card, show period/cutoff, unit, actual, target or comparison, source owner and next decision. Pair a business outcome with a constraint: sales alongside delivery capacity, or available cash alongside the next dated payments. More sales are not automatically useful when delivery promises or cash timing cannot support them.
+| Decision area | Measure to define | Example question |
+| Money | Dated cash position and committed uses | Which payment or collection needs review before the next cutoff? |
+| Commercial result | Sales and contribution under an explicit cost basis | Is growth carrying its stated direct costs? |
+| Customer promise | On-time outcomes and open overdue work | Which promise is at risk now? |
+| Delivery capacity | Usable hours versus dated commitments | What must be rescheduled before accepting more work? |
+| Execution | Owned exceptions and closure evidence | Who will do what, by when, and how will closure be checked? |
+Do not add a card unless the audience can explain what decision a change would trigger. Record the target owner and date chosen; a red color without a decision rule is not an escalation process.
+## Original money example: separate sales, contribution and cash
+Suppose a fictional period records $18,000 revenue against a $20,000 plan, a $2,000 or 10% shortfall. Stated direct costs are $6,000 and listed overhead $8,000, leaving $4,000 before tax, owner compensation, financing and omitted items. That bounded result is not the period's cash increase.
+At the cash review, the bank balance is $12,000. The owner separately identifies $3,000 held for tax and $2,000 of customer deposits committed to their project obligations, leaving a $7,000 planning remainder under those assumptions. This is a management classification, not a universal legal determination of unrestricted cash. Confirm the actual nature of those balances in the source records.
+The next two weeks show $4,000 expected receipts and $8,000 scheduled payments. If they occur, the bank balance ends at $8,000. Holding the same $5,000 allocation constant in this simplified scenario leaves $3,000 against an owner-chosen $4,000 floor: a $1,000 planning gap. Show the dated path and uncertainty, not just the end total. The [weekly cash planner](/tools/weekly-cash-commitments-planner/) can organize manually entered dates; it does not verify a bank balance.
+## Show the constraint beside the target
+In a separate fictional service view, twenty completed jobs include eighteen on time: 90%. The owner-selected target is 95%, so the shortfall is five percentage points. Include open overdue jobs separately; completed-only performance can omit the slowest work that is still unfinished.
+Next week's usable delivery capacity is 120 hours but booked work needs 132, a twelve-hour gap. Increasing a revenue target does not create those hours. Give the operations owner a dated review of scope, schedule and available cover before promising another start. Use the [agency capacity example](/journal/agency-capacity-planning-example/) for a more detailed allocation method.
+## Write the action and closure evidence
+An effective exception row includes the metric/reference, evidence, decision needed, accountable owner, due date and closure test. For the cash example, closure might require confirmed timing and an approved revised payment plan; a green cell or an unchecked expectation is not proof that funds arrived.
+Keep the original source snapshot so the next meeting can compare like with like. Distinguish a corrected data error from a genuine operating change. If a source is late, label the result as stale or incomplete and assign the data issue rather than presenting an apparently precise new number.
+## Questions about executive reporting
+How many KPIs are enough? Use the few that change this audience's decisions; no universal card count guarantees quality. Should every team share the same detailed view? No; agree common definitions while limiting sensitive detail to an appropriate audience. Does a dashboard explain causes? It highlights questions and supported observations; investigation is still required. The [dashboard design guide](/journal/dashboard-design-guide/) shows how to make those definitions and actions readable.
+''',[MSD,MSB,['SBA: managing business finances','https://www.sba.gov/business-guide/manage-your-business/manage-your-finances']])
+add('O126','kpi-dashboard-guide','KPI Dashboard Guide: Definitions, Examples and Reporting Clusters','Choose the right dashboard, define each KPI with a numerator, period and owner, and connect specialist examples to a consistent business review process.', '''
+## Define the measure before choosing a dashboard
+A KPI is a selected measure tied to a business objective and a decision rule. A dashboard brings selected measures together for a defined audience and review cadence. Not every available metric is a useful KPI, and not every dashboard needs to be a live software application. A carefully maintained manual report can answer a bounded question when its sources and limits are visible.
+This is the parent guide for NexalyPlanner's dashboard and KPI reporting cluster. It owns shared definitions and the route to specialist examples. The individual pages below own their own use cases; the directory does not redefine their populations, calculations or software capabilities.
+## Choose the specialist guide for your question
+| Reporting job | Start here | What that owner covers |
+| Search visibility | [SEO dashboard guide](/journal/seo-dashboard-guide/) | Search Console scope, weighted CTR and page/query investigation |
+| Campaign decisions | [Marketing dashboard example](/journal/marketing-dashboard-example/) | Acquisition cohorts, spend, refunds and contribution |
+| Sales opportunities | [CRM dashboard example](/journal/crm-dashboard-example/) | Open pipeline, closed-cohort win rate and handoff capacity |
+| Readable reporting | [Dashboard design guide](/journal/dashboard-design-guide/) | Layout, weighted rates, visible status and accessibility |
+| Product-specific BI | [Power BI dashboard examples](/journal/power-bi-dashboard-examples/) | Report versus service dashboard, grain, joins, refresh and permissions |
+| Owner decisions | [Executive KPI report](/journal/executive-kpi-dashboard/) | Money, service and capacity exceptions with accountable actions |
+For existing operating contexts, use the [store dashboard](/journal/store-performance-dashboard/), [financial dashboard](/journal/financial-dashboard-example/), [client dashboard](/journal/client-dashboard-example/), [project dashboard](/journal/project-management-dashboard/) or [operations dashboard](/journal/operations-dashboard-example/). These pages are complementary owners, not synonyms to be replaced by a generic dashboard article.
+## Create a metric definition record
+Write down the business question, source system or register, one-record grain, numerator, denominator, exclusions, unit, date event, period/time zone, update cadence and accountable owner. State the comparison or target and what happens when the measure crosses it. Retain a version/date when a definition changes so an apparent trend is not merely a changed rule.
+| Definition field | Fictional delivery example |
+| Business question | Are completed customer orders meeting the original promise? |
+| Identity and event | One distinct order; full completion date in the selected period |
+| Numerator / denominator | Orders completed on or before original promise / all eligible completed orders |
+| Separate exception | Open overdue orders, outside the completed-order rate |
+| Unit and owner | Percent plus displayed counts; operations owner |
+| Review action | Investigate late/open promises and assign a dated response |
+The example defines a management measure; it is not a universal contract standard. If receipt quality, quantity or a different promise event matters, the definition and source fields must change. A measure called “on time” is not automatically an on-time-in-full score.
+## Keep stocks, flows and cohorts distinct
+A stock is a position at a cutoff, such as twelve open opportunities. A flow counts events during a period, such as ten opportunities closed this month. A cohort follows a declared set of records from a defined starting event through an observation window. Combining them in a ratio without explaining the relationship can produce a number that answers no useful question.
+The CRM example's six wins and four losses create a 60% closed-cohort win rate; twelve currently open deals are not its denominator. Likewise, a task-completion rate is not proof that an outcome improved. The [strategic-plan worksheet](/tools/strategic-plan-template/) keeps outcome progress separate from action status in a manual plan.
+## Recompute ratios from their underlying counts
+For two fictional groups, 90 of 100 and one of two orders are on time. Aggregate 91 / 102 = 89.22%, rather than averaging 90% and 50% to get 70%. Keep the counts available. When there are no eligible orders, display an unavailable rate and the zero denominator; do not invent a successful 0% or 100% result.
+A change from 90% to 95% is five percentage points, about a 5.56% relative increase. A target, a forecast and a recorded actual have different meanings. Label them instead of presenting three similarly colored cards as interchangeable evidence.
+## Connect the panel to a review routine
+Use a small exception log with owner, evidence, next action, due date and closure test. The [weekly business review](/journal/business-planner-weekly-review/) provides the recurring agenda. For the administrative process behind a staff-readiness measure, the [HR automation guide](/journal/hr-automation-guide/) explains approvals and exceptions; it does not automate personnel decisions.
+Before release, reconcile a total to source rows, test duplicate/missing records and stale data, check access and inspect the narrow-screen/table experience. State whether a page is an example, a manual worksheet or an actual connected report. Google, HubSpot and Microsoft documentation describe their own reporting scopes; those features are not automatically present in NexalyPlanner's free or paid products.
+## Frequently asked questions
+Is a KPI dashboard the same as a business plan? No; the dashboard monitors selected measures while a business plan explains a wider operation and expectations. Must it be real-time? No; choose an update cadence appropriate to the decision and label the cutoff. Will more charts improve the result? Only when they add interpretable evidence or help the intended reader choose an action.
+''',[MSB,GSC,HB])
+(D/'content.json').write_text(json.dumps(A,indent=2))

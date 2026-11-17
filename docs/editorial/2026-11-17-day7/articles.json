@@ -1,0 +1,162 @@
+[
+  {
+    "id": "O066",
+    "slug": "seo-dashboard-guide",
+    "title": "SEO Dashboard Guide: Search Metrics, CTR and Review Actions",
+    "desc": "Build a useful SEO dashboard with consistent Search Console filters, weighted CTR, page/query context and an original example where clicks rise while CTR falls.",
+    "sources": [
+      [
+        "Google Search Console: clicks, impressions and position",
+        "https://support.google.com/webmasters/answer/7042828?hl=en"
+      ],
+      [
+        "Google Analytics: user versus traffic acquisition",
+        "https://support.google.com/analytics/answer/14731736?hl=en"
+      ],
+      [
+        "Microsoft: dashboard design tips",
+        "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips"
+      ]
+    ]
+  },
+  {
+    "id": "O072",
+    "slug": "marketing-dashboard-example",
+    "title": "Marketing Dashboard Example: Leads, Acquisition Cost and Contribution",
+    "desc": "Use a marketing dashboard that separates session and customer scopes, measures a defined acquisition cohort and reconciles spend, refunds and direct contribution.",
+    "sources": [
+      [
+        "Google Analytics: user versus traffic acquisition",
+        "https://support.google.com/analytics/answer/14731736?hl=en"
+      ],
+      [
+        "HubSpot: sales analytics reports",
+        "https://knowledge.hubspot.com/reports/create-sales-reports-in-the-sales-analytics-suite"
+      ],
+      [
+        "Microsoft: dashboard design tips",
+        "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips"
+      ]
+    ]
+  },
+  {
+    "id": "O073",
+    "slug": "crm-dashboard-example",
+    "title": "CRM Dashboard Example: Pipeline, Win Rate and Delivery Capacity",
+    "desc": "Build a CRM dashboard that separates open pipeline from closed-cohort win rate, labels assumed probabilities and checks onboarding capacity before promising delivery.",
+    "sources": [
+      [
+        "HubSpot: sales analytics reports",
+        "https://knowledge.hubspot.com/reports/create-sales-reports-in-the-sales-analytics-suite"
+      ],
+      [
+        "Microsoft: dashboard design tips",
+        "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips"
+      ],
+      [
+        "Google Analytics: user versus traffic acquisition",
+        "https://support.google.com/analytics/answer/14731736?hl=en"
+      ]
+    ]
+  },
+  {
+    "id": "O074",
+    "slug": "dashboard-design-guide",
+    "title": "Dashboard Design Guide: Clear Metrics, Charts and Action Labels",
+    "desc": "Design a readable dashboard with visible units, filters, accessible status labels and correctly aggregated rates. Includes an original weighted-percentage example.",
+    "sources": [
+      [
+        "Microsoft: dashboard design tips",
+        "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips"
+      ],
+      [
+        "W3C: use of color",
+        "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html"
+      ],
+      [
+        "Google Search Console: clicks, impressions and position",
+        "https://support.google.com/webmasters/answer/7042828?hl=en"
+      ]
+    ]
+  },
+  {
+    "id": "O082",
+    "slug": "power-bi-dashboard-examples",
+    "title": "Power BI Dashboard Examples: Models, Totals and Review Tests",
+    "desc": "Plan Power BI reporting examples with the right record grain, a sales reconciliation, refresh evidence and permission checks. Distinguish service dashboards from reports.",
+    "sources": [
+      [
+        "Microsoft: dashboards in Power BI",
+        "https://learn.microsoft.com/en-us/power-bi/service-dashboards"
+      ],
+      [
+        "Microsoft: star schema guidance",
+        "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema"
+      ],
+      [
+        "Microsoft: row-level security",
+        "https://learn.microsoft.com/en-us/power-bi/guidance/rls-guidance"
+      ]
+    ]
+  },
+  {
+    "id": "O084",
+    "slug": "hr-automation-guide",
+    "title": "HR Automation Guide: Onboarding Tasks, Approvals and Exceptions",
+    "desc": "Design a bounded HR administration workflow with approval ownership, duplicate controls, readiness measures and a fictional effort model that includes exceptions.",
+    "sources": [
+      [
+        "Microsoft: Power Automate approvals",
+        "https://learn.microsoft.com/en-us/power-automate/get-started-approvals"
+      ],
+      [
+        "Microsoft: documented employee-onboarding case study",
+        "https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/streamline-employee-onboarding"
+      ],
+      [
+        "HubSpot: sales analytics reports",
+        "https://knowledge.hubspot.com/reports/create-sales-reports-in-the-sales-analytics-suite"
+      ]
+    ]
+  },
+  {
+    "id": "O089",
+    "slug": "executive-kpi-dashboard",
+    "title": "Executive KPI Dashboard: Cash, Capacity and Owner Decisions",
+    "desc": "Create an executive KPI report that connects money, service and capacity exceptions to accountable decisions. Includes original cash and contribution boundaries.",
+    "sources": [
+      [
+        "Microsoft: dashboard design tips",
+        "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips"
+      ],
+      [
+        "Microsoft: dashboards in Power BI",
+        "https://learn.microsoft.com/en-us/power-bi/service-dashboards"
+      ],
+      [
+        "SBA: managing business finances",
+        "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances"
+      ]
+    ]
+  },
+  {
+    "id": "O126",
+    "slug": "kpi-dashboard-guide",
+    "title": "KPI Dashboard Guide: Definitions, Examples and Reporting Clusters",
+    "desc": "Choose the right dashboard, define each KPI with a numerator, period and owner, and connect specialist examples to a consistent business review process.",
+    "sources": [
+      [
+        "Microsoft: dashboards in Power BI",
+        "https://learn.microsoft.com/en-us/power-bi/service-dashboards"
+      ],
+      [
+        "Google Search Console: clicks, impressions and position",
+        "https://support.google.com/webmasters/answer/7042828?hl=en"
+      ],
+      [
+        "HubSpot: sales analytics reports",
+        "https://knowledge.hubspot.com/reports/create-sales-reports-in-the-sales-analytics-suite"
+      ]
+    ]
+  }
+]

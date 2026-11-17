@@ -1,0 +1,35 @@
+[
+  {
+    "id": "O019",
+    "slug": "business-planner-weekly-review",
+    "decision": "Add metric definition/source cutoff/decision owner section and dashboard routes. Preserve datePublished; dateModified Nov17.",
+    "datePublished": [
+      "2026-09-15"
+    ],
+    "previousDateModified": [
+      "2026-11-03"
+    ]
+  },
+  {
+    "id": "O020",
+    "slug": "adhd-planner-for-adults",
+    "decision": "Reviewed current printable, task breakdown, restart guidance and organization-only scope. No substantive change justified; preserve dates.",
+    "datePublished": [
+      "2026-09-15"
+    ],
+    "previousDateModified": [
+      "2026-10-24"
+    ]
+  },
+  {
+    "id": "O021",
+    "slug": "interior-design-business-plan-project-capacity",
+    "decision": "Reviewed current scope/revision cost, 28h versus 32h capacity and deposit timing examples. No substantive change justified; preserve dates.",
+    "datePublished": [
+      "2026-10-13"
+    ],
+    "previousDateModified": [
+      "2026-10-29"
+    ]
+  }
+]
