@@ -20,3 +20,10 @@ for a in json.loads((R/'docs/editorial/2026-11-17-day7/audits.json').read_text()
  s=(R/'journal'/a['slug']/'index.html').read_text();assert re.findall(r'"datePublished"\s*:\s*"([^"]+)"',s)==a['datePublished']
  if a['id']!='O019':assert re.findall(r'"dateModified"\s*:\s*"([^"]+)"',s)==a['previousDateModified']
 print('PASS Day7 independent arithmetic, reporting windows, cluster links, PDF and original audit dates')
+
+# Public directory counts must match available cards before JavaScript runs.
+s=(R/"tools/index.html").read_text();total=0
+for section in re.findall(r'<section class="tool-category".*?</section>',s,re.S):
+ n=section.count('class="directory-tool ');total+=n;assert f'class="category-count">{n} planners'in section
+assert f'<b>{total}</b> free planners'in s and total==60
+print("PASS directory headline and category counts match actual resources")
