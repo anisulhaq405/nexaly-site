@@ -1,0 +1,242 @@
+[
+  {
+    "owner": "/journal/cash-flow-forecast-template-example/",
+    "topic": "Cash-flow forecast resource",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F06"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Forward-looking cash timing owner; do not relabel it as a historical statement of cash flows.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M005"
+  },
+  {
+    "owner": "/journal/cash-flow-report-template-variance/",
+    "topic": "Cash-flow report variance",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F07"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Actual-versus-forecast comparison owner; distinguish actual operating/investing/financing statement.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M006"
+  },
+  {
+    "owner": "/journal/financial-dashboard-example/",
+    "topic": "Cash flow versus profit and cash basics",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F10"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Simple definitions/formulas and cash-vs-profit interpretation can strengthen this current owner. Specialized statement/forecast queries route separately.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M014"
+  },
+  {
+    "owner": "/journal/small-business-balance-sheet-template/",
+    "topic": "Balance sheet resource",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F02"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Keep current downloadable/reconciliation owner. Comparison-to-income-statement questions are sections/links, not competing template pages.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M028"
+  },
+  {
+    "owner": "/journal/small-business-bookkeeping-workflow/",
+    "topic": "Bookkeeping workflow",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F23"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Workflow/source reconciliation owner. Specialized accounting calculations beyond current scope require review; no automated bank connection claim.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M029"
+  },
+  {
+    "owner": "/tools/service-business-financial-projections/",
+    "topic": "Financial projections",
+    "type": "Existing audit/update",
+    "old_ids": [
+      "O031"
+    ],
+    "old_day": 10,
+    "new_ids": [
+      "A04"
+    ],
+    "origin": "Both plans",
+    "boundary": "Existing editable projected service model owns worksheet entry; journal owns explanation. Not a historical statement or a new spreadsheet clone. Audit existing projected service-business model; test formulas and assumptions. Historical income/cash-flow templates and the statement collection must not duplicate this projected model.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M043"
+  },
+  {
+    "owner": "/journal/cost-of-goods-sold-example/",
+    "topic": "Cost of goods sold worked guide",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F26"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Opening stock/purchases/closing stock and manufacturing/service scope with original reconciliation. Distinct from a P&L resource and retail launch plan.",
+    "primary_query": "cost of goods sold formula",
+    "volume": 4400.0,
+    "kd": 40.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M054"
+  },
+  {
+    "owner": "/journal/laundromat-business-plan/",
+    "topic": "Laundromat business plan",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B08"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Machine turns/utility/downtime model. Broader laundry-service/dry-cleaning intent needs review before assigning as exact synonyms.",
+    "primary_query": "laundromat business plan",
+    "volume": 1000.0,
+    "kd": 7.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M069"
+  },
+  {
+    "owner": "/journal/nonprofit-dashboard-example/",
+    "topic": "Nonprofit dashboard",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O090"
+    ],
+    "old_day": 8,
+    "new_ids": [],
+    "origin": "Original Day 8",
+    "boundary": "Nonprofit operational KPI interpretation: donor/program/fund restrictions and decisions. Treasurer report owns reconciled period cash reporting; do not reproduce that template.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M071"
+  },
+  {
+    "owner": "/journal/operating-cash-flow-example/",
+    "topic": "Operating cash flow explained",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F09"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Operating-cash computation and reconciliation example, distinct from forecasting and free-cash-flow valuation.",
+    "primary_query": "operating cash flow formula",
+    "volume": 4400.0,
+    "kd": 33.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M072"
+  },
+  {
+    "owner": "/journal/owner-draw-cash-planning/",
+    "topic": "Owner withdrawal planning",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O087"
+    ],
+    "old_day": 8,
+    "new_ids": [],
+    "origin": "Original Day 8",
+    "boundary": "Owner cash withdrawal timing and effect on runway; distinguish owner drawings from salary, profit and business expenses. Verify entity/jurisdiction-specific treatment.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M073"
+  },
+  {
+    "owner": "/journal/small-business-financial-statements/",
+    "topic": "Financial statements explained",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F05"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Informational document-choice/reconciliation hub; O053 owns full template/builder intent. Not a complete pack until assets exist.",
+    "primary_query": "what are the 3 financial statements",
+    "volume": 590.0,
+    "kd": 12.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M080"
+  },
+  {
+    "owner": "/tools/cash-flow-statement-template/",
+    "topic": "Historical cash-flow statement example/template",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F08"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Historical operating/investing/financing reconciliation. Not the 13-week forecast; verify accounting method and coordinate O053 collection.",
+    "primary_query": "cash flow statement template",
+    "volume": 2400.0,
+    "kd": 56.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M088"
+  },
+  {
+    "owner": "/tools/income-statement-template/",
+    "topic": "Historical income statement / P&L template",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F01"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "One owner for template/formula/example variants; historical period profit, not bank cash or the existing projected service model. Coordinate component boundary with planned O053 bundle.",
+    "primary_query": "income statement template",
+    "volume": 3600.0,
+    "kd": 19.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M097"
+  },
+  {
+    "owner": "/tools/startup-budget-template/",
+    "topic": "Startup budget",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F11"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Pre-launch one-off costs, recurring burn and funding gap; not ongoing monthly variance.",
+    "primary_query": "startup budget template",
+    "volume": 880.0,
+    "kd": 12.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M106"
+  }
+]

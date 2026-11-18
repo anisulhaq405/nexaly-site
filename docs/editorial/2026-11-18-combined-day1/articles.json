@@ -1,0 +1,90 @@
+[
+  {
+    "id": "F05",
+    "slug": "small-business-financial-statements",
+    "title": "Small Business Financial Statements: Three Reports, One Worked Example",
+    "desc": "Understand the income statement, balance sheet and cash-flow statement with a reconciled small-business example and links to free working templates.",
+    "sources": [
+      [
+        "SEC: Beginners\u2019 Guide to Financial Statements",
+        "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+      ]
+    ]
+  },
+  {
+    "id": "F09",
+    "slug": "operating-cash-flow-example",
+    "title": "Operating Cash Flow Formula: Direct and Indirect Examples",
+    "desc": "Calculate operating cash flow using direct receipts and payments, then reconcile from profit with a transparent small-business example.",
+    "sources": [
+      [
+        "SEC: Beginners\u2019 Guide to Financial Statements",
+        "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+      ]
+    ]
+  },
+  {
+    "id": "F26",
+    "slug": "cost-of-goods-sold-example",
+    "title": "Cost of Goods Sold Formula: Inventory and COGS Worked Example",
+    "desc": "Work through opening inventory, net purchases and closing stock to calculate COGS, gross profit and margin without double-counting purchases.",
+    "sources": [
+      [
+        "IRS Publication 334: 2025 Tax Guide for Small Business",
+        "https://www.irs.gov/publications/p334"
+      ],
+      [
+        "SEC: small-business glossary",
+        "https://www.sec.gov/resources-small-businesses/glossary"
+      ]
+    ]
+  },
+  {
+    "id": "O087",
+    "slug": "owner-draw-cash-planning",
+    "title": "Owner Draw Cash Planning: A Dated Withdrawal Example",
+    "desc": "Plan a sole-owner withdrawal against dated cash commitments, collection risk and an explicit reserve without confusing drawings with profit or salary.",
+    "sources": [
+      [
+        "IRS Publication 334: 2025 Tax Guide for Small Business",
+        "https://www.irs.gov/publications/p334"
+      ],
+      [
+        "Michigan State University: financial statements and owner draw",
+        "https://openbooks.lib.msu.edu/financialmanagement1ed/chapter/financial-statements/"
+      ]
+    ]
+  },
+  {
+    "id": "O090",
+    "slug": "nonprofit-dashboard-example",
+    "title": "Nonprofit Dashboard Example: Cash, Funding and Program Capacity",
+    "desc": "Build a nonprofit board dashboard with clear cash restrictions, funding concentration, program capacity and decisions supported by an original worked example.",
+    "sources": [
+      [
+        "Propel Nonprofits: managing restricted funds",
+        "https://propelnonprofits.org/resources/managing-restricted-funds/"
+      ],
+      [
+        "National Council of Nonprofits: financial literacy for boards",
+        "https://councilofnonprofits.org/running-nonprofit/governance-leadership/financial-literacy-nonprofit-boards"
+      ]
+    ]
+  },
+  {
+    "id": "B08",
+    "slug": "laundromat-business-plan",
+    "title": "Laundromat Business Plan: Machines, Turns, Costs and Cash",
+    "desc": "Write a laundromat business plan using an original machine-utilisation model, startup funding schedule, downside case and practical evidence checklist.",
+    "sources": [
+      [
+        "Laundry Association: designing a business plan",
+        "https://www.laundryassociation.org/wp-content/uploads/2021/02/WhitePaper_BusinessPlan_Vol5No11_final.pdf"
+      ],
+      [
+        "US SBA: plan your business",
+        "https://www.sba.gov/business-guide/plan-your-business"
+      ]
+    ]
+  }
+]

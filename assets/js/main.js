@@ -292,6 +292,60 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/cost-of-goods-sold-example/",
+    "title": "Cost of Goods Sold Formula: Inventory and COGS Worked Example",
+    "excerpt": "Work through opening inventory, net purchases and closing stock to calculate COGS, gross profit and margin without double-counting purchases.",
+    "img": "/images/journal/cost-of-goods-sold-example-20261118.webp",
+    "alt": "Cost of Goods Sold Formula: Inventory and COGS Worked Example — original worked-example comparison",
+    "tag": "Planning Guides",
+    "date": "Nov 18, 2026"
+  },
+  {
+    "url": "/journal/laundromat-business-plan/",
+    "title": "Laundromat Business Plan: Machines, Turns, Costs and Cash",
+    "excerpt": "Write a laundromat business plan using an original machine-utilisation model, startup funding schedule, downside case and practical evidence checklist.",
+    "img": "/images/journal/laundromat-business-plan-20261118.webp",
+    "alt": "Laundromat Business Plan: Machines, Turns, Costs and Cash — original worked-example comparison",
+    "tag": "Planning Guides",
+    "date": "Nov 18, 2026"
+  },
+  {
+    "url": "/journal/nonprofit-dashboard-example/",
+    "title": "Nonprofit Dashboard Example: Cash, Funding and Program Capacity",
+    "excerpt": "Build a nonprofit board dashboard with clear cash restrictions, funding concentration, program capacity and decisions supported by an original worked example.",
+    "img": "/images/journal/nonprofit-dashboard-example-20261118.webp",
+    "alt": "Nonprofit Dashboard Example: Cash, Funding and Program Capacity — original worked-example comparison",
+    "tag": "Planning Guides",
+    "date": "Nov 18, 2026"
+  },
+  {
+    "url": "/journal/operating-cash-flow-example/",
+    "title": "Operating Cash Flow Formula: Direct and Indirect Examples",
+    "excerpt": "Calculate operating cash flow using direct receipts and payments, then reconcile from profit with a transparent small-business example.",
+    "img": "/images/journal/operating-cash-flow-example-20261118.webp",
+    "alt": "Operating Cash Flow Formula: Direct and Indirect Examples — original worked-example comparison",
+    "tag": "Planning Guides",
+    "date": "Nov 18, 2026"
+  },
+  {
+    "url": "/journal/owner-draw-cash-planning/",
+    "title": "Owner Draw Cash Planning: A Dated Withdrawal Example",
+    "excerpt": "Plan a sole-owner withdrawal against dated cash commitments, collection risk and an explicit reserve without confusing drawings with profit or salary.",
+    "img": "/images/journal/owner-draw-cash-planning-20261118.webp",
+    "alt": "Owner Draw Cash Planning: A Dated Withdrawal Example — original worked-example comparison",
+    "tag": "Planning Guides",
+    "date": "Nov 18, 2026"
+  },
+  {
+    "url": "/journal/small-business-financial-statements/",
+    "title": "Small Business Financial Statements: Three Reports, One Worked Example",
+    "excerpt": "Understand the income statement, balance sheet and cash-flow statement with a reconciled small-business example and links to free working templates.",
+    "img": "/images/journal/small-business-financial-statements-20261118.webp",
+    "alt": "Small Business Financial Statements: Three Reports, One Worked Example — original worked-example comparison",
+    "tag": "Planning Guides",
+    "date": "Nov 18, 2026"
+  },
+  {
     "url": "/journal/crm-dashboard-example/",
     "title": "CRM Dashboard Example: Pipeline, Win Rate and Delivery Capacity",
     "excerpt": "Build a CRM dashboard that separates open pipeline from closed-cohort win rate, labels assumed probabilities and checks onboarding capacity before promising delivery.",
@@ -424,7 +478,7 @@ var posts = [
     "img": "/images/journal/small-business-bookkeeping-workflow-20261112.webp",
     "alt": "Small-Business Bookkeeping Workflow: Capture, Reconcile and Close — conceptual planning scene",
     "tag": "Planning Guides",
-    "date": "Nov 12, 2026"
+    "date": "Updated Nov 18, 2026"
   },
   {
     "url": "/journal/business-process-automation/",
@@ -730,7 +784,7 @@ var posts = [
     "img": "/images/journal/financial-dashboard-example-20261104.webp?v=ee77423175f7",
     "alt": "Calculator and financial planning papers beside a tablet with conceptual charts",
     "tag": "Planning Guides",
-    "date": "Nov 4, 2026"
+    "date": "Updated Nov 18, 2026"
   },
   {
     "url": "/journal/project-management-dashboard/",
@@ -775,7 +829,7 @@ var posts = [
     "img": "/images/journal/small-business-balance-sheet-cover-20261023.webp?v=20261023",
     "alt": "Small-business financial records, laptop and calculator on a workshop office desk",
     "tag": "Planning Guides",
-    "date": "Oct 23, 2026"
+    "date": "Updated Nov 18, 2026"
   },
   {
     "url": "/journal/inventory-count-sheet/",
@@ -838,7 +892,7 @@ var posts = [
     "img": "/assets/img/workflows/cash-flow-report-template-variance-cover-v3.webp",
     "alt": "Cash Flow Report Template: Forecast vs Actual Variance editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Oct 13, 2026"
+    "date": "Updated Nov 18, 2026"
   },
   {
     "url": "/journal/coffee-shop-business-plan-daily-capacity/",
@@ -1090,7 +1144,7 @@ var posts = [
     "img": "/images/journal/cash-flow-forecast-template-example-v2.jpg",
     "alt": "Shop owner reviewing a 13-week cash flow chart and invoices under 13-Week Cash Flow",
     "tag": "Planning Guides",
-    "date": "Updated Nov 10, 2026"
+    "date": "Updated Nov 18, 2026"
   },
   {
     "url": "/journal/equipment-rental-business-plan-example/",
