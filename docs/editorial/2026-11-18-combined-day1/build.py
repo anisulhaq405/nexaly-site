@@ -84,3 +84,7 @@ for t in tools:
   c.setFont('Helvetica',8);c.drawString(40,36,'Static writing/example sheet: not fillable or calculating. Original NexalyPlanner model; see page for scope.');c.showPage()
  c.save()
 (D/'articles.json').write_text(json.dumps([{k:a[k]for k in ['id','slug','title','desc','sources']}for a in A],indent=2));print('Built 6 original journals, 3 working resources, 9 original charts and 6 downloadable files')
+
+# Preserve the owner-approved editorial covers after rebuilding Day1 source.
+if (R/'docs/editorial/2026-11-18-feature-refresh/images.json').exists():
+ runpy.run_path(str(R/'docs/editorial/2026-11-18-feature-refresh/apply.py'))

@@ -237,3 +237,7 @@ Research: Shopify, Toast and LivePlan core comparisons; SBA and FDA primary fact
 ## 18 November 2026 — combined eight-session sprint Day1 prepared
 
 Six new journals: small-business financial statements; operating cash flow; COGS; owner-draw cash planning; nonprofit dashboard; laundromat business plan. Three free resources: income statement, historical cash-flow statement, startup budget (browser + original XLSX + static PDF). Six scoped owner updates preserve original publication dates. Exact15 master IDs, ownership, research, limitations and release evidence: `docs/editorial/2026-11-18-combined-day1/`. Release is not called live until the checked PR is merged and production content verified. Remaining93 combined actions and40 conditional research families stay pending.
+
+## 18 November 2026 — Day1 visual refresh
+
+Owner requested replacing the six new journal and three free-planner chart-style feature covers to match the established editorial/planner-cover theme. Nine new topic-specific AI-generated covers, versioned WebP paths, truthful conceptual-illustration captions and descriptive alt text. Journal/home catalogs, three directory previews and social image metadata regenerated. Worked examples, publication dates, worksheet calculations and downloads unchanged. Source prompts/mapping and release checks: `docs/editorial/2026-11-18-feature-refresh/`.

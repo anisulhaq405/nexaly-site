@@ -1,0 +1,101 @@
+[
+  {
+    "key": "financial-statements",
+    "kind": "journal",
+    "slug": "small-business-financial-statements",
+    "alt": "Small-business owner reviewing financial reports beside a laptop at a warm studio desk",
+    "asset": "/images/journal/small-business-financial-statements-feature-20261118-v2.webp",
+    "previous_asset": "/images/journal/small-business-financial-statements-20261118.webp",
+    "source_sha256": "1d7b605a7f842d5e4014ad4a471a4d40dc2e621fa604eff4bdb38cbde35b3bd6",
+    "source_image_name": "exec-c75850d4-e2a7-42c5-ba24-3cd081ef06f7.png",
+    "bytes": 168140
+  },
+  {
+    "key": "cogs",
+    "kind": "journal",
+    "slug": "cost-of-goods-sold-example",
+    "alt": "Retailer checking product stock and purchase records in a sunlit stockroom",
+    "asset": "/images/journal/cost-of-goods-sold-example-feature-20261118-v2.webp",
+    "previous_asset": "/images/journal/cost-of-goods-sold-example-20261118.webp",
+    "source_sha256": "4cacdd638722e7357cc7a3e4eb601d0ed65891da04dc7aba46592edc49d2b905",
+    "source_image_name": "exec-46347d43-05fc-4f83-95e6-d2811120a350.png",
+    "bytes": 145760
+  },
+  {
+    "key": "laundromat",
+    "kind": "journal",
+    "slug": "laundromat-business-plan",
+    "alt": "Laundromat owner planning beside washing machines, a clipboard and tablet",
+    "asset": "/images/journal/laundromat-business-plan-feature-20261118-v2.webp",
+    "previous_asset": "/images/journal/laundromat-business-plan-20261118.webp",
+    "source_sha256": "ecf7e81d76271da67e944926c88ba7a4f12b892679fa74a8cd6bd266499d2691",
+    "source_image_name": "exec-afdee969-587b-4940-9638-1ad96f7866c4.png",
+    "bytes": 133550
+  },
+  {
+    "key": "nonprofit",
+    "kind": "journal",
+    "slug": "nonprofit-dashboard-example",
+    "alt": "Nonprofit coordinators reviewing programme and funding records at a laptop",
+    "asset": "/images/journal/nonprofit-dashboard-example-feature-20261118-v2.webp",
+    "previous_asset": "/images/journal/nonprofit-dashboard-example-20261118.webp",
+    "source_sha256": "5913193e7a23e97c202384c148340a834c26f716cf5feabc060b84d8487192c1",
+    "source_image_name": "exec-dda256c8-79a4-4c27-90a0-b1b86653e6c8.png",
+    "bytes": 154228
+  },
+  {
+    "key": "operating-cash",
+    "kind": "journal",
+    "slug": "operating-cash-flow-example",
+    "alt": "Business owner reviewing customer receipts and supplier payments beside a calendar",
+    "asset": "/images/journal/operating-cash-flow-example-feature-20261118-v2.webp",
+    "previous_asset": "/images/journal/operating-cash-flow-example-20261118.webp",
+    "source_sha256": "82562ed353e1fe82fe8fb6d2657003aef5fc89a6023902ce523ed0042d3ba741",
+    "source_image_name": "exec-60337978-f04a-4615-858d-d2daf67975b7.png",
+    "bytes": 128678
+  },
+  {
+    "key": "owner-draw",
+    "kind": "journal",
+    "slug": "owner-draw-cash-planning",
+    "alt": "Solo business owner considering calendar dates and payment commitments",
+    "asset": "/images/journal/owner-draw-cash-planning-feature-20261118-v2.webp",
+    "previous_asset": "/images/journal/owner-draw-cash-planning-20261118.webp",
+    "source_sha256": "c8f5232b05c86cf1f33ebfedef16913b00ad6d6807d308e3ac3ae9f4813ee68f",
+    "source_image_name": "exec-46bfcb76-4e27-40f1-a412-f540cfc3ea17.png",
+    "bytes": 145734
+  },
+  {
+    "key": "income-tool",
+    "kind": "tools",
+    "slug": "income-statement-template",
+    "alt": "Income Statement Template cover with a conceptual laptop worksheet, paper P&L and calculator",
+    "asset": "/images/journal/income-statement-template-feature-20261118-v2.webp",
+    "previous_asset": "/images/journal/income-statement-template-20261118.webp",
+    "source_sha256": "69bfd9125fd27427a11980c5c6888adf10723ca015d6962285a965496ee38347",
+    "source_image_name": "exec-faba15f9-8562-4b39-b9df-46b2ccef99ee.png",
+    "bytes": 114518
+  },
+  {
+    "key": "cash-tool",
+    "kind": "tools",
+    "slug": "cash-flow-statement-template",
+    "alt": "Cash Flow Statement cover with a conceptual tablet showing three cash activity categories",
+    "asset": "/images/journal/cash-flow-statement-template-feature-20261118-v2.webp",
+    "previous_asset": "/images/journal/cash-flow-statement-template-20261118.webp",
+    "source_sha256": "1e11f3cd7af279c165b7e22111fe407dd86b768eb96bb106e70d7cc7aef55497",
+    "source_image_name": "exec-2af59abd-c102-45ca-b5f9-99a84207aeeb.png",
+    "bytes": 113574
+  },
+  {
+    "key": "startup-tool",
+    "kind": "tools",
+    "slug": "startup-budget-template",
+    "alt": "Startup Budget Planner cover with a conceptual laptop worksheet, notebook and calculator",
+    "asset": "/images/journal/startup-budget-template-feature-20261118-v2.webp",
+    "previous_asset": "/images/journal/startup-budget-template-20261118.webp",
+    "source_sha256": "64bbda0274854e86444f6584e6c4e612406b7577847870ee5e231cc5e3f25ae4",
+    "source_image_name": "exec-ee600e25-10cd-447a-ac43-f8626efd3ad6.png",
+    "bytes": 104502
+  }
+]
