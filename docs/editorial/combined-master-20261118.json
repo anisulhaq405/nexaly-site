@@ -1,0 +1,1876 @@
+[
+  {
+    "owner": "/journal/business-plan-examples/",
+    "topic": "Business-plan examples directory",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B14"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Directory routes to existing industry owners. Generic examples not another business-plan-template URL.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M001",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/business-plan-financial-projections-service-example/",
+    "topic": "Business plan financial projections",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B12"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Current worked service financial model; actual statements remain different.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M002",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/business-plan-for-a-loan/",
+    "topic": "Business plan loan application",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B01"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Plan-writing/evidence for a lender; no approval guarantee or provider eligibility advice.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M003",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/business-plan-guide/",
+    "topic": "Business-plan guide and components",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B16"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Full guide/component/definition owner; not a new page for every how-to phrase.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M004",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/cash-flow-forecast-template-example/",
+    "topic": "Cash-flow forecast resource",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F06"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Forward-looking cash timing owner; do not relabel it as a historical statement of cash flows.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M005",
+    "execution_day": 1,
+    "execution_status": "Implemented and locally verified; publication evidence recorded separately in Day1 release report"
+  },
+  {
+    "owner": "/journal/cash-flow-report-template-variance/",
+    "topic": "Cash-flow report variance",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F07"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Actual-versus-forecast comparison owner; distinguish actual operating/investing/financing statement.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M006",
+    "execution_day": 1,
+    "execution_status": "Implemented and locally verified; publication evidence recorded separately in Day1 release report"
+  },
+  {
+    "owner": "/journal/college-assignment-tracker/",
+    "topic": "Assignment tracker",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "A01"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Existing actual downloadable assignment resource; not a new Excel synonym page.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M007",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/consulting-business-plan/",
+    "topic": "Consulting business plan",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "A03"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Current scope/hours/cash owner; consultancy-service navigation is not an offer of consulting.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M008",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/contract-renewal-workflow/",
+    "topic": "Subscription tracker / renewal workflow",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F28"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Current renewal/notice/backup workflow; route to supported manual tools and actual product guides. No cloud-sync promises.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M009",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/ecommerce-business-plan/",
+    "topic": "Ecommerce business plan",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B07",
+      "S08"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Existing orders/returns/cash owner. Operating/launch-plan section and route to order tools. Website-builder click tutorials require separate intent validation.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M010",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/farm-business-plan/",
+    "topic": "Farm business plan",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B04"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Existing farm enterprise owner; seed-company specialization is conditional on a distinct model, not keyword substitution.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M011",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/farmers-market-business-plan/",
+    "topic": "Farmers-market business plan",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B05"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Stall costs/waste/cash, separate from farm production.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M012",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/fashion-line-business-plan/",
+    "topic": "Fashion-line business plan",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B03"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Current collection, returns and launch-cash owner; not retail-store model.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M013",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/financial-dashboard-example/",
+    "topic": "Cash flow versus profit and cash basics",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F10"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Simple definitions/formulas and cash-vs-profit interpretation can strengthen this current owner. Specialized statement/forecast queries route separately.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M014",
+    "execution_day": 1,
+    "execution_status": "Implemented and locally verified; publication evidence recorded separately in Day1 release report"
+  },
+  {
+    "owner": "/journal/homeschool-attendance-tracker/",
+    "topic": "Homeschool attendance",
+    "type": "Existing audit/update",
+    "old_ids": [
+      "O030"
+    ],
+    "old_day": 10,
+    "new_ids": [],
+    "origin": "Original Day 10",
+    "boundary": "Attendance recording workflow and usable log; jurisdiction requirements must be independently verified rather than universally asserted.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M015",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/homeschool-planner-multiple-children/",
+    "topic": "Homeschool multiple children",
+    "type": "Existing audit/update",
+    "old_ids": [
+      "O026"
+    ],
+    "old_day": 9,
+    "new_ids": [],
+    "origin": "Original Day 9",
+    "boundary": "Multiple-child homeschool scheduling and shared-resource coordination; avoid generic homeschool setup duplication.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M016",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/how-to-start-a-business/",
+    "topic": "Starting a business guide",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "S06"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Current broad launch/evidence gates owner. State/legal applications and funding choices must not be assigned here as solved without source review.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M017",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/hr-automation-guide/",
+    "topic": "HR automation",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "H03"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Existing workflow/approval owner. Do not duplicate the new manual checklist or claim connected tools.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M018",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/it-consulting-business-plan-retainer-capacity/",
+    "topic": "IT consulting plan",
+    "type": "Existing audit/update",
+    "old_ids": [
+      "O023"
+    ],
+    "old_day": 8,
+    "new_ids": [],
+    "origin": "Original Day 8",
+    "boundary": "IT consulting capacity, retainers, support obligations and cash assumptions. Generic consulting and marketing-agency plans retain their own delivery models.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M019",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/monthly-planner-free-templates/",
+    "topic": "Monthly planner templates",
+    "type": "Existing audit/update",
+    "old_ids": [
+      "O027"
+    ],
+    "old_day": 9,
+    "new_ids": [],
+    "origin": "Original Day 9",
+    "boundary": "Monthly planner layout and usable template intent. Planner format choices owns format selection, not a second monthly-template collection.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M020",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/nonprofit-business-plan/",
+    "topic": "Nonprofit business plan",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B02"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "One current nonprofit owner; strategic objective worksheets can use existing strategic-plan tool.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M021",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/one-page-business-plan-template-assumptions/",
+    "topic": "One-page business plan",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B11"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Explanatory original example/assumptions owner; use existing one-page builder for filling in. No new synonym article.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M022",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/one-page-marketing-plan-example/",
+    "topic": "Marketing-plan guide and template",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "M01"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Current strategy/plan/campaign distinctions and worked budget. Word-target query only after a true DOCX exists.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M023",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/planner-sizes-chart-printable-inserts/",
+    "topic": "Planner sizes",
+    "type": "Existing audit/update",
+    "old_ids": [
+      "O029"
+    ],
+    "old_day": 10,
+    "new_ids": [],
+    "origin": "Original Day 10",
+    "boundary": "Actual planner dimensions, print scaling and insert compatibility. Format-choice guide owns medium selection.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M024",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/project-management-dashboard/",
+    "topic": "Project schedule and status",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "P03"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Information/status metrics owner; downloadable schedule terms route to P01/P02 rather than promising existing software features.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M025",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/retail-store-business-plan-example/",
+    "topic": "Retail store plan",
+    "type": "Existing audit/update",
+    "old_ids": [
+      "O022"
+    ],
+    "old_day": 8,
+    "new_ids": [
+      "B06",
+      "S09"
+    ],
+    "origin": "Both plans",
+    "boundary": "Existing retail opening-stock/operations owner. Current boutique retail model and opening stock, not another new boutique startup page. Retain retail owner URL. Add only justified inventory, opening stock, margin and cash-planning improvements; no separate general store synonym page.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M026",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/sales-inventory-tracking-small-business/",
+    "topic": "Inventory dashboard owner",
+    "type": "Existing audit/update",
+    "old_ids": [
+      "O025"
+    ],
+    "old_day": 9,
+    "new_ids": [],
+    "origin": "Original Day 9",
+    "boundary": "Inventory dashboard and sales/stock decisions; connect COGS and order flow where relevant, keep the indexed owner.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M027",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/small-business-balance-sheet-template/",
+    "topic": "Balance sheet resource",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F02"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Keep current downloadable/reconciliation owner. Comparison-to-income-statement questions are sections/links, not competing template pages.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M028",
+    "execution_day": 1,
+    "execution_status": "Implemented and locally verified; publication evidence recorded separately in Day1 release report"
+  },
+  {
+    "owner": "/journal/small-business-bookkeeping-workflow/",
+    "topic": "Bookkeeping workflow",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F23"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Workflow/source reconciliation owner. Specialized accounting calculations beyond current scope require review; no automated bank connection claim.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M029",
+    "execution_day": 1,
+    "execution_status": "Implemented and locally verified; publication evidence recorded separately in Day1 release report"
+  },
+  {
+    "owner": "/journal/small-engine-repair-business-plan/",
+    "topic": "Repair shop plan",
+    "type": "Existing audit/update",
+    "old_ids": [
+      "O024"
+    ],
+    "old_day": 8,
+    "new_ids": [],
+    "origin": "Original Day 8",
+    "boundary": "Repair-shop labour, parts, work-in-progress and seasonality. Keep practical repair economics and the indexed URL.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M030",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/weekly-digital-planner-small-business/",
+    "topic": "Weekly operating plan",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "S10"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Current operating/filled-week plan owner; broad business success promises excluded.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M031",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/planners/business-operating-systems/",
+    "topic": "Business software category and comparison",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "S11"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Current public category can explain supported offline workflows and route to truthful guides/demos. No changes to product features or pricing are authorized.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M032",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/planners/digital-homeschool-planner/",
+    "topic": "Homeschool software product",
+    "type": "Existing audit/update",
+    "old_ids": [
+      "O032"
+    ],
+    "old_day": 10,
+    "new_ids": [],
+    "origin": "Original Day 10",
+    "boundary": "Evidence-based public product-page audit only. No paid application workflow, checkout, price or data-contract modifications under this merge task.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M033",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/business-plan-cover-page/",
+    "topic": "Business plan cover page",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B10"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Layout only, not full plan.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M034",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/business-plan-template/",
+    "topic": "Business-plan editable template / outline",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B15"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "One editable template/outline owner; explanatory components stay the current guide. Specific Word/Excel claims require actual files.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M035",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/business-proposal-template/",
+    "topic": "Business proposal template and example",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B17"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "One scope/price/acceptance proposal owner. A separate editorial proposal guide only if GSC/SERP proves distinct information need.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M036",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/business-startup-checklist/",
+    "topic": "Startup checklist",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "S01"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "One preparation/evidence checklist; not budget calculations.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M037",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/daily-schedule-builder/",
+    "topic": "Daily schedule planning",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "P05"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Review exact task against current daily schedule/service maintenance owners; ambiguous broad service/maintenance queries remain validation holds.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M038",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/expense-report-template/",
+    "topic": "Employee expense report",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F17"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Employee reimbursement claim; not all-company transaction tracking.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M039",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/homeschool-portfolio-index/",
+    "topic": "Homeschool portfolio tool",
+    "type": "Existing audit/update",
+    "old_ids": [
+      "O028"
+    ],
+    "old_day": 9,
+    "new_ids": [],
+    "origin": "Original Day 9",
+    "boundary": "Portfolio evidence index: test inputs, saving and export as offered. Attendance and curriculum selection retain separate owners.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M040",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/invoice-collection-schedule/",
+    "topic": "Invoice collection email and follow-up",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F25"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Add original optional message examples to current follow-up workflow; no automated sending claim.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M041",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/monthly-business-budget-variance/",
+    "topic": "Business monthly budget",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F16"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Monthly business plan/actual owner; income/expense ledger queries only after adding actual row-ledger capability or routing to F18.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M042",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/service-business-financial-projections/",
+    "topic": "Financial projections",
+    "type": "Existing audit/update",
+    "old_ids": [
+      "O031"
+    ],
+    "old_day": 10,
+    "new_ids": [
+      "A04"
+    ],
+    "origin": "Both plans",
+    "boundary": "Existing editable projected service model owns worksheet entry; journal owns explanation. Not a historical statement or a new spreadsheet clone. Audit existing projected service-business model; test formulas and assumptions. Historical income/cash-flow templates and the statement collection must not duplicate this projected model.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M043",
+    "execution_day": 1,
+    "execution_status": "Implemented and locally verified; publication evidence recorded separately in Day1 release report"
+  },
+  {
+    "owner": "/tools/strategic-plan-template/",
+    "topic": "Strategic plan worksheet",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B18"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Current objective/action/capacity worksheet; nonprofit examples are a section, not another generic tool.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M044",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/adhd-organization-layouts/",
+    "topic": "ADHD organization layout",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O098"
+    ],
+    "old_day": 10,
+    "new_ids": [],
+    "origin": "Original Day 10",
+    "boundary": "Concrete ADHD-friendly organisation layouts and practical examples; retain existing ADHD planner guide as parent, no treatment promises.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M045",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/adhd-time-planning-tools/",
+    "topic": "Planning time estimates",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O103"
+    ],
+    "old_day": 10,
+    "new_ids": [],
+    "origin": "Original Day 10",
+    "boundary": "Time estimation, buffers and feedback examples for ADHD planning. Existing time-blocking and new Pomodoro content remain distinct; no clinical claims.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M046",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/ai-business-tools-comparison/",
+    "topic": "Business AI tool comparison",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O092"
+    ],
+    "old_day": 10,
+    "new_ids": [],
+    "origin": "Original Day 10",
+    "boundary": "Cross-function small-business AI tool selection with actual evaluation evidence. Existing AI content, marketing and productivity comparisons own narrower specialist intents.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M047",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/business-intelligence-small-business/",
+    "topic": "Business intelligence",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O121"
+    ],
+    "old_day": 11,
+    "new_ids": [],
+    "origin": "Original Day 11",
+    "boundary": "Business intelligence concepts and decision workflow. Existing KPI dashboard hub owns metric definitions; tool-specific dashboard pages own implementation.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M048",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/business-model-examples/",
+    "topic": "Business models explained",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B20"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "How a model creates/delivers/captures value; distinct from business-plan narrative or an ideas list.",
+    "primary_query": "business model examples",
+    "volume": 720.0,
+    "kd": 39.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M049",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/business-plan-executive-summary-example/",
+    "topic": "Executive-summary worked example",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B09"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Business-plan-specific worked example; broad slide/report summary intent needs review, not automatic Word/PowerPoint page variants.",
+    "primary_query": "business plan executive summary example",
+    "volume": 590.0,
+    "kd": 33.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M050",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/business-plan-market-analysis/",
+    "topic": "Business-plan market analysis worked guide",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "D01"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Original buyer/competitor/evidence and market-size example, distinct from the full business-plan guide and marketing action plan. Demand value is the PDF third-party value, not Semrush confirmation.",
+    "primary_query": "how to do market analysis for a business plan",
+    "volume": 140,
+    "kd": null,
+    "demand_source": "Supplied PDF: seodata.dev US; not Semrush; KD unavailable",
+    "status": "Pending research/production and release QA",
+    "master_id": "M051",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/business-plan-software-comparison/",
+    "topic": "Business-plan software",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O088"
+    ],
+    "old_day": 8,
+    "new_ids": [
+      "B13"
+    ],
+    "origin": "Both plans",
+    "boundary": "Original O088 Day8. Comparisons/writing-service intent requires verified capabilities; no promise to provide consultancy or an AI generator. Business-plan software decision guide; current features/prices and evidence required. Business-plan writing, examples and free template have separate owners.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M052",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/catering-business-plan/",
+    "topic": "Catering business launch plan",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B22"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Per-event food/labor/equipment/delivery/guest-count/cash model. Distinct from restaurant seats and current coffee-shop or bar models.",
+    "primary_query": "how to start a catering business",
+    "volume": 1000.0,
+    "kd": 11.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M053",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/cost-of-goods-sold-example/",
+    "topic": "Cost of goods sold worked guide",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F26"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Opening stock/purchases/closing stock and manufacturing/service scope with original reconciliation. Distinct from a P&L resource and retail launch plan.",
+    "primary_query": "cost of goods sold formula",
+    "volume": 4400.0,
+    "kd": 40.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M054",
+    "execution_day": 1,
+    "execution_status": "Implemented and locally verified; publication evidence recorded separately in Day1 release report"
+  },
+  {
+    "owner": "/journal/crm-for-small-business-guide/",
+    "topic": "CRM concepts",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O118"
+    ],
+    "old_day": 11,
+    "new_ids": [],
+    "origin": "Original Day 11",
+    "boundary": "Small-business CRM concepts and process literacy; existing CRM dashboard, automation and software comparison own reporting, workflow and product selection.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M055",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/customer-survey-dashboard/",
+    "topic": "Customer survey dashboard",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O106"
+    ],
+    "old_day": 8,
+    "new_ids": [],
+    "origin": "Original Day 8",
+    "boundary": "Survey-response analysis, denominators, response bias and customer decisions; not another generic marketing dashboard.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M056",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/document-process-automation/",
+    "topic": "Document automation",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O102"
+    ],
+    "old_day": 8,
+    "new_ids": [],
+    "origin": "Original Day 8",
+    "boundary": "Document intake, version, approval and exception workflow. Invoice/proposal templates own document creation; do not claim automatic integrations without tests.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M057",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/entrepreneurship-guide/",
+    "topic": "Entrepreneurship foundation",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O127"
+    ],
+    "old_day": 11,
+    "new_ids": [
+      "S05"
+    ],
+    "origin": "Both plans",
+    "boundary": "Original O127 Day11; practical skills/resources, not dictionary synonyms or unsubstantiated success claims. Entrepreneurship foundation and route to validation, launch and operations; starting-a-business owner keeps the launch checklist; ideas directory keeps idea discovery.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M058",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/google-sheets-dashboard-example/",
+    "topic": "Sheets dashboards",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O096"
+    ],
+    "old_day": 8,
+    "new_ids": [],
+    "origin": "Original Day 8",
+    "boundary": "Google Sheets dashboard implementation and formulas, with a working original sheet. General dashboard design and KPI definitions stay with their existing owners.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M059",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/home-based-business-plan/",
+    "topic": "Home business execution",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O086"
+    ],
+    "old_day": 9,
+    "new_ids": [
+      "S02"
+    ],
+    "origin": "Both plans",
+    "boundary": "Original O086 Day9 execution owner. Ideas-only terms go to planned O123 directory initially; no third home-business synonym URL. Home-business execution: space, time, capacity, launch and cash. Business ideas directory owns the broad idea list.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M060",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/homeschool-app-comparison/",
+    "topic": "Homeschool app comparison",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O107"
+    ],
+    "old_day": 10,
+    "new_ids": [],
+    "origin": "Original Day 10",
+    "boundary": "Homeschool app comparison with current verified capabilities and fit. Existing owned-product page remains a product page; disclose commercial relationship.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M061",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/homeschool-co-op-planning/",
+    "topic": "Homeschool co-op planning",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O080"
+    ],
+    "old_day": 9,
+    "new_ids": [],
+    "origin": "Original Day 9",
+    "boundary": "Co-op scheduling, role allocation, contributions and handoffs; distinguish home-only family planning and curriculum-directory intent.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M062",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/homeschool-curriculum-resources/",
+    "topic": "Homeschool resource directory",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O061"
+    ],
+    "old_day": 9,
+    "new_ids": [],
+    "origin": "Original Day 9",
+    "boundary": "Curriculum-resource discovery directory with selection criteria and current verified availability. Starter guide owns the setup process; secular guide owns secular selection.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M063",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/homeschool-lesson-plan-resources/",
+    "topic": "Homeschool lesson-plan resources",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O097"
+    ],
+    "old_day": 10,
+    "new_ids": [],
+    "origin": "Original Day 10",
+    "boundary": "Lesson-plan resource selection and original lesson-planning example; curriculum directory owns curriculum discovery.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M064",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/homeschool-planning-starter-guide/",
+    "topic": "Getting started homeschooling",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O122"
+    ],
+    "old_day": 11,
+    "new_ids": [],
+    "origin": "Original Day 11",
+    "boundary": "First-step homeschool planning, goals, records and review; directory, secular, co-op and kindergarten pages own specialised needs.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M065",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/how-to-use-a-planner/",
+    "topic": "Planner use skills",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O111"
+    ],
+    "old_day": 11,
+    "new_ids": [],
+    "origin": "Original Day 11",
+    "boundary": "Practical planner-use method with an original before/after weekly example; format, sizes and specialised layouts remain child topics.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M066",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/hr-dashboard-example/",
+    "topic": "HR dashboard",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O101"
+    ],
+    "old_day": 8,
+    "new_ids": [],
+    "origin": "Original Day 8",
+    "boundary": "HR KPI reporting and workforce decisions. Onboarding/offboarding/training checklist tools own task completion; HR automation guide owns workflow automation.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M067",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/kindergarten-homeschool-planning/",
+    "topic": "Kindergarten planning",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O068"
+    ],
+    "old_day": 9,
+    "new_ids": [],
+    "origin": "Original Day 9",
+    "boundary": "Kindergarten-level planning examples and realistic routine; no medical or jurisdiction compliance promises.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M068",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/laundromat-business-plan/",
+    "topic": "Laundromat business plan",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B08"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Machine turns/utility/downtime model. Broader laundry-service/dry-cleaning intent needs review before assigning as exact synonyms.",
+    "primary_query": "laundromat business plan",
+    "volume": 1000.0,
+    "kd": 7.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M069",
+    "execution_day": 1,
+    "execution_status": "Implemented and locally verified; publication evidence recorded separately in Day1 release report"
+  },
+  {
+    "owner": "/journal/marketing-agency-business-plan/",
+    "topic": "Marketing agency launch plan",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B21"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Agency offer/retainer capacity/staff or contractor/cash model. Existing agency-profit-margin guide retains calculation ownership; full startup plan is a different task.",
+    "primary_query": "how to start a marketing agency",
+    "volume": 720.0,
+    "kd": 28.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M070",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/nonprofit-dashboard-example/",
+    "topic": "Nonprofit dashboard",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O090"
+    ],
+    "old_day": 8,
+    "new_ids": [],
+    "origin": "Original Day 8",
+    "boundary": "Nonprofit operational KPI interpretation: donor/program/fund restrictions and decisions. Treasurer report owns reconciled period cash reporting; do not reproduce that template.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M071",
+    "execution_day": 1,
+    "execution_status": "Implemented and locally verified; publication evidence recorded separately in Day1 release report"
+  },
+  {
+    "owner": "/journal/operating-cash-flow-example/",
+    "topic": "Operating cash flow explained",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F09"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Operating-cash computation and reconciliation example, distinct from forecasting and free-cash-flow valuation.",
+    "primary_query": "operating cash flow formula",
+    "volume": 4400.0,
+    "kd": 33.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M072",
+    "execution_day": 1,
+    "execution_status": "Implemented and locally verified; publication evidence recorded separately in Day1 release report"
+  },
+  {
+    "owner": "/journal/owner-draw-cash-planning/",
+    "topic": "Owner withdrawal planning",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O087"
+    ],
+    "old_day": 8,
+    "new_ids": [],
+    "origin": "Original Day 8",
+    "boundary": "Owner cash withdrawal timing and effect on runway; distinguish owner drawings from salary, profit and business expenses. Verify entity/jurisdiction-specific treatment.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M073",
+    "execution_day": 1,
+    "execution_status": "Implemented and locally verified; publication evidence recorded separately in Day1 release report"
+  },
+  {
+    "owner": "/journal/planner-format-choices/",
+    "topic": "Planner format choices",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O091"
+    ],
+    "old_day": 9,
+    "new_ids": [],
+    "origin": "Original Day 9",
+    "boundary": "Choose paper, PDF, spreadsheet and app formats through practical task fit; size chart owns dimensions; software-model guide owns subscription/one-time economics.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M074",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/pomodoro-planning-example/",
+    "topic": "Pomodoro planning",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O093"
+    ],
+    "old_day": 10,
+    "new_ids": [],
+    "origin": "Original Day 10",
+    "boundary": "Worked Pomodoro planning session, breaks and review; distinguish a static schedule and ADHD time-estimation support.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M075",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/restaurant-business-plan/",
+    "topic": "Restaurant business plan",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "D02"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Restaurant menu/seat/service-model/food-cost/labor/cash example, distinct from bakery, coffee shop and bar models. One owner for restaurant plan/template/example variants; reuse existing broad plan tool rather than a second generic generator. PDF volume not Semrush-verified.",
+    "primary_query": "restaurant business plan example",
+    "volume": 880,
+    "kd": null,
+    "demand_source": "Supplied PDF: seodata.dev US; not Semrush; KD unavailable",
+    "status": "Pending research/production and release QA",
+    "master_id": "M076",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/rpa-vs-ai-automation/",
+    "topic": "RPA and AI distinction",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O119"
+    ],
+    "old_day": 11,
+    "new_ids": [],
+    "origin": "Original Day 11",
+    "boundary": "RPA versus AI distinction through bounded workflow examples; no duplicate general automation guide or untested implementation claims.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M077",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/saas-vs-one-time-purchase-software/",
+    "topic": "SaaS software models",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O120"
+    ],
+    "old_day": 11,
+    "new_ids": [],
+    "origin": "Original Day 11",
+    "boundary": "Software delivery/payment models and fit, with lifetime-cost assumptions. Product recommendation pages own specific comparisons.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M078",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/secular-homeschool-curriculum-planning/",
+    "topic": "Secular resource selection",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O085"
+    ],
+    "old_day": 9,
+    "new_ids": [],
+    "origin": "Original Day 9",
+    "boundary": "Criteria and worked comparison for secular resource selection, with verified provider statements; not a duplicate curriculum directory.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M079",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/small-business-financial-statements/",
+    "topic": "Financial statements explained",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F05"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Informational document-choice/reconciliation hub; O053 owns full template/builder intent. Not a complete pack until assets exist.",
+    "primary_query": "what are the 3 financial statements",
+    "volume": 590.0,
+    "kd": 12.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M080",
+    "execution_day": 1,
+    "execution_status": "Implemented and locally verified; publication evidence recorded separately in Day1 release report"
+  },
+  {
+    "owner": "/journal/small-business-growth-plan/",
+    "topic": "Small-business growth and acquisition",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "M03"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Demand, delivery capacity and cash planning guide. Broad agency-service/navigation terms are conditional, not a claim NexalyPlanner sells agency services.",
+    "primary_query": "how to grow a small business",
+    "volume": 1000.0,
+    "kd": 43.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M081",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/small-business-ideas/",
+    "topic": "Business ideas directory",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O123"
+    ],
+    "old_day": 9,
+    "new_ids": [
+      "S03"
+    ],
+    "origin": "Both plans",
+    "boundary": "Original O123 Day9: one ideas directory with cost/skills/customer-test sections. Women/teens/town/mobile/food/online variants are sections first, not an arbitrary new-page quota. One business-ideas directory; use cost, skills, validation and customer segments. Home-based business guide owns execution, not duplicate idea lists.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M082",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/solopreneur-business-model/",
+    "topic": "Solopreneur definition",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O067"
+    ],
+    "old_day": 9,
+    "new_ids": [
+      "S07"
+    ],
+    "origin": "Both plans",
+    "boundary": "Original O067 Day9. Existing AI one-person workflow is a different technology use case. Solo-owner operating model and capacity; not another business-ideas list or generic entrepreneurship definition page.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M083",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/strategic-planning-process/",
+    "topic": "Strategic planning methods",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B19"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Informational planning process/models with original decision example; worksheet remains B18.",
+    "primary_query": "strategic planning process",
+    "volume": 2400.0,
+    "kd": 42.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M084",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/study-planning-task-breakdown/",
+    "topic": "Study task breakdown",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O099"
+    ],
+    "old_day": 10,
+    "new_ids": [],
+    "origin": "Original Day 10",
+    "boundary": "Study assignment decomposition into tasks, effort and first action. Timetable allocates time; tracker stores deadlines.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M085",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/business-flyer-draft-tool/",
+    "topic": "Business flyer draft tool",
+    "type": "New resource",
+    "old_ids": [
+      "O117"
+    ],
+    "old_day": 10,
+    "new_ids": [],
+    "origin": "Original Day 10",
+    "boundary": "Original business flyer draft with tested input, generation, preview and actual export. No unsupported design/AI capability promises.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M086",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/business-income-expense-tracker/",
+    "topic": "Business income/expense ledger",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F18"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Transaction-level source ledger, not P&L statement or employee claim. Generic personal phrases require fit validation.",
+    "primary_query": "business expenses spreadsheet",
+    "volume": 590.0,
+    "kd": 31.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M087",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/cash-flow-statement-template/",
+    "topic": "Historical cash-flow statement example/template",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F08"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Historical operating/investing/financing reconciliation. Not the 13-week forecast; verify accounting method and coordinate O053 collection.",
+    "primary_query": "cash flow statement template",
+    "volume": 2400.0,
+    "kd": 56.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M088",
+    "execution_day": 1,
+    "execution_status": "Implemented and locally verified; publication evidence recorded separately in Day1 release report"
+  },
+  {
+    "owner": "/tools/checklist-template/",
+    "topic": "General editable checklist",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "P04"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Generic list builder with real Word/Excel/print formats only when built. Specialized startup/onboarding/cleaning lists retain their owners.",
+    "primary_query": "checklist template",
+    "volume": 5400.0,
+    "kd": 50.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M089",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/client-onboarding-checklist/",
+    "topic": "Client onboarding checklist",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "H09"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Client brief, scope acceptance, access request and handoff evidence; distinct from employee HR and existing client KPI dashboard.",
+    "primary_query": "customer onboarding template",
+    "volume": 720.0,
+    "kd": 35.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M090",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/cost-benefit-analysis-template/",
+    "topic": "Cost-benefit comparison",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F22"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Explicit cost/benefit assumptions and time horizon; not guaranteed ROI or financial recommendation.",
+    "primary_query": "cost benefit analysis template",
+    "volume": 1000.0,
+    "kd": 27.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M091",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/employee-offboarding-checklist/",
+    "topic": "Employee offboarding checklist",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "H02"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Exit handoff/asset/access-review record; manual approval, no automatic account changes.",
+    "primary_query": "offboarding checklist",
+    "volume": 1000.0,
+    "kd": 29.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M092",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/employee-onboarding-checklist/",
+    "topic": "Employee onboarding checklist/process",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "H01"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Employee checklist/process variants share one owner; customer/client onboarding excluded; automation stays H03.",
+    "primary_query": "onboarding checklist",
+    "volume": 2400.0,
+    "kd": 34.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M093",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/employee-training-plan-template/",
+    "topic": "Employee training plan and schedule",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "H04"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "One training plan/schedule owner, distinct from onboarding administrative tasks; no learning-outcome guarantees.",
+    "primary_query": "employee training plan template",
+    "volume": 590.0,
+    "kd": 50.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M094",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/financial-statement-builder/",
+    "topic": "Financial statement builder",
+    "type": "New resource",
+    "old_ids": [
+      "O053"
+    ],
+    "old_day": 9,
+    "new_ids": [
+      "F04"
+    ],
+    "origin": "Both plans",
+    "boundary": "Original O053 Day9; do not add a competing financial-statement-generator URL. Clarify whether it bundles narrow component tools before implementation. Collection/builder owner for coordinated statements. Prototype and reconcile calculations before promises; reuse narrow income/cash-flow components; explain historical versus projected statements.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M095",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/gantt-chart-template/",
+    "topic": "Gantt timeline template",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "P01"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Timeline/dependencies/actual file export, distinct from project overview/risk plan and workshop production schedule. Verify advanced feasibility before claims.",
+    "primary_query": "excel gantt chart template",
+    "volume": 3600.0,
+    "kd": 13.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M096",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/income-statement-template/",
+    "topic": "Historical income statement / P&L template",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F01"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "One owner for template/formula/example variants; historical period profit, not bank cash or the existing projected service model. Coordinate component boundary with planned O053 bundle.",
+    "primary_query": "income statement template",
+    "volume": 3600.0,
+    "kd": 19.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M097",
+    "execution_day": 1,
+    "execution_status": "Implemented and locally verified; publication evidence recorded separately in Day1 release report"
+  },
+  {
+    "owner": "/tools/invoice-template/",
+    "topic": "Invoice generator/template",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F20"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "One core invoice creation owner with service/contractor examples and real formats. Commercial/customs or proforma variants need specialist separation, not five near-duplicate templates.",
+    "primary_query": "invoice templates",
+    "volume": 5400.0,
+    "kd": 14.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M098",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/job-description-template/",
+    "topic": "Job description template",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "H06"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Role scope/responsibilities template, not a hiring decision or compliant employment contract.",
+    "primary_query": "sample job description",
+    "volume": 1000.0,
+    "kd": 39.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M099",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/nonprofit-treasurer-report-template/",
+    "topic": "Nonprofit treasurer report",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F14"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Unrestricted/restricted fund separation and reconciled period report. Not replacement for nonprofit governance/accounting review.",
+    "primary_query": "excel templates for nonprofit accounting",
+    "volume": 1000.0,
+    "kd": 20.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M100",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/payment-receipt-template/",
+    "topic": "Payment receipt template",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F21"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Record received payment, not invoice, packing slip, pay stub or fabricated proof. Cash/sales/Word/PDF variants initially share owner.",
+    "primary_query": "payment receipt template",
+    "volume": 1600.0,
+    "kd": 31.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M101",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/project-budget-template/",
+    "topic": "Project budget and cost tracking",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F13"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Dated project budget/actual and committed costs; distinct from monthly business overhead and project status dashboard.",
+    "primary_query": "project budget template",
+    "volume": 1300.0,
+    "kd": 44.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M102",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/project-plan-template/",
+    "topic": "Project plan and task tracker",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "P02"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Scope/milestones/owners/status plan/track resource. Dashboard metrics remain current project dashboard; Gantt is separate visual timeline.",
+    "primary_query": "project plan templates",
+    "volume": 1900.0,
+    "kd": 33.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M103",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/sales-pipeline-template/",
+    "topic": "Sales pipeline worksheet",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "L01"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Manual distinct-opportunity/stage/value/owner/date register. Existing CRM dashboard owns worked reporting; sales-management product features must not be invented.",
+    "primary_query": "sales pipeline template",
+    "volume": 880.0,
+    "kd": 42.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M104",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/staffing-plan-template/",
+    "topic": "Staffing capacity plan",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "H10"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Roles/hours/coverage assumptions and resource gap, distinct from candidate assessment, employee personal records and freelance weekly capacity.",
+    "primary_query": "staffing plan template",
+    "volume": 880.0,
+    "kd": 22.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M105",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/startup-budget-template/",
+    "topic": "Startup budget",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F11"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Pre-launch one-off costs, recurring burn and funding gap; not ongoing monthly variance.",
+    "primary_query": "startup budget template",
+    "volume": 880.0,
+    "kd": 12.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M106",
+    "execution_day": 1,
+    "execution_status": "Implemented and locally verified; publication evidence recorded separately in Day1 release report"
+  },
+  {
+    "owner": "/tools/study-timetable-template/",
+    "topic": "Study timetable",
+    "type": "New resource",
+    "old_ids": [
+      "O057"
+    ],
+    "old_day": 8,
+    "new_ids": [],
+    "origin": "Original Day 8",
+    "boundary": "Weekly study timetable with time allocation. Existing daily schedule builder owns generic daily scheduling; assignment tracker owns deadlines; task breakdown journal owns decomposition.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M107",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/training-needs-assessment-template/",
+    "topic": "Training needs assessment",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "H05"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Evidence-to-training-gap worksheet, separate from scheduling training or employment selection.",
+    "primary_query": "needs assessment template",
+    "volume": 1300.0,
+    "kd": 28.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M108",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  }
+]

@@ -75,6 +75,12 @@ jobs:
         run: python3 scripts/test-nov10-journals.py
       - name: Verify indexing recovery URLs
         run: python3 scripts/test-indexing-recovery.py
+      - name: Verify combined Day1 finance resources and editorial examples
+        run: |
+          python3 -m pip install openpyxl==3.1.5
+          node scripts/test-combined-day1-finance.cjs
+          NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-combined-day1-ui.cjs
+          python3 scripts/test-combined-day1-editorial.py
       - name: Verify owner core freeze
         run: python3 scripts/check-core-lock.py
       - name: Install social media image dependency

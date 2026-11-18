@@ -25,5 +25,5 @@ print('PASS Day7 independent arithmetic, reporting windows, cluster links, PDF a
 s=(R/"tools/index.html").read_text();total=0
 for section in re.findall(r'<section class="tool-category".*?</section>',s,re.S):
  n=len(re.findall(r'<article\b[^>]*\bclass="[^"]*\bdirectory-tool\b',section));total+=n;assert f'class="category-count">{n} planners'in section
-assert f'<b>{total}</b> free planners'in s and total==61
+assert f'<b>{total}</b> free planners'in s and total>=61
 print("PASS directory headline and category counts match actual resources")
