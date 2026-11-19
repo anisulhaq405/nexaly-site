@@ -1,0 +1,80 @@
+[
+  {
+    "master_id": "M001",
+    "owner": "/journal/business-plan-examples/",
+    "datePublished": [
+      "2026-11-05"
+    ],
+    "previousDateModified": [
+      "2026-11-07"
+    ],
+    "previous_sha256": "688e7d56612310dc2fc446dbd6031b74115e80dc8ec8ac97f9f84acad82a68ca",
+    "heading": "Choose an example with the same sales unit",
+    "decision": "Retain existing model and artwork; add distinct original decision check and contextual cluster links"
+  },
+  {
+    "master_id": "M002",
+    "owner": "/journal/business-plan-financial-projections-service-example/",
+    "datePublished": [
+      "2026-10-13"
+    ],
+    "previousDateModified": [
+      "2026-11-10"
+    ],
+    "previous_sha256": "c47a159a9c458dd708a51c3f4df31f4604beca1aa8087dda57c825dc0b941013",
+    "heading": "Compare a project budget with a service forecast carefully",
+    "decision": "Retain existing model and artwork; add distinct original decision check and contextual cluster links"
+  },
+  {
+    "master_id": "M003",
+    "owner": "/journal/business-plan-for-a-loan/",
+    "datePublished": [
+      "2026-11-06"
+    ],
+    "previousDateModified": [
+      "2026-11-06"
+    ],
+    "previous_sha256": "54ff46477feb8c5df23b4b33d3a8b77b477df2e12c29adeae94c8149e6214a41",
+    "heading": "Explain the funding request without presenting it as approval",
+    "decision": "Retain existing model and artwork; add distinct original decision check and contextual cluster links"
+  },
+  {
+    "master_id": "M004",
+    "owner": "/journal/business-plan-guide/",
+    "datePublished": [
+      "2026-11-06"
+    ],
+    "previousDateModified": [
+      "2026-11-11"
+    ],
+    "previous_sha256": "01c4d9f59f7fc2bb1760e250235bb7ce54f7a9202b613bae9c9da8ba73a7966c",
+    "heading": "Link the evidence, operating model and decision in one version",
+    "decision": "Retain existing model and artwork; add distinct original decision check and contextual cluster links"
+  },
+  {
+    "master_id": "M019",
+    "owner": "/journal/it-consulting-business-plan-retainer-capacity/",
+    "datePublished": [
+      "2026-10-13"
+    ],
+    "previousDateModified": [
+      "2026-10-29"
+    ],
+    "previous_sha256": "8c049ff29e22286882b9642f98738cbf38ef7367adebb2a6de6bb25b679733cf",
+    "heading": "Do not offset a specialist shortage with unrelated spare hours",
+    "decision": "Retain existing model and artwork; add distinct original decision check and contextual cluster links"
+  },
+  {
+    "master_id": "M026",
+    "owner": "/journal/retail-store-business-plan-example/",
+    "datePublished": [
+      "2026-09-28"
+    ],
+    "previousDateModified": [
+      "2026-10-07"
+    ],
+    "previous_sha256": "9e48edd375498f1daf7b8e8a5413ddbc6715f9d3bb233c417c9b76213f64133b",
+    "heading": "Reconcile opening-stock cash and the cost of sold units",
+    "decision": "Retain existing model and artwork; add distinct original decision check and contextual cluster links"
+  }
+]

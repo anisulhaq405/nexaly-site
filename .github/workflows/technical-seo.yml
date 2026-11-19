@@ -81,6 +81,11 @@ jobs:
           node scripts/test-combined-day1-finance.cjs
           NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-combined-day1-ui.cjs
           python3 scripts/test-combined-day1-editorial.py
+      - name: Verify combined Day2 planning resources
+        run: |
+          node scripts/test-combined-day2.cjs
+          NEXALY_JSDOM_PATH="$RUNNER_TEMP/nexaly-ui-tests/node_modules/jsdom" node scripts/test-combined-day2-ui.cjs
+          python3 scripts/test-combined-day2-editorial.py
       - name: Verify owner core freeze
         run: python3 scripts/check-core-lock.py
       - name: Install social media image dependency

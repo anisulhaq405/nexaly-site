@@ -1,0 +1,183 @@
+[
+  {
+    "id": "M091",
+    "slug": "cost-benefit-analysis-template",
+    "title": "Free Cost-Benefit Analysis Template: Options, Horizon & PDF",
+    "desc": "Compare two options over a fixed number of months with explicit costs and benefits. Review an undiscounted result, export CSV, keep JSON or print.",
+    "category": "cashflow",
+    "mode": "benefit",
+    "fields": [
+      [
+        "months",
+        "Comparison months (1\u2013120)",
+        "12"
+      ],
+      [
+        "setupA",
+        "Option A one-time cost USD",
+        "1200"
+      ],
+      [
+        "monthlyA",
+        "Option A monthly cost USD",
+        "100"
+      ],
+      [
+        "benefitA",
+        "Option A monthly monetary benefit USD",
+        "250"
+      ],
+      [
+        "setupB",
+        "Option B one-time cost USD",
+        "600"
+      ],
+      [
+        "monthlyB",
+        "Option B monthly cost USD",
+        "150"
+      ],
+      [
+        "benefitB",
+        "Option B monthly monetary benefit USD",
+        "240"
+      ]
+    ],
+    "rows": null,
+    "example": "Over 12 months, A costs $1,200 +12 \u00d7 $100 = $2,400 and has $3,000 entered benefits, leaving $600 net benefit. B costs $600 +12 \u00d7 $150 = $2,400 and has $2,880 benefits, leaving $480. A exceeds B by $120 under these assumptions. With benefits at $150 and $140 monthly instead, net benefits become negative $600 and negative $720. Neither is automatically a good purchase.",
+    "scope": "An undiscounted two-option planning comparison in USD, not NPV, a guaranteed return, a cash forecast or an investment recommendation.",
+    "guide": "## Set a fair comparison boundary\nName the decision and fix the same 1\u2013120 whole-month horizon for both options. The start, end and review dates label your decision-review record; the separate month count controls the calculation horizon and is not inferred from those dates. Include implementation and ongoing costs that change between them. Each money field accepts 0\u20131,000,000 USD with at most two decimals. Enter zero deliberately when a category is absent. Costs are nonnegative; the net result can be negative.\nBoth options need a credible baseline. If doing nothing costs money, document it as one option rather than assuming zero. Keep each estimate's source and date in the required assumptions note. The worksheet uses flat monthly amounts across the entire horizon; it does not model phased adoption or annual-only bills.\n## Understand the formulas\nTotal cost = one-time cost + months \u00d7 monthly cost. Total entered benefit = months \u00d7 monthly benefit. Net benefit = total benefit minus total cost. A-minus-B compares net benefits; it does not rank quality, risk or feasibility. No discount rate, inflation, tax, financing or terminal value is included. A benefit-cost ratio and payback date are not calculated.\nIf you value saved time, say how hours and the assumed hourly value were chosen. Released capacity is not automatically a cash saving: payroll or other spending must actually change before describing it that way. Do not count both higher sales and the entire same sales margin as separate benefits. Do not add an avoided cost as a benefit while also subtracting it from costs without explaining the baseline.\n## Use the result as a review prompt\nRun a lower-benefit scenario and preserve both versions. Record nonmonetary quality, accessibility, migration effort and dependency risks alongside the amounts. An option with a higher entered net benefit can still be infeasible. The [business-plan software comparison](/journal/business-plan-software-comparison/) includes a practical acceptance exercise; the [strategic-plan worksheet](/tools/strategic-plan-template/) turns a reviewed choice into owned actions.\n## Questions before deciding\nAre benefits cash receipts? Only if the entered assumption actually represents cash; label imputed value separately. Does a positive net benefit justify buying? It only describes these entries and exclusions. Can I compare uneven years or discounted cash flows? No; use an appropriately reviewed model for those cases.\n",
+    "links": [
+      [
+        "/journal/business-plan-software-comparison/",
+        "Compare business-plan software by task"
+      ],
+      [
+        "/tools/startup-budget-template/",
+        "Plan startup funding separately"
+      ]
+    ]
+  },
+  {
+    "id": "M102",
+    "slug": "project-budget-template",
+    "title": "Free Project Budget Template: Actual Costs, Commitments & PDF",
+    "desc": "Compare a fixed project budget with actual costs and remaining commitments by dated cost line. Export a reviewed CSV, keep JSON inputs or print.",
+    "category": "cashflow",
+    "mode": "project",
+    "fields": [
+      [
+        "budget",
+        "Total project budget USD",
+        "10000"
+      ]
+    ],
+    "rows": [
+      [
+        "label",
+        "Cost line / category",
+        "text"
+      ],
+      [
+        "date",
+        "Cost-line review date within period",
+        "date"
+      ],
+      [
+        "actual",
+        "Actual cost recognized to date USD",
+        "money"
+      ],
+      [
+        "committed",
+        "Remaining committed cost, excluding actual USD",
+        "money"
+      ],
+      [
+        "forecast",
+        "Other forecast cost, excluding both USD",
+        "money"
+      ]
+    ],
+    "sampleRows": [
+      {
+        "label": "Equipment",
+        "date": "2026-11-19",
+        "actual": "3000",
+        "committed": "1000",
+        "forecast": "0"
+      },
+      {
+        "label": "Setup work",
+        "date": "2026-11-19",
+        "actual": "1000",
+        "committed": "2000",
+        "forecast": "1500"
+      }
+    ],
+    "example": "A $10,000 budget contains $4,000 actual cost, $3,000 remaining commitments and $1,500 additional forecast cost. Expected total is $8,500 and headroom $1,500. If a $500 committed item becomes actual, move $500 from committed to actual: $4,500 actual + $2,500 remaining commitments + $1,500 forecast still totals $8,500. Adding it to actual without removing it from commitments overstates the total.",
+    "scope": "A fixed-period cost-at-completion estimate using 1\u201330 manually entered cost lines. Actual cost is not automatically cash paid. No invoices, currency conversion or project accounting integration.",
+    "guide": "## Define the cost scope before adding rows\nChoose a project, start/end dates, review date and a total authorized or proposed budget. Use one consistent tax and cost basis and explain it in the required notes. Distinguish an approved budget from a funding request. Dates label the project/review boundary; each cost line has its own review date within that boundary and not after the main review date.\nEnter 1\u201330 cost lines with a clear category. Actual means recognized cost to the review date under your stated basis. Remaining committed means agreed future cost not already in actual. Other forecast means the additional expected cost not already in either bucket. Enter each figure intentionally, including zero. USD only; each money field allows up to 1,000,000 with at most two decimal places.\n## Avoid counting the same purchase twice\nFor a $1,000 order with $400 already recognized as actual cost, enter $400 actual and $600 remaining committed if the whole amount is still expected. Do not enter the full $1,000 again as a commitment. When the remaining cost becomes actual, transfer it between buckets rather than adding another $600 to the expected total.\nA deposit or a supplier invoice may have a different accounting and cash treatment. This tool does not choose that treatment, verify purchase orders or convert commitments into payments. Keep source references in your own reviewed schedule and reconcile them before sharing the report.\n## Read the totals correctly\nExpected total = actual + remaining committed + additional forecast. Budget headroom = entered budget minus expected total. A negative headroom is a projected overrun, not permission to spend. Zero expected cost does not prove completeness, and a positive headroom is not a bank balance. The tool does not derive percentage completion or earned value from spending.\nThe report is grouped by your cost lines; it does not schedule cash dates or infer monthly totals. Use the [cash forecast](/journal/cash-flow-forecast-template-example/) for payment timing. The [restaurant business plan](/journal/restaurant-business-plan/) uses a separate startup scenario that can supply categories after real quotes are obtained.\n## Review changes deliberately\nAt each fixed review date, reconcile actual entries, remove settled commitments from the remaining bucket, revise additional forecast and explain scope changes. Retain the previous version. Do not overwrite the original authorized budget simply to hide an overrun; keep an explicit approved-revision record outside this limited worksheet.\n## Common questions\nIs this a payment tracker? No; actual cost and bank payments can differ. Can I upload supplier invoices? No; entries are manual and backups restore this tool's JSON inputs only. Does headroom include a hidden contingency? No; put any chosen contingency in a clearly named forecast line and explain it.\n",
+    "links": [
+      [
+        "/journal/project-management-dashboard/",
+        "Read project status separately from costs"
+      ],
+      [
+        "/journal/restaurant-business-plan/",
+        "Plan restaurant launch assumptions"
+      ]
+    ]
+  },
+  {
+    "id": "M105",
+    "slug": "staffing-plan-template",
+    "title": "Free Staffing Plan Template: Role Hours, Coverage Gaps & PDF",
+    "desc": "Compare required and available hours by role for one fixed period. Review role-level gaps, retain assumptions, export CSV, keep JSON or print.",
+    "category": "agency",
+    "mode": "staff",
+    "fields": [],
+    "rows": [
+      [
+        "label",
+        "Distinct role / skill pool (no personal names)",
+        "text"
+      ],
+      [
+        "required",
+        "Required delivery hours this period",
+        "hours"
+      ],
+      [
+        "available",
+        "Available delivery hours after deductions",
+        "hours"
+      ]
+    ],
+    "sampleRows": [
+      {
+        "label": "Production",
+        "required": "80",
+        "available": "70"
+      },
+      {
+        "label": "Review",
+        "required": "20",
+        "available": "30"
+      }
+    ],
+    "example": "Production requires 80 hours against 70 available: a 10-hour shortage. Review needs 20 against 30 available:10 hours spare. Overall required and available both total 100, but the production role still lacks 10 hours. The spare review hours cannot be transferred without validated skills and availability. This worksheet highlights the shortage rather than calling the plan fully staffed.",
+    "scope": "A1\u201330-row role-hour capacity plan for a single shared period. It is not a shift roster, headcount recommendation, employee assessment or employment-compliance check.",
+    "guide": "## Use a common period and role definition\nChoose one period, such as an actual seven-day week, and a review date inside it. Record the exact scope and deductions in the required notes. Each row is a distinct role or skill pool; use anonymous role labels, not personal information. Enter 1\u201330 rows. The tool does not infer skills or combine duplicate pools safely, so define each pool once and avoid double-allocating the same available hours.\nRequired delivery hours should come from specific work and a documented estimate. Available delivery hours should be what remains after leave, administration, meetings and your deliberate buffer. Both allow 0\u201310,080 hours per row with at most two decimals. That range supports aggregate pools, not a claim that one person can work that much. If you start with 40 scheduled hours, subtract 5 leave,8 administration and 7 buffer to enter 20 available hours.\n## Interpret shortages by role before reading totals\nFor each role, balance = available minus required. Negative means a shortage; positive means spare hours within that role definition. The report separately sums shortages and spare hours, so a surplus in one role does not hide a deficit in another. A total balance of zero is not evidence of complete coverage.\nDo not add available hours for two overlapping roles when they depend on the same person's time. Deduct the allocation from one pool before adding it to another, document the transfer and verify actual skills. This manual worksheet cannot certify that substitution is possible.\n## Capacity is different from headcount or a shift roster\nA month can have enough total hours while two simultaneous events still need the same worker. Check day-level timing, required supervision, location, breaks and actual availability in a separate roster. This tool does not recommend who to hire, score candidates, process employee data or determine labor-law requirements.\nThe [marketing-agency plan](/journal/marketing-agency-business-plan/) separates retainer delivery hours from sales and administration. The [IT consulting plan](/journal/it-consulting-business-plan-retainer-capacity/) shows a busy-week gap hidden by a monthly total. For one person's actual week, use the [freelancer weekly capacity planner](/tools/freelancer-weekly-capacity-planner/) after confirming its period and scope.\n## Review the gap before making a commitment\nDecide whether to reduce scope, change dates or obtain qualified capacity. Keep the original requirements and the revised assumption. Do not solve a gap by removing every buffer unless you have deliberately accepted the consequence. Confirm any proposed contractor or staffing commitment through the appropriate business process; the calculator does not authorize it.\n## Common questions\nCan spare review hours cover production? Only after skills and calendar availability are verified; the report keeps them separate. Does zero demand mean the role is unnecessary? It only reflects the work entered for this period. Can this forecast payroll? No; there are no pay rates or compensation calculations. Use the [cost-benefit comparison](/tools/cost-benefit-analysis-template/) for a separately defined monetary decision.\n",
+    "links": [
+      [
+        "/journal/marketing-agency-business-plan/",
+        "Build a retainer delivery plan"
+      ],
+      [
+        "/journal/it-consulting-business-plan-retainer-capacity/",
+        "Check an IT consulting busy week"
+      ]
+    ]
+  }
+]

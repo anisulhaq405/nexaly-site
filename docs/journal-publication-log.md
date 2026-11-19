@@ -249,3 +249,7 @@ Owner reported absent feature images on Business Plan Cover Page, Business Plan 
 ## 19 November 2026 — homeschool feature-image follow-on
 
 Added the missing Homeschool Budget Planner cover, matching directory preview and social/schema images using the established feature-cover integration. Existing worksheet, downloads and dates preserved;64 directory tools retained. Source prompt and asset mapping: `docs/editorial/2026-11-19-tool-feature-images/`.
+
+## 19 November2026 — combined sprint Day2 prepared
+
+Fifteen defined owners: six new business-planning/industry journals (executive summary, market analysis, documented software comparison, catering, marketing agency, restaurant); three bounded interactive resources (cost-benefit, project budget, role-hour staffing) with original static blank/example PDFs; six existing owner improvements (examples, service projections, loan plan, full plan, IT consulting, retail). Nine topic-specific covers and matching resource cards included at creation. Directory67 across eight categories. Original scope, sources, examples, prompts, audits and validation: `docs/editorial/2026-11-19-combined-day2/`. Thirty of108 actions implemented across Days1–2;78 remain. Call live only after checked revision merge and production verification.

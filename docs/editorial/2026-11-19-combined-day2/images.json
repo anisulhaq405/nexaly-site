@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "business-plan-software-comparison",
+    "asset": "/images/journal/business-plan-software-comparison-20261119.webp",
+    "source": "exec-67cfe50e-a4be-4dc2-b539-edcd17f61d9a.png",
+    "sha256": "1995ac346963cc56b942793570920a7be0dca6d5214bcdb5c89999a32d6a9e6a",
+    "bytes": 114916
+  },
+  {
+    "slug": "marketing-agency-business-plan",
+    "asset": "/images/journal/marketing-agency-business-plan-20261119.webp",
+    "source": "exec-fdf1a415-d418-4349-aee5-4e3a481bfd6a.png",
+    "sha256": "51134b0914ecaf6cca6b26cca2b1c1484f99d1cb2d2416f1a5255c062a249f6f",
+    "bytes": 137060
+  },
+  {
+    "slug": "project-budget-template",
+    "asset": "/images/journal/project-budget-template-20261119.webp",
+    "source": "exec-407fab8d-5b15-4b97-b740-dc27b224f010.png",
+    "sha256": "20bf1f463b6224c506d8f84778befeeb54965380b7ba7e65e2951463eabd019c",
+    "bytes": 127698
+  },
+  {
+    "slug": "cost-benefit-analysis-template",
+    "asset": "/images/journal/cost-benefit-analysis-template-20261119.webp",
+    "source": "exec-d4e3ac3d-07f7-40cd-bf62-b377dd6a2d78.png",
+    "sha256": "c1fc9e6cb2b15714e725d5e1417c3b7bb26dc03edd1db898b843f227a6e0994b",
+    "bytes": 116148
+  },
+  {
+    "slug": "business-plan-executive-summary-example",
+    "asset": "/images/journal/business-plan-executive-summary-example-20261119.webp",
+    "source": "exec-89f060dd-37db-401f-8b68-adf4090c96ba.png",
+    "sha256": "8afee88a3891c49fcf976d7c49f8d3fe884168328686838b1dc32f794d4d0ab6",
+    "bytes": 145790
+  },
+  {
+    "slug": "staffing-plan-template",
+    "asset": "/images/journal/staffing-plan-template-20261119.webp",
+    "source": "exec-1fdc21fd-11b8-4e09-b194-c28c9dd31adf.png",
+    "sha256": "785b8796683dc3cdc028eb24145d3f982eda2d82797c67bbd7b16f19288e9494",
+    "bytes": 120016
+  },
+  {
+    "slug": "business-plan-market-analysis",
+    "asset": "/images/journal/business-plan-market-analysis-20261119.webp",
+    "source": "exec-9a1bd5dc-0be7-4834-bfa8-80ff02009d9f.png",
+    "sha256": "f7355ef85e33c8ba311a28a1d874a26fe38929fe59dcfbc540cc75053fb852ce",
+    "bytes": 175198
+  },
+  {
+    "slug": "catering-business-plan",
+    "asset": "/images/journal/catering-business-plan-20261119.webp",
+    "source": "exec-6b5fd53b-4e9e-4145-9e7d-6d3dcee6078d.png",
+    "sha256": "7404a0b65b041dd2cface58129cfed0edd266f80545f67fd5d5b125d184bbebe",
+    "bytes": 141070
+  },
+  {
+    "slug": "restaurant-business-plan",
+    "asset": "/images/journal/restaurant-business-plan-20261119.webp",
+    "source": "exec-c2b199e4-c87d-40a3-a546-12fe03e9c300.png",
+    "sha256": "096245705f467d4e6918adc33d3d0d07d26af5bac100383a14f69e95059eacd4",
+    "bytes": 154630
+  }
+]

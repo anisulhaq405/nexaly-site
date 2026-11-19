@@ -292,6 +292,60 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/business-plan-executive-summary-example/",
+    "title": "Business Plan Executive Summary Example: Write a Clear One-Page Case",
+    "excerpt": "Write a business-plan executive summary with an original catering example, reconciled funding figures, evidence labels and a copyable outline.",
+    "img": "/images/journal/business-plan-executive-summary-example-20261119.webp",
+    "alt": "Business Plan Executive Summary Example: Write a Clear One-Page Case — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 19, 2026"
+  },
+  {
+    "url": "/journal/business-plan-market-analysis/",
+    "title": "Business Plan Market Analysis: Buyers, Competitors and a Worked Example",
+    "excerpt": "Build a market analysis from a defined buyer, dated evidence and a capacity-limited sales model. Includes an original service-market example and research table.",
+    "img": "/images/journal/business-plan-market-analysis-20261119.webp",
+    "alt": "Business Plan Market Analysis: Buyers, Competitors and a Worked Example — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 19, 2026"
+  },
+  {
+    "url": "/journal/business-plan-software-comparison/",
+    "title": "Business Plan Software Comparison: Forecasting, Exports and Practical Fit",
+    "excerpt": "Compare LivePlan, Upmetrics and a manual planning workflow using provider documentation, evidence limits and a practical acceptance test before subscribing.",
+    "img": "/images/journal/business-plan-software-comparison-20261119.webp",
+    "alt": "Business Plan Software Comparison: Forecasting, Exports and Practical Fit — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 19, 2026"
+  },
+  {
+    "url": "/journal/catering-business-plan/",
+    "title": "Catering Business Plan: Event Costs, Deposits and Capacity Example",
+    "excerpt": "Write a catering business plan around guest counts, event contribution, deposit timing and kitchen capacity, with an original base and downside model.",
+    "img": "/images/journal/catering-business-plan-20261119.webp",
+    "alt": "Catering Business Plan: Event Costs, Deposits and Capacity Example — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 19, 2026"
+  },
+  {
+    "url": "/journal/marketing-agency-business-plan/",
+    "title": "Marketing Agency Business Plan: Retainers, Delivery Hours and Cash",
+    "excerpt": "Build an agency launch plan from scope, retainer hours, loaded delivery costs and collection timing, with an original capacity and downside example.",
+    "img": "/images/journal/marketing-agency-business-plan-20261119.webp",
+    "alt": "Marketing Agency Business Plan: Retainers, Delivery Hours and Cash — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 19, 2026"
+  },
+  {
+    "url": "/journal/restaurant-business-plan/",
+    "title": "Restaurant Business Plan: Covers, Menu Costs and Cash Example",
+    "excerpt": "Plan a restaurant with dining covers, average check, food costs, labor and a dated cash review. Includes a transparent base case and downside calculation.",
+    "img": "/images/journal/restaurant-business-plan-20261119.webp",
+    "alt": "Restaurant Business Plan: Covers, Menu Costs and Cash Example — conceptual planning scene",
+    "tag": "Planning Guides",
+    "date": "Nov 19, 2026"
+  },
+  {
     "url": "/journal/cost-of-goods-sold-example/",
     "title": "Cost of Goods Sold Formula: Inventory and COGS Worked Example",
     "excerpt": "Work through opening inventory, net purchases and closing stock to calculate COGS, gross profit and margin without double-counting purchases.",
@@ -631,7 +685,7 @@ var posts = [
     "img": "/images/journal/business-plan-for-a-loan-20261106.webp",
     "alt": "Workshop owner comparing a supplier quote, cash forecast papers and a calculator",
     "tag": "Planning Guides",
-    "date": "Nov 6, 2026"
+    "date": "Updated Nov 19, 2026"
   },
   {
     "url": "/journal/business-plan-guide/",
@@ -640,7 +694,7 @@ var posts = [
     "img": "/images/journal/business-plan-guide-20261106.webp",
     "alt": "Overhead planning notebook, calculator and objects representing several small business models",
     "tag": "Planning Guides",
-    "date": "Updated Nov 11, 2026"
+    "date": "Updated Nov 19, 2026"
   },
   {
     "url": "/journal/farm-business-plan/",
@@ -703,7 +757,7 @@ var posts = [
     "img": "/images/journal/business-plan-examples-20261105.webp?v=2cf59a912774",
     "alt": "Planning binder with separate retail, service and equipment-rental planning objects",
     "tag": "Planning Guides",
-    "date": "Updated Nov 7, 2026"
+    "date": "Updated Nov 19, 2026"
   },
   {
     "url": "/journal/crm-for-solopreneurs/",
@@ -883,7 +937,7 @@ var posts = [
     "img": "/assets/img/workflows/business-plan-financial-projections-service-example-cover-v3.webp",
     "alt": "Business Plan Financial Projections: Service Business Example editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Updated Nov 10, 2026"
+    "date": "Updated Nov 19, 2026"
   },
   {
     "url": "/journal/cash-flow-report-template-variance/",
@@ -946,7 +1000,7 @@ var posts = [
     "img": "/assets/img/workflows/it-consulting-business-plan-retainer-capacity-cover-v3.webp",
     "alt": "IT Consulting Business Plan: Retainer Hours and Capacity editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Updated Oct 29, 2026"
+    "date": "Updated Nov 19, 2026"
   },
   {
     "url": "/journal/monthly-teacher-planner-lesson-preparation/",
@@ -1180,7 +1234,7 @@ var posts = [
     "img": "/images/journal/retail-store-business-plan-example-v2.jpg",
     "alt": "Boutique owner assembling clothing stock, size plan, shipping supplies and a sales forecast under Retail Business Plan",
     "tag": "Planning Guides",
-    "date": "Updated Oct 30, 2026"
+    "date": "Updated Nov 19, 2026"
   },
   {
     "url": "/journal/saas-business-plan-template-example/",

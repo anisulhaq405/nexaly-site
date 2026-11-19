@@ -12,8 +12,8 @@
     "boundary": "Directory routes to existing industry owners. Generic examples not another business-plan-template URL.",
     "status": "Pending audit; no-change allowed",
     "master_id": "M001",
-    "execution_day": null,
-    "execution_status": "Pending; not included in Day1 release"
+    "execution_day": 2,
+    "execution_status": "Implemented; release gates and live verification recorded in Day2 release evidence"
   },
   {
     "owner": "/journal/business-plan-financial-projections-service-example/",
@@ -28,8 +28,8 @@
     "boundary": "Current worked service financial model; actual statements remain different.",
     "status": "Pending audit; no-change allowed",
     "master_id": "M002",
-    "execution_day": null,
-    "execution_status": "Pending; not included in Day1 release"
+    "execution_day": 2,
+    "execution_status": "Implemented; release gates and live verification recorded in Day2 release evidence"
   },
   {
     "owner": "/journal/business-plan-for-a-loan/",
@@ -44,8 +44,8 @@
     "boundary": "Plan-writing/evidence for a lender; no approval guarantee or provider eligibility advice.",
     "status": "Pending audit; no-change allowed",
     "master_id": "M003",
-    "execution_day": null,
-    "execution_status": "Pending; not included in Day1 release"
+    "execution_day": 2,
+    "execution_status": "Implemented; release gates and live verification recorded in Day2 release evidence"
   },
   {
     "owner": "/journal/business-plan-guide/",
@@ -60,8 +60,8 @@
     "boundary": "Full guide/component/definition owner; not a new page for every how-to phrase.",
     "status": "Pending audit; no-change allowed",
     "master_id": "M004",
-    "execution_day": null,
-    "execution_status": "Pending; not included in Day1 release"
+    "execution_day": 2,
+    "execution_status": "Implemented; release gates and live verification recorded in Day2 release evidence"
   },
   {
     "owner": "/journal/cash-flow-forecast-template-example/",
@@ -301,8 +301,8 @@
     "boundary": "IT consulting capacity, retainers, support obligations and cash assumptions. Generic consulting and marketing-agency plans retain their own delivery models.",
     "status": "Pending audit; no-change allowed",
     "master_id": "M019",
-    "execution_day": null,
-    "execution_status": "Pending; not included in Day1 release"
+    "execution_day": 2,
+    "execution_status": "Implemented; release gates and live verification recorded in Day2 release evidence"
   },
   {
     "owner": "/journal/monthly-planner-free-templates/",
@@ -416,8 +416,8 @@
     "boundary": "Existing retail opening-stock/operations owner. Current boutique retail model and opening stock, not another new boutique startup page. Retain retail owner URL. Add only justified inventory, opening stock, margin and cash-planning improvements; no separate general store synonym page.",
     "status": "Pending audit; no-change allowed",
     "master_id": "M026",
-    "execution_day": null,
-    "execution_status": "Pending; not included in Day1 release"
+    "execution_day": 2,
+    "execution_status": "Implemented; release gates and live verification recorded in Day2 release evidence"
   },
   {
     "owner": "/journal/sales-inventory-tracking-small-business/",
@@ -810,8 +810,8 @@
     "demand_source": "Supplied Semrush export; database/country unconfirmed",
     "status": "Pending research/production and release QA",
     "master_id": "M050",
-    "execution_day": null,
-    "execution_status": "Pending; not included in Day1 release"
+    "execution_day": 2,
+    "execution_status": "Implemented; release gates and live verification recorded in Day2 release evidence"
   },
   {
     "owner": "/journal/business-plan-market-analysis/",
@@ -830,8 +830,8 @@
     "demand_source": "Supplied PDF: seodata.dev US; not Semrush; KD unavailable",
     "status": "Pending research/production and release QA",
     "master_id": "M051",
-    "execution_day": null,
-    "execution_status": "Pending; not included in Day1 release"
+    "execution_day": 2,
+    "execution_status": "Implemented; release gates and live verification recorded in Day2 release evidence"
   },
   {
     "owner": "/journal/business-plan-software-comparison/",
@@ -848,8 +848,8 @@
     "boundary": "Original O088 Day8. Comparisons/writing-service intent requires verified capabilities; no promise to provide consultancy or an AI generator. Business-plan software decision guide; current features/prices and evidence required. Business-plan writing, examples and free template have separate owners.",
     "status": "Pending research/production and release QA",
     "master_id": "M052",
-    "execution_day": null,
-    "execution_status": "Pending; not included in Day1 release"
+    "execution_day": 2,
+    "execution_status": "Implemented; release gates and live verification recorded in Day2 release evidence"
   },
   {
     "owner": "/journal/catering-business-plan/",
@@ -868,8 +868,8 @@
     "demand_source": "Supplied Semrush export; database/country unconfirmed",
     "status": "Pending research/production and release QA",
     "master_id": "M053",
-    "execution_day": null,
-    "execution_status": "Pending; not included in Day1 release"
+    "execution_day": 2,
+    "execution_status": "Implemented; release gates and live verification recorded in Day2 release evidence"
   },
   {
     "owner": "/journal/cost-of-goods-sold-example/",
@@ -1156,8 +1156,8 @@
     "demand_source": "Supplied Semrush export; database/country unconfirmed",
     "status": "Pending research/production and release QA",
     "master_id": "M070",
-    "execution_day": null,
-    "execution_status": "Pending; not included in Day1 release"
+    "execution_day": 2,
+    "execution_status": "Implemented; release gates and live verification recorded in Day2 release evidence"
   },
   {
     "owner": "/journal/nonprofit-dashboard-example/",
@@ -1260,8 +1260,8 @@
     "demand_source": "Supplied PDF: seodata.dev US; not Semrush; KD unavailable",
     "status": "Pending research/production and release QA",
     "master_id": "M076",
-    "execution_day": null,
-    "execution_status": "Pending; not included in Day1 release"
+    "execution_day": 2,
+    "execution_status": "Implemented; release gates and live verification recorded in Day2 release evidence"
   },
   {
     "owner": "/journal/rpa-vs-ai-automation/",
@@ -1536,8 +1536,8 @@
     "demand_source": "Supplied Semrush export; database/country unconfirmed",
     "status": "Pending research/production and release QA",
     "master_id": "M091",
-    "execution_day": null,
-    "execution_status": "Pending; not included in Day1 release"
+    "execution_day": 2,
+    "execution_status": "Implemented; release gates and live verification recorded in Day2 release evidence"
   },
   {
     "owner": "/tools/employee-offboarding-checklist/",
@@ -1754,8 +1754,8 @@
     "demand_source": "Supplied Semrush export; database/country unconfirmed",
     "status": "Pending research/production and release QA",
     "master_id": "M102",
-    "execution_day": null,
-    "execution_status": "Pending; not included in Day1 release"
+    "execution_day": 2,
+    "execution_status": "Implemented; release gates and live verification recorded in Day2 release evidence"
   },
   {
     "owner": "/tools/project-plan-template/",
@@ -1814,8 +1814,8 @@
     "demand_source": "Supplied Semrush export; database/country unconfirmed",
     "status": "Pending research/production and release QA",
     "master_id": "M105",
-    "execution_day": null,
-    "execution_status": "Pending; not included in Day1 release"
+    "execution_day": 2,
+    "execution_status": "Implemented; release gates and live verification recorded in Day2 release evidence"
   },
   {
     "owner": "/tools/startup-budget-template/",
