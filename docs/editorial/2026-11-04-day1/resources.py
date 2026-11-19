@@ -56,3 +56,10 @@ for a in configs:
  page=head+nav+f'<main class="d1" data-day1="{s}"><nav aria-label="Breadcrumb"><a href="/tools/">Free planners</a> / {E(a["title"])}</nav><div class="d1-hide"><p>FREE · NO ACCOUNT NEEDED</p><h1>{E(a["title"])}</h1><p>{a["intro"]}</p><a class="d1-download" href="/downloads/{s}.pdf" download>Download '+('two-page cleaning PDF' if s.startswith('adhd') else 'blank cover PDF')+'</a><p>Published November 4, 2026 · By NexalyPlanner</p><noscript><p>Enable JavaScript for editable entries. The PDF and guide are available without it.</p></noscript></div><section class="d1-panel d1-hide"><h2>Enter your details</h2><form id="d1-form">'+a['form']+'<button type="submit">Review current inputs</button><button id="d1-sample" type="button">Load fictional example</button></form><p id="d1-status" role="status" aria-live="polite"></p></section><section class="d1-panel d1-report" aria-labelledby="d1-report-title"><h2 id="d1-report-title">'+('Your task review' if s.startswith('adhd') else 'Your cover preview')+'</h2><div id="d1-result" aria-live="polite"><p>Enter details and review to create a report.</p></div></section>'+common.replace('EXPORT',a['export'])+'<section class="d1-panel d1-hide">'+a['guide']+'</section></main>'+footer+'<div id="toast" class="toast" role="status"></div><script src="/assets/js/main.js?v=cea3f338af06" defer></script><script src="/assets/js/day1-planning-tools.js?v=20261104" defer></script></body></html>'
  dest=R/'tools'/s/'index.html';dest.parent.mkdir(exist_ok=True);dest.write_text(page)
  print(s)
+
+# Preserve approved feature covers when historical resource source is rebuilt.
+from pathlib import Path as _FeaturePath
+import runpy as _feature_runpy
+_feature_root = _FeaturePath(__file__).resolve().parents[3]
+if (_feature_root/'docs/editorial/2026-11-19-tool-feature-images/images.json').exists():
+ _feature_runpy.run_path(str(_feature_root/'docs/editorial/2026-11-19-tool-feature-images/apply.py'))
