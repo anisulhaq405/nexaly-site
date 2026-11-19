@@ -72,5 +72,10 @@ s=s.replace('64 free business','67 free business').replace('<b>64</b>','<b>67</b
 # Reconcile visible category badges with actual cards.
 def counts(m):
  part=m[0];n=len(re.findall(r'<article\b[^>]*\bdirectory-tool\b',part));part=re.sub(r'data-visible-count="\d+"',f'data-visible-count="{n}"',part);return re.sub(r'(<p class="category-count">)\d+( planners</p>)',lambda q:q[1]+str(n)+q[2],part)if n else part
-s=re.sub(r'<section\b.*?</section>',counts,s,flags=re.S);p.write_text(s)
+s=re.sub(r'<section\b.*?</section>',counts,s,flags=re.S)
+cards=re.findall(r'<article\b[^>]*\bdirectory-tool\b.*?</article>',s,re.S)
+def badge(m):
+ key=m[1];n=sum(1 for c in cards if key=='all' or (key=='latest' and 'data-latest="true"'in c) or ('data-category="'+key+'"'in c))
+ return m[0].replace(m[2]+'</span>',str(n)+'</span>')
+s=re.sub(r'<button\b[^>]*data-filter="([^"]+)"[^>]*>.*?<span class="filter-count">(\d+)</span>.*?</button>',badge,s,flags=re.S);p.write_text(s)
 print('Built6 journals,3 interactive resources,3 PDFs and67 directory cards')
