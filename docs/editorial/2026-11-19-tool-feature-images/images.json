@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "business-plan-cover-page",
+    "title": "Business Plan Cover Page",
+    "alt": "Business Plan Cover Page planner cover with a document folder, title sheet and tablet",
+    "asset": "/assets/img/tools/business-plan-cover-page-feature-20261119.webp",
+    "bytes": 142834,
+    "source_image_name": "exec-565e4ce9-7839-4fe2-8a5d-bcbad1e085ee.png",
+    "source_sha256": "d61ee861b51bbdd33473ced6221c4f36bab31b287f5977bea2a1f9a04aa63024"
+  },
+  {
+    "slug": "business-plan-template",
+    "title": "Business Plan Template",
+    "alt": "Business Plan Template planner cover with an organised document outline and planning pages",
+    "asset": "/assets/img/tools/business-plan-template-feature-20261119.webp",
+    "bytes": 117606,
+    "source_image_name": "exec-d75c9da8-6463-427d-830b-6821bc5fdd3a.png",
+    "source_sha256": "8aaab2c6a802755751b0bb5615458057639d988f59ee96e81f29c5db58c946c1"
+  },
+  {
+    "slug": "business-startup-checklist",
+    "title": "Business Startup Checklist",
+    "alt": "Business Startup Checklist cover with a preparation clipboard and conceptual tablet checklist",
+    "asset": "/assets/img/tools/business-startup-checklist-feature-20261119.webp",
+    "bytes": 114850,
+    "source_image_name": "exec-8bb31658-7642-44d0-a65e-91f56944ceac.png",
+    "source_sha256": "74ad313f564edc9a4b4bf40ecac157b460c6c64e617139fd2caba958075d66d9"
+  },
+  {
+    "slug": "daily-schedule-builder",
+    "title": "Daily Schedule Builder",
+    "alt": "Daily Schedule Builder cover with a single-day timeline, desk clock and notebook",
+    "asset": "/assets/img/tools/daily-schedule-builder-feature-20261119.webp",
+    "bytes": 127882,
+    "source_image_name": "exec-1601ff99-c6f4-4a8f-b189-8e7cfeb642e9.png",
+    "source_sha256": "3c23a1e8187dcd133cd157892f4e0bc15fdc0ed8e93edaf408b41b33ceee5118"
+  },
+  {
+    "slug": "business-idea-comparison",
+    "title": "Business Idea Comparison",
+    "alt": "Business Idea Comparison cover with three concept cards and a conceptual comparison matrix",
+    "asset": "/assets/img/tools/business-idea-comparison-feature-20261119.webp",
+    "bytes": 100084,
+    "source_image_name": "exec-04d92e12-2b38-423f-8c80-863d8304b1f7.png",
+    "source_sha256": "0ff2f3e978a6e86abaea65fe456c7e3743dafcb277d64f581f0cc0369c2e3897"
+  },
+  {
+    "slug": "time-blocking-template",
+    "title": "Weekly Time-Blocking Template",
+    "alt": "Weekly Time Blocking cover with a seven-column calendar and coloured planning blocks",
+    "asset": "/assets/img/tools/time-blocking-template-feature-20261119.webp",
+    "bytes": 111272,
+    "source_image_name": "exec-a0b984fb-1821-4d72-8e62-c371cab9734a.png",
+    "source_sha256": "62c138154e86c8cee7c4d62974aa670aece9c00b598446d3725a9a7a67361958"
+  },
+  {
+    "slug": "adhd-cleaning-planner",
+    "title": "ADHD Cleaning Planner",
+    "alt": "ADHD Cleaning Planner cover with a small-task checklist and household cleaning supplies",
+    "asset": "/assets/img/tools/adhd-cleaning-planner-feature-20261119.webp",
+    "bytes": 133982,
+    "source_image_name": "exec-d92cdd39-1b51-4b11-8867-71d48e4d3e60.png",
+    "source_sha256": "327b763424cd82f47789e2b60ca1025006d7eadcaa75decdacdcb7ca5595a142"
+  }
+]

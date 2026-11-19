@@ -35,3 +35,10 @@ for slug,title,desc,guide in configs:
  c.setFont('Helvetica',8);c.drawString(40,35,'nexalyplanner.com | US Letter | Static writing sheet, not fillable | 1 / 1');c.save()
 (R/'assets/css/day3-planning-tools.css').write_text((R/'assets/css/day2-planning-tools.css').read_text().replace('d2-','d3-')+'\n.d3-row{min-width:0}.d3-row input,.d3-row textarea{width:100%;box-sizing:border-box}.d3-row{margin:1rem 0;padding:1rem;border:1px solid #b8cbc5;border-radius:12px}\n')
 print('Two tools and two original PDFs created')
+
+# Preserve approved feature covers when historical resource source is rebuilt.
+from pathlib import Path as _FeaturePath
+import runpy as _feature_runpy
+_feature_root = _FeaturePath(__file__).resolve().parents[3]
+if (_feature_root/'docs/editorial/2026-11-19-tool-feature-images/images.json').exists():
+ _feature_runpy.run_path(str(_feature_root/'docs/editorial/2026-11-19-tool-feature-images/apply.py'))

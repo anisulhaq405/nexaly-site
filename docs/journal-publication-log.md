@@ -241,3 +241,7 @@ Six new journals: small-business financial statements; operating cash flow; COGS
 ## 18 November 2026 — Day1 visual refresh
 
 Owner requested replacing the six new journal and three free-planner chart-style feature covers to match the established editorial/planner-cover theme. Nine new topic-specific AI-generated covers, versioned WebP paths, truthful conceptual-illustration captions and descriptive alt text. Journal/home catalogs, three directory previews and social image metadata regenerated. Worked examples, publication dates, worksheet calculations and downloads unchanged. Source prompts/mapping and release checks: `docs/editorial/2026-11-18-feature-refresh/`.
+
+## 19 November 2026 — seven early free-tool feature images
+
+Owner reported absent feature images on Business Plan Cover Page, Business Plan Template, Business Startup Checklist, Daily Schedule Builder, Business Idea Comparison, Weekly Time-Blocking Template and ADHD Cleaning Planner. Audit confirmed no visible cover and a generic default social image on all seven; the corresponding directory cards were text-only. Added seven original branded covers, responsive feature layouts, worksheet jump links, alt text, matching directory previews and page-specific social/schema images. Preserve existing content dates, controls, calculations and downloads. Evidence and prompts: `docs/editorial/2026-11-19-tool-feature-images/`.

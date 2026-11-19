@@ -59,3 +59,10 @@ for pg,days in enumerate([['Monday','Tuesday','Wednesday'],['Thursday','Friday',
  c.showPage()
 c.save()
 print('Two working resource pages and two original two-page PDFs written.')
+
+# Preserve approved feature covers when historical resource source is rebuilt.
+from pathlib import Path as _FeaturePath
+import runpy as _feature_runpy
+_feature_root = _FeaturePath(__file__).resolve().parents[3]
+if (_feature_root/'docs/editorial/2026-11-19-tool-feature-images/images.json').exists():
+ _feature_runpy.run_path(str(_feature_root/'docs/editorial/2026-11-19-tool-feature-images/apply.py'))
