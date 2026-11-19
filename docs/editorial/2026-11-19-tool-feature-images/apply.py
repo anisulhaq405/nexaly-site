@@ -1,4 +1,4 @@
-"""Idempotent visible, accessible feature-image integration for seven early free tools."""
+"""Idempotent visible, accessible feature-image integration for manifest-listed free tools."""
 from pathlib import Path
 import re,json,html
 R=Path(__file__).resolve().parents[3];D=Path(__file__).resolve().parent;E=html.escape
@@ -33,4 +33,4 @@ for x in items:
   preview='<a class="directory-preview" href="/tools/'+x['slug']+'/" aria-label="Open '+E(x['title'],quote=True)+'"><img src="'+x['asset']+'" width="1200" height="800" alt="'+E(x['alt'],quote=True)+'" loading="lazy" decoding="async"></a>'
   return c.replace('<div class="library-card-body">',preview+'<div class="library-card-body">',1)
  s=re.sub(r'<article\b[^>]*\bdirectory-tool\b.*?</article>',card,s,flags=re.S)
-p.write_text(s);print('Applied seven visible covers, directory previews, social metadata and schema images.')
+p.write_text(s);print(f'Applied {len(items)} visible covers, directory previews, social metadata and schema images.')

@@ -61,5 +61,14 @@
     "bytes": 133982,
     "source_image_name": "exec-d92cdd39-1b51-4b11-8867-71d48e4d3e60.png",
     "source_sha256": "327b763424cd82f47789e2b60ca1025006d7eadcaa75decdacdcb7ca5595a142"
+  },
+  {
+    "slug": "homeschool-budget-planner",
+    "title": "Homeschool Budget Planner",
+    "alt": "Homeschool Budget Planner cover with a conceptual education-budget tablet, learning books and stationery",
+    "asset": "/assets/img/tools/homeschool-budget-planner-feature-20261119.webp",
+    "bytes": 139152,
+    "source_image_name": "exec-a392e2ab-6efc-4d3a-83ad-d76708e1adaf.png",
+    "source_sha256": "6d50ca31d868b5c30f1cd6a3d282f4406f2157818a9e5101fd3e0686baa239fd"
   }
 ]

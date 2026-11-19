@@ -7,3 +7,7 @@ Add seven distinct original AI-generated planner-cover visuals matching the owne
 Exact source prompts and generated-asset mapping are retained in prompts.json and images.json. Source PNGs are produced by built-in image generation; production WebP files are resized/encoded at1200×800. The four historical resource builders reapply the idempotent integration manifest so later rebuilds retain the covers.
 
 Validation: seven unique image assets; complete feature/OG/Twitter/schema/directory references; existing forms, IDs, download links, dates and tool scripts preserved; idempotent integration and SEO output; publishing/protected-core regressions and existing Day1–4 tool tests through current-head rebuild; then seven live pages, seven image URLs, directory and representative desktop/narrow-browser rendering. Illustrative screens/documents are not claims of actual screenshots, unsupported features or medical outcomes.
+
+## Homeschool follow-on — 19 November 2026
+
+The owner also reported a missing Homeschool Budget Planner feature image. Confirmed no visible cover, generic social image and a text-only directory card. Added one original matching homeschool-budget cover to the same manifest and integration, including accessible visible image, directory preview and social/schema references. Existing worksheet controls, calculations, downloads and dates are preserved. Directory resource count stays64.
