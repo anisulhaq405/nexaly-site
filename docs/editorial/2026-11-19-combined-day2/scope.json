@@ -1,0 +1,279 @@
+[
+  {
+    "owner": "/journal/business-plan-examples/",
+    "topic": "Business-plan examples directory",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B14"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Directory routes to existing industry owners. Generic examples not another business-plan-template URL.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M001",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/business-plan-financial-projections-service-example/",
+    "topic": "Business plan financial projections",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B12"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Current worked service financial model; actual statements remain different.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M002",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/business-plan-for-a-loan/",
+    "topic": "Business plan loan application",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B01"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Plan-writing/evidence for a lender; no approval guarantee or provider eligibility advice.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M003",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/business-plan-guide/",
+    "topic": "Business-plan guide and components",
+    "type": "Existing audit/update",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B16"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Full guide/component/definition owner; not a new page for every how-to phrase.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M004",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/it-consulting-business-plan-retainer-capacity/",
+    "topic": "IT consulting plan",
+    "type": "Existing audit/update",
+    "old_ids": [
+      "O023"
+    ],
+    "old_day": 8,
+    "new_ids": [],
+    "origin": "Original Day 8",
+    "boundary": "IT consulting capacity, retainers, support obligations and cash assumptions. Generic consulting and marketing-agency plans retain their own delivery models.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M019",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/retail-store-business-plan-example/",
+    "topic": "Retail store plan",
+    "type": "Existing audit/update",
+    "old_ids": [
+      "O022"
+    ],
+    "old_day": 8,
+    "new_ids": [
+      "B06",
+      "S09"
+    ],
+    "origin": "Both plans",
+    "boundary": "Existing retail opening-stock/operations owner. Current boutique retail model and opening stock, not another new boutique startup page. Retain retail owner URL. Add only justified inventory, opening stock, margin and cash-planning improvements; no separate general store synonym page.",
+    "status": "Pending audit; no-change allowed",
+    "master_id": "M026",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/business-plan-executive-summary-example/",
+    "topic": "Executive-summary worked example",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B09"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Business-plan-specific worked example; broad slide/report summary intent needs review, not automatic Word/PowerPoint page variants.",
+    "primary_query": "business plan executive summary example",
+    "volume": 590.0,
+    "kd": 33.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M050",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/business-plan-market-analysis/",
+    "topic": "Business-plan market analysis worked guide",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "D01"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Original buyer/competitor/evidence and market-size example, distinct from the full business-plan guide and marketing action plan. Demand value is the PDF third-party value, not Semrush confirmation.",
+    "primary_query": "how to do market analysis for a business plan",
+    "volume": 140,
+    "kd": null,
+    "demand_source": "Supplied PDF: seodata.dev US; not Semrush; KD unavailable",
+    "status": "Pending research/production and release QA",
+    "master_id": "M051",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/business-plan-software-comparison/",
+    "topic": "Business-plan software",
+    "type": "New journal/hub",
+    "old_ids": [
+      "O088"
+    ],
+    "old_day": 8,
+    "new_ids": [
+      "B13"
+    ],
+    "origin": "Both plans",
+    "boundary": "Original O088 Day8. Comparisons/writing-service intent requires verified capabilities; no promise to provide consultancy or an AI generator. Business-plan software decision guide; current features/prices and evidence required. Business-plan writing, examples and free template have separate owners.",
+    "status": "Pending research/production and release QA",
+    "master_id": "M052",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/catering-business-plan/",
+    "topic": "Catering business launch plan",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B22"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Per-event food/labor/equipment/delivery/guest-count/cash model. Distinct from restaurant seats and current coffee-shop or bar models.",
+    "primary_query": "how to start a catering business",
+    "volume": 1000.0,
+    "kd": 11.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M053",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/marketing-agency-business-plan/",
+    "topic": "Marketing agency launch plan",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "B21"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Agency offer/retainer capacity/staff or contractor/cash model. Existing agency-profit-margin guide retains calculation ownership; full startup plan is a different task.",
+    "primary_query": "how to start a marketing agency",
+    "volume": 720.0,
+    "kd": 28.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M070",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/journal/restaurant-business-plan/",
+    "topic": "Restaurant business plan",
+    "type": "New journal/hub",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "D02"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Restaurant menu/seat/service-model/food-cost/labor/cash example, distinct from bakery, coffee shop and bar models. One owner for restaurant plan/template/example variants; reuse existing broad plan tool rather than a second generic generator. PDF volume not Semrush-verified.",
+    "primary_query": "restaurant business plan example",
+    "volume": 880,
+    "kd": null,
+    "demand_source": "Supplied PDF: seodata.dev US; not Semrush; KD unavailable",
+    "status": "Pending research/production and release QA",
+    "master_id": "M076",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/cost-benefit-analysis-template/",
+    "topic": "Cost-benefit comparison",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F22"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Explicit cost/benefit assumptions and time horizon; not guaranteed ROI or financial recommendation.",
+    "primary_query": "cost benefit analysis template",
+    "volume": 1000.0,
+    "kd": 27.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M091",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/project-budget-template/",
+    "topic": "Project budget and cost tracking",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "F13"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Dated project budget/actual and committed costs; distinct from monthly business overhead and project status dashboard.",
+    "primary_query": "project budget template",
+    "volume": 1300.0,
+    "kd": 44.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M102",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  },
+  {
+    "owner": "/tools/staffing-plan-template/",
+    "topic": "Staffing capacity plan",
+    "type": "New resource",
+    "old_ids": [],
+    "old_day": null,
+    "new_ids": [
+      "H10"
+    ],
+    "origin": "New opportunity research",
+    "boundary": "Roles/hours/coverage assumptions and resource gap, distinct from candidate assessment, employee personal records and freelance weekly capacity.",
+    "primary_query": "staffing plan template",
+    "volume": 880.0,
+    "kd": 22.0,
+    "demand_source": "Supplied Semrush export; database/country unconfirmed",
+    "status": "Pending research/production and release QA",
+    "master_id": "M105",
+    "execution_day": null,
+    "execution_status": "Pending; not included in Day1 release"
+  }
+]

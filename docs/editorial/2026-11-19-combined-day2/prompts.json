@@ -1,0 +1,41 @@
+{
+  "method": "Built-in image generation",
+  "prompts": [
+    {
+      "slug": "business-plan-executive-summary-example",
+      "prompt": "Create ONE premium NexalyPlanner JOURNAL feature cover, landscape3:2, ideally1536x1024. Established website theme: warm ivory, sage/teal, navy, soft natural daylight, refined realistic editorial product photography. Scene: Open business-plan folio with one-page summary and stylish pen, business owner hands arranging supporting planning notes. Large extremely readable navy serif heading EXACTLY 'Executive Summary'. Small brand text 'NEXALYPLANNER'. Clear elegant composition, topic-specific scene and title must stay inside central70% height for wide directory crops. Screens and documents are conceptual only, avoid tiny readable paragraphs, financial figures, fabricated charts, vendor marks, watermarks or unrealistic claims. Finished publish-ready cover, no webpage borders."
+    },
+    {
+      "slug": "business-plan-market-analysis",
+      "prompt": "Create ONE premium NexalyPlanner JOURNAL feature cover, landscape3:2, ideally1536x1024. Established website theme: warm ivory, sage/teal, navy, soft natural daylight, refined realistic editorial product photography. Scene: Buyer research notes, local map on a tablet, small competitor-comparison cards on warm desk. Large extremely readable navy serif heading EXACTLY 'Market Analysis'. Small brand text 'NEXALYPLANNER'. Clear elegant composition, topic-specific scene and title must stay inside central70% height for wide directory crops. Screens and documents are conceptual only, avoid tiny readable paragraphs, financial figures, fabricated charts, vendor marks, watermarks or unrealistic claims. Finished publish-ready cover, no webpage borders."
+    },
+    {
+      "slug": "business-plan-software-comparison",
+      "prompt": "Create ONE premium NexalyPlanner JOURNAL feature cover, landscape3:2, ideally1536x1024. Established website theme: warm ivory, sage/teal, navy, soft natural daylight, refined realistic editorial product photography. Scene: Laptop and notebook side by side showing abstract planning sections, realistic organized desk, no actual vendor logos or UI. Large extremely readable navy serif heading EXACTLY 'Business Plan Software'. Small brand text 'NEXALYPLANNER'. Clear elegant composition, topic-specific scene and title must stay inside central70% height for wide directory crops. Screens and documents are conceptual only, avoid tiny readable paragraphs, financial figures, fabricated charts, vendor marks, watermarks or unrealistic claims. Finished publish-ready cover, no webpage borders."
+    },
+    {
+      "slug": "catering-business-plan",
+      "prompt": "Create ONE premium NexalyPlanner JOURNAL feature cover, landscape3:2, ideally1536x1024. Established website theme: warm ivory, sage/teal, navy, soft natural daylight, refined realistic editorial product photography. Scene: Elegant catering preparation table with chef hands, plated canapes, clipboard and event planning notes. Large extremely readable navy serif heading EXACTLY 'Catering Business Plan'. Small brand text 'NEXALYPLANNER'. Clear elegant composition, topic-specific scene and title must stay inside central70% height for wide directory crops. Screens and documents are conceptual only, avoid tiny readable paragraphs, financial figures, fabricated charts, vendor marks, watermarks or unrealistic claims. Finished publish-ready cover, no webpage borders."
+    },
+    {
+      "slug": "marketing-agency-business-plan",
+      "prompt": "Create ONE premium NexalyPlanner JOURNAL feature cover, landscape3:2, ideally1536x1024. Established website theme: warm ivory, sage/teal, navy, soft natural daylight, refined realistic editorial product photography. Scene: Creative small agency workspace, two people discussing planning boards and a laptop, tasteful stationery. Large extremely readable navy serif heading EXACTLY 'Marketing Agency Plan'. Small brand text 'NEXALYPLANNER'. Clear elegant composition, topic-specific scene and title must stay inside central70% height for wide directory crops. Screens and documents are conceptual only, avoid tiny readable paragraphs, financial figures, fabricated charts, vendor marks, watermarks or unrealistic claims. Finished publish-ready cover, no webpage borders."
+    },
+    {
+      "slug": "restaurant-business-plan",
+      "prompt": "Create ONE premium NexalyPlanner JOURNAL feature cover, landscape3:2, ideally1536x1024. Established website theme: warm ivory, sage/teal, navy, soft natural daylight, refined realistic editorial product photography. Scene: Warm boutique restaurant with owner reviewing menu and clipboard at table, dining room visible, no numeric claims. Large extremely readable navy serif heading EXACTLY 'Restaurant Business Plan'. Small brand text 'NEXALYPLANNER'. Clear elegant composition, topic-specific scene and title must stay inside central70% height for wide directory crops. Screens and documents are conceptual only, avoid tiny readable paragraphs, financial figures, fabricated charts, vendor marks, watermarks or unrealistic claims. Finished publish-ready cover, no webpage borders."
+    },
+    {
+      "slug": "cost-benefit-analysis-template",
+      "prompt": "Create ONE premium NexalyPlanner FREE PLANNER feature cover, landscape3:2, ideally1536x1024. Established website theme: warm ivory, sage/teal, navy, soft natural daylight, refined realistic editorial product photography. Scene: Tablet with conceptual options comparison and calculator, sage and cream stationery. Large extremely readable navy serif heading EXACTLY 'Cost Benefit Planner'. Small brand text 'NEXALYPLANNER' plus 'FREE PLANNER'. Clear elegant composition, topic-specific scene and title must stay inside central70% height for wide directory crops. Screens and documents are conceptual only, avoid tiny readable paragraphs, financial figures, fabricated charts, vendor marks, watermarks or unrealistic claims. Finished publish-ready cover, no webpage borders."
+    },
+    {
+      "slug": "project-budget-template",
+      "prompt": "Create ONE premium NexalyPlanner FREE PLANNER feature cover, landscape3:2, ideally1536x1024. Established website theme: warm ivory, sage/teal, navy, soft natural daylight, refined realistic editorial product photography. Scene: Project folder, calculator and tablet with conceptual cost rows, pale blue and cream stationery. Large extremely readable navy serif heading EXACTLY 'Project Budget Planner'. Small brand text 'NEXALYPLANNER' plus 'FREE PLANNER'. Clear elegant composition, topic-specific scene and title must stay inside central70% height for wide directory crops. Screens and documents are conceptual only, avoid tiny readable paragraphs, financial figures, fabricated charts, vendor marks, watermarks or unrealistic claims. Finished publish-ready cover, no webpage borders."
+    },
+    {
+      "slug": "staffing-plan-template",
+      "prompt": "Create ONE premium NexalyPlanner FREE PLANNER feature cover, landscape3:2, ideally1536x1024. Established website theme: warm ivory, sage/teal, navy, soft natural daylight, refined realistic editorial product photography. Scene: Tablet with conceptual weekly role blocks, cream notebook and sage desk stationery, no people evaluations. Large extremely readable navy serif heading EXACTLY 'Staffing Capacity Planner'. Small brand text 'NEXALYPLANNER' plus 'FREE PLANNER'. Clear elegant composition, topic-specific scene and title must stay inside central70% height for wide directory crops. Screens and documents are conceptual only, avoid tiny readable paragraphs, financial figures, fabricated charts, vendor marks, watermarks or unrealistic claims. Finished publish-ready cover, no webpage borders."
+    }
+  ]
+}

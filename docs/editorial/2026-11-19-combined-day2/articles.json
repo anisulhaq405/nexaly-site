@@ -1,0 +1,94 @@
+[
+  {
+    "id": "M050",
+    "slug": "business-plan-executive-summary-example",
+    "title": "Business Plan Executive Summary Example: Write a Clear One-Page Case",
+    "desc": "Write a business-plan executive summary with an original catering example, reconciled funding figures, evidence labels and a copyable outline.",
+    "sources": [
+      [
+        "SBA: plan your business",
+        "https://www.sba.gov/counseling/plan-your-business/"
+      ]
+    ]
+  },
+  {
+    "id": "M051",
+    "slug": "business-plan-market-analysis",
+    "title": "Business Plan Market Analysis: Buyers, Competitors and a Worked Example",
+    "desc": "Build a market analysis from a defined buyer, dated evidence and a capacity-limited sales model. Includes an original service-market example and research table.",
+    "sources": [
+      [
+        "SBA: plan your business",
+        "https://www.sba.gov/counseling/plan-your-business/"
+      ]
+    ]
+  },
+  {
+    "id": "M052",
+    "slug": "business-plan-software-comparison",
+    "title": "Business Plan Software Comparison: Forecasting, Exports and Practical Fit",
+    "desc": "Compare LivePlan, Upmetrics and a manual planning workflow using provider documentation, evidence limits and a practical acceptance test before subscribing.",
+    "sources": [
+      [
+        "LivePlan features",
+        "https://www.liveplan.com/features"
+      ],
+      [
+        "LivePlan forecast help",
+        "https://help.liveplan.com/"
+      ],
+      [
+        "Upmetrics features",
+        "https://upmetrics.co/features"
+      ],
+      [
+        "Upmetrics forecasting setup",
+        "https://help.upmetrics.co/article/45-setup-and-configure-forecasting-plan"
+      ]
+    ]
+  },
+  {
+    "id": "M053",
+    "slug": "catering-business-plan",
+    "title": "Catering Business Plan: Event Costs, Deposits and Capacity Example",
+    "desc": "Write a catering business plan around guest counts, event contribution, deposit timing and kitchen capacity, with an original base and downside model.",
+    "sources": [
+      [
+        "SBA: plan your business",
+        "https://www.sba.gov/counseling/plan-your-business/"
+      ],
+      [
+        "FDA: starting a food business",
+        "https://www.fda.gov/food/food-industry/how-start-food-business"
+      ]
+    ]
+  },
+  {
+    "id": "M070",
+    "slug": "marketing-agency-business-plan",
+    "title": "Marketing Agency Business Plan: Retainers, Delivery Hours and Cash",
+    "desc": "Build an agency launch plan from scope, retainer hours, loaded delivery costs and collection timing, with an original capacity and downside example.",
+    "sources": [
+      [
+        "SBA: plan your business",
+        "https://www.sba.gov/counseling/plan-your-business/"
+      ]
+    ]
+  },
+  {
+    "id": "M076",
+    "slug": "restaurant-business-plan",
+    "title": "Restaurant Business Plan: Covers, Menu Costs and Cash Example",
+    "desc": "Plan a restaurant with dining covers, average check, food costs, labor and a dated cash review. Includes a transparent base case and downside calculation.",
+    "sources": [
+      [
+        "SBA: plan your business",
+        "https://www.sba.gov/counseling/plan-your-business/"
+      ],
+      [
+        "FDA: starting a food business",
+        "https://www.fda.gov/food/food-industry/how-start-food-business"
+      ]
+    ]
+  }
+]
