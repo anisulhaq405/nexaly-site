@@ -39,22 +39,23 @@
 </style>
 <meta name="twitter:image" content="https://nexalyplanner.com/images/og-default.jpg">
 <style id="journal-cover-ratio">.journal-card .pcover{aspect-ratio:3/2}.journal-card .pcover img{object-fit:cover;object-position:center}</style><style id="journal-topic-styles">
-.journal-topics{margin:28px 0 40px;color:#23392f}
-.journal-topics h2{font-size:clamp(1.6rem,3vw,2.35rem);margin:0 0 16px}
-.journal-topic-nav ul{display:flex;flex-wrap:wrap;gap:8px 20px;list-style:none;margin:0 0 18px;padding:0}
-.journal-topics a{color:#155c56;text-decoration:underline;text-underline-offset:3px}
-.journal-topic-list{border:1px solid #bdcec7;border-radius:14px;background:#f3f8f5}
-.journal-topic{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:16px 32px;padding:22px 26px;scroll-margin-top:100px}
-.journal-topic + .journal-topic{border-top:1px solid #bdcec7}
-.journal-topic:target{background:#e2efe8}
+.journal-topics{margin:32px 0 48px;color:#23392f}
+.journal-topics-header{display:flex;align-items:baseline;justify-content:space-between;gap:12px 24px;flex-wrap:wrap;margin-bottom:18px}
+.journal-topics h2,.journal-articles-title{font-size:clamp(1.65rem,3vw,2.35rem);margin:0}
+.journal-topics a{color:#155c56;text-underline-offset:3px}
+.journal-topics-header a,.journal-topic a{text-decoration:underline}
+.journal-topic-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:16px}
+.journal-topic{min-width:0;overflow-wrap:anywhere;padding:22px 24px;border:1px solid #bdcec7;border-radius:14px;background:#fff;scroll-margin-top:100px}
+.journal-topic:target{border-color:#155c56;background:#f3f8f5}
 .journal-topic h3{font-size:1.3rem;margin:0 0 7px}
-.journal-topic p{margin:0 0 9px}
-.journal-topic p:last-child{margin-bottom:0}
+.journal-topic p{margin:0 0 12px}
 .journal-topic-start{font-weight:600}
-.journal-topic ul{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 20px;align-content:start}
-#blogPosts{scroll-margin-top:100px}
-@media(max-width:760px){.journal-topic{grid-template-columns:1fr;padding:18px}}
-@media(max-width:460px){.journal-topic ul{grid-template-columns:1fr}}
+.journal-topic details{border-top:1px solid #dbe6df;padding-top:10px}
+.journal-topic summary{cursor:pointer;font-weight:600;color:#155c56;padding:4px 0}
+.journal-topic summary:focus-visible,.journal-topics a:focus-visible{outline:2px solid #155c56;outline-offset:4px}
+.journal-topic ul{margin:10px 0 0;padding-left:20px;display:grid;gap:7px}
+.journal-articles-title{margin:0 0 18px;scroll-margin-top:100px}
+@media(max-width:700px){.journal-topic-list{grid-template-columns:1fr}.journal-topic{padding:18px}}
 </style><script id="nexaly-seo" type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://nexalyplanner.com/journal/#webpage", "url": "https://nexalyplanner.com/journal/", "name": "Small Business Planning Guides | Inventory, Orders & Content | Nexaly Planner", "description": "Read NexalyPlanner guides for small business inventory, order tracking, sales systems, content planning, homeschool organization and student schedules.", "isPartOf": {"@id": "https://nexalyplanner.com/#website"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nexalyplanner.com/"}, {"@type": "ListItem", "position": 2, "name": "Small business planning guides for inventory, orders, content and growth", "item": "https://nexalyplanner.com/journal/"}]}]}</script>
 </head>
 <body>
@@ -85,10 +86,10 @@
     <div class="wrap">
       <div class="sec-head"><span class="eyebrow">The journal</span><h1>Small business planning guides for inventory, orders, content and growth</h1><p>Practical NexalyPlanner guides for business owners, boutique sellers, homeschool families and students who want cleaner planning systems.</p></div>
       <section class="journal-topics" aria-labelledby="journal-topics-title">
-        <h2 id="journal-topics-title">Explore the Journal by topic</h2>
-        <nav class="journal-topic-nav" aria-label="Journal topics">
-          <ul><li><a href="#business-planning">Business plans</a></li><li><a href="#cash-flow">Cash flow &amp; financial reporting</a></li><li><a href="#inventory-purchasing">Inventory &amp; purchasing</a></li><li><a href="#day7-reporting-cluster">Dashboards &amp; KPI reporting</a></li><li><a href="#daily-study">Daily &amp; study planning</a></li><li><a href="#workflow-automation">Business automation</a></li><li><a href="#sales-crm">Sales &amp; CRM</a></li><li><a href="#marketing-content">Marketing &amp; content planning</a></li><li><a href="#orders-production">Orders &amp; production</a></li><li><a href="#planner-formats">Digital &amp; printable planner formats</a></li><li><a href="#blogPosts">All articles</a></li></ul>
-        </nav>
+        <div class="journal-topics-header">
+          <h2 id="journal-topics-title">Explore by topic</h2>
+          <a href="#all-journal-articles">Browse all articles ↓</a>
+        </div>
         <div class="journal-topic-list">
           <section class="journal-topic" aria-labelledby="business-planning-title" id="business-planning">
             <div>
@@ -96,7 +97,9 @@
               <p>Write a plan and test its assumptions with industry examples.</p>
               <p class="journal-topic-start">Start with <a href="/journal/business-plan-guide/">Business Plan Guide</a></p>
             </div>
-            <ul aria-label="Business plans related guides">
+            <details>
+              <summary>Related guides (7)</summary>
+              <ul aria-label="Business plans related guides">
               <li><a href="/journal/business-plan-market-analysis/">Research customers and competitors</a></li>
               <li><a href="/journal/business-plan-executive-summary-example/">Write the executive summary</a></li>
               <li><a href="/journal/business-plan-examples/">Find examples by industry</a></li>
@@ -105,6 +108,7 @@
               <li><a href="/journal/business-plan-financial-projections-service-example/">Build service-business financial projections</a></li>
               <li><a href="/journal/business-plan-for-a-loan/">Prepare a plan for a lender</a></li>
             </ul>
+            </details>
           </section>
           <section class="journal-topic" aria-labelledby="cash-flow-title" id="cash-flow">
             <div>
@@ -112,7 +116,9 @@
               <p>Plan upcoming cash, then compare the forecast with what actually happened.</p>
               <p class="journal-topic-start">Start with <a href="/journal/cash-flow-forecast-template-example/">Cash Flow Forecast Guide</a></p>
             </div>
-            <ul aria-label="Cash flow &amp; financial reporting related guides">
+            <details>
+              <summary>Related guides (6)</summary>
+              <ul aria-label="Cash flow &amp; financial reporting related guides">
               <li><a href="/journal/operating-cash-flow-example/">Calculate operating cash flow</a></li>
               <li><a href="/journal/cash-flow-report-template-variance/">Explain forecast versus actual cash</a></li>
               <li><a href="/journal/owner-draw-cash-planning/">Plan the timing of owner draws</a></li>
@@ -120,6 +126,7 @@
               <li><a href="/journal/cost-of-goods-sold-example/">Calculate inventory cost and gross margin</a></li>
               <li><a href="/journal/cash-runway-template/">Estimate cash runway</a></li>
             </ul>
+            </details>
           </section>
           <section class="journal-topic" aria-labelledby="inventory-purchasing-title" id="inventory-purchasing">
             <div>
@@ -127,7 +134,9 @@
               <p>Plan the opening buy, track orders and review supplier performance.</p>
               <p class="journal-topic-start">Start with <a href="/journal/sales-inventory-tracking-small-business/">Sales &amp; Inventory Tracking Guide</a></p>
             </div>
-            <ul aria-label="Inventory &amp; purchasing related guides">
+            <details>
+              <summary>Related guides (6)</summary>
+              <ul aria-label="Inventory &amp; purchasing related guides">
               <li><a href="/journal/how-much-inventory-start-boutique/">Budget a boutique opening order</a></li>
               <li><a href="/journal/purchase-order-tracker/">Track partial deliveries</a></li>
               <li><a href="/journal/inventory-count-sheet/">Count and reconcile stock</a></li>
@@ -135,6 +144,7 @@
               <li><a href="/journal/supplier-quote-comparison/">Compare supplier quotes</a></li>
               <li><a href="/journal/reorder-point-small-business/">Set a reorder point</a></li>
             </ul>
+            </details>
           </section>
           <section class="journal-topic" aria-labelledby="day7-reporting-cluster-title" id="day7-reporting-cluster">
             <div>
@@ -142,7 +152,9 @@
               <p>Define the metrics first, then choose a dashboard for the decision.</p>
               <p class="journal-topic-start">Start with <a href="/journal/kpi-dashboard-guide/">KPI Dashboard Guide</a></p>
             </div>
-            <ul aria-label="Dashboards &amp; KPI reporting related guides">
+            <details>
+              <summary>Related guides (9)</summary>
+              <ul aria-label="Dashboards &amp; KPI reporting related guides">
               <li><a href="/journal/executive-kpi-dashboard/">Review cash, delivery and capacity</a></li>
               <li><a href="/journal/seo-dashboard-guide/">Report search clicks and CTR</a></li>
               <li><a href="/journal/marketing-dashboard-example/">Review campaign costs and return</a></li>
@@ -153,6 +165,7 @@
               <li><a href="/journal/financial-dashboard-example/">Build a financial dashboard</a></li>
               <li><a href="/journal/nonprofit-dashboard-example/">Report funding and program capacity</a></li>
             </ul>
+            </details>
           </section>
           <section class="journal-topic" aria-labelledby="daily-study-title" id="daily-study">
             <div>
@@ -160,7 +173,9 @@
               <p>Choose a daily layout and apply it to deadlines or home learning.</p>
               <p class="journal-topic-start">Start with <a href="/journal/daily-planner-complete-guide/">Daily Planning Guide</a></p>
             </div>
-            <ul aria-label="Daily &amp; study planning related guides">
+            <details>
+              <summary>Related guides (6)</summary>
+              <ul aria-label="Daily &amp; study planning related guides">
               <li><a href="/journal/student-planner-guide/">Set up a student planner</a></li>
               <li><a href="/journal/college-assignment-tracker/">Track assignment deadlines</a></li>
               <li><a href="/journal/homeschool-schedule-multiple-ages/">Schedule learning across ages</a></li>
@@ -168,6 +183,7 @@
               <li><a href="/journal/hourly-planner-best-free-digital-layouts/">Choose an hourly layout</a></li>
               <li><a href="/journal/academic-planner-school-year/">Plan a school year</a></li>
             </ul>
+            </details>
           </section>
           <section class="journal-topic" aria-labelledby="workflow-automation-title" id="workflow-automation">
             <div>
@@ -175,13 +191,16 @@
               <p>Map a workflow, decide where people approve work, and automate one step at a time.</p>
               <p class="journal-topic-start">Start with <a href="/journal/business-process-automation/">Business Process Automation Guide</a></p>
             </div>
-            <ul aria-label="Business automation related guides">
+            <details>
+              <summary>Related guides (5)</summary>
+              <ul aria-label="Business automation related guides">
               <li><a href="/journal/workflow-automation-guide/">Design triggers and approvals</a></li>
               <li><a href="/journal/automation-tools-comparison/">Compare automation tools</a></li>
               <li><a href="/journal/finance-automation-guide/">Automate finance handoffs</a></li>
               <li><a href="/journal/hr-automation-guide/">Automate onboarding tasks</a></li>
               <li><a href="/journal/customer-service-automation/">Route customer service requests</a></li>
             </ul>
+            </details>
           </section>
           <section class="journal-topic" aria-labelledby="sales-crm-title" id="sales-crm">
             <div>
@@ -189,11 +208,14 @@
               <p>Choose how to capture leads, follow up and review the sales pipeline.</p>
               <p class="journal-topic-start">Start with <a href="/journal/crm-software-small-business/">Small Business CRM Guide</a></p>
             </div>
-            <ul aria-label="Sales &amp; CRM related guides">
+            <details>
+              <summary>Related guides (3)</summary>
+              <ul aria-label="Sales &amp; CRM related guides">
               <li><a href="/journal/crm-for-solopreneurs/">Set up a CRM for one person</a></li>
               <li><a href="/journal/sales-automation-guide/">Automate sales follow-up</a></li>
               <li><a href="/journal/crm-automation-guide/">Automate CRM records and tasks</a></li>
             </ul>
+            </details>
           </section>
           <section class="journal-topic" aria-labelledby="marketing-content-title" id="marketing-content">
             <div>
@@ -201,13 +223,16 @@
               <p>Set campaign goals, plan production and schedule content around your capacity.</p>
               <p class="journal-topic-start">Start with <a href="/journal/one-page-marketing-plan-example/">One-Page Marketing Plan Example</a></p>
             </div>
-            <ul aria-label="Marketing &amp; content planning related guides">
+            <details>
+              <summary>Related guides (5)</summary>
+              <ul aria-label="Marketing &amp; content planning related guides">
               <li><a href="/journal/content-marketing-plan-template-capacity/">Match content output to capacity</a></li>
               <li><a href="/journal/content-calendar-clothing-brand/">Build a clothing brand content calendar</a></li>
               <li><a href="/journal/email-marketing-automation/">Plan automated email sequences</a></li>
               <li><a href="/journal/marketing-automation-small-business/">Choose what to automate in marketing</a></li>
               <li><a href="/journal/black-friday-marketing-plan-small-business/">Plan a seasonal promotion</a></li>
             </ul>
+            </details>
           </section>
           <section class="journal-topic" aria-labelledby="orders-production-title" id="orders-production">
             <div>
@@ -215,12 +240,15 @@
               <p>Track what customers are owed and what the team can produce or ship.</p>
               <p class="journal-topic-start">Start with <a href="/journal/track-small-business-orders/">Small Business Order Tracking Guide</a></p>
             </div>
-            <ul aria-label="Orders &amp; production related guides">
+            <details>
+              <summary>Related guides (4)</summary>
+              <ul aria-label="Orders &amp; production related guides">
               <li><a href="/journal/track-partial-shipments-backorders/">Track partial shipments and backorders</a></li>
               <li><a href="/journal/release-reserved-stock-cancelled-orders/">Release stock after cancellations</a></li>
               <li><a href="/journal/production-schedule-template/">Build a production schedule</a></li>
               <li><a href="/journal/batch-lot-traceability-log/">Trace production lots</a></li>
             </ul>
+            </details>
           </section>
           <section class="journal-topic" aria-labelledby="planner-formats-title" id="planner-formats">
             <div>
@@ -228,7 +256,9 @@
               <p>Choose a format based on your device, printing needs and how you keep records.</p>
               <p class="journal-topic-start">Start with <a href="/journal/offline-digital-planners-guide/">Offline Digital Planner Guide</a></p>
             </div>
-            <ul aria-label="Digital &amp; printable planner formats related guides">
+            <details>
+              <summary>Related guides (6)</summary>
+              <ul aria-label="Digital &amp; printable planner formats related guides">
               <li><a href="/journal/ipad-planner-app-buying-guide/">Compare iPad planner formats</a></li>
               <li><a href="/journal/ipad-digital-planner-setup-guide/">Set up a digital planner on iPad</a></li>
               <li><a href="/journal/planner-sizes-chart-printable-inserts/">Check printable insert sizes</a></li>
@@ -236,9 +266,12 @@
               <li><a href="/journal/create-your-own-printable-planner/">Make a printable planner</a></li>
               <li><a href="/journal/adhd-planner-for-adults/">Choose planning features for adult ADHD</a></li>
             </ul>
+            </details>
           </section>
         </div>
-      </section><div class="grid" id="blogPosts">
+      </section>
+      <h2 class="journal-articles-title" id="all-journal-articles">All Journal articles</h2>
+      <div class="grid" id="blogPosts">
 <a class="pcard journal-card" href="/journal/business-plan-executive-summary-example/" aria-label="Business Plan Executive Summary Example: Write a Clear One-Page Case"><div class="pcover"><img src="/images/journal/business-plan-executive-summary-example-20261119.webp" alt="Business Plan Executive Summary Example: Write a Clear One-Page Case — conceptual planning scene" width="600" height="400" loading="lazy" decoding="async"></div><div class="pcard-body"><h3>Business Plan Executive Summary Example: Write a Clear One-Page Case</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">Planning Guides</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">Write a business-plan executive summary with an original catering example, reconciled funding figures, evidence labels and a copyable outline.</p><div style="font-size:12px;color:var(--faint);margin-top:9px">Nov 19, 2026</div></div></a>
 <a class="pcard journal-card" href="/journal/business-plan-market-analysis/" aria-label="Business Plan Market Analysis: Buyers, Competitors and a Worked Example"><div class="pcover"><img src="/images/journal/business-plan-market-analysis-20261119.webp" alt="Business Plan Market Analysis: Buyers, Competitors and a Worked Example — conceptual planning scene" width="600" height="400" loading="lazy" decoding="async"></div><div class="pcard-body"><h3>Business Plan Market Analysis: Buyers, Competitors and a Worked Example</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">Planning Guides</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">Build a market analysis from a defined buyer, dated evidence and a capacity-limited sales model. Includes an original service-market example and research table.</p><div style="font-size:12px;color:var(--faint);margin-top:9px">Nov 19, 2026</div></div></a>
 <a class="pcard journal-card" href="/journal/business-plan-software-comparison/" aria-label="Business Plan Software Comparison: Forecasting, Exports and Practical Fit"><div class="pcover"><img src="/images/journal/business-plan-software-comparison-20261119.webp" alt="Business Plan Software Comparison: Forecasting, Exports and Practical Fit — conceptual planning scene" width="600" height="400" loading="lazy" decoding="async"></div><div class="pcard-body"><h3>Business Plan Software Comparison: Forecasting, Exports and Practical Fit</h3><div class="pr" style="font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)">Planning Guides</div><p style="font-size:13px;color:var(--faint);line-height:1.55;margin:8px 0 0">Compare LivePlan, Upmetrics and a manual planning workflow using provider documentation, evidence limits and a practical acceptance test before subscribing.</p><div style="font-size:12px;color:var(--faint);margin-top:9px">Nov 19, 2026</div></div></a>
