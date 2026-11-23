@@ -9,7 +9,10 @@ function fixture(valid = true, message = 'Please explain the PDF & HTML formats.
   const fields = {cName:{value:'Alex & Sam'},cEmail:{value:'alex+planner@example.test'},cMsg:{value:message},newsEmail:{value:'alex@example.test'}};
   const notifications = [];
   const ctx = {$:id=>fields[id],location:{href:'https://nexalyplanner.com/contact/'},toast:text=>notifications.push(text),encodeURIComponent};
-  vm.runInNewContext(source.slice(start, end), ctx);
+  vm.runInNewContext(source.slice(start, source.indexOf('function sendContact(e)', start)), ctx);
+  const page = fs.readFileSync('contact/index.html', 'utf8');
+  const handler = page.split('<script id="contact-draft-handler">')[1].split('</script>')[0];
+  vm.runInNewContext(handler, ctx);
   let prevented = false;
   const event = {preventDefault(){prevented=true;},target:{reportValidity:()=>valid}};
   return {ctx,fields,notifications,event,prevented:()=>prevented};

@@ -114,7 +114,19 @@
     <div class="foot-bottom"><span>© 2026 Nexaly Planner. All rights reserved.</span><span>Made for people who like their days organized.</span></div>
   </div>
 </footer>
-<script src="/assets/js/main.js?v=aa8385031316"></script>
+<script src="/assets/js/main.js?v=855cd7c55b56"></script>
+<script id="contact-draft-handler">
+function sendContact(e){
+  e.preventDefault();
+  if(e.target&&typeof e.target.reportValidity==='function'&&!e.target.reportValidity())return false;
+  var n=($('cName').value||'').trim(),em=($('cEmail').value||'').trim(),message=($('cMsg').value||'').trim();
+  if(!n||!em||!message)return false;
+  var body='Name: '+n+'\nReply email: '+em+'\n\n'+message;
+  location.href='mailto:nexalyplanner@gmail.com?subject='+encodeURIComponent('NexalyPlanner enquiry')+'&body='+encodeURIComponent(body);
+  toast('Send the draft in your email app. If no app opens, email nexalyplanner@gmail.com. Your text stays on this page.');
+  return false;
+}
+</script>
 </body>
 </html>
 
