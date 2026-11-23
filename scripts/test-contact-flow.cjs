@@ -19,7 +19,7 @@ assert.equal(f.ctx.sendContact(f.event), false);
 assert(f.prevented());
 const mail = new URL(f.ctx.location.href);
 assert.equal(mail.protocol, 'mailto:');
-assert.equal(mail.pathname, 'info@nexalyplanner.com');
+assert.equal(mail.pathname, 'nexalyplanner@gmail.com');
 assert.equal(mail.searchParams.get('subject'), 'NexalyPlanner enquiry');
 assert.equal(mail.searchParams.get('body'), 'Name: Alex & Sam\nReply email: alex+planner@example.test\n\nPlease explain the PDF & HTML formats.\nNo private records attached.');
 assert.equal(mail.searchParams.size, 2);

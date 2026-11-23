@@ -1823,8 +1823,8 @@ function sendContact(e){
   var n=($('cName').value||'').trim(),em=($('cEmail').value||'').trim(),message=($('cMsg').value||'').trim();
   if(!n||!em||!message)return false;
   var body='Name: '+n+'\nReply email: '+em+'\n\n'+message;
-  location.href='mailto:info@nexalyplanner.com?subject='+encodeURIComponent('NexalyPlanner enquiry')+'&body='+encodeURIComponent(body);
-  toast('Send the draft in your email app. If no app opens, email info@nexalyplanner.com. Your text stays on this page.');
+  location.href='mailto:nexalyplanner@gmail.com?subject='+encodeURIComponent('NexalyPlanner enquiry')+'&body='+encodeURIComponent(body);
+  toast('Send the draft in your email app. If no app opens, email nexalyplanner@gmail.com. Your text stays on this page.');
   return false;
 }
 
