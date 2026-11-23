@@ -50,7 +50,7 @@
       <div class="sec-head"><span class="eyebrow">Get in touch</span><h1>We'd love to hear from you</h1><p>Questions about a planner, an order or a bundle? Email us directly, or use this form to prepare an email draft. Send the draft from your email app to complete your enquiry.</p></div>
       <div class="contact-grid">
         <div class="contact-info">
-          <div class="ci-item"><span class="ci-ic">✉</span><div><b>Email us</b><a href="mailto:info@nexalyplanner.com">info@nexalyplanner.com</a></div></div>
+          <div class="ci-item"><span class="ci-ic">✉</span><div><b>Email us</b><a href="mailto:nexalyplanner@gmail.com">nexalyplanner@gmail.com</a></div></div>
           <div class="ci-item"><span class="ci-ic">⏱</span><div><b>How to contact us</b><span>Email your question and any relevant product or order reference.</span></div></div>
           <div class="ci-item"><span class="ci-ic">✦</span><div><b>Follow along</b><div class="ci-socials"><a href="https://www.instagram.com/nexalyplanner/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/NexalyPlanner" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.tiktok.com/@nexalyplanner1" target="_blank" rel="noopener">TikTok</a> · <a href="https://www.pinterest.com/NexalyPlanner/" target="_blank" rel="noopener">Pinterest</a> · <a href="https://x.com/Nexalyplanner" target="_blank" rel="noopener">X</a> · <a href="https://www.youtube.com/@NexalyPlanner" target="_blank" rel="noopener">YouTube</a></div></div></div>
         </div>
@@ -58,7 +58,7 @@
           <label class="fld"><span>Your name</span><input id="cName" type="text" placeholder="Your name" required></label>
           <label class="fld"><span>Email</span><input id="cEmail" type="email" placeholder="you@email.com" required></label>
           <label class="fld"><span>Message</span><textarea id="cMsg" rows="5" placeholder="How can we help?" required></textarea></label>
-          <button class="btn btn-terra" type="submit" style="width:100%;">Prepare email draft</button><p id="contact-email-note" style="font-size:14px;line-height:1.6;margin:0">This form opens your email app; it does not send a message automatically. If no email app opens, copy your question and email <a href="mailto:info@nexalyplanner.com">info@nexalyplanner.com</a>. Your typed text is retained on this page.</p>
+          <button class="btn btn-terra" type="submit" style="width:100%;">Prepare email draft</button><p id="contact-email-note" style="font-size:14px;line-height:1.6;margin:0">This form opens your email app; it does not send a message automatically. If no email app opens, copy your question and email <a href="mailto:nexalyplanner@gmail.com">nexalyplanner@gmail.com</a>. Your typed text is retained on this page.</p>
         </form>
       </div>
     </div>
@@ -115,6 +115,18 @@
   </div>
 </footer>
 <script src="/assets/js/main.js?v=855cd7c55b56"></script>
+<script id="contact-draft-handler">
+function sendContact(e){
+  e.preventDefault();
+  if(e.target&&typeof e.target.reportValidity==='function'&&!e.target.reportValidity())return false;
+  var n=($('cName').value||'').trim(),em=($('cEmail').value||'').trim(),message=($('cMsg').value||'').trim();
+  if(!n||!em||!message)return false;
+  var body='Name: '+n+'\nReply email: '+em+'\n\n'+message;
+  location.href='mailto:nexalyplanner@gmail.com?subject='+encodeURIComponent('NexalyPlanner enquiry')+'&body='+encodeURIComponent(body);
+  toast('Send the draft in your email app. If no app opens, email nexalyplanner@gmail.com. Your text stays on this page.');
+  return false;
+}
+</script>
 </body>
 </html>
 
