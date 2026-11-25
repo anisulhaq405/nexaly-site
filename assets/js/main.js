@@ -17,7 +17,7 @@ var products = [
     "thumb": "/images/products/owner-pay-planner/feature-thumb.webp",
     "video": "",
     "buyUrl": "",
-    "url": "/planners/owner-pay-planner/",
+    "url": "/planners/owner-pay-and-draw-planner/",
     "m1": "#E9E3F6",
     "m2": "#D5C8EB"
   },
