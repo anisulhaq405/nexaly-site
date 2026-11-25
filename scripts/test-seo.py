@@ -29,8 +29,18 @@ with tempfile.TemporaryDirectory(prefix='nexaly-seo-test-') as directory:
     def page(title,extra='',body=''):
         return '<html><head><title>'+title+'</title><meta name="description" content="Details for '+title+'"><meta property="og:image" content="https://nexalyplanner.com/images/og-default.jpg">'+extra+'</head><body><h1>'+title+'</h1><p>A meaningful introduction for this isolated publishing fixture.</p>'+body+'</body></html>'
     article=target/'journal/seo-test-article/index.html';article.parent.mkdir()
+    home_path=target/'index.html'
+    tools_path=target/'tools/index.html'
+    original_directory=tools_path.read_text()
+    initial_free_count=int(re.search(r'View all (\d+) planners',home_path.read_text())[1])
+    initial_product_count=int(re.search(r'View all (\d+) products',home_path.read_text())[1])
+    tool=target/'tools/seo-test-tool/index.html';tool.parent.mkdir()
+    tool.write_text(page('Test free planner'))
+    fixture_card='<article class="directory-tool"><a href="/tools/seo-test-tool/">Test free planner</a></article>'
+    tools_path.write_text(original_directory.replace('</main>',fixture_card * 2+'</main>',1))
     article.write_text(page('Test article','<link rel="canonical" href="https://wrong.example/">'))
     run()
+    assert f'View all {initial_free_count+1} planners' in home_path.read_text()
     assert 'https://nexalyplanner.com/journal/seo-test-article/' in article.read_text()
     assert '/journal/seo-test-article/' in (target/'index.html').read_text()
     article.write_text(page('Updated article','<meta property="og:image:alt" content="Accurate new image description">'))
@@ -60,13 +70,17 @@ with tempfile.TemporaryDirectory(prefix='nexaly-seo-test-') as directory:
         run(False)
         assert before==(target/'assets/js/main.js').read_text(),'failed build wrote catalogue'
     product.write_text(good);run()
+    assert f'View all {initial_product_count+1} products' in home_path.read_text()
     assert '/planners/seo-test-product/' in (target/'planners/business-operating-systems/index.html').read_text()
     assert '"buyUrl": "https://buy.polar.sh/test-fixture-only"' in (target/'assets/js/main.js').read_text()
     product.write_text(good.replace('</head>','<meta name="robots" content="noindex"></head>'))
     run()
     assert '/planners/seo-test-product/' not in (target/'sitemap.xml').read_text()
     assert '/planners/seo-test-product/' not in (target/'planners/index.html').read_text()
-    product.unlink();article.unlink();run();run(True,'--check')
+    product.unlink();article.unlink();tool.unlink();tools_path.write_text(original_directory)
+    run();run(True,'--check')
+    assert f'View all {initial_free_count} planners' in home_path.read_text()
+    assert f'View all {initial_product_count} products' in home_path.read_text()
     assert '/journal/seo-test-article/' not in (target/'sitemap.xml').read_text()
     assert '/journal/seo-test-article/' not in (target/'journal/index.html').read_text()
     # A later shared CSS edit must invalidate and refresh the homepage snapshot.

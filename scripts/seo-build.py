@@ -207,6 +207,29 @@ def build(check=False):
             try:json.loads(doc.inner(e))
             except ValueError:raise ValueError(f'{path}: invalid JSON-LD')
     files={path:ensure_global_navigation(source) for path,source in files.items()}
+    # Count published entries from the same directories visitors browse.
+    directory = Document(files['tools/index.html'])
+    public_urls = set(public)
+    free_tools = set()
+    for card in directory.find('article'):
+        if 'directory-tool' not in card['attrs'].get('class', '').split():
+            continue
+        for link in Document(directory.inner(card)).find('a'):
+            href = link['attrs'].get('href', '')
+            if re.fullmatch(r'/tools/[^/]+/', href) and SITE + href in public_urls:
+                free_tools.add(href)
+    homepage = files['index.html']
+    for ident, count, noun in (
+        ('home-free-planner-count', len(free_tools), 'planner'),
+        ('home-product-count', len(products), 'product'),
+    ):
+        label = f'View all {count} {noun}{"s" if count != 1 else ""}'
+        homepage = replace_inner(homepage, ident, label)
+    files['index.html'] = homepage
+    tools = files['tools/index.html']
+    files['tools/index.html'] = replace_inner(
+        tools, 'search-status', f'{len(free_tools)} planner{"s" if len(free_tools) != 1 else ""}'
+    )
     # Preserve merchandising order; new entries appear first.
     products.sort(key=lambda p:(p['url'] in old_products,list(old_products).index(p['url']) if p['url'] in old_products else p['url']))
     posts.sort(key=lambda p:(0 if known is not None and SITE+p['url'] not in known else 1, list(old_posts).index(p['url']) if p['url'] in old_posts else len(old_posts)))
