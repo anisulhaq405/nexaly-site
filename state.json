@@ -4174,6 +4174,11 @@
       "revision": "a05ff86b78c6a9c2cc538702e072def5d715e1704801a55b8d75377d15038f65",
       "status": "needs_review",
       "attemptedAt": "2026-11-25T10:07:12.106384+00:00"
+    },
+    "https://nexalyplanner.com/planners/owner-pay-and-draw-planner/|youtube": {
+      "revision": "a05ff86b78c6a9c2cc538702e072def5d715e1704801a55b8d75377d15038f65",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T10:07:16.097883+00:00"
     }
   },
   "firstTestCompleted": true
