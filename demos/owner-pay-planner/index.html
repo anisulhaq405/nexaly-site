@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>Owner Pay Planner Live Demo | NexalyPlanner</title>
+<style>
+:root{font:16px/1.5 system-ui,sans-serif;color:#281f33;background:#f5f1eb}
+*{box-sizing:border-box}body{margin:0}main{max-width:960px;margin:auto;padding:clamp(16px,4vw,36px)}
+header{padding:24px;background:#342543;color:#fff;border-radius:16px}
+header p{margin:0;color:#eadff0}h1{margin:4px 0 8px;font-size:clamp(1.6rem,4vw,2.5rem)}
+h2{margin:0 0 12px;font-size:1.25rem}.layout{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+section{padding:20px;background:#fff;border:1px solid #ded5e3;border-radius:14px}
+form{display:grid;gap:12px}label{display:grid;gap:4px;font-weight:600}
+input,button{font:inherit;padding:8px 12px;border-radius:7px;border:1px solid #a99bad}
+button{background:#523f66;color:#fff;cursor:pointer;font-weight:600}
+button.secondary{background:white;color:#523f66}button:focus-visible,input:focus-visible{outline:3px solid #916baa;outline-offset:2px}
+dl{margin:0}dl div{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid #eee7f0}dd{margin:0;font-weight:700;white-space:nowrap}
+#status{background:#f4eef8;padding:10px;border-radius:8px}ul{padding-left:20px}li{margin:8px 0}
+@media(max-width:590px){.layout{grid-template-columns:1fr}}
+</style>
+</head>
+<body><main>
+<header><p>NexalyPlanner Live Demo</p><h1>Owner Pay Planner</h1><p>Try a proposed owner draw with fictional USD records. Changes reset when you reload.</p></header>
+<div class="layout">
+<section><h2>Plan an owner draw</h2>
+<form id="draw">
+<label>Current business cash ($)<input name="cash" type="number" min="0" max="1000000000" step=".01" value="79000" required></label>
+<label>Protected cash for bills, reserves and buffer ($)<input name="protectedCash" type="number" min="0" max="1000000000" step=".01" value="39200" required></label>
+<label>Safety factor (%)<input name="factor" type="number" min="0" max="100" step=".01" value="80" required></label>
+<label>Requested owner draw ($)<input name="requested" type="number" min="0" max="1000000000" step=".01" value="10000" required></label>
+<button type="submit">Evaluate draw</button><button type="reset" class="secondary">Reset sample</button>
+</form></section>
+<section><h2>Cash before and after</h2>
+<dl><div><dt>Unprotected balance</dt><dd id="balance"></dd></div>
+<div><dt>Planning draw ceiling</dt><dd id="ceiling"></dd></div>
+<div><dt>Cash after requested draw</dt><dd id="remaining"></dd></div></dl>
+<p id="status" role="status"></p>
+<button type="button" id="save">Compare this scenario</button>
+<ul id="scenarios" aria-label="Scenario comparison" aria-live="polite"></ul>
+<p>Planning estimates use the figures above. The full planner includes owner schedules, obligations, reserves, reports and backups.</p>
+</section>
+</div></main>
+<script>
+'use strict';
+const form = document.querySelector('form');
+const output = id => document.getElementById(id);
+const dollars = new Intl.NumberFormat('en-US', {style:'currency', currency:'USD'});
+function evaluate() {
+  const {cash, protectedCash, factor, requested} = form.elements;
+  const available = Math.max(0, cash.valueAsNumber - protectedCash.valueAsNumber);
+  const ceiling = Math.round(available * factor.valueAsNumber) / 100;
+  const draw = requested.valueAsNumber;
+  const remaining = cash.valueAsNumber - draw;
+  output('balance').textContent = dollars.format(available);
+  output('ceiling').textContent = dollars.format(ceiling);
+  output('remaining').textContent = dollars.format(remaining);
+  output('status').textContent = draw > ceiling ? 'This draw exceeds the planning ceiling.' : 'This draw is within the planning ceiling.';
+  return {draw, remaining};
+}
+form.addEventListener('submit', event => {event.preventDefault();evaluate()});
+form.addEventListener('reset', () => {
+  output('scenarios').replaceChildren();
+  setTimeout(evaluate, 0);
+});
+output('save').addEventListener('click', () => {
+  if (!form.reportValidity()) return;
+  const {draw, remaining} = evaluate();
+  const item = document.createElement('li');
+  item.textContent = dollars.format(draw) + ' draw leaves ' + dollars.format(remaining) + ' in cash.';
+  const list = output('scenarios');
+  list.prepend(item);
+  if (list.children.length > 3) list.lastElementChild.remove();
+});
+evaluate();
+</script></body></html>
