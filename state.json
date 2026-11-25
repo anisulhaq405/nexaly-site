@@ -3865,6 +3865,11 @@
       "status": "published",
       "postId": "JM_Lmvwub0M",
       "publishedAt": "2026-11-25T08:02:36.773878+00:00"
+    },
+    "https://nexalyplanner.com/journal/hr-automation-guide/|facebook": {
+      "revision": "c539c076471190e4806cd8e7b5e2a5e2c1a90c7ff893983ba4bae03367c2510c",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T08:02:42.587800+00:00"
     }
   },
   "firstTestCompleted": true
