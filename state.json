@@ -3913,6 +3913,11 @@
       "status": "published",
       "postId": "bqqQG7v4xD8",
       "publishedAt": "2026-11-25T08:03:52.801163+00:00"
+    },
+    "https://nexalyplanner.com/journal/laundromat-business-plan/|facebook": {
+      "revision": "7e63be64ad64e821710838a1e92968138af1d70482e45615ea68d84ce0cc547a",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T08:03:58.831774+00:00"
     }
   },
   "firstTestCompleted": true
