@@ -3754,8 +3754,9 @@
     },
     "https://nexalyplanner.com/journal/catering-business-plan/|instagram": {
       "revision": "708fbfb3ec1b6b8358521ca04cc16ea452350ad3a2ba36edf159d8ad44b25161",
-      "status": "attempting",
-      "attemptedAt": "2026-11-25T07:59:12.592657+00:00"
+      "status": "published",
+      "postId": "18104603669452063",
+      "publishedAt": "2026-11-25T07:59:32.778232+00:00"
     }
   },
   "firstTestCompleted": true
