@@ -3417,10 +3417,9 @@
       "publishedAt": "2026-11-25T07:58:28.959216+00:00"
     },
     "https://nexalyplanner.com/journal/business-process-automation/|instagram": {
-      "revision": "793b4b9be8fe5a7e77ec52ee99d4c9706253cd4214070ef07be81c311b77d921",
-      "status": "published",
-      "postId": "17873490321645751",
-      "publishedAt": "2026-11-12T11:58:58.357489+00:00"
+      "revision": "ff37620f6c1d6160e961a0094b365a54c5097de5ce9248f852786d34429b3287",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T07:58:30.501026+00:00"
     },
     "https://nexalyplanner.com/journal/business-process-automation/|pinterest": {
       "revision": "793b4b9be8fe5a7e77ec52ee99d4c9706253cd4214070ef07be81c311b77d921",
