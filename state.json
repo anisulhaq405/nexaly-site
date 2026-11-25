@@ -3817,6 +3817,11 @@
       "status": "published",
       "postId": "1AWn_37BOmQ",
       "publishedAt": "2026-11-25T08:01:09.685232+00:00"
+    },
+    "https://nexalyplanner.com/journal/dashboard-design-guide/|facebook": {
+      "revision": "7f0b5797de0677b3334426ba74a5e6abf0f9f26a510536270d1ca76fea27bc60",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T08:01:15.607162+00:00"
     }
   },
   "firstTestCompleted": true
