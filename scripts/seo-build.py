@@ -220,13 +220,10 @@ def build(check=False):
         files[path]=replace_inner(files[path],ident,'\n'.join(p['html'] for p in cards if not cat or p['cat']==cat))
     files['index.html']=replace_inner(files['index.html'],'homePosts','\n'.join(rendered['posts'][:4]))
     files['journal/index.html']=replace_inner(files['journal/index.html'],'blogPosts','\n'.join(rendered['posts'])).rstrip('\n')+'\n'
-    # Keep browser rendering in sync with static catalogues; do not edit checkout logic.
+    # Bust the cache on pages that render changing catalogues on load.
+    # Other pages receive shared script updates through normal JS revalidation.
     version=hashlib.sha256(js.encode()).hexdigest()[:12]
-    for path in files:
-        # Version-only updates keep shared storefront behavior current; product markup is preserved.
-        # bundles/index.html is byte-locked because it contains checkout selection behavior.
-        # Keep its reviewed script revision until the core is explicitly re-audited.
-        if not path.endswith('index.html') or path == 'bundles/index.html':continue
+    for path in ('index.html','planners/index.html','planners/digital-planners/index.html'):
         files[path]=re.sub(r'(/assets/js/main\.js)(?:\?[^"\s>]*)?',lambda m:m[1]+'?v='+version,files[path])
     files['assets/js/main.js']=js
     # Preserve the full CSS cascade while avoiding a blocking homepage round trip.
