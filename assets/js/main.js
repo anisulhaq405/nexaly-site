@@ -9,6 +9,19 @@ var $ = function(id){return document.getElementById(id);};
    Leave img/video/buyUrl as "" and a styled placeholder is shown until you add them. */
 var products = [
   {
+    "title": "Owner Pay Planner",
+    "cat": "Digital Planners",
+    "desc": "Plan owner draws, protect cash reserves and compare profit distributions in an offline HTML planner.",
+    "price": 11.99,
+    "img": "/images/products/owner-pay-planner/01-owner-pay-dashboard.jpg",
+    "thumb": "/images/products/thumbs/owner-pay-planner.webp",
+    "video": "",
+    "buyUrl": "",
+    "url": "/planners/owner-pay-planner/",
+    "m1": "#E9E3F6",
+    "m2": "#D5C8EB"
+  },
+  {
     "title": "Business Runway & Burn Rate OS — Offline Cash Runway Planner",
     "cat": "Business Operating Systems",
     "desc": "Forecast business cash runway, analyze burn and compare hiring or funding scenarios in a private offline app.",
