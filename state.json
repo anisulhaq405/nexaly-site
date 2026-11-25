@@ -3781,6 +3781,11 @@
       "status": "published",
       "postId": "18148307464510379",
       "publishedAt": "2026-11-25T08:00:12.777157+00:00"
+    },
+    "https://nexalyplanner.com/journal/cost-of-goods-sold-example/|pinterest": {
+      "revision": "7ae95d6bbaa8a0fc5a8837e5e9a2f99ba37e056919424cf6811b9bb5a2a56cc9",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T08:00:14.421460+00:00"
     }
   },
   "firstTestCompleted": true
