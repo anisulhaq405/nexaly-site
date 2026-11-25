@@ -4081,6 +4081,11 @@
       "status": "published",
       "postId": "r9S3Vtgg7CI",
       "publishedAt": "2026-11-25T08:08:54.347257+00:00"
+    },
+    "https://nexalyplanner.com/journal/restaurant-business-plan/|facebook": {
+      "revision": "054c7e3874416cc9f2d4e1d80ffc972c10be0f106c7ace1216893c1b1e388d71",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T08:09:00.191582+00:00"
     }
   },
   "firstTestCompleted": true
