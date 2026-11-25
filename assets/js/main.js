@@ -9,7 +9,7 @@ var $ = function(id){return document.getElementById(id);};
    Leave img/video/buyUrl as "" and a styled placeholder is shown until you add them. */
 var products = [
   {
-    "title": "Owner Pay Planner",
+    "title": "Owner Pay Planner — Owner Draw & Profit Distribution",
     "cat": "Digital Planners",
     "desc": "Plan owner draws, protect cash reserves and compare profit distributions in an offline HTML planner.",
     "price": 11.99,
