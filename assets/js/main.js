@@ -9,6 +9,19 @@ var $ = function(id){return document.getElementById(id);};
    Leave img/video/buyUrl as "" and a styled placeholder is shown until you add them. */
 var products = [
   {
+    "title": "AR Risk & Collections OS — Accounts Receivable Planner",
+    "cat": "Digital Planners",
+    "desc": "Track invoice aging, prioritize collections, record promises to pay and forecast expected receipts in an offline accounts receivable planner.",
+    "price": 11.99,
+    "img": "/images/products/accounts-receivable-risk-and-collections-os/feature.jpg",
+    "thumb": "/images/products/accounts-receivable-risk-and-collections-os/feature-thumb.webp",
+    "video": "",
+    "buyUrl": "",
+    "url": "/planners/accounts-receivable-risk-and-collections-os/",
+    "m1": "#EEE5ED",
+    "m2": "#D9C5D5"
+  },
+  {
     "title": "Owner Pay Planner — Owner Draw & Profit Distribution",
     "cat": "Digital Planners",
     "desc": "Plan owner draws, protect cash reserves and compare profit distributions in an offline HTML planner.",
