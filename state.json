@@ -3934,8 +3934,9 @@
     },
     "https://nexalyplanner.com/journal/laundromat-business-plan/|youtube": {
       "revision": "7e63be64ad64e821710838a1e92968138af1d70482e45615ea68d84ce0cc547a",
-      "status": "attempting",
-      "attemptedAt": "2026-11-25T08:04:30.884593+00:00"
+      "status": "published",
+      "postId": "eJBL2Q930P4",
+      "publishedAt": "2026-11-25T08:04:35.287034+00:00"
     }
   },
   "firstTestCompleted": true
