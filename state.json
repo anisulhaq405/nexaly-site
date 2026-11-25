@@ -3889,6 +3889,11 @@
       "status": "published",
       "postId": "RjeNmOOb3XQ",
       "publishedAt": "2026-11-25T08:03:16.465795+00:00"
+    },
+    "https://nexalyplanner.com/journal/kpi-dashboard-guide/|facebook": {
+      "revision": "20c73de09fd7ad45d8fdea256063107f91a629458e3d009ee6372f4dcdeb64a4",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T08:03:22.368668+00:00"
     }
   },
   "firstTestCompleted": true
