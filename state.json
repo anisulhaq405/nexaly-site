@@ -4192,7 +4192,7 @@
     },
     "https://nexalyplanner.com/planners/accounts-receivable-risk-and-collections-os/|pinterest": {
       "revision": "ba67da862c22e6f781b5158282beb231eb7de62714ce95cda1823ed9775b192f",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-11-25T10:24:04.893184+00:00"
     }
   },
