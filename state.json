@@ -1914,8 +1914,9 @@
       "attemptedAt": "2026-11-25T08:11:05.309713+00:00"
     },
     "https://nexalyplanner.com/planners/consignclear-os/|youtube": {
-      "revision": "a47d6dcf8cf98e5f0b5ad3c6729b11cf34c14a80672f54ea9681b184e5a94817",
-      "status": "baseline"
+      "revision": "eb79d176b3400bc071adf585e7cbff64a4aac71637c640f3bc226f1d3c865551",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T08:11:19.098690+00:00"
     },
     "https://nexalyplanner.com/planners/content-marketing-planner/|facebook": {
       "revision": "ca0857232ffd23aa49fbd2b0384099d5c1f84f9e898ec8a7f13da9b20d3c3039",
