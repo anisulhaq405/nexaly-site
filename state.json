@@ -3862,8 +3862,9 @@
     },
     "https://nexalyplanner.com/journal/executive-kpi-dashboard/|youtube": {
       "revision": "c5312b660b7678918ee29ed5683b7909e4dc8ff44d58f6796482e882a901e256",
-      "status": "attempting",
-      "attemptedAt": "2026-11-25T08:02:32.337209+00:00"
+      "status": "published",
+      "postId": "JM_Lmvwub0M",
+      "publishedAt": "2026-11-25T08:02:36.773878+00:00"
     }
   },
   "firstTestCompleted": true
