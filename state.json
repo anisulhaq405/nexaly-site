@@ -4090,8 +4090,9 @@
     },
     "https://nexalyplanner.com/journal/restaurant-business-plan/|instagram": {
       "revision": "054c7e3874416cc9f2d4e1d80ffc972c10be0f106c7ace1216893c1b1e388d71",
-      "status": "attempting",
-      "attemptedAt": "2026-11-25T08:09:10.593121+00:00"
+      "status": "published",
+      "postId": "18440739424195068",
+      "publishedAt": "2026-11-25T08:09:20.644573+00:00"
     }
   },
   "firstTestCompleted": true
