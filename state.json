@@ -3841,6 +3841,11 @@
       "status": "published",
       "postId": "R2H_LGArh5o",
       "publishedAt": "2026-11-25T08:01:55.007414+00:00"
+    },
+    "https://nexalyplanner.com/journal/executive-kpi-dashboard/|facebook": {
+      "revision": "c5312b660b7678918ee29ed5683b7909e4dc8ff44d58f6796482e882a901e256",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T08:02:00.786906+00:00"
     }
   },
   "firstTestCompleted": true
