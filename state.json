@@ -3697,6 +3697,11 @@
       "status": "published",
       "postId": "b2y1C-oZ5qc",
       "publishedAt": "2026-11-25T07:55:30.902729+00:00"
+    },
+    "https://nexalyplanner.com/journal/business-plan-market-analysis/|facebook": {
+      "revision": "1bd169f67204ad06336a57281b40b2f72694ba5fcd6865b90a827ca359c184a4",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T07:56:58.323650+00:00"
     }
   },
   "firstTestCompleted": true
