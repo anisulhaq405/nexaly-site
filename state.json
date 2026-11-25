@@ -3739,6 +3739,11 @@
       "status": "published",
       "postId": "1106196727263576660",
       "publishedAt": "2026-11-25T07:58:09.559897+00:00"
+    },
+    "https://nexalyplanner.com/journal/business-plan-software-comparison/|youtube": {
+      "revision": "dd264fd43f9a2871032f8e100baa158661745d3cf04c300574c4d66aa4081ca7",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T07:58:11.090268+00:00"
     }
   },
   "firstTestCompleted": true
