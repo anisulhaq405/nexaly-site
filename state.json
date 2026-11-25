@@ -3022,8 +3022,9 @@
     },
     "https://nexalyplanner.com/journal/business-plan-guide/|youtube": {
       "revision": "9eed360639e433f6101fc04bc07a8fc27dd75319cc69e22844fdfc150ae41d7a",
-      "status": "attempting",
-      "attemptedAt": "2026-11-25T07:56:47.961693+00:00"
+      "status": "published",
+      "postId": "WRiG-SaUWH8",
+      "publishedAt": "2026-11-25T07:56:52.584188+00:00"
     },
     "https://nexalyplanner.com/journal/farm-business-plan/|facebook": {
       "revision": "bc6424f255664c90172871c5aa2cb782c2101b0b31248121b4c05b1120cf0d6b",
