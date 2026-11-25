@@ -4030,8 +4030,9 @@
     },
     "https://nexalyplanner.com/journal/operating-cash-flow-example/|youtube": {
       "revision": "c1a7914a7f652e82cc58099edf5c0ea607bd309ef40a5f2ffb2e4dc8aa408d59",
-      "status": "attempting",
-      "attemptedAt": "2026-11-25T08:07:20.508166+00:00"
+      "status": "published",
+      "postId": "_d1NiiWjw4M",
+      "publishedAt": "2026-11-25T08:07:34.689899+00:00"
     }
   },
   "firstTestCompleted": true
