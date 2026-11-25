@@ -1910,7 +1910,7 @@
     },
     "https://nexalyplanner.com/planners/consignclear-os/|pinterest": {
       "revision": "eb79d176b3400bc071adf585e7cbff64a4aac71637c640f3bc226f1d3c865551",
-      "status": "attempting",
+      "status": "needs_review",
       "attemptedAt": "2026-11-25T08:11:05.309713+00:00"
     },
     "https://nexalyplanner.com/planners/consignclear-os/|youtube": {
