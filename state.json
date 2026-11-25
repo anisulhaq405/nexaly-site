@@ -4154,6 +4154,11 @@
       "revision": "a05ff86b78c6a9c2cc538702e072def5d715e1704801a55b8d75377d15038f65",
       "status": "needs_review",
       "attemptedAt": "2026-11-25T08:15:17.108158+00:00"
+    },
+    "https://nexalyplanner.com/planners/owner-pay-planner/|youtube": {
+      "revision": "a05ff86b78c6a9c2cc538702e072def5d715e1704801a55b8d75377d15038f65",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T08:15:19.992536+00:00"
     }
   },
   "firstTestCompleted": true
