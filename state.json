@@ -3430,8 +3430,9 @@
     },
     "https://nexalyplanner.com/journal/business-process-automation/|youtube": {
       "revision": "ff37620f6c1d6160e961a0094b365a54c5097de5ce9248f852786d34429b3287",
-      "status": "attempting",
-      "attemptedAt": "2026-11-25T07:58:49.259994+00:00"
+      "status": "published",
+      "postId": "5biJVUE9NnY",
+      "publishedAt": "2026-11-25T07:58:53.398432+00:00"
     },
     "https://nexalyplanner.com/journal/crm-automation-guide/|facebook": {
       "revision": "42689fcc274b4637ed37e577880d176eeb2519d031cb17cd2246041e2c288b54",
