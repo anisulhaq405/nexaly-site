@@ -3805,6 +3805,11 @@
       "status": "published",
       "postId": "17919648876555485",
       "publishedAt": "2026-11-25T08:00:57.496516+00:00"
+    },
+    "https://nexalyplanner.com/journal/crm-dashboard-example/|pinterest": {
+      "revision": "cea8843a44041dd613ea6391f4b9825b10031761807a5365201f7a293fd33196",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T08:00:59.054624+00:00"
     }
   },
   "firstTestCompleted": true
