@@ -4057,6 +4057,11 @@
       "status": "published",
       "postId": "qnx0IblgmlQ",
       "publishedAt": "2026-11-25T08:08:14.197635+00:00"
+    },
+    "https://nexalyplanner.com/journal/power-bi-dashboard-examples/|facebook": {
+      "revision": "ab7b430ad7141269f4556e221c438533fb63cec493466bd66eb12922087cc22d",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T08:08:20.012046+00:00"
     }
   },
   "firstTestCompleted": true
