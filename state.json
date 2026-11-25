@@ -3982,8 +3982,9 @@
     },
     "https://nexalyplanner.com/journal/marketing-dashboard-example/|youtube": {
       "revision": "7c0d4a535589509f55861736f2107497d5b5324e130053c638055c2932845bd8",
-      "status": "attempting",
-      "attemptedAt": "2026-11-25T08:05:58.416595+00:00"
+      "status": "published",
+      "postId": "3QRZrrv6_WE",
+      "publishedAt": "2026-11-25T08:06:02.821378+00:00"
     }
   },
   "firstTestCompleted": true
