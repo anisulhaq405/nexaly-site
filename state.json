@@ -3760,8 +3760,9 @@
     },
     "https://nexalyplanner.com/journal/catering-business-plan/|pinterest": {
       "revision": "708fbfb3ec1b6b8358521ca04cc16ea452350ad3a2ba36edf159d8ad44b25161",
-      "status": "attempting",
-      "attemptedAt": "2026-11-25T07:59:34.642277+00:00"
+      "status": "published",
+      "postId": "1106196727263576721",
+      "publishedAt": "2026-11-25T07:59:37.900333+00:00"
     }
   },
   "firstTestCompleted": true
