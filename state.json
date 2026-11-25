@@ -3937,6 +3937,11 @@
       "status": "published",
       "postId": "eJBL2Q930P4",
       "publishedAt": "2026-11-25T08:04:35.287034+00:00"
+    },
+    "https://nexalyplanner.com/journal/marketing-agency-business-plan/|facebook": {
+      "revision": "9b00ba31f5bcd07d1e8a04f41aace9cc5d19bbd45d76fb21b95def867a433fb0",
+      "status": "attempting",
+      "attemptedAt": "2026-11-25T08:04:41.154909+00:00"
     }
   },
   "firstTestCompleted": true
