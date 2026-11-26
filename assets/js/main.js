@@ -9,6 +9,19 @@ var $ = function(id){return document.getElementById(id);};
    Leave img/video/buyUrl as "" and a styled placeholder is shown until you add them. */
 var products = [
   {
+    "title": "Client Capacity & Revenue Planner — Team Workload & Utilization",
+    "cat": "Digital Planners",
+    "desc": "Plan billable hours, spot overbooked weeks and estimate client slots and revenue. Test hiring and pricing scenarios in the live demo.",
+    "price": 11.99,
+    "img": "/images/products/client-capacity-and-revenue-planner/feature.jpg",
+    "thumb": "/images/products/client-capacity-and-revenue-planner/feature-thumb.webp",
+    "video": "",
+    "buyUrl": "",
+    "url": "/planners/client-capacity-and-revenue-planner/",
+    "m1": "#e3efe5",
+    "m2": "#c5ded0"
+  },
+  {
     "title": "AR Risk & Collections OS — Accounts Receivable Planner",
     "cat": "Digital Planners",
     "desc": "Track invoice aging, prioritize collections, record promises to pay and forecast expected receipts in an offline accounts receivable planner.",
