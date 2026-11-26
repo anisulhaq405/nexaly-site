@@ -4199,6 +4199,11 @@
       "revision": "ba67da862c22e6f781b5158282beb231eb7de62714ce95cda1823ed9775b192f",
       "status": "needs_review",
       "attemptedAt": "2026-11-25T10:24:08.178991+00:00"
+    },
+    "https://nexalyplanner.com/planners/client-capacity-and-revenue-planner/|facebook": {
+      "revision": "d58275b41cad99ca7306b1d0abac112abd77facecf9f9e9a1440d1f34cd00c18",
+      "status": "attempting",
+      "attemptedAt": "2026-11-26T07:37:33.237887+00:00"
     }
   },
   "firstTestCompleted": true
