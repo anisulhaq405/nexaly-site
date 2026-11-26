@@ -30,3 +30,13 @@ Repository administrators must import this JSON under Settings > Rules > Ruleset
 After activation, verify the ruleset is Active and main is protected through GitHub's rules/branch endpoints. Do not claim enforcement until verified. Direct Hostinger uploads remain outside GitHub's rules. Hosting/TLS, performance and Google indexing require separate live verification.
 
 The four broken legacy navigation destinations in the old AI-business journal have been replaced with existing category, Journal and Business Copilot pages. Design and unrelated links remain unchanged.
+
+### Record a substantive page update
+
+Run the publisher with the actual editorial update date and changed detail-page paths. Include each product, guide, journal or free planner whose content was updated. Use the ordinary build for catalog regeneration and site-wide formatting changes.
+
+```sh
+python3 scripts/seo-build.py --updated-on YYYY-MM-DD journal/example/index.html planners/example/index.html
+```
+
+The publisher renders the date on the page and in the sitemap. When a page supplies its own Article JSON-LD, keep its `dateModified` aligned with the editorial date.

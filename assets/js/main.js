@@ -1556,12 +1556,12 @@ var posts = [
   },
   {
     "tag": "Digital Planners",
-    "title": "Digital Planners That Work Offline: A 2026 Buyer's Guide",
-    "date": "Updated Oct 31, 2026 · 6 min",
+    "title": "Offline Digital Planners: How to Choose, Test and Back Up",
+    "date": "Updated Nov 26, 2026 · 6 min",
     "url": "/journal/offline-digital-planners-guide/",
     "img": "/images/products/ai-student-planner/ai-student-planner-dashboard-analytics.jpg",
     "alt": "offline digital planner dashboard with study time, tasks, streaks and analytics",
-    "excerpt": "Compare offline planner formats, local saving, backups and device transfers. Use a non-destructive recovery check and distinguish offline access from sync or pricing."
+    "excerpt": "Compare offline HTML, PDF and installed planners. Learn how to test offline access, verify saved records and restore a backup before moving devices."
   },
   {
     "tag": "No Subscription",
