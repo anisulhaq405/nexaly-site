@@ -4209,6 +4209,11 @@
       "revision": "d58275b41cad99ca7306b1d0abac112abd77facecf9f9e9a1440d1f34cd00c18",
       "status": "needs_review",
       "attemptedAt": "2026-11-26T07:37:36.383429+00:00"
+    },
+    "https://nexalyplanner.com/planners/client-capacity-and-revenue-planner/|pinterest": {
+      "revision": "d58275b41cad99ca7306b1d0abac112abd77facecf9f9e9a1440d1f34cd00c18",
+      "status": "attempting",
+      "attemptedAt": "2026-11-26T07:37:40.189809+00:00"
     }
   },
   "firstTestCompleted": true
