@@ -135,6 +135,8 @@ def metadata(source,url):
         crumbs.append({'@type':'ListItem','position':len(crumbs)+1,'name':page_name,'item':url})
     org_id=SITE+'/#organization'
     graph=[{'@type':'WebPage','@id':url+'#webpage','url':url,'name':title,'description':desc,'isPartOf':{'@id':SITE+'/#website'}}, {'@type':'BreadcrumbList','itemListElement':crumbs}]
+    if modified := doc.meta('nexaly:updated'):
+        graph[0]['dateModified'] = date.fromisoformat(modified[:10]).isoformat()
     has_article_schema=False
     for element in doc.find('script',type='application/ld+json'):
         if element['attrs'].get('id')=='nexaly-seo':continue
@@ -166,8 +168,34 @@ def metadata(source,url):
     source=source.replace('</head>','<script id="nexaly-seo" type="application/ld+json">'+schema+'</script>\n</head>')
     return source
 
-def build(check=False):
+DETAIL_PAGE = re.compile(r'(?:planners|guides|journal|tools)/[^/]+/index\.html')
+
+
+def show_update_date(source, modified):
+    day = date.fromisoformat(modified[:10])
+    display = f'{day:%B} {day.day}, {day.year}'
+    line = f'<p id="nexaly-last-updated">Last updated <time datetime="{day.isoformat()}">{display}</time></p>'
+    source = re.sub(r'<p id="nexaly-last-updated">.*?</p>', '', source, count=1)
+    return source.replace('</h1>', '</h1>' + line, 1)
+
+
+def build(check=False, updated_on=None, updated_pages=()):
     files={p.relative_to(ROOT).as_posix():p.read_text() for p in ROOT.rglob('index.html') if not any(x.startswith('.') or x in {'node_modules','scripts','tests'} for x in p.relative_to(ROOT).parts)}
+    for path in updated_pages:
+        if not DETAIL_PAGE.fullmatch(path) or path not in files:
+            raise ValueError(f'Expected a product, guide, journal or free planner detail page: {path}')
+        source = files[path]
+        doc = Document(source)
+        key = 'article:modified_time' if path.startswith('journal/') else 'nexaly:updated'
+        previous = doc.meta(key)
+        if previous and updated_on < date.fromisoformat(previous[:10]):
+            raise ValueError(f'Update date cannot move backwards: {path}')
+        stamp = f'<meta property="{key}" content="{updated_on.isoformat()}">'
+        for tag in reversed(doc.find('meta')):
+            attrs = tag['attrs']
+            if key in (attrs.get('name'), attrs.get('property')):
+                source = source[:tag['start']] + source[tag['end']:]
+        files[path] = source.replace('</head>', stamp + '</head>', 1)
     js=(ROOT/'assets/js/main.js').read_text();data=jsdata(js)
     validate(files, ROOT, Document, data)
     old_products={p['url']:p for p in data['products']};old_posts={p['url']:p for p in data['posts']}
@@ -180,6 +208,8 @@ def build(check=False):
         public.append(url)
         if re.fullmatch(r'journal/[^/]+/index.html',path):
             source=normalize_journal_header(source, Document)
+        elif DETAIL_PAGE.fullmatch(path) and doc.meta('nexaly:updated'):
+            source=show_update_date(source, doc.meta('nexaly:updated'))
         source=metadata(source,url);files[path]=source;doc=Document(source)
         relative=url[len(SITE):];title=plain(doc.inner(doc.find('h1')[0]));desc=doc.meta('description');image=doc.meta('og:image')
         image=image.removeprefix(SITE) if image.startswith(SITE+'/') else image
@@ -289,7 +319,7 @@ def build(check=False):
     # No made-up lastmod dates: omit when the content modification date is unknown.
     def sitemap_entry(u):
         path='index.html' if u==SITE+'/' else u[len(SITE):].strip('/')+'/index.html'
-        doc=Document(files[path]);modified=doc.meta('article:modified_time')
+        doc=Document(files[path]);modified=doc.meta('article:modified_time') or doc.meta('nexaly:updated')
         suffix='<lastmod>'+esc(modified[:10])+'</lastmod>' if modified else ''
         return '  <url><loc>'+esc(u)+'</loc>'+suffix+'</url>\n'
     files['sitemap.xml']='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(sitemap_entry(u) for u in sorted(public))+'</urlset>\n'
@@ -307,4 +337,11 @@ def build(check=False):
     print(json.dumps({'pages':len(public),'products':len(products),'journals':len(posts),'updated':changes,'warnings':warnings},indent=2))
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--check',action='store_true');args=parser.parse_args();build(args.check)
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--check', action='store_true')
+    parser.add_argument('--updated-on', type=date.fromisoformat)
+    parser.add_argument('updated_pages', nargs='*', metavar='PAGE')
+    args=parser.parse_args()
+    if bool(args.updated_on) != bool(args.updated_pages) or (args.check and args.updated_pages):
+        parser.error('Use --updated-on YYYY-MM-DD with updated page paths in write mode.')
+    build(args.check, args.updated_on, args.updated_pages)
