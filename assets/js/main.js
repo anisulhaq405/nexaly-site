@@ -9,6 +9,19 @@ var $ = function(id){return document.getElementById(id);};
    Leave img/video/buyUrl as "" and a styled placeholder is shown until you add them. */
 var products = [
   {
+    "title": "Contribution Margin & Product Mix Planner",
+    "cat": "Digital Planners",
+    "desc": "Calculate contribution margin and break-even, compare pricing scenarios, and plan a product mix around limited capacity. Try the interactive demo.",
+    "price": 11.99,
+    "img": "/images/products/contribution-margin-and-product-mix-planner/feature.jpg",
+    "thumb": "/images/products/contribution-margin-and-product-mix-planner/feature-thumb.webp",
+    "video": "",
+    "buyUrl": "",
+    "url": "/planners/contribution-margin-and-product-mix-planner/",
+    "m1": "#ebdff1",
+    "m2": "#cce6db"
+  },
+  {
     "title": "Client Capacity & Revenue Planner — Team Workload & Utilization",
     "cat": "Digital Planners",
     "desc": "Plan billable hours, spot overbooked weeks and estimate client slots and revenue. Test hiring and pricing scenarios in the live demo.",
