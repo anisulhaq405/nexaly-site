@@ -93,10 +93,13 @@ def card_date(doc, existing=''):
 
 def plain(s): return html.unescape(re.sub('<[^>]+>',' ',s)).strip()
 def esc(s): return html.escape(str(s),quote=True)
-def jsdata(source, render=False):
+def jsdata(source, render=False, journal_covers=None):
     code="const vm=require('node:vm'),fs=require('node:fs');const s=fs.readFileSync(0,'utf8');const c={};vm.createContext(c);vm.runInContext(s.slice(0,s.indexOf(\"fill('featTrack'\")),c,{timeout:1000});process.stdout.write(JSON.stringify(RESULT));"
     expr="{products:c.products,posts:c.posts}"
     if render:expr="{products:c.products.map((p,i)=>({cat:p.cat,html:c.cardHTML(p,i)})),posts:c.posts.map(p=>c.postHTML(p))}"
+    if journal_covers is not None:
+        covers=json.dumps(journal_covers)
+        expr=f"c.posts.map(p=>c.postHTML({{...p,...({covers})[p.url]}}))"
     return json.loads(subprocess.run(['node','-e',code.replace('RESULT',expr)],input=source,text=True,capture_output=True,check=True).stdout)
 def replace_inner(source, ident, contents):
     doc=Document(source); entries=[e for e in doc.elements if e['attrs'].get('id')==ident]
@@ -301,7 +304,16 @@ def build(check=False, updated_on=None, updated_pages=()):
         cards=rendered['products'];cards=cards[:8] if path=='index.html' else cards
         files[path]=replace_inner(files[path],ident,'\n'.join(p['html'] for p in cards if not cat or p['cat']==cat))
     files['index.html']=replace_inner(files['index.html'],'homePosts','\n'.join(rendered['posts'][:4]))
-    files['journal/index.html']=replace_inner(files['journal/index.html'],'blogPosts','\n'.join(rendered['posts'])).rstrip('\n')+'\n'
+    journal_covers={}
+    for post in posts:
+        article=Document(files[post['url'].strip('/')+'/index.html'])
+        for node in article.find('img'):
+            attrs=node['attrs']
+            if 'data-journal-card-cover' in attrs:
+                journal_covers[post['url']]={'img':esc(attrs['src']), 'alt':esc(attrs['alt'])}
+                break
+    journal_cards=jsdata(js,journal_covers=journal_covers)
+    files['journal/index.html']=replace_inner(files['journal/index.html'],'journalPosts','\n'.join(journal_cards)).rstrip('\n')+'\n'
     # Bust the cache on pages that render changing catalogues on load.
     # Other pages receive shared script updates through normal JS revalidation.
     version=hashlib.sha256(js.encode()).hexdigest()[:12]
