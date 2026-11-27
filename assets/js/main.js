@@ -344,6 +344,15 @@ var products = [
 ];
 var posts = [
   {
+    "url": "/journal/accounts-receivable-aging-report-example/",
+    "title": "Accounts Receivable Aging Report Example",
+    "excerpt": "Follow a fictional invoice ledger across two dates to see how partial payments and aging buckets affect open receivables.",
+    "img": "/assets/img/logo-light.png",
+    "alt": "Nexaly Planner",
+    "tag": "Planning Guides",
+    "date": "Nov 27, 2026"
+  },
+  {
     "url": "/journal/business-plan-executive-summary-example/",
     "title": "Business Plan Executive Summary Example: Write a Clear One-Page Case",
     "excerpt": "Write a business-plan executive summary with an original catering example, reconciled funding figures, evidence labels and a copyable outline.",
@@ -449,7 +458,7 @@ var posts = [
     "img": "/images/journal/small-business-financial-statements-feature-20261118-v2.webp",
     "alt": "Small-business owner reviewing financial reports beside a laptop at a warm studio desk",
     "tag": "Planning Guides",
-    "date": "Nov 18, 2026"
+    "date": "Updated Nov 27, 2026"
   },
   {
     "url": "/journal/crm-dashboard-example/",
@@ -1079,7 +1088,7 @@ var posts = [
     "img": "/assets/img/workflows/small-business-budget-template-monthly-variance-cover-v3.webp",
     "alt": "Small Business Budget Template: Monthly Variance Review editorial planning illustration",
     "tag": "Planning Guides",
-    "date": "Updated Nov 3, 2026"
+    "date": "Updated Nov 27, 2026"
   },
   {
     "url": "/journal/trucking-company-business-plan-trip-cost/",
@@ -1250,7 +1259,7 @@ var posts = [
     "img": "/images/journal/cash-flow-forecast-template-example-v2.jpg",
     "alt": "Shop owner reviewing a 13-week cash flow chart and invoices under 13-Week Cash Flow",
     "tag": "Planning Guides",
-    "date": "Updated Nov 18, 2026"
+    "date": "Updated Nov 27, 2026"
   },
   {
     "url": "/journal/equipment-rental-business-plan-example/",

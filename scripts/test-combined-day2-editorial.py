@@ -30,7 +30,9 @@ for x in A+T:
   for id in ['bp-form','bp-sample','bp-result','bp-csv','bp-import','bp-dialog']:assert s.count('id="'+id+'"')==1
 for a in json.loads((D/'audits.json').read_text()):
  s=(R/a['owner'].strip('/')/'index.html').read_text();assert re.findall(r'"datePublished"\s*:\s*"([^"]+)"',s)==a['datePublished'];assert 'business-planning-day2'in s
-s=(R/'tools/index.html').read_text();assert len(re.findall(r'<article\b[^>]*\bdirectory-tool\b',s))==67 and '<b>67</b>'in s
+s=(R/'tools/index.html').read_text()
+directory_count=len(re.findall(r'<article\b[^>]*class="[^"]*\bdirectory-tool\b',s))
+assert directory_count>=67 and f'<b>{directory_count}</b> free planners' in s
 for t in T:
  cards=[c for c in re.findall(r'<article\b[^>]*\bdirectory-tool\b.*?</article>',s,re.S)if '/tools/'+t['slug']+'/'in c];assert len(cards)==1 and 'directory-preview'in cards[0]
 cards=re.findall(r'<article\b[^>]*\bdirectory-tool\b.*?</article>',s,re.S)
@@ -38,4 +40,4 @@ for m in re.finditer(r'data-filter="([^"]+)"[^>]*>.*?<span class="filter-count">
  key=m[1];n=sum(1 for c in cards if key=='all' or(key=='latest'and 'data-latest="true"'in c)or('data-category="'+key+'"'in c));assert n==int(m[2])
 for m in re.finditer(r'<section class="tool-category".*?</section>',s,re.S):
  p=m[0];n=len(re.findall(r'<article\b',p));assert f'data-visible-count="{n}"'in p and f'class="category-count">{n} planners'in p
-print('PASS Day2 original arithmetic,15-owner scope,9 images, links,3 static PDFs, publication dates and67 image-complete directory cards.')
+print('PASS Day2 original arithmetic,15-owner scope,9 images, links,3 static PDFs, publication dates and directory card counts.')

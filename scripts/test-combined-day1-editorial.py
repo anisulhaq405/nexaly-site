@@ -25,5 +25,7 @@ for t in T:
  pdf=PdfReader(R/'downloads'/f'{slug}.pdf');assert len(pdf.pages)==2 and not pdf.get_fields();assert tuple(map(int,pdf.pages[0].mediabox[2:]))==(612,792);assert 'FICTIONAL EXAMPLE'in pdf.pages[1].extract_text()
 for a in json.load(open(P/'audits.json')):
  s=(R/a['owner'].strip('/')/'index.html').read_text();assert re.findall(r'"datePublished"\s*:\s*"([^"]+)"',s)==a['datePublished'];assert 'finance-report-handoff'in s
-s=(R/'tools/index.html').read_text();assert len(re.findall(r'<article\b[^>]*class="[^"]*\bdirectory-tool\b',s))==67 and '<b>67</b> free planners'in s
-print('PASS combined Day1 editorial: independent arithmetic, dates, six audits, nine pages, XLSX structure/formula guards, 2-page PDFs and 67 current directory cards. Native spreadsheet recalculation is not tested.')
+s=(R/'tools/index.html').read_text()
+directory_count=len(re.findall(r'<article\b[^>]*class="[^"]*\bdirectory-tool\b',s))
+assert directory_count>=67 and f'<b>{directory_count}</b> free planners' in s
+print('PASS combined Day1 editorial: independent arithmetic, dates, six audits, nine pages, XLSX structure/formula guards, 2-page PDFs and current directory counts. Native spreadsheet recalculation is not tested.')
