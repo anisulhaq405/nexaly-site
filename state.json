@@ -4224,6 +4224,11 @@
       "revision": "8c0ddc48c8e918c4ed2bfc1dc34e2b24674b725922badd22198161598c38971b",
       "status": "needs_review",
       "attemptedAt": "2026-11-27T06:35:10.831469+00:00"
+    },
+    "https://nexalyplanner.com/planners/contribution-margin-and-product-mix-planner/|instagram": {
+      "revision": "8c0ddc48c8e918c4ed2bfc1dc34e2b24674b725922badd22198161598c38971b",
+      "status": "attempting",
+      "attemptedAt": "2026-11-27T06:35:13.638691+00:00"
     }
   },
   "firstTestCompleted": true
