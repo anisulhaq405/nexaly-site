@@ -1597,7 +1597,7 @@ var posts = [
   {
     "tag": "Inventory Software",
     "title": "Inventory Software Without a Subscription: What to Check Before Buying",
-    "date": "Updated Nov 10, 2026 · 5 min",
+    "date": "Updated Nov 27, 2026 · 5 min",
     "url": "/journal/inventory-software-without-subscription/",
     "img": "/images/journal/inventory-software-buying-checklist.png",
     "alt": "Inventory software buying checklist covering sale and return tests, backup recovery and license costs",
