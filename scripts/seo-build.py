@@ -40,6 +40,31 @@ class Document(HTMLParser):
             if e['attrs'].get('name')==key or e['attrs'].get('property')==key:return e['attrs'].get('content','')
         return ''
 
+def order_new_directory_cards(source, new_urls):
+    """Promote newly published free planners within their existing category."""
+    if not new_urls:
+        return source
+    doc = Document(source)
+    cards = [node for node in doc.find('article')
+             if 'directory-tool' in node['attrs'].get('class', '').split()]
+    edits = []
+    for section in doc.find('section'):
+        if 'tool-category' not in section['attrs'].get('class', '').split():
+            continue
+        group = [card for card in cards
+                 if section['open_end'] <= card['start'] < section['close_start']]
+        def existing(card):
+            links = Document(doc.inner(card)).find('a')
+            return not any(SITE + link['attrs'].get('href', '') in new_urls for link in links)
+        positions = [(card['start'], card['end']) for card in group]
+        ordered = sorted(group, key=existing)
+        for (start, end), card in zip(positions, ordered):
+            if start != card['start']:
+                edits.append((start, end, source[card['start']:card['end']]))
+    for start, end, replacement in sorted(edits, reverse=True):
+        source = source[:start] + replacement + source[end:]
+    return source
+
 def card_date(doc, existing=''):
     """Use recorded dates, never the build date; keep existing reading-time labels."""
     published=doc.meta('article:published_time') or doc.meta('date')
@@ -238,6 +263,10 @@ def build(check=False, updated_on=None, updated_pages=()):
             except ValueError:raise ValueError(f'{path}: invalid JSON-LD')
     files={path:ensure_global_navigation(source) for path,source in files.items()}
     # Count published entries from the same directories visitors browse.
+    if known is not None:
+        files['tools/index.html'] = order_new_directory_cards(
+            files['tools/index.html'], set(public) - known
+        )
     directory = Document(files['tools/index.html'])
     public_urls = set(public)
     free_tools = set()
