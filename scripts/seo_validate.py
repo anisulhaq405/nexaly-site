@@ -46,7 +46,7 @@ def validate(files, root, Document, data, generated=False):
             except ValueError:fail(path,'invalid JSON-LD object')
         for e in doc.elements:
             # Stale generated listings are rebuilt before final validation.
-            if not generated and any(region['start']<=e['start']<region['end'] for region in doc.elements if region['attrs'].get('id') in {'featTrack','allCards','homePosts','blogPosts'} and region.get('end')):continue
+            if not generated and any(region['start']<=e['start']<region['end'] for region in doc.elements if region['attrs'].get('id') in {'featTrack','allCards','homePosts','journalPosts'} and region.get('end')):continue
             key={'a':'href','img':'src','script':'src','source':'src','link':'href'}.get(e['tag'])
             value=e['attrs'].get(key,'') if key else ''
             if not value or value.startswith(('#','mailto:','tel:','data:','javascript:')):continue
