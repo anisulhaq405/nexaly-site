@@ -6,6 +6,8 @@ Owner core freeze (October 5): read `docs/SITE-CORE-LOCK.md` and run `python3 sc
 
 1. Add or update complete pages under journal/<slug>/index.html or planners/<slug>/index.html.
 2. Run python3 scripts/seo-build.py to generate canonical/social metadata, sitemap and static/JavaScript listings.
+Add each new free planner to its matching category in tools/index.html before running the SEO build. The build moves newly published cards to the top of that category, preserving the order of existing cards.
+
 3. Run python3 scripts/test-seo.py, then python3 scripts/seo-build.py --check.
 4. Commit all source and generated changes together.
 5. Open a PR to main. Wait for the rebuild status check on the current revision; merge only when successful.

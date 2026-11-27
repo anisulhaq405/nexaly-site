@@ -37,10 +37,15 @@ with tempfile.TemporaryDirectory(prefix='nexaly-seo-test-') as directory:
     tool=target/'tools/seo-test-tool/index.html';tool.parent.mkdir()
     tool.write_text(page('Test free planner'))
     fixture_card='<article class="directory-tool"><a href="/tools/seo-test-tool/">Test free planner</a></article>'
-    tools_path.write_text(original_directory.replace('</main>',fixture_card * 2+'</main>',1))
+    cash_start=original_directory.index('<section class="tool-category" id="cashflow"')
+    card_end=original_directory.index('</article>',cash_start)+len('</article>')
+    directory=original_directory[:card_end]+fixture_card+original_directory[card_end:]
+    tools_path.write_text(directory.replace('</main>',fixture_card+'</main>',1))
     article.write_text(page('Test article','<link rel="canonical" href="https://wrong.example/">'))
     run()
     assert f'View all {initial_free_count+1} planners' in home_path.read_text()
+    cash_section=tools_path.read_text().split('<section class="tool-category" id="cashflow"',1)[1]
+    assert '/tools/seo-test-tool/' in cash_section.split('</article>',1)[0]
     assert 'https://nexalyplanner.com/journal/seo-test-article/' in article.read_text()
     assert '/journal/seo-test-article/' in (target/'index.html').read_text()
     article.write_text(page('Updated article','<meta property="og:image:alt" content="Accurate new image description">'))
